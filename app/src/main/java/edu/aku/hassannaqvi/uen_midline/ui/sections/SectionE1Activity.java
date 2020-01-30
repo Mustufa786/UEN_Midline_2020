@@ -17,7 +17,9 @@ import com.validatorcrawler.aliazaz.Validator;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 import java.util.Map;
 
@@ -143,7 +145,7 @@ public class SectionE1Activity extends AppCompatActivity {
         mwra = new MWRAContract();
         mwra.set_UUID(MainApp.fc.get_UID());
         mwra.setDeviceId(MainApp.appInfo.getDeviceID());
-        mwra.setFormDate(MainApp.appInfo.getDtToday());
+        mwra.setFormDate(new SimpleDateFormat("dd-MM-yy HH:mm").format(new Date().getTime()));
         mwra.setUser(MainApp.userName);
         mwra.setDevicetagID(MainApp.appInfo.getTagName());
 
@@ -157,15 +159,15 @@ public class SectionE1Activity extends AppCompatActivity {
         json.put("cluster", MainApp.fc.getClusterCode());
 
         json.put("e100", bi.womanSpinner.getSelectedItem().toString());
+
         json.put("e101",
                 bi.e101a.isChecked() ? "1" :
-                        bi.e101b.isChecked() ? "2" :
-                                "0");
+                        bi.e101b.isChecked() ? "2" : "0");
+
         json.put("e102", bi.e102.getText().toString());
-        json.put("e102a",
-                bi.e102aa.isChecked() ? "1" :
-                        bi.e102ab.isChecked() ? "2" :
-                                "0");
+
+        json.put("e102a", bi.e102aa.isChecked() ? "1" :
+                bi.e102ab.isChecked() ? "2" : "0");
 
 
         // Deleting item in list

@@ -16,6 +16,9 @@ import com.validatorcrawler.aliazaz.Validator;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 import edu.aku.hassannaqvi.uen_midline.CONSTANTS;
 import edu.aku.hassannaqvi.uen_midline.R;
 import edu.aku.hassannaqvi.uen_midline.contracts.MWRAContract;
@@ -170,7 +173,7 @@ public class SectionE2Activity extends AppCompatActivity {
         mwraPre.set_UUID(MainApp.fc.get_UID());
         mwraPre.setDeviceId(MainApp.appInfo.getDeviceID());
         mwraPre.setDevicetagID(MainApp.appInfo.getTagName());
-        mwraPre.setFormDate(MainApp.appInfo.getDtToday());
+        mwraPre.setFormDate(new SimpleDateFormat("dd-MM-yy HH:mm").format(new Date().getTime()));
         JSONObject e2 = new JSONObject();
         e2.put("mw_uid", mwraContract.getUID());
         e2.put("fm_serial", mwraContract.getFm_serial());
@@ -179,32 +182,22 @@ public class SectionE2Activity extends AppCompatActivity {
         e2.put("cluster", MainApp.fc.getClusterCode());
         e2.put("counter", MainApp.noOfPragnencies);
 
-        //e2.put("e103", bi.e103.getText().toString());
+        e2.put("e104", bi.e104a.isChecked() ? "1" :
+                bi.e104b.isChecked() ? "2" : "0");
 
-        e2.put("e104",
-                bi.e104a.isChecked() ? "1" :
-                        bi.e104b.isChecked() ? "2" :
-                                "0");
-
-        e2.put("e105",
-                bi.e105a.isChecked() ? "1" :
-                        bi.e105b.isChecked() ? "2" :
-                                bi.e105c.isChecked() ? "3" :
-                                        "0");
+        e2.put("e105", bi.e105a.isChecked() ? "1" :
+                bi.e105b.isChecked() ? "2" :
+                        bi.e105c.isChecked() ? "3" : "0");
 
         e2.put("e106a", bi.e106a.getText().toString());
         e2.put("e106b", bi.e106b.getText().toString());
         e2.put("e106c", bi.e106c.getText().toString());
 
-        e2.put("e107",
-                bi.e107a.isChecked() ? "1" :
-                        bi.e107b.isChecked() ? "2" :
-                                "0");
+        e2.put("e107", bi.e107a.isChecked() ? "1" :
+                bi.e107b.isChecked() ? "2" : "0");
 
-        e2.put("e108",
-                bi.e108a.isChecked() ? "1" :
-                        bi.e108b.isChecked() ? "2" :
-                                "0");
+        e2.put("e108", bi.e108a.isChecked() ? "1" :
+                bi.e108b.isChecked() ? "2" : "0");
 
         e2.put("e109", bi.e109.getText().toString());
 
@@ -212,35 +205,29 @@ public class SectionE2Activity extends AppCompatActivity {
         e2.put("e110b", bi.e110b.getText().toString());
         e2.put("e110c", bi.e110c.getText().toString());
 
-        e2.put("e111",
-                bi.e111a.isChecked() ? "1" :
-                        bi.e111b.isChecked() ? "2" :
-                                bi.e111c.isChecked() ? "3" :
-                                        bi.e111d.isChecked() ? "4" :
-                                                bi.e111e.isChecked() ? "5" :
-                                                        bi.e111f.isChecked() ? "6" :
-                                                                bi.e111g.isChecked() ? "7" :
-                                                                        bi.e11196.isChecked() ? "96" :
-                                                                                "0");
+        e2.put("e111", bi.e111a.isChecked() ? "1" :
+                bi.e111b.isChecked() ? "2" :
+                        bi.e111c.isChecked() ? "3" :
+                                bi.e111d.isChecked() ? "4" :
+                                        bi.e111e.isChecked() ? "5" :
+                                                bi.e111f.isChecked() ? "6" :
+                                                        bi.e111g.isChecked() ? "7" :
+                                                                bi.e11196.isChecked() ? "96" : "0");
         e2.put("e11196x", bi.e11196x.getText().toString());
 
-        e2.put("e112",
-                bi.e112a.isChecked() ? "1" :
-                        bi.e112b.isChecked() ? "2" :
-                                bi.e112c.isChecked() ? "3" :
-                                        bi.e112d.isChecked() ? "4" :
-                                                bi.e112e.isChecked() ? "5" :
-                                                        "0");
+        e2.put("e112", bi.e112a.isChecked() ? "1" :
+                bi.e112b.isChecked() ? "2" :
+                        bi.e112c.isChecked() ? "3" :
+                                bi.e112d.isChecked() ? "4" :
+                                        bi.e112e.isChecked() ? "5" : "0");
 
         e2.put("e113m", bi.e113m.getText().toString());
         e2.put("e113y", bi.e113y.getText().toString());
 
         e2.put("e114", bi.e114.getText().toString());
 
-        e2.put("e115",
-                bi.e115a.isChecked() ? "1" :
-                        bi.e115b.isChecked() ? "2" :
-                                "0");
+        e2.put("e115", bi.e115a.isChecked() ? "1" :
+                bi.e115b.isChecked() ? "2" : "0");
 
         mwraPre.setsE2(String.valueOf(e2));
 

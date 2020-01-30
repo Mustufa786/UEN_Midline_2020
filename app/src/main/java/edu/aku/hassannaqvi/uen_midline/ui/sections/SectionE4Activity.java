@@ -14,6 +14,8 @@ import com.validatorcrawler.aliazaz.Validator;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.List;
 
 import edu.aku.hassannaqvi.uen_midline.CONSTANTS;
@@ -143,7 +145,7 @@ public class SectionE4Activity extends AppCompatActivity {
 
         morc.set_UUID(MainApp.fc.get_UID());
         morc.setDeviceId(MainApp.appInfo.getDeviceID());
-        morc.setFormDate(MainApp.appInfo.getDtToday());
+        morc.setFormDate(new SimpleDateFormat("dd-MM-yy HH:mm").format(new Date().getTime()));
         morc.setUser(MainApp.userName);
         morc.setDevicetagID(MainApp.appInfo.getTagName());
 
@@ -156,25 +158,24 @@ public class SectionE4Activity extends AppCompatActivity {
         f1.put("e119b", bi.e119b.getText().toString());
         f1.put("e119c", bi.e119c.getText().toString());
         f1.put("e120", bi.e120.getText().toString());
-        f1.put("e121",
-                bi.e121a.isChecked() ? "1" :
-                        bi.e121b.isChecked() ? "2" :
-                                bi.e121c.isChecked() ? "3" :
-                                        bi.e121d.isChecked() ? "4" :
-                                                bi.e121e.isChecked() ? "5" :
-                                                        bi.e121f.isChecked() ? "6" :
-                                                                bi.e121g.isChecked() ? "7" :
-                                                                        bi.e121h.isChecked() ? "98" :
-                                                                                bi.e12196.isChecked() ? "96" :
-                                                                                        "0");
+
+        f1.put("e121", bi.e121a.isChecked() ? "1" :
+                bi.e121b.isChecked() ? "2" :
+                        bi.e121c.isChecked() ? "3" :
+                                bi.e121d.isChecked() ? "4" :
+                                        bi.e121e.isChecked() ? "5" :
+                                                bi.e121f.isChecked() ? "6" :
+                                                        bi.e121g.isChecked() ? "7" :
+                                                                bi.e121h.isChecked() ? "98" :
+                                                                        bi.e12196.isChecked() ? "96" : "0");
+
         f1.put("e12196x", bi.e12196x.getText().toString());
-        f1.put("e122",
-                bi.e122a.isChecked() ? "1" :
-                        bi.e122b.isChecked() ? "2" :
-                                bi.e122c.isChecked() ? "3" :
-                                        bi.e122d.isChecked() ? "4" :
-                                                bi.e122e.isChecked() ? "5" :
-                                                        "0");
+
+        f1.put("e122", bi.e122a.isChecked() ? "1" :
+                bi.e122b.isChecked() ? "2" :
+                        bi.e122c.isChecked() ? "3" :
+                                bi.e122d.isChecked() ? "4" :
+                                        bi.e122e.isChecked() ? "5" : "0");
 
         morc.setsE3(String.valueOf(f1));
 
