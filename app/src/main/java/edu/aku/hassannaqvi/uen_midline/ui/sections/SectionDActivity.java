@@ -358,6 +358,9 @@ public class SectionDActivity extends AppCompatActivity {
             bi.d110m.setEnabled(true);
             bi.d111g.setEnabled(true);
             bi.d111j.setEnabled(true);
+
+            bi.d110b.setEnabled(true);
+            bi.d110c.setEnabled(true);
         }
 
         if (calAge > 10 && calAge <= 20) {
@@ -377,6 +380,10 @@ public class SectionDActivity extends AppCompatActivity {
             bi.d111g.setEnabled(true);
             bi.d111h.setEnabled(true);
             bi.d111j.setEnabled(true);
+
+            bi.d110d.setEnabled(true);
+            bi.d110b.setEnabled(true);
+            bi.d110c.setEnabled(true);
         }
 
         if (calAge > 20) {

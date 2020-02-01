@@ -79,7 +79,8 @@
             <LinearLayout
                 android:id="@+id/fldGrpSectionA01"
                 style="@style/linearlayout_view_wt_bound"
-                android:visibility="gone">
+                android:visibility="gone"
+                tools:visibility="visible">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -257,7 +258,8 @@
             <LinearLayout
                 android:id="@+id/fldGrpSectionA02"
                 style="@style/linearlayout_view_wt_bound"
-                android:visibility="gone">
+                android:visibility="gone"
+                tools:visibility="visible">
 
                 <LinearLayout
                     android:id="@+id/fldGrpcih110"
@@ -282,7 +284,8 @@
                         android:id="@+id/fldGrpcih110a"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:orientation="vertical">
+                        android:orientation="vertical"
+                        android:visibility='@{checkHHHeadpresent.checked? View.GONE : View.VISIBLE}'>
 
                         <TextView
                             style="@style/i_textview"
@@ -294,8 +297,7 @@
                             android:id="@+id/newHHheadname"
                             style="@style/EditTextAlpha"
                             android:maxLength="25"
-                            android:text='@{checkHHHeadpresent.checked ? "" : newHHheadname.getText().toString()}'
-                            android:visibility='@{checkHHHeadpresent.checked? View.GONE : View.VISIBLE}' />
+                            android:text='@{checkHHHeadpresent.checked ? "" : newHHheadname.getText().toString()}' />
 
                     </LinearLayout>
 
