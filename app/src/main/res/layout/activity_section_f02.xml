@@ -396,31 +396,43 @@
                             <CheckBox
                                 android:id="@+id/f128a"
                                 style="@style/checkbox"
+                                android:checked="@{f128g.checked ? false : false}"
+                                android:enabled="@{f128g.checked ? false : true}"
                                 android:text="@string/f128a" />
 
                             <CheckBox
                                 android:id="@+id/f128b"
                                 style="@style/checkbox"
+                                android:checked="@{f128g.checked ? false : false}"
+                                android:enabled="@{f128g.checked ? false : true}"
                                 android:text="@string/f128b" />
 
                             <CheckBox
                                 android:id="@+id/f128c"
                                 style="@style/checkbox"
+                                android:checked="@{f128g.checked ? false : false}"
+                                android:enabled="@{f128g.checked ? false : true}"
                                 android:text="@string/f128c" />
 
                             <CheckBox
                                 android:id="@+id/f128d"
                                 style="@style/checkbox"
+                                android:checked="@{f128g.checked ? false : false}"
+                                android:enabled="@{f128g.checked ? false : true}"
                                 android:text="@string/f128d" />
 
                             <CheckBox
                                 android:id="@+id/f128e"
                                 style="@style/checkbox"
+                                android:checked="@{f128g.checked ? false : false}"
+                                android:enabled="@{f128g.checked ? false : true}"
                                 android:text="@string/f128e" />
 
                             <CheckBox
                                 android:id="@+id/f128f"
                                 style="@style/checkbox"
+                                android:checked="@{f128g.checked ? false : false}"
+                                android:enabled="@{f128g.checked ? false : true}"
                                 android:text="@string/f128f" />
 
                             <CheckBox

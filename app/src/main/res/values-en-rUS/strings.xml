@@ -296,7 +296,7 @@
     <string name="e116"> E116:\t God Forbid (Khuda Na Khuwasta), did any woman in your household die during 42 days after delivery in the past three years due to pregnancy related complications ? </string>
     <string name="e116a"> Yes </string>
     <string name="e116b"> No </string>
-    <string name="e116_title"> MATERNAL MORTALITY STATUS The following questions now related to maternal mortality in the past 3 years in your household. (2017 &#8212; 2019) Definition of Maternal Mortality: Maternal death is the death of a woman while pregnant or within 42 days of termination of pregnancy, irrespective of the duration and site of the pregnancy, from any cause related to or aggravated by the pregnancy or its management but not from accidental or incidental causes.</string>
+    <string name="e116_title"> MATERNAL MORTALITY STATUS The following questions now related to maternal mortality in the past 3 years in your household. (2017 &#8212; 2020) Definition of Maternal Mortality: Maternal death is the death of a woman while pregnant or within 42 days of termination of pregnancy, irrespective of the duration and site of the pregnancy, from any cause related to or aggravated by the pregnancy or its management but not from accidental or incidental causes.</string>
 
     <string name="e117"> E117:\t How many women have died ? </string>
 
@@ -550,6 +550,7 @@
     <string name="g102c"> Private health facility </string>
     <string name="g102d"> NGO health facility </string>
     <string name="g102e"> On the way to the health care Facility </string>
+    <string name="g102f"> Birth Station (CMW) </string>
 
     <string name="g103"> G103:\t Why didn’t you deliver {NAME} in a health facility ? </string>
     <string name="g103hint"> If delivery take place at home Probe to identify any other reason Record all mentioned. </string>
@@ -569,6 +570,7 @@
     <string name="g104c"> Nurse </string>
     <string name="g104d"> CMW (Community Midwife) </string>
     <string name="g104e"> Dai/TBA (Traditional Birth Attendant) </string>
+    <string name="g104f"> Midwife </string>
 
     <string name="g105"> G105:\t How far is the place from your home, where {NAME} was delivered?</string>
 
@@ -767,6 +769,9 @@
     <string name="h111"> H111:\t How soon after birth, {NAME} was put on skin to skin contact with mother ? </string>
 
     <string name="h112"> H112:\t How long after birth {NAME} was breastfed ? </string>
+    <string name="h112a">Less than 1 hour</string>
+    <string name="h112b">More than 1 hour</string>
+    <string name="h112c">More than 1 day</string>
 
     <string name="h113"> H113:\t Did you discard the thick milk (colostrum) that comes out of breast soon after delivery ? </string>
     <string name="h113a"> Yes </string>
@@ -2419,6 +2424,8 @@
     <string name="end_interview"> End </string>
     <string name="start_interview"> انٹرویو شروع کریں </string>
     <string name="nextSection"> Next </string>
+    <string name="nextPregnancy"> Next Pregnancy </string>
+    <string name="nextMortality"> Next Mortality </string>
 
     <string name="istatus">Interview Results</string>
     <string name="istatusa"> مکمل </string>

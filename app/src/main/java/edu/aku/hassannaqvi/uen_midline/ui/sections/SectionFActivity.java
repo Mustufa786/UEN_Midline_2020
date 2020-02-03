@@ -36,14 +36,17 @@ public class SectionFActivity extends AppCompatActivity {
 
     void setUIComponent() {
 
-        bi.f101Name.setText(MainApp.selectedKishMWRA.getName().toUpperCase() + "\n"
-                + getResources().getString(R.string.d101)
-                + ":"
-                + MainApp.selectedKishMWRA.getSerialno());
+        bi.f101Name.setText(new StringBuilder(MainApp.selectedKishMWRA.getName().toUpperCase()).append("\n")
+                .append(getResources().getString(R.string.d101))
+                .append(":")
+                .append(MainApp.selectedKishMWRA.getSerialno()));
 
         bi.f101.setOnCheckedChangeListener(((radioGroup, i) -> {
             if (i == bi.f101a.getId()) {
                 ClearClass.ClearAllFields(bi.fldGrpCVf101a, null);
+            } else {
+                ClearClass.ClearAllFields(bi.fldGrpSectionFA, null);
+                ClearClass.ClearAllFields(bi.fldGrpSectionFB, null);
             }
         }));
 
@@ -109,16 +112,16 @@ public class SectionFActivity extends AppCompatActivity {
         f1.put("f101ah", bi.f101ah.isChecked() ? "8" : "0");
         f1.put("f101ai", bi.f101ai.isChecked() ? "9" : "0");
 
-        f1.put("f102", bi.f102a.isChecked() ? "1" :
-                bi.f102b.isChecked() ? "2" :
-                        bi.f102c.isChecked() ? "3" :
-                                bi.f102d.isChecked() ? "4" : "0");
+        f1.put("f102a", bi.f102a.isChecked() ? "1" : "0");
+        f1.put("f102b", bi.f102b.isChecked() ? "2" : "0");
+        f1.put("f102c", bi.f102c.isChecked() ? "3" : "0");
+        f1.put("f102d", bi.f102d.isChecked() ? "4" : "0");
 
-        f1.put("f103", bi.f103a.isChecked() ? "1" :
-                bi.f103b.isChecked() ? "2" :
-                        bi.f103c.isChecked() ? "3" :
-                                bi.f103d.isChecked() ? "4" :
-                                        bi.f103e.isChecked() ? "5" : "0");
+        f1.put("f103a", bi.f103a.isChecked() ? "1" : "0");
+        f1.put("f103b", bi.f103b.isChecked() ? "2" : "0");
+        f1.put("f103c", bi.f103c.isChecked() ? "3" : "0");
+        f1.put("f103d", bi.f103d.isChecked() ? "4" : "0");
+        f1.put("f103e", bi.f103e.isChecked() ? "5" : "0");
 
         f1.put("f104", bi.f104.getText().toString());
 
@@ -166,12 +169,12 @@ public class SectionFActivity extends AppCompatActivity {
         f1.put("f114", bi.f114a.isChecked() ? "1" :
                 bi.f114b.isChecked() ? "2" : "0");
 
-        f1.put("f115", bi.f115a.isChecked() ? "1" :
-                bi.f115b.isChecked() ? "2" :
-                        bi.f115c.isChecked() ? "3" :
-                                bi.f115d.isChecked() ? "4" :
-                                        bi.f115e.isChecked() ? "5" :
-                                                bi.f115f.isChecked() ? "6" : "0");
+        f1.put("f115a", bi.f115a.isChecked() ? "1" : "0");
+        f1.put("f115b", bi.f115b.isChecked() ? "2" : "0");
+        f1.put("f115c", bi.f115c.isChecked() ? "3" : "0");
+        f1.put("f115d", bi.f115d.isChecked() ? "4" : "0");
+        f1.put("f115e", bi.f115e.isChecked() ? "5" : "0");
+        f1.put("f115f", bi.f115f.isChecked() ? "6" : "0");
 
         f1.put("f116a", bi.f116a.isChecked() ? "1" : "0");
         f1.put("f116b", bi.f116b.isChecked() ? "2" : "0");

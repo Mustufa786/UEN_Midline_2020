@@ -86,7 +86,6 @@ public class SectionE1Activity extends AppCompatActivity {
 
                 if (!charSequence.toString().isEmpty()) {
                     MainApp.noOfPragnencies = Integer.parseInt(charSequence.toString());
-
                 }
 
             }

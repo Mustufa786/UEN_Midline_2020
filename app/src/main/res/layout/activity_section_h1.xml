@@ -163,28 +163,24 @@
                             style="@style/i_textview"
                             android:text="@string/h104" />
 
-                        <RadioGroup
-                            android:id="@+id/h104"
-                            style="@style/radiogroup">
-
-                            <RadioButton
+                        <CheckBox
                                 android:id="@+id/h104a"
-                                style="@style/radiobutton"
+                            style="@style/checkbox"
                                 android:text="@string/h104a" />
 
-                            <RadioButton
+                        <CheckBox
                                 android:id="@+id/h104b"
-                                style="@style/radiobutton"
+                            style="@style/checkbox"
                                 android:text="@string/h104b" />
 
-                            <RadioButton
+                        <CheckBox
                                 android:id="@+id/h104c"
-                                style="@style/radiobutton"
+                            style="@style/checkbox"
                                 android:text="@string/h104c" />
 
-                            <RadioButton
+                        <CheckBox
                                 android:id="@+id/h10496"
-                                style="@style/radiobutton"
+                            style="@style/checkbox"
                                 android:text="@string/other" />
 
                             <EditText
@@ -194,8 +190,6 @@
                                 android:tag="h10496"
                                 android:text='@{h10496.checked? h10496x.getText().toString() : ""}'
                                 android:visibility='@{h10496.checked? View.VISIBLE : View.GONE}' />
-
-                        </RadioGroup>
 
                     </LinearLayout>
 
@@ -265,9 +259,9 @@
                             android:id="@+id/h106"
                             style="@style/EditTextNum"
                             android:hint="@string/minutes"
-                            android:maxLength="2"
-                            app:maxValue="59"
-                            app:minValue="1"
+                            android:maxLength="1"
+                            app:maxValue="9"
+                            app:minValue="0"
                             app:type="range" />
 
                     </LinearLayout>
@@ -513,14 +507,33 @@
                             style="@style/i_textview"
                             android:text="@string/h112" />
 
-                        <com.edittextpicker.aliazaz.EditTextPicker
+                        <RadioGroup
                             android:id="@+id/h112"
-                            style="@style/EditTextNum"
-                            android:hint="@string/minutes"
-                            android:maxLength="2"
-                            app:maxValue="59"
-                            app:minValue="1"
-                            app:type="range" />
+                            style="@style/radiogroup"
+                            android:orientation="horizontal">
+
+                            <RadioButton
+                                android:id="@+id/h112a"
+                                style="@style/radiobutton"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="@string/h112a" />
+
+                            <RadioButton
+                                android:id="@+id/h112b"
+                                style="@style/radiobutton"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="@string/h112b" />
+
+                            <RadioButton
+                                android:id="@+id/h112c"
+                                style="@style/radiobutton"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="@string/h112c" />
+
+                        </RadioGroup>
 
                     </LinearLayout>
 

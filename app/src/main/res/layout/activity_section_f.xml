@@ -1,6 +1,5 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools">
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <data>
 
@@ -11,12 +10,7 @@
             type="edu.aku.hassannaqvi.uen_midline.ui.sections.SectionFActivity" />
     </data>
 
-    <ScrollView
-        style="@style/i_scrollview"
-        android:fadeScrollbars="false"
-        android:fillViewport="true"
-        android:scrollbarSize="10dip"
-        tools:context=".ui.Myactivity">
+    <ScrollView style="@style/i_scrollview">
 
         <LinearLayout
             android:id="@+id/fldGrpSectionF"
@@ -26,21 +20,10 @@
             android:orientation="vertical">
 
 
-            <androidx.cardview.widget.CardView style="@style/cardView">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:id="@+id/f101Name"
-                        style="@style/textView3Head"
-                        android:text="@string/d102" />
-
-                </LinearLayout>
-
-            </androidx.cardview.widget.CardView>
+            <TextView
+                android:id="@+id/f101Name"
+                style="@style/textView3Head"
+                android:text="@string/d102" />
 
             <!-- f101  Radio   -->
             <androidx.cardview.widget.CardView
@@ -158,449 +141,483 @@
 
             </androidx.cardview.widget.CardView>
 
-            <!-- f102  Radio   -->
-            <androidx.cardview.widget.CardView
-                android:id="@+id/fldGrpCVf102"
-                style="@style/cardView">
+            <LinearLayout
+                android:id="@+id/fldGrpSectionFA"
+                style="@style/linearlayout_view_wt_bound"
+                android:visibility='@{f101a.checked ? View.VISIBLE :View.GONE}'>
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-
-                    <TextView
-                        style="@style/i_textview"
-                        android:text="@string/f102" />
-
-                    <RadioGroup
-                        android:id="@+id/f102"
-                        style="@style/radiogroup">
-
-                        <RadioButton
-                            android:id="@+id/f102a"
-                            style="@style/radiobutton"
-                            android:text="@string/f102a" />
-
-                        <RadioButton
-                            android:id="@+id/f102b"
-                            style="@style/radiobutton"
-                            android:text="@string/f102b" />
-
-                        <RadioButton
-                            android:id="@+id/f102c"
-                            style="@style/radiobutton"
-                            android:text="@string/f102c" />
-
-                        <RadioButton
-                            android:id="@+id/f102d"
-                            style="@style/radiobutton"
-                            android:text="@string/f102d" />
-
-                    </RadioGroup>
-
-                </LinearLayout>
-
-            </androidx.cardview.widget.CardView>
-
-            <!-- f103  Radio   -->
-            <androidx.cardview.widget.CardView
-                android:id="@+id/fldGrpCVf103"
-                style="@style/cardView">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-
-                    <TextView
-                        style="@style/i_textview"
-                        android:text="@string/f103" />
-
-                    <RadioGroup
-                        android:id="@+id/f103"
-                        style="@style/radiogroup">
-
-                        <RadioButton
-                            android:id="@+id/f103a"
-                            style="@style/radiobutton"
-                            android:text="@string/f103a" />
-
-                        <RadioButton
-                            android:id="@+id/f103b"
-                            style="@style/radiobutton"
-                            android:text="@string/f103b" />
-
-                        <RadioButton
-                            android:id="@+id/f103c"
-                            style="@style/radiobutton"
-                            android:text="@string/f103c" />
-
-                        <RadioButton
-                            android:id="@+id/f103d"
-                            style="@style/radiobutton"
-                            android:text="@string/f103d" />
-
-                        <RadioButton
-                            android:id="@+id/f103e"
-                            style="@style/radiobutton"
-                            android:text="@string/f103e" />
-
-                    </RadioGroup>
-
-                </LinearLayout>
-
-            </androidx.cardview.widget.CardView>
-
-            <!-- f104  Input-Numeric   -->
-            <androidx.cardview.widget.CardView
-                android:id="@+id/fldGrpCVf104"
-                style="@style/cardView">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-
-                    <TextView
-                        style="@style/i_textview"
-                        android:text="@string/f104" />
-
-                    <com.edittextpicker.aliazaz.EditTextPicker
-                        android:id="@+id/f104"
-                        style="@style/EditTextNum"
-                        android:hint="@string/km"
-                        android:maxLength="2"
-                        android:textColor="@android:color/black"
-                        app:defaultValue="00"
-                        app:maxValue="99"
-                        app:minValue="1"
-                        app:type="range" />
-
-                </LinearLayout>
-
-            </androidx.cardview.widget.CardView>
-
-            <!-- f105  Radio   -->
-            <androidx.cardview.widget.CardView
-                android:id="@+id/fldGrpCVf105"
-                style="@style/cardView">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-
-                    <TextView
-                        style="@style/i_textview"
-                        android:text="@string/f105" />
-
-                    <RadioGroup
-                        android:id="@+id/f105"
-                        style="@style/radiogroup">
-
-                        <RadioButton
-                            android:id="@+id/f105a"
-                            style="@style/radiobutton"
-                            android:text="@string/f105a" />
-
-                        <RadioButton
-                            android:id="@+id/f105b"
-                            style="@style/radiobutton"
-                            android:text="@string/f105b" />
-
-                        <RadioButton
-                            android:id="@+id/f105c"
-                            style="@style/radiobutton"
-                            android:text="@string/f105c" />
-
-                        <RadioButton
-                            android:id="@+id/f105d"
-                            style="@style/radiobutton"
-                            android:text="@string/f105d" />
-
-                    </RadioGroup>
-
-                </LinearLayout>
-
-            </androidx.cardview.widget.CardView>
-
-            <!-- f106  Input-Numeric   -->
-            <androidx.cardview.widget.CardView
-                android:id="@+id/fldGrpCVf106"
-                style="@style/cardView">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-
-                    <TextView
-                        style="@style/i_textview"
-                        android:text="@string/f106" />
-
-                    <com.edittextpicker.aliazaz.EditTextPicker
-                        android:id="@+id/f106"
-                        style="@style/EditTextNum"
-                        android:hint="@string/minutes"
-                        android:maxLength="2"
-                        android:textColor="@android:color/black"
-                        app:defaultValue="00"
-                        app:maxValue="99"
-                        app:minValue="1"
-                        app:type="range" />
-
-                </LinearLayout>
-
-            </androidx.cardview.widget.CardView>
-
-            <!-- f107  Radio   -->
-            <androidx.cardview.widget.CardView
-                android:id="@+id/fldGrpCVf107"
-                style="@style/cardView">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-
-                    <TextView
-                        style="@style/i_textview"
-                        android:text="@string/f107" />
-
-                    <RadioGroup
-                        android:id="@+id/f107"
-                        style="@style/radiogroup">
-
-                        <RadioButton
-                            android:id="@+id/f107a"
-                            style="@style/radiobutton"
-                            android:text="@string/f107a" />
-
-                        <RadioButton
-                            android:id="@+id/f107b"
-                            style="@style/radiobutton"
-                            android:text="@string/f107b" />
-
-                        <RadioButton
-                            android:id="@+id/f10796"
-                            style="@style/radiobutton"
-                            android:text="@string/other" />
-
-                        <EditText
-                            android:id="@+id/f10796x"
-                            style="@style/EditTextAlpha"
-                            android:hint="@string/specify"
-                            android:tag="f10796"
-                            android:text='@{f10796.checked? f10796x.getText().toString() : ""}'
-                            android:visibility='@{f10796.checked? View.VISIBLE : View.GONE}' />
-
-                    </RadioGroup>
-
-                </LinearLayout>
-
-            </androidx.cardview.widget.CardView>
-
-            <!-- f108  Radio   -->
-            <androidx.cardview.widget.CardView
-                android:id="@+id/fldGrpCVf108"
-                style="@style/cardView">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-
-                    <TextView
-                        style="@style/i_textview"
-                        android:text="@string/f108" />
+                <!-- f102  Radio   -->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/fldGrpCVf102"
+                    style="@style/cardView">
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:orientation="horizontal">
+                        android:orientation="vertical">
 
-                        <com.edittextpicker.aliazaz.EditTextPicker
-                            android:id="@+id/f108b"
-                            style="@style/EditTextNum"
-                            android:layout_width="0dp"
-                            android:layout_weight="1"
-                            android:enabled='@{f108c.checked?  false : true}'
-                            android:hint="@string/month"
-                            android:maxLength="2"
-                            android:text='@{f108c.checked? "" : f108b.getText().toString()}'
-                            app:maxValue="9"
-                            app:minValue="1"
-                            app:type="range" />
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/f102" />
 
-                        <com.edittextpicker.aliazaz.EditTextPicker
-                            android:id="@+id/f108a"
-                            style="@style/EditTextNum"
-                            android:layout_width="0dp"
-                            android:layout_weight="1"
-                            android:enabled='@{f108c.checked?  false : true}'
-                            android:hint="@string/weeks"
-                            android:maxLength="2"
-                            android:text='@{f108c.checked? "" : f108a.getText().toString()}'
-                            app:maxValue="40"
-                            app:minValue="1"
-                            app:type="range" />
+                        <LinearLayout
+                            android:id="@+id/f102check"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:tag="0">
 
-                        <CheckBox
-                            android:id="@+id/f108c"
-                            style="@style/checkbox"
-                            android:layout_width="0dp"
-                            android:layout_weight="1"
-                            android:tag="-1"
-                            android:text="@string/dkn" />
+                            <CheckBox
+                                android:id="@+id/f102a"
+                                style="@style/checkbox"
+                                android:text="@string/f102a" />
+
+                            <CheckBox
+                                android:id="@+id/f102b"
+                                style="@style/checkbox"
+                                android:text="@string/f102b" />
+
+                            <CheckBox
+                                android:id="@+id/f102c"
+                                style="@style/checkbox"
+                                android:text="@string/f102c" />
+
+                            <CheckBox
+                                android:id="@+id/f102d"
+                                style="@style/checkbox"
+                                android:text="@string/f102d" />
+                        </LinearLayout>
 
                     </LinearLayout>
 
-                </LinearLayout>
+                </androidx.cardview.widget.CardView>
 
-            </androidx.cardview.widget.CardView>
-
-            <!-- f109  Radio   -->
-            <androidx.cardview.widget.CardView
-                android:id="@+id/fldGrpCVf109"
-                style="@style/cardView">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-
-                    <TextView
-                        style="@style/i_textview"
-                        android:text="@string/f109" />
-
-                    <TextView
-                        style="@style/i_textviewhint"
-                        android:text="@string/f109hint" />
-
-                    <TextView
-                        style="@style/i_textviewhint"
-                        android:text="@string/f109hint1" />
+                <!-- f103  Radio   -->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/fldGrpCVf103"
+                    style="@style/cardView">
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:orientation="horizontal">
+                        android:orientation="vertical">
+
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/f103" />
+
+                        <LinearLayout
+                            android:id="@+id/f103check"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:tag="0">
+
+                            <CheckBox
+                                android:id="@+id/f103a"
+                                style="@style/checkbox"
+                                android:text="@string/f103a" />
+
+                            <CheckBox
+                                android:id="@+id/f103b"
+                                style="@style/checkbox"
+                                android:text="@string/f103b" />
+
+                            <CheckBox
+                                android:id="@+id/f103c"
+                                style="@style/checkbox"
+                                android:text="@string/f103c" />
+
+                            <CheckBox
+                                android:id="@+id/f103d"
+                                style="@style/checkbox"
+                                android:text="@string/f103d" />
+
+                            <CheckBox
+                                android:id="@+id/f103e"
+                                style="@style/checkbox"
+                                android:text="@string/f103e" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <!-- f104  Input-Numeric   -->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/fldGrpCVf104"
+                    style="@style/cardView">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/f104" />
 
                         <com.edittextpicker.aliazaz.EditTextPicker
-                            android:id="@+id/f109a"
+                            android:id="@+id/f104"
                             style="@style/EditTextNum"
-                            android:layout_width="0dp"
-                            android:layout_weight="2"
-                            android:enabled='@{f109b.checked? false : true}'
-                            android:hint="@string/f109a"
+                            android:hint="@string/km"
                             android:maxLength="2"
-                            android:text='@{f109b.checked? "" : f109a.getText().toString()}'
-                            app:maxValue="10"
+                            android:textColor="@android:color/black"
+                            app:defaultValue="00"
+                            app:maxValue="99"
                             app:minValue="1"
                             app:type="range" />
 
-                        <CheckBox
-                            android:id="@+id/f109b"
-                            style="@style/checkbox"
-                            android:layout_width="0dp"
-                            android:layout_weight="1"
-                            android:tag="-1"
-                            android:text="@string/dkn" />
-
                     </LinearLayout>
 
-                </LinearLayout>
+                </androidx.cardview.widget.CardView>
 
-            </androidx.cardview.widget.CardView>
-
-            <!-- f110  CheckBox   -->
-            <androidx.cardview.widget.CardView
-                android:id="@+id/fldGrpCVf110"
-                style="@style/cardView">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-
-                    <TextView
-                        style="@style/i_textview"
-                        android:text="@string/f110" />
-
-                    <TextView
-                        style="@style/i_textviewhint"
-                        android:text="@string/f110hint" />
+                <!-- f105  Radio   -->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/fldGrpCVf105"
+                    style="@style/cardView">
 
                     <LinearLayout
-                        android:id="@+id/f110check"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:orientation="vertical"
-                        android:tag="0">
+                        android:orientation="vertical">
 
-                        <CheckBox
-                            android:id="@+id/f110a"
-                            style="@style/checkbox"
-                            android:text="@string/f110a" />
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/f105" />
 
-                        <CheckBox
-                            android:id="@+id/f110b"
-                            style="@style/checkbox"
-                            android:text="@string/f110b" />
+                        <RadioGroup
+                            android:id="@+id/f105"
+                            style="@style/radiogroup">
 
-                        <CheckBox
-                            android:id="@+id/f110c"
-                            style="@style/checkbox"
-                            android:text="@string/f110c" />
+                            <RadioButton
+                                android:id="@+id/f105a"
+                                style="@style/radiobutton"
+                                android:text="@string/f105a" />
 
-                        <CheckBox
-                            android:id="@+id/f110d"
-                            style="@style/checkbox"
-                            android:text="@string/f110d" />
+                            <RadioButton
+                                android:id="@+id/f105b"
+                                style="@style/radiobutton"
+                                android:text="@string/f105b" />
 
-                        <CheckBox
-                            android:id="@+id/f110e"
-                            style="@style/checkbox"
-                            android:text="@string/f110e" />
+                            <RadioButton
+                                android:id="@+id/f105c"
+                                style="@style/radiobutton"
+                                android:text="@string/f105c" />
 
-                        <CheckBox
-                            android:id="@+id/f110f"
-                            style="@style/checkbox"
-                            android:text="@string/f110f" />
+                            <RadioButton
+                                android:id="@+id/f105d"
+                                style="@style/radiobutton"
+                                android:text="@string/f105d" />
 
-                        <CheckBox
-                            android:id="@+id/f110g"
-                            style="@style/checkbox"
-                            android:text="@string/f110g" />
-
-                        <CheckBox
-                            android:id="@+id/f110h"
-                            style="@style/checkbox"
-                            android:text="@string/f110h" />
-
-                        <CheckBox
-                            android:id="@+id/f110i"
-                            style="@style/checkbox"
-                            android:text="@string/f110i" />
-
-                        <CheckBox
-                            android:id="@+id/f11096"
-                            style="@style/checkbox"
-                            android:text="@string/other" />
-
-                        <EditText
-                            android:id="@+id/f11096x"
-                            style="@style/EditTextAlpha"
-                            android:hint="@string/specify"
-                            android:tag="f11096"
-                            android:text='@{f11096.checked? f11096x.getText().toString() : ""}'
-                            android:visibility='@{f11096.checked? View.VISIBLE : View.GONE}' />
+                        </RadioGroup>
 
                     </LinearLayout>
 
-                </LinearLayout>
+                </androidx.cardview.widget.CardView>
 
-            </androidx.cardview.widget.CardView>
+                <!-- f106  Input-Numeric   -->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/fldGrpCVf106"
+                    style="@style/cardView">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/f106" />
+
+                        <com.edittextpicker.aliazaz.EditTextPicker
+                            android:id="@+id/f106"
+                            style="@style/EditTextNum"
+                            android:hint="@string/minutes"
+                            android:maxLength="2"
+                            android:textColor="@android:color/black"
+                            app:defaultValue="00"
+                            app:maxValue="99"
+                            app:minValue="1"
+                            app:type="range" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/fldGrpSectionFB"
+                style="@style/linearlayout_view_wt_bound"
+                android:visibility='@{f101a.checked ? View.VISIBLE :View.GONE}'>
+
+                <!-- f107  Radio   -->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/fldGrpCVf107"
+                    style="@style/cardView">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/f107" />
+
+                        <RadioGroup
+                            android:id="@+id/f107"
+                            style="@style/radiogroup">
+
+                            <RadioButton
+                                android:id="@+id/f107a"
+                                style="@style/radiobutton"
+                                android:text="@string/f107a" />
+
+                            <RadioButton
+                                android:id="@+id/f107b"
+                                style="@style/radiobutton"
+                                android:text="@string/f107b" />
+
+                            <RadioButton
+                                android:id="@+id/f10796"
+                                style="@style/radiobutton"
+                                android:text="@string/other" />
+
+                            <EditText
+                                android:id="@+id/f10796x"
+                                style="@style/EditTextAlpha"
+                                android:hint="@string/specify"
+                                android:tag="f10796"
+                                android:text='@{f10796.checked? f10796x.getText().toString() : ""}'
+                                android:visibility='@{f10796.checked? View.VISIBLE : View.GONE}' />
+
+                        </RadioGroup>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <!-- f108  Radio   -->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/fldGrpCVf108"
+                    style="@style/cardView">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/f108" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <com.edittextpicker.aliazaz.EditTextPicker
+                                android:id="@+id/f108b"
+                                style="@style/EditTextNum"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:enabled='@{f108c.checked?  false : true}'
+                                android:hint="@string/month"
+                                android:maxLength="2"
+                                android:text='@{f108c.checked? "" : f108b.getText().toString()}'
+                                app:maxValue="9"
+                                app:minValue="1"
+                                app:type="range" />
+
+                            <com.edittextpicker.aliazaz.EditTextPicker
+                                android:id="@+id/f108a"
+                                style="@style/EditTextNum"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:enabled='@{f108c.checked?  false : true}'
+                                android:hint="@string/weeks"
+                                android:maxLength="2"
+                                android:text='@{f108c.checked? "" : f108a.getText().toString()}'
+                                app:maxValue="40"
+                                app:minValue="1"
+                                app:type="range" />
+
+                            <CheckBox
+                                android:id="@+id/f108c"
+                                style="@style/checkbox"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:tag="-1"
+                                android:text="@string/dkn" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <!-- f109  Radio   -->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/fldGrpCVf109"
+                    style="@style/cardView">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/f109" />
+
+                        <TextView
+                            style="@style/i_textviewhint"
+                            android:text="@string/f109hint" />
+
+                        <TextView
+                            style="@style/i_textviewhint"
+                            android:text="@string/f109hint1" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <com.edittextpicker.aliazaz.EditTextPicker
+                                android:id="@+id/f109a"
+                                style="@style/EditTextNum"
+                                android:layout_width="0dp"
+                                android:layout_weight="2"
+                                android:enabled='@{f109b.checked? false : true}'
+                                android:hint="@string/f109a"
+                                android:maxLength="2"
+                                android:text='@{f109b.checked? "" : f109a.getText().toString()}'
+                                app:maxValue="10"
+                                app:minValue="1"
+                                app:type="range" />
+
+                            <CheckBox
+                                android:id="@+id/f109b"
+                                style="@style/checkbox"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:tag="-1"
+                                android:text="@string/dkn" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <!-- f110  CheckBox   -->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/fldGrpCVf110"
+                    style="@style/cardView">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/f110" />
+
+                        <TextView
+                            style="@style/i_textviewhint"
+                            android:text="@string/f110hint" />
+
+                        <LinearLayout
+                            android:id="@+id/f110check"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:tag="0">
+
+                            <CheckBox
+                                android:id="@+id/f110a"
+                                style="@style/checkbox"
+                                android:checked="@{f110i.checked ? false : false}"
+                                android:enabled="@{f110i.checked ? false : true}"
+                                android:text="@string/f110a" />
+
+                            <CheckBox
+                                android:id="@+id/f110b"
+                                style="@style/checkbox"
+                                android:checked="@{f110i.checked ? false : false}"
+                                android:enabled="@{f110i.checked ? false : true}"
+                                android:text="@string/f110b" />
+
+                            <CheckBox
+                                android:id="@+id/f110c"
+                                style="@style/checkbox"
+                                android:checked="@{f110i.checked ? false : false}"
+                                android:enabled="@{f110i.checked ? false : true}"
+                                android:text="@string/f110c" />
+
+                            <CheckBox
+                                android:id="@+id/f110d"
+                                style="@style/checkbox"
+                                android:checked="@{f110i.checked ? false : false}"
+                                android:enabled="@{f110i.checked ? false : true}"
+                                android:text="@string/f110d" />
+
+                            <CheckBox
+                                android:id="@+id/f110e"
+                                style="@style/checkbox"
+                                android:checked="@{f110i.checked ? false : false}"
+                                android:enabled="@{f110i.checked ? false : true}"
+                                android:text="@string/f110e" />
+
+                            <CheckBox
+                                android:id="@+id/f110f"
+                                style="@style/checkbox"
+                                android:checked="@{f110i.checked ? false : false}"
+                                android:enabled="@{f110i.checked ? false : true}"
+                                android:text="@string/f110f" />
+
+                            <CheckBox
+                                android:id="@+id/f110g"
+                                style="@style/checkbox"
+                                android:checked="@{f110i.checked ? false : false}"
+                                android:enabled="@{f110i.checked ? false : true}"
+                                android:text="@string/f110g" />
+
+                            <CheckBox
+                                android:id="@+id/f110h"
+                                style="@style/checkbox"
+                                android:text="@string/f110h" />
+
+                            <CheckBox
+                                android:id="@+id/f110i"
+                                style="@style/checkbox"
+                                android:text="@string/f110i" />
+
+                            <CheckBox
+                                android:id="@+id/f11096"
+                                style="@style/checkbox"
+                                android:checked="@{f110i.checked ? false : false}"
+                                android:enabled="@{f110i.checked ? false : true}"
+                                android:text="@string/other" />
+
+                            <EditText
+                                android:id="@+id/f11096x"
+                                style="@style/EditTextAlpha"
+                                android:hint="@string/specify"
+                                android:tag="f11096"
+                                android:text='@{f11096.checked? f11096x.getText().toString() : ""}'
+                                android:visibility='@{f11096.checked? View.VISIBLE : View.GONE}' />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
 
             <!-- f111  Radio   -->
             <androidx.cardview.widget.CardView
@@ -719,8 +736,7 @@
                             android:hint="@string/f113a"
                             android:maxLength="2"
                             android:text='@{f11398.checked? "" : f113.getText().toString()}'
-                            app:defaultValue="00"
-                            app:maxValue="20"
+                            app:maxValue="15"
                             app:minValue="1"
                             app:type="range" />
 
@@ -799,41 +815,43 @@
                             style="@style/i_textview"
                             android:text="@string/f115" />
 
-                        <RadioGroup
-                            android:id="@+id/f115"
-                            style="@style/radiogroup">
+                        <LinearLayout
+                            android:id="@+id/f115check"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:tag="0">
 
-                            <RadioButton
+                            <CheckBox
                                 android:id="@+id/f115a"
-                                style="@style/radiobutton"
+                                style="@style/checkbox"
                                 android:text="@string/f115a" />
 
-                            <RadioButton
+                            <CheckBox
                                 android:id="@+id/f115b"
-                                style="@style/radiobutton"
+                                style="@style/checkbox"
                                 android:text="@string/f115b" />
 
-                            <RadioButton
+                            <CheckBox
                                 android:id="@+id/f115c"
-                                style="@style/radiobutton"
+                                style="@style/checkbox"
                                 android:text="@string/f115c" />
 
-                            <RadioButton
+                            <CheckBox
                                 android:id="@+id/f115d"
-                                style="@style/radiobutton"
+                                style="@style/checkbox"
                                 android:text="@string/f115d" />
 
-                            <RadioButton
+                            <CheckBox
                                 android:id="@+id/f115e"
-                                style="@style/radiobutton"
+                                style="@style/checkbox"
                                 android:text="@string/f115e" />
 
-                            <RadioButton
+                            <CheckBox
                                 android:id="@+id/f115f"
-                                style="@style/radiobutton"
+                                style="@style/checkbox"
                                 android:text="@string/f115f" />
-
-                        </RadioGroup>
+                        </LinearLayout>
 
                     </LinearLayout>
 
@@ -1065,7 +1083,8 @@
                 <!-- f120  Input-Numeric   -->
                 <androidx.cardview.widget.CardView
                     android:id="@+id/fldGrpCVf120"
-                    style="@style/cardView">
+                    style="@style/cardView"
+                    android:visibility="@{f119a.checked ? View.VISIBLE : View.GONE}">
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -1080,8 +1099,9 @@
                             android:id="@+id/f120"
                             style="@style/EditTextNum"
                             android:hint="@string/rupees"
-                            android:maxLength="3"
-                            app:maxValue="100"
+                            android:maxLength="4"
+                            android:text='@{f119a.checked ? f120.getText().toString() : ""}'
+                            app:maxValue="1000"
                             app:minValue="1"
                             app:type="range" />
 

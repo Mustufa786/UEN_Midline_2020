@@ -112,12 +112,16 @@
                                 style="@style/radiobutton"
                                 android:text="@string/g102e" />
 
+                            <RadioButton
+                                android:id="@+id/g102f"
+                                style="@style/radiobutton"
+                                android:text="@string/g102f" />
+
                         </RadioGroup>
 
                     </LinearLayout>
 
                 </androidx.cardview.widget.CardView>
-
 
                 <!-- g103  CheckBox   -->
                 <androidx.cardview.widget.CardView
@@ -234,6 +238,11 @@
                                 style="@style/radiobutton"
                                 android:text="@string/g104e" />
 
+                            <RadioButton
+                                android:id="@+id/g104f"
+                                style="@style/radiobutton"
+                                android:text="@string/g104f" />
+
                         </RadioGroup>
 
                     </LinearLayout>
@@ -259,7 +268,7 @@
                             style="@style/EditTextNum"
                             android:hint="@string/km"
                             android:maxLength="3"
-                            app:maxValue="100"
+                            app:maxValue="150"
                             app:minValue="1"
                             app:type="range" />
 
@@ -809,8 +818,8 @@
                             android:id="@+id/g118"
                             style="@style/EditTextNum"
                             android:hint="@string/rupees"
-                            android:maxLength="5"
-                            app:maxValue="99999"
+                            android:maxLength="6"
+                            app:maxValue="100000"
                             app:minValue="1"
                             app:type="range" />
 

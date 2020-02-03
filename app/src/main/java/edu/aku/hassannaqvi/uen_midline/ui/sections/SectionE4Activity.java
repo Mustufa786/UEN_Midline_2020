@@ -34,6 +34,7 @@ public class SectionE4Activity extends AppCompatActivity {
 
     ActivitySectionE4Binding bi;
     private MortalityContract morc;
+    private static int noOfDeath = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,6 +48,12 @@ public class SectionE4Activity extends AppCompatActivity {
     }
 
     private void setListeners() {
+
+        noOfDeath++;
+
+        bi.txtPreDeathLbl.setText(new StringBuilder("Total:").append(noOfDeath).append(" out of ").append(MainApp.deathCount));
+        bi.btnNext.setText(noOfDeath == MainApp.deathCount ? getString(R.string.nextSection) : getString(R.string.nextMortality));
+
         bi.e119c.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
@@ -108,10 +115,11 @@ public class SectionE4Activity extends AppCompatActivity {
                 e.printStackTrace();
             }
             if (UpdateDB()) {
-                if (MainApp.deathCount > 0) {
+                if (MainApp.deathCount != noOfDeath) {
                     finish();
                     startActivity(new Intent(this, SectionE4Activity.class));
                 } else {
+                    noOfDeath = 0;
                     finish();
                     List<FamilyMembersContract> lstU5 = mainVModel.getChildLstU5().getValue();
                     Class nextClass = lstU5 != null ? lstU5.size() > 0 ? SectionI1Activity.class : SectionMActivity.class : SectionMActivity.class;
@@ -152,7 +160,7 @@ public class SectionE4Activity extends AppCompatActivity {
         JSONObject f1 = new JSONObject();
         f1.put("hhno", MainApp.fc.getHhno());
         f1.put("cluster", MainApp.fc.getClusterCode());
-        f1.put("counter", MainApp.deathCount);
+        f1.put("counter", noOfDeath);
         f1.put("e118", bi.e118.getText().toString());
         f1.put("e119a", bi.e119a.getText().toString());
         f1.put("e119b", bi.e119b.getText().toString());
@@ -179,7 +187,6 @@ public class SectionE4Activity extends AppCompatActivity {
 
         morc.setsE3(String.valueOf(f1));
 
-        --MainApp.deathCount;
     }
 
     private boolean formValidation() {
