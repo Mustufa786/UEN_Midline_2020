@@ -18,10 +18,10 @@
         tools:context=".ui.Myactivity">
 
         <LinearLayout
-            android:layoutDirection="ltr"
             android:id="@+id/fldGrpSectionO"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layoutDirection="ltr"
             android:orientation="vertical">
 
             <!-- o101  Radio   -->
@@ -49,8 +49,8 @@
 
                         <TextView
                             style="@style/i_textviewhint"
-                            android:textAlignment="center"
-                            android:text="@string/o101b_title" />
+                            android:text="@string/o101b_title"
+                            android:textAlignment="center" />
 
                         <RadioButton
                             android:id="@+id/o101b"
@@ -114,16 +114,16 @@
 
                             <RadioButton
                                 android:id="@+id/o102a"
+                                style="@style/radiobutton"
                                 android:layout_width="0dp"
                                 android:layout_weight="1"
-                                style="@style/radiobutton"
                                 android:text="@string/o102a" />
 
                             <RadioButton
                                 android:id="@+id/o102b"
+                                style="@style/radiobutton"
                                 android:layout_width="0dp"
                                 android:layout_weight="1"
-                                style="@style/radiobutton"
                                 android:text="@string/o102b" />
 
                         </RadioGroup>
@@ -153,16 +153,16 @@
 
                             <RadioButton
                                 android:id="@+id/o103a"
+                                style="@style/radiobutton"
                                 android:layout_width="0dp"
                                 android:layout_weight="1"
-                                style="@style/radiobutton"
                                 android:text="@string/o103a" />
 
                             <RadioButton
                                 android:id="@+id/o103b"
+                                style="@style/radiobutton"
                                 android:layout_width="0dp"
                                 android:layout_weight="1"
-                                style="@style/radiobutton"
                                 android:text="@string/o103b" />
 
                         </RadioGroup>
@@ -202,30 +202,38 @@
                         <CheckBox
                             android:id="@+id/o104a"
                             style="@style/checkbox"
+                            android:checked="@{o10497.checked ? false : false}"
+                            android:enabled="@{o10497.checked ? false : true}"
                             android:text="@string/o104a" />
 
                         <CheckBox
                             android:id="@+id/o104b"
                             style="@style/checkbox"
+                            android:checked="@{o10497.checked ? false : false}"
+                            android:enabled="@{o10497.checked ? false : true}"
                             android:text="@string/o104b" />
 
                         <CheckBox
                             android:id="@+id/o104c"
                             style="@style/checkbox"
+                            android:checked="@{o10497.checked ? false : false}"
+                            android:enabled="@{o10497.checked ? false : true}"
                             android:text="@string/o104c" />
 
                         <CheckBox
                             android:id="@+id/o104d"
                             style="@style/checkbox"
+                            android:checked="@{o10497.checked ? false : false}"
+                            android:enabled="@{o10497.checked ? false : true}"
                             android:text="@string/o104d" />
 
-                        <!--<CheckBox
-                            android:id="@+id/o104e"
-                            style="@style/checkbox"
-                            android:text="@string/o104e" />
-
-
                         <CheckBox
+                            android:id="@+id/o10497"
+                            style="@style/checkbox"
+                            android:text="@string/none" />
+
+
+                        <!--<CheckBox
                             android:id="@+id/o104x"
                             style="@style/checkbox"
                             android:text="@string/o104x" />
@@ -267,16 +275,16 @@
 
                         <RadioButton
                             android:id="@+id/o105a"
+                            style="@style/radiobutton"
                             android:layout_width="0dp"
                             android:layout_weight="1"
-                            style="@style/radiobutton"
                             android:text="@string/yes" />
 
                         <RadioButton
                             android:id="@+id/o105b"
+                            style="@style/radiobutton"
                             android:layout_width="0dp"
                             android:layout_weight="1"
-                            style="@style/radiobutton"
                             android:text="@string/no" />
 
                     </RadioGroup>
@@ -313,16 +321,16 @@
 
                             <RadioButton
                                 android:id="@+id/o106a"
+                                style="@style/radiobutton"
                                 android:layout_width="0dp"
                                 android:layout_weight="1"
-                                style="@style/radiobutton"
                                 android:text="@string/o106a" />
 
                             <RadioButton
                                 android:id="@+id/o106b"
+                                style="@style/radiobutton"
                                 android:layout_width="0dp"
                                 android:layout_weight="1"
-                                style="@style/radiobutton"
                                 android:text="@string/o106b" />
 
                         </RadioGroup>
@@ -358,24 +366,36 @@
 
                             <CheckBox
                                 android:id="@+id/o107a"
+                                android:checked="@{o10797.checked ? false : false}"
+                                android:enabled="@{o10797.checked ? false : true}"
                                 style="@style/checkbox"
                                 android:text="@string/o107a" />
 
                             <CheckBox
                                 android:id="@+id/o107b"
+                                android:checked="@{o10797.checked ? false : false}"
+                                android:enabled="@{o10797.checked ? false : true}"
                                 style="@style/checkbox"
                                 android:text="@string/o107b" />
 
                             <CheckBox
                                 android:id="@+id/o107c"
+                                android:checked="@{o10797.checked ? false : false}"
+                                android:enabled="@{o10797.checked ? false : true}"
                                 style="@style/checkbox"
                                 android:text="@string/o107c" />
 
                             <CheckBox
                                 android:id="@+id/o107d"
+                                android:checked="@{o10797.checked ? false : false}"
+                                android:enabled="@{o10797.checked ? false : true}"
                                 style="@style/checkbox"
                                 android:text="@string/o107d" />
 
+                            <CheckBox
+                                android:id="@+id/o10797"
+                                style="@style/checkbox"
+                                android:text="@string/none" />
                         </LinearLayout>
 
                     </LinearLayout>

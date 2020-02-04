@@ -915,7 +915,7 @@
     <string name="h134b"> No </string>
 
     <string name="h135"> H135:\t Could you please name any danger signs/problems for new-born? DO NOT PROMPT Probe: Any other danger signs? Keep asking for more danger signs until the participant cannot recall any additional signs. Circle all that are mentioned, but do not prompt with any suggestions.</string>
-    <string name="h135a"> Convulsions/spasms/rigidity </string>
+    <string name="h135a"> Convulsions/fits </string>
     <string name="h135b"> Movement only when stimulated or no movement, even when stimulated </string>
     <string name="h135c"> Not feeding well </string>
     <string name="h135d"> Fever </string>

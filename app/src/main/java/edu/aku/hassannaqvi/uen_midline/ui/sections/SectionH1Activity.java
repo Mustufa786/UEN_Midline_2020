@@ -109,15 +109,19 @@ public class SectionH1Activity extends AppCompatActivity {
             ClearClass.ClearAllFields(bi.fldGrpCVh117, null);
             ClearClass.ClearAllFields(bi.fldGrpCVh118, null);
             ClearClass.ClearAllFields(bi.fldGrpCVh119, null);
+            ClearClass.ClearAllFields(bi.fldGrpCVh120, null);
             bi.fldGrpCVh117.setVisibility(View.GONE);
             bi.fldGrpCVh118.setVisibility(View.GONE);
             bi.fldGrpCVh119.setVisibility(View.GONE);
+            bi.fldGrpCVh120.setVisibility(View.GONE);
 
             if (checkedId == bi.h116a.getId()) {
                 bi.fldGrpCVh117.setVisibility(View.VISIBLE);
             } else if (checkedId == bi.h116b.getId()) {
                 bi.fldGrpCVh118.setVisibility(View.VISIBLE);
-            }
+                bi.fldGrpCVh119.setVisibility(View.VISIBLE);
+            } else
+                bi.fldGrpCVh120.setVisibility(View.VISIBLE);
         });
 
 
@@ -156,7 +160,7 @@ public class SectionH1Activity extends AppCompatActivity {
         bi.h12298.setOnCheckedChangeListener((compoundButton, b) -> {
             if (b) {
                 //ClearClass.ClearAllFields(bi.h122, null);
-                bi.h122.setText("");
+                bi.h122.setText(null);
                 ClearClass.ClearAllFields(bi.fldGrpCVh123, null);
                 bi.h122.setVisibility(View.GONE);
                 bi.fldGrpCVh123.setVisibility(View.GONE);
