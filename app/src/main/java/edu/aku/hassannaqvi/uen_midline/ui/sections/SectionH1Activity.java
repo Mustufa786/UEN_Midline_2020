@@ -338,12 +338,14 @@ public class SectionH1Activity extends AppCompatActivity {
         json.put("h107", bi.h107a.isChecked() ? "1" :
                 bi.h107b.isChecked() ? "2" :
                         bi.h107c.isChecked() ? "3" :
-                                bi.h107d.isChecked() ? "4" : "0");
+                                bi.h107d.isChecked() ? "4" :
+                                        bi.h10798.isChecked() ? "98" : "0");
 
         json.put("h108", bi.h108a.isChecked() ? "1" :
                 bi.h108b.isChecked() ? "2" :
                         bi.h108c.isChecked() ? "3" :
-                                bi.h108d.isChecked() ? "4" : "0");
+                                bi.h108d.isChecked() ? "4" :
+                                        bi.h10898.isChecked() ? "98" : "0");
 
         json.put("h109", bi.h109a.isChecked() ? "1" :
                 bi.h109b.isChecked() ? "2" :

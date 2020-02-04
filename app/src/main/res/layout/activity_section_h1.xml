@@ -306,6 +306,11 @@
                                 style="@style/radiobutton"
                                 android:text="@string/h107d" />
 
+                            <RadioButton
+                                android:id="@+id/h10798"
+                                style="@style/radiobutton"
+                                android:text="@string/dkn" />
+
                         </RadioGroup>
 
                     </LinearLayout>
@@ -349,6 +354,11 @@
                                 android:id="@+id/h108d"
                                 style="@style/radiobutton"
                                 android:text="@string/h108d" />
+
+                            <RadioButton
+                                android:id="@+id/h10898"
+                                style="@style/radiobutton"
+                                android:text="@string/dkn" />
 
                         </RadioGroup>
 
@@ -509,28 +519,21 @@
 
                         <RadioGroup
                             android:id="@+id/h112"
-                            style="@style/radiogroup"
-                            android:orientation="horizontal">
+                            style="@style/radiogroup">
 
                             <RadioButton
                                 android:id="@+id/h112a"
                                 style="@style/radiobutton"
-                                android:layout_width="0dp"
-                                android:layout_weight="1"
                                 android:text="@string/h112a" />
 
                             <RadioButton
                                 android:id="@+id/h112b"
                                 style="@style/radiobutton"
-                                android:layout_width="0dp"
-                                android:layout_weight="1"
                                 android:text="@string/h112b" />
 
                             <RadioButton
                                 android:id="@+id/h112c"
                                 style="@style/radiobutton"
-                                android:layout_width="0dp"
-                                android:layout_weight="1"
                                 android:text="@string/h112c" />
 
                         </RadioGroup>
