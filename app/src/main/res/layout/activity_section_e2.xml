@@ -28,7 +28,7 @@
 
             <TextView
                 android:id="@+id/txtPreCounterLbl"
-                style="@style/i_textview" />
+                style="@style/textView3Head" />
 
             <LinearLayout
                 android:id="@+id/mainContainer1"

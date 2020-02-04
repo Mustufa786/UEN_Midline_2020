@@ -97,7 +97,8 @@ public class SyncActivity extends AppCompatActivity implements SyncDevice.SyncDe
                 getSystemService(Context.CONNECTIVITY_SERVICE);
         NetworkInfo networkInfo = connMgr.getActiveNetworkInfo();
         if (networkInfo != null && networkInfo.isConnected()) {
-            new SyncDevice(SyncActivity.this, true).execute();
+            if (sync_flag) new SyncData(SyncActivity.this, MainApp.DIST_ID).execute(true);
+            else new SyncDevice(SyncActivity.this, true).execute();
         } else {
             Toast.makeText(this, "No network connection available.", Toast.LENGTH_SHORT).show();
         }
@@ -331,8 +332,10 @@ public class SyncActivity extends AppCompatActivity implements SyncDevice.SyncDe
 
     @Override
     public void processFinish(boolean flag) {
-        MainApp.appInfo.updateTagName(SyncActivity.this);
-        new SyncData(SyncActivity.this, MainApp.DIST_ID).execute(sync_flag);
+        if (flag) {
+            MainApp.appInfo.updateTagName(SyncActivity.this);
+            new SyncData(SyncActivity.this, MainApp.DIST_ID).execute(sync_flag);
+        }
     }
 
     public class SyncData extends AsyncTask<Boolean, String, String> {

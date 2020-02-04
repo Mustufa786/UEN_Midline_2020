@@ -51,7 +51,7 @@ public class SectionE4Activity extends AppCompatActivity {
 
         noOfDeath++;
 
-        bi.txtPreDeathLbl.setText(new StringBuilder("Total:").append(noOfDeath).append(" out of ").append(MainApp.deathCount));
+        bi.txtPreDeathLbl.setText(new StringBuilder("Total: ").append(noOfDeath).append(" out of ").append(MainApp.deathCount));
         bi.btnNext.setText(noOfDeath == MainApp.deathCount ? getString(R.string.nextSection) : getString(R.string.nextMortality));
 
         bi.e119c.addTextChangedListener(new TextWatcher() {

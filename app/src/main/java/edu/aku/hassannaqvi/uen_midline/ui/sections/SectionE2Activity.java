@@ -53,8 +53,8 @@ public class SectionE2Activity extends AppCompatActivity {
 
         mwraContract = getIntent().getParcelableExtra(CONSTANTS.MWRA_INFO);
 
-        bi.txtPreCounterLbl.setText(new StringBuilder(mwraContract.getMwra_name().toUpperCase()).append(" ")
-                .append("Total:").append(noOfPreCounter).append(" out of ").append(MainApp.noOfPragnencies));
+        bi.txtPreCounterLbl.setText(new StringBuilder(mwraContract.getMwra_name().toUpperCase()).append("\n")
+                .append("Pregnancies Total: ").append(noOfPreCounter).append(" out of ").append(MainApp.noOfPragnencies));
         bi.btnNext.setText(noOfPreCounter == MainApp.noOfPragnencies ? getString(R.string.nextSection) : getString(R.string.nextPregnancy));
 
         bi.e105.setOnCheckedChangeListener(((radioGroup, i) -> {
