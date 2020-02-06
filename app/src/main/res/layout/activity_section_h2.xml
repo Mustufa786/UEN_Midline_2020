@@ -217,6 +217,11 @@
                                 style="@style/radiobutton"
                                 android:text="@string/h204c" />
 
+                            <RadioButton
+                                android:id="@+id/h204d"
+                                style="@style/radiobutton"
+                                android:text="@string/h204d" />
+
                         </RadioGroup>
 
                     </LinearLayout>

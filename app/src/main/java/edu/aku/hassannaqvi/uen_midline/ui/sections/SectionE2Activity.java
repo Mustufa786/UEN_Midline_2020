@@ -34,6 +34,7 @@ public class SectionE2Activity extends AppCompatActivity {
     ActivitySectionE2Binding bi;
     private MWRAContract mwraContract;
     MWRA_PREContract mwraPre;
+    private static int noOfPreCounter = 0;
 
 
     @Override
@@ -48,7 +49,13 @@ public class SectionE2Activity extends AppCompatActivity {
 
     private void setUIComponent() {
 
+        noOfPreCounter++;
+
         mwraContract = getIntent().getParcelableExtra(CONSTANTS.MWRA_INFO);
+
+        bi.txtPreCounterLbl.setText(new StringBuilder(mwraContract.getMwra_name().toUpperCase()).append("\n")
+                .append("Pregnancies Total: ").append(noOfPreCounter).append(" out of ").append(MainApp.noOfPragnencies));
+        bi.btnNext.setText(noOfPreCounter == MainApp.noOfPragnencies ? getString(R.string.nextSection) : getString(R.string.nextPregnancy));
 
         bi.e105.setOnCheckedChangeListener(((radioGroup, i) -> {
 
@@ -60,7 +67,6 @@ public class SectionE2Activity extends AppCompatActivity {
                 bi.container1.setVisibility(View.VISIBLE);
                 bi.container2.setVisibility(View.VISIBLE);
             }
-
 
         }));
 
@@ -97,11 +103,12 @@ public class SectionE2Activity extends AppCompatActivity {
                 if (MainApp.twinFlag) {
                     openDialog();
                 } else {
-                    if (MainApp.noOfPragnencies > 0) {
+                    if (MainApp.noOfPragnencies != noOfPreCounter) {
                         finish();
                         startActivity(new Intent(SectionE2Activity.this, SectionE2Activity.class)
                                 .putExtra(CONSTANTS.MWRA_INFO, mwraContract));
                     } else {
+                        noOfPreCounter = 0;
                         if (MainApp.pragnantWoman.getFirst().size() > 0) {
                             finish();
                             startActivity(new Intent(SectionE2Activity.this, SectionE1Activity.class));
@@ -180,7 +187,7 @@ public class SectionE2Activity extends AppCompatActivity {
         e2.put("fm_uid", mwraContract.getFmuid());
         e2.put("hhno", MainApp.fc.getHhno());
         e2.put("cluster", MainApp.fc.getClusterCode());
-        e2.put("counter", MainApp.noOfPragnencies);
+        e2.put("counter", noOfPreCounter);
 
         e2.put("e104", bi.e104a.isChecked() ? "1" :
                 bi.e104b.isChecked() ? "2" : "0");
@@ -192,6 +199,7 @@ public class SectionE2Activity extends AppCompatActivity {
         e2.put("e106a", bi.e106a.getText().toString());
         e2.put("e106b", bi.e106b.getText().toString());
         e2.put("e106c", bi.e106c.getText().toString());
+        e2.put("e10698", bi.e10698.isChecked() ? "1" : "0");
 
         e2.put("e107", bi.e107a.isChecked() ? "1" :
                 bi.e107b.isChecked() ? "2" : "0");
@@ -204,6 +212,7 @@ public class SectionE2Activity extends AppCompatActivity {
         e2.put("e110a", bi.e110a.getText().toString());
         e2.put("e110b", bi.e110b.getText().toString());
         e2.put("e110c", bi.e110c.getText().toString());
+        e2.put("e11098", bi.e11098.isChecked() ? "1" : "0");
 
         e2.put("e111", bi.e111a.isChecked() ? "1" :
                 bi.e111b.isChecked() ? "2" :
@@ -230,8 +239,6 @@ public class SectionE2Activity extends AppCompatActivity {
                 bi.e115b.isChecked() ? "2" : "0");
 
         mwraPre.setsE2(String.valueOf(e2));
-
-        --MainApp.noOfPragnencies;
 
 
     }

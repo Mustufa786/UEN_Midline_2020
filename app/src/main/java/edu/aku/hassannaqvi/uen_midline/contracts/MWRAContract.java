@@ -30,6 +30,7 @@ public class MWRAContract implements Parcelable {
     // Only for run time
     private String fmuid = "";
     private String fm_serial = "";
+    private String mwra_name = "";
 
 
     /*
@@ -59,6 +60,7 @@ public class MWRAContract implements Parcelable {
         synced_date = in.readString();
         fmuid = in.readString();
         fm_serial = in.readString();
+        mwra_name = in.readString();
     }
 
     public static final Creator<MWRAContract> CREATOR = new Creator<MWRAContract>() {
@@ -175,6 +177,14 @@ public class MWRAContract implements Parcelable {
         this.fm_serial = fm_serial;
     }
 
+    public String getMwra_name() {
+        return mwra_name;
+    }
+
+    public void setMwra_name(String mwra_name) {
+        this.mwra_name = mwra_name;
+    }
+
     public MWRAContract Sync(JSONObject jsonObject) throws JSONException {
 
         this._ID = jsonObject.getString(MWRATable.COLUMN_ID);
@@ -247,6 +257,7 @@ public class MWRAContract implements Parcelable {
         dest.writeString(synced_date);
         dest.writeString(fmuid);
         dest.writeString(fm_serial);
+        dest.writeString(mwra_name);
     }
 
     public static abstract class MWRATable implements BaseColumns {

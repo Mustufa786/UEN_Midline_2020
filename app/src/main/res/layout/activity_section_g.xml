@@ -112,12 +112,16 @@
                                 style="@style/radiobutton"
                                 android:text="@string/g102e" />
 
+                            <RadioButton
+                                android:id="@+id/g102f"
+                                style="@style/radiobutton"
+                                android:text="@string/g102f" />
+
                         </RadioGroup>
 
                     </LinearLayout>
 
                 </androidx.cardview.widget.CardView>
-
 
                 <!-- g103  CheckBox   -->
                 <androidx.cardview.widget.CardView
@@ -234,6 +238,11 @@
                                 style="@style/radiobutton"
                                 android:text="@string/g104e" />
 
+                            <RadioButton
+                                android:id="@+id/g104f"
+                                style="@style/radiobutton"
+                                android:text="@string/g104f" />
+
                         </RadioGroup>
 
                     </LinearLayout>
@@ -259,7 +268,7 @@
                             style="@style/EditTextNum"
                             android:hint="@string/km"
                             android:maxLength="3"
-                            app:maxValue="100"
+                            app:maxValue="150"
                             app:minValue="1"
                             app:type="range" />
 
@@ -731,9 +740,8 @@
 
                 </androidx.cardview.widget.CardView>
 
-                <!-- g117  Title - Multiple EditText   -->
+                <!-- g117  D/H/M EditText   -->
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/fldGrpCVg117"
                     style="@style/cardView">
 
                     <LinearLayout
@@ -745,47 +753,82 @@
                             style="@style/i_textview"
                             android:text="@string/g117" />
 
-                        <TextView
-                            style="@style/i_textview"
-                            android:textAlignment="center"
-                            android:text="@string/days" />
+                        <LinearLayout
+                            android:id="@+id/fldGrpCVg117"
+                            style="@style/linearlayout_view_wt_bound"
+                            android:orientation="horizontal">
 
-                        <com.edittextpicker.aliazaz.EditTextPicker
-                            android:id="@+id/g117a"
-                            style="@style/EditTextNum"
-                            android:hint="@string/days"
-                            android:maxLength="1"
-                            app:maxValue="3"
-                            app:minValue="0"
-                            app:type="range" />
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
 
-                        <TextView
-                            style="@style/i_textview"
-                            android:textAlignment="center"
-                            android:text="@string/hours" />
+                                <TextView
+                                    style="@style/textView3Head"
+                                    android:text="@string/days" />
 
-                        <com.edittextpicker.aliazaz.EditTextPicker
-                            android:id="@+id/g117b"
-                            style="@style/EditTextNum"
-                            android:hint="@string/hours"
-                            android:maxLength="2"
-                            app:maxValue="23"
-                            app:minValue="0"
-                            app:type="range" />
+                                <com.edittextpicker.aliazaz.EditTextPicker
+                                    android:id="@+id/g117a"
+                                    style="@style/EditTextNum"
+                                    android:hint="@string/days"
+                                    android:maxLength="2"
+                                    android:textColor="@android:color/black"
+                                    app:defaultValue="00"
+                                    app:maxValue="30"
+                                    app:minValue="1"
+                                    app:type="range" />
 
-                        <TextView
-                            style="@style/i_textview"
-                            android:textAlignment="center"
-                            android:text="@string/minutes" />
+                            </LinearLayout>
 
-                        <com.edittextpicker.aliazaz.EditTextPicker
-                            android:id="@+id/g117c"
-                            style="@style/EditTextNum"
-                            android:hint="@string/minutes"
-                            android:maxLength="2"
-                            app:maxValue="59"
-                            app:minValue="0"
-                            app:type="range" />
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    style="@style/textView3Head"
+                                    android:text="@string/hours" />
+
+                                <com.edittextpicker.aliazaz.EditTextPicker
+                                    android:id="@+id/g117b"
+                                    style="@style/EditTextNum"
+                                    android:hint="@string/hours"
+                                    android:maxLength="2"
+                                    android:textColor="@android:color/black"
+                                    app:defaultValue="00"
+                                    app:maxValue="23"
+                                    app:minValue="0"
+                                    app:type="range" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    style="@style/textView3Head"
+                                    android:text="@string/minutes" />
+
+                                <com.edittextpicker.aliazaz.EditTextPicker
+                                    android:id="@+id/g117c"
+                                    style="@style/EditTextNum"
+                                    android:digits="0123456789"
+                                    android:hint="@string/minutes"
+                                    android:maxLength="2"
+                                    android:textColor="@android:color/black"
+                                    app:defaultValue="00"
+                                    app:maxValue="59"
+                                    app:minValue="0"
+                                    app:type="range" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
 
                     </LinearLayout>
 
@@ -809,8 +852,8 @@
                             android:id="@+id/g118"
                             style="@style/EditTextNum"
                             android:hint="@string/rupees"
-                            android:maxLength="5"
-                            app:maxValue="99999"
+                            android:maxLength="6"
+                            app:maxValue="100000"
                             app:minValue="1"
                             app:type="range" />
 

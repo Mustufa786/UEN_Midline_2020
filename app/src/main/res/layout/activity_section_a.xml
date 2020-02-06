@@ -79,7 +79,8 @@
             <LinearLayout
                 android:id="@+id/fldGrpSectionA01"
                 style="@style/linearlayout_view_wt_bound"
-                android:visibility="gone">
+                android:visibility="gone"
+                tools:visibility="visible">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -257,7 +258,8 @@
             <LinearLayout
                 android:id="@+id/fldGrpSectionA02"
                 style="@style/linearlayout_view_wt_bound"
-                android:visibility="gone">
+                android:visibility="gone"
+                tools:visibility="visible">
 
                 <LinearLayout
                     android:id="@+id/fldGrpcih110"
@@ -282,7 +284,8 @@
                         android:id="@+id/fldGrpcih110a"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:orientation="vertical">
+                        android:orientation="vertical"
+                        android:visibility='@{checkHHHeadpresent.checked? View.GONE : View.VISIBLE}'>
 
                         <TextView
                             style="@style/i_textview"
@@ -294,8 +297,7 @@
                             android:id="@+id/newHHheadname"
                             style="@style/EditTextAlpha"
                             android:maxLength="25"
-                            android:text='@{checkHHHeadpresent.checked ? "" : newHHheadname.getText().toString()}'
-                            android:visibility='@{checkHHHeadpresent.checked? View.GONE : View.VISIBLE}' />
+                            android:text='@{checkHHHeadpresent.checked ? "" : newHHheadname.getText().toString()}' />
 
                     </LinearLayout>
 
@@ -378,6 +380,81 @@
 
                 </androidx.cardview.widget.CardView>
 
+                <!-- c101  Input   -->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/fldGrpCVc101"
+                    style="@style/cardView">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/c101" />
+
+                        <RadioGroup
+                            android:id="@+id/c101a"
+                            style="@style/radiogroup"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                style="@style/i_textviewhint"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:text="@string/c101a" />
+
+                            <RadioButton
+                                android:id="@+id/c101aa"
+                                style="@style/radiobutton"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="@string/c101aa" />
+
+                            <RadioButton
+                                android:id="@+id/c101ab"
+                                style="@style/radiobutton"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="@string/c101ab" />
+
+                        </RadioGroup>
+
+                        <RadioGroup
+                            android:id="@+id/c101b"
+                            style="@style/radiogroup"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                style="@style/i_textviewhint"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:padding="2dp"
+                                android:text="@string/c101b" />
+
+                            <RadioButton
+                                android:id="@+id/c101ba"
+                                style="@style/radiobutton"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="@string/c101ba" />
+
+                            <RadioButton
+                                android:id="@+id/c101bb"
+                                style="@style/radiobutton"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="@string/c101bb" />
+
+                        </RadioGroup>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -391,7 +468,7 @@
                         android:background="@android:color/holo_red_light"
                         android:onClick="@{() -> callback.BtnEnd()}"
                         android:text="@string/end_interview"
-                        android:visibility="gone" />
+                        android:visibility="@{c101bb.checked ? View.VISIBLE : View.GONE}" />
                     <!--'onClick' for btn_End will NOT change and always call 'endInterview'-->
 
                     <Button
@@ -399,7 +476,8 @@
                         style="@style/buttons_bottom"
                         android:background="@android:color/holo_green_light"
                         android:onClick="@{() -> callback.BtnContinue()}"
-                        android:text="@string/nextSection" />
+                        android:text="@string/nextSection"
+                        android:visibility="@{c101ba.checked ? View.VISIBLE : View.GONE}" />
 
                 </LinearLayout>
 

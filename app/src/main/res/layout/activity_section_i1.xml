@@ -1282,36 +1282,38 @@
                         style="@style/i_textview"
                         android:text="@string/i126" />
 
-                    <RadioGroup
-                        android:id="@+id/i126"
-                        style="@style/radiogroup">
+                    <LinearLayout
+                        android:id="@+id/i126check"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:tag="0">
 
-                        <RadioButton
+                        <CheckBox
                             android:id="@+id/i126a"
-                            style="@style/radiobutton"
+                            style="@style/checkbox"
                             android:text="@string/i126a" />
 
-                        <RadioButton
+                        <CheckBox
                             android:id="@+id/i126b"
-                            style="@style/radiobutton"
+                            style="@style/checkbox"
                             android:text="@string/i126b" />
 
-                        <RadioButton
+                        <CheckBox
                             android:id="@+id/i126c"
-                            style="@style/radiobutton"
+                            style="@style/checkbox"
                             android:text="@string/i126c" />
 
-                        <RadioButton
+                        <CheckBox
                             android:id="@+id/i126d"
-                            style="@style/radiobutton"
+                            style="@style/checkbox"
                             android:text="@string/i126d" />
 
-                        <RadioButton
+                        <CheckBox
                             android:id="@+id/i126e"
-                            style="@style/radiobutton"
+                            style="@style/checkbox"
                             android:text="@string/i126e" />
-
-                    </RadioGroup>
+                    </LinearLayout>
 
                 </LinearLayout>
 

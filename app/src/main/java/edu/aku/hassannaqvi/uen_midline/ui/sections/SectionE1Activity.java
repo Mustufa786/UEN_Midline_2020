@@ -86,7 +86,6 @@ public class SectionE1Activity extends AppCompatActivity {
 
                 if (!charSequence.toString().isEmpty()) {
                     MainApp.noOfPragnencies = Integer.parseInt(charSequence.toString());
-
                 }
 
             }
@@ -159,6 +158,7 @@ public class SectionE1Activity extends AppCompatActivity {
         json.put("cluster", MainApp.fc.getClusterCode());
 
         json.put("e100", bi.womanSpinner.getSelectedItem().toString());
+        mwra.setMwra_name(bi.womanSpinner.getSelectedItem().toString());
 
         json.put("e101",
                 bi.e101a.isChecked() ? "1" :

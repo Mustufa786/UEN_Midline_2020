@@ -243,7 +243,7 @@
     <string name="e105a"> Born alive (Live birth) </string>
     <string name="e105b"> Born dead (Still birth) </string>
     <string name="e105c"> Twin Birth </string>
-    <string name="e105d"> One Born One Dead </string>
+    <string name="e105d"> One Alive One Dead </string>
     <string name="e105e"> Both Dead </string>
     <string name="e105f"> Lost before full term(Miscarriage) </string>
 
@@ -296,7 +296,7 @@
     <string name="e116"> E116:\t God Forbid (Khuda Na Khuwasta), did any woman in your household die during 42 days after delivery in the past three years due to pregnancy related complications ? </string>
     <string name="e116a"> Yes </string>
     <string name="e116b"> No </string>
-    <string name="e116_title"> MATERNAL MORTALITY STATUS The following questions now related to maternal mortality in the past 3 years in your household. (2017 &#8212; 2019) Definition of Maternal Mortality: Maternal death is the death of a woman while pregnant or within 42 days of termination of pregnancy, irrespective of the duration and site of the pregnancy, from any cause related to or aggravated by the pregnancy or its management but not from accidental or incidental causes.</string>
+    <string name="e116_title"> MATERNAL MORTALITY STATUS The following questions now related to maternal mortality in the past 3 years in your household. (2017 &#8212; 2020) Definition of Maternal Mortality: Maternal death is the death of a woman while pregnant or within 42 days of termination of pregnancy, irrespective of the duration and site of the pregnancy, from any cause related to or aggravated by the pregnancy or its management but not from accidental or incidental causes.</string>
 
     <string name="e117"> E117:\t How many women have died ? </string>
 
@@ -550,6 +550,7 @@
     <string name="g102c"> Private health facility </string>
     <string name="g102d"> NGO health facility </string>
     <string name="g102e"> On the way to the health care Facility </string>
+    <string name="g102f"> Birth Station (CMW) </string>
 
     <string name="g103"> G103:\t Why didn’t you deliver {NAME} in a health facility ? </string>
     <string name="g103hint"> If delivery take place at home Probe to identify any other reason Record all mentioned. </string>
@@ -569,6 +570,7 @@
     <string name="g104c"> Nurse </string>
     <string name="g104d"> CMW (Community Midwife) </string>
     <string name="g104e"> Dai/TBA (Traditional Birth Attendant) </string>
+    <string name="g104f"> Midwife </string>
 
     <string name="g105"> G105:\t How far is the place from your home, where {NAME} was delivered?</string>
 
@@ -767,6 +769,9 @@
     <string name="h111"> H111:\t How soon after birth, {NAME} was put on skin to skin contact with mother ? </string>
 
     <string name="h112"> H112:\t How long after birth {NAME} was breastfed ? </string>
+    <string name="h112a">Less than 1 hour</string>
+    <string name="h112b">More than 1 hour</string>
+    <string name="h112c">More than 1 day</string>
 
     <string name="h113"> H113:\t Did you discard the thick milk (colostrum) that comes out of breast soon after delivery ? </string>
     <string name="h113a"> Yes </string>
@@ -910,7 +915,7 @@
     <string name="h134b"> No </string>
 
     <string name="h135"> H135:\t Could you please name any danger signs/problems for new-born? DO NOT PROMPT Probe: Any other danger signs? Keep asking for more danger signs until the participant cannot recall any additional signs. Circle all that are mentioned, but do not prompt with any suggestions.</string>
-    <string name="h135a"> Convulsions/spasms/rigidity </string>
+    <string name="h135a"> Convulsions/fits </string>
     <string name="h135b"> Movement only when stimulated or no movement, even when stimulated </string>
     <string name="h135c"> Not feeding well </string>
     <string name="h135d"> Fever </string>
@@ -964,6 +969,7 @@
     <string name="h204a"> Government health facility </string>
     <string name="h204b"> Private health facility </string>
     <string name="h204c"> NGO health facility </string>
+    <string name="h204d"> Birth Station </string>
 
     <string name="h205"> H205:\t Who conducted your health check-up ? </string>
     <string name="h205a"> Doctor </string>
@@ -1316,20 +1322,20 @@
     <string name="i217c"> Don\'t Know </string>
 
     <string name="i218"> I218:\t What treatment was given to {NAME} ? </string>
-    <string name="i218a"> Chloroquine </string>
-    <string name="i218b"> Amodiaquine </string>
-    <string name="i218c"> Quinine </string>
-    <string name="i218d"> Artemisinin </string>
-    <string name="i218e"> Combination </string>
-    <string name="i218f"> Other anti-malarial </string>
-    <string name="i218g"> Pill/syrup </string>
-    <string name="i218h"> Injection </string>
-    <string name="i218i"> Ponstan </string>
-    <string name="i218j"> Paracetamol </string>
-    <string name="i218k"> Ibuprofen </string>
-    <string name="i218l"> Cough syrup </string>
-    <string name="i218m"> Amoxil DT </string>
-    <string name="i218n"> Home Remedy </string>
+    <string name="i218a"> Chloroquine              </string>
+    <string name="i218b"> Amodiaquine              </string>
+    <string name="i218c"> Quinine                   </string>
+    <string name="i218d"> Artemisinin              </string>
+    <string name="i218e"> Combination              </string>
+    <string name="i218f"> Other anti-malarial      </string>
+    <string name="i218g"> Amoxil DT             </string>
+    <string name="i218h"> Amoxil syrup              </string>
+    <string name="i218i"> Injection              </string>
+    <string name="i218j"> Ponstan             </string>
+    <string name="i218k"> Paracetamol             </string>
+    <string name="i218l"> Ibuprofen              </string>
+    <string name="i218m"> Cough syrup              </string>
+    <string name="i218n"> Home Remedy             </string>
 
     <string name="i219"> I219:\t Did {NAME} have a chest x-ray ? </string>
     <string name="i219a"> Yes </string>
@@ -1993,7 +1999,7 @@
     <string name="l112ca">Yes</string>
     <string name="l112cb">No</string>
     <string name="l112cc">Don\'t Know</string>
-    <string name="l112d">If she refuses to have sex with him?</string>
+    <string name="l112d">If she refuses to have physical relation with him?</string>
     <string name="l112da">Yes</string>
     <string name="l112db">No</string>
     <string name="l112dc">Don\'t Know</string>
@@ -2234,7 +2240,7 @@
     <string name="m116d">Balochi</string>
     <string name="m116e">Siraiki</string>
     <string name="m116f">Barauhi</string>
-    <string name="m116g">Brushaski</string>
+    <string name="m116g">Laasi</string>
     <string name="m116h">Pashto </string>
 
 
@@ -2370,8 +2376,7 @@
     <string name="o104b"> Detergent (Powder/Liquid/Paste) </string>
     <string name="o104c"> Liquid soap </string>
     <string name="o104d"> Ash/Mud/Sand </string>
-    <!--<string name="o104e">None/Never</string>
-    <string name="o10499">Refused</string>
+    <!--<string name="o10499">Refused</string>
     <string name="o104x">Other</string>-->
 
     <string name="o105"> O105:\t Do you have any soap or detergent or ash/mud/sand in your house for washing hands ? </string>
@@ -2403,6 +2408,8 @@
     <string name="end_interview"> End </string>
     <string name="start_interview"> انٹرویو شروع کریں </string>
     <string name="nextSection"> Next </string>
+    <string name="nextPregnancy"> Next Pregnancy </string>
+    <string name="nextMortality"> Next Mortality </string>
 
     <string name="istatus">Interview Results</string>
     <string name="istatusa"> مکمل </string>

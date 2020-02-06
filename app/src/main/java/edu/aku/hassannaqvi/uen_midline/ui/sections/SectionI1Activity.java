@@ -340,11 +340,11 @@ public class SectionI1Activity extends AppCompatActivity {
         json.put("i125", bi.i125a.isChecked() ? "1" :
                 bi.i125b.isChecked() ? "2" : "0");
 
-        json.put("i126", bi.i126a.isChecked() ? "1" :
-                bi.i126b.isChecked() ? "2" :
-                        bi.i126c.isChecked() ? "3" :
-                                bi.i126d.isChecked() ? "4" :
-                                        bi.i126e.isChecked() ? "5" : "0");
+        json.put("i126a", bi.i126a.isChecked() ? "1" : "0");
+        json.put("i126b", bi.i126b.isChecked() ? "2" : "0");
+        json.put("i126c", bi.i126c.isChecked() ? "3" : "0");
+        json.put("i126d", bi.i126d.isChecked() ? "4" : "0");
+        json.put("i126e", bi.i126e.isChecked() ? "5" : "0");
 
         MainApp.child.setsI1(String.valueOf(json));
 

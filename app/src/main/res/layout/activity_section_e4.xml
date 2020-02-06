@@ -15,7 +15,6 @@
 
 
     <ScrollView
-        style="@style/i_scrollview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
@@ -26,6 +25,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtPreDeathLbl"
+                style="@style/textView3Head" />
 
             <!-- e118  Input   -->
             <androidx.cardview.widget.CardView
@@ -231,6 +234,11 @@
                             style="@style/radiobutton"
                             android:text="@string/e121h" />
 
+                        <RadioButton
+                            android:id="@+id/e12196"
+                            style="@style/radiobutton"
+                            android:text="@string/other" />
+
                         <EditText
                             android:id="@+id/e12196x"
                             style="@style/EditTextAlpha"
@@ -238,11 +246,6 @@
                             android:tag="e12196"
                             android:text='@{e12196.checked? e12196x.getText().toString() : ""}'
                             android:visibility='@{e12196.checked? View.VISIBLE : View.GONE}' />
-
-                        <RadioButton
-                            android:id="@+id/e12196"
-                            style="@style/radiobutton"
-                            android:text="@string/other" />
 
                     </RadioGroup>
                 </LinearLayout>
