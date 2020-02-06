@@ -312,7 +312,11 @@ public class SectionH1Activity extends AppCompatActivity {
 
         JSONObject json = new JSONObject();
 
-        json.put("h101", bi.h101.getText().toString());
+        json.put("h101", bi.h101a.isChecked() ? "1" :
+                bi.h101b.isChecked() ? "2" :
+                        bi.h10198.isChecked() ? "98" : "0");
+        json.put("h101aw", bi.h101aw.getText().toString());
+        json.put("h101bm", bi.h101bm.getText().toString());
 
         json.put("h102", bi.h102a.isChecked() ? "1" :
                 bi.h102b.isChecked() ? "2" :

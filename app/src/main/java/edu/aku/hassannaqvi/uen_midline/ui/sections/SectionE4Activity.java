@@ -2,8 +2,6 @@ package edu.aku.hassannaqvi.uen_midline.ui.sections;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.text.Editable;
-import android.text.TextWatcher;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -25,7 +23,6 @@ import edu.aku.hassannaqvi.uen_midline.contracts.MortalityContract;
 import edu.aku.hassannaqvi.uen_midline.core.DatabaseHelper;
 import edu.aku.hassannaqvi.uen_midline.core.MainApp;
 import edu.aku.hassannaqvi.uen_midline.databinding.ActivitySectionE4Binding;
-import edu.aku.hassannaqvi.uen_midline.utils.DateUtils;
 import edu.aku.hassannaqvi.uen_midline.utils.Util;
 
 import static edu.aku.hassannaqvi.uen_midline.ui.list_activity.FamilyMembersListActivity.mainVModel;
@@ -54,56 +51,8 @@ public class SectionE4Activity extends AppCompatActivity {
         bi.txtPreDeathLbl.setText(new StringBuilder("Total: ").append(noOfDeath).append(" out of ").append(MainApp.deathCount));
         bi.btnNext.setText(noOfDeath == MainApp.deathCount ? getString(R.string.nextSection) : getString(R.string.nextMortality));
 
-        bi.e119c.addTextChangedListener(new TextWatcher() {
-            @Override
-            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
-
-            }
-
-            @Override
-            public void onTextChanged(CharSequence s, int start, int before, int count) {
-                bi.e120.setEnabled(false);
-                bi.e120.setText(null);
-                if (bi.e119c.getText().toString().isEmpty()) return;
-                if (bi.e119c.getText().toString().equals("00")) {
-                    bi.e120.setEnabled(true);
-                    return;
-                }
-
-                int day = bi.e119a.getText().toString().isEmpty() ? 0 : Integer.valueOf(bi.e119a.getText().toString());
-                int month = bi.e119b.getText().toString().isEmpty() ? 0 : Integer.valueOf(bi.e119b.getText().toString());
-                int year = bi.e119c.getText().toString().isEmpty() ? 0 : Integer.valueOf(bi.e119c.getText().toString());
-
-                bi.e120.setText(DateUtils.ageInYears(day, month, year));
-            }
-
-            @Override
-            public void afterTextChanged(Editable s) {
-
-            }
-        });
-
-        bi.e120.addTextChangedListener(new TextWatcher() {
-            @Override
-            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
-
-            }
-
-            @Override
-            public void onTextChanged(CharSequence s, int start, int before, int count) {
-                if (bi.e120.getText().toString().isEmpty()) return;
-                int calAge = Integer.valueOf(bi.e120.getText().toString());
-                if (Integer.signum(calAge) == -1) return;
-            }
-
-            @Override
-            public void afterTextChanged(Editable s) {
-
-            }
-        });
-
         bi.e119c.setMaxvalue(CONSTANTS.MAXYEAR);
-        bi.e119c.setMinvalue(CONSTANTS.MINYEAR);
+        bi.e119c.setMinvalue(CONSTANTS.MORTALITY_INFO);
 
     }
 
@@ -190,9 +139,7 @@ public class SectionE4Activity extends AppCompatActivity {
     }
 
     private boolean formValidation() {
-        if (!Validator.emptyCheckingContainer(this, bi.fldGrpSectionE4))
-            return false;
-        return Validator.emptyEditTextPicker(this, bi.e120);
+        return Validator.emptyCheckingContainer(this, bi.fldGrpSectionE4);
     }
 
     public void BtnEnd() {

@@ -44,14 +44,52 @@
                             style="@style/i_textview"
                             android:text="@string/h101" />
 
-                        <com.edittextpicker.aliazaz.EditTextPicker
+                        <RadioGroup
                             android:id="@+id/h101"
-                            style="@style/EditTextNum"
-                            android:hint="@string/month"
-                            android:maxLength="1"
-                            app:maxValue="9"
-                            app:minValue="1"
-                            app:type="range" />
+                            style="@style/radiogroup">
+
+                            <RadioButton
+                                android:id="@+id/h101a"
+                                style="@style/radiobutton"
+                                android:text="@string/weeks" />
+
+                            <com.edittextpicker.aliazaz.EditTextPicker
+                                android:id="@+id/h101aw"
+                                style="@style/EditTextNum"
+                                android:layout_width="match_parent"
+                                android:hint="@string/weeks"
+                                android:maxLength="2"
+                                android:tag="h101a"
+                                android:text='@{h101a.checked? h101aw.getText().toString() : ""}'
+                                android:visibility='@{h101a.checked?  View.VISIBLE : View.GONE}'
+                                app:maxValue="40"
+                                app:minValue="1"
+                                app:type="range" />
+
+                            <RadioButton
+                                android:id="@+id/h101b"
+                                style="@style/radiobutton"
+                                android:text="@string/month" />
+
+                            <com.edittextpicker.aliazaz.EditTextPicker
+                                android:id="@+id/h101bm"
+                                style="@style/EditTextNum"
+                                android:layout_width="match_parent"
+                                android:hint="@string/month"
+                                android:maxLength="1"
+                                android:tag="h101b"
+                                android:text='@{h101b.checked? h101bm.getText().toString() : ""}'
+                                android:visibility='@{h101b.checked?  View.VISIBLE : View.GONE}'
+                                app:maxValue="9"
+                                app:minValue="1"
+                                app:type="range" />
+
+                            <RadioButton
+                                android:id="@+id/h10198"
+                                style="@style/radiobutton"
+                                android:text="@string/dkn" />
+
+                        </RadioGroup>
 
                     </LinearLayout>
 
@@ -260,7 +298,7 @@
                             style="@style/EditTextNum"
                             android:hint="@string/minutes"
                             android:maxLength="1"
-                            app:maxValue="9"
+                            app:maxValue="5"
                             app:minValue="0"
                             app:type="range" />
 

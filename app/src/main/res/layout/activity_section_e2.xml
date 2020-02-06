@@ -102,11 +102,15 @@
                                 <RadioButton
                                     android:id="@+id/e105a"
                                     style="@style/radiobutton"
+                                    android:checked="@{e104a.checked ? false : false}"
+                                    android:enabled="@{e104a.checked ? true : false}"
                                     android:text="@string/e105a" />
 
                                 <RadioButton
                                     android:id="@+id/e105b"
                                     style="@style/radiobutton"
+                                    android:checked="@{e104a.checked ? false : false}"
+                                    android:enabled="@{e104a.checked ? true : false}"
                                     android:text="@string/e105b" />
 
                                 <RadioButton
@@ -127,6 +131,8 @@
                                 <RadioButton
                                     android:id="@+id/e105f"
                                     style="@style/radiobutton"
+                                    android:checked="@{e104a.checked ? false : false}"
+                                    android:enabled="@{e104a.checked ? true : false}"
                                     android:text="@string/e105f" />
 
                             </RadioGroup>
