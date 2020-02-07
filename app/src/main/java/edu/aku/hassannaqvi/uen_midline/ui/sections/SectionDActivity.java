@@ -17,7 +17,9 @@ import com.validatorcrawler.aliazaz.Validator;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 import edu.aku.hassannaqvi.uen_midline.R;
@@ -140,8 +142,9 @@ public class SectionDActivity extends AppCompatActivity {
     private void SaveDraft() throws JSONException {
 
         if (fmcFLAG) {
+            fmc.setClusterno(MainApp.fc.getClusterCode());
+            fmc.setHhno(MainApp.fc.getHhno());
             fmc.setSerialno(bi.d101.getText().toString());
-            fmc.setName(bi.d102.getText().toString());
             fmc.setName(bi.d102.getText().toString());
             fmc.setRelHH(bi.d103a.isChecked() ? "1" :
                     bi.d103b.isChecked() ? "2" :
@@ -178,6 +181,12 @@ public class SectionDActivity extends AppCompatActivity {
                                         bi.d105d.isChecked() ? "4" : "0");
 
         JSONObject sd = new JSONObject();
+
+        sd.put("formdate", new SimpleDateFormat("dd-MM-yy HH:mm").format(new Date().getTime()));
+        sd.put("username", MainApp.userName);
+        sd.put("deviceid", MainApp.appInfo.getDeviceID());
+        sd.put("tagid", MainApp.appInfo.getTagName());
+        sd.put("appversion", MainApp.appInfo.getAppVersion());
 
         sd.put("d106", menSLst.getFirst().size() != 0 && bi.d106.getSelectedItemPosition() != 1
                 ? mainVModel.getMemberInfo(menSLst.getFirst().get(bi.d106.getSelectedItemPosition() - 2)).getSerialno() : "97");
