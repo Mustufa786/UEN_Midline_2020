@@ -54,7 +54,6 @@ public class SectionDActivity extends AppCompatActivity {
     }
 
     private void setUIComponent() {
-//        mainVModel = ViewModelProviders.of(FamilyMembersListActivity.Companion.getContext()).get(MainVModel.class);
         mainVModel = FamilyMembersListActivity.Companion.getMainVModel();
         serial = getIntent().getIntExtra(SERIAL_EXTRA, 0);
         bi.d101.setText(String.valueOf(serial));
@@ -66,12 +65,15 @@ public class SectionDActivity extends AppCompatActivity {
             bi.fldGrpSectionD02.setVisibility(View.GONE);
             fmc = new FamilyMembersContract();
         } else {
-            bi.d102Name.setText(fmc.getName().toUpperCase() + "\n" + getResources().getString(R.string.d101) + ":" + fmc.getSerialno());
+            bi.d102Name.setText(new StringBuilder(fmc.getName().toUpperCase()).append("\n")
+                    .append(getResources().getString(R.string.d101))
+                    .append(":")
+                    .append(fmc.getSerialno()));
             bi.fldGrpSectionD01.setVisibility(View.GONE);
             bi.fldGrpSectionD02.setVisibility(View.VISIBLE);
 
-            menSLst = mainVModel.getAllMenWomenName02(1, Integer.valueOf(fmc.getSerialno()));
-            womenSLst = mainVModel.getAllMenWomenName02(2, Integer.valueOf(fmc.getSerialno()));
+            menSLst = mainVModel.getAllMenWomenName(1, Integer.valueOf(fmc.getSerialno()));
+            womenSLst = mainVModel.getAllMenWomenName(2, Integer.valueOf(fmc.getSerialno()));
 
             List<String> menLst = new ArrayList<String>() {
                 {
@@ -221,7 +223,7 @@ public class SectionDActivity extends AppCompatActivity {
                                                                                 bi.d111j.isChecked() ? "99" : "0");
 
         sd.put("d115", bi.d115a.isChecked() ? "1" :
-                        bi.d115b.isChecked() ? "2" : "0");
+                bi.d115b.isChecked() ? "2" : "0");
 
         fmc.setAvailable(bi.d115a.isChecked() ? "1" : bi.d115b.isChecked() ? "2" : "0");
 

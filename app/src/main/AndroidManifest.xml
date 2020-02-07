@@ -85,11 +85,11 @@
             android:label="@string/th1heading"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ui.sections.SectionH2Activity"
+            android:name=".ui.sections.SectionH102Activity"
             android:label="@string/th1heading"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ui.sections.SectionH3Activity"
+            android:name=".ui.sections.SectionH2Activity"
             android:label="@string/th2heading"
             android:screenOrientation="portrait" />
         <activity
