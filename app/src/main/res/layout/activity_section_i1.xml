@@ -805,14 +805,14 @@
                                         style="@style/checkbox"
                                         android:text="@string/i116a" />
 
+                                    <TextView
+                                        style="@style/i_textviewhint"
+                                        android:text="@string/i116b_title" />
+
                                     <CheckBox
                                         android:id="@+id/i116b"
                                         style="@style/checkbox"
                                         android:text="@string/i116b" />
-
-                                    <TextView
-                                        style="@style/i_textviewhint"
-                                        android:text="@string/i116b_title" />
 
                                     <CheckBox
                                         android:id="@+id/i116c"
@@ -824,14 +824,14 @@
                                         style="@style/checkbox"
                                         android:text="@string/i116d" />
 
+                                    <TextView
+                                        style="@style/i_textviewhint"
+                                        android:text="@string/i116e_ttitle" />
+
                                     <CheckBox
                                         android:id="@+id/i116e"
                                         style="@style/checkbox"
                                         android:text="@string/i116e" />
-
-                                    <TextView
-                                        style="@style/i_textviewhint"
-                                        android:text="@string/i116e_ttitle" />
 
                                     <CheckBox
                                         android:id="@+id/i116f"

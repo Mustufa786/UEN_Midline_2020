@@ -344,8 +344,8 @@
     <string name="f102"> F102:\t Where did you seek ANC checkup for last pregnancy ? </string>
     <string name="f102a"> Government health facility </string>
     <string name="f102b"> Private health facility </string>
-    <string name="f102c"> Health House </string>
-    <string name="f102d"> Birth station </string>
+    <string name="f102c"> Health House (LHW)</string>
+    <string name="f102d"> Birth station (CMW)</string>
 
     <string name="f103"> F103:\t Who did ANC checkup during last pregnancy?  Probe: Anyone else ? </string>
     <string name="f103a"> Doctor </string>

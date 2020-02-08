@@ -230,7 +230,7 @@ public class SectionGActivity extends AppCompatActivity {
                         bi.g104c.isChecked() ? "3" :
                                 bi.g104d.isChecked() ? "4" :
                                         bi.g104e.isChecked() ? "5" :
-                                                bi.g104f.isChecked() ? "6" : "0");
+                                                /*bi.g104f.isChecked() ? "6" :*/ "0");
 
         json.put("g105", bi.g105.getText().toString());
 

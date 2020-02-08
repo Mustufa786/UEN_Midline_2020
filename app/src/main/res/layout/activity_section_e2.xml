@@ -637,7 +637,7 @@
                                     android:maxLength="2"
                                     android:textColor="@android:color/black"
                                     app:defaultValue="00"
-                                    app:maxValue="11"
+                                    app:maxValue="12"
                                     app:minValue="1"
                                     app:type="range" />
 
@@ -659,7 +659,6 @@
                                     android:hint="@string/e110c"
                                     android:maxLength="4"
                                     android:textColor="@android:color/black"
-                                    app:defaultValue="00"
                                     app:maxValue="0"
                                     app:minValue="0"
                                     app:type="range" />
