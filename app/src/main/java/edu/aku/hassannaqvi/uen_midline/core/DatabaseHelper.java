@@ -1699,6 +1699,25 @@ public class DatabaseHelper extends SQLiteOpenHelper {
                 whereArgs);
     }
 
+    public void updateSyncedMortalityForms(String id) {
+        SQLiteDatabase db = this.getReadableDatabase();
+
+// New value for one column
+        ContentValues values = new ContentValues();
+        values.put(SingleMortality.COLUMN_SYNCED, true);
+        values.put(SingleMortality.COLUMN_SYNCED_DATE, new Date().toString());
+
+// Which row to update, based on the title
+        String where = SingleMortality._ID + " = ?";
+        String[] whereArgs = {id};
+
+        int count = db.update(
+                SingleMortality.TABLE_NAME,
+                values,
+                where,
+                whereArgs);
+    }
+
     public void updateSyncedPregMWRAForms(String id) {
         SQLiteDatabase db = this.getReadableDatabase();
 

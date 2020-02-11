@@ -216,7 +216,7 @@ public class SyncActivity extends AppCompatActivity implements SyncDevice.SyncDe
                     this,
                     "Mortality",
                     "updateSyncedMortalityForms",
-                    MWRA_PREContract.class,
+                    MortalityContract.class,
                     MainApp._HOST_URL + MainApp._SERVER_URL,
                     MortalityContract.SingleMortality.TABLE_NAME,
                     db.getUnsyncedMortality(), 4, uploadListAdapter, uploadlist
