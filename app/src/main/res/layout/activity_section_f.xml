@@ -602,6 +602,8 @@
                             <CheckBox
                                 android:id="@+id/f110h"
                                 style="@style/checkbox"
+                                android:checked="@{f110i.checked ? false : false}"
+                                android:enabled="@{f110i.checked ? false : true}"
                                 android:text="@string/f110h" />
 
                             <CheckBox

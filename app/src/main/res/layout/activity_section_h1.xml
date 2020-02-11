@@ -62,7 +62,7 @@
                                 android:tag="h101a"
                                 android:text='@{h101a.checked? h101aw.getText().toString() : ""}'
                                 android:visibility='@{h101a.checked?  View.VISIBLE : View.GONE}'
-                                app:maxValue="40"
+                                app:maxValue="42"
                                 app:minValue="1"
                                 app:type="range" />
 
@@ -187,7 +187,7 @@
 
                 </androidx.cardview.widget.CardView>
 
-                <!-- h104  Radio   -->
+                <!-- h104  check   -->
                 <androidx.cardview.widget.CardView
                     android:id="@+id/fldGrpCVh104"
                     style="@style/cardView">
@@ -195,7 +195,8 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:orientation="vertical">
+                        android:orientation="vertical"
+                        android:tag="-1">
 
                         <TextView
                             style="@style/i_textview"
