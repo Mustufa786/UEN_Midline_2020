@@ -17,7 +17,9 @@ import com.validatorcrawler.aliazaz.Validator;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 import edu.aku.hassannaqvi.uen_midline.R;
@@ -54,7 +56,6 @@ public class SectionDActivity extends AppCompatActivity {
     }
 
     private void setUIComponent() {
-//        mainVModel = ViewModelProviders.of(FamilyMembersListActivity.Companion.getContext()).get(MainVModel.class);
         mainVModel = FamilyMembersListActivity.Companion.getMainVModel();
         serial = getIntent().getIntExtra(SERIAL_EXTRA, 0);
         bi.d101.setText(String.valueOf(serial));
@@ -66,12 +67,15 @@ public class SectionDActivity extends AppCompatActivity {
             bi.fldGrpSectionD02.setVisibility(View.GONE);
             fmc = new FamilyMembersContract();
         } else {
-            bi.d102Name.setText(fmc.getName().toUpperCase() + "\n" + getResources().getString(R.string.d101) + ":" + fmc.getSerialno());
+            bi.d102Name.setText(new StringBuilder(fmc.getName().toUpperCase()).append("\n")
+                    .append(getResources().getString(R.string.d101))
+                    .append(":")
+                    .append(fmc.getSerialno()));
             bi.fldGrpSectionD01.setVisibility(View.GONE);
             bi.fldGrpSectionD02.setVisibility(View.VISIBLE);
 
-            menSLst = mainVModel.getAllMenWomenName02(1, Integer.valueOf(fmc.getSerialno()));
-            womenSLst = mainVModel.getAllMenWomenName02(2, Integer.valueOf(fmc.getSerialno()));
+            menSLst = mainVModel.getAllMenWomenName(1, Integer.valueOf(fmc.getSerialno()));
+            womenSLst = mainVModel.getAllMenWomenName(2, Integer.valueOf(fmc.getSerialno()));
 
             List<String> menLst = new ArrayList<String>() {
                 {
@@ -138,8 +142,9 @@ public class SectionDActivity extends AppCompatActivity {
     private void SaveDraft() throws JSONException {
 
         if (fmcFLAG) {
+            fmc.setClusterno(MainApp.fc.getClusterCode());
+            fmc.setHhno(MainApp.fc.getHhno());
             fmc.setSerialno(bi.d101.getText().toString());
-            fmc.setName(bi.d102.getText().toString());
             fmc.setName(bi.d102.getText().toString());
             fmc.setRelHH(bi.d103a.isChecked() ? "1" :
                     bi.d103b.isChecked() ? "2" :
@@ -176,6 +181,12 @@ public class SectionDActivity extends AppCompatActivity {
                                         bi.d105d.isChecked() ? "4" : "0");
 
         JSONObject sd = new JSONObject();
+
+        sd.put("formdate", new SimpleDateFormat("dd-MM-yy HH:mm").format(new Date().getTime()));
+        sd.put("username", MainApp.userName);
+        sd.put("deviceid", MainApp.appInfo.getDeviceID());
+        sd.put("tagid", MainApp.appInfo.getTagName());
+        sd.put("appversion", MainApp.appInfo.getAppVersion());
 
         sd.put("d106", menSLst.getFirst().size() != 0 && bi.d106.getSelectedItemPosition() != 1
                 ? mainVModel.getMemberInfo(menSLst.getFirst().get(bi.d106.getSelectedItemPosition() - 2)).getSerialno() : "97");
@@ -221,7 +232,7 @@ public class SectionDActivity extends AppCompatActivity {
                                                                                 bi.d111j.isChecked() ? "99" : "0");
 
         sd.put("d115", bi.d115a.isChecked() ? "1" :
-                        bi.d115b.isChecked() ? "2" : "0");
+                bi.d115b.isChecked() ? "2" : "0");
 
         fmc.setAvailable(bi.d115a.isChecked() ? "1" : bi.d115b.isChecked() ? "2" : "0");
 

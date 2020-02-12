@@ -185,7 +185,7 @@ public class SyncAllData extends AsyncTask<Void, Integer, String> {
         super.onPostExecute(result);
         int sSynced = 0;
         int sDuplicate = 0;
-        String sSyncedError = "";
+        StringBuilder sSyncedError = new StringBuilder();
         JSONArray json;
         try {
             json = new JSONArray(result);
@@ -217,7 +217,7 @@ public class SyncAllData extends AsyncTask<Void, Integer, String> {
 
                     sDuplicate++;
                 } else {
-                    sSyncedError += "\nError: " + jsonObject.getString("message");
+                    sSyncedError.append("\nError: ").append(jsonObject.getString("message"));
                 }
             }
             Toast.makeText(mContext, syncClass + " synced: " + sSynced + "\r\n\r\n Errors: " + sSyncedError, Toast.LENGTH_SHORT).show();
@@ -226,7 +226,7 @@ public class SyncAllData extends AsyncTask<Void, Integer, String> {
             pd.setMessage(syncClass + " synced: " + sSynced + "\r\n\r\n Duplicates: " + sDuplicate + "\r\n\r\n Errors: " + sSyncedError);
             pd.setTitle("Done uploading +" + syncClass + " data");
 //            pd.show();
-            if (sSyncedError.equals("")) {
+            if (sSyncedError.toString().equals("")) {
                 uploadlist.get(position).setmessage(syncClass + " synced: " + sSynced + "\r\n\r\n Duplicates: " + sDuplicate + "\r\n\r\n Errors: " + sSyncedError);
                 uploadlist.get(position).setstatus("Completed");
                 uploadlist.get(position).setstatusID(3);
@@ -259,9 +259,7 @@ public class SyncAllData extends AsyncTask<Void, Integer, String> {
                 adapter.updatesyncList(uploadlist);
             }
             //syncStatus.setText(syncStatus.getText() + "\r\n" + syncClass + " Sync Failed");
-        } catch (IllegalAccessException e) {
-            e.printStackTrace();
-        } catch (InvocationTargetException e) {
+        } catch (IllegalAccessException | InvocationTargetException e) {
             e.printStackTrace();
         }
     }

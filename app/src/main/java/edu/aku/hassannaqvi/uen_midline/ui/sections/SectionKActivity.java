@@ -47,11 +47,11 @@ public class SectionKActivity extends AppCompatActivity {
 
         }));
 
-        bi.k105.setOnCheckedChangeListener(((radioGroup, i) -> {
+        /*bi.k105.setOnCheckedChangeListener(((radioGroup, i) -> {
             if (i != bi.k105aac.getId()) {
                 ClearClass.ClearAllFields(bi.fldGrpCVk106, null);
             }
-        }));
+        }));*/
 
     }
 

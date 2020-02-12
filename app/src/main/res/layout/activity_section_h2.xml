@@ -52,23 +52,23 @@
 
                             <RadioButton
                                 android:id="@+id/h201a"
+                                style="@style/radiobutton"
                                 android:layout_width="0dp"
                                 android:layout_weight="1"
-                                style="@style/radiobutton"
                                 android:text="@string/hours" />
 
                             <RadioButton
                                 android:id="@+id/h201b"
+                                style="@style/radiobutton"
                                 android:layout_width="0dp"
                                 android:layout_weight="1"
-                                style="@style/radiobutton"
                                 android:text="@string/days" />
 
                             <RadioButton
                                 android:id="@+id/h201c"
+                                style="@style/radiobutton"
                                 android:layout_width="0dp"
                                 android:layout_weight="1"
-                                style="@style/radiobutton"
                                 android:text="@string/weeks" />
 
                         </RadioGroup>
@@ -148,23 +148,23 @@
 
                             <RadioButton
                                 android:id="@+id/h203a"
+                                style="@style/radiobutton"
                                 android:layout_width="0dp"
                                 android:layout_weight="1"
-                                style="@style/radiobutton"
                                 android:text="@string/hours" />
 
                             <RadioButton
                                 android:id="@+id/h203b"
+                                style="@style/radiobutton"
                                 android:layout_width="0dp"
                                 android:layout_weight="1"
-                                style="@style/radiobutton"
                                 android:text="@string/days" />
 
                             <RadioButton
                                 android:id="@+id/h203c"
+                                style="@style/radiobutton"
                                 android:layout_width="0dp"
                                 android:layout_weight="1"
-                                style="@style/radiobutton"
                                 android:text="@string/weeks" />
 
                         </RadioGroup>
@@ -298,16 +298,16 @@
 
                             <RadioButton
                                 android:id="@+id/h206a"
+                                style="@style/radiobutton"
                                 android:layout_width="0dp"
                                 android:layout_weight="1"
-                                style="@style/radiobutton"
                                 android:text="@string/yes" />
 
                             <RadioButton
                                 android:id="@+id/h206b"
+                                style="@style/radiobutton"
                                 android:layout_width="0dp"
                                 android:layout_weight="1"
-                                style="@style/radiobutton"
                                 android:text="@string/no" />
 
                         </RadioGroup>
@@ -467,16 +467,16 @@
 
                             <RadioButton
                                 android:id="@+id/h209a"
+                                style="@style/radiobutton"
                                 android:layout_width="0dp"
                                 android:layout_weight="1"
-                                style="@style/radiobutton"
                                 android:text="@string/yes" />
 
                             <RadioButton
                                 android:id="@+id/h209b"
+                                style="@style/radiobutton"
                                 android:layout_width="0dp"
                                 android:layout_weight="1"
-                                style="@style/radiobutton"
                                 android:text="@string/no" />
 
                         </RadioGroup>

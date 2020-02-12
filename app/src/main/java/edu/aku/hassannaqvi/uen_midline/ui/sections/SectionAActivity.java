@@ -135,7 +135,7 @@ public class SectionAActivity extends AppCompatActivity implements Util.EndSecAA
         MainApp.fc.setDevicetagID(MainApp.appInfo.getTagName());
         MainApp.fc.setAppversion(MainApp.appInfo.getAppVersion());
         MainApp.fc.setClusterCode(bi.a101.getText().toString());
-//        MainApp.fc.setHhno(bi.a112.getText().toString());
+        MainApp.fc.setHhno(bi.a112.getText().toString());
         MainApp.setGPS(this); // Set GPS
 
         JSONObject json = new JSONObject();
@@ -163,10 +163,6 @@ public class SectionAActivity extends AppCompatActivity implements Util.EndSecAA
         json.put("c101a",
                 bi.c101aa.isChecked() ? "1" :
                         bi.c101ab.isChecked() ? "2" :
-                                "0");
-        json.put("c101b",
-                bi.c101ba.isChecked() ? "1" :
-                        bi.c101bb.isChecked() ? "2" :
                                 "0");
 
         MainApp.fc.setsInfo(String.valueOf(json));

@@ -214,7 +214,7 @@
 
     <string name="d114"> D114:\t Total children of under 5 years age in household (Auto calculated) </string>
 
-    <string name="d115"> D115:\t Is this Person are available at home ? </string>
+    <string name="d115"> D115:\t Is this Person available at home ? </string>
     <string name="d115a"> Yes </string>
     <string name="d115b"> No </string>
 
@@ -1189,28 +1189,28 @@
     <string name="i116g"> Intravenous (IV) </string>
     <string name="i116h"> Home remedy/herbal medicine </string>
 
-    <string name="i117"> I117:\t Have you heard about ORS ? </string>
-    <string name="i117a"> Yes </string>
-    <string name="i117b"> No </string>
+    <string name="i117"> I120:\t How much did diarrheal treatment of {NAME} cost you for medicine ? </string>
 
-    <string name="i118"> I118:\t Are you aware about the preparation method of ORS (Oral rehydration salt) ? </string>
-    <string name="i118a">Yes</string>
-    <string name="i118b">No</string>
+    <string name="i118"> I121:\t How much did it cost you on transport for diarrheal treatment of {NAME} ? </string>
 
-    <string name="i119"> I119:\t Where did you learn how to prepare Oral Rehydration Solution (ORS)? </string>
-    <string name="i119a"> Doctor </string>
-    <string name="i119b"> LHV (Lady Health Visitor) </string>
-    <string name="i119c"> Nurse </string>
-    <string name="i119d"> Community Midwife </string>
-    <string name="i119e"> Dispenser/Compounder </string>
-    <string name="i119f"> HW (Lady Health Worker) </string>
-    <string name="i119g"> Dai/TBA (Traditional Birth Attendant) </string>
-    <string name="i119h"> Pamphalet/Broucher/SignBoard </string>
-    <string name="i119i"> Mobile/SmartPhone </string>
+    <string name="i119"> I117:\t Have you heard about ORS ? </string>
+    <string name="i119a"> Yes </string>
+    <string name="i119b"> No </string>
 
-    <string name="i120"> I120:\t How much did diarrheal treatment of {NAME} cost you for medicine ? </string>
+    <string name="i120"> I118:\t Are you aware about the preparation method of ORS (Oral rehydration salt) ? </string>
+    <string name="i120a">Yes</string>
+    <string name="i120b">No</string>
 
-    <string name="i121"> I121:\t How much did it cost you on transport for diarrheal treatment of {NAME} ? </string>
+    <string name="i121"> I119:\t Where did you learn how to prepare Oral Rehydration Solution (ORS)? </string>
+    <string name="i121a"> Doctor </string>
+    <string name="i121b"> LHV (Lady Health Visitor) </string>
+    <string name="i121c"> Nurse </string>
+    <string name="i121d"> Community Midwife </string>
+    <string name="i121e"> Dispenser/Compounder </string>
+    <string name="i121f"> HW (Lady Health Worker) </string>
+    <string name="i121g"> Dai/TBA (Traditional Birth Attendant) </string>
+    <string name="i121h"> Pamphalet/Broucher/SignBoard </string>
+    <string name="i121i"> Mobile/SmartPhone </string>
 
     <string name="i122"> I122:\t Do you know any danger sign of diarrhea ? </string>
     <string name="i122a"> Yes </string>

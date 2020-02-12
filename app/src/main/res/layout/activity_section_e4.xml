@@ -132,7 +132,6 @@
                                 android:hint="@string/d108c"
                                 android:maxLength="4"
                                 android:textColor="@android:color/black"
-                                app:defaultValue="00"
                                 app:maxValue="0"
                                 app:minValue="0"
                                 app:type="range" />
@@ -165,7 +164,6 @@
                     <com.edittextpicker.aliazaz.EditTextPicker
                         android:id="@+id/e120"
                         style="@style/EditTextNum"
-                        android:enabled="false"
                         android:hint="@string/d109a"
                         android:maxLength="2"
                         android:textColor="@android:color/black"

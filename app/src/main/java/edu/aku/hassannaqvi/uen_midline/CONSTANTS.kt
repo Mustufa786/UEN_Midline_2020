@@ -8,9 +8,9 @@ class CONSTANTS {
         const val MAXYEAR = 2020
         //For J Section
         const val MINYEAR_IM = 2016
+        //For E4 Section
+        const val MORTALITY_INFO = 2017
         const val MWRA_INFO = "mwra"
-
         const val SYNC_LOGIN = "sync_login"
-
     }
 }
