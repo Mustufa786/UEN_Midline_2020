@@ -60,12 +60,26 @@ public class SectionE2Activity extends AppCompatActivity {
         bi.e105.setOnCheckedChangeListener(((radioGroup, i) -> {
 
             MainApp.twinFlag = i == bi.e105c.getId();
-            if (i == bi.e105e.getId()) {
+//            if (i == bi.e105e.getId()) {
+//                bi.container1.setVisibility(View.GONE);
+//                bi.container2.setVisibility(View.GONE);
+//            } else {
+//                bi.container1.setVisibility(View.VISIBLE);
+//                bi.container2.setVisibility(View.VISIBLE);
+//            }
+            if (i == bi.e105b.getId()
+                    || i == bi.e105e.getId()
+                    || i == bi.e105f.getId()) {
                 bi.container1.setVisibility(View.GONE);
-                bi.container2.setVisibility(View.GONE);
+                bi.container2.setVisibility(View.VISIBLE);
+                bi.container3.setVisibility(View.VISIBLE);
+                bi.fldGrpCVe110.setVisibility(View.GONE);
+                ClearClass.ClearAllFields(bi.fldGrpCVe110, null);
+                ClearClass.ClearAllFields(bi.container1, null);
+
             } else {
                 bi.container1.setVisibility(View.VISIBLE);
-                bi.container2.setVisibility(View.VISIBLE);
+                bi.fldGrpCVe110.setVisibility(View.VISIBLE);
             }
 
         }));
@@ -75,6 +89,9 @@ public class SectionE2Activity extends AppCompatActivity {
 
             if (i == bi.e107b.getId()) {
                 bi.mainContainer2.setVisibility(View.VISIBLE);
+                bi.container3.setVisibility(View.GONE);
+                ClearClass.ClearAllFields(bi.container3, null);
+                bi.container2.setVisibility(View.VISIBLE);
             } else {
                 bi.mainContainer2.setVisibility(View.GONE);
                 ClearClass.ClearAllFields(bi.mainContainer2, null);

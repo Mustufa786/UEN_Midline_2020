@@ -30,6 +30,7 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
         <activity
             android:name=".ui.other.LoginActivity"
@@ -59,7 +60,9 @@
         <activity
             android:name=".ui.sections.SectionE2Activity"
             android:label="@string/teheading"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait">
+
+        </activity>
         <activity
             android:name=".ui.sections.SectionE3Activity"
             android:label="@string/teheading"
