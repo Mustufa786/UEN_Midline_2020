@@ -45,6 +45,7 @@ public class SectionDActivity extends AppCompatActivity {
     private Pair<List<Integer>, List<String>> menSLst;
     private Pair<List<Integer>, List<String>> womenSLst;
     private FamilyMembersContract motherFMC, fatheFMC;
+    private String motherSerial, fatherSerial;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -190,26 +191,8 @@ public class SectionDActivity extends AppCompatActivity {
         sd.put("tagid", MainApp.appInfo.getTagName());
         sd.put("appversion", MainApp.appInfo.getAppVersion());
 
-        String fatherSerial;
-        if (menSLst.getFirst().size() != 0 && bi.d106.getSelectedItemPosition() != 1) {
-            fatheFMC = mainVModel.getMemberInfo(menSLst.getFirst().get(bi.d106.getSelectedItemPosition() - 2));
-            fatherSerial = fatheFMC.getSerialno();
-        } else {
-            fatheFMC = null;
-            fatherSerial = "97";
-        }
-
         sd.put("d106", fatherSerial);
         fmc.setfName(bi.d106.getSelectedItem().toString());
-
-        String motherSerial;
-        if (womenSLst.getFirst().size() != 0 && bi.d107.getSelectedItemPosition() != 1) {
-            motherFMC = mainVModel.getMemberInfo(womenSLst.getFirst().get(bi.d107.getSelectedItemPosition() - 2));
-            motherSerial = motherFMC.getSerialno();
-        } else {
-            motherFMC = null;
-            motherSerial = "97";
-        }
 
         fmc.setMother_name(bi.d107.getSelectedItem().toString());
         sd.put("d107", motherSerial);
@@ -279,6 +262,23 @@ public class SectionDActivity extends AppCompatActivity {
     }
 
     private boolean checkingParentsAge() {
+
+        if (menSLst.getFirst().size() != 0 && bi.d106.getSelectedItemPosition() != 1) {
+            fatheFMC = mainVModel.getMemberInfo(menSLst.getFirst().get(bi.d106.getSelectedItemPosition() - 2));
+            fatherSerial = fatheFMC.getSerialno();
+        } else {
+            fatheFMC = null;
+            fatherSerial = "97";
+        }
+
+        if (womenSLst.getFirst().size() != 0 && bi.d107.getSelectedItemPosition() != 1) {
+            motherFMC = mainVModel.getMemberInfo(womenSLst.getFirst().get(bi.d107.getSelectedItemPosition() - 2));
+            motherSerial = motherFMC.getSerialno();
+        } else {
+            motherFMC = null;
+            motherSerial = "97";
+        }
+
         int fAge = fatheFMC != null ? Integer.valueOf(fatheFMC.getAge()) : 0;
         int mAge = motherFMC != null ? Integer.valueOf(motherFMC.getAge()) : 0;
 
