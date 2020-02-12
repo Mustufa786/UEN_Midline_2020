@@ -12,177 +12,85 @@
             type="edu.aku.hassannaqvi.uen_midline.ui.sections.SectionJActivity" />
     </data>
 
-    <ScrollView
-        style="@style/i_scrollview"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+    <LinearLayout
+        style="@style/linearlayout_view_wt_bound"
+        android:orientation="vertical">
 
-        <LinearLayout
-            android:layoutDirection="ltr"
-            android:id="@+id/fldGrpSectionJ01"
+        <TextView
+            android:id="@+id/txtHeadLbl"
+            style="@style/textView3Head" />
+
+        <ScrollView
+            style="@style/i_scrollview"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-            <!-- j100  Spinner   -->
-            <androidx.cardview.widget.CardView
-                android:id="@+id/fldGrpCVd107"
-                style="@style/cardView">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
-
-                    <TextView
-                        style="@style/i_textview"
-                        android:layout_width="0dp"
-                        android:layout_weight="1"
-                        android:text="Child Name" />
-
-                    <Spinner
-                        android:id="@+id/j100"
-                        style="@style/spinner"
-                        android:layout_width="0dp"
-                        android:layout_margin="10dp"
-                        android:layout_weight="1" />
-
-                </LinearLayout>
-
-            </androidx.cardview.widget.CardView>
-
-            <!-- j100res  Spinner   -->
-            <androidx.cardview.widget.CardView
-                android:id="@+id/respondentSpinner"
-                style="@style/cardView"
-                android:visibility="gone"
-                tools:visibility="visible">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
-
-                    <TextView
-                        style="@style/i_textview"
-                        android:layout_width="0dp"
-                        android:layout_weight="1"
-                        android:text="Respondent Name" />
-
-                    <Spinner
-                        android:id="@+id/j100res"
-                        style="@style/spinner"
-                        android:layout_width="0dp"
-                        android:layout_margin="10dp"
-                        android:layout_weight="1" />
-
-                </LinearLayout>
-
-            </androidx.cardview.widget.CardView>
-
-            <!-- j101  Radio   -->
-            <androidx.cardview.widget.CardView
-                android:id="@+id/fldGrpCVj101"
-                style="@style/cardView">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-
-                    <TextView
-                        style="@style/i_textview"
-                        android:text="@string/j101" />
-
-                    <TextView
-                        style="@style/i_textviewhint"
-                        android:text="@string/j101hint" />
-
-                    <TextView
-                        style="@style/i_textviewhint"
-                        android:text="@string/j101hint1" />
-
-                    <RadioGroup
-                        android:id="@+id/j101"
-                        style="@style/radiogroup"
-                        android:orientation="horizontal">
-
-                        <RadioButton
-                            android:id="@+id/j101a"
-                            android:layout_width="0dp"
-                            android:layout_weight="1"
-                            style="@style/radiobutton"
-                            android:text="@string/j101a" />
-
-                        <RadioButton
-                            android:id="@+id/j101b"
-                            android:layout_width="0dp"
-                            android:layout_weight="1"
-                            style="@style/radiobutton"
-                            android:text="@string/j101b" />
-
-                        <RadioButton
-                            android:id="@+id/j101c"
-                            android:layout_width="0dp"
-                            android:layout_weight="1"
-                            style="@style/radiobutton"
-                            android:text="@string/no" />
-
-                    </RadioGroup>
-
-                </LinearLayout>
-
-            </androidx.cardview.widget.CardView>
-
-            <!-- j102  Radio   -->
-            <androidx.cardview.widget.CardView
-                android:id="@+id/fldGrpCVj102"
-                style="@style/cardView"
-                android:visibility='@{j101c.checked? View.VISIBLE : View.GONE}'>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-
-                    <TextView
-                        style="@style/i_textview"
-                        android:text="@string/j102" />
-
-                    <RadioGroup
-                        android:id="@+id/j102"
-                        style="@style/radiogroup"
-                        android:orientation="horizontal">
-
-                        <RadioButton
-                            android:id="@+id/j102a"
-                            android:layout_width="0dp"
-                            android:layout_weight="1"
-                            style="@style/radiobutton"
-                            android:text="@string/yes" />
-
-                        <RadioButton
-                            android:id="@+id/j102b"
-                            android:layout_width="0dp"
-                            android:layout_weight="1"
-                            style="@style/radiobutton"
-                            android:text="@string/no" />
-
-                    </RadioGroup>
-
-                </LinearLayout>
-
-            </androidx.cardview.widget.CardView>
+            android:layout_height="wrap_content">
 
             <LinearLayout
-                android:id="@+id/fldGrpSectionJ011"
+                android:id="@+id/fldGrpSectionJ01"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:visibility='@{j102a.checked || j102b.checked ? View.GONE : View.VISIBLE}'>
+                android:layoutDirection="ltr"
+                android:orientation="vertical">
+                <!--
+                            &lt;!&ndash; j100  Spinner   &ndash;&gt;
+                            <androidx.cardview.widget.CardView
+                                android:id="@+id/fldGrpCVd107"
+                                style="@style/cardView">
 
-                <!-- j103  (d/m/y)Title   -->
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        style="@style/i_textview"
+                                        android:layout_width="0dp"
+                                        android:layout_weight="1"
+                                        android:text="Child Name" />
+
+                                    <Spinner
+                                        android:id="@+id/j100"
+                                        style="@style/spinner"
+                                        android:layout_width="0dp"
+                                        android:layout_margin="10dp"
+                                        android:layout_weight="1" />
+
+                                </LinearLayout>
+
+                            </androidx.cardview.widget.CardView>
+
+                            &lt;!&ndash; j100res  Spinner   &ndash;&gt;
+                            <androidx.cardview.widget.CardView
+                                android:id="@+id/respondentSpinner"
+                                style="@style/cardView"
+                                android:visibility="gone"
+                                tools:visibility="visible">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        style="@style/i_textview"
+                                        android:layout_width="0dp"
+                                        android:layout_weight="1"
+                                        android:text="Respondent Name" />
+
+                                    <Spinner
+                                        android:id="@+id/j100res"
+                                        style="@style/spinner"
+                                        android:layout_width="0dp"
+                                        android:layout_margin="10dp"
+                                        android:layout_weight="1" />
+
+                                </LinearLayout>
+
+                            </androidx.cardview.widget.CardView>-->
+
+                <!-- j101  Radio   -->
                 <androidx.cardview.widget.CardView
+                    android:id="@+id/fldGrpCVj101"
                     style="@style/cardView">
 
                     <LinearLayout
@@ -192,100 +100,53 @@
 
                         <TextView
                             style="@style/i_textview"
-                            android:text="@string/j103" />
+                            android:text="@string/j101" />
 
-                        <LinearLayout
-                            android:id="@+id/fldGrpCVj103"
-                            style="@style/linearlayout_view_wt_bound"
+                        <TextView
+                            style="@style/i_textviewhint"
+                            android:text="@string/j101hint" />
+
+                        <TextView
+                            style="@style/i_textviewhint"
+                            android:text="@string/j101hint1" />
+
+                        <RadioGroup
+                            android:id="@+id/j101"
+                            style="@style/radiogroup"
                             android:orientation="horizontal">
 
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
+                            <RadioButton
+                                android:id="@+id/j101a"
+                                style="@style/radiobutton"
+                                android:layout_width="0dp"
                                 android:layout_weight="1"
-                                android:orientation="vertical">
+                                android:text="@string/j101a" />
 
-                                <TextView
-                                    style="@style/textView3Head"
-                                    android:text="@string/j103a" />
-
-                                <com.edittextpicker.aliazaz.EditTextPicker
-                                    android:id="@+id/j103a"
-                                    style="@style/EditTextNum"
-                                    android:hint="@string/j103a"
-                                    android:maxLength="2"
-                                    android:text='@{j103d.checked? "" : j103a.getText().toString()}'
-                                    android:enabled='@{j103d.checked?  false : true}'
-                                    app:defaultValue="00"
-                                    app:maxValue="30"
-                                    app:minValue="1"
-                                    app:type="range" />
-
-                            </LinearLayout>
-
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
+                            <RadioButton
+                                android:id="@+id/j101b"
+                                style="@style/radiobutton"
+                                android:layout_width="0dp"
                                 android:layout_weight="1"
-                                android:orientation="vertical">
+                                android:text="@string/j101b" />
 
-                                <TextView
-                                    style="@style/textView3Head"
-                                    android:text="@string/j103b" />
-
-                                <com.edittextpicker.aliazaz.EditTextPicker
-                                    android:id="@+id/j103b"
-                                    style="@style/EditTextNum"
-                                    android:hint="@string/j103b"
-                                    android:maxLength="2"
-                                    android:text='@{j103d.checked? "" : j103b.getText().toString()}'
-                                    android:enabled='@{j103d.checked?  false : true}'
-                                    app:defaultValue="00"
-                                    app:maxValue="11"
-                                    app:minValue="1"
-                                    app:type="range" />
-
-                            </LinearLayout>
-
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
+                            <RadioButton
+                                android:id="@+id/j101c"
+                                style="@style/radiobutton"
+                                android:layout_width="0dp"
                                 android:layout_weight="1"
-                                android:orientation="vertical">
+                                android:text="@string/no" />
 
-                                <TextView
-                                    style="@style/textView3Head"
-                                    android:text="@string/j103c" />
-
-                                <com.edittextpicker.aliazaz.EditTextPicker
-                                    android:id="@+id/j103c"
-                                    style="@style/EditTextNum"
-                                    android:hint="@string/j103c"
-                                    android:maxLength="4"
-                                    android:text='@{j103d.checked? "" : j103c.getText().toString()}'
-                                    android:enabled='@{j103d.checked?  false : true}'
-                                    app:defaultValue="00"
-                                    app:maxValue="0"
-                                    app:minValue="0"
-                                    app:type="range" />
-
-                            </LinearLayout>
-
-                        </LinearLayout>
-
-                        <CheckBox
-                            android:id="@+id/j103d"
-                            style="@style/checkbox"
-                            android:tag="-1"
-                            android:text="@string/dkn" />
+                        </RadioGroup>
 
                     </LinearLayout>
 
                 </androidx.cardview.widget.CardView>
 
-                <!-- j10401  (d/m/y)Title   -->
+                <!-- j102  Radio   -->
                 <androidx.cardview.widget.CardView
-                    style="@style/cardView">
+                    android:id="@+id/fldGrpCVj102"
+                    style="@style/cardView"
+                    android:visibility='@{j101c.checked? View.VISIBLE : View.GONE}'>
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -294,743 +155,882 @@
 
                         <TextView
                             style="@style/i_textview"
-                            android:text="@string/j10401" />
+                            android:text="@string/j102" />
 
-                        <LinearLayout
-                            android:id="@+id/fldGrpCVj10401"
-                            style="@style/linearlayout_view_wt_bound"
+                        <RadioGroup
+                            android:id="@+id/j102"
+                            style="@style/radiogroup"
                             android:orientation="horizontal">
 
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
+                            <RadioButton
+                                android:id="@+id/j102a"
+                                style="@style/radiobutton"
+                                android:layout_width="0dp"
                                 android:layout_weight="1"
-                                android:orientation="vertical">
+                                android:text="@string/yes" />
 
-                                <TextView
-                                    style="@style/textView3Head"
-                                    android:text="@string/j10401d" />
-
-                                <com.edittextpicker.aliazaz.EditTextPicker
-                                    android:id="@+id/j10401d"
-                                    style="@style/EditTextNum"
-                                    android:hint="@string/j10401d"
-                                    android:maxLength="2"
-                                    app:defaultValue="00"
-                                    app:maxValue="30"
-                                    app:minValue="1"
-                                    app:type="range" />
-
-                            </LinearLayout>
-
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
+                            <RadioButton
+                                android:id="@+id/j102b"
+                                style="@style/radiobutton"
+                                android:layout_width="0dp"
                                 android:layout_weight="1"
-                                android:orientation="vertical">
+                                android:text="@string/no" />
 
-                                <TextView
-                                    style="@style/textView3Head"
-                                    android:text="@string/j10401m" />
-
-                                <com.edittextpicker.aliazaz.EditTextPicker
-                                    android:id="@+id/j10401m"
-                                    style="@style/EditTextNum"
-                                    android:hint="@string/j10401m"
-                                    android:maxLength="2"
-                                    app:defaultValue="00"
-                                    app:maxValue="12"
-                                    app:minValue="1"
-                                    app:type="range" />
-
-                            </LinearLayout>
-
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:orientation="vertical">
-
-                                <TextView
-                                    style="@style/textView3Head"
-                                    android:text="@string/j10401y" />
-
-                                <com.edittextpicker.aliazaz.EditTextPicker
-                                    android:id="@+id/j10401y"
-                                    style="@style/EditTextNum"
-                                    android:hint="@string/j10401y"
-                                    android:maxLength="4"
-                                    app:defaultValue="00"
-                                    app:maxValue="0"
-                                    app:minValue="0"
-                                    app:type="range" />
-
-                            </LinearLayout>
-
-                        </LinearLayout>
+                        </RadioGroup>
 
                     </LinearLayout>
 
                 </androidx.cardview.widget.CardView>
 
-                <!-- j10402  (d/m/y)Title   -->
-                <androidx.cardview.widget.CardView
-                    style="@style/cardView">
+                <LinearLayout
+                    android:id="@+id/fldGrpSectionJ011"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility='@{j102a.checked || j102b.checked ? View.GONE : View.VISIBLE}'>
 
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="vertical">
-
-                        <TextView
-                            style="@style/i_textview"
-                            android:text="@string/j10402" />
+                    <!-- j103  (d/m/y)Title   -->
+                    <androidx.cardview.widget.CardView style="@style/cardView">
 
                         <LinearLayout
-                            android:id="@+id/fldGrpCVj10402"
-                            style="@style/linearlayout_view_wt_bound"
-                            android:orientation="horizontal">
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                style="@style/i_textview"
+                                android:text="@string/j103" />
 
                             <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:orientation="vertical">
+                                android:id="@+id/fldGrpCVj103"
+                                style="@style/linearlayout_view_wt_bound"
+                                android:orientation="horizontal">
 
-                                <TextView
-                                    style="@style/textView3Head"
-                                    android:text="@string/j10402d" />
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
 
-                                <com.edittextpicker.aliazaz.EditTextPicker
-                                    android:id="@+id/j10402d"
-                                    style="@style/EditTextNum"
-                                    android:hint="@string/j10402d"
-                                    android:maxLength="2"
-                                    app:defaultValue="00"
-                                    app:maxValue="30"
-                                    app:minValue="1"
-                                    app:type="range" />
+                                    <TextView
+                                        style="@style/textView3Head"
+                                        android:text="@string/j103a" />
+
+                                    <com.edittextpicker.aliazaz.EditTextPicker
+                                        android:id="@+id/j103a"
+                                        style="@style/EditTextNum"
+                                        android:enabled='@{j103d.checked?  false : true}'
+                                        android:hint="@string/j103a"
+                                        android:maxLength="2"
+                                        android:text='@{j103d.checked? "" : j103a.getText().toString()}'
+                                        app:defaultValue="00"
+                                        app:maxValue="30"
+                                        app:minValue="1"
+                                        app:type="range" />
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        style="@style/textView3Head"
+                                        android:text="@string/j103b" />
+
+                                    <com.edittextpicker.aliazaz.EditTextPicker
+                                        android:id="@+id/j103b"
+                                        style="@style/EditTextNum"
+                                        android:enabled='@{j103d.checked?  false : true}'
+                                        android:hint="@string/j103b"
+                                        android:maxLength="2"
+                                        android:text='@{j103d.checked? "" : j103b.getText().toString()}'
+                                        app:defaultValue="00"
+                                        app:maxValue="11"
+                                        app:minValue="1"
+                                        app:type="range" />
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        style="@style/textView3Head"
+                                        android:text="@string/j103c" />
+
+                                    <com.edittextpicker.aliazaz.EditTextPicker
+                                        android:id="@+id/j103c"
+                                        style="@style/EditTextNum"
+                                        android:enabled='@{j103d.checked?  false : true}'
+                                        android:hint="@string/j103c"
+                                        android:maxLength="4"
+                                        android:text='@{j103d.checked? "" : j103c.getText().toString()}'
+                                        app:defaultValue="00"
+                                        app:maxValue="0"
+                                        app:minValue="0"
+                                        app:type="range" />
+
+                                </LinearLayout>
 
                             </LinearLayout>
 
+                            <CheckBox
+                                android:id="@+id/j103d"
+                                style="@style/checkbox"
+                                android:tag="-1"
+                                android:text="@string/dkn" />
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <!-- j10401  (d/m/y)Title   -->
+                    <androidx.cardview.widget.CardView style="@style/cardView">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                style="@style/i_textview"
+                                android:text="@string/j10401" />
+
                             <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:orientation="vertical">
+                                android:id="@+id/fldGrpCVj10401"
+                                style="@style/linearlayout_view_wt_bound"
+                                android:orientation="horizontal">
 
-                                <TextView
-                                    style="@style/textView3Head"
-                                    android:text="@string/j10402m" />
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
 
-                                <com.edittextpicker.aliazaz.EditTextPicker
-                                    android:id="@+id/j10402m"
-                                    style="@style/EditTextNum"
-                                    android:hint="@string/j10402m"
-                                    android:maxLength="2"
-                                    app:defaultValue="00"
-                                    app:maxValue="11"
-                                    app:minValue="1"
-                                    app:type="range" />
+                                    <TextView
+                                        style="@style/textView3Head"
+                                        android:text="@string/j10401d" />
 
-                            </LinearLayout>
+                                    <com.edittextpicker.aliazaz.EditTextPicker
+                                        android:id="@+id/j10401d"
+                                        style="@style/EditTextNum"
+                                        android:hint="@string/j10401d"
+                                        android:maxLength="2"
+                                        app:defaultValue="00"
+                                        app:maxValue="30"
+                                        app:minValue="1"
+                                        app:type="range" />
 
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:orientation="vertical">
+                                </LinearLayout>
 
-                                <TextView
-                                    style="@style/textView3Head"
-                                    android:text="@string/j10402y" />
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
 
-                                <com.edittextpicker.aliazaz.EditTextPicker
-                                    android:id="@+id/j10402y"
-                                    style="@style/EditTextNum"
-                                    android:hint="@string/j10402y"
-                                    android:maxLength="4"
-                                    app:defaultValue="00"
-                                    app:maxValue="0"
-                                    app:minValue="0"
-                                    app:type="range" />
+                                    <TextView
+                                        style="@style/textView3Head"
+                                        android:text="@string/j10401m" />
+
+                                    <com.edittextpicker.aliazaz.EditTextPicker
+                                        android:id="@+id/j10401m"
+                                        style="@style/EditTextNum"
+                                        android:hint="@string/j10401m"
+                                        android:maxLength="2"
+                                        app:defaultValue="00"
+                                        app:maxValue="12"
+                                        app:minValue="1"
+                                        app:type="range" />
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        style="@style/textView3Head"
+                                        android:text="@string/j10401y" />
+
+                                    <com.edittextpicker.aliazaz.EditTextPicker
+                                        android:id="@+id/j10401y"
+                                        style="@style/EditTextNum"
+                                        android:hint="@string/j10401y"
+                                        android:maxLength="4"
+                                        app:defaultValue="00"
+                                        app:maxValue="0"
+                                        app:minValue="0"
+                                        app:type="range" />
+
+                                </LinearLayout>
 
                             </LinearLayout>
 
                         </LinearLayout>
 
-                    </LinearLayout>
+                    </androidx.cardview.widget.CardView>
 
-                </androidx.cardview.widget.CardView>
-
-                <!-- j10403  (d/m/y)Title   -->
-                <androidx.cardview.widget.CardView
-                    style="@style/cardView">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="vertical">
-
-                        <TextView
-                            style="@style/i_textview"
-                            android:text="@string/j10403" />
+                    <!-- j10402  (d/m/y)Title   -->
+                    <androidx.cardview.widget.CardView style="@style/cardView">
 
                         <LinearLayout
-                            android:id="@+id/fldGrpCVj10403"
-                            style="@style/linearlayout_view_wt_bound"
-                            android:orientation="horizontal">
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                style="@style/i_textview"
+                                android:text="@string/j10402" />
 
                             <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:orientation="vertical">
+                                android:id="@+id/fldGrpCVj10402"
+                                style="@style/linearlayout_view_wt_bound"
+                                android:orientation="horizontal">
 
-                                <TextView
-                                    style="@style/textView3Head"
-                                    android:text="@string/j10403d" />
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
 
-                                <com.edittextpicker.aliazaz.EditTextPicker
-                                    android:id="@+id/j10403d"
-                                    style="@style/EditTextNum"
-                                    android:hint="@string/j10403d"
-                                    android:maxLength="2"
-                                    app:defaultValue="00"
-                                    app:maxValue="30"
-                                    app:minValue="1"
-                                    app:type="range" />
+                                    <TextView
+                                        style="@style/textView3Head"
+                                        android:text="@string/j10402d" />
 
-                            </LinearLayout>
+                                    <com.edittextpicker.aliazaz.EditTextPicker
+                                        android:id="@+id/j10402d"
+                                        style="@style/EditTextNum"
+                                        android:hint="@string/j10402d"
+                                        android:maxLength="2"
+                                        app:defaultValue="00"
+                                        app:maxValue="30"
+                                        app:minValue="1"
+                                        app:type="range" />
 
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:orientation="vertical">
+                                </LinearLayout>
 
-                                <TextView
-                                    style="@style/textView3Head"
-                                    android:text="@string/j10403m" />
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
 
-                                <com.edittextpicker.aliazaz.EditTextPicker
-                                    android:id="@+id/j10403m"
-                                    style="@style/EditTextNum"
-                                    android:hint="@string/j10403m"
-                                    android:maxLength="2"
-                                    app:defaultValue="00"
-                                    app:maxValue="11"
-                                    app:minValue="1"
-                                    app:type="range" />
+                                    <TextView
+                                        style="@style/textView3Head"
+                                        android:text="@string/j10402m" />
 
-                            </LinearLayout>
+                                    <com.edittextpicker.aliazaz.EditTextPicker
+                                        android:id="@+id/j10402m"
+                                        style="@style/EditTextNum"
+                                        android:hint="@string/j10402m"
+                                        android:maxLength="2"
+                                        app:defaultValue="00"
+                                        app:maxValue="11"
+                                        app:minValue="1"
+                                        app:type="range" />
 
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:orientation="vertical">
+                                </LinearLayout>
 
-                                <TextView
-                                    style="@style/textView3Head"
-                                    android:text="@string/j10403y" />
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
 
-                                <com.edittextpicker.aliazaz.EditTextPicker
-                                    android:id="@+id/j10403y"
-                                    style="@style/EditTextNum"
-                                    android:hint="@string/j10403y"
-                                    android:maxLength="4"
-                                    app:defaultValue="00"
-                                    app:maxValue="0"
-                                    app:minValue="0"
-                                    app:type="range" />
+                                    <TextView
+                                        style="@style/textView3Head"
+                                        android:text="@string/j10402y" />
+
+                                    <com.edittextpicker.aliazaz.EditTextPicker
+                                        android:id="@+id/j10402y"
+                                        style="@style/EditTextNum"
+                                        android:hint="@string/j10402y"
+                                        android:maxLength="4"
+                                        app:defaultValue="00"
+                                        app:maxValue="0"
+                                        app:minValue="0"
+                                        app:type="range" />
+
+                                </LinearLayout>
 
                             </LinearLayout>
 
                         </LinearLayout>
 
-                    </LinearLayout>
+                    </androidx.cardview.widget.CardView>
 
-                </androidx.cardview.widget.CardView>
-
-                <!-- j10404  (d/m/y)Title   -->
-                <androidx.cardview.widget.CardView
-                    style="@style/cardView">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="vertical">
-
-                        <TextView
-                            style="@style/i_textview"
-                            android:text="@string/j10404" />
+                    <!-- j10403  (d/m/y)Title   -->
+                    <androidx.cardview.widget.CardView style="@style/cardView">
 
                         <LinearLayout
-                            android:id="@+id/fldGrpCVj10404"
-                            style="@style/linearlayout_view_wt_bound"
-                            android:orientation="horizontal">
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                style="@style/i_textview"
+                                android:text="@string/j10403" />
 
                             <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:orientation="vertical">
+                                android:id="@+id/fldGrpCVj10403"
+                                style="@style/linearlayout_view_wt_bound"
+                                android:orientation="horizontal">
 
-                                <TextView
-                                    style="@style/textView3Head"
-                                    android:text="@string/j10404d" />
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
 
-                                <com.edittextpicker.aliazaz.EditTextPicker
-                                    android:id="@+id/j10404d"
-                                    style="@style/EditTextNum"
-                                    android:hint="@string/j10404d"
-                                    android:maxLength="2"
-                                    app:defaultValue="00"
-                                    app:maxValue="30"
-                                    app:minValue="1"
-                                    app:type="range" />
+                                    <TextView
+                                        style="@style/textView3Head"
+                                        android:text="@string/j10403d" />
 
-                            </LinearLayout>
+                                    <com.edittextpicker.aliazaz.EditTextPicker
+                                        android:id="@+id/j10403d"
+                                        style="@style/EditTextNum"
+                                        android:hint="@string/j10403d"
+                                        android:maxLength="2"
+                                        app:defaultValue="00"
+                                        app:maxValue="30"
+                                        app:minValue="1"
+                                        app:type="range" />
 
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:orientation="vertical">
+                                </LinearLayout>
 
-                                <TextView
-                                    style="@style/textView3Head"
-                                    android:text="@string/j10404m" />
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
 
-                                <com.edittextpicker.aliazaz.EditTextPicker
-                                    android:id="@+id/j10404m"
-                                    style="@style/EditTextNum"
-                                    android:hint="@string/j10404m"
-                                    android:maxLength="2"
-                                    app:defaultValue="00"
-                                    app:maxValue="11"
-                                    app:minValue="1"
-                                    app:type="range" />
+                                    <TextView
+                                        style="@style/textView3Head"
+                                        android:text="@string/j10403m" />
 
-                            </LinearLayout>
+                                    <com.edittextpicker.aliazaz.EditTextPicker
+                                        android:id="@+id/j10403m"
+                                        style="@style/EditTextNum"
+                                        android:hint="@string/j10403m"
+                                        android:maxLength="2"
+                                        app:defaultValue="00"
+                                        app:maxValue="11"
+                                        app:minValue="1"
+                                        app:type="range" />
 
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:orientation="vertical">
+                                </LinearLayout>
 
-                                <TextView
-                                    style="@style/textView3Head"
-                                    android:text="@string/j10404y" />
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
 
-                                <com.edittextpicker.aliazaz.EditTextPicker
-                                    android:id="@+id/j10404y"
-                                    style="@style/EditTextNum"
-                                    android:hint="@string/j10404y"
-                                    android:maxLength="4"
-                                    app:defaultValue="00"
-                                    app:maxValue="0"
-                                    app:minValue="0"
-                                    app:type="range" />
+                                    <TextView
+                                        style="@style/textView3Head"
+                                        android:text="@string/j10403y" />
+
+                                    <com.edittextpicker.aliazaz.EditTextPicker
+                                        android:id="@+id/j10403y"
+                                        style="@style/EditTextNum"
+                                        android:hint="@string/j10403y"
+                                        android:maxLength="4"
+                                        app:defaultValue="00"
+                                        app:maxValue="0"
+                                        app:minValue="0"
+                                        app:type="range" />
+
+                                </LinearLayout>
 
                             </LinearLayout>
 
                         </LinearLayout>
 
-                    </LinearLayout>
+                    </androidx.cardview.widget.CardView>
 
-                </androidx.cardview.widget.CardView>
-
-                <!-- j10405  (d/m/y)Title   -->
-                <androidx.cardview.widget.CardView
-                    style="@style/cardView">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="vertical">
-
-                        <TextView
-                            style="@style/i_textview"
-                            android:text="@string/j10405" />
+                    <!-- j10404  (d/m/y)Title   -->
+                    <androidx.cardview.widget.CardView style="@style/cardView">
 
                         <LinearLayout
-                            android:id="@+id/fldGrpCVj10405"
-                            style="@style/linearlayout_view_wt_bound"
-                            android:orientation="horizontal">
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                style="@style/i_textview"
+                                android:text="@string/j10404" />
 
                             <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:orientation="vertical">
+                                android:id="@+id/fldGrpCVj10404"
+                                style="@style/linearlayout_view_wt_bound"
+                                android:orientation="horizontal">
 
-                                <TextView
-                                    style="@style/textView3Head"
-                                    android:text="@string/j10405d" />
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
 
-                                <com.edittextpicker.aliazaz.EditTextPicker
-                                    android:id="@+id/j10405d"
-                                    style="@style/EditTextNum"
-                                    android:hint="@string/j10405d"
-                                    android:maxLength="2"
-                                    app:defaultValue="00"
-                                    app:maxValue="30"
-                                    app:minValue="1"
-                                    app:type="range" />
+                                    <TextView
+                                        style="@style/textView3Head"
+                                        android:text="@string/j10404d" />
 
-                            </LinearLayout>
+                                    <com.edittextpicker.aliazaz.EditTextPicker
+                                        android:id="@+id/j10404d"
+                                        style="@style/EditTextNum"
+                                        android:hint="@string/j10404d"
+                                        android:maxLength="2"
+                                        app:defaultValue="00"
+                                        app:maxValue="30"
+                                        app:minValue="1"
+                                        app:type="range" />
 
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:orientation="vertical">
+                                </LinearLayout>
 
-                                <TextView
-                                    style="@style/textView3Head"
-                                    android:text="@string/j10405m" />
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
 
-                                <com.edittextpicker.aliazaz.EditTextPicker
-                                    android:id="@+id/j10405m"
-                                    style="@style/EditTextNum"
-                                    android:hint="@string/j10405m"
-                                    android:maxLength="2"
-                                    app:defaultValue="00"
-                                    app:maxValue="11"
-                                    app:minValue="1"
-                                    app:type="range" />
+                                    <TextView
+                                        style="@style/textView3Head"
+                                        android:text="@string/j10404m" />
 
-                            </LinearLayout>
+                                    <com.edittextpicker.aliazaz.EditTextPicker
+                                        android:id="@+id/j10404m"
+                                        style="@style/EditTextNum"
+                                        android:hint="@string/j10404m"
+                                        android:maxLength="2"
+                                        app:defaultValue="00"
+                                        app:maxValue="11"
+                                        app:minValue="1"
+                                        app:type="range" />
 
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:orientation="vertical">
+                                </LinearLayout>
 
-                                <TextView
-                                    style="@style/textView3Head"
-                                    android:text="@string/j10405y" />
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
 
-                                <com.edittextpicker.aliazaz.EditTextPicker
-                                    android:id="@+id/j10405y"
-                                    style="@style/EditTextNum"
-                                    android:hint="@string/j10405y"
-                                    android:maxLength="4"
-                                    app:defaultValue="00"
-                                    app:maxValue="0"
-                                    app:minValue="0"
-                                    app:type="range" />
+                                    <TextView
+                                        style="@style/textView3Head"
+                                        android:text="@string/j10404y" />
+
+                                    <com.edittextpicker.aliazaz.EditTextPicker
+                                        android:id="@+id/j10404y"
+                                        style="@style/EditTextNum"
+                                        android:hint="@string/j10404y"
+                                        android:maxLength="4"
+                                        app:defaultValue="00"
+                                        app:maxValue="0"
+                                        app:minValue="0"
+                                        app:type="range" />
+
+                                </LinearLayout>
 
                             </LinearLayout>
 
                         </LinearLayout>
 
-                    </LinearLayout>
-                </androidx.cardview.widget.CardView>
+                    </androidx.cardview.widget.CardView>
 
-                <!-- j10406  (d/m/y)Title   -->
-                <androidx.cardview.widget.CardView
-                    style="@style/cardView">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="vertical">
-
-                        <TextView
-                            style="@style/i_textview"
-                            android:text="@string/j10406" />
+                    <!-- j10405  (d/m/y)Title   -->
+                    <androidx.cardview.widget.CardView style="@style/cardView">
 
                         <LinearLayout
-                            android:id="@+id/fldGrpCVj10406"
-                            style="@style/linearlayout_view_wt_bound"
-                            android:orientation="horizontal">
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                style="@style/i_textview"
+                                android:text="@string/j10405" />
 
                             <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:orientation="vertical">
+                                android:id="@+id/fldGrpCVj10405"
+                                style="@style/linearlayout_view_wt_bound"
+                                android:orientation="horizontal">
 
-                                <TextView
-                                    style="@style/textView3Head"
-                                    android:text="@string/j10406d" />
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
 
-                                <com.edittextpicker.aliazaz.EditTextPicker
-                                    android:id="@+id/j10406d"
-                                    style="@style/EditTextNum"
-                                    android:hint="@string/j10406d"
-                                    android:maxLength="2"
-                                    app:defaultValue="00"
-                                    app:maxValue="30"
-                                    app:minValue="1"
-                                    app:type="range" />
+                                    <TextView
+                                        style="@style/textView3Head"
+                                        android:text="@string/j10405d" />
+
+                                    <com.edittextpicker.aliazaz.EditTextPicker
+                                        android:id="@+id/j10405d"
+                                        style="@style/EditTextNum"
+                                        android:hint="@string/j10405d"
+                                        android:maxLength="2"
+                                        app:defaultValue="00"
+                                        app:maxValue="30"
+                                        app:minValue="1"
+                                        app:type="range" />
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        style="@style/textView3Head"
+                                        android:text="@string/j10405m" />
+
+                                    <com.edittextpicker.aliazaz.EditTextPicker
+                                        android:id="@+id/j10405m"
+                                        style="@style/EditTextNum"
+                                        android:hint="@string/j10405m"
+                                        android:maxLength="2"
+                                        app:defaultValue="00"
+                                        app:maxValue="11"
+                                        app:minValue="1"
+                                        app:type="range" />
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        style="@style/textView3Head"
+                                        android:text="@string/j10405y" />
+
+                                    <com.edittextpicker.aliazaz.EditTextPicker
+                                        android:id="@+id/j10405y"
+                                        style="@style/EditTextNum"
+                                        android:hint="@string/j10405y"
+                                        android:maxLength="4"
+                                        app:defaultValue="00"
+                                        app:maxValue="0"
+                                        app:minValue="0"
+                                        app:type="range" />
+
+                                </LinearLayout>
 
                             </LinearLayout>
 
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:orientation="vertical">
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
 
-                                <TextView
-                                    style="@style/textView3Head"
-                                    android:text="@string/j10406m" />
+                    <!-- j10406  (d/m/y)Title   -->
+                    <androidx.cardview.widget.CardView style="@style/cardView">
 
-                                <com.edittextpicker.aliazaz.EditTextPicker
-                                    android:id="@+id/j10406m"
-                                    style="@style/EditTextNum"
-                                    android:hint="@string/j10406m"
-                                    android:maxLength="2"
-                                    app:defaultValue="00"
-                                    app:maxValue="11"
-                                    app:minValue="1"
-                                    app:type="range" />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
 
-                            </LinearLayout>
+                            <TextView
+                                style="@style/i_textview"
+                                android:text="@string/j10406" />
 
                             <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:orientation="vertical">
+                                android:id="@+id/fldGrpCVj10406"
+                                style="@style/linearlayout_view_wt_bound"
+                                android:orientation="horizontal">
 
-                                <TextView
-                                    style="@style/textView3Head"
-                                    android:text="@string/j10406y" />
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
 
-                                <com.edittextpicker.aliazaz.EditTextPicker
-                                    android:id="@+id/j10406y"
-                                    style="@style/EditTextNum"
-                                    android:hint="@string/j10406y"
-                                    android:maxLength="4"
-                                    app:defaultValue="00"
-                                    app:maxValue="0"
-                                    app:minValue="0"
-                                    app:type="range" />
+                                    <TextView
+                                        style="@style/textView3Head"
+                                        android:text="@string/j10406d" />
+
+                                    <com.edittextpicker.aliazaz.EditTextPicker
+                                        android:id="@+id/j10406d"
+                                        style="@style/EditTextNum"
+                                        android:hint="@string/j10406d"
+                                        android:maxLength="2"
+                                        app:defaultValue="00"
+                                        app:maxValue="30"
+                                        app:minValue="1"
+                                        app:type="range" />
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        style="@style/textView3Head"
+                                        android:text="@string/j10406m" />
+
+                                    <com.edittextpicker.aliazaz.EditTextPicker
+                                        android:id="@+id/j10406m"
+                                        style="@style/EditTextNum"
+                                        android:hint="@string/j10406m"
+                                        android:maxLength="2"
+                                        app:defaultValue="00"
+                                        app:maxValue="11"
+                                        app:minValue="1"
+                                        app:type="range" />
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        style="@style/textView3Head"
+                                        android:text="@string/j10406y" />
+
+                                    <com.edittextpicker.aliazaz.EditTextPicker
+                                        android:id="@+id/j10406y"
+                                        style="@style/EditTextNum"
+                                        android:hint="@string/j10406y"
+                                        android:maxLength="4"
+                                        app:defaultValue="00"
+                                        app:maxValue="0"
+                                        app:minValue="0"
+                                        app:type="range" />
+
+                                </LinearLayout>
 
                             </LinearLayout>
 
                         </LinearLayout>
 
-                    </LinearLayout>
+                    </androidx.cardview.widget.CardView>
 
-                </androidx.cardview.widget.CardView>
-
-                <!-- j10407  (d/m/y)Title   -->
-                <androidx.cardview.widget.CardView
-                    style="@style/cardView">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="vertical">
-
-                        <TextView
-                            style="@style/i_textview"
-                            android:text="@string/j10407" />
+                    <!-- j10407  (d/m/y)Title   -->
+                    <androidx.cardview.widget.CardView style="@style/cardView">
 
                         <LinearLayout
-                            android:id="@+id/fldGrpCVj10407"
-                            style="@style/linearlayout_view_wt_bound"
-                            android:orientation="horizontal">
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                style="@style/i_textview"
+                                android:text="@string/j10407" />
 
                             <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:orientation="vertical">
+                                android:id="@+id/fldGrpCVj10407"
+                                style="@style/linearlayout_view_wt_bound"
+                                android:orientation="horizontal">
 
-                                <TextView
-                                    style="@style/textView3Head"
-                                    android:text="@string/j10407d" />
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
 
-                                <com.edittextpicker.aliazaz.EditTextPicker
-                                    android:id="@+id/j10407d"
-                                    style="@style/EditTextNum"
-                                    android:hint="@string/j10407d"
-                                    android:maxLength="2"
-                                    app:defaultValue="00"
-                                    app:maxValue="30"
-                                    app:minValue="1"
-                                    app:type="range" />
+                                    <TextView
+                                        style="@style/textView3Head"
+                                        android:text="@string/j10407d" />
 
-                            </LinearLayout>
+                                    <com.edittextpicker.aliazaz.EditTextPicker
+                                        android:id="@+id/j10407d"
+                                        style="@style/EditTextNum"
+                                        android:hint="@string/j10407d"
+                                        android:maxLength="2"
+                                        app:defaultValue="00"
+                                        app:maxValue="30"
+                                        app:minValue="1"
+                                        app:type="range" />
 
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:orientation="vertical">
+                                </LinearLayout>
 
-                                <TextView
-                                    style="@style/textView3Head"
-                                    android:text="@string/j10407m" />
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
 
-                                <com.edittextpicker.aliazaz.EditTextPicker
-                                    android:id="@+id/j10407m"
-                                    style="@style/EditTextNum"
-                                    android:hint="@string/j10407m"
-                                    android:maxLength="2"
-                                    app:defaultValue="00"
-                                    app:maxValue="11"
-                                    app:minValue="1"
-                                    app:type="range" />
+                                    <TextView
+                                        style="@style/textView3Head"
+                                        android:text="@string/j10407m" />
 
-                            </LinearLayout>
+                                    <com.edittextpicker.aliazaz.EditTextPicker
+                                        android:id="@+id/j10407m"
+                                        style="@style/EditTextNum"
+                                        android:hint="@string/j10407m"
+                                        android:maxLength="2"
+                                        app:defaultValue="00"
+                                        app:maxValue="11"
+                                        app:minValue="1"
+                                        app:type="range" />
 
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:orientation="vertical">
+                                </LinearLayout>
 
-                                <TextView
-                                    style="@style/textView3Head"
-                                    android:text="@string/j10407y" />
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
 
-                                <com.edittextpicker.aliazaz.EditTextPicker
-                                    android:id="@+id/j10407y"
-                                    style="@style/EditTextNum"
-                                    android:hint="@string/j10407y"
-                                    android:maxLength="4"
-                                    app:defaultValue="00"
-                                    app:maxValue="0"
-                                    app:minValue="0"
-                                    app:type="range" />
+                                    <TextView
+                                        style="@style/textView3Head"
+                                        android:text="@string/j10407y" />
+
+                                    <com.edittextpicker.aliazaz.EditTextPicker
+                                        android:id="@+id/j10407y"
+                                        style="@style/EditTextNum"
+                                        android:hint="@string/j10407y"
+                                        android:maxLength="4"
+                                        app:defaultValue="00"
+                                        app:maxValue="0"
+                                        app:minValue="0"
+                                        app:type="range" />
+
+                                </LinearLayout>
 
                             </LinearLayout>
 
                         </LinearLayout>
 
-                    </LinearLayout>
+                    </androidx.cardview.widget.CardView>
 
-                </androidx.cardview.widget.CardView>
-
-                <!-- j10408  (d/m/y)Title   -->
-                <androidx.cardview.widget.CardView
-                    style="@style/cardView">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="vertical">
-
-                        <TextView
-                            style="@style/i_textview"
-                            android:text="@string/j10408" />
+                    <!-- j10408  (d/m/y)Title   -->
+                    <androidx.cardview.widget.CardView style="@style/cardView">
 
                         <LinearLayout
-                            android:id="@+id/fldGrpCVj10408"
-                            style="@style/linearlayout_view_wt_bound"
-                            android:orientation="horizontal">
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                style="@style/i_textview"
+                                android:text="@string/j10408" />
 
                             <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:orientation="vertical">
+                                android:id="@+id/fldGrpCVj10408"
+                                style="@style/linearlayout_view_wt_bound"
+                                android:orientation="horizontal">
 
-                                <TextView
-                                    style="@style/textView3Head"
-                                    android:text="@string/j10408d" />
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
 
-                                <com.edittextpicker.aliazaz.EditTextPicker
-                                    android:id="@+id/j10408d"
-                                    style="@style/EditTextNum"
-                                    android:hint="@string/j10408d"
-                                    android:maxLength="2"
-                                    app:defaultValue="00"
-                                    app:maxValue="30"
-                                    app:minValue="1"
-                                    app:type="range" />
+                                    <TextView
+                                        style="@style/textView3Head"
+                                        android:text="@string/j10408d" />
 
-                            </LinearLayout>
+                                    <com.edittextpicker.aliazaz.EditTextPicker
+                                        android:id="@+id/j10408d"
+                                        style="@style/EditTextNum"
+                                        android:hint="@string/j10408d"
+                                        android:maxLength="2"
+                                        app:defaultValue="00"
+                                        app:maxValue="30"
+                                        app:minValue="1"
+                                        app:type="range" />
 
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:orientation="vertical">
+                                </LinearLayout>
 
-                                <TextView
-                                    style="@style/textView3Head"
-                                    android:text="@string/j10408m" />
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
 
-                                <com.edittextpicker.aliazaz.EditTextPicker
-                                    android:id="@+id/j10408m"
-                                    style="@style/EditTextNum"
-                                    android:hint="@string/j10408m"
-                                    android:maxLength="2"
-                                    app:defaultValue="00"
-                                    app:maxValue="11"
-                                    app:minValue="1"
-                                    app:type="range" />
+                                    <TextView
+                                        style="@style/textView3Head"
+                                        android:text="@string/j10408m" />
 
-                            </LinearLayout>
+                                    <com.edittextpicker.aliazaz.EditTextPicker
+                                        android:id="@+id/j10408m"
+                                        style="@style/EditTextNum"
+                                        android:hint="@string/j10408m"
+                                        android:maxLength="2"
+                                        app:defaultValue="00"
+                                        app:maxValue="11"
+                                        app:minValue="1"
+                                        app:type="range" />
 
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:orientation="vertical">
+                                </LinearLayout>
 
-                                <TextView
-                                    style="@style/textView3Head"
-                                    android:text="@string/j10408y" />
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
 
-                                <com.edittextpicker.aliazaz.EditTextPicker
-                                    android:id="@+id/j10408y"
-                                    style="@style/EditTextNum"
-                                    android:hint="@string/j10408y"
-                                    android:maxLength="4"
-                                    app:defaultValue="00"
-                                    app:maxValue="0"
-                                    app:minValue="0"
-                                    app:type="range" />
+                                    <TextView
+                                        style="@style/textView3Head"
+                                        android:text="@string/j10408y" />
+
+                                    <com.edittextpicker.aliazaz.EditTextPicker
+                                        android:id="@+id/j10408y"
+                                        style="@style/EditTextNum"
+                                        android:hint="@string/j10408y"
+                                        android:maxLength="4"
+                                        app:defaultValue="00"
+                                        app:maxValue="0"
+                                        app:minValue="0"
+                                        app:type="range" />
+
+                                </LinearLayout>
 
                             </LinearLayout>
 
                         </LinearLayout>
 
-                    </LinearLayout>
+                    </androidx.cardview.widget.CardView>
 
-                </androidx.cardview.widget.CardView>
 
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btnEnd"
+                        style="@style/buttons_bottom"
+                        android:background="@android:color/holo_red_light"
+                        android:onClick="@{() -> callback.BtnEnd()}"
+                        android:text="@string/end_interview" />
+
+                    <Button
+                        android:id="@+id/btnNext"
+                        style="@style/buttons_bottom"
+                        android:background="@android:color/holo_green_light"
+                        android:onClick="@{() -> callback.BtnContinue()}"
+                        android:text="@string/nextSection" />
+
+                </LinearLayout>
 
             </LinearLayout>
 
+        </ScrollView>
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="end"
-                android:layout_marginTop="20dp"
-                android:orientation="horizontal">
-
-                <Button
-                    android:id="@+id/btnEnd"
-                    style="@style/buttons_bottom"
-                    android:background="@android:color/holo_red_light"
-                    android:onClick="@{() -> callback.BtnEnd()}"
-                    android:text="@string/end_interview" />
-
-                <Button
-                    android:id="@+id/btnNext"
-                    style="@style/buttons_bottom"
-                    android:background="@android:color/holo_green_light"
-                    android:onClick="@{() -> callback.BtnContinue()}"
-                    android:text="@string/nextSection" />
-
-            </LinearLayout>
-
-        </LinearLayout>
-
-    </ScrollView>
+    </LinearLayout>
 
 </layout>

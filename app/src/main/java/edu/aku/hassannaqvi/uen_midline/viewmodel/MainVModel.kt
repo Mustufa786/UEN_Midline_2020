@@ -108,5 +108,9 @@ class MainVModel : ViewModel() {
         flag?.let { return true } ?: return false
     }
 
+    fun getAllChildrenOfSelMWRA(mwraSerial: Int): List<FamilyMembersContract>? {
+        return childLstU5.value?.filter { it -> it.mother_serial.toInt() == mwraSerial }
+    }
+
 
 }

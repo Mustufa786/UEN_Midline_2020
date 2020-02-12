@@ -92,6 +92,14 @@ class FamilyMembersListActivity : AppCompatActivity() {
 
                                     MainApp.selectedKishMWRA = mainVModel.mwraChildU5Lst.value?.get(kishSelectedMWRA(intent.getIntExtra("sno", 0), mainVModel.mwraChildU5Lst.value!!.size) - 1)
 
+                                    if (MainApp.selectedKishMWRA != null) {
+                                        val childLst = mainVModel.getAllChildrenOfSelMWRA(MainApp.selectedKishMWRA.serialno.toInt())
+                                        MainApp.indexKishMWRAChild = childLst?.let {
+                                            mainVModel.childLstU5.value?.get(kishSelectedMWRA(intent.getIntExtra("sno", 0),
+                                                    childLst.size) - 1)
+                                        }
+                                    }
+
                                     finish()
                                     startActivity(Intent(this, if (bi.contentScroll.mwra.text.toString().toInt() > 0) SectionE1Activity::class.java else SectionE3Activity::class.java))
                                 }

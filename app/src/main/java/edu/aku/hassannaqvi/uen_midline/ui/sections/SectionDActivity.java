@@ -21,6 +21,7 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+import java.util.Objects;
 
 import edu.aku.hassannaqvi.uen_midline.R;
 import edu.aku.hassannaqvi.uen_midline.contracts.FamilyMembersContract;
@@ -43,6 +44,7 @@ public class SectionDActivity extends AppCompatActivity {
     private int serial = 0;
     private Pair<List<Integer>, List<String>> menSLst;
     private Pair<List<Integer>, List<String>> womenSLst;
+    private FamilyMembersContract motherFMC, fatheFMC;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -188,14 +190,27 @@ public class SectionDActivity extends AppCompatActivity {
         sd.put("tagid", MainApp.appInfo.getTagName());
         sd.put("appversion", MainApp.appInfo.getAppVersion());
 
-        sd.put("d106", menSLst.getFirst().size() != 0 && bi.d106.getSelectedItemPosition() != 1
-                ? mainVModel.getMemberInfo(menSLst.getFirst().get(bi.d106.getSelectedItemPosition() - 2)).getSerialno() : "97");
+        String fatherSerial;
+        if (menSLst.getFirst().size() != 0 && bi.d106.getSelectedItemPosition() != 1) {
+            fatheFMC = mainVModel.getMemberInfo(menSLst.getFirst().get(bi.d106.getSelectedItemPosition() - 2));
+            fatherSerial = fatheFMC.getSerialno();
+        } else {
+            fatheFMC = null;
+            fatherSerial = "97";
+        }
+
+        sd.put("d106", fatherSerial);
         fmc.setfName(bi.d106.getSelectedItem().toString());
 
-        FamilyMembersContract motherFMC = womenSLst.getFirst().size() != 0 && bi.d107.getSelectedItemPosition() != 1
-                ? mainVModel.getMemberInfo(womenSLst.getFirst().get(bi.d107.getSelectedItemPosition() - 2)) : null;
-        String motherSerial = womenSLst.getFirst().size() != 0 && bi.d107.getSelectedItemPosition() != 1
-                ? mainVModel.getMemberInfo(womenSLst.getFirst().get(bi.d107.getSelectedItemPosition() - 2)).getSerialno() : "97";
+        String motherSerial;
+        if (womenSLst.getFirst().size() != 0 && bi.d107.getSelectedItemPosition() != 1) {
+            motherFMC = mainVModel.getMemberInfo(womenSLst.getFirst().get(bi.d107.getSelectedItemPosition() - 2));
+            motherSerial = motherFMC.getSerialno();
+        } else {
+            motherFMC = null;
+            motherSerial = "97";
+        }
+
         fmc.setMother_name(bi.d107.getSelectedItem().toString());
         sd.put("d107", motherSerial);
         fmc.setMother_serial(motherSerial);
@@ -257,8 +272,20 @@ public class SectionDActivity extends AppCompatActivity {
         else {
             if (!Validator.emptyCheckingContainer(this, bi.fldGrpSectionD))
                 return false;
-            return Validator.emptyEditTextPicker(this, bi.d109);
+            if (!Validator.emptyEditTextPicker(this, bi.d109))
+                return false;
+            return checkingParentsAge();
         }
+    }
+
+    private boolean checkingParentsAge() {
+        int fAge = fatheFMC != null ? Integer.valueOf(fatheFMC.getAge()) : 0;
+        int mAge = motherFMC != null ? Integer.valueOf(motherFMC.getAge()) : 0;
+
+        if (fAge == 0 && mAge == 0) return true;
+        int maxAge = fAge > mAge ? mAge : fAge;
+
+        return Integer.valueOf(Objects.requireNonNull(bi.d109.getText()).toString().trim()) <= maxAge - 10;
     }
 
     public void BtnEnd() {
