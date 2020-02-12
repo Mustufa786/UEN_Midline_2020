@@ -257,7 +257,13 @@ public class SectionDActivity extends AppCompatActivity {
                 return false;
             if (!Validator.emptyEditTextPicker(this, bi.d109))
                 return false;
-            return checkingParentsAge();
+            if (!checkingParentsAge()) {
+                String msg = "Requires difference of 10Years from parent age!!";
+                Toast.makeText(this, msg, Toast.LENGTH_SHORT).show();
+                bi.d109.setError("Less then Parent Age");
+                return false;
+            }
+            return true;
         }
     }
 
@@ -283,7 +289,7 @@ public class SectionDActivity extends AppCompatActivity {
         int mAge = motherFMC != null ? Integer.valueOf(motherFMC.getAge()) : 0;
 
         if (fAge == 0 && mAge == 0) return true;
-        int maxAge = fAge > mAge ? mAge : fAge;
+        int maxAge = fAge > mAge ? mAge != 0 ? mAge : fAge : fAge != 0 ? fAge : mAge;
 
         return Integer.valueOf(Objects.requireNonNull(bi.d109.getText()).toString().trim()) <= maxAge - 10;
     }

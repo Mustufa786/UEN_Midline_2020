@@ -56,7 +56,7 @@ public class SectionJActivity extends AppCompatActivity {
         fmc_child = MainApp.indexKishMWRAChild;
 
         bi.txtHeadLbl.setText(new StringBuilder(fmc_child.getName().toUpperCase()).append("\n")
-                .append(MainApp.selectedKishMWRA.getMother_name().toUpperCase()));
+                .append(MainApp.selectedKishMWRA.getName().toUpperCase()));
 
         bi.j103c.setMaxvalue(CONSTANTS.MAXYEAR);
         bi.j103c.setMinvalue(CONSTANTS.MINYEAR_IM);
