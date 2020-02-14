@@ -530,8 +530,7 @@
                 <!-- j118  Input-Numeric   -->
                 <androidx.cardview.widget.CardView
                     android:id="@+id/fldGrpCVj118"
-                    style="@style/cardView"
-                    android:visibility='@{j117a.checked? View.VISIBLE : View.GONE}'>
+                    style="@style/cardView">
 
                     <LinearLayout
                         android:layout_width="match_parent"

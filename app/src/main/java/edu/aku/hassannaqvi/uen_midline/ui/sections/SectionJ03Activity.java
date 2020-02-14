@@ -229,6 +229,17 @@ public class SectionJ03Activity extends AppCompatActivity {
             }
         });*/
 
+        //j117
+        bi.j117.setOnCheckedChangeListener((group, checkedId) -> {
+
+            if (checkedId == bi.j117a.getId()) {
+                bi.fldGrpCVj118.setVisibility(View.VISIBLE);
+            } else {
+                bi.fldGrpCVj118.setVisibility(View.GONE);
+                ClearClass.ClearAllFields(bi.fldGrpCVj118, null);
+            }
+        });
+
 
     }
 
@@ -258,13 +269,13 @@ public class SectionJ03Activity extends AppCompatActivity {
 
         }));
 
-        bi.j117.setOnCheckedChangeListener(((radioGroup, i) -> {
+        /*bi.j117.setOnCheckedChangeListener(((radioGroup, i) -> {
 
             if (i != bi.j117a.getId()) {
                 ClearClass.ClearAllFields(bi.fldGrpCVj118, null);
             }
 
-        }));
+        }));*/
 
         bi.j120.setOnCheckedChangeListener(((radioGroup, i) -> {
 
