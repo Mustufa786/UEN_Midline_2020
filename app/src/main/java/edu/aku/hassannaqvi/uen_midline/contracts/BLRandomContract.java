@@ -188,7 +188,7 @@ public class BLRandomContract {
         public static final String TABLE_NAME = "BLRandom";
         public static final String COLUMN_ID = "_id";
         public static final String COLUMN_RANDOMDT = "randDT";
-        public static final String COLUMN_LUID = "_uid";
+        public static final String COLUMN_LUID = "UID";
         public static final String COLUMN_ENUM_BLOCK_CODE = "hh02";
         public static final String COLUMN_STRUCTURE_NO = "hh03";
         public static final String COLUMN_FAMILY_EXT_CODE = "hh07";
