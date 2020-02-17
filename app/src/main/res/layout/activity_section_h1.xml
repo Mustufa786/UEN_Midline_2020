@@ -44,7 +44,18 @@
                             style="@style/i_textview"
                             android:text="@string/h101" />
 
-                        <RadioGroup
+                        <com.edittextpicker.aliazaz.EditTextPicker
+                            android:id="@+id/h101aw"
+                            style="@style/EditTextNum"
+                            android:layout_width="match_parent"
+                            android:hint="@string/weeks"
+                            android:maxLength="2"
+                            android:tag="h101a"
+                            app:maxValue="42"
+                            app:minValue="1"
+                            app:type="range" />
+
+                        <!--<RadioGroup
                             android:id="@+id/h101"
                             style="@style/radiogroup">
 
@@ -89,7 +100,7 @@
                                 style="@style/radiobutton"
                                 android:text="@string/dkn" />
 
-                        </RadioGroup>
+                        </RadioGroup>-->
 
                     </LinearLayout>
 
@@ -397,6 +408,7 @@
                             <RadioButton
                                 android:id="@+id/h10898"
                                 style="@style/radiobutton"
+                                android:visibility="gone"
                                 android:text="@string/dkn" />
 
                         </RadioGroup>
@@ -744,6 +756,11 @@
                                 android:id="@+id/h115h"
                                 style="@style/checkbox"
                                 android:text="@string/h115h" />
+
+                            <CheckBox
+                                android:id="@+id/h115i"
+                                style="@style/checkbox"
+                                android:text="@string/h115i" />
 
                         </LinearLayout>
 

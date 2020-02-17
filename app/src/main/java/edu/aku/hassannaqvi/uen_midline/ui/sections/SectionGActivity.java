@@ -283,7 +283,9 @@ public class SectionGActivity extends AppCompatActivity {
         json.put("g117a", bi.g117a.getText().toString());
         json.put("g117b", bi.g117b.getText().toString());
         json.put("g117c", bi.g117c.getText().toString());
+        json.put("g11798", bi.g11798.isChecked() ? "1" : "0");
 
+        json.put("g11898", bi.g11898.isChecked() ? "1" : "0");
         json.put("g118", bi.g118.getText().toString());
 
         json.put("g119", bi.g119a.isChecked() ? "1" :

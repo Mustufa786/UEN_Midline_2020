@@ -281,14 +281,14 @@ public class SectionH102Activity extends AppCompatActivity {
                 bi.h132b.isChecked() ? "2" :
                         bi.h132c.isChecked() ? "3" : "0");
 
-        json.put("h133", bi.h133a.isChecked() ? "1" :
-                bi.h133b.isChecked() ? "2" :
-                        bi.h133c.isChecked() ? "3" :
-                                bi.h133d.isChecked() ? "4" :
-                                        bi.h133e.isChecked() ? "5" :
-                                                bi.h133f.isChecked() ? "6" :
-                                                        bi.h133g.isChecked() ? "7" :
-                                                                bi.h133h.isChecked() ? "8" : "0");
+        json.put("h133a", bi.h133a.isChecked() ? "1" : "0");
+        json.put("h133b", bi.h133b.isChecked() ? "2" : "0");
+        json.put("h133c", bi.h133c.isChecked() ? "3" : "0");
+        json.put("h133d", bi.h133d.isChecked() ? "4" : "0");
+        json.put("h133e", bi.h133e.isChecked() ? "5" : "0");
+        json.put("h133f", bi.h133f.isChecked() ? "6" : "0");
+        json.put("h133g", bi.h133g.isChecked() ? "7" : "0");
+        json.put("h133h", bi.h133h.isChecked() ? "8" : "0");
 
         json.put("h134", bi.h134a.isChecked() ? "1" :
                 bi.h134b.isChecked() ? "2" : "0");

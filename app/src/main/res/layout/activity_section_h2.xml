@@ -543,56 +543,59 @@
                             style="@style/i_textview"
                             android:text="@string/h211" />
 
-                        <RadioGroup
-                            android:id="@+id/h211"
-                            style="@style/radiogroup">
+                        <LinearLayout
+                            android:id="@+id/h211check"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:tag="0">
 
-                            <RadioButton
+                            <CheckBox
                                 android:id="@+id/h211a"
-                                style="@style/radiobutton"
+                                style="@style/checkbox"
                                 android:text="@string/h211a" />
 
-                            <RadioButton
+                            <CheckBox
                                 android:id="@+id/h211b"
-                                style="@style/radiobutton"
+                                style="@style/checkbox"
                                 android:text="@string/h211b" />
 
-                            <RadioButton
+                            <CheckBox
                                 android:id="@+id/h211c"
-                                style="@style/radiobutton"
+                                style="@style/checkbox"
                                 android:text="@string/h211c" />
 
-                            <RadioButton
+                            <CheckBox
                                 android:id="@+id/h211d"
-                                style="@style/radiobutton"
+                                style="@style/checkbox"
                                 android:text="@string/h211d" />
 
-                            <RadioButton
+                            <CheckBox
                                 android:id="@+id/h211e"
-                                style="@style/radiobutton"
+                                style="@style/checkbox"
                                 android:text="@string/h211e" />
 
-                            <RadioButton
+                            <CheckBox
                                 android:id="@+id/h211f"
-                                style="@style/radiobutton"
+                                style="@style/checkbox"
                                 android:text="@string/h211f" />
 
-                            <RadioButton
+                            <CheckBox
                                 android:id="@+id/h211g"
-                                style="@style/radiobutton"
+                                style="@style/checkbox"
                                 android:text="@string/h211g" />
 
-                            <RadioButton
+                            <CheckBox
                                 android:id="@+id/h211h"
-                                style="@style/radiobutton"
+                                style="@style/checkbox"
                                 android:text="@string/h211h" />
 
-                            <RadioButton
+                            <CheckBox
                                 android:id="@+id/h211i"
-                                style="@style/radiobutton"
+                                style="@style/checkbox"
                                 android:text="@string/h211i" />
 
-                        </RadioGroup>
+                        </LinearLayout>
 
                     </LinearLayout>
 
@@ -750,6 +753,11 @@
                                 android:id="@+id/h215e"
                                 style="@style/radiobutton"
                                 android:text="@string/h215e" />
+
+                            <RadioButton
+                                android:id="@+id/h21598"
+                                style="@style/radiobutton"
+                                android:text="@string/dkn" />
 
                         </RadioGroup>
 

@@ -201,7 +201,8 @@ public class SectionFActivity extends AppCompatActivity {
         f1.put("f119", bi.f119a.isChecked() ? "1" :
                 bi.f119b.isChecked() ? "2" : "0");
 
-        f1.put("f120", bi.f120.getText().toString());
+        f1.put("f120a", bi.f120a.getText().toString());
+        f1.put("f12098", bi.f12098.isChecked() ? "1" : "0");
 
         MainApp.kish.setsF(String.valueOf(f1));
 

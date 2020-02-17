@@ -452,6 +452,70 @@
 
                     </androidx.cardview.widget.CardView>
 
+                    <!-- i210  Radio   -->
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/fldGrpCVi210"
+                        style="@style/cardView">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                style="@style/i_textview"
+                                android:text="@string/i210" />
+
+                            <RadioGroup
+                                android:id="@+id/i210"
+                                style="@style/radiogroup">
+
+                                <RadioButton
+                                    android:id="@+id/i210a"
+                                    style="@style/radiobutton"
+                                    android:text="@string/i210a" />
+
+                                <RadioButton
+                                    android:id="@+id/i210b"
+                                    style="@style/radiobutton"
+                                    android:text="@string/i210b" />
+
+                                <RadioButton
+                                    android:id="@+id/i210c"
+                                    style="@style/radiobutton"
+                                    android:text="@string/i210c" />
+
+                                <RadioButton
+                                    android:id="@+id/i210d"
+                                    style="@style/radiobutton"
+                                    android:text="@string/i210d" />
+
+                                <RadioButton
+                                    android:id="@+id/i210e"
+                                    style="@style/radiobutton"
+                                    android:text="@string/i210e" />
+
+                                <RadioButton
+                                    android:id="@+id/i210f"
+                                    style="@style/radiobutton"
+                                    android:text="@string/i210f" />
+
+                                <RadioButton
+                                    android:id="@+id/i210g"
+                                    style="@style/radiobutton"
+                                    android:text="@string/i210g" />
+
+                                <RadioButton
+                                    android:id="@+id/i210h"
+                                    style="@style/radiobutton"
+                                    android:text="@string/i210h" />
+
+                            </RadioGroup>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
 
                     <LinearLayout
                         android:id="@+id/fldGrpi023"
@@ -459,70 +523,6 @@
                         android:layout_height="wrap_content"
                         android:orientation="vertical"
                         android:visibility='@{i209a.checked? View.GONE : View.VISIBLE}'>
-
-                        <!-- i210  Radio   -->
-                        <androidx.cardview.widget.CardView
-                            android:id="@+id/fldGrpCVi210"
-                            style="@style/cardView">
-
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:orientation="vertical">
-
-                                <TextView
-                                    style="@style/i_textview"
-                                    android:text="@string/i210" />
-
-                                <RadioGroup
-                                    android:id="@+id/i210"
-                                    style="@style/radiogroup">
-
-                                    <RadioButton
-                                        android:id="@+id/i210a"
-                                        style="@style/radiobutton"
-                                        android:text="@string/i210a" />
-
-                                    <RadioButton
-                                        android:id="@+id/i210b"
-                                        style="@style/radiobutton"
-                                        android:text="@string/i210b" />
-
-                                    <RadioButton
-                                        android:id="@+id/i210c"
-                                        style="@style/radiobutton"
-                                        android:text="@string/i210c" />
-
-                                    <RadioButton
-                                        android:id="@+id/i210d"
-                                        style="@style/radiobutton"
-                                        android:text="@string/i210d" />
-
-                                    <RadioButton
-                                        android:id="@+id/i210e"
-                                        style="@style/radiobutton"
-                                        android:text="@string/i210e" />
-
-                                    <RadioButton
-                                        android:id="@+id/i210f"
-                                        style="@style/radiobutton"
-                                        android:text="@string/i210f" />
-
-                                    <RadioButton
-                                        android:id="@+id/i210g"
-                                        style="@style/radiobutton"
-                                        android:text="@string/i210g" />
-
-                                    <RadioButton
-                                        android:id="@+id/i210h"
-                                        style="@style/radiobutton"
-                                        android:text="@string/i210h" />
-
-                                </RadioGroup>
-
-                            </LinearLayout>
-
-                        </androidx.cardview.widget.CardView>
 
                         <!-- i211  Input-Numeric   -->
                         <androidx.cardview.widget.CardView

@@ -166,7 +166,6 @@
                             android:text='@string/e106' />
 
                         <LinearLayout
-
                             style="@style/linearlayout_view_wt_bound"
                             android:orientation="horizontal">
 

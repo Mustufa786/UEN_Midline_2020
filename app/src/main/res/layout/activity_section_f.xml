@@ -1110,15 +1110,33 @@
                             style="@style/i_textview"
                             android:text="@string/f120" />
 
-                        <com.edittextpicker.aliazaz.EditTextPicker
-                            android:id="@+id/f120"
-                            style="@style/EditTextNum"
-                            android:hint="@string/rupees"
-                            android:maxLength="4"
-                            android:text='@{f119a.checked ? f120.getText().toString() : ""}'
-                            app:maxValue="1000"
-                            app:minValue="1"
-                            app:type="range" />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <com.edittextpicker.aliazaz.EditTextPicker
+                                android:id="@+id/f120a"
+                                style="@style/EditTextNum"
+                                android:layout_width="0dp"
+                                android:layout_weight="2"
+                                android:enabled='@{f12098.checked? false : true}'
+                                android:hint="@string/rupees"
+                                android:maxLength="4"
+                                android:text='@{f12098.checked? "" : f120a.getText().toString()}'
+                                app:maxValue="1000"
+                                app:minValue="1"
+                                app:type="range" />
+
+                            <CheckBox
+                                android:id="@+id/f12098"
+                                style="@style/checkbox"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:tag="-1"
+                                android:text="@string/dkn" />
+
+                        </LinearLayout>
 
                     </LinearLayout>
 

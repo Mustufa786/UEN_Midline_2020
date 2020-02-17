@@ -41,7 +41,7 @@
     <string name="yes"> Yes </string>
     <string name="no"> No </string>
     <string name="dkn"> Don\'t Know </string>
-    <string name="none"> None or Never </string>
+    <string name="none"> None of the Above </string>
     <string name="na"> Not Applicable/Available  </string>
     <string name="ref"> Refused </string>
     <string name="other"> Other </string>
@@ -746,7 +746,7 @@
     <string name="h107d"> Blanket </string>
 
     <string name="h108"> H108:\t What was used to cut the umbilical cord of {NAME} ? </string>
-    <string name="h108a"> New Razor Blade </string>
+    <string name="h108a"> New Razor Blade (surgical blade)</string>
     <string name="h108b"> Old Razor Blade </string>
     <string name="h108c"> Scissors </string>
     <string name="h108d"> Knife </string>
@@ -796,6 +796,7 @@
     <string name="h115f"> Infant formula </string>
     <string name="h115g"> Green tea </string>
     <string name="h115h"> Breast Milk </string>
+    <string name="h115i"> Semi solid diet </string>
 
     <string name="h116"> H116:\t Did you breastfeed {NAME} ? </string>
     <string name="h116hint"> Exclusive breastfeeding is when a child is only fed breast milk, and not given anything else. This also includes water, or liquids for stomach pain etc. </string>
@@ -1877,7 +1878,7 @@
     <string name="k101aaj">Husband</string>
     <string name="k101aak">Outdoor sign/billboard</string>
     <string name="k101aal">Pamphalet/ Broucher</string>
-    <string name="k101aam">Mobile/Smart Phone</string>
+    <string name="k101aam">Mobile/Smart Phone/TV</string>
     <string name="k101b">No</string>
     <string name="k102">K102:\t Did you or your husband ever done something or used any method to delay or avoid getting pregnant?</string>
     <string name="k102a">Yes</string>

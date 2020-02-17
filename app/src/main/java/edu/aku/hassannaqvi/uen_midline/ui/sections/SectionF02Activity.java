@@ -2,6 +2,7 @@ package edu.aku.hassannaqvi.uen_midline.ui.sections;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -48,10 +49,22 @@ public class SectionF02Activity extends AppCompatActivity {
         }));
 
         bi.f124.setOnCheckedChangeListener(((radioGroup, i) -> {
+
             if (i != bi.f124a.getId()) {
                 ClearClass.ClearAllFields(bi.fldGrp2531, null);
             }
         }));
+
+        //f128g
+        bi.f128g.setOnCheckedChangeListener((compoundButton, b) -> {
+
+            if (b) {
+                ClearClass.ClearAllFields(bi.fldGrp2532, null);
+                bi.fldGrp2532.setVisibility(View.GONE);
+            } else {
+                bi.fldGrp2532.setVisibility(View.VISIBLE);
+            }
+        });
 
         bi.f129.setOnCheckedChangeListener(((radioGroup, i) -> {
 

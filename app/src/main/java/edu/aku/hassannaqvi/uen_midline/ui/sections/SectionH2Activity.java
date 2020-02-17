@@ -220,15 +220,15 @@ public class SectionH2Activity extends AppCompatActivity {
                         bi.h210c.isChecked() ? "3" :
                                 bi.h21098.isChecked() ? "98" : "0");
 
-        json.put("h211", bi.h211a.isChecked() ? "1" :
-                bi.h211b.isChecked() ? "2" :
-                        bi.h211c.isChecked() ? "3" :
-                                bi.h211d.isChecked() ? "4" :
-                                        bi.h211e.isChecked() ? "5" :
-                                                bi.h211f.isChecked() ? "6" :
-                                                        bi.h211g.isChecked() ? "7" :
-                                                                bi.h211h.isChecked() ? "8" :
-                                                                        bi.h211i.isChecked() ? "9" : "0");
+        json.put("h211a", bi.h211a.isChecked() ? "1" : "0");
+        json.put("h211b", bi.h211b.isChecked() ? "2" : "0");
+        json.put("h211c", bi.h211c.isChecked() ? "3" : "0");
+        json.put("h211d", bi.h211d.isChecked() ? "4" : "0");
+        json.put("h211e", bi.h211e.isChecked() ? "5" : "0");
+        json.put("h211f", bi.h211f.isChecked() ? "6" : "0");
+        json.put("h211g", bi.h211g.isChecked() ? "7" : "0");
+        json.put("h211h", bi.h211h.isChecked() ? "8" : "0");
+        json.put("h211i", bi.h211i.isChecked() ? "9" : "0");
 
         json.put("h212", bi.h212.getText().toString());
 
@@ -245,7 +245,8 @@ public class SectionH2Activity extends AppCompatActivity {
                 bi.h215b.isChecked() ? "2" :
                         bi.h215c.isChecked() ? "3" :
                                 bi.h215d.isChecked() ? "4" :
-                                        bi.h215e.isChecked() ? "5" : "0");
+                                        bi.h215e.isChecked() ? "5" :
+                                                bi.h21598.isChecked() ? "98" : "0");
 
         json.put("h216", bi.h216a.isChecked() ? "1" :
                 bi.h216b.isChecked() ? "2" :
