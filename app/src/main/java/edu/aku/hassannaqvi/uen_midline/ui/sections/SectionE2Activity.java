@@ -222,7 +222,9 @@ public class SectionE2Activity extends AppCompatActivity {
         e2.put("fm_serial", mwraContract.getFm_serial());
         e2.put("fm_uid", mwraContract.getFmuid());
         e2.put("hhno", MainApp.fc.getHhno());
-        e2.put("cluster", MainApp.fc.getClusterCode());
+        e2.put("cluster_no", MainApp.fc.getClusterCode());
+        e2.put("_luid", MainApp.fc.getLuid());
+        e2.put("appversion", MainApp.appInfo.getAppVersion());
         e2.put("counter", noOfPreCounter);
 
         e2.put("e104", bi.e104a.isChecked() ? "1" :

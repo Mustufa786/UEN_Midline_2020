@@ -191,6 +191,7 @@ public class SectionDActivity extends AppCompatActivity {
         sd.put("deviceid", MainApp.appInfo.getDeviceID());
         sd.put("tagid", MainApp.appInfo.getTagName());
         sd.put("appversion", MainApp.appInfo.getAppVersion());
+        sd.put("_luid", MainApp.fc.getLuid());
 
         sd.put("d106", fatherSerial);
         fmc.setfName(bi.d106.getSelectedItem().toString());

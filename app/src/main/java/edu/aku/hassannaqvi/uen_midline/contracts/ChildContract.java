@@ -183,15 +183,15 @@ public class ChildContract {
 
         public static final String TABLE_NAME = "child_table";
         public static final String COLUMN__ID = "_id";
-        public static final String COLUMN_UID = "uid";
+        public static final String COLUMN_UID = "_uid";
         public static final String COLUMN__UUID = "_uuid";
         public static final String COLUMN_DEVICEID = "deviceid";
         public static final String COLUMN_FORMDATE = "formdate";
-        public static final String COLUMN_USER = "user";
+        public static final String COLUMN_USER = "username";
         public static final String COLUMN_SI1 = "si1";
         public static final String COLUMN_SI2 = "si2";
         public static final String COLUMN_SJ = "sj";
-        public static final String COLUMN_DEVICETAGID = "devicetagid";
+        public static final String COLUMN_DEVICETAGID = "tagid";
         public static final String COLUMN_SYNCED = "synced";
         public static final String COLUMN_SYNCED_DATE = "synced_date";
 

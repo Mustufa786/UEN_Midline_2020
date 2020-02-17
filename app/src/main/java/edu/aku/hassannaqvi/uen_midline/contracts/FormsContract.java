@@ -376,7 +376,7 @@ public class FormsContract {
         public static final String COLUMN_USER = "username";
         public static final String COLUMN_ISTATUS = "istatus";
         public static final String COLUMN_ISTATUS88x = "istatus88x";
-        public static final String COLUMN_LUID = "luid";
+        public static final String COLUMN_LUID = "_luid";
         public static final String COLUMN_ENDINGDATETIME = "endingdatetime";
         public static final String COLUMN_GPSLAT = "gpslat";
         public static final String COLUMN_GPSLNG = "gpslng";
