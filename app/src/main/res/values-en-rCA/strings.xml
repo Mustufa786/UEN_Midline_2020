@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
 
     <!--new Strings-->
@@ -18,7 +19,7 @@
 
 
     <string name="tdheading">SECTION D: HOUSEHOLD MEMBER’S INFORMATION</string>
-    <string name="teheading">SECTION E: REPRODUCTIVE HEALTH (Complete this table for all married women aged 15-49 years in the household) </string>
+    <string name="teheading">SECTION E: REPRODUCTIVE HEALTH (Complete this table for all married women aged 15 &#8211; 49 years in the household) </string>
     <string name="te2heading">MATERNAL MORTALITY STATUS</string>
     <string name="tfheading">SECTION F: ANTENATAL CARE</string>
     <string name="tiheading">SECTION I: CHILD HEALTH</string>

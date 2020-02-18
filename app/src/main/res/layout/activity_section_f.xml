@@ -10,13 +10,14 @@
             type="edu.aku.hassannaqvi.uen_midline.ui.sections.SectionFActivity" />
     </data>
 
-    <ScrollView style="@style/i_scrollview">
+    <ScrollView
+        style="@style/i_scrollview"
+        android:layoutDirection="rtl">
 
         <LinearLayout
             android:id="@+id/fldGrpSectionF"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layoutDirection="ltr"
             android:orientation="vertical">
 
 
