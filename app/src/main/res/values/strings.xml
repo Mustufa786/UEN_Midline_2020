@@ -75,11 +75,11 @@
     <string name="a102a"> جن کلسٹرز میں ایل ایچ ڈبلیو دورہ کرتی ہے </string>
     <string name="a102b"> جن کلسٹرز میں ایل ایچ ڈبلیو دورہ نہیں کرتی </string>
     <string name="a103"> فارم سیریل نمبر: </string>
-    <string name="a104"> صوبہ: </string>
+    <string name="a104"> ضلع: </string>
     <string name="a104a"> بلوچستان </string>
     <string name="a104b"> پنجاب </string>
     <string name="a104c"> سندھ </string>
-    <string name="a105"> ضلع: </string>
+    <string name="a105"> تحصیل: </string>
     <string name="a105a"> جعفرآباد </string>
     <string name="a105a_title"> بلوچستان </string>
     <string name="a105b"> نصیرآباد </string>
@@ -91,8 +91,8 @@
     <string name="a105f_title"> سندھ </string>
     <string name="a105g"> سانگھڑ </string>
     <string name="a105h"> قمبر شہداد کوٹ </string>
-    <string name="a106"> تحصیل: </string>
-    <string name="a107"> یوسی: </string>
+    <string name="a106"> یوسی: </string>
+    <string name="a107"> گاؤں\محلہ: </string>
     <string name="a108"> جگہ / تحقیق: </string>
     <string name="a108a"> شہری </string>
     <string name="a108b"> دیہی </string>
