@@ -17,8 +17,7 @@
     <ScrollView
         style="@style/i_scrollview"
         android:layoutDirection="rtl"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:textDirection="rtl">
 
 
         <LinearLayout
@@ -41,7 +40,9 @@
                     <TextView
                         style="@style/textView3Head"
                         android:text="@string/e116_title" />
+
                 </LinearLayout>
+
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView

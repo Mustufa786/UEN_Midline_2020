@@ -297,8 +297,8 @@
     <string name="e115a"> ھا</string>
     <string name="e115b"> نه</string>
 
-    <string name="e116_title"> e116_title:\t </string>
-    <string name="e116"> e116:\t خدانه خواسته ڇا گذريل پنجن سالن جي دوران توھان جي گھر ۾ ڪا عورت حمل دوران، ڊليوري (ويم) دوران يا ڊليوري (ويم) کان پوءِ 42 ڏينھن جي اندر ڪنھن خطرناڪ علامت / پيچيدگيءَ سبب وفات ڪري وئي ھجي</string>
+    <string name="e116_title"> MATERNAL MORTALITY STATUS The following questions now related to maternal mortality in the past 3 years in your household. (2017 &#8212; 2020) Definition of Maternal Mortality: Maternal death is the death of a woman while pregnant or within 42 days of termination of pregnancy, irrespective of the duration and site of the pregnancy, from any cause related to or aggravated by the pregnancy or its management but not from accidental or incidental causes. </string>
+    <string name="e116"> E116:\t خدانه خواسته ڇا گذريل پنجن سالن جي دوران توھان جي گھر ۾ ڪا عورت حمل دوران، ڊليوري (ويم) دوران يا ڊليوري (ويم) کان پوءِ 42 ڏينھن جي اندر ڪنھن خطرناڪ علامت / پيچيدگيءَ سبب وفات ڪري وئي ھجي</string>
     <string name="e116a"> ھا</string>
     <string name="e116b"> نه</string>
     <string name="e117"> e117:\t ڪيتريون عورتون وفات ڪري ويون آھن</string>
@@ -837,8 +837,9 @@
     <string name="h132a"> ھا</string>
     <string name="h132b"> نه</string>
     <string name="h132c"> ڊليوري ڪنھن بي علائقي ۾ ٿي </string>
-    <string name="h133"> h133:\t ليڊي ھيلٿ ورڪر جي دوري ڪرڻ جو مقصد ڇا ھو؟</string>
-    <string name="h133a"> وزن/ قد ج ناپ</string>
+
+    <string name="h133"> H133:\t ليڊي ھيلٿ ورڪر جي دوري ڪرڻ جو مقصد ڇا ھو ؟ </string>
+    <string name="h133a"> وزن/ قد جي ناپ </string>
     <string name="h133b"> (چڪاس (درجه حرارت، ساھ جي رفتار ڳڻڻ، سي ايم</string>
     <string name="h133c"> صحت، غذائيت، صاف سٿرائي جي باري ۾ مشاورت</string>
     <string name="h133d"> صحت مرڪز ڏانھن معائنو ڪرائڻ لاءِ موڪلڻ</string>

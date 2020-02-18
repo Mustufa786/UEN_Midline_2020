@@ -795,8 +795,9 @@
     <string name="h132a"> ہاں </string>
     <string name="h132b"> نہیں </string>
     <string name="h132c"> زچگی کسی اور علاقہ میں ہوئی تھی </string>
+
     <string name="h133"> لیڈی ہیلتھ ورکر کا (نام) کی ولادت کے بعد آنے کا مقصد کیا تھا؟ </string>
-    <string name="h133a"> h133a:/t وزن کیاتھا </string>
+    <string name="h133a"> وزن کیا تھا </string>
     <string name="h133b"> معائنہ کیا (درجہ حرارت ، سانس کی رفتار، صحت کے بارے میں آگاہی) </string>
     <string name="h133c"> صحت و صفائی اور خوراک کے بارے میں بتایا </string>
     <string name="h133d"> معمول کے معائنہ کے لئے مرکزِ صحت ریفر کیا </string>
@@ -804,6 +805,7 @@
     <string name="h133f"> پولیو کے قطرے پلوائے </string>
     <string name="h133g"> ماں کو دودھ پلانے کا صحیح طریقہ بتایا </string>
     <string name="h133h"> خطرناک علامات کے بارے میں بتایا </string>
+
     <string name="h134"> کیا آپ نوزائیدہ کو پیش آنے والی خطرناک علامات/مسائل کے بارے میں جانتی ہیں؟ </string>
     <string name="h134a"> ہاں </string>
     <string name="h134b"> نہیں </string>

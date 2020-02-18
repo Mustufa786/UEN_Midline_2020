@@ -15,6 +15,7 @@
     <LinearLayout
         style="@style/linearlayout_view_wt_bound"
         android:layoutDirection="rtl"
+        android:textDirection="rtl"
         android:orientation="vertical">
 
         <TextView

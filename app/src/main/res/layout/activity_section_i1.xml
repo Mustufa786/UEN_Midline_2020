@@ -13,11 +13,8 @@
 
     <ScrollView
         style="@style/i_scrollview"
-        android:fadeScrollbars="false"
-        android:fillViewport="true"
-        android:scrollbarSize="10dip"
         android:layoutDirection="rtl"
-        tools:context=".ui.Myactivity">
+        android:textDirection="rtl">
 
         <LinearLayout
             android:id="@+id/fldGrpSectioni01"
