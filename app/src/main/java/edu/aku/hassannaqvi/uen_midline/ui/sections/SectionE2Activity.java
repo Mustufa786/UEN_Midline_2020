@@ -97,6 +97,7 @@ public class SectionE2Activity extends AppCompatActivity {
                 bi.fldGrpCVe110.setVisibility(View.VISIBLE);
                 /*bi.container1.setVisibility(View.VISIBLE);*/
                 /*bi.fldGrpCVe110.setVisibility(View.VISIBLE);*/
+                bi.mainContainer2.setVisibility(View.GONE);
             }
 
         }));
