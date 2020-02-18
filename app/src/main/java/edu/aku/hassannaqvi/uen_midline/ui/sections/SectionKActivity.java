@@ -7,6 +7,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
 
+import com.validatorcrawler.aliazaz.Clear;
 import com.validatorcrawler.aliazaz.Validator;
 
 import org.json.JSONException;
@@ -18,7 +19,6 @@ import edu.aku.hassannaqvi.uen_midline.core.DatabaseHelper;
 import edu.aku.hassannaqvi.uen_midline.core.MainApp;
 import edu.aku.hassannaqvi.uen_midline.databinding.ActivitySectionKBinding;
 import edu.aku.hassannaqvi.uen_midline.utils.Util;
-import edu.aku.hassannaqvi.uen_midline.validator.ClearClassOld;
 
 public class SectionKActivity extends AppCompatActivity {
 
@@ -42,14 +42,14 @@ public class SectionKActivity extends AppCompatActivity {
         bi.k102.setOnCheckedChangeListener(((radioGroup, i) -> {
 
             if (i == bi.k102b.getId()) {
-                ClearClassOld.ClearAllFields(bi.fldGrpk1022, null);
+                Clear.clearAllFields(bi.fldGrpk1022);
             }
 
         }));
 
         /*bi.k105.setOnCheckedChangeListener(((radioGroup, i) -> {
             if (i != bi.k105aac.getId()) {
-                ClearClassOld.ClearAllFields(bi.fldGrpCVk106, null);
+                Clear.clearAllFields(bi.fldGrpCVk106);
             }
         }));*/
 

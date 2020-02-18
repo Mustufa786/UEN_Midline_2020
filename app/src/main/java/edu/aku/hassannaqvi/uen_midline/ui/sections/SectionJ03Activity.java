@@ -8,6 +8,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
 
+import com.validatorcrawler.aliazaz.Clear;
 import com.validatorcrawler.aliazaz.Validator;
 
 import org.json.JSONException;
@@ -20,7 +21,6 @@ import edu.aku.hassannaqvi.uen_midline.core.MainApp;
 import edu.aku.hassannaqvi.uen_midline.databinding.ActivitySectionJ03Binding;
 import edu.aku.hassannaqvi.uen_midline.utils.JSONUtils;
 import edu.aku.hassannaqvi.uen_midline.utils.Util;
-import edu.aku.hassannaqvi.uen_midline.validator.ClearClassOld;
 
 public class SectionJ03Activity extends AppCompatActivity {
 
@@ -57,20 +57,20 @@ public class SectionJ03Activity extends AppCompatActivity {
                 bi.fldGrpCVj119.setVisibility(View.GONE);
                 bi.fldGrpCVj120.setVisibility(View.GONE);
                 bi.fldGrpCVj121.setVisibility(View.GONE);
-                ClearClassOld.ClearAllFields(bi.fldGrpCVj106, null);
-                ClearClassOld.ClearAllFields(bi.fldGrpCVj108, null);
-                ClearClassOld.ClearAllFields(bi.fldGrpCVj109, null);
-                ClearClassOld.ClearAllFields(bi.fldGrpCVj111, null);
-                ClearClassOld.ClearAllFields(bi.fldGrpCVj112, null);
-                ClearClassOld.ClearAllFields(bi.fldGrpCVj113, null);
-                ClearClassOld.ClearAllFields(bi.fldGrpCVj114, null);
-                ClearClassOld.ClearAllFields(bi.fldGrpCVj115, null);
-                ClearClassOld.ClearAllFields(bi.fldGrpCVj116, null);
-                ClearClassOld.ClearAllFields(bi.fldGrpCVj117, null);
-                ClearClassOld.ClearAllFields(bi.fldGrpCVj118, null);
-                ClearClassOld.ClearAllFields(bi.fldGrpCVj119, null);
-                ClearClassOld.ClearAllFields(bi.fldGrpCVj120, null);
-                ClearClassOld.ClearAllFields(bi.fldGrpCVj121, null);
+                Clear.clearAllFields(bi.fldGrpCVj106);
+                Clear.clearAllFields(bi.fldGrpCVj108);
+                Clear.clearAllFields(bi.fldGrpCVj109);
+                Clear.clearAllFields(bi.fldGrpCVj111);
+                Clear.clearAllFields(bi.fldGrpCVj112);
+                Clear.clearAllFields(bi.fldGrpCVj113);
+                Clear.clearAllFields(bi.fldGrpCVj114);
+                Clear.clearAllFields(bi.fldGrpCVj115);
+                Clear.clearAllFields(bi.fldGrpCVj116);
+                Clear.clearAllFields(bi.fldGrpCVj117);
+                Clear.clearAllFields(bi.fldGrpCVj118);
+                Clear.clearAllFields(bi.fldGrpCVj119);
+                Clear.clearAllFields(bi.fldGrpCVj120);
+                Clear.clearAllFields(bi.fldGrpCVj121);
             } else {
                 bi.fldGrpCVj106.setVisibility(View.VISIBLE);
                 bi.fldGrpCVj108.setVisibility(View.VISIBLE);
@@ -93,9 +93,9 @@ public class SectionJ03Activity extends AppCompatActivity {
         /*//h121
         bi.h121.setOnCheckedChangeListener((group, checkedId) -> {
 
-            ClearClassOld.ClearAllFields(bi.fldGrpCVh122, null);
-            ClearClassOld.ClearAllFields(bi.fldGrpCVh123, null);
-            ClearClassOld.ClearAllFields(bi.fldGrpCVh124, null);
+            Clear.clearAllFields(bi.fldGrpCVh122);
+            Clear.clearAllFields(bi.fldGrpCVh123);
+            Clear.clearAllFields(bi.fldGrpCVh124);
             bi.fldGrpCVh122.setVisibility(View.GONE);
             bi.fldGrpCVh123.setVisibility(View.GONE);
             bi.fldGrpCVh124.setVisibility(View.GONE);
@@ -112,8 +112,8 @@ public class SectionJ03Activity extends AppCompatActivity {
         //h12298
         bi.h12298.setOnCheckedChangeListener((compoundButton, b) -> {
             if (b) {
-                ClearClassOld.ClearAllFields(bi.h122, null);
-                ClearClassOld.ClearAllFields(bi.fldGrpCVh123, null);
+                Clear.clearAllFields(bi.h122);
+                Clear.clearAllFields(bi.fldGrpCVh123);
                 bi.h122.setVisibility(View.GONE);
                 bi.fldGrpCVh123.setVisibility(View.GONE);
             } else {
@@ -126,10 +126,10 @@ public class SectionJ03Activity extends AppCompatActivity {
         //h13598
         bi.h13598.setOnCheckedChangeListener((compoundButton, b) -> {
             if (b) {
-                ClearClassOld.ClearAllFields(bi.h135check, false);
+                Clear.clearAllFields(bi.h135check, false);
                 bi.h135check.setTag("-1");
             } else {
-                ClearClassOld.ClearAllFields(bi.h135check, true);
+                Clear.clearAllFields(bi.h135check, true);
                 bi.h135check.setTag("0");
             }
         });*/
@@ -166,19 +166,19 @@ public class SectionJ03Activity extends AppCompatActivity {
                 bi.fldGrpCVj119.setVisibility(View.GONE);
                 bi.fldGrpCVj120.setVisibility(View.GONE);
                 bi.fldGrpCVj121.setVisibility(View.GONE);
-                ClearClassOld.ClearAllFields(bi.fldGrpCVj108, null);
-                ClearClassOld.ClearAllFields(bi.fldGrpCVj109, null);
-                ClearClassOld.ClearAllFields(bi.fldGrpCVj111, null);
-                ClearClassOld.ClearAllFields(bi.fldGrpCVj112, null);
-                ClearClassOld.ClearAllFields(bi.fldGrpCVj113, null);
-                ClearClassOld.ClearAllFields(bi.fldGrpCVj114, null);
-                ClearClassOld.ClearAllFields(bi.fldGrpCVj115, null);
-                ClearClassOld.ClearAllFields(bi.fldGrpCVj116, null);
-                ClearClassOld.ClearAllFields(bi.fldGrpCVj117, null);
-                ClearClassOld.ClearAllFields(bi.fldGrpCVj118, null);
-                ClearClassOld.ClearAllFields(bi.fldGrpCVj119, null);
-                ClearClassOld.ClearAllFields(bi.fldGrpCVj120, null);
-                ClearClassOld.ClearAllFields(bi.fldGrpCVj121, null);
+                Clear.clearAllFields(bi.fldGrpCVj108);
+                Clear.clearAllFields(bi.fldGrpCVj109);
+                Clear.clearAllFields(bi.fldGrpCVj111);
+                Clear.clearAllFields(bi.fldGrpCVj112);
+                Clear.clearAllFields(bi.fldGrpCVj113);
+                Clear.clearAllFields(bi.fldGrpCVj114);
+                Clear.clearAllFields(bi.fldGrpCVj115);
+                Clear.clearAllFields(bi.fldGrpCVj116);
+                Clear.clearAllFields(bi.fldGrpCVj117);
+                Clear.clearAllFields(bi.fldGrpCVj118);
+                Clear.clearAllFields(bi.fldGrpCVj119);
+                Clear.clearAllFields(bi.fldGrpCVj120);
+                Clear.clearAllFields(bi.fldGrpCVj121);
             }
         });
 
@@ -199,19 +199,19 @@ public class SectionJ03Activity extends AppCompatActivity {
                 bi.fldGrpCVj120.setVisibility(View.GONE);
                 bi.fldGrpCVj121.setVisibility(View.GONE);
                 bi.fldGrpCVj122.setVisibility(View.GONE);
-                ClearClassOld.ClearAllFields(bi.fldGrpCVj109, null);
-                ClearClassOld.ClearAllFields(bi.fldGrpCVj111, null);
-                ClearClassOld.ClearAllFields(bi.fldGrpCVj112, null);
-                ClearClassOld.ClearAllFields(bi.fldGrpCVj113, null);
-                ClearClassOld.ClearAllFields(bi.fldGrpCVj114, null);
-                ClearClassOld.ClearAllFields(bi.fldGrpCVj115, null);
-                ClearClassOld.ClearAllFields(bi.fldGrpCVj116, null);
-                ClearClassOld.ClearAllFields(bi.fldGrpCVj117, null);
-                ClearClassOld.ClearAllFields(bi.fldGrpCVj118, null);
-                ClearClassOld.ClearAllFields(bi.fldGrpCVj119, null);
-                ClearClassOld.ClearAllFields(bi.fldGrpCVj120, null);
-                ClearClassOld.ClearAllFields(bi.fldGrpCVj121, null);
-                ClearClassOld.ClearAllFields(bi.fldGrpCVj122, null);
+                Clear.clearAllFields(bi.fldGrpCVj109);
+                Clear.clearAllFields(bi.fldGrpCVj111);
+                Clear.clearAllFields(bi.fldGrpCVj112);
+                Clear.clearAllFields(bi.fldGrpCVj113);
+                Clear.clearAllFields(bi.fldGrpCVj114);
+                Clear.clearAllFields(bi.fldGrpCVj115);
+                Clear.clearAllFields(bi.fldGrpCVj116);
+                Clear.clearAllFields(bi.fldGrpCVj117);
+                Clear.clearAllFields(bi.fldGrpCVj118);
+                Clear.clearAllFields(bi.fldGrpCVj119);
+                Clear.clearAllFields(bi.fldGrpCVj120);
+                Clear.clearAllFields(bi.fldGrpCVj121);
+                Clear.clearAllFields(bi.fldGrpCVj122);
             } else {
                 bi.fldGrpCVj109.setVisibility(View.VISIBLE);
                 bi.fldGrpCVj111.setVisibility(View.VISIBLE);
@@ -236,7 +236,7 @@ public class SectionJ03Activity extends AppCompatActivity {
                 bi.fldGrpCVj118.setVisibility(View.VISIBLE);
             } else {
                 bi.fldGrpCVj118.setVisibility(View.GONE);
-                ClearClassOld.ClearAllFields(bi.fldGrpCVj118, null);
+                Clear.clearAllFields(bi.fldGrpCVj118);
             }
         });
 
@@ -248,7 +248,7 @@ public class SectionJ03Activity extends AppCompatActivity {
         bi.j108.setOnCheckedChangeListener(((radioGroup, i) -> {
 
             if (i == bi.j108b.getId()) {
-                ClearClassOld.ClearAllFields(bi.fldGrpSectionJ0301, null);
+                Clear.clearAllFields(bi.fldGrpSectionJ0301);
             }
 
         }));
@@ -256,7 +256,7 @@ public class SectionJ03Activity extends AppCompatActivity {
         bi.j111.setOnCheckedChangeListener(((radioGroup, i) -> {
 
             if (i != bi.j111a.getId()) {
-                ClearClassOld.ClearAllFields(bi.fldGrpSectionJ0302, null);
+                Clear.clearAllFields(bi.fldGrpSectionJ0302);
             }
 
         }));
@@ -264,7 +264,7 @@ public class SectionJ03Activity extends AppCompatActivity {
         bi.j115.setOnCheckedChangeListener(((radioGroup, i) -> {
 
             if (i != bi.j115a.getId()) {
-                ClearClassOld.ClearAllFields(bi.fldGrpCVj116, null);
+                Clear.clearAllFields(bi.fldGrpCVj116);
             }
 
         }));
@@ -272,7 +272,7 @@ public class SectionJ03Activity extends AppCompatActivity {
         /*bi.j117.setOnCheckedChangeListener(((radioGroup, i) -> {
 
             if (i != bi.j117a.getId()) {
-                ClearClassOld.ClearAllFields(bi.fldGrpCVj118, null);
+                Clear.clearAllFields(bi.fldGrpCVj118);
             }
 
         }));*/
@@ -280,7 +280,7 @@ public class SectionJ03Activity extends AppCompatActivity {
         bi.j120.setOnCheckedChangeListener(((radioGroup, i) -> {
 
             if (i != bi.j120a.getId()) {
-                ClearClassOld.ClearAllFields(bi.fldGrpCVj121, null);
+                Clear.clearAllFields(bi.fldGrpCVj121);
             }
 
         }));

@@ -310,7 +310,7 @@
                             style="@style/EditTextNum"
                             android:hint="@string/minutes"
                             android:maxLength="1"
-                            app:maxValue="5"
+                            app:maxValue="2"
                             app:minValue="0"
                             app:type="range" />
 
@@ -545,9 +545,9 @@
                             android:id="@+id/h111"
                             style="@style/EditTextNum"
                             android:hint="@string/minutes"
-                            android:maxLength="2"
-                            app:maxValue="59"
-                            app:minValue="1"
+                            android:maxLength="1"
+                            app:maxValue="1"
+                            app:minValue="0"
                             app:type="range" />
 
                     </LinearLayout>
@@ -564,7 +564,7 @@
                         android:layout_height="wrap_content"
                         android:orientation="vertical">
 
-                        <TextView
+                        <TextView10
                             style="@style/i_textview"
                             android:text="@string/h112" />
 
@@ -826,7 +826,7 @@
                             style="@style/EditTextNum"
                             android:hint="@string/month"
                             android:maxLength="1"
-                            app:maxValue="6"
+                            app:maxValue="26"
                             app:minValue="1"
                             app:type="range" />
 
