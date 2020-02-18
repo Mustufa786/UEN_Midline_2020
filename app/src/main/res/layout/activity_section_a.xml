@@ -326,10 +326,10 @@
 
                         <TextView
                             style="@style/i_textview"
+                            android:layout_height="match_parent"
                             android:layout_width="0dp"
-                            android:layout_weight="1.2"
-                            android:text="New Head of Household Name"
-                            android:textColor="@android:color/white" />
+                            android:layout_weight="1"
+                            android:text="@string/newHHheadname" />
 
                         <EditText
                             android:id="@+id/newHHheadname"
@@ -356,6 +356,7 @@
 
                         <TextView
                             style="@style/i_textview"
+                            android:layout_height="match_parent"
                             android:layout_width="0dp"
                             android:layout_weight="1"
                             android:text="@string/a109" />
@@ -383,6 +384,7 @@
 
                         <TextView
                             style="@style/i_textview"
+                            android:layout_height="match_parent"
                             android:layout_width="0dp"
                             android:layout_weight="1"
                             android:text="@string/a110" />
@@ -410,6 +412,7 @@
 
                         <TextView
                             style="@style/i_textview"
+                            android:layout_height="match_parent"
                             android:layout_width="0dp"
                             android:layout_weight="1"
                             android:text="@string/a111" />

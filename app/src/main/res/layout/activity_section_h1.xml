@@ -564,7 +564,7 @@
                         android:layout_height="wrap_content"
                         android:orientation="vertical">
 
-                        <TextView10
+                        <TextView
                             style="@style/i_textview"
                             android:text="@string/h112" />
 

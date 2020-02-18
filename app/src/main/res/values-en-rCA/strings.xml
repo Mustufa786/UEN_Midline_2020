@@ -64,12 +64,11 @@
     <string name="num"> Number </string>
     <string name="name"> Name </string>
 
-    <string name="total">Total</string>
+    <string name="total"> Total </string>
     <string name="mwra">MWRA</string>
-    <string name="under5">Child Under 5</string>
+    <string name="under5"> Child Under 5 </string>
 
-
-    <string name="taheading">SECTION A: HH Identification</string>
+    <string name="taheading"> SECTION A: HH Identification </string>
     <string name="a101"> Cluster number </string>
     <string name="a101a"> This information will be based on the list of villages generated from the district. Each enumerator will be given a list of clusters that he/she will be visiting, and before starting the interview, this information will be entered from the same list. </string>
 
@@ -115,28 +114,28 @@
     <string name="a111"> Street </string>
 
     <string name="a112"> House number/khandan number </string>
-    <string name="a112a">Not Available</string>
+    <string name="a112a"> Not Available </string>
 
     <string name="checkHHpresent"> Selected Head name present (A/C Line listing) </string>
     <string name="newHHheadname"> New Head of Household Name </string>
 
-    <string name="b101">Latitude (Example: 24.861462) </string>
-    <string name="b102">Longitude (Example:67.009939)</string>
+    <string name="b101"> Latitude (Example: 24.861462) </string>
+    <string name="b102"> Longitude (Example:67.009939) </string>
 
     <string name="c101"> C101:\t Was consent taken ? </string>
 
-    <string name="c101a"> C101A:\t Verbal consent</string>
+    <string name="c101a"> Verbal consent </string>
     <string name="c101aa"> Yes </string>
     <string name="c101ab"> No </string>
 
-    <string name="c101b"> C101B:\t Written consent </string>
+    <string name="c101b"> Written consent </string>
     <string name="c101ba"> Yes </string>
     <string name="c101bb"> No </string>
 
     <string name="d101"> D101:\t Member Serial Number </string>
 
     <string name="d102"> D102:\t Name </string>
-    <string name="d102a">Please give me the names of the persons who usually live in your household, starting with the head of the household.</string>
+    <string name="d102a"> Please give me the names of the persons who usually live in your household, starting with the head of the household. </string>
 
     <string name="d103"> D103:\t Relationship to Head of HH </string>
     <string name="d103hint"> What is the relationship of [NAME] to the Head of the household ? </string>
@@ -257,15 +256,15 @@
     <string name="e106b"> Month </string>
     <string name="e106c"> Year </string>
 
-    <string name="e107"> E109:\t Is (Name) Still alive ? </string>
-    <string name="e107a"> Yes </string>
-    <string name="e107b"> No </string>
+    <string name="e107"> E107:\t Is {NAME} a boy or a girl ? </string>
+    <string name="e107a"> Boy </string>
+    <string name="e107b"> Girl </string>
 
-    <string name="e108"> E107:\t Is {NAME} a boy or a girl ? </string>
-    <string name="e108a"> Boy </string>
-    <string name="e108b"> Girl </string>
+    <string name="e108"> E108:\t Is (Name) Still alive ? </string>
+    <string name="e108a"> Yes </string>
+    <string name="e108b"> No </string>
 
-    <string name="e109"> E108:\t What was the name given to the child ? </string>
+    <string name="e109"> E109:\t What was the name given to the child ? </string>
     <string name="e109hint"> Record Baby 1, Baby 2 In case no name was given </string>
 
     <string name="e110"> E110:\t How old was {NAME} when he/she died?</string>
@@ -1328,20 +1327,20 @@
     <string name="i217c"> Don\'t Know </string>
 
     <string name="i218"> I218:\t What treatment was given to {NAME} ? </string>
-    <string name="i218a"> Chloroquine              </string>
-    <string name="i218b"> Amodiaquine              </string>
-    <string name="i218c"> Quinine                   </string>
-    <string name="i218d"> Artemisinin              </string>
-    <string name="i218e"> Combination              </string>
-    <string name="i218f"> Other anti-malarial      </string>
-    <string name="i218g"> Amoxil DT             </string>
-    <string name="i218h"> Amoxil syrup              </string>
-    <string name="i218i"> Injection              </string>
-    <string name="i218j"> Ponstan             </string>
-    <string name="i218k"> Paracetamol             </string>
-    <string name="i218l"> Ibuprofen              </string>
-    <string name="i218m"> Cough syrup              </string>
-    <string name="i218n"> Home Remedy             </string>
+    <string name="i218a"> Chloroquine </string>
+    <string name="i218b"> Amodiaquine </string>
+    <string name="i218c"> Quinine </string>
+    <string name="i218d"> Artemisinin </string>
+    <string name="i218e"> Combination </string>
+    <string name="i218f"> Other anti-malarial </string>
+    <string name="i218g"> Amoxil DT </string>
+    <string name="i218h"> Amoxil syrup </string>
+    <string name="i218i"> Injection </string>
+    <string name="i218j"> Ponstan </string>
+    <string name="i218k"> Paracetamol </string>
+    <string name="i218l"> Ibuprofen </string>
+    <string name="i218m"> Cough syrup </string>
+    <string name="i218n"> Home Remedy </string>
 
     <string name="i219"> I219:\t Did {NAME} have a chest x-ray ? </string>
     <string name="i219a"> Yes </string>

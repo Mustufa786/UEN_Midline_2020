@@ -35,19 +35,24 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:orientation="vertical">
+                        android:orientation="horizontal">
 
                         <TextView
                             style="@style/i_textview"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
                             android:text="@string/d101" />
 
 
                         <TextView
                             android:id="@+id/d101"
-                            style="@style/textView3Head"
+                            style="@style/i_textview"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
                             android:text="@string/d101" />
 
                     </LinearLayout>
+
                 </androidx.cardview.widget.CardView>
 
                 <!-- d102  Input   -->
@@ -71,10 +76,7 @@
                         <EditText
                             android:id="@+id/d102"
                             style="@style/textInputName"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:hint="@string/d102"
-                            android:textColor="@android:color/black" />
+                            android:hint="@string/d102" />
 
                     </LinearLayout>
 

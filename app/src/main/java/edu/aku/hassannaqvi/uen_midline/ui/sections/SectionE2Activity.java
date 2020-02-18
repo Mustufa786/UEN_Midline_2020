@@ -102,9 +102,9 @@ public class SectionE2Activity extends AppCompatActivity {
         }));
 
 
-        bi.e107.setOnCheckedChangeListener(((radioGroup, i) -> {
+        bi.e108.setOnCheckedChangeListener(((radioGroup, i) -> {
 
-            if (i == bi.e107b.getId()) {
+            if (i == bi.e108b.getId()) {
                 bi.mainContainer2.setVisibility(View.VISIBLE);
                 bi.fldGrpCVe113.setVisibility(View.GONE);
                 bi.fldGrpCVe114.setVisibility(View.GONE);

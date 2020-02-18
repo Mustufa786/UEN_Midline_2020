@@ -63,12 +63,12 @@
     <string name="num"> اعداد </string>
     <string name="name"> نام </string>
 
-    <string name="total"> حاصل جمع </string>
+    <string name="total"> Total </string>
     <string name="mwra"> MWRA </string>
     <string name="under5"> Child Under 5 </string>
 
 
-    <string name="taheading"> سیکشن اے: ایچ ایچ کی شناخت </string>
+    <string name="taheading"> SECTION A: HH Identification </string>
     <string name="a101"> کلسٹر نمبر </string>
     <string name="a101a"> یہ معلومات ضلعی بنیاد پربنائی گئی گاؤں کی فہرست پر مبنی ہوں گی۔ہر انٹرویو کرنے والے کو جس علاقے کا وہ دورہ کرے گا کلسٹرز کی ایک فہرست دی جائے گی اور انٹرویو شروع کرنے سے پہلے اسی فہرست سے یہ معلومات درج کی جائیں گی۔ </string>
     <string name="a102"> کلسٹر کی قسم </string>
@@ -100,20 +100,23 @@
     <string name="a110"> بلاک / محلہ </string>
     <string name="a111"> سڑک </string>
     <string name="a112"> گھر / خاندان نمبر </string>
-    <string name="a112a">  </string>
+    <string name="a112a"> دستیاب نہیں </string>
 
     <string name="checkHHpresent"> گھر کے سربراہ کا نام لائن لسٹنگ ڈیٹا سے مطابقت رکھتا ہے۔ </string>
     <string name="newHHheadname"> نیا سربراہ کا نام </string>
 
-    <string name="b101">  </string>
-    <string name="b102">  </string>
-    <string name="c101"> کیا رضامندی لی گئی تھی </string>
+    <string name="b101"> Latitude (Example: 24.861462) </string>
+    <string name="b102"> Longitude (Example:67.009939) </string>
+
+    <string name="c101"> کیا رضامندی لی گئی تھی C101:\t </string>
     <string name="c101a"> زبانی اجازت نامہ </string>
+
     <string name="c101aa"> جی ہاں </string>
     <string name="c101ab"> نہیں </string>
     <string name="c101b"> تحریری اجازت نامہ </string>
     <string name="c101ba"> جی ہاں </string>
     <string name="c101bb"> نہیں </string>
+
     <string name="d101"> گھر کے فرد کا سیریل نمبر </string>
     <string name="d102"> نام </string>
     <string name="d102a"> برا ئےمہربانی پہلے مجھے ان تمام افراد کانام بتائیں جو عام طور پر یہاں رہتے ہیں، خاندان کے سربراہ سے شروع کریں </string>
@@ -135,33 +138,40 @@
     <string name="d103m"> سوتیلے / رضاعی / لے پالک بچے </string>
     <string name="d103n"> گحریلو ملازم </string>
     <string name="d103o"> معلوم نہیں </string>
+
     <string name="d104"> جنس ؟ </string>
     <string name="d104a"> لڑکا </string>
     <string name="d104b"> لڑکی </string>
+
     <string name="d105"> ازدواجی حیثیت </string>
     <string name="d105a"> شادی شدہ </string>
     <string name="d105b"> غیر شادی شدہ </string>
     <string name="d105c"> بیوہ / رنڈوہ </string>
     <string name="d105d"> طلاق یافتہ / الگ رہتا / رہتی ہوں </string>
+
     <string name="d106"> اگر ممبر کی فہرست میں باپ سے رشتہ نہیں بتایا گیا\' تو" NA " لکھیں۔ </string>
     <string name="d106a"> باپ کا سیریل نمبر </string>
     <string name="d106b"> NA </string>
+
     <string name="d107"> اگر ممبر کی فہرست میں ماں سے رشتہ نہیں بتایا گیا‘NA’ تو لکھیں۔ </string>
     <string name="d107a"> ماں کا سیریل نمبر </string>
     <string name="d107b"> NA </string>
+
     <string name="d108"> تاریخ پیدائش : اگر تاریخ پیدائش معلوم نہیں تو “00” ریکارڈ کریں اور عمردرج کریں </string>
     <string name="d108a"> دن </string>
     <string name="d108b"> مہینہ </string>
     <string name="d108c"> سال </string>
+
     <string name="d109"> عمر </string>
-    <string name="d109hint"> عمر : اگر تاریخ پیدائش ریکارڈ کی گئی تھی تو عمر میں خودبخود نمودارD.O.B اور D.O.I ہو جائیگی 5سال سے کم عمر بچے کے لئے یہ سوال نہیں کھلے کوڈ ظاہر ‘NA’گا اور خودکار نظام کے تحت ہو جائیگا </string>
+    <string name="d109hint"> اگر تاریخ پیدائش ریکارڈ کی گئی تھی تو عمر میں خودبخود نمودارD.O.B اور D.O.I ہو جائیگی 5سال سے کم عمر بچے کے لئے یہ سوال نہیں کھلے کوڈ ظاہر ‘NA’گا اور خودکار نظام کے تحت ہو جائیگا </string>
     <string name="d109a"> عمر </string>
     <string name="d109b"> مہینہ </string>
     <string name="d109c"> سال </string>
+
     <string name="d110"> تعلیم : (نام) کی مکمل تعلیم کتنی ہے۔ </string>
     <string name="d110a"> کوئی نہیں </string>
     <string name="d110b"> پرائمری سے پہلے </string>
-    <string name="d110c"> پرائمری(1-5) </string>
+    <string name="d110c"> پرائمری(1 - 5) </string>
     <string name="d110d"> مڈل(6-8) </string>
     <string name="d110e"> سیکنڈری(6-10) </string>
     <string name="d110f"> انٹرمیڈیٹ </string>
@@ -172,6 +182,7 @@
     <string name="d110k"> مزہبی تعلیم (حافظ/عالم) </string>
     <string name="d110l"> معلوم نہیں </string>
     <string name="d110m"> لاگو نہیں ہوتا </string>
+
     <string name="d111"> پیشہ </string>
     <string name="d111x"> 5سال سے کم عمر بچے کے لئے یہ سوال نہیں کھلےگا اور خودکار نظام کے تحت ‘NA’ کوڈ ظاہر ہو جائیگا۔ </string>
     <string name="d111a"> گھریلو خاتون </string>
@@ -184,27 +195,37 @@
     <string name="d111h"> بے روزگار </string>
     <string name="d111i"> ریٹائرڈ </string>
     <string name="d111j"> لاگو نہیں ہوتا </string>
+
     <string name="d112"> گھرانے کے افراد کی مجموعئی تعداد </string>
+
     <string name="d113"> گھر میں تولیدی صحت کی حامل خواتین کی مجموعئی تعداد </string>
+
     <string name="d114"> گھر میں موجود 5 سال سے کم عمر بچوں کی مجموعئی تعداد </string>
+
     <string name="d115"> کیا یہ شخص گھر پر موجود ہے؟ </string>
     <string name="d115a"> ہاں </string>
     <string name="d115b"> نہیں </string>
+
     <string name="e100"> خاتون کا نام </string>
+
     <string name="e101"> کیا آپ کبھی شادی کے بعد سے حاملہ ہوئی ہیں </string>
     <string name="e101a"> ہاں </string>
     <string name="e101b"> نہیں </string>
+
     <string name="e102"> آپ اپنی شادی کے بعد سے کتنی بار حاملہ ہوئی ہیں؟ </string>
     <string name="e102a"> کیا آپ اس وقت حاملہ ہیں؟ </string>
     <string name="e102aa"> ہاں </string>
     <string name="e102ab"> نہیں </string>
+
     <string name="e103"> حمل کی گزشتہ معلومات کا نمبر :؟ </string>
     <string name="e103hint"> ہرحمل کے لیے یہی سوالات نمودار ہوں گے۔ باقی حمل کو بچوں کے نام سے مخاطب کریں مثلاً ـ}سب سے بڑے بچے کا نام کے بعد والے حمل کو یاد کرکے بتائیں۔ </string>
-    <string name="e104"> اپنے گزشتہ حمل کے بارے میں بتائیں کیا وہ ایک بچیے کی پیدائش تھی یا جڑواں؟ </string>
+
+    <string name="e104"> اپنے گزشتہ حمل کے بارے میں بتائیں کیا وہ ایک بچے کی پیدائش تھی یا جڑواں ؟ </string>
     <string name="e104hint"> (مندرجہ زیل حمل کے لئےحمل سے متعلق سوالات ظاہر ہونگے۔باقی ماندہ حمل کی شناخت پیدا ہونے والے بچے کے نام کے ساتھ کریں۔ </string>
     <string name="e104hint1"> مثال کے طور پر ،(سب سے بڑے بچے کا نام) کے بعد والے حمل کو یاد کرکے بتائیں) </string>
     <string name="e104a"> ایک </string>
     <string name="e104b"> جُڑواں </string>
+
     <string name="e105"> کیا بچہ زندہ پیدا ہوا ،مردہ پیدا ہوا یا اس کا اسقاط حمل ہو گیا تھا؟ </string>
     <string name="e105a"> زندہ پیدا ہوا تھا (زندہ پیدائش) </string>
     <string name="e105b"> مردہ پیدا ہوا تھا (مردہ پیدائش) </string>
@@ -212,18 +233,23 @@
     <string name="e105d"> ایک زندہ ایک مردہ </string>
     <string name="e105e"> دونوں بچوں کی مردہ پیدا ہوۂی </string>
     <string name="e105f"> حمل کی مدت پوری ہونے سے پہلے ہی اسقاط حمل ہو گیا تھا </string>
+
     <string name="e106"> کس مہینے اور سال میں (نام) کی پیدائش ہوئی تھی؟مزید پوچھیں: اس بچہ/بچی کی سالگرہ کب ہوتی ہے؟ </string>
     <string name="e106a"> دن </string>
     <string name="e106b"> مہینہ </string>
     <string name="e106c"> سال </string>
-    <string name="e107"> کیا(نام) اس وقت حیات ہے؟ </string>
-    <string name="e107a"> ہاں </string>
-    <string name="e107b"> نہیں </string>
-    <string name="e108"> کیا(نام) لڑکا ہے یا لڑکی ؟ </string>
-    <string name="e108a"> لڑکا </string>
-    <string name="e108b"> لڑکی </string>
-    <string name="e109"> بچے کا کیا نام رکھا گیا تھا؟ </string>
+
+    <string name="e107"> کیا(نام) لڑکا ہے یا لڑکی ؟ </string>
+    <string name="e107a"> لڑکا </string>
+    <string name="e107b"> لڑکی </string>
+
+    <string name="e108"> کیا (نام) اس وقت حیات ہے؟ </string>
+    <string name="e108a"> ہاں </string>
+    <string name="e108b"> نہیں </string>
+
+    <string name="e109"> بچے کا کیا نام رکھا گیا تھا ؟ </string>
     <string name="e109hint"> اگر نام نہیں دیا گیا تو "BABY-1"،"BABY-1" درج کریں </string>
+
     <string name="e110"> بچہ/بچی کے انتقال کے وقت (نام) کی عمر کیا تھی؟ </string>
     <string name="e110a"> دن </string>
     <string name="e110b"> مہینے </string>
@@ -243,7 +269,9 @@
     <string name="e112c"> نجی مرکز صحت </string>
     <string name="e112d"> رفاہی ادارہ </string>
     <string name="e112e"> مرکز صحت جاتے ہوئے راستے میں </string>
+
     <string name="e113"> اگر مردہ پیدائش یا پیدائش سے پہلے اسقاط حمل ہوگیا تھا: تو یہ حمل کس مہینے اور سال میں ختم ہوا تھا؟ </string>
+
     <string name="e114"> حمل کتنے عرصہ تک جاری رہا تھا؟ </string>
     <string name="e115"> کیا آپ یا کسی اور نے اس حمل کو ختم کرنے کے لئے کچھ کیا تھا؟ </string>
     <string name="e115a"> ہاں </string>
@@ -272,6 +300,7 @@
     <string name="e122c"> نجی مرکز صحت </string>
     <string name="e122d"> رفاہی ادارہ </string>
     <string name="e122e"> مرکز صحت جاتے ہوئے راست میں </string>
+
     <string name="f101"> کیا آپ نے اپنے آخری حمل کے دوران (نام) کی پیدائش سے قبل حمل کی دیکھ بھال کے لئے کسی سے معائنہ یا چیک اپ کروایا تھا؟ </string>
     <string name="f101a"> آپ نے اپنے آخری حمل کے دوران (نام) کی پیدائش سے قبل معائنہ کیوں نہیں کروایا تھا؟ </string>
     <string name="f101ahint"> ایک سے زیادہ جوابات آسکتے ہیں۔ </string>
@@ -317,8 +346,8 @@
     <string name="f109hint1"> اگر کوئی رینج دی گئی ہے تو،وصول کی گئی دیکھ بھال کی کم سے کم تعداد درج کریں۔ </string>
     <string name="f109a"> تعداد </string>
     <string name="f109b"> معلوم نہیں </string>
-    <string name="f110"> آپ کے حمل کےدوران قبل از پیدائش دیکھ بھال کا ایک حصہ ہونے کے ناتے، مندرجہ زیل میں سے کوئی بھی ایک کم ازکم ایک بار ہوا تھا؟ </string>
-    <string name="f110hint"> ہر آپشن کے بارے میں پوچھیں اور تمام مثبت ردعمل کا دائرہ لگائیں </string>
+    <string name="f110"> آپ کے حمل کے دوران قبل از پیدائش دیکھ بھال کا ایک حصہ ہونے کے ناتے، مندرجہ زیل میں سے کوئی بھی ایک کم ازکم ایک بار ہوا تھا ؟ </string>
+    <string name="f110hint"> ہر آپشن کے بارے میں پوچھیں اور تمام مثبت رد عمل کا دائرہ لگائیں </string>
     <string name="f110a"> وزن کی پیمائش </string>
     <string name="f110b"> بلڈ پریشر کی جانچ </string>
     <string name="f110c"> پیشاب کا معائنہ </string>
@@ -444,14 +473,14 @@
     <string name="f133c"> کوئی تبدیلی نہیں کی </string>
     <string name="f134"> (نام) کی پیدائش کے لئے آپ نے کیا اقدامات کئے تھے؟ جوابات پڑھیں، ایک سے زیادہ جوابات آ سکتے ہیں </string>
     <string name="f134a"> دائی کا انتخاب </string>
-    <string name="f134b"> کسی بھی پیچیدگی کی صورت میں مرکز صحت جانےکا انتخاب </string>
+    <string name="f134b"> کسی بھی پیچیدگی کی صورت میں مرکز صحت جانے کا انتخاب </string>
     <string name="f134c"> کسی بھی ایمرجنسی سے نمٹنے کے لئے پیسوں کا بندوبست </string>
     <string name="f134d"> وقت سے پہلے گاڑی کا بندوبست </string>
     <string name="f134e"> کلین ڈیلیوری کٹ کا بندوبست </string>
     <string name="f134f"> خون کا بندوبست </string>
     <string name="f134g"> کوئی اقدامات یا تیاری نہیں کی تھی </string>
 
-    <string name="tgheading"> سیکشن جی: زچگی کی تیاری اور تجربات </string>
+    <string name="tgheading"> SECTION G: DELIVERY PREPAREDNESS AND EXPERIENCE </string>
     <string name="g101"> کیا آپکو(نام) کی متوقع تاریخ پیدائش معلوم تھی؟ </string>
     <string name="g101a"> ہاں </string>
     <string name="g101b"> نہیں </string>
@@ -599,7 +628,8 @@
     <string name="g129"> کیا لیڈی ہیلتھ ورکر نے زچگی کے بعد معائنہ کا مشورہ دیا تھا؟ </string>
     <string name="g129a"> ہاں </string>
     <string name="g129b"> نہیں </string>
-    <string name="th1heading"> سیکشن ایچ : نوزائیدہ کی صحت </string>
+
+    <string name="th1heading"> SECTION H: NEWBORN HEALTH </string>
     <string name="h101"> (نام) کی پیدائش کے وقت آپ کے حمل کی مدُت کیا تھی؟ </string>
     <string name="h102"> کیا (نام)پیدائش کے فوراً بعد رویا تھا؟ </string>
     <string name="h102a"> ہاں </string>
@@ -725,6 +755,7 @@
     <string name="h127b"> سرکاری مرکز صحت میں </string>
     <string name="h127c"> نجی مرکز صحت میں </string>
     <string name="h127d"> رفاہی ادارے یارفاہی مرکز صحت میں </string>
+
     <string name="h128"> (نام) کا پہلی بار معائنہ کس نےکیا تھا؟ </string>
     <string name="h128a"> ڈاکٹر </string>
     <string name="h128b"> ایل ایچ وی(لیڈی ہیلتھ وزیٹر) </string>
@@ -732,6 +763,7 @@
     <string name="h128d"> سی ایم ڈبلیو(کمیونیٹی مڈوائف) </string>
     <string name="h128e"> ایل ایچ ڈبلیو(لیڈی ہیلتھ ورکر) </string>
     <string name="h128f"> دائی/ٹی بی اے(پیشہ ور زچگی کروانے والی) </string>
+
     <string name="h129"> پہلی بار صحت کے چیک اپ کے دوران، کیا (نام) کا مندرجہ زیل میں سے کوئی معائنہ ہوا تھا؟ </string>
     <string name="h129a"> ناڑو کا معائنہ </string>
     <string name="h129aa"> ہاں </string>
@@ -811,7 +843,9 @@
     <string name="h137bbf"> کمیونٹی ہیلتھ ورکر </string>
     <string name="h137bbg"> ڈسپینسر/کمپائونڈر </string>
     <string name="h137bbx"> دیگر (وضاحت کریں) </string>
-    <string name="th2heading"> سیکشن ایچ : زچگی کے بعد کرائےگئے طبی معائنہ کی معلومات </string>
+
+
+    <string name="th2heading"> SECTION H: POSTNATAL CARE </string>
     <string name="h201"> اگر(نام)کی پیدائش مرکز صحت میں ہوئی تھی تو پیدائش کے بعد آپ کتنا عرصہ مرکزِ صحت میں رہی تھیں؟ </string>
     <string name="h202"> کیا(نام) کی پیدائش کے بعد وہاں کسی نے آپ کا طبی معائنہ کیا تھا؟ </string>
     <string name="h202a"> ہاں </string>
@@ -931,6 +965,7 @@
     <string name="h223b"> اثاثوں کی فروخت </string>
     <string name="h223c"> کسی اور سے مزید قرض لے کر </string>
     <string name="h223d"> چندہ/فنڈ اکھٹا کرنا </string>
+
     <string name="i1_diarrhea"> سیکشن آی: اب میں آپ سے آپ کے گھر میں موجود پانچ سال سے کم عمر بچوں میں دست(ڈائریا) اور نظام تنفس کے شدید انفیکشن (ARI) کے متعلق کچھ سوالات کرونگا/کرونگی۔ </string>
     <string name="i101"> کیا آپ کے گھر میں پانچ سال سے کم کسی بچے کو پچھلے دو ہفتوں میں دست کی تکلیف ہوئی ہے؟ </string>
     <string name="i101hint"> دست کی تعریف : 24 گھنٹے کے اندر( 3 یا 3 سے زیادہ بار پتلے پاخانے) </string>
@@ -1342,7 +1377,7 @@
     <string name="j10408bf"> کمیونٹی ہیلتھ ورکر </string>
     <string name="j10408bg"> ڈسپینسر/کمپائونڈڑ </string>
     <string name="j10408bx"> دیگر (وضاحت کریں) </string>
-    <string name="j10409"> منہ کے ذریعے دیئے جانے والے پولیو کے قطروں کی تیسری خورا ک </string>
+    <string name="j10409"> منہ کے ذریعے دیئے جانے والے پولیو کے قطروں کی تیسری خوراک </string>
     <string name="j10409d"> دن </string>
     <string name="j10409m"> مہینہ </string>
     <string name="j10409y"> سال </string>
