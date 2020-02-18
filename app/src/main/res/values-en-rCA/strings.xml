@@ -105,8 +105,8 @@
     <string name="a107"> Union Council </string>
 
     <string name="a108"> Location </string>
-    <string name="a108a">Urban </string>
-    <string name="a108b">Rural </string>
+    <string name="a108a"> Urban </string>
+    <string name="a108b"> Rural </string>
 
     <string name="a109"> Village </string>
 
@@ -118,6 +118,7 @@
     <string name="a112a">Not Available</string>
 
     <string name="checkHHpresent"> Selected Head name present (A/C Line listing) </string>
+    <string name="newHHheadname"> New Head of Household Name </string>
 
     <string name="b101">Latitude (Example: 24.861462) </string>
     <string name="b102">Longitude (Example:67.009939)</string>

@@ -101,7 +101,10 @@
     <string name="a111"> سڑک </string>
     <string name="a112"> گھر کا نمبر/خاندان نمبر </string>
     <string name="a112a">  </string>
-    <string name="checkHHpresent">  </string>
+
+    <string name="checkHHpresent"> گھر کے سربراہ کا نام لائن لسٹنگ ڈیٹا سے مطابقت رکھتا ہے۔ </string>
+    <string name="newHHheadname"> نیا سربراہ کا نام </string>
+
     <string name="b101">  </string>
     <string name="b102">  </string>
     <string name="c101"> کیارضامندی لی گئی تھی </string>
