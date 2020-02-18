@@ -12,7 +12,8 @@
 
     <ScrollView
         style="@style/i_scrollview"
-        android:layoutDirection="rtl">
+        android:layoutDirection="rtl"
+        android:textDirection="rtl">
 
         <LinearLayout
             android:id="@+id/fldGrpSectionF"
@@ -187,6 +188,7 @@
                                 android:id="@+id/f102d"
                                 style="@style/checkbox"
                                 android:text="@string/f102d" />
+
                         </LinearLayout>
 
                     </LinearLayout>
@@ -238,6 +240,7 @@
                                 android:id="@+id/f103e"
                                 style="@style/checkbox"
                                 android:text="@string/f103e" />
+
                         </LinearLayout>
 
                     </LinearLayout>
@@ -554,69 +557,51 @@
                             <CheckBox
                                 android:id="@+id/f110a"
                                 style="@style/checkbox"
-                                android:checked="@{f110i.checked ? false : false}"
-                                android:enabled="@{f110i.checked ? false : true}"
                                 android:text="@string/f110a" />
 
                             <CheckBox
                                 android:id="@+id/f110b"
                                 style="@style/checkbox"
-                                android:checked="@{f110i.checked ? false : false}"
-                                android:enabled="@{f110i.checked ? false : true}"
                                 android:text="@string/f110b" />
 
                             <CheckBox
                                 android:id="@+id/f110c"
                                 style="@style/checkbox"
-                                android:checked="@{f110i.checked ? false : false}"
-                                android:enabled="@{f110i.checked ? false : true}"
                                 android:text="@string/f110c" />
 
                             <CheckBox
                                 android:id="@+id/f110d"
                                 style="@style/checkbox"
-                                android:checked="@{f110i.checked ? false : false}"
-                                android:enabled="@{f110i.checked ? false : true}"
                                 android:text="@string/f110d" />
 
                             <CheckBox
                                 android:id="@+id/f110e"
                                 style="@style/checkbox"
-                                android:checked="@{f110i.checked ? false : false}"
-                                android:enabled="@{f110i.checked ? false : true}"
                                 android:text="@string/f110e" />
 
                             <CheckBox
                                 android:id="@+id/f110f"
                                 style="@style/checkbox"
-                                android:checked="@{f110i.checked ? false : false}"
-                                android:enabled="@{f110i.checked ? false : true}"
                                 android:text="@string/f110f" />
 
                             <CheckBox
                                 android:id="@+id/f110g"
                                 style="@style/checkbox"
-                                android:checked="@{f110i.checked ? false : false}"
-                                android:enabled="@{f110i.checked ? false : true}"
                                 android:text="@string/f110g" />
 
                             <CheckBox
                                 android:id="@+id/f110h"
                                 style="@style/checkbox"
-                                android:checked="@{f110i.checked ? false : false}"
-                                android:enabled="@{f110i.checked ? false : true}"
                                 android:text="@string/f110h" />
 
                             <CheckBox
                                 android:id="@+id/f110i"
                                 style="@style/checkbox"
-                                android:text="@string/f110i" />
+                                android:text="@string/none" />
 
                             <CheckBox
                                 android:id="@+id/f11096"
                                 style="@style/checkbox"
-                                android:checked="@{f110i.checked ? false : false}"
-                                android:enabled="@{f110i.checked ? false : true}"
                                 android:text="@string/other" />
 
                         </LinearLayout>

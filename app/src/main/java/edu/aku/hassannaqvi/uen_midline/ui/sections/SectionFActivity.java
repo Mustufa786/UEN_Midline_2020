@@ -50,6 +50,18 @@ public class SectionFActivity extends AppCompatActivity {
             }
         }));
 
+
+        //f110i
+        bi.f110i.setOnCheckedChangeListener((compoundButton, b) -> {
+            if (b) {
+                Clear.clearAllFields(bi.f110check, false);
+                bi.f110check.setTag("-1");
+            } else {
+                Clear.clearAllFields(bi.f110check, true);
+                bi.f110check.setTag("0");
+            }
+        });
+
         bi.f112.setOnCheckedChangeListener(((radioGroup, i) -> {
             if (i != bi.f112a.getId()) {
                 Clear.clearAllFields(bi.fldGrpCVf113);
