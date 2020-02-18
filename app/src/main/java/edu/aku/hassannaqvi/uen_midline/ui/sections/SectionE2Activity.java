@@ -117,6 +117,15 @@ public class SectionE2Activity extends AppCompatActivity {
                 bi.mainContainer2.setVisibility(View.GONE);
                 Clear.clearAllFields(bi.mainContainer2);
             }
+
+
+            if (i == bi.e105b.getId()
+                    || i == bi.e105e.getId()
+                    || i == bi.e105f.getId()) {
+                bi.mainContainer2.setVisibility(View.VISIBLE);
+            }
+
+
         }));
 
         bi.e106c.setMaxvalue(CONSTANTS.MAXYEAR);
