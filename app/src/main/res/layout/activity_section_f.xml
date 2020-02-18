@@ -619,15 +619,15 @@
                                 android:enabled="@{f110i.checked ? false : true}"
                                 android:text="@string/other" />
 
-                            <EditText
-                                android:id="@+id/f11096x"
-                                style="@style/EditTextAlpha"
-                                android:hint="@string/specify"
-                                android:tag="f11096"
-                                android:text='@{f11096.checked? f11096x.getText().toString() : ""}'
-                                android:visibility='@{f11096.checked? View.VISIBLE : View.GONE}' />
-
                         </LinearLayout>
+
+                        <EditText
+                            android:id="@+id/f11096x"
+                            style="@style/EditTextAlpha"
+                            android:hint="@string/specify"
+                            android:tag="f11096"
+                            android:text='@{f11096.checked? f11096x.getText().toString() : ""}'
+                            android:visibility='@{f11096.checked? View.VISIBLE : View.GONE}' />
 
                     </LinearLayout>
 

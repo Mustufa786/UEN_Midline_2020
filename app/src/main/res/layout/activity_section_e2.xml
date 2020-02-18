@@ -19,7 +19,6 @@
         android:layout_height="wrap_content"
         android:layoutDirection="rtl">
 
-
         <LinearLayout
             android:id="@+id/fldGrpSectionE2"
             android:layout_width="match_parent"
@@ -30,6 +29,7 @@
                 android:id="@+id/txtPreCounterLbl"
                 style="@style/textView3Head" />
 
+            <!--mainContainer1-->
             <LinearLayout
                 android:id="@+id/mainContainer1"
                 android:layout_width="match_parent"
@@ -115,24 +115,28 @@
 
                                 <RadioButton
                                     android:id="@+id/e105c"
+                                    android:checked="@{e104b.checked ? false : false}"
+                                    android:enabled="@{e104b.checked ? true : false}"
                                     style="@style/radiobutton"
                                     android:text="@string/e105c" />
 
                                 <RadioButton
                                     android:id="@+id/e105d"
+                                    android:checked="@{e104b.checked ? false : false}"
+                                    android:enabled="@{e104b.checked ? true : false}"
                                     style="@style/radiobutton"
                                     android:text="@string/e105d" />
 
                                 <RadioButton
                                     android:id="@+id/e105e"
+                                    android:checked="@{e104b.checked ? false : false}"
+                                    android:enabled="@{e104b.checked ? true : false}"
                                     style="@style/radiobutton"
                                     android:text="@string/e105e" />
 
                                 <RadioButton
                                     android:id="@+id/e105f"
                                     style="@style/radiobutton"
-                                    android:checked="@{e104a.checked ? false : false}"
-                                    android:enabled="@{e104a.checked ? true : false}"
                                     android:text="@string/e105f" />
 
                             </RadioGroup>
@@ -145,6 +149,7 @@
 
             </LinearLayout>
 
+            <!--container1-->
             <LinearLayout
                 android:id="@+id/container1"
                 android:orientation="vertical"
@@ -363,9 +368,7 @@
 
             </LinearLayout>
 
-
-
-
+            <!--mainContainer2-->
             <LinearLayout
                 android:id="@+id/mainContainer2"
                 android:orientation="vertical"
@@ -433,7 +436,6 @@
                                     android:maxLength="2"
                                     android:text='@{e11098.checked ? "" : e110b.getText().toString()}'
                                     android:textColor="@android:color/black"
-                                    app:defaultValue="00"
                                     app:maxValue="11"
                                     app:minValue="1"
                                     app:type="range" />
@@ -735,7 +737,6 @@
 
 
             </LinearLayout>
-
 
             <LinearLayout
                 android:layout_width="match_parent"

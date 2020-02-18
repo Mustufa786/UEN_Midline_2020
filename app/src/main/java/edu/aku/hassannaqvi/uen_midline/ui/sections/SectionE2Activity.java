@@ -97,6 +97,7 @@ public class SectionE2Activity extends AppCompatActivity {
                 bi.fldGrpCVe110.setVisibility(View.VISIBLE);
                 /*bi.container1.setVisibility(View.VISIBLE);*/
                 /*bi.fldGrpCVe110.setVisibility(View.VISIBLE);*/
+                bi.mainContainer2.setVisibility(View.GONE);
             }
 
         }));
@@ -116,13 +117,22 @@ public class SectionE2Activity extends AppCompatActivity {
                 bi.mainContainer2.setVisibility(View.GONE);
                 Clear.clearAllFields(bi.mainContainer2);
             }
+
+
+            if (i == bi.e105b.getId()
+                    || i == bi.e105e.getId()
+                    || i == bi.e105f.getId()) {
+                bi.mainContainer2.setVisibility(View.VISIBLE);
+            }
+
+
         }));
 
         bi.e106c.setMaxvalue(CONSTANTS.MAXYEAR);
         bi.e106c.setMinvalue(CONSTANTS.MINYEAR);
 
-        bi.e110c.setMaxvalue(CONSTANTS.MAXYEAR);
-        bi.e110c.setMinvalue(CONSTANTS.MINYEAR);
+        bi.e110c.setMaxvalue(60);
+        bi.e110c.setMinvalue(0);
 
         bi.e113y.setMaxvalue(CONSTANTS.MAXYEAR);
         bi.e113y.setMinvalue(CONSTANTS.MINYEAR);
