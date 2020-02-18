@@ -2,7 +2,7 @@
 
 <resources>
     <!--new Strings-->
-    <string name="app_name"> UEN Midline 2020 </string>
+    <string name="app_name"> UEN Midline 2020 - Sindhi</string>
 
     <!-- Strings related to login -->
     <string name="btnSync">Sync</string>

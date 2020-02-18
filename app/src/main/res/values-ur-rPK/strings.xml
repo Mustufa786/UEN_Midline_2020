@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!--new Strings-->
-    <string name="app_name">UEN Midline 2020</string>
+    <string name="app_name">UEN Midline 2020 - Urdu</string>
 
     <!-- Strings related to login -->
     <string name="btnSync">Sync</string>

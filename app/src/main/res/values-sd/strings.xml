@@ -297,8 +297,8 @@
     <string name="e115a"> ھا</string>
     <string name="e115b"> نه</string>
 
-    <string name="e116_title"> e116_title:\t </string>
-    <string name="e116"> e116:\t خدانه خواسته ڇا گذريل پنجن سالن جي دوران توھان جي گھر ۾ ڪا عورت حمل دوران، ڊليوري (ويم) دوران يا ڊليوري (ويم) کان پوءِ 42 ڏينھن جي اندر ڪنھن خطرناڪ علامت / پيچيدگيءَ سبب وفات ڪري وئي ھجي</string>
+    <string name="e116_title"> MATERNAL MORTALITY STATUS The following questions now related to maternal mortality in the past 3 years in your household. (2017 &#8212; 2020) Definition of Maternal Mortality: Maternal death is the death of a woman while pregnant or within 42 days of termination of pregnancy, irrespective of the duration and site of the pregnancy, from any cause related to or aggravated by the pregnancy or its management but not from accidental or incidental causes. </string>
+    <string name="e116"> E116:\t خدانه خواسته ڇا گذريل پنجن سالن جي دوران توھان جي گھر ۾ ڪا عورت حمل دوران، ڊليوري (ويم) دوران يا ڊليوري (ويم) کان پوءِ 42 ڏينھن جي اندر ڪنھن خطرناڪ علامت / پيچيدگيءَ سبب وفات ڪري وئي ھجي</string>
     <string name="e116a"> ھا</string>
     <string name="e116b"> نه</string>
     <string name="e117"> e117:\t ڪيتريون عورتون وفات ڪري ويون آھن</string>
@@ -805,40 +805,49 @@
     <string name="h128e"> ايل ايڇ ڊبليو (ليڊي ھيلٿ ورڪر) </string>
     <string name="h128f"> دائي / ٽي بي اي  </string>
 
-    <string name="h129"> H129:\t نالو) پھرئين معائني جي دوران، ڇا ھنن مان ڪو معائنو ٿيو؟)</string>
+    <string name="h129"> H129:\t نالو) پھرئين معائني جي دوران، ڇا ھنن مان ڪو معائنو ٿيو ؟) </string>
 
-    <string name="h129a"> H129a:\t ناڙي جو معائنو </string>
+    <string name="h129a"> ناڙي جو معائنو </string>
     <string name="h129aa"> ھا </string>
     <string name="h129ab"> نه </string>
     <string name="h129ac"> خبر نه آھي</string>
-    <string name="h129b"> h129b:\t خطرناڪ علامتون </string>
+
+    <string name="h129b"> خطرناڪ علامتون </string>
     <string name="h129ba"> ھا </string>
-    <string name="h129bb">  نه         </string>
-    <string name="h129bc"> خبر نه آھي</string>
-    <string name="h129c"> h129c:\t درجه حرارت </string>
-    <string name="h129ca"> ھا</string>
-    <string name="h129cb"> نه</string>
-    <string name="h129cc"> خبر نه آھي</string>
-    <string name="h129d"> h129d:\t کير پيارڻ لاءِ مشورا                    </string>
-    <string name="h129da">  ھا              </string>
-    <string name="h129db"> نه  </string>
+    <string name="h129bb"> نه </string>
+    <string name="h129bc"> خبر نه آھي </string>
+
+    <string name="h129c"> درجه حرارت </string>
+    <string name="h129ca"> ھا </string>
+    <string name="h129cb"> نه </string>
+    <string name="h129cc"> خبر نه آھي </string>
+
+    <string name="h129d"> کير پيارڻ لاءِ مشورا </string>
+    <string name="h129da">  ھا </string>
+    <string name="h129db"> نه </string>
     <string name="h129dc"> خبر نه آھي</string>
-    <string name="h129e"> h129e:\t ٻار جو وزن                               </string>
+
+    <string name="h129e"> ٻار جو وزن </string>
     <string name="h129ea"> ھا </string>
     <string name="h129eb"> نه</string>
     <string name="h129ec"> خبر نه آھي</string>
-    <string name="h130"> h130:\t نالو) ڇا صحت جي ڪارڪن توھان کي ٽڪن لڳرائڻ جي صلاح ڏني؟)</string>
+
+    <string name="h130"> H130:\t نالو) ڇا صحت جي ڪارڪن توھان کي ٽڪن لڳرائڻ جي صلاح ڏني ؟) </string>
     <string name="h130a"> ھا </string>
     <string name="h130b"> نه</string>
-    <string name="h131"> h131:\t نالو) کي ڇا توھان ٽڪا لڳرايا؟)</string>
+
+    <string name="h131"> H131:\t نالو) کي ڇا توھان ٽڪا لڳرايا؟)</string>
     <string name="h131a"> ھا</string>
     <string name="h131b"> نه</string>
-    <string name="h132"> h132:\t ڇا گورنمينٽ جي طرفان ليڊي ھيلٿ ورڪر (نالو) جي پيدائش کان پوءِ توھان جي گھر جو دورو ڪيو؟</string>
+
+    <string name="h132"> H132:\t ڇا گورنمينٽ جي طرفان ليڊي ھيلٿ ورڪر (نالو) جي پيدائش کان پوءِ توھان جي گھر جو دورو ڪيو؟</string>
     <string name="h132a"> ھا</string>
     <string name="h132b"> نه</string>
     <string name="h132c"> ڊليوري ڪنھن بي علائقي ۾ ٿي </string>
-    <string name="h133"> h133:\t ليڊي ھيلٿ ورڪر جي دوري ڪرڻ جو مقصد ڇا ھو؟</string>
-    <string name="h133a"> وزن/ قد ج ناپ</string>
+
+
+    <string name="h133"> H133:\t ليڊي ھيلٿ ورڪر جي دوري ڪرڻ جو مقصد ڇا ھو ؟ </string>
+    <string name="h133a"> وزن/ قد جي ناپ </string>
     <string name="h133b"> (چڪاس (درجه حرارت، ساھ جي رفتار ڳڻڻ، سي ايم</string>
     <string name="h133c"> صحت، غذائيت، صاف سٿرائي جي باري ۾ مشاورت</string>
     <string name="h133d"> صحت مرڪز ڏانھن معائنو ڪرائڻ لاءِ موڪلڻ</string>
@@ -846,10 +855,12 @@
     <string name="h133f"> پوليو جا ڦڙا پيارڻ</string>
     <string name="h133g"> ماءُ جي کير پيارڻ ۾ مدد ڪرڻ</string>
     <string name="h133h"> ماءُ کي نئين ڄاول ٻار جي خطرناڪ علامتن جي باري ۾ ٻڌائڻ</string>
-    <string name="h134"> h134:\t ڇا توھان کي نئين ڄاول ٻار ۾ ٿيندڙ خطرناڪ علامتن جي معلومات آھي؟</string>
+
+    <string name="h134"> H134:\t ڇا توھان کي نئين ڄاول ٻار ۾ ٿيندڙ خطرناڪ علامتن جي معلومات آھي؟</string>
     <string name="h134a"> ھا</string>
     <string name="h134b"> نه</string>
-    <string name="h135"> h135:\t ڇا توھان اسان کي نئين ڄاول ٻار ۾ ڪھڙيون خطرناڪ علامتون/پيچيدگيون ھونديون آھين جن جو خيال رکڻ گھرجي؟</string>
+
+    <string name="h135"> H135:\t ڇا توھان اسان کي نئين ڄاول ٻار ۾ ڪھڙيون خطرناڪ علامتون/پيچيدگيون ھونديون آھين جن جو خيال رکڻ گھرجي؟</string>
     <string name="h135a"> جھٽڪا</string>
     <string name="h135b"> چرپر نه ڪرڻ</string>
     <string name="h135c"> ٿڃ نه وٺڻ</string>
@@ -860,23 +871,27 @@
     <string name="h135h"> گھٽ وزن</string>
     <string name="h135i"> نه روئڻ</string>
     <string name="h135j"> خبر نه آھي </string>
-    <string name="h136"> h136:\t نئين ڄاول ٻار جي خطرناڪ علامتن بابت توھان کي ڪنھن ٻڌايو؟</string>
-    <string name="h136a"> ڊاڪٽر</string>
-    <string name="h136b"> (ايل ايڇ وي (ليڊي ھيلٿ وزيٽر</string>
-    <string name="h136c"> نرس</string>
-    <string name="h136d"> (سي ايم ڊبليو (ڪميونٽي مڊوائف</string>
-    <string name="h136e"> (ايل ايڇ ڊبليو (ليڊي ھيلٿ ورڪر</string>
+
+    <string name="h136"> H136:\t نئين ڄاول ٻار جي خطرناڪ علامتن بابت توھان کي ڪنھن ٻڌايو ؟ </string>
+    <string name="h136a"> ڊاڪٽر </string>
+    <string name="h136b"> (ايل ايڇ وي (ليڊي ھيلٿ وزيٽر </string>
+    <string name="h136c"> نرس </string>
+    <string name="h136d"> (سي ايم ڊبليو (ڪميونٽي مڊوائف </string>
+    <string name="h136e"> (ايل ايڇ ڊبليو (ليڊي ھيلٿ ورڪر </string>
     <string name="h136f"> دائي / ٽي بي اي </string>
-    <string name="h137"> h137:\t (ڇا نئين ڄاول ٻار کي (بي سي جي)  جي ويڪسين لڳائي وئي؟ (جيڪا اڪثر ڪري ٻانھن تي نشان ڇڏيندي آھي</string>
-    <string name="h137a"> ھا</string>
+
+    <string name="h137"> H137:\t (ڇا نئين ڄاول ٻار کي (بي سي جي)  جي ويڪسين لڳائي وئي؟ (جيڪا اڪثر ڪري ٻانھن تي نشان ڇڏيندي آھي </string>
+    <string name="h137a"> ھا </string>
     <string name="h137b"> نه </string>
-    <string name="h137aa"> h137aa:\t نئين ڄاول ٻار کي (بي سي جي) جي ويڪسين ڪٿان لڳرائي وئي؟</string>
+
+    <string name="h137aa"> H137aa:\t نئين ڄاول ٻار کي (بي سي جي) جي ويڪسين ڪٿان لڳرائي وئي ؟ </string>
     <string name="h137aaa"> سرڪاري صحت مرڪز</string>
     <string name="h137aab"> پرائيويٽ صحت مرڪز</string>
     <string name="h137aac"> ٽڪن وارو مرڪز </string>
     <string name="h137aad"> ماءُ ۽ ٻار جو صحت مرڪز</string>
     <string name="h137aae"> اين جي او صحت مرڪز</string>
-    <string name="h137bb"> h137bb:\t نالو) کي حفاظتي ٽڪا ڪنهن لڳايا؟)</string>
+
+    <string name="h137bb"> H137bb:\t نالو) کي حفاظتي ٽڪا ڪنهن لڳايا ؟)</string>
     <string name="h137bba"> ڊاڪٽر</string>
     <string name="h137bbb"> (ايل ايڇ ڊبليو (ليڊي ھيلٿ ورڪر</string>
     <string name="h137bbc"> (ايل ايڇ وي (ليڊي ھيلٿ وزيٽر</string>
@@ -2152,7 +2167,8 @@
     <string name="n108a"> ھا </string>
     <string name="n108b"> نه</string>
     <string name="n108c"> خبر نه آھي </string>
-    <string name="n109"> n109:\t پاڻي کي پيئڻ جي قابل ڪرڻ لاءِ اڪثر ڪهڙو طريقو استعمال ڪندا آهيو؟</string>
+
+    <string name="n109"> N109:\t پاڻي کي پيئڻ جي قابل ڪرڻ لاءِ اڪثر ڪهڙو طريقو استعمال ڪندا آهيو؟</string>
     <string name="n109a"> گرم ڪندا آهيون </string>
     <string name="n109b"> ڪلورين / گوريون </string>
     <string name="n109c"> ڪپڙي سان ڇاڻيندا آهيون </string>
@@ -2205,16 +2221,17 @@
 
     <string name="o104"> O104:\t جيڪڏهن نوٽ ڪيو ويو ته واقعي صابڻ موجود هو جتي هٿ ڌويا ويندا آهن ؟</string>
     <string name="o104hint"> Record your observation. Select all that apply. </string>
-    <string name="o104a"> صابڻ</string>
-    <string name="o104b"> (صابڻ (پائوڊر/ملائم چيز/ پيسٽ</string>
+    <string name="o104a"> صابڻ </string>
+    <string name="o104b"> (صابڻ (پائوڊر/ملائم چيز/ پيسٽ </string>
     <string name="o104c"> ملائم صابڻ </string>
     <string name="o104d"> چيڪي مٽي </string>
     <string name="o104x"> </string>
 
     <string name="o105"> O105:\t ڇا توهان وٽ گھر ۾ هٿ ڌوئڻ لاءِ صابڻ موجود آهي؟</string>
-    <string name="o105a"> ھا</string>
+    <string name="o105a"> ھا </string>
     <string name="o105b"> نه </string>
-    <string name="o106"> o106:\t ڇا توھان مون کي صابڻ ڏيکاري سگھو ٿا؟</string>
+
+    <string name="o106"> O106:\t ڇا توھان مون کي صابڻ ڏيکاري سگھو ٿا؟</string>
     <string name="o106a"> ھا، ڏٺو </string>
     <string name="o106b"> نه، نه ڏٺو </string>
 
@@ -2261,7 +2278,7 @@
     <string name="dialog_text"> مهرباني ڪري سيڪنڊ ٻار لاء ڄاڻ شامل ڪريو. </string>
     <string name="countNo"> نه </string>
     <string name="countYes"> ها </string>
-    <string name="countAlertMsg"> يقينا! توهان ختم ڪرڻ چاهيو ٿا </string>
+    <string name="countAlertMsg"> يقينا! توھان جاري رکڻ چاھيو ٿا </string>
 
 
 </resources>
