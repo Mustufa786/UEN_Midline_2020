@@ -19,7 +19,6 @@
         android:layout_height="wrap_content"
         android:layoutDirection="rtl">
 
-
         <LinearLayout
             android:id="@+id/fldGrpSectionE2"
             android:layout_width="match_parent"
@@ -30,6 +29,7 @@
                 android:id="@+id/txtPreCounterLbl"
                 style="@style/textView3Head" />
 
+            <!--mainContainer1-->
             <LinearLayout
                 android:id="@+id/mainContainer1"
                 android:layout_width="match_parent"
@@ -137,8 +137,6 @@
                                 <RadioButton
                                     android:id="@+id/e105f"
                                     style="@style/radiobutton"
-                                    android:checked="@{e104a.checked ? false : false}"
-                                    android:enabled="@{e104a.checked ? true : false}"
                                     android:text="@string/e105f" />
 
                             </RadioGroup>
@@ -151,6 +149,7 @@
 
             </LinearLayout>
 
+            <!--container1-->
             <LinearLayout
                 android:id="@+id/container1"
                 android:orientation="vertical"
@@ -368,9 +367,7 @@
                 </androidx.cardview.widget.CardView>
             </LinearLayout>
 
-
-
-
+            <!--mainContainer2-->
             <LinearLayout
                 android:id="@+id/mainContainer2"
                 android:orientation="vertical"
@@ -739,7 +736,6 @@
 
 
             </LinearLayout>
-
 
             <LinearLayout
                 android:layout_width="match_parent"
