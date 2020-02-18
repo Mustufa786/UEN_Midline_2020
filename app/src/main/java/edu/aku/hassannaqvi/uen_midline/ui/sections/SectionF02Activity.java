@@ -66,10 +66,25 @@ public class SectionF02Activity extends AppCompatActivity {
 
         });
 
+        bi.f121.setOnCheckedChangeListener(((radioGroup, i) -> {
+
+            if (i != bi.f121a.getId()) {
+                Clear.clearAllFields(bi.fldGrp2223);
+            }
+
+        }));
+
         bi.f129.setOnCheckedChangeListener(((radioGroup, i) -> {
 
             if (i == bi.f129a.getId()) {
                 Clear.clearAllFields(bi.fldGrpCVf130);
+            }
+        }));
+
+        bi.f129.setOnCheckedChangeListener(((radioGroup, i) -> {
+
+            if (i == bi.f129b.getId()) {
+                Clear.clearAllFields(bi.fldGrpCVf131);
             }
         }));
     }
