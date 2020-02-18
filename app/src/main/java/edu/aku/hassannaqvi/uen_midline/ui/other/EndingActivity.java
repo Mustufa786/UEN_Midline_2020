@@ -13,7 +13,6 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 import edu.aku.hassannaqvi.uen_midline.R;
-import edu.aku.hassannaqvi.uen_midline.contracts.FormsContract;
 import edu.aku.hassannaqvi.uen_midline.core.DatabaseHelper;
 import edu.aku.hassannaqvi.uen_midline.core.MainApp;
 import edu.aku.hassannaqvi.uen_midline.databinding.ActivityEndingBinding;
@@ -30,15 +29,26 @@ public class EndingActivity extends AppCompatActivity {
         bi = DataBindingUtil.setContentView(this, R.layout.activity_ending);
         bi.setCallback(this);
 
-
-        Boolean check = getIntent().getExtras().getBoolean("complete");
+        boolean check = getIntent().getExtras().getBoolean("complete");
 
         if (check) {
             bi.istatusa.setEnabled(true);
             bi.istatusb.setEnabled(false);
+            bi.istatusc.setEnabled(false);
+            bi.istatusd.setEnabled(false);
+            bi.istatuse.setEnabled(false);
+            bi.istatusf.setEnabled(false);
+            bi.istatusg.setEnabled(false);
+            bi.istatus96.setEnabled(false);
         } else {
             bi.istatusa.setEnabled(false);
             bi.istatusb.setEnabled(true);
+            bi.istatusc.setEnabled(true);
+            bi.istatusd.setEnabled(true);
+            bi.istatuse.setEnabled(true);
+            bi.istatusf.setEnabled(true);
+            bi.istatusg.setEnabled(true);
+            bi.istatus96.setEnabled(true);
         }
 
 //
