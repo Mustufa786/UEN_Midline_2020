@@ -2,6 +2,7 @@ package edu.aku.hassannaqvi.uen_midline.ui.sections;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -42,7 +43,7 @@ public class SectionF02Activity extends AppCompatActivity {
         bi.f121.setOnCheckedChangeListener(((radioGroup, i) -> {
 
             if (i != bi.f121a.getId()) {
-                Clear.clearAllFields(bi.fldGrp2223, null);
+                Clear.clearAllFields(bi.fldGrp2223);
             }
 
         }));
@@ -50,22 +51,25 @@ public class SectionF02Activity extends AppCompatActivity {
         bi.f124.setOnCheckedChangeListener(((radioGroup, i) -> {
 
             if (i != bi.f124a.getId()) {
-                Clear.clearAllFields(bi.fldGrp2531, null);
+                Clear.clearAllFields(bi.fldGrp2531);
             }
         }));
 
         //f128g
         bi.f128g.setOnCheckedChangeListener((compoundButton, b) -> {
 
-            if (b)
-                Clear.clearAllFields(bi.fldGrp2532, null);
+            if (b) {
+                Clear.clearAllFields(bi.fldGrp2532);
+                bi.fldGrp2532.setVisibility(View.GONE);
+            } else
+                bi.fldGrp2532.setVisibility(View.VISIBLE);
 
         });
 
         bi.f129.setOnCheckedChangeListener(((radioGroup, i) -> {
 
             if (i == bi.f129a.getId()) {
-                Clear.clearAllFields(bi.fldGrpCVf130, null);
+                Clear.clearAllFields(bi.fldGrpCVf130);
             }
         }));
     }

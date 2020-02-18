@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
 
     <!--new Strings-->
@@ -18,7 +19,7 @@
 
 
     <string name="tdheading">SECTION D: HOUSEHOLD MEMBER’S INFORMATION</string>
-    <string name="teheading">SECTION E: REPRODUCTIVE HEALTH (Complete this table for all married women aged 15-49 years in the household) </string>
+    <string name="teheading">SECTION E: REPRODUCTIVE HEALTH (Complete this table for all married women aged 15 &#8211; 49 years in the household) </string>
     <string name="te2heading">MATERNAL MORTALITY STATUS</string>
     <string name="tfheading">SECTION F: ANTENATAL CARE</string>
     <string name="tiheading">SECTION I: CHILD HEALTH</string>
@@ -41,8 +42,11 @@
     <string name="yes"> Yes </string>
     <string name="no"> No </string>
     <string name="dkn"> Don\'t Know </string>
-    <string name="none"> None of the Above </string>
-    <string name="na"> Not Applicable/Available  </string>
+    <string name="none"> None </string>
+    <string name="never"> Never </string>
+    <string name="na"> Not Applicable / Available  </string>
+    <string name="nap"> Not Applicable </string>
+    <string name="nav"> Not Available </string>
     <string name="ref"> Refused </string>
     <string name="other"> Other </string>
     <string name="specify"> Specify </string>
@@ -769,9 +773,9 @@
     <string name="h111"> H111:\t How soon after birth, {NAME} was put on skin to skin contact with mother ? </string>
 
     <string name="h112"> H112:\t How long after birth {NAME} was breastfed ? </string>
-    <string name="h112a">Less than 1 hour</string>
-    <string name="h112b">More than 1 hour</string>
-    <string name="h112c">More than 1 day</string>
+    <string name="h112a"> Less than 1 hour </string>
+    <string name="h112b"> More than 1 hour </string>
+    <string name="h112c"> More than 1 day </string>
 
     <string name="h113"> H113:\t Did you discard the thick milk (colostrum) that comes out of breast soon after delivery ? </string>
     <string name="h113a"> Yes </string>
@@ -1190,19 +1194,19 @@
     <string name="i116g"> Intravenous (IV) </string>
     <string name="i116h"> Home remedy/herbal medicine </string>
 
-    <string name="i117"> I120:\t How much did diarrheal treatment of {NAME} cost you for medicine ? </string>
+    <string name="i117"> I117:\t How much did diarrheal treatment of {NAME} cost you for medicine ? </string>
 
-    <string name="i118"> I121:\t How much did it cost you on transport for diarrheal treatment of {NAME} ? </string>
+    <string name="i118"> I118:\t How much did it cost you on transport for diarrheal treatment of {NAME} ? </string>
 
-    <string name="i119"> I117:\t Have you heard about ORS ? </string>
+    <string name="i119"> I119:\t Have you heard about ORS ? </string>
     <string name="i119a"> Yes </string>
     <string name="i119b"> No </string>
 
-    <string name="i120"> I118:\t Are you aware about the preparation method of ORS (Oral rehydration salt) ? </string>
-    <string name="i120a">Yes</string>
-    <string name="i120b">No</string>
+    <string name="i120"> I120:\t Are you aware about the preparation method of ORS (Oral rehydration salt) ? </string>
+    <string name="i120a"> Yes </string>
+    <string name="i120b"> No </string>
 
-    <string name="i121"> I119:\t Where did you learn how to prepare Oral Rehydration Solution (ORS)? </string>
+    <string name="i121"> I121:\t Where did you learn how to prepare Oral Rehydration Solution (ORS)? </string>
     <string name="i121a"> Doctor </string>
     <string name="i121b"> LHV (Lady Health Visitor) </string>
     <string name="i121c"> Nurse </string>
@@ -1864,7 +1868,9 @@
     <string name="j123x"> Other </string>
 
     <string name="k101"> K101:\t Have you ever heard of a method to delay pregnancy ? </string>
-    <string name="k101a">Yes</string>
+    <string name="k101a"> Yes </string>
+    <string name="k101b"> No </string>
+
     <string name="k101aa"> K101A:\t From where you get the information about FP methods?</string>
     <string name="k101aaa">Government Hospital</string>
     <string name="k101aab">Family Welfare Centre</string>
@@ -1879,7 +1885,6 @@
     <string name="k101aak">Outdoor sign/billboard</string>
     <string name="k101aal">Pamphalet/ Broucher</string>
     <string name="k101aam">Mobile/Smart Phone/TV</string>
-    <string name="k101b">No</string>
     <string name="k102">K102:\t Did you or your husband ever done something or used any method to delay or avoid getting pregnant?</string>
     <string name="k102a">Yes</string>
     <string name="k102b">No</string>
@@ -2263,6 +2268,7 @@
     <string name="n101l"> Cart with small tank / drum </string>
     <string name="n101m"> Surface water (river, stream, dam, lake, pond, canal, irrigation channel) </string>
     <string name="n101n"> Bottled water </string>
+    <string name="n101x"> Other </string>
 
     <string name="n102"> N102:\t What is the main source of water used by your household for other purposes such as cooking and hand washing ? </string>
     <string name="n102a"> Piped into dwelling </string>
@@ -2282,6 +2288,7 @@
     <string name="n102l"> Cart with small tank / drum </string>
     <string name="n102m"> Surface water (river, stream, dam, lake, pond, canal, irrigation channel) </string>
     <string name="n102n"> Bottled water </string>
+    <string name="n102x"> Other </string>
 
     <string name="n103"> N103:\t Where is that water source located ? </string>
     <string name="n103a"> In own dwelling </string>
@@ -2377,6 +2384,7 @@
     <string name="o104b"> Detergent (Powder/Liquid/Paste) </string>
     <string name="o104c"> Liquid soap </string>
     <string name="o104d"> Ash/Mud/Sand </string>
+    <string name="o104x"> Other </string>
     <!--<string name="o10499">Refused</string>
     <string name="o104x">Other</string>-->
 
@@ -2394,6 +2402,7 @@
     <string name="o107b"> Detergent (Powder/Liquid/Paste) </string>
     <string name="o107c"> Liquid soap </string>
     <string name="o107d"> Ash/Mud/Sand </string>
+    <string name="o107x"> Other </string>
 
     <string name="o108"> O108:\t Outcome of interview </string>
     <string name="o108a"> Completed </string>
@@ -2413,23 +2422,24 @@
     <string name="nextMortality"> Next Mortality </string>
 
     <string name="istatus">Interview Results</string>
-    <string name="istatusa"> مکمل </string>
-    <string name="istatusb"> گھر پر موجود نہیں </string>
-    <string name="istatusc"> انکار </string>
-    <string name="istatusd"> جزوی مکمل </string>
-    <string name="istatuse"> جواب دینے سے قاصر </string>
-    <string name="istatusf"> گھر نہیں ملا </string>
-    <string name="istatusg"> عمر کی وجہ سے نااہل </string>
-    <string name="istatusha"> مکمل </string>
+    <string name="istatusa"> Complete </string>
+    <string name="istatusb"> Not at Home </string>
+    <string name="istatusc"> Refused </string>
+    <string name="istatusd"> Partially Complete </string>
+    <string name="istatuse"> Not Able to Answer </string>
+    <string name="istatusf"> Couldn\'t Find HH </string>
+    <string name="istatusg"> Not Recommended because of age  </string>
+    <string name="istatusha"> Complete </string>
     <string name="istatushb"> گھرانے کا کوئی فرد یا باصلاحیت جواب دہندہ گھر پر موجود نہیں تھا </string>
     <string name="istatushc"> گھرانہ کے تمام افراد لمبے عرصے کے لئیے گھر سے غیر حاضر تھے </string>
-    <string name="istatushd"> انکار کردیا </string>
-    <string name="istatushe"> خالی گھر/گھر کا پتہ نہ تھا </string>
-    <string name="istatushf"> گھر نہیں ملا </string>
-    <string name="istatushg"> جزوی مکمل </string>
-    <string name="dialog_text">Please add Info for second child.</string>
-    <string name="countNo">No</string>
-    <string name="countYes">Yes</string>
-    <string name="countAlertMsg">Are you sure to continue</string>
+    <string name="istatushd"> Refused </string>
+    <string name="istatushe"> No One at Home / Couldn\'t Find Address </string>
+    <string name="istatushf"> HouseHold Not Found </string>
+    <string name="istatushg"> Partially Complete </string>
+
+    <string name="dialog_text"> Please add Info for second child. </string>
+    <string name="countNo"> No </string>
+    <string name="countYes"> Yes </string>
+    <string name="countAlertMsg"> Are you sure to continue </string>
 
 </resources>

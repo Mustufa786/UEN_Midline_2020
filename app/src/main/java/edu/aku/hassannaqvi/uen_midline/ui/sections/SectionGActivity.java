@@ -8,6 +8,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
 
+import com.validatorcrawler.aliazaz.Clear;
 import com.validatorcrawler.aliazaz.Validator;
 
 import org.json.JSONException;
@@ -19,7 +20,6 @@ import edu.aku.hassannaqvi.uen_midline.core.DatabaseHelper;
 import edu.aku.hassannaqvi.uen_midline.core.MainApp;
 import edu.aku.hassannaqvi.uen_midline.databinding.ActivitySectionGBinding;
 import edu.aku.hassannaqvi.uen_midline.utils.Util;
-import edu.aku.hassannaqvi.uen_midline.validator.ClearClassOld;
 
 public class SectionGActivity extends AppCompatActivity {
 
@@ -41,6 +41,11 @@ public class SectionGActivity extends AppCompatActivity {
 
         //g102
         bi.g102.setOnCheckedChangeListener((group, checkedId) -> {
+            Clear.clearAllFields(bi.fldGrpCVg103);
+            Clear.clearAllFields(bi.fldGrpCVg104);
+            Clear.clearAllFields(bi.fldGrpCVg105);
+            Clear.clearAllFields(bi.fldGrpCVg106);
+            Clear.clearAllFields(bi.fldGrpCVg107);
             ClearClassOld.ClearAllFields(bi.fldGrpCVg103, null);
             ClearClassOld.ClearAllFields(bi.fldGrpCVg105, null);
             ClearClassOld.ClearAllFields(bi.fldGrpCVg106, null);
@@ -67,8 +72,8 @@ public class SectionGActivity extends AppCompatActivity {
                 bi.fldGrpCVg111.setVisibility(View.VISIBLE);
                 bi.fldGrpCVg112.setVisibility(View.VISIBLE);
             } else {
-                ClearClassOld.ClearAllFields(bi.fldGrpCVg111, null);
-                ClearClassOld.ClearAllFields(bi.fldGrpCVg112, null);
+                Clear.clearAllFields(bi.fldGrpCVg111);
+                Clear.clearAllFields(bi.fldGrpCVg112);
                 bi.fldGrpCVg111.setVisibility(View.GONE);
                 bi.fldGrpCVg112.setVisibility(View.GONE);
             }
@@ -81,7 +86,7 @@ public class SectionGActivity extends AppCompatActivity {
             if (checkedId == bi.g111a.getId()) {
                 bi.fldGrpCVg112.setVisibility(View.VISIBLE);
             } else {
-                ClearClassOld.ClearAllFields(bi.fldGrpCVg112, null);
+                Clear.clearAllFields(bi.fldGrpCVg112);
                 bi.fldGrpCVg112.setVisibility(View.GONE);
             }
         });
@@ -95,9 +100,9 @@ public class SectionGActivity extends AppCompatActivity {
                 bi.fldGrpCVg115.setVisibility(View.VISIBLE);
                 bi.fldGrpCVg116.setVisibility(View.VISIBLE);
             } else {
-                ClearClassOld.ClearAllFields(bi.fldGrpCVg114, null);
-                ClearClassOld.ClearAllFields(bi.fldGrpCVg115, null);
-                ClearClassOld.ClearAllFields(bi.fldGrpCVg116, null);
+                Clear.clearAllFields(bi.fldGrpCVg114);
+                Clear.clearAllFields(bi.fldGrpCVg115);
+                Clear.clearAllFields(bi.fldGrpCVg116);
                 bi.fldGrpCVg114.setVisibility(View.GONE);
                 bi.fldGrpCVg115.setVisibility(View.GONE);
                 bi.fldGrpCVg116.setVisibility(View.GONE);
@@ -111,7 +116,7 @@ public class SectionGActivity extends AppCompatActivity {
             if (checkedId == bi.g115a.getId()) {
                 bi.fldGrpCVg116.setVisibility(View.VISIBLE);
             } else {
-                ClearClassOld.ClearAllFields(bi.fldGrpCVg116, null);
+                Clear.clearAllFields(bi.fldGrpCVg116);
                 bi.fldGrpCVg116.setVisibility(View.GONE);
             }
         });
@@ -120,8 +125,8 @@ public class SectionGActivity extends AppCompatActivity {
         //g119
         bi.g119.setOnCheckedChangeListener((group, checkedId) -> {
 
-            ClearClassOld.ClearAllFields(bi.fldGrpCVg120, null);
-            ClearClassOld.ClearAllFields(bi.fldGrpCVg121, null);
+            Clear.clearAllFields(bi.fldGrpCVg120);
+            Clear.clearAllFields(bi.fldGrpCVg121);
             bi.fldGrpCVg120.setVisibility(View.GONE);
             bi.fldGrpCVg121.setVisibility(View.GONE);
 
@@ -140,8 +145,8 @@ public class SectionGActivity extends AppCompatActivity {
                 bi.fldGrpCVg123.setVisibility(View.VISIBLE);
                 bi.fldGrpCVg124.setVisibility(View.VISIBLE);
             } else {
-                ClearClassOld.ClearAllFields(bi.fldGrpCVg123, null);
-                ClearClassOld.ClearAllFields(bi.fldGrpCVg124, null);
+                Clear.clearAllFields(bi.fldGrpCVg123);
+                Clear.clearAllFields(bi.fldGrpCVg124);
                 bi.fldGrpCVg123.setVisibility(View.GONE);
                 bi.fldGrpCVg124.setVisibility(View.GONE);
             }
@@ -154,7 +159,7 @@ public class SectionGActivity extends AppCompatActivity {
             if (checkedId == bi.g126a.getId()) {
                 bi.fldGrpCVg127.setVisibility(View.VISIBLE);
             } else {
-                ClearClassOld.ClearAllFields(bi.fldGrpCVg127, null);
+                Clear.clearAllFields(bi.fldGrpCVg127);
                 bi.fldGrpCVg127.setVisibility(View.GONE);
             }
         });

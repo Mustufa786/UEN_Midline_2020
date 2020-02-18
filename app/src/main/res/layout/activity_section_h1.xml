@@ -16,12 +16,12 @@
         android:fadeScrollbars="false"
         android:fillViewport="true"
         android:scrollbarSize="10dip"
+        android:layoutDirection="rtl"
         tools:context=".ui.Myactivity">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layoutDirection="ltr"
             android:orientation="vertical">
 
             <LinearLayout
@@ -310,7 +310,7 @@
                             style="@style/EditTextNum"
                             android:hint="@string/minutes"
                             android:maxLength="1"
-                            app:maxValue="5"
+                            app:maxValue="2"
                             app:minValue="0"
                             app:type="range" />
 
@@ -545,9 +545,9 @@
                             android:id="@+id/h111"
                             style="@style/EditTextNum"
                             android:hint="@string/minutes"
-                            android:maxLength="2"
-                            app:maxValue="59"
-                            app:minValue="1"
+                            android:maxLength="1"
+                            app:maxValue="1"
+                            app:minValue="0"
                             app:type="range" />
 
                     </LinearLayout>

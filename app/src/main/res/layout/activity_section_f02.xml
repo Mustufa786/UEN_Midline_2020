@@ -15,6 +15,7 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layoutDirection="rtl"
         tools:context=".ui.sections.SectionF02Activity">
 
 
@@ -22,7 +23,6 @@
             android:id="@+id/fldGrpSectionf02"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layoutDirection="ltr"
             android:orientation="vertical">
 
 
@@ -450,8 +450,7 @@
                     android:id="@+id/fldGrp2532"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:visibility='@{f128g.checked? View.GONE : View.VISIBLE}'>
+                    android:orientation="vertical">
 
                     <!-- f129  Radio   -->
                     <androidx.cardview.widget.CardView
