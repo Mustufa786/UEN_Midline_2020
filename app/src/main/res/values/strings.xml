@@ -2221,16 +2221,17 @@
 
     <string name="o104"> O104:\t جيڪڏهن نوٽ ڪيو ويو ته واقعي صابڻ موجود هو جتي هٿ ڌويا ويندا آهن ؟</string>
     <string name="o104hint"> Record your observation. Select all that apply. </string>
-    <string name="o104a"> صابڻ</string>
-    <string name="o104b"> (صابڻ (پائوڊر/ملائم چيز/ پيسٽ</string>
+    <string name="o104a"> صابڻ </string>
+    <string name="o104b"> (صابڻ (پائوڊر/ملائم چيز/ پيسٽ </string>
     <string name="o104c"> ملائم صابڻ </string>
     <string name="o104d"> چيڪي مٽي </string>
     <string name="o104x"> </string>
 
     <string name="o105"> O105:\t ڇا توهان وٽ گھر ۾ هٿ ڌوئڻ لاءِ صابڻ موجود آهي؟</string>
-    <string name="o105a"> ھا</string>
+    <string name="o105a"> ھا </string>
     <string name="o105b"> نه </string>
-    <string name="o106"> o106:\t ڇا توھان مون کي صابڻ ڏيکاري سگھو ٿا؟</string>
+
+    <string name="o106"> O106:\t ڇا توھان مون کي صابڻ ڏيکاري سگھو ٿا؟</string>
     <string name="o106a"> ھا، ڏٺو </string>
     <string name="o106b"> نه، نه ڏٺو </string>
 
@@ -2277,7 +2278,7 @@
     <string name="dialog_text"> مهرباني ڪري سيڪنڊ ٻار لاء ڄاڻ شامل ڪريو. </string>
     <string name="countNo"> نه </string>
     <string name="countYes"> ها </string>
-    <string name="countAlertMsg"> يقينا! توهان ختم ڪرڻ چاهيو ٿا </string>
+    <string name="countAlertMsg"> يقينا! توھان جاري رکڻ چاھيو ٿا </string>
 
 
 </resources>
