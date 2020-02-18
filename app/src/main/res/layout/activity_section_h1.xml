@@ -564,7 +564,7 @@
                         android:layout_height="wrap_content"
                         android:orientation="vertical">
 
-                        <TextView
+                        <TextView10
                             style="@style/i_textview"
                             android:text="@string/h112" />
 
@@ -826,7 +826,7 @@
                             style="@style/EditTextNum"
                             android:hint="@string/month"
                             android:maxLength="1"
-                            app:maxValue="6"
+                            app:maxValue="26"
                             app:minValue="1"
                             app:type="range" />
 
