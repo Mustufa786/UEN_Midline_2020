@@ -41,8 +41,9 @@
     <string name="yes"> Yes </string>
     <string name="no"> No </string>
     <string name="dkn"> Don\'t Know </string>
-    <string name="none"> None of the Above </string>
-    <string name="na"> Not Applicable/Available  </string>
+    <string name="none"> None </string>
+    <string name="never"> Never </string>
+    <string name="na"> Not Applicable / Available  </string>
     <string name="nap"> Not Applicable </string>
     <string name="nav"> Not Available </string>
     <string name="ref"> Refused </string>

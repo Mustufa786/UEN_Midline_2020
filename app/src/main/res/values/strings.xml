@@ -35,39 +35,40 @@
     Centre of Excellence Women &amp; Child Health\n
     Aga Khan University, Karachi, Pakistan</string>
 
-    <string name="title_activity_family_members_list">Family Members List</string>
+    <string name="title_activity_family_members_list"> Family Members List </string>
 
-    <string name="sM"> UC </string>
-    <string name="yes"> Yes </string>
-    <string name="no"> No </string>
-    <string name="dkn"> Don\'t Know </string>
-    <string name="none"> None of the Above </string>
-    <string name="na"> Not Applicable/Available  </string>
-    <string name="nap"> Not Applicable </string>
-    <string name="nav"> Not Available </string>
-    <string name="ref"> Refused </string>
-    <string name="other"> Other </string>
-    <string name="specify"> Specify </string>
-    <string name="year"> Years </string>
-    <string name="month"> Months </string>
-    <string name="weeks"> Weeks </string>
-    <string name="days"> Days </string>
-    <string name="hours"> Hours </string>
-    <string name="minutes"> Minutes </string>
-    <string name="kg"> Kilograms </string>
-    <string name="km"> Kilometers </string>
-    <string name="cm"> Centimeters </string>
-    <string name="in"> Inches </string>
-    <string name="rupees"> Rupees </string>
-    <string name="num"> Number </string>
-    <string name="name"> Name </string>
+    <string name="sM"> یو سی </string>
+    <string name="yes"> ہاں </string>
+    <string name="no"> نہیں </string>
+    <string name="dkn"> معلوم نہیں </string>
+    <string name="none"> کوئی نہیں </string>
+    <string name="never"> کبھی نہیں </string>
+    <string name="na"> قابل اطلاق / دستیاب نہیں  </string>
+    <string name="nap"> قابل اطلاق نہیں </string>
+    <string name="nav"> دستیاب نہیں </string>
+    <string name="ref"> انکار کر دیا </string>
+    <string name="other"> دیگر </string>
+    <string name="specify"> وضاحت کریں </string>
+    <string name="year"> سال </string>
+    <string name="month"> مہینہ </string>
+    <string name="weeks"> ہفتے </string>
+    <string name="days"> دن </string>
+    <string name="hours"> گهنٹا </string>
+    <string name="minutes"> منٹ </string>
+    <string name="kg"> کلوگرام </string>
+    <string name="km"> کلومیٹر </string>
+    <string name="cm"> سینٹی میٹر </string>
+    <string name="in"> انچ </string>
+    <string name="rupees"> روپے </string>
+    <string name="num"> اعداد </string>
+    <string name="name"> نام </string>
 
-    <string name="total"> Total </string>
+    <string name="total"> حاصل جمع </string>
     <string name="mwra"> MWRA </string>
     <string name="under5"> Child Under 5 </string>
 
 
-    <string name="taheading">SECTION A: HH Identification</string>
+    <string name="taheading"> سیکشن اے: ایچ ایچ کی شناخت </string>
     <string name="a101"> کلسٹر نمبر </string>
     <string name="a101a"> یہ معلومات ضلعی بنیاد پربنائی گئی گاؤں کی فہرست پر مبنی ہوں گی۔ہر انٹرویو کرنے والے کو جس علاقے کا وہ دورہ کرے گا کلسٹرز کی ایک فہرست دی جائے گی اور انٹرویو شروع کرنے سے پہلے اسی فہرست سے یہ معلومات درج کی جائیں گی۔ </string>
     <string name="a102"> کلسٹرکی قسم </string>
@@ -385,7 +386,7 @@
     <string name="f124a"> ہاں </string>
     <string name="f124b"> نہیں </string>
     <string name="f125"> کیاآپ کوئی خطرناک علامات/بیماریوں کے نام بتا سکتی ہیں جن سے آپ واقف ہیں؟ </string>
-    <string name="f125hint"> بتائی گئی تمام وجوہات پر نشان لگائیں، \'آپشن پڑھ کر نہ سنائیں' اور نہ ہی کوئی تجویز دیں جیسے کہ </string>
+    <string name="f125hint"> بتائی گئی تمام وجوہات پر نشان لگائیں، \'آپشن پڑھ کر نہ سنائیں\' اور نہ ہی کوئی تجویز دیں جیسے کہ </string>
     <string name="f125a"> شرم گاہ سے خون کا اخراج </string>
     <string name="f125b"> شدید سر درد اور بینائی کے مسائل </string>
     <string name="f125c"> تیز بخار(101سے زیادہ) </string>
@@ -1505,8 +1506,8 @@
     <string name="j106b"> نہیں </string>
     <string name="j106c"> معلوم نہیں </string>
     <string name="j107"> (J104) واپس پر جائیں اور ان حفاظتی ٹیکوں کی جانچ کریں </string>
-    <string name="j107hint"> لگنے والی ہر ویکسین کے لئے اس دن کے کالم میں\'66' ریکارڈ کریں۔ </string>
-    <string name="j107hint1"> جو ویکسینز نہیں لگیں ان کے لئے\'00' ریکارڈ سوال نمبر کریں۔ </string>
+    <string name="j107hint"> لگنے والی ہر ویکسین کے لئے اس دن کے کالم میں\'66\' ریکارڈ کریں۔ </string>
+    <string name="j107hint1"> جو ویکسینز نہیں لگیں ان کے لئے\'00\' ریکارڈ سوال نمبر کریں۔ </string>
     <string name="j107hint2"> جب مکمل کر لیں، تو ماڈیول کے اختتام پر جائیں </string>
     <string name="j108"> کیا (نام)کو کبھی بیماریوں سے بچاؤکے لئے کوئی ویکسین لگی ہےجو اسے بیماریوں سے بچا سکے۔ اس میں حفاظتی ٹیکوں کی مہم کے دوران لگنے والی ویکسین ، حفاظتی ٹیکے لگانے والا دن یا بچوں کی صحت کے دن لگنے والی ویکسین شامل ہیں۔ </string>
     <string name="j108a"> ہاں </string>
@@ -1643,7 +1644,7 @@
     <string name="k108a"> ہاں </string>
     <string name="k108b"> نہیں </string>
     <string name="k108c"> کمیونٹی میں عمومی میٹنگ </string>
-    <string name="k109"> کیا آپ اپنے علاقہ میں گھر کے قریب کسی لیڈی ہیلتھ ورکر\'ہیلتھ ہاؤس' کے بارے میں جانتی ہیں ؟ </string>
+    <string name="k109"> کیا آپ اپنے علاقہ میں گھر کے قریب کسی لیڈی ہیلتھ ورکر\'ہیلتھ ہاؤس\' کے بارے میں جانتی ہیں ؟ </string>
     <string name="k109a"> ہاں </string>
     <string name="k109ab"> نہیں </string>
     <string name="l101"> کیا آپ کے پاس اپنا ذاتی موبائل فون ہے ؟ </string>
