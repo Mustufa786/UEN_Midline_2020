@@ -546,7 +546,7 @@
                             style="@style/EditTextNum"
                             android:hint="@string/minutes"
                             android:maxLength="1"
-                            app:maxValue="1"
+                            app:maxValue="2"
                             app:minValue="0"
                             app:type="range" />
 
