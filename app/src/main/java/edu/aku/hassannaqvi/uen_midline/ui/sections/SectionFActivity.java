@@ -18,7 +18,7 @@ import edu.aku.hassannaqvi.uen_midline.core.DatabaseHelper;
 import edu.aku.hassannaqvi.uen_midline.core.MainApp;
 import edu.aku.hassannaqvi.uen_midline.databinding.ActivitySectionFBinding;
 import edu.aku.hassannaqvi.uen_midline.utils.Util;
-import edu.aku.hassannaqvi.uen_midline.validator.ClearClass;
+import edu.aku.hassannaqvi.uen_midline.validator.ClearClassOld;
 
 public class SectionFActivity extends AppCompatActivity {
 
@@ -43,23 +43,23 @@ public class SectionFActivity extends AppCompatActivity {
 
         bi.f101.setOnCheckedChangeListener(((radioGroup, i) -> {
             if (i == bi.f101a.getId()) {
-                ClearClass.ClearAllFields(bi.fldGrpCVf101a, null);
+                ClearClassOld.ClearAllFields(bi.fldGrpCVf101a, null);
             } else {
-                ClearClass.ClearAllFields(bi.fldGrpSectionFA, null);
-                ClearClass.ClearAllFields(bi.fldGrpSectionFB, null);
+                ClearClassOld.ClearAllFields(bi.fldGrpSectionFA, null);
+                ClearClassOld.ClearAllFields(bi.fldGrpSectionFB, null);
             }
         }));
 
         bi.f112.setOnCheckedChangeListener(((radioGroup, i) -> {
             if (i != bi.f112a.getId()) {
-                ClearClass.ClearAllFields(bi.fldGrpCVf113, null);
+                ClearClassOld.ClearAllFields(bi.fldGrpCVf113, null);
             }
         }));
 
         bi.f114.setOnCheckedChangeListener((radioGroup, i) -> {
 
             if (i != bi.f114a.getId()) {
-                ClearClass.ClearAllFields(bi.fldGrp1520, null);
+                ClearClassOld.ClearAllFields(bi.fldGrp1520, null);
             }
         });
     }

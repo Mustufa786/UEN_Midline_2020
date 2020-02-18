@@ -20,7 +20,7 @@ import edu.aku.hassannaqvi.uen_midline.core.DatabaseHelper;
 import edu.aku.hassannaqvi.uen_midline.core.MainApp;
 import edu.aku.hassannaqvi.uen_midline.databinding.ActivitySectionJBinding;
 import edu.aku.hassannaqvi.uen_midline.utils.Util;
-import edu.aku.hassannaqvi.uen_midline.validator.ClearClass;
+import edu.aku.hassannaqvi.uen_midline.validator.ClearClassOld;
 
 public class SectionJActivity extends AppCompatActivity {
 
@@ -140,7 +140,7 @@ public class SectionJActivity extends AppCompatActivity {
         bi.j101.setOnCheckedChangeListener(((radioGroup, i) -> {
 
             if (i != bi.j101c.getId()) {
-                ClearClass.ClearAllFields(bi.fldGrpCVj102, null);
+                ClearClassOld.ClearAllFields(bi.fldGrpCVj102, null);
             }
 
         }));
@@ -148,7 +148,7 @@ public class SectionJActivity extends AppCompatActivity {
         bi.j102.setOnCheckedChangeListener(((radioGroup, i) -> {
 
             if (i == bi.j102a.getId() || i == bi.j102b.getId()) {
-                ClearClass.ClearAllFields(bi.fldGrpSectionJ011, null);
+                ClearClassOld.ClearAllFields(bi.fldGrpSectionJ011, null);
             }
 
         }));

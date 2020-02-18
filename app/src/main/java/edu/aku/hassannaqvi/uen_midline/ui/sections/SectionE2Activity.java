@@ -27,7 +27,7 @@ import edu.aku.hassannaqvi.uen_midline.core.DatabaseHelper;
 import edu.aku.hassannaqvi.uen_midline.core.MainApp;
 import edu.aku.hassannaqvi.uen_midline.databinding.ActivitySectionE2Binding;
 import edu.aku.hassannaqvi.uen_midline.utils.Util;
-import edu.aku.hassannaqvi.uen_midline.validator.ClearClass;
+import edu.aku.hassannaqvi.uen_midline.validator.ClearClassOld;
 
 public class SectionE2Activity extends AppCompatActivity {
 
@@ -76,19 +76,19 @@ public class SectionE2Activity extends AppCompatActivity {
                 bi.fldGrpCVe109.setVisibility(View.GONE);
                 bi.fldGrpCVe107.setVisibility(View.GONE);
                 bi.fldGrpCVe110.setVisibility(View.GONE);
-                ClearClass.ClearAllFields(bi.fldGrpCVd108, null);
-                ClearClass.ClearAllFields(bi.fldGrpCVe108, null);
-                ClearClass.ClearAllFields(bi.fldGrpCVe109, null);
-                ClearClass.ClearAllFields(bi.fldGrpCVe107, null);
-                ClearClass.ClearAllFields(bi.fldGrpCVe110, null);
+                ClearClassOld.ClearAllFields(bi.fldGrpCVd108, null);
+                ClearClassOld.ClearAllFields(bi.fldGrpCVe108, null);
+                ClearClassOld.ClearAllFields(bi.fldGrpCVe109, null);
+                ClearClassOld.ClearAllFields(bi.fldGrpCVe107, null);
+                ClearClassOld.ClearAllFields(bi.fldGrpCVe110, null);
                 bi.mainContainer2.setVisibility(View.VISIBLE);
 
               /*  bi.container1.setVisibility(View.GONE);
                 bi.container2.setVisibility(View.VISIBLE);
                 bi.container3.setVisibility(View.VISIBLE);
                 bi.fldGrpCVe110.setVisibility(View.GONE);
-                ClearClass.ClearAllFields(bi.fldGrpCVe110, null);
-                ClearClass.ClearAllFields(bi.container1, null);*/
+                ClearClassOld.ClearAllFields(bi.fldGrpCVe110, null);
+                ClearClassOld.ClearAllFields(bi.container1, null);*/
             } else {
                 bi.fldGrpCVd108.setVisibility(View.VISIBLE);
                 bi.fldGrpCVe108.setVisibility(View.VISIBLE);
@@ -109,12 +109,12 @@ public class SectionE2Activity extends AppCompatActivity {
                 bi.fldGrpCVe113.setVisibility(View.GONE);
                 bi.fldGrpCVe114.setVisibility(View.GONE);
                 bi.fldGrpCVe115.setVisibility(View.GONE);
-                ClearClass.ClearAllFields(bi.fldGrpCVe113, null);
-                ClearClass.ClearAllFields(bi.fldGrpCVe114, null);
-                ClearClass.ClearAllFields(bi.fldGrpCVe115, null);
+                ClearClassOld.ClearAllFields(bi.fldGrpCVe113, null);
+                ClearClassOld.ClearAllFields(bi.fldGrpCVe114, null);
+                ClearClassOld.ClearAllFields(bi.fldGrpCVe115, null);
             } else {
                 bi.mainContainer2.setVisibility(View.GONE);
-                ClearClass.ClearAllFields(bi.mainContainer2, null);
+                ClearClassOld.ClearAllFields(bi.mainContainer2, null);
             }
         }));
 
@@ -186,9 +186,9 @@ public class SectionE2Activity extends AppCompatActivity {
     }
 
     private void clearContainer() {
-        ClearClass.ClearAllFields(bi.container1, null);
-        ClearClass.ClearAllFields(bi.mainContainer2, null);
-        ClearClass.ClearAllFields(bi.e104015, false);
+        ClearClassOld.ClearAllFields(bi.container1, null);
+        ClearClassOld.ClearAllFields(bi.mainContainer2, null);
+        ClearClassOld.ClearAllFields(bi.e104015, false);
         bi.e104b.setChecked(true);
         bi.e105c.setChecked(true);
         MainApp.twinFlag = false;

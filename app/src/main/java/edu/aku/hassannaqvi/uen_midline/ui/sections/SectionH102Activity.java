@@ -20,7 +20,7 @@ import edu.aku.hassannaqvi.uen_midline.core.MainApp;
 import edu.aku.hassannaqvi.uen_midline.databinding.ActivitySectionH102Binding;
 import edu.aku.hassannaqvi.uen_midline.utils.JSONUtils;
 import edu.aku.hassannaqvi.uen_midline.utils.Util;
-import edu.aku.hassannaqvi.uen_midline.validator.ClearClass;
+import edu.aku.hassannaqvi.uen_midline.validator.ClearClassOld;
 
 public class SectionH102Activity extends AppCompatActivity {
 
@@ -42,9 +42,9 @@ public class SectionH102Activity extends AppCompatActivity {
         //h121
         bi.h121.setOnCheckedChangeListener((group, checkedId) -> {
 
-            ClearClass.ClearAllFields(bi.fldGrpCVh122, null);
-            ClearClass.ClearAllFields(bi.fldGrpCVh123, null);
-            ClearClass.ClearAllFields(bi.fldGrpCVh124, null);
+            ClearClassOld.ClearAllFields(bi.fldGrpCVh122, null);
+            ClearClassOld.ClearAllFields(bi.fldGrpCVh123, null);
+            ClearClassOld.ClearAllFields(bi.fldGrpCVh124, null);
             bi.fldGrpCVh122.setVisibility(View.GONE);
             bi.fldGrpCVh123.setVisibility(View.GONE);
             bi.fldGrpCVh124.setVisibility(View.GONE);
@@ -61,9 +61,9 @@ public class SectionH102Activity extends AppCompatActivity {
         //h12298
         bi.h12298.setOnCheckedChangeListener((compoundButton, b) -> {
             if (b) {
-                //ClearClass.ClearAllFields(bi.h122, null);
+                //ClearClassOld.ClearAllFields(bi.h122, null);
                 bi.h122.setText(null);
-                ClearClass.ClearAllFields(bi.fldGrpCVh123, null);
+                ClearClassOld.ClearAllFields(bi.fldGrpCVh123, null);
                 bi.h122.setVisibility(View.GONE);
                 bi.fldGrpCVh123.setVisibility(View.GONE);
             } else {
@@ -79,7 +79,7 @@ public class SectionH102Activity extends AppCompatActivity {
             if (checkedId == bi.h123b.getId()) {
                 bi.fldGrpCVh124.setVisibility(View.VISIBLE);
             } else {
-                ClearClass.ClearAllFields(bi.fldGrpCVh124, null);
+                ClearClassOld.ClearAllFields(bi.fldGrpCVh124, null);
                 bi.fldGrpCVh124.setVisibility(View.GONE);
             }
         });
@@ -98,14 +98,14 @@ public class SectionH102Activity extends AppCompatActivity {
                 bi.fldGrpCVh129d.setVisibility(View.VISIBLE);
                 bi.fldGrpCVh129e.setVisibility(View.VISIBLE);
             } else {
-                ClearClass.ClearAllFields(bi.fldGrpCVh126, null);
-                ClearClass.ClearAllFields(bi.fldGrpCVh127, null);
-                ClearClass.ClearAllFields(bi.fldGrpCVh128, null);
-                ClearClass.ClearAllFields(bi.fldGrpCVh129a, null);
-                ClearClass.ClearAllFields(bi.fldGrpCVh129b, null);
-                ClearClass.ClearAllFields(bi.fldGrpCVh129c, null);
-                ClearClass.ClearAllFields(bi.fldGrpCVh129d, null);
-                ClearClass.ClearAllFields(bi.fldGrpCVh129e, null);
+                ClearClassOld.ClearAllFields(bi.fldGrpCVh126, null);
+                ClearClassOld.ClearAllFields(bi.fldGrpCVh127, null);
+                ClearClassOld.ClearAllFields(bi.fldGrpCVh128, null);
+                ClearClassOld.ClearAllFields(bi.fldGrpCVh129a, null);
+                ClearClassOld.ClearAllFields(bi.fldGrpCVh129b, null);
+                ClearClassOld.ClearAllFields(bi.fldGrpCVh129c, null);
+                ClearClassOld.ClearAllFields(bi.fldGrpCVh129d, null);
+                ClearClassOld.ClearAllFields(bi.fldGrpCVh129e, null);
                 bi.fldGrpCVh126.setVisibility(View.GONE);
                 bi.fldGrpCVh127.setVisibility(View.GONE);
                 bi.fldGrpCVh128.setVisibility(View.GONE);
@@ -124,7 +124,7 @@ public class SectionH102Activity extends AppCompatActivity {
             if (checkedId == bi.h132a.getId()) {
                 bi.fldGrpCVh133.setVisibility(View.VISIBLE);
             } else {
-                ClearClass.ClearAllFields(bi.fldGrpCVh133, null);
+                ClearClassOld.ClearAllFields(bi.fldGrpCVh133, null);
                 bi.fldGrpCVh133.setVisibility(View.GONE);
             }
         });
@@ -137,8 +137,8 @@ public class SectionH102Activity extends AppCompatActivity {
                 bi.fldGrpCVh135.setVisibility(View.VISIBLE);
                 bi.fldGrpCVh136.setVisibility(View.VISIBLE);
             } else {
-                ClearClass.ClearAllFields(bi.fldGrpCVh135, null);
-                ClearClass.ClearAllFields(bi.fldGrpCVh136, null);
+                ClearClassOld.ClearAllFields(bi.fldGrpCVh135, null);
+                ClearClassOld.ClearAllFields(bi.fldGrpCVh136, null);
                 bi.fldGrpCVh135.setVisibility(View.GONE);
                 bi.fldGrpCVh136.setVisibility(View.GONE);
             }
@@ -152,8 +152,8 @@ public class SectionH102Activity extends AppCompatActivity {
                 bi.fldGrpCVh137aa.setVisibility(View.VISIBLE);
                 bi.fldGrpCVh137bb.setVisibility(View.VISIBLE);
             } else {
-                ClearClass.ClearAllFields(bi.fldGrpCVh137aa, null);
-                ClearClass.ClearAllFields(bi.fldGrpCVh137bb, null);
+                ClearClassOld.ClearAllFields(bi.fldGrpCVh137aa, null);
+                ClearClassOld.ClearAllFields(bi.fldGrpCVh137bb, null);
                 bi.fldGrpCVh137aa.setVisibility(View.GONE);
                 bi.fldGrpCVh137bb.setVisibility(View.GONE);
             }
@@ -163,10 +163,10 @@ public class SectionH102Activity extends AppCompatActivity {
         //h13598
         bi.h13598.setOnCheckedChangeListener((compoundButton, b) -> {
             if (b) {
-                ClearClass.ClearAllFields(bi.h135check, false);
+                ClearClassOld.ClearAllFields(bi.h135check, false);
                 bi.h135check.setTag("-1");
             } else {
-                ClearClass.ClearAllFields(bi.h135check, true);
+                ClearClassOld.ClearAllFields(bi.h135check, true);
                 bi.h135check.setTag("0");
             }
         });

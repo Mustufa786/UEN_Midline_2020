@@ -19,7 +19,7 @@ import edu.aku.hassannaqvi.uen_midline.core.DatabaseHelper;
 import edu.aku.hassannaqvi.uen_midline.core.MainApp;
 import edu.aku.hassannaqvi.uen_midline.databinding.ActivitySectionH2Binding;
 import edu.aku.hassannaqvi.uen_midline.utils.Util;
-import edu.aku.hassannaqvi.uen_midline.validator.ClearClass;
+import edu.aku.hassannaqvi.uen_midline.validator.ClearClassOld;
 
 public class SectionH2Activity extends AppCompatActivity {
 
@@ -45,9 +45,9 @@ public class SectionH2Activity extends AppCompatActivity {
                 bi.fldGrpCVh204.setVisibility(View.VISIBLE);
                 bi.fldGrpCVh205.setVisibility(View.VISIBLE);
             } else {
-                ClearClass.ClearAllFields(bi.fldGrpCVh203, null);
-                ClearClass.ClearAllFields(bi.fldGrpCVh204, null);
-                ClearClass.ClearAllFields(bi.fldGrpCVh205, null);
+                ClearClassOld.ClearAllFields(bi.fldGrpCVh203, null);
+                ClearClassOld.ClearAllFields(bi.fldGrpCVh204, null);
+                ClearClassOld.ClearAllFields(bi.fldGrpCVh205, null);
                 bi.fldGrpCVh203.setVisibility(View.GONE);
                 bi.fldGrpCVh204.setVisibility(View.GONE);
                 bi.fldGrpCVh205.setVisibility(View.GONE);
@@ -62,8 +62,8 @@ public class SectionH2Activity extends AppCompatActivity {
                 bi.fldGrpCVh207.setVisibility(View.VISIBLE);
                 bi.fldGrpCVh208.setVisibility(View.VISIBLE);
             } else {
-                ClearClass.ClearAllFields(bi.fldGrpCVh207, null);
-                ClearClass.ClearAllFields(bi.fldGrpCVh208, null);
+                ClearClassOld.ClearAllFields(bi.fldGrpCVh207, null);
+                ClearClassOld.ClearAllFields(bi.fldGrpCVh208, null);
                 bi.fldGrpCVh207.setVisibility(View.GONE);
                 bi.fldGrpCVh208.setVisibility(View.GONE);
             }
@@ -79,10 +79,10 @@ public class SectionH2Activity extends AppCompatActivity {
                 bi.fldGrpCVh212.setVisibility(View.VISIBLE);
                 bi.fldGrpCVh213.setVisibility(View.VISIBLE);
             } else {
-                ClearClass.ClearAllFields(bi.fldGrpCVh210, null);
-                ClearClass.ClearAllFields(bi.fldGrpCVh211, null);
-                ClearClass.ClearAllFields(bi.fldGrpCVh212, null);
-                ClearClass.ClearAllFields(bi.fldGrpCVh213, null);
+                ClearClassOld.ClearAllFields(bi.fldGrpCVh210, null);
+                ClearClassOld.ClearAllFields(bi.fldGrpCVh211, null);
+                ClearClassOld.ClearAllFields(bi.fldGrpCVh212, null);
+                ClearClassOld.ClearAllFields(bi.fldGrpCVh213, null);
                 bi.fldGrpCVh210.setVisibility(View.GONE);
                 bi.fldGrpCVh211.setVisibility(View.GONE);
                 bi.fldGrpCVh212.setVisibility(View.GONE);
@@ -101,11 +101,11 @@ public class SectionH2Activity extends AppCompatActivity {
                 bi.fldGrpCVh222.setVisibility(View.VISIBLE);
                 bi.fldGrpCVh223.setVisibility(View.VISIBLE);
             } else {
-                ClearClass.ClearAllFields(bi.fldGrpCVh219, null);
-                ClearClass.ClearAllFields(bi.fldGrpCVh220, null);
-                ClearClass.ClearAllFields(bi.fldGrpCVh221, null);
-                ClearClass.ClearAllFields(bi.fldGrpCVh222, null);
-                ClearClass.ClearAllFields(bi.fldGrpCVh223, null);
+                ClearClassOld.ClearAllFields(bi.fldGrpCVh219, null);
+                ClearClassOld.ClearAllFields(bi.fldGrpCVh220, null);
+                ClearClassOld.ClearAllFields(bi.fldGrpCVh221, null);
+                ClearClassOld.ClearAllFields(bi.fldGrpCVh222, null);
+                ClearClassOld.ClearAllFields(bi.fldGrpCVh223, null);
                 bi.fldGrpCVh219.setVisibility(View.GONE);
                 bi.fldGrpCVh220.setVisibility(View.GONE);
                 bi.fldGrpCVh221.setVisibility(View.GONE);
@@ -117,10 +117,10 @@ public class SectionH2Activity extends AppCompatActivity {
         //h20798
         bi.h20798.setOnCheckedChangeListener((compoundButton, b) -> {
             if (b) {
-                ClearClass.ClearAllFields(bi.h207check, false);
+                ClearClassOld.ClearAllFields(bi.h207check, false);
                 bi.h207check.setTag("-1");
             } else {
-                ClearClass.ClearAllFields(bi.h207check, true);
+                ClearClassOld.ClearAllFields(bi.h207check, true);
                 bi.h207check.setTag("0");
             }
         });

@@ -18,7 +18,7 @@ import edu.aku.hassannaqvi.uen_midline.core.DatabaseHelper;
 import edu.aku.hassannaqvi.uen_midline.core.MainApp;
 import edu.aku.hassannaqvi.uen_midline.databinding.ActivitySectionNBinding;
 import edu.aku.hassannaqvi.uen_midline.utils.Util;
-import edu.aku.hassannaqvi.uen_midline.validator.ClearClass;
+import edu.aku.hassannaqvi.uen_midline.validator.ClearClassOld;
 
 public class SectionNActivity extends AppCompatActivity {
 
@@ -38,20 +38,20 @@ public class SectionNActivity extends AppCompatActivity {
 
         bi.n103.setOnCheckedChangeListener(((radioGroup, i) -> {
             if (i != bi.n103c.getId()) {
-                ClearClass.ClearAllFields(bi.fldGrpCVn104, null);
+                ClearClassOld.ClearAllFields(bi.fldGrpCVn104, null);
             }
 
         }));
 
         bi.n108.setOnCheckedChangeListener(((radioGroup, i) -> {
             if (i != bi.n108a.getId()) {
-                ClearClass.ClearAllFields(bi.fldGrpCVn109, null);
+                ClearClassOld.ClearAllFields(bi.fldGrpCVn109, null);
             }
         }));
 
         bi.n111.setOnCheckedChangeListener(((radioGroup, i) -> {
             if (i != bi.n111a.getId()) {
-                ClearClass.ClearAllFields(bi.fldGrp1213, null);
+                ClearClassOld.ClearAllFields(bi.fldGrp1213, null);
             }
         }));
     }
