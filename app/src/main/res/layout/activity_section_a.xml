@@ -12,15 +12,14 @@
     </data>
 
     <ScrollView
-
         style="@style/i_scrollview"
+        android:layoutDirection="rtl"
         tools:context=".ui.Myactivity">
 
         <LinearLayout
             android:id="@+id/fldGrpSectionA"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layoutDirection="ltr"
             android:orientation="vertical">
 
             <!-- a101  Input   -->

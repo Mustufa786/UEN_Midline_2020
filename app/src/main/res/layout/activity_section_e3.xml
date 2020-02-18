@@ -16,6 +16,7 @@
 
     <ScrollView
         style="@style/i_scrollview"
+        android:layoutDirection="rtl"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
@@ -24,7 +25,6 @@
             android:id="@+id/fldGrpSectionE3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layoutDirection="ltr"
             android:orientation="vertical">
 
             <!-- e116_title  Title   -->

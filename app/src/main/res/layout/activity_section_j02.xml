@@ -15,12 +15,10 @@
 
     <ScrollView
         style="@style/i_scrollview"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layoutDirection="rtl">
 
 
         <LinearLayout
-            android:layoutDirection="ltr"
             android:id="@+id/fldGrpSectionJ02"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
