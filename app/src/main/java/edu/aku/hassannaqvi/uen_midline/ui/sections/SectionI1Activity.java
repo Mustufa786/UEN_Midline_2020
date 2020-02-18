@@ -27,7 +27,7 @@ import edu.aku.hassannaqvi.uen_midline.core.DatabaseHelper;
 import edu.aku.hassannaqvi.uen_midline.core.MainApp;
 import edu.aku.hassannaqvi.uen_midline.databinding.ActivitySectionI1Binding;
 import edu.aku.hassannaqvi.uen_midline.utils.Util;
-import edu.aku.hassannaqvi.uen_midline.validator.ClearClass;
+import edu.aku.hassannaqvi.uen_midline.validator.ClearClassOld;
 import kotlin.Pair;
 
 import static edu.aku.hassannaqvi.uen_midline.ui.list_activity.FamilyMembersListActivity.mainVModel;
@@ -117,56 +117,56 @@ public class SectionI1Activity extends AppCompatActivity {
         bi.i101.setOnCheckedChangeListener(((radioGroup, i) -> {
 
             if (i == bi.i101b.getId()) {
-                ClearClass.ClearAllFields(bi.fldGrpi01, null);
+                ClearClassOld.ClearAllFields(bi.fldGrpi01, null);
             }
 
         }));
 
         bi.i105.setOnCheckedChangeListener(((radioGroup, i) -> {
             if (i == bi.i105a.getId()) {
-                ClearClass.ClearAllFields(bi.fldGrpCVi106, null);
+                ClearClassOld.ClearAllFields(bi.fldGrpCVi106, null);
             }
         }));
 
         bi.i105.setOnCheckedChangeListener(((radioGroup, i) -> {
 
             if (i == bi.i105b.getId()) {
-                ClearClass.ClearAllFields(bi.fldGrpi02, null);
+                ClearClassOld.ClearAllFields(bi.fldGrpi02, null);
             }
         }));
 
         bi.i113.setOnCheckedChangeListener(((radioGroup, i) -> {
 
             if (i == bi.i113b.getId()) {
-                ClearClass.ClearAllFields(bi.fldGrpi03, null);
+                ClearClassOld.ClearAllFields(bi.fldGrpi03, null);
             }
         }));
 
         bi.i119.setOnCheckedChangeListener(((radioGroup, i) -> {
 
             if (i == bi.i119b.getId()) {
-                ClearClass.ClearAllFields(bi.fldGrpi05, null);
+                ClearClassOld.ClearAllFields(bi.fldGrpi05, null);
             }
         }));
 
         bi.i120.setOnCheckedChangeListener(((radioGroup, i) -> {
 
             if (i == bi.i120b.getId()) {
-                ClearClass.ClearAllFields(bi.fldGrpCVi121, null);
+                ClearClassOld.ClearAllFields(bi.fldGrpCVi121, null);
             }
         }));
 
         bi.i122.setOnCheckedChangeListener(((radioGroup, i) -> {
 
             if (i == bi.i122b.getId()) {
-                ClearClass.ClearAllFields(bi.fldGrpi04, null);
+                ClearClassOld.ClearAllFields(bi.fldGrpi04, null);
             }
         }));
 
         bi.i125.setOnCheckedChangeListener(((radioGroup, i) -> {
 
             if (i == bi.i125b.getId()) {
-                ClearClass.ClearAllFields(bi.fldGrpCVi126, null);
+                ClearClassOld.ClearAllFields(bi.fldGrpCVi126, null);
             }
         }));
     }

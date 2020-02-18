@@ -2,12 +2,12 @@ package edu.aku.hassannaqvi.uen_midline.ui.sections;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
 
+import com.validatorcrawler.aliazaz.Clear;
 import com.validatorcrawler.aliazaz.Validator;
 
 import org.json.JSONException;
@@ -20,7 +20,6 @@ import edu.aku.hassannaqvi.uen_midline.core.MainApp;
 import edu.aku.hassannaqvi.uen_midline.databinding.ActivitySectionF02Binding;
 import edu.aku.hassannaqvi.uen_midline.utils.JSONUtils;
 import edu.aku.hassannaqvi.uen_midline.utils.Util;
-import edu.aku.hassannaqvi.uen_midline.validator.ClearClass;
 
 public class SectionF02Activity extends AppCompatActivity {
 
@@ -43,7 +42,7 @@ public class SectionF02Activity extends AppCompatActivity {
         bi.f121.setOnCheckedChangeListener(((radioGroup, i) -> {
 
             if (i != bi.f121a.getId()) {
-                ClearClass.ClearAllFields(bi.fldGrp2223, null);
+                Clear.clearAllFields(bi.fldGrp2223, null);
             }
 
         }));
@@ -51,25 +50,22 @@ public class SectionF02Activity extends AppCompatActivity {
         bi.f124.setOnCheckedChangeListener(((radioGroup, i) -> {
 
             if (i != bi.f124a.getId()) {
-                ClearClass.ClearAllFields(bi.fldGrp2531, null);
+                Clear.clearAllFields(bi.fldGrp2531, null);
             }
         }));
 
         //f128g
         bi.f128g.setOnCheckedChangeListener((compoundButton, b) -> {
 
-            if (b) {
-                ClearClass.ClearAllFields(bi.fldGrp2532, null);
-                bi.fldGrp2532.setVisibility(View.GONE);
-            } else {
-                bi.fldGrp2532.setVisibility(View.VISIBLE);
-            }
+            if (b)
+                Clear.clearAllFields(bi.fldGrp2532, null);
+
         });
 
         bi.f129.setOnCheckedChangeListener(((radioGroup, i) -> {
 
             if (i == bi.f129a.getId()) {
-                ClearClass.ClearAllFields(bi.fldGrpCVf130, null);
+                Clear.clearAllFields(bi.fldGrpCVf130, null);
             }
         }));
     }
