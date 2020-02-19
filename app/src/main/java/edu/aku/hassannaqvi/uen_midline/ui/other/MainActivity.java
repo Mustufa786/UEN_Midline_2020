@@ -377,9 +377,9 @@ public class MainActivity extends AppCompatActivity {
 
             return new AlertDialog.Builder(getActivity())
                     .setIcon(R.drawable.exclamation)
-                    .setTitle("SOSAS APP is available!")
+                    .setTitle("UeN Midline 2020 APP is available!")
                     .setCancelable(false)
-                    .setMessage("SOSAS App " + newVer + " is now available. Your are currently using older version " + preVer + ".\nInstall new version to use this app.")
+                    .setMessage("UeN Midline 2020 App " + newVer + " is now available. Your are currently using older version " + preVer + ".\nInstall new version to use this app.")
                     .setPositiveButton("INSTALL!!",
                             (dialog, whichButton) -> {
                                 Intent intent = new Intent(Intent.ACTION_VIEW);

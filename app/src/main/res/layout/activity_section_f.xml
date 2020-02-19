@@ -595,11 +595,6 @@
                                 android:text="@string/f110h" />
 
                             <CheckBox
-                                android:id="@+id/f110i"
-                                style="@style/checkbox"
-                                android:text="@string/none" />
-
-                            <CheckBox
                                 android:id="@+id/f11096"
                                 style="@style/checkbox"
                                 android:text="@string/other" />
@@ -613,6 +608,12 @@
                                 android:visibility='@{f11096.checked? View.VISIBLE : View.GONE}' />
 
                         </LinearLayout>
+
+                        <CheckBox
+                            android:id="@+id/f11097"
+                            style="@style/checkbox"
+                            android:tag="-1"
+                            android:text="@string/none" />
 
                     </LinearLayout>
 

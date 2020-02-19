@@ -52,7 +52,7 @@ public class SectionFActivity extends AppCompatActivity {
 
 
         //f110i
-        bi.f110i.setOnCheckedChangeListener((compoundButton, b) -> {
+        bi.f11097.setOnCheckedChangeListener((compoundButton, b) -> {
             if (b) {
                 Clear.clearAllFields(bi.f110check, false);
                 bi.f110check.setTag("-1");
@@ -166,7 +166,7 @@ public class SectionFActivity extends AppCompatActivity {
         f1.put("f110f", bi.f110f.isChecked() ? "6" : "0");
         f1.put("f110g", bi.f110g.isChecked() ? "7" : "0");
         f1.put("f110h", bi.f110h.isChecked() ? "8" : "0");
-        f1.put("f110i", bi.f110i.isChecked() ? "9" : "0");
+        f1.put("f11097", bi.f11097.isChecked() ? "97" : "0");
         f1.put("f11096", bi.f11096.isChecked() ? "96" : "0");
         f1.put("f11096x", bi.f11096x.getText().toString());
 
