@@ -2058,14 +2058,15 @@
     <string name="m102">M102:\t Do you have a separate room which is used as a kitchen?</string>
     <string name="m102a">Yes</string>
     <string name="m102b">No</string>
+
     <string name="m103">M103:\t Main material of the floor  RECORD OBSERVATION</string>
-    <string name="m103a">Earth/sand/mud</string>
-    <string name="m103a_title">NATURAL FLOOR</string>
-    <string name="m103b">Dung</string>
-    <string name="m103c">Rudimentary floor</string>
-    <string name="m103d">Wood planks </string>
-    <string name="m103e">Palm/bamboo </string>
-    <string name="m103f">Wood</string>
+    <string name="m103a"> Earth / sand / mud </string>
+    <string name="m103a_title"> NATURAL FLOOR </string>
+    <string name="m103b"> Dung </string>
+    <string name="m103c"> Rudimentary floor </string>
+    <string name="m103d"> Wood planks </string>
+    <string name="m103e"> Palm / bamboo </string>
+    <string name="m103f"> Wood </string>
     <string name="m103f_title">FINISHED FLOOR PARQUET OR POLISHED</string>
     <string name="m103g">Vinyl or asphalt strips  </string>
     <string name="m103h">Ceramic tiles </string>
@@ -2075,6 +2076,7 @@
     <string name="m103l">Bricks</string>
     <string name="m103m">Mats</string>
     <string name="m103n">Marble </string>
+
     <string name="m104">M104:\t Main material of the roof  RECORD OBSERVATION</string>
     <string name="m104a">No Roof</string>
     <string name="m104a_title">NATURAL ROOF</string>
