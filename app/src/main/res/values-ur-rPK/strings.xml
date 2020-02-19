@@ -1649,9 +1649,9 @@
     <string name="k104f"> گولیاں </string>
     <string name="k104g"> کنڈوم </string>
     <string name="k104h"> ایس ڈی ایم </string>
-    <string name="k104i"> دودھ پلانے کا طریقہ کار(LAM) </string>
-    <string name="k104j"> ردھم کا طریقہ کار Rhythm method </string>
-    <string name="k104k"> باہر ڈسچارج ہوناWithdrawal </string>
+    <string name="k104i"> دودھ پلانے کا طریقہ کار </string>
+    <string name="k104j"> ردھم کا طریقہ کار </string>
+    <string name="k104k"> باہر ڈسچارج ہونا </string>
     <string name="k104l"> دیگر جدید طریقہ کار </string>
     <string name="k104m"> دیگرکوئی روایتی طریقہ کار </string>
     <string name="k105"> آپ کو موجودہ حمل میں وقفے کے طریقہ کے بارے میں کہاں سے پتہ چلا تھا ؟ </string>
@@ -2126,6 +2126,7 @@
     <string name="o107c"> مائع صابن </string>
     <string name="o107d"> راکھ /مٹی /ریت </string>
     <string name="o107x"> دیگر (وضاحت کریں) </string>
+
     <string name="o108"> انٹرویو کا نتیجہ </string>
     <string name="o108a"> مکمل </string>
     <string name="o108b"> انکار کردیا </string>
@@ -2145,7 +2146,7 @@
     <string name="dialog_text"> برائے کرم دوسرے بچے کے لئے معلومات شامل کریں۔ </string>
     <string name="countNo"> نہیں </string>
     <string name="countYes"> جی ہاں </string>
-    <string name="countAlertMsg"> کیا آپ کو یقینی طور پر ختم کرنا ہے ؟ </string>
+    <string name="countAlertMsg"> یقینا! آپ جاری رکھنا چاہتے ہیں </string>
 
 
 </resources>

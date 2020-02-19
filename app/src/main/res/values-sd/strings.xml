@@ -1697,7 +1697,7 @@
     <string name="j120b"> نه </string>
     <string name="j120c"> خبر نه آھي </string>
     <string name="j121"> j121:\t ڪيترا دفعه (نالو) کي ارڙيءَ (Measles) کان بچاءُ لاءِ ٽڪا لڳا آھن؟</string>
-    <string name="j122"> j122:\t ڇا (نالو) ڪڏھن به دستن جي بيماري کان بچاءُ لاءِ ٽڪا (Rotavirus) لڳرايا آھن؟</string>
+    <string name="j122"> j122:\t   لڳرايا آھن ؟ ڇا (نالو) ڪڏھن به دستن جي بيماري کان بچاءُ لاءِ ٽڪا (Rotavirus) </string>
     <string name="j122a"> ھا</string>
     <string name="j122b"> نه</string>
     <string name="j122c"> خبر نه آھي </string>
@@ -1723,7 +1723,8 @@
     <string name="j123x"> (ٻيو ڪجھه (وضاحت ڪريو</string>
     <string name="k101"> k101:\t ڇا توھان ڪڏھن به حمل کي روڪڻ واري طريقي جي باري ۾ ٻڌو آھي؟</string>
     <string name="k101a"> ھا </string>
-    <string name="k101aa"> k101aa:\t توھان خانداني منصوبه بندي جي طريقن بابت ڪٿان معلومات حاصل ڪئي؟</string>
+
+    <string name="k101aa"> K101aa:\t توھان خانداني منصوبه بندي جي طريقن بابت ڪٿان معلومات حاصل ڪئي ؟ </string>
     <string name="k101aaa"> سرڪاري صحت مرڪز </string>
     <string name="k101aab"> خانداني فلاحي مرڪز </string>
     <string name="k101aac"> موبائل سروس مھم </string>
@@ -1731,35 +1732,40 @@
     <string name="k101aae"> ليڊي ھيلٿ وزيٽر </string>
     <string name="k101aaf"> پرائيويٽ / خانداني صحت مرڪز </string>
     <string name="k101aag"> ميڊيڪل اسٽور / ڪيمسٽ </string>
-    <string name="k101aah"> دوست / مائٽ</string>
-    <string name="k101aai"> دائي / ٽي بي اي</string>
-    <string name="k101aaj"> مڙس</string>
+    <string name="k101aah"> دوست / مائٽ </string>
+    <string name="k101aai"> دائي / ٽي بي اي </string>
+    <string name="k101aaj"> مڙس </string>
     <string name="k101aak"> </string>
-    <string name="k101aal"> پرچہ / بروشر</string>
-    <string name="k101aam"> موبائل / سمارٽ فون</string>
-    <string name="k101b"> نه</string>
-    <string name="k102"> k102:\t ڇا توھان ڪڏھن به حمل کي روڪڻ لاءِ ڪو طريقو استعمال ڪيو؟</string>
+    <string name="k101aal"> پرچہ / بروشر </string>
+    <string name="k101aam"> موبائل / سمارٽ فون </string>
+    <string name="k101b"> نه </string>
+
+    <string name="k102"> K102:\t ڇا توھان ڪڏھن به حمل کي روڪڻ لاءِ ڪو طريقو استعمال ڪيو ؟ </string>
     <string name="k102a"> ھا </string>
-    <string name="k102b"> نه</string>
-    <string name="k103"> k103:\t ڇا توھان ھن وقت حمل کي روڪڻ لاءِ ڪو طريقو استعمال ڪري رھيا آھيو؟</string>
-    <string name="k103a"> ھا</string>
-    <string name="k103b"> نه</string>
-    <string name="k104"> k104:\t توھان ڪھڙو طريقو استعمال ڪري رھيا آھيو؟</string>
+    <string name="k102b"> نه </string>
+
+    <string name="k103"> K103:\t ڇا توھان ھن وقت حمل کي روڪڻ لاءِ ڪو طريقو استعمال ڪري رھيا آھيو ؟ </string>
+    <string name="k103a"> ھا </string>
+    <string name="k103b"> نه </string>
+
+    <string name="k104"> K104:\t توھان ڪھڙو طريقو استعمال ڪري رھيا آھيو ؟ </string>
     <string name="k104a"> عورتن جي نس بندي </string>
     <string name="k104b"> مردن جي نس بندي </string>
     <string name="k104c"> آءِ يو ڊي </string>
-    <string name="k104d"> (سئي (انجيڪشن</string>
-    <string name="k104e"> امپلانٽ</string>
+    <string name="k104d"> (سئي (انجيڪشن </string>
+    <string name="k104e"> امپلانٽ </string>
     <string name="k104f"> ٽڪيون / گوريون </string>
-    <string name="k104g"> (ڦوڪڻو (ڪونڊم</string>
-    <string name="k104h"> ايس ڊي ايم</string>
+    <string name="k104g"> (ڦوڪڻو (ڪونڊم </string>
+    <string name="k104h"> ايس ڊي ايم </string>
     <string name="k104i"> ليڪيٽيشن امن طريقا </string>
     <string name="k104j"> ردم طريقيڪار </string>
     <string name="k104k"> وٿ ڊرا </string>
     <string name="k104l"> ڪو جديد طريقو </string>
     <string name="k104m"> ڪو ثقافتي طريقو </string>
-    <string name="k105"> k105:\t توھان اھو طريقو ڪٿان حاصل ڪيو؟</string>
+
+    <string name="k105"> K105:\t توھان اھو طريقو ڪٿان حاصل ڪيو ؟ </string>
     <string name="k105a"> سرڪاري صحت مرڪز </string>
+
     <string name="k105aa"> k105aa:\t ڪڏھن کان توھان ڪو طريقو استعمال ڪرڻ کان علاوه ھن کي روڪي رھيا آھيو؟</string>
     <string name="k105aaa"> مهينا</string>
     <string name="k105aab"> سال</string>
@@ -1772,87 +1778,105 @@
     <string name="k105g"> ميڊيڪل اسٽور / ڪيمسٽ</string>
     <string name="k105h"> دوست / مائٽ </string>
     <string name="k105i"> دائي / ٽي بي اي </string>
-    <string name="k106"> k106:\t ڪھڙي سبب ڪري توھان خانداني منصوبه بندي جو طريقو استعمال نه ڪري رھيا آھيو؟</string>
+
+    <string name="k106"> K106:\t ڪھڙي سبب ڪري توھان خانداني منصوبه بندي جو طريقو استعمال نه ڪري رھيا آھيو ؟ </string>
     <string name="k106a"> حمل روڪڻ جا منفي اثر </string>
     <string name="k106b"> حمل چاھيون ٿا </string>
     <string name="k106c"> پٽ جو اولاد چاھيون ٿا </string>
     <string name="k106d"> مذھب ۾ منع آھي/الله جو ڏوھه ٿيندو </string>
-    <string name="k106e"> استعمال ڪرڻ جو طريقي ڪار موجود نه ھو</string>
+    <string name="k106e"> استعمال ڪرڻ جو طريقي ڪار موجود نه ھو </string>
     <string name="k106f"> صحت مرڪز پري آھي </string>
     <string name="k106g"> طريقي ڪار مهانگو آھي </string>
     <string name="k106h"> مڙس جي اجازت نه ھئي </string>
-    <string name="k106x"> (ٻيو ڪو (وضآحت ڪريو</string>
-    <string name="k107"> k107:\t ڇا ليڊي هيلٿ ورڪر حمل روڪڻ لاءِ ڪا گوري ڏني يا ٻيو ڪو طريقي ڪار بابت ٻڌايو؟</string>
+    <string name="k106x"> (ٻيو ڪو (وضآحت ڪريو </string>
+
+    <string name="k107"> K107:\t ڇا ليڊي هيلٿ ورڪر حمل روڪڻ لاءِ ڪا گوري ڏني يا ٻيو ڪو طريقي ڪار بابت ٻڌايو ؟ </string>
     <string name="k107a"> ھا </string>
     <string name="k107b"> نه </string>
-    <string name="k108"> k108:\t ڇا ليڊي هيلٿ ورڪر صحت جي حوالي سان توھان ۽ توھان جي مڙس  ڪا ميٽنگ ڪئي؟</string>
-    <string name="k108a"> ھا</string>
-    <string name="k108b"> نه</string>
-    <string name="k108c"> ڳوٺ وارن سان معمول مطابق ميٽنگ</string>
-    <string name="k109"> k109:\t ڇا توھان کي ليڊي هيلٿ ورڪر جي هيلٿ هائوس جي باري ۾ خبر آھي جيڪو توھان جي علائقي ۾ يا ان جي ويجھو موجود آھي؟ </string>
-    <string name="k109a"> ھا</string>
-    <string name="k109ab"> نه</string>
-    <string name="l101"> l101:\t ڇا توھان کي پنھنجي موبائل فون آھي؟</string>
+
+    <string name="k108"> k108:\t ڇا ليڊي هيلٿ ورڪر صحت جي حوالي سان توھان ۽ توھان جي مڙس  ڪا ميٽنگ ڪئي ؟ </string>
+    <string name="k108a"> ھا </string>
+    <string name="k108b"> نه </string>
+    <string name="k108c"> ڳوٺ وارن سان معمول مطابق ميٽنگ </string>
+
+    <string name="k109"> K109:\t ڇا توھان کي ليڊي هيلٿ ورڪر جي هيلٿ هائوس جي باري ۾ خبر آھي جيڪو توھان جي علائقي ۾ يا ان جي ويجھو موجود آھي ؟ </string>
+    <string name="k109a"> ھا </string>
+    <string name="k109ab"> نه </string>
+
+    <string name="l101"> L101:\t ڇا توھان کي پنھنجي موبائل فون آھي ؟ </string>
     <string name="l101a"> ھا </string>
-    <string name="l101b"> نه</string>
-    <string name="l102"> l102:\t پنهنجي گهر جي ڪم کان علاوه توھان گذريل ستن ڏينھن ۾ ٻي جڳهه تي ڪو ڪم ڪيو؟</string>
-    <string name="l102a"> ھا</string>
+    <string name="l101b"> نه </string>
+
+    <string name="l102"> L102:\t پنهنجي گهر جي ڪم کان علاوه توھان گذريل ستن ڏينھن ۾ ٻي جڳهه تي ڪو ڪم ڪيو ؟ </string>
+    <string name="l102a"> ھا </string>
     <string name="l102b"> نه </string>
-    <string name="l103"> l103:\t جيڪڏھن توھان گذريل ستن ڏينهن ۾ ڪو ڪم نه ڪيو آھي پر ڇا توھان کي ڪا نوڪري يا ڪو ڪاروبار آھي جٿان توھان خدانه خواسته ڪنهن بيماري، موڪلون، ڊليوري جي ڪري يا ڪنهن ٻي سبب جري موڪل ڪئي ھجي؟</string>
-    <string name="l103a"> ھا</string>
+
+    <string name="l103"> L103:\t جيڪڏھن توھان گذريل ستن ڏينهن ۾ ڪو ڪم نه ڪيو آھي پر ڇا توھان کي ڪا نوڪري يا ڪو ڪاروبار آھي جٿان توھان خدانه خواسته ڪنهن بيماري، موڪلون، ڊليوري جي ڪري يا ڪنهن ٻي سبب جري موڪل ڪئي ھجي؟</string>
+    <string name="l103a"> ھا </string>
     <string name="l103b"> نه </string>
-    <string name="l104"> l104:\t توهان خاص طور تي ڪھڙو ڪم ڪندا آھيو؟</string>
-    <string name="l104a"> زراعت</string>
-    <string name="l104b"> تعليم سان لڳاپيل</string>
-    <string name="l104c"> پنهنجو ڪاروبار</string>
+
+    <string name="l104"> L104:\t توهان خاص طور تي ڪھڙو ڪم ڪندا آھيو ؟ </string>
+    <string name="l104a"> زراعت </string>
+    <string name="l104b"> تعليم سان لڳاپيل </string>
+    <string name="l104c"> پنهنجو ڪاروبار </string>
     <string name="l104d"> خاندان لاءِ ڪم </string>
     <string name="l104e"> ٻين لاءِ ڪم </string>
-    <string name="l104x"> (ٻيو ڪجھ (وضاحت ڪريو</string>
+    <string name="l104x"> (ٻيو ڪجھ (وضاحت ڪريو </string>
+
     <string name="l105"> l105:\t ڇا توھان کي ان نوڪري جي عيوض ڪجھ ادا ڪيو ويندو آھي؟</string>
     <string name="l105a"> نقدي رقم</string>
     <string name="l105b"> سامان جي صورت ۾</string>
     <string name="l105c"> ٻنهي ۾نقد رقم ۽ سامان جي صورت ۾</string>
     <string name="l105d"> ڪجهه به ادا نه ڪيو ويندو آھي </string>
+
     <string name="l106"> l106:\t اڪثر ڪري اھو فيصلو ڪير ڪندو آھي ته توھان جي ڪمائيءَ کي ڪئين استعمال ڪئي وڃي؟</string>
     <string name="l106a"> جواب ڏيندڙ</string>
     <string name="l106b"> مڙس</string>
     <string name="l106c"> گڏجي</string>
     <string name="l106d"> (ٻيو ڪو (وضاحت ڪريو</string>
+
     <string name="l107"> l107:\t اڪثر ڪري اھو فيصلو ڪير ڪندو آھي ته توھان جي مڙس جي ڪمائيءَ کي ڪئين استعمال ڪئي وڃي؟</string>
     <string name="l107a"> جواب ڏيندڙ</string>
     <string name="l107b"> مڙس</string>
     <string name="l107c"> گڏجي</string>
     <string name="l107d"> مڙس نه ڪمائيندو آھي</string>
     <string name="l107x"> (ٻيو ڪو (وضاحت ڪريو</string>
+
     <string name="l108"> l108:\t اڪثر ڪري توھان جي صحت جي سارسنڀال جي حوالي سان فيصلو ڪير ڪندو آھي؟</string>
     <string name="l108a"> جواب ڏيندڙ</string>
     <string name="l108b"> مڙس</string>
     <string name="l108c"> گڏجي</string>
     <string name="l108x"> (ٻيو ڪو (وضاحت ڪريو</string>
+
     <string name="l109"> l109:\t اڪثر ڪري مٽ مائٽن ڏانھن وڃڻ لاءِ فيصلو ڪري ڪندو آھي؟ </string>
     <string name="l109a"> جواب ڏيندڙ</string>
     <string name="l109b"> مڙس</string>
     <string name="l109c"> گڏجي</string>
     <string name="l109x"> (ٻيو ڪو (وضاحت ڪريو</string>
+
     <string name="l110"> l110:\t ڇا توھان وٽ پنهنجي يا ٻي ڪنهن سان گڏ ڪا ملڪيت آھي؟  جهڙوڪ گھر، زمين ، جائيداد</string>
     <string name="l110a"> پنهنجي يا ذاتي</string>
     <string name="l110b"> مڙس سان گڏ</string>
     <string name="l110c"> ڪنهن ٻي سان گڏ</string>
     <string name="l110d"> پنهنجي نه آھي</string>
+
     <string name="l111"> l111:\t ڇا توھان جو نالو ڪنهن گهر، زمين يا جائيداد حڪومت جي طرفان تصديق شده دستاويز تي آھي؟ </string>
     <string name="l111a"> ھا </string>
     <string name="l111b"> نه</string>
     <string name="l111c"> خبر نه آھي </string>
     <string name="l111d"> ڪو به اهڙو دستاويز نه آھي</string>
+
     <string name="l112"> l112:\t توھان جي خيال مطابق ڇا ھڪ مڙس کي پنهنجي زال کي هيٺ ڏنل حالتن ۾ مارڻ گھرجي؟</string>
     <string name="l112a"> l112a:\t 1.	مڙس کي ٻڌائڻ کان سواءِ ٻاهر وڃڻ؟</string>
     <string name="l112aa"> ھا</string>
     <string name="l112ab"> نه</string>
     <string name="l112ac"> خبر نه آھي</string>
+
     <string name="l112b"> l112b:\t 1.	مڙس کي ٻڌائڻ کان سواءِ ٻاهر وڃڻ؟</string>
     <string name="l112ba"> ھا</string>
     <string name="l112bb"> نه</string>
     <string name="l112bc"> خبر نه آھي</string>
+
     <string name="l112c"> l112c:\t مڙس سان بحث ڪري؟</string>
     <string name="l112ca"> ھا</string>
     <string name="l112cb"> نه</string>
