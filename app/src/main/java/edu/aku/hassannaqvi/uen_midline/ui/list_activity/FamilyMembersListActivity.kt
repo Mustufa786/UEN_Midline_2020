@@ -95,8 +95,8 @@ class FamilyMembersListActivity : AppCompatActivity() {
                                     if (MainApp.selectedKishMWRA != null) {
                                         val childLst = mainVModel.getAllChildrenOfSelMWRA(MainApp.selectedKishMWRA.serialno.toInt())
                                         MainApp.indexKishMWRAChild = childLst?.let {
-                                            mainVModel.childLstU5.value?.get(kishSelectedMWRA(intent.getIntExtra("sno", 0),
-                                                    childLst.size) - 1)
+                                            childLst[kishSelectedMWRA(intent.getIntExtra("sno", 0),
+                                                    childLst.size) - 1]
                                         }
                                     }
 
