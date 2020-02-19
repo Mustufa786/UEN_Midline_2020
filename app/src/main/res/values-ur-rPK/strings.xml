@@ -1617,10 +1617,11 @@
     <string name="j123o"> بچہ بیمار تھا </string>
     <string name="j123p"> بچے کو لے کر گئے لیکن ٹیکے لگانے کا دن نہیں تھا </string>
     <string name="j123x"> دیگر(وضاحت کریں </string>
-    <string name="k101"> K101:/t کیا آپ نے کبھی حمل میں وقفہ کرنے کے طریقہ کار کے بارے میں سنا ہے؟ </string>
+
+    <string name="k101"> K101:/t کیا آپ نے کبھی حمل میں وقفہ کرنے کے طریقہ کار کے بارے میں سنا ہے ؟ </string>
     <string name="k101a"> ہاں </string>
     <string name="k101b"> نہیں </string>
-    <string name="k101aa"> آپ نےحمل میں وقفہ کرنے کے طریقہ کار کے بارے میں کہاں سےسنا ہے؟ </string>
+    <string name="k101aa"> آپ نے حمل میں وقفہ کرنے کے طریقہ کار کے بارے میں کہاں سے سنا ہے ؟ </string>
     <string name="k101aaa"> گورمنٹ ہسپتال </string>
     <string name="k101aab"> فیملی ویلفئر سینٹر </string>
     <string name="k101aac"> موبائل سروس کیمپ </string>
@@ -1629,11 +1630,11 @@
     <string name="k101aaf"> پرایئوٹ ہسپتال </string>
     <string name="k101aag"> فارمیسی،کیمسٹ </string>
     <string name="k101aah"> دوست / رشتےدار </string>
-    <string name="k101aai"> دائی/ٹی بی اے </string>
+    <string name="k101aai"> دائی / ٹی بی اے </string>
     <string name="k101aaj"> شوہر </string>
     <string name="k101aak"> آوٹ ڈور بلبورڈ </string>
-    <string name="k101aal"> پمفلٹ/ بروشر </string>
-    <string name="k101aam"> موبائل فون/اسمارٹ فون </string>
+    <string name="k101aal"> پمفلٹ / بروشر </string>
+    <string name="k101aam"> موبائل فون / اسمارٹ فون </string>
     <string name="k102"> کیا آپ یا آپ کے شوہر نے حمل کو روکنے کےلئےکبھی کوئی مانع حمل طریقہ کا استعمال کیاہے ؟ </string>
     <string name="k102a"> ہاں </string>
     <string name="k102b"> نہیں </string>

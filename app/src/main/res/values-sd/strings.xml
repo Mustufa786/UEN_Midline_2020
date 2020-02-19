@@ -1314,6 +1314,7 @@
     <string name="j10402ad"> ماءُ ۽ ٻار جي صحت جو مرڪز</string>
     <string name="j10402ae"> اين جي او صحت مرڪز</string>
     <string name="j10402af"> ٻار جي ٽڪن وارو ھفتو</string>
+
     <string name="j10402b"> j10402b:\t ڦڙا ڪنھن پياريا؟</string>
     <string name="j10402ba"> ڊاڪٽر</string>
     <string name="j10402bb"> ليڊي ھيلٿ ورڪر</string>
@@ -1493,6 +1494,7 @@
     <string name="j10410ad"> ماءُ ۽ ٻار جي صحت جو مرڪز</string>
     <string name="j10410ae"> اين جي او صحت مرڪز</string>
     <string name="j10410af"> ٻار جي ٽڪن وارو ھفتو</string>
+
     <string name="j10410b"> j10410b:\t ويڪسين ڪنھن لڳائي؟</string>
     <string name="j10410ba"> ڊاڪٽر</string>
     <string name="j10410bb"> ليڊي ھيلٿ ورڪر</string>
@@ -1559,6 +1561,7 @@
     <string name="j10413ad"> ماءُ ۽ ٻار جي صحت جو مرڪز</string>
     <string name="j10413ae"> اين جي او صحت مرڪز</string>
     <string name="j10413af"> ٻار جي ٽڪن وارو ھفتو</string>
+
     <string name="j10413b"> j10413b:\t ويڪسين ڪنھن لڳائي؟</string>
     <string name="j10413ba"> ڊاڪٽر</string>
     <string name="j10413bb"> ليڊي ھيلٿ ورڪر</string>
@@ -1603,6 +1606,7 @@
     <string name="j10415ad"> ماءُ ۽ ٻار جي صحت جو مرڪز</string>
     <string name="j10415ae"> اين جي او صحت مرڪز</string>
     <string name="j10415af"> ٻار جي ٽڪن وارو ھفتو</string>
+
     <string name="j10415b"> j10415b:\t ويڪسين ڪنھن لڳائي؟</string>
     <string name="j10415ba"> ڊاڪٽر</string>
     <string name="j10415bb"> ليڊي ھيلٿ ورڪر</string>
@@ -1625,6 +1629,7 @@
     <string name="j10416ad"> ماءُ ۽ ٻار جي صحت جو مرڪز</string>
     <string name="j10416ae"> اين جي او صحت مرڪز</string>
     <string name="j10416af"> ٻار جي ٽڪن وارو ھفتو</string>
+
     <string name="j10416b"> j10416b:\t ويڪسين ڪنھن لڳائي؟</string>
     <string name="j10416ba"> ڊاڪٽر</string>
     <string name="j10416bb"> ليڊي ھيلٿ ورڪر</string>
@@ -1691,16 +1696,21 @@
     <string name="j117a"> ھا </string>
     <string name="j117b"> نه </string>
     <string name="j117c"> خبر نه آھي </string>
+
     <string name="j118"> j118:\t ڪيترا دفعه نمونيا جي بچاءُ لاءِ ٽڪا لڳرايا ويا؟</string>
+
     <string name="j119"> j119:\t ڇا (نالو) کي پوليو جي بيماري کان بچاءُ لاءِ پوليو جو ٽڪو لڳرايو ويو، جنھن وقت ٻئي حفاظتي ٽڪا لڳايا ويا؟</string>
     <string name="j119a"> ھا</string>
     <string name="j119b"> نه</string>
     <string name="j119c"> خبر نه آھي </string>
+
     <string name="j120"> j120:\t ڇا (نالو) ڪڏھن به ارڙيءَ (Measles) کان بچاءُ لاءِ ٽڪا لڳرايا آھن جيڪي ٻار کي 9 مھينن يا ان کان وڏي عمر ۾ لڳندا آھن؟</string>
     <string name="j120a"> ھا</string>
     <string name="j120b"> نه </string>
     <string name="j120c"> خبر نه آھي </string>
+
     <string name="j121"> j121:\t ڪيترا دفعه (نالو) کي ارڙيءَ (Measles) کان بچاءُ لاءِ ٽڪا لڳا آھن؟</string>
+
     <string name="j122"> j122:\t   لڳرايا آھن ؟ ڇا (نالو) ڪڏھن به دستن جي بيماري کان بچاءُ لاءِ ٽڪا (Rotavirus) </string>
     <string name="j122a"> ھا</string>
     <string name="j122b"> نه</string>
@@ -1725,7 +1735,9 @@
     <string name="j123o"> ٻار بيمار ھو </string>
     <string name="j123p"> ٻار کي موڪليو ويو پر ٽڪن جو ڏينھن نه ھو </string>
     <string name="j123x"> (ٻيو ڪجھه (وضاحت ڪريو</string>
-    <string name="k101"> k101:\t ڇا توھان ڪڏھن به حمل کي روڪڻ واري طريقي جي باري ۾ ٻڌو آھي؟</string>
+
+
+    <string name="k101"> K101:\t ڇا توھان ڪڏھن به حمل کي روڪڻ واري طريقي جي باري ۾ ٻڌو آھي ؟ </string>
     <string name="k101a"> ھا </string>
 
     <string name="k101aa"> K101aa:\t توھان خانداني منصوبه بندي جي طريقن بابت ڪٿان معلومات حاصل ڪئي ؟ </string>
@@ -1739,7 +1751,7 @@
     <string name="k101aah"> دوست / مائٽ </string>
     <string name="k101aai"> دائي / ٽي بي اي </string>
     <string name="k101aaj"> مڙس </string>
-    <string name="k101aak"> </string>
+    <string name="k101aak"> آئوٽ ڊور سائين / بلبورڊ </string>
     <string name="k101aal"> پرچہ / بروشر </string>
     <string name="k101aam"> موبائل / سمارٽ فون </string>
     <string name="k101b"> نه </string>
