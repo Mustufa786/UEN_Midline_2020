@@ -1634,12 +1634,14 @@
     <string name="j10416bf"> ڪميونٽي ھيلٿ ورڪر</string>
     <string name="j10416bg"> ڊسپينسر/ڪمپائونڊر</string>
     <string name="j10416bx"> (ٻيو ڪو (وضاحت ڪريو</string>
-    <string name="j105"> j105:\t لکيل آھي؟J104 چيڪ ڪريو ته بي سي جي کان ميزل 2 تائين سڀ ويڪسين لڳل آھن يا ريڪارڊ </string>
-    <string name="j105a"> ھا</string>
-    <string name="j105b"> نه</string>
-    <string name="j106"> j106:\t وڌيڪ ڪارڊ تي ڇا ريڪارڊ ٿيل آھي توھان مون کي ڏيکاري سگھو ٿا متان ھن ڪا ٻي ويڪسين حاصل ڪئي ھجي؟</string>
+
+    <string name="j105"> J105:\t لکيل آھي ؟ J104 چيڪ ڪريو ته بي سي جي کان ميزل 2 تائين سڀ ويڪسين لڳل آھن يا ريڪارڊ </string>
+    <string name="j105a"> ھا </string>
+    <string name="j105b"> نه </string>
+
+    <string name="j106"> J106:\t وڌيڪ ڪارڊ تي ڇا ريڪارڊ ٿيل آھي توھان مون کي ڏيکاري سگھو ٿا متان ھن ڪا ٻي ويڪسين حاصل ڪئي ھجي ؟ </string>
     <string name="j106a"> ھا </string>
-    <string name="j106b"> نه</string>
+    <string name="j106b"> نه </string>
     <string name="j106c"> خبر نه آھي </string>
 
     <string name="j107"> J107:\t ڏانھن واپس وڃو ۽ انھن ويڪسينس جي باري ۾ پڇو </string>
@@ -1651,30 +1653,32 @@
     <string name="j108a"> ھا</string>
     <string name="j108b"> نه</string>
     <string name="j108c"> خبر نه آھي </string>
-    <string name="j109"> j109:\t ڇا (نالو) پيدائش کان پوءِ فورًا بعد ڪڏھن به ٽي بي  (TB)جي بيماري کان بچاءُ لاءِ ٽڪو لڳرايو، جنھن جو ٻانھن يا ڪلھي تي نشان ٿيندو آھي؟</string>
+
+    <string name="j109"> J109:\t ڇا (نالو) پيدائش کان پوءِ فورًا بعد ڪڏھن به ٽي بي  (TB) جي بيماري کان بچاءُ لاءِ ٽڪو لڳرايو، جنھن جو ٻانھن يا ڪلھي تي نشان ٿيندو آھي ؟ </string>
     <string name="j109a"> ھا </string>
-    <string name="j109b"> نه</string>
+    <string name="j109b"> نه </string>
     <string name="j109c"> خبر نه آھي </string>
 
     <string name="j111"> J111:\t ڇا (نالو) ڪڏھن به وات جي ذريعي پوليو جا ڦڙا پيتا جيڪي ھن کي پوليو جي بيماري کان بچاءُ لاءِ ڏنا ويندا آھن ؟ </string>
     <string name="j111hint"> Probe by indicating that the first drop is usually given at birth and later at the same time as injections to prevent other diseases. </string>
     <string name="j111a"> ھا </string>
-    <string name="j111b"> نه</string>
+    <string name="j111b"> نه </string>
     <string name="j111c"> خبر نه آھي </string>
 
-    <string name="j112"> j112:\t پيدائش کان پوءِ ٻن ھفتن اندر پوليو جا ڦڙا پياريا ويا؟</string>
-    <string name="j112a"> ھا</string>
-    <string name="j112b"> نه</string>
+    <string name="j112"> J112:\t پيدائش کان پوءِ ٻن ھفتن اندر پوليو جا ڦڙا پياريا ويا ؟ </string>
+    <string name="j112a"> ھا </string>
+    <string name="j112b"> نه </string>
     <string name="j112c"> خبر نه آھي </string>
-    <string name="j113"> j113:\t نالو) کي ڪيترا دفعا پوليو جا ڦڙا ڏنا ويا؟)</string>
 
-    <string name="j114"> J114:\t ڇا گذريل دفعي (نالو) کي پوليو جي بيماري کان بچاءُ لاءِ پوليو جا ڦڙا يا پوليو جو ٽڪو لڳرايو ويو، جنھن وقت ٻئي حفاظتي ٽڪا لڳايا ويا؟</string>
+    <string name="j113"> J113:\t نالو) کي ڪيترا دفعا پوليو جا ڦڙا ڏنا ويا ؟) </string>
+
+    <string name="j114"> J114:\t ڇا گذريل دفعي (نالو) کي پوليو جي بيماري کان بچاءُ لاءِ پوليو جا ڦڙا يا پوليو جو ٽڪو لڳرايو ويو، جنھن وقت ٻئي حفاظتي ٽڪا لڳايا ويا ؟ </string>
     <string name="j114hint"> Probe to ensure that both were given, drops and injection. </string>
-    <string name="j114a"> ھا</string>
-    <string name="j114b"> نه</string>
+    <string name="j114a"> ھا </string>
+    <string name="j114b"> نه </string>
     <string name="j114c"> خبر نه آھي </string>
 
-    <string name="j115"> j115:\t ڇا (نالو) کي ڪڏھن به ران ڌڏ ۾ ٽڪو لڳو آھي جيڪو ٻار کي جھٽڪن، ڪاري کنگھ، خناق، ھيپاٽائيٽس ۽ ھيموفيلس انفلوئينزا جي بيمارين کان بچاءُ ڪندو آھي؟ (ڪڏھن ڪڏھن پوليو جي ڦڙن سان گڏ لڳايو ويندو آھي) </string>
+    <string name="j115"> J115:\t ڇا (نالو) کي ڪڏھن به ران ڌڏ ۾ ٽڪو لڳو آھي جيڪو ٻار کي جھٽڪن، ڪاري کنگھ، خناق، ھيپاٽائيٽس ۽ ھيموفيلس انفلوئينزا جي بيمارين کان بچاءُ ڪندو آھي؟ (ڪڏھن ڪڏھن پوليو جي ڦڙن سان گڏ لڳايو ويندو آھي) </string>
     <string name="j115hint"> Probe by indicating that Pentavalent vaccination is sometimes given at the same time as the Polio drops. </string>
     <string name="j115a"> ھا</string>
     <string name="j115b"> نه</string>
