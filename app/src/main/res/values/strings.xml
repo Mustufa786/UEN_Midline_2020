@@ -2184,7 +2184,7 @@
     <string name="n110b"> فليش ٽينڪ </string>
     <string name="n110c"> کڏي وارو ڪاڪوس </string>
     <string name="n110d"> ٻاهر اڇلائڻ </string>
-    <string name="n110e"> اڻ سڃاتل جڳھ تي/پڪ نه آھي / خبر نه آھي ڪٿي </string>
+    <string name="n110e"> اڻ سڃاتل جڳھ تي / پڪ نه آھي / خبر نه آھي ڪٿي </string>
     <string name="n110f"> هوادار بهتر کڏي وارو ڪاڪوس </string>
     <string name="n110f_title"> کڏي وارو ڍڪيل ڪاڪوس </string>
     <string name="n110g"> گھر جي ٻاهر پاڻي جي لائن اچي ٿي </string>
@@ -2192,6 +2192,7 @@
     <string name="n110i"> ڪمپوزٽنگ ٽوائلٽ </string>
     <string name="n110j"> ٽوڪري وارو ڪاڪوس </string>
     <string name="n110k"> ڪا به سهولت نه آهي/ کليل ميدان ۾ </string>
+
     <string name="n111"> n111:\t ڇا ٻين گھرن جا ڀاتي به اهيو ڪاڪوس استعمال ڪندا آهن؟</string>
     <string name="n111a"> ھا </string>
     <string name="n111b"> نه</string>
@@ -2258,22 +2259,6 @@
     <string name="nextSection"> اڳيون سيڪشن </string>
     <string name="nextPregnancy"> Next Pregnancy </string>
     <string name="nextMortality"> Next Mortality </string>
-
-    <string name="istatus"> انٹرویو کے نتائج </string>
-    <string name="istatusa"> مڪمل ٿيو </string>
-    <string name="istatusb"> گھر پر موجود نہیں </string>
-    <string name="istatusc"> انکار </string>
-    <string name="istatusd"> جزوی مکمل </string>
-    <string name="istatuse"> جواب دینے سے قاصر </string>
-    <string name="istatusf"> گھر نہیں ملا </string>
-    <string name="istatusg"> عمر کی وجہ سے نااہل </string>
-    <string name="istatusha"> مکمل </string>
-    <string name="istatushb"> گھرانے کا کوئی فرد یا باصلاحیت جواب دہندہ گھر پر موجود نہیں تھا </string>
-    <string name="istatushc"> گھرانہ کے تمام افراد لمبے عرصے کے لئیے گھر سے غیر حاضر تھے </string>
-    <string name="istatushd"> انکار کردیا </string>
-    <string name="istatushe"> خالی گھر/گھر کا پتہ نہ تھا </string>
-    <string name="istatushf"> گھر نہیں ملا </string>
-    <string name="istatushg"> جزوی مکمل </string>
 
     <string name="dialog_text"> مهرباني ڪري سيڪنڊ ٻار لاء ڄاڻ شامل ڪريو. </string>
     <string name="countNo"> نه </string>

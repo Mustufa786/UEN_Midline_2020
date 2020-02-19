@@ -2407,12 +2407,12 @@
     <string name="o108"> O108:\t Outcome of interview </string>
     <string name="o108a"> Completed </string>
     <string name="o108b"> Refused </string>
-    <string name="o108c"> Dwelling permanent locked </string>
-    <string name="o108d"> Dwelling temporary locked </string>
+    <string name="o108c"> Dwelling Permanent Locked </string>
+    <string name="o108d"> Dwelling Temporary Locked </string>
     <string name="o108e"> Pending</string>
-    <string name="o108f"> Dwelling vacant </string>
+    <string name="o108f"> Dwelling Vacant </string>
     <string name="o108g"> Incomplete </string>
-    <string name="o108x"> Others (specify) </string>
+    <string name="o108x"> Others </string>
 
 
     <string name="end_interview"> End </string>
@@ -2420,22 +2420,6 @@
     <string name="nextSection"> Next </string>
     <string name="nextPregnancy"> Next Pregnancy </string>
     <string name="nextMortality"> Next Mortality </string>
-
-    <string name="istatus">Interview Results</string>
-    <string name="istatusa"> Complete </string>
-    <string name="istatusb"> Not at Home </string>
-    <string name="istatusc"> Refused </string>
-    <string name="istatusd"> Partially Complete </string>
-    <string name="istatuse"> Not Able to Answer </string>
-    <string name="istatusf"> Couldn\'t Find HH </string>
-    <string name="istatusg"> Not Recommended because of age  </string>
-    <string name="istatusha"> Complete </string>
-    <string name="istatushb"> گھرانے کا کوئی فرد یا باصلاحیت جواب دہندہ گھر پر موجود نہیں تھا </string>
-    <string name="istatushc"> گھرانہ کے تمام افراد لمبے عرصے کے لئیے گھر سے غیر حاضر تھے </string>
-    <string name="istatushd"> Refused </string>
-    <string name="istatushe"> No One at Home / Couldn\'t Find Address </string>
-    <string name="istatushf"> HouseHold Not Found </string>
-    <string name="istatushg"> Partially Complete </string>
 
     <string name="dialog_text"> Please add Info for second child. </string>
     <string name="countNo"> No </string>

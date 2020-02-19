@@ -2231,49 +2231,33 @@
     <string name="o105a"> ھا </string>
     <string name="o105b"> نه </string>
 
-    <string name="o106"> O106:\t ڇا توھان مون کي صابڻ ڏيکاري سگھو ٿا؟</string>
+    <string name="o106"> O106:\t ڇا توھان مون کي صابڻ ڏيکاري سگھو ٿا ؟ </string>
     <string name="o106a"> ھا، ڏٺو </string>
     <string name="o106b"> نه، نه ڏٺو </string>
 
     <string name="o107"> O107:\t مشاھدو نوٽ ڪريو</string>
     <string name="o107hint"> Multiple responses are allowed </string>
     <string name="o107a"> صابڻ </string>
-    <string name="o107b"> (صابڻ (پائوڊر/ملائم چيز/ پيسٽ</string>
+    <string name="o107b"> (صابڻ (پائوڊر/ملائم چيز/ پيسٽ </string>
     <string name="o107c"> ملائم صابڻ </string>
     <string name="o107d"> چيڪي مٽي </string>
-    <string name="o107x"> (ٻيو ڪجھ (وضاحت ڪريو</string>
+    <string name="o107x"> ٻيو ڪجھ (وضاحت ڪريو) </string>
 
     <string name="o108"> O108:\t انٽرويو جو نتيجو </string>
     <string name="o108a"> مڪمل ٿيو </string>
     <string name="o108b"> انڪار ڪيو </string>
     <string name="o108c"> گھر مستقل طور بند آھي </string>
     <string name="o108d"> گھر عارضي طور بند آھي </string>
-    <string name="o108e"> رڪيل</string>
-    <string name="o108f"> گھر کالي ھو</string>
+    <string name="o108e"> رڪيل </string>
+    <string name="o108f"> گھر کالي ھو </string>
     <string name="o108g"> مڪمل نه ٿيو </string>
-    <string name="o108x"> (ٻيو ڪجھ (وضاحت ڪريو</string>
+    <string name="o108x"> ٻيو ڪجھ (وضاحت ڪريو) </string>
 
     <string name="end_interview"> انٽرويو جو خاتمو </string>
     <string name="start_interview"> انٽرويو شروع ڪيو </string>
     <string name="nextSection"> اڳيون سيڪشن </string>
     <string name="nextPregnancy"> Next Pregnancy </string>
     <string name="nextMortality"> Next Mortality </string>
-
-    <string name="istatus"> انٹرویو کے نتائج </string>
-    <string name="istatusa"> مڪمل ٿيو </string>
-    <string name="istatusb"> گھر پر موجود نہیں </string>
-    <string name="istatusc"> انکار </string>
-    <string name="istatusd"> جزوی مکمل </string>
-    <string name="istatuse"> جواب دینے سے قاصر </string>
-    <string name="istatusf"> گھر نہیں ملا </string>
-    <string name="istatusg"> عمر کی وجہ سے نااہل </string>
-    <string name="istatusha"> مکمل </string>
-    <string name="istatushb"> گھرانے کا کوئی فرد یا باصلاحیت جواب دہندہ گھر پر موجود نہیں تھا </string>
-    <string name="istatushc"> گھرانہ کے تمام افراد لمبے عرصے کے لئیے گھر سے غیر حاضر تھے </string>
-    <string name="istatushd"> انکار کردیا </string>
-    <string name="istatushe"> خالی گھر/گھر کا پتہ نہ تھا </string>
-    <string name="istatushf"> گھر نہیں ملا </string>
-    <string name="istatushg"> جزوی مکمل </string>
 
     <string name="dialog_text"> مهرباني ڪري سيڪنڊ ٻار لاء ڄاڻ شامل ڪريو. </string>
     <string name="countNo"> نه </string>
