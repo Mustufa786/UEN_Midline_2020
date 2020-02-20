@@ -1979,15 +1979,15 @@
     <string name="m104d_title"> </string>
     <string name="m104e"> بانسن جي </string>
     <string name="m104f"> ڪاٺين جون تختيون </string>
-    <string name="m104g"> ڪاغذن جي/ گتن جي </string>
+    <string name="m104g"> ڪاغذن جي / گتن جي </string>
     <string name="m104h"> لوهه جا پتر </string>
     <string name="m104h_title"> </string>
     <string name="m104i"> پڪيون سرون </string>
     <string name="m104j"> </string>
-    <string name="m104k"> ڪاٺ/ٽي آئرن/مٽي </string>
+    <string name="m104k"> ڪاٺ /ٽي آئرن / مٽي </string>
     <string name="m104l"> سيمينٽ فائبر </string>
-    <string name="m104m"> پڪي</string>
-    <string name="m104n"> ٽائلس</string>
+    <string name="m104m"> پڪي </string>
+    <string name="m104n"> ٽائلس </string>
     <string name="m104o"> پڪيون سرون </string>
 
     <string name="m105"> M105:\t ڀتيون ڪهڙي قسم جون آهن ؟ مشاھدو ڪريو </string>
@@ -1997,7 +1997,7 @@
     <string name="m105c"> مٽي </string>
     <string name="m105d"> مٽي / پٿر </string>
     <string name="m105e"> مٽي / ڪاٺيون / مٽي </string>
-    <string name="m105f"> ڪچيون سرون/ مٽي </string>
+    <string name="m105f"> ڪچيون سرون / مٽي </string>
     <string name="m105f_title"> </string>
     <string name="m105g"> ڪاغذن جا گتا / پلاسٽڪ </string>
     <string name="m105h"> مٽي سان بانس </string>
@@ -2229,15 +2229,15 @@
     <string name="n103c"> ٻئي جڳھ تان </string>
 
     <string name="n104"> N104:\t پاڻي ڀرڻ ۽ واپس اچڻ تائين ڪيترو وقت لڳندو آھي؟</string>
-    <string name="n104a"> وقت منٽن ۾</string>
+    <string name="n104a"> وقت منٽن ۾ </string>
     <string name="n10498"> خبر نه آھي </string>
 
     <string name="n105"> N105:\t توھان جي گھر مان اڪثر ڪري ڪير پاڻي ڀرڻ ويندو آھي ؟ </string>
     <string name="n105hint"> پڇا ڪيو ته ڇا اھو ماڻھو 15 سالن جي عمر کان گھٽ آھي ؟ جنس ڇا آھي ؟ </string>
-    <string name="n105a"> عورت )عمر 15 سالن کان وڌيڪ( </string>
-    <string name="n105b"> مرد )عمر 15 سالن کان وڌيڪ( </string>
-    <string name="n105c"> عورت )عمر 15 سالن کان گھٽ( </string>
-    <string name="n105d"> مرد عمر 05 سالن کان گھٽ </string>
+    <string name="n105a"> عورت (عمر 05 سالن کان وڌيڪ) </string>
+    <string name="n105b"> مرد (عمر 05 سالن کان وڌيڪ) </string>
+    <string name="n105c"> عورت (عمر 05 سالن کان گھٽ) </string>
+    <string name="n105d"> مرد (عمر 05 سالن کان گھٽ) </string>
     <string name="n105e"> جيڪو به دستياب آهي </string>
     <string name="n105f"> خبر نه آھي </string>
 
@@ -2264,7 +2264,7 @@
     <string name="n109f"> رکندا آهيون ۽ ڇڻي وڃي </string>
     <string name="n109g"> ڦٽڪي جي ذريعي </string>
 
-    <string name="n110"> N110:\t گھر ۾ ڪهڙي قسم جو ٽوائلٽ يا ڪاڪوس استعمال ڪندا آهيو ؟ </string>
+    <string name="n110"> N110:\t گھر ۾ ڪهڙي قسم جو ٽوائلٽ / ڪاڪوس استعمال ڪندا آهيو ؟ </string>
     <string name="n110hint"> If not possible to determine, ask permission to observe the facility. </string>
     <string name="n110a_title"> FLUSH / POURFLUSH </string>
     <string name="n110a"> گھٽر نالي وارو  </string>
@@ -2285,8 +2285,8 @@
     <string name="n111b"> نه </string>
     <string name="n111c"> خبر نه آھي </string>
 
-    <string name="n112"> N112:\t ڇا ٻين گھرن جا ڀاتي به اهيو ٽوائلٽ يا ڪاڪوس استعمال ڪندا آهن جنھن کي توھان سڃاڻيندا آھيو يا عوامي طور تي استعمال ٿيندو آھي ؟ </string>
-    <string name="n112a"> (صرف ٻين گھرن کي (عوامي نه آھي </string>
+    <string name="n112"> N112:\t ڇا ٻين گھرن جا ڀاتي به اهيو ٽوائلٽ / ڪاڪوس استعمال ڪندا آهن جنھن کي توھان سڃاڻيندا آھيو يا عوامي طور تي استعمال ٿيندو آھي ؟ </string>
+    <string name="n112a"> صرف ٻين گھرن کي (عوامي نه آھي) </string>
     <string name="n112b"> عوامي آھي </string>
 
     <string name="n113"> N113:\t توھان جي گھر کان علاوه گھر جا ٽوٽل ڪيترا ڀاتي ھي ٽوائلٽ / ڪاڪوس استعمال ڪندا آھن ؟ </string>
