@@ -108,20 +108,24 @@
     <string name="b101"> Latitude (Example: 24.861462) </string>
     <string name="b102"> Longitude (Example:67.009939) </string>
 
-    <string name="c101"> کیا رضامندی لی گئی تھی C101:\t </string>
-    <string name="c101a"> زبانی اجازت نامہ </string>
 
+    <string name="c101"> C101:\t کیا رضامندی لی گئی تھی ؟ </string>
+    <string name="c101a"> زبانی اجازت نامہ </string>
     <string name="c101aa"> جی ہاں </string>
     <string name="c101ab"> نہیں </string>
+
     <string name="c101b"> تحریری اجازت نامہ </string>
     <string name="c101ba"> جی ہاں </string>
     <string name="c101bb"> نہیں </string>
 
-    <string name="d101"> گھر کے فرد کا سیریل نمبر </string>
-    <string name="d102"> نام </string>
-    <string name="d102a"> برا ئےمہربانی پہلے مجھے ان تمام افراد کانام بتائیں جو عام طور پر یہاں رہتے ہیں، خاندان کے سربراہ سے شروع کریں </string>
 
-    <string name="d103"> گھر کے سربراہ سے رشتہ </string>
+    <!--  SECTION-D  -->
+    <string name="d101"> D101:\t گھر کے فرد کا سیریل نمبر ؟ </string>
+
+    <string name="d102"> D102:\t گھر کے فرد کا نام کیا ہے ؟ </string>
+    <string name="d102a"> برا ئے مہربانی پہلے مجھے ان تمام افراد کا نام بتائیں جو عام طور پر یہاں رہتے ہیں، خاندان کے سربراہ سے شروع کریں </string>
+
+    <string name="d103"> D103:\t گھر کے سربراہ سے رشتہ ؟ </string>
     <string name="d103hint"> (نام) کا گھر کے سربراہ سے کیا تعلق ہے ؟ </string>
     <string name="d103a"> گھر کا سربراہ </string>
     <string name="d103b"> بیوی / شوہر </string>
@@ -139,52 +143,53 @@
     <string name="d103n"> گحریلو ملازم </string>
     <string name="d103o"> معلوم نہیں </string>
 
-    <string name="d104"> جنس ؟ </string>
+    <string name="d104"> D104:\t گھر کے فرد کی صنف کیا ہے ؟ </string>
     <string name="d104a"> لڑکا </string>
     <string name="d104b"> لڑکی </string>
 
-    <string name="d105"> ازدواجی حیثیت </string>
+    <string name="d105"> D105:\t گھر کے فرد کی ازدواجی حیثیت کیا ہے ؟ </string>
     <string name="d105a"> شادی شدہ </string>
     <string name="d105b"> غیر شادی شدہ </string>
     <string name="d105c"> بیوہ / رنڈوہ </string>
     <string name="d105d"> طلاق یافتہ / الگ رہتا / رہتی ہوں </string>
 
-    <string name="d106"> اگر ممبر کی فہرست میں باپ سے رشتہ نہیں بتایا گیا\' تو" NA " لکھیں۔ </string>
+    <string name="d106"> D106:\t  اگر ممبر کی فہرست میں باپ سے رشتہ نہیں بتایا گیا تو ‘NA’ لکھیں ۔ </string>
     <string name="d106a"> باپ کا سیریل نمبر </string>
     <string name="d106b"> NA </string>
 
-    <string name="d107"> اگر ممبر کی فہرست میں ماں سے رشتہ نہیں بتایا گیا‘NA’ تو لکھیں۔ </string>
+    <string name="d107"> D107:\t اگر ممبر کی فہرست میں ماں سے رشتہ نہیں بتایا گیا ‘NA’ تو لکھیں ۔ </string>
     <string name="d107a"> ماں کا سیریل نمبر </string>
     <string name="d107b"> NA </string>
 
-    <string name="d108"> تاریخ پیدائش : اگر تاریخ پیدائش معلوم نہیں تو “00” ریکارڈ کریں اور عمردرج کریں </string>
+    <string name="d108"> D108:\t تاریخ پیدائش : اگر تاریخ پیدائش معلوم نہیں تو ‘00’ ریکارڈ کریں اور عمر درج کریں </string>
     <string name="d108a"> دن </string>
     <string name="d108b"> مہینہ </string>
     <string name="d108c"> سال </string>
 
-    <string name="d109"> عمر </string>
-    <string name="d109hint"> اگر تاریخ پیدائش ریکارڈ کی گئی تھی تو عمر میں خودبخود نمودارD.O.B اور D.O.I ہو جائیگی 5سال سے کم عمر بچے کے لئے یہ سوال نہیں کھلے کوڈ ظاہر ‘NA’گا اور خودکار نظام کے تحت ہو جائیگا </string>
+    <string name="d109"> D109:\t گھر کے فرد کی عمر کیا ہے ؟ </string>
+    <string name="d109hint"> اگر تاریخ پیدائش ریکارڈ کی گئی تھی تو عمر میں خودبخود نمودار D.O.B اور D.O.I ہو جائیگی 5 سال سے کم عمر بچے کے لئے یہ سوال نہیں کھلے کوڈ ظاہر ‘NA’ گا اور خود کار نظام کے تحت ہو جائیگا </string>
     <string name="d109a"> عمر </string>
     <string name="d109b"> مہینہ </string>
     <string name="d109c"> سال </string>
 
-    <string name="d110"> تعلیم : (نام) کی مکمل تعلیم کتنی ہے۔ </string>
+    <string name="d110"> D110:\t تعلیم: (نام) کی مکمل تعلیم کتنی ہے ۔ </string>
     <string name="d110a"> کوئی نہیں </string>
     <string name="d110b"> پرائمری سے پہلے </string>
-    <string name="d110c"> پرائمری(1 &#8212; 5) </string>
-    <string name="d110d"> مڈل(6-8) </string>
-    <string name="d110e"> سیکنڈری(6-10) </string>
+    <string name="d110c"> پرائمری (1 سے 5) </string>
+    <string name="d110d"> مڈل (6 سے 8) </string>
+    <string name="d110e"> سیکنڈری (9 سے 10) </string>
     <string name="d110f"> انٹرمیڈیٹ </string>
     <string name="d110g"> گریجویشن </string>
     <string name="d110h"> ماسٹرز </string>
     <string name="d110i"> پی ایچ ڈی </string>
-    <string name="d110j"> ڈپلوما (آئی ٹی/الیکٹریکل،مکینیکل،سول) </string>
-    <string name="d110k"> مزہبی تعلیم (حافظ/عالم) </string>
+    <string name="d110j"> ڈپلوما (آئی ٹی / الیکٹریکل، مکینیکل، سول) </string>
+    <string name="d110k"> مزہبی تعلیم (حافظ / عالم) </string>
     <string name="d110l"> معلوم نہیں </string>
     <string name="d110m"> لاگو نہیں ہوتا </string>
 
-    <string name="d111"> پیشہ </string>
-    <string name="d111x"> 5سال سے کم عمر بچے کے لئے یہ سوال نہیں کھلےگا اور خودکار نظام کے تحت ‘NA’ کوڈ ظاہر ہو جائیگا۔ </string>
+
+    <string name="d111"> D111\t پیشہ: (نام) کا پیشہ کیا ہے۔ </string>
+    <string name="d111x"> 5 سال سے کم عمر بچے کے لئے یہ سوال نہیں کھلے گا اور خودکار نظام کے تحت ‘NA’ کوڈ ظاہر ہو جائیگا۔ </string>
     <string name="d111a"> گھریلو خاتون </string>
     <string name="d111b"> غیر ہنرمند مزدور </string>
     <string name="d111c"> ہنرمند مزدور </string>
@@ -196,74 +201,78 @@
     <string name="d111i"> ریٹائرڈ </string>
     <string name="d111j"> لاگو نہیں ہوتا </string>
 
-    <string name="d112"> گھرانے کے افراد کی مجموعئی تعداد </string>
 
-    <string name="d113"> گھر میں تولیدی صحت کی حامل خواتین کی مجموعئی تعداد </string>
+    <string name="d112"> D112:\t گھرانے کے افراد کی مجموعئی تعداد ؟ </string>
 
-    <string name="d114"> گھر میں موجود 5 سال سے کم عمر بچوں کی مجموعئی تعداد </string>
+    <string name="d113"> گھر میں تولیدی صحت کی حامل خواتین کی مجموعئی تعداد D113:\t </string>
 
-    <string name="d115"> کیا یہ شخص گھر پر موجود ہے؟ </string>
+    <string name="d114"> گھر میں موجود 5 سال سے کم عمر بچوں کی مجموعئی تعداد D114:\t </string>
+
+    <string name="d115"> D115:\t کیا یہ شخص گھر پر موجود ہے ؟ </string>
     <string name="d115a"> ہاں </string>
     <string name="d115b"> نہیں </string>
 
-    <string name="e100"> خاتون کا نام </string>
+    <string name="e100"> خاتون کا نام:  E100:\t </string>
 
-    <string name="e101"> کیا آپ کبھی شادی کے بعد سے حاملہ ہوئی ہیں </string>
+    <string name="e101"> کیا آپ کبھی شادی کے بعد سے حاملہ ہوئی ہیں ؟ E101:\t </string>
     <string name="e101a"> ہاں </string>
     <string name="e101b"> نہیں </string>
 
-    <string name="e102"> آپ اپنی شادی کے بعد سے کتنی بار حاملہ ہوئی ہیں؟ </string>
-    <string name="e102a"> کیا آپ اس وقت حاملہ ہیں؟ </string>
+    <string name="e102"> E102:\t آپ اپنی شادی کے بعد سے کتنی بار حاملہ ہوئی ہیں ؟ </string>
+
+    <string name="e102a"> E102a:\t کیا آپ اس وقت حاملہ ہیں ؟ </string>
     <string name="e102aa"> ہاں </string>
     <string name="e102ab"> نہیں </string>
 
-    <string name="e103"> حمل کی گزشتہ معلومات کا نمبر :؟ </string>
+    <string name="e103"> E103:\t حمل کی گزشتہ معلومات کا نمبر: ؟ </string>
     <string name="e103hint"> ہرحمل کے لیے یہی سوالات نمودار ہوں گے۔ باقی حمل کو بچوں کے نام سے مخاطب کریں مثلاً ـ}سب سے بڑے بچے کا نام کے بعد والے حمل کو یاد کرکے بتائیں۔ </string>
 
-    <string name="e104"> اپنے گزشتہ حمل کے بارے میں بتائیں کیا وہ ایک بچے کی پیدائش تھی یا جڑواں ؟ </string>
+    <string name="e104"> E104:\t اپنے گزشتہ حمل کے بارے میں بتائیں کیا وہ ایک بچے کی پیدائش تھی یا جڑواں ؟ </string>
     <string name="e104hint"> (مندرجہ زیل حمل کے لئےحمل سے متعلق سوالات ظاہر ہونگے۔باقی ماندہ حمل کی شناخت پیدا ہونے والے بچے کے نام کے ساتھ کریں۔ </string>
     <string name="e104hint1"> مثال کے طور پر ،(سب سے بڑے بچے کا نام) کے بعد والے حمل کو یاد کرکے بتائیں) </string>
     <string name="e104a"> ایک </string>
     <string name="e104b"> جُڑواں </string>
 
-    <string name="e105"> کیا بچہ زندہ پیدا ہوا ،مردہ پیدا ہوا یا اس کا اسقاط حمل ہو گیا تھا؟ </string>
+    <string name="e105"> E105:\t کیا بچہ زندہ پیدا ہوا، مردہ پیدا ہوا یا اس کا اسقاط حمل ہو گیا تھا ؟ </string>
     <string name="e105a"> زندہ پیدا ہوا تھا (زندہ پیدائش) </string>
     <string name="e105b"> مردہ پیدا ہوا تھا (مردہ پیدائش) </string>
     <string name="e105c"> جڑواں بچوں کی پیدائش </string>
     <string name="e105d"> ایک زندہ ایک مردہ </string>
-    <string name="e105e"> دونوں بچوں کی مردہ پیدا ہوۂی </string>
+    <string name="e105e"> دونوں بچے مردہ پیدا ہوئے </string>
     <string name="e105f"> حمل کی مدت پوری ہونے سے پہلے ہی اسقاط حمل ہو گیا تھا </string>
 
-    <string name="e106"> کس مہینے اور سال میں (نام) کی پیدائش ہوئی تھی؟مزید پوچھیں: اس بچہ/بچی کی سالگرہ کب ہوتی ہے؟ </string>
+    <string name="e106"> E106:\t کس مہینے اور سال میں (نام) کی پیدائش ہوئی تھی؟مزید پوچھیں: اس بچہ/بچی کی سالگرہ کب ہوتی ہے ؟ </string>
     <string name="e106a"> دن </string>
     <string name="e106b"> مہینہ </string>
     <string name="e106c"> سال </string>
 
-    <string name="e107"> کیا(نام) لڑکا ہے یا لڑکی ؟ </string>
+    <string name="e107"> E107:\t کیا (نام) لڑکا ہے یا لڑکی ؟ </string>
     <string name="e107a"> لڑکا </string>
     <string name="e107b"> لڑکی </string>
 
-    <string name="e108"> کیا (نام) اس وقت حیات ہے؟ </string>
+    <string name="e108"> E108:\t کیا (نام) اس وقت حیات ہے ؟ </string>
     <string name="e108a"> ہاں </string>
     <string name="e108b"> نہیں </string>
 
-    <string name="e109"> بچے کا کیا نام رکھا گیا تھا ؟ </string>
+    <string name="e109"> E109:\t بچے کا کیا نام رکھا گیا تھا ؟ </string>
     <string name="e109hint"> اگر نام نہیں دیا گیا تو "BABY-1"،"BABY-1" درج کریں </string>
 
-    <string name="e110"> بچہ/بچی کے انتقال کے وقت (نام) کی عمر کیا تھی؟ </string>
+    <string name="e110"> E110:\t بچہ / بچی کے انتقال کے وقت (نام) کی عمر کیا تھی ؟ </string>
     <string name="e110a"> دن </string>
     <string name="e110b"> مہینے </string>
     <string name="e110c"> سال </string>
-    <string name="e111"> (نام) کے انتقال کی کیا وجوہات تھیں؟ </string>
-    <string name="e111a"> 37ہفتوں سے قبل پیدائش(قبل از وقت پیدائش) </string>
+
+    <string name="e111"> E111:\t (نام) کے انتقال کی کیا وجوہات تھیں ؟ </string>
+    <string name="e111a"> 37 ہفتوں سے قبل پیدائش (قبل از وقت پیدائش) </string>
     <string name="e111b"> سانس لینے میں دشواری </string>
-    <string name="e111c"> انفیکشن(سیپسس) </string>
+    <string name="e111c"> انفیکشن (سیپسس) </string>
     <string name="e111d"> نمونیا </string>
     <string name="e111e"> جھٹکے </string>
     <string name="e111f"> ڈائریا </string>
     <string name="e111g"> بخار </string>
     <string name="e111x"> دیگر (وضاحت کریں) </string>
-    <string name="e112"> (نام) کا انتقال کہاں ہوا تھا؟ </string>
+
+    <string name="e112"> E112:\t (نام) کا انتقال کہاں ہوا تھا ؟ </string>
     <string name="e112a"> گھر </string>
     <string name="e112b"> سرکاری مرکز صحت </string>
     <string name="e112c"> نجی مرکز صحت </string>
@@ -272,13 +281,15 @@
 
     <string name="e113"> اگر مردہ پیدائش یا پیدائش سے پہلے اسقاط حمل ہوگیا تھا: تو یہ حمل کس مہینے اور سال میں ختم ہوا تھا؟ </string>
 
-    <string name="e114"> حمل کتنے عرصہ تک جاری رہا تھا؟ </string>
-    <string name="e115"> کیا آپ یا کسی اور نے اس حمل کو ختم کرنے کے لئے کچھ کیا تھا؟ </string>
+    <string name="e114"> حمل کتنے عرصہ تک جاری رہا تھا ؟ </string>
+    <string name="e115"> کیا آپ یا کسی اور نے اس حمل کو ختم کرنے کے لئے کچھ کیا تھا ؟ </string>
     <string name="e115a"> ہاں </string>
     <string name="e115b"> نہیں </string>
-    <string name="e116"> خدا نخواستہ، کیاگزشتہ تین سالوں میں آپ کے گھر میں موجود کسی عورت کابچہ کی پیدائش کےبعد42 دن کےاندر حمل سے متعلق پیچیدگیوں کی وجہ سے انتقال ہوا ہے؟ </string>
+
+    <string name="e116"> خدا نخواستہ، کیا گزشتہ تین سالوں میں آپ کے گھر میں موجود کسی عورت کابچہ کی پیدائش کے بعد 42 دن کے اندر حمل سے متعلق پیچیدگیوں کی وجہ سے انتقال ہوا ہے ؟ </string>
     <string name="e116a"> ہاں </string>
     <string name="e116b"> نہیں </string>
+
     <string name="e116_title"> زچگی کے دوران ماؤں کی اموات: مندرجہ ذیل سوالات آپ کے گھر میں گزشتہ3 سالوں (2017-2019) میں زچگی کے دوران ہونے والی اموات سے متعلق ہیں۔ زچگی کی وجہ سے ہونے والی موت کی تعریف: زچگی کی موت سے مرادہےعورت کی حمل کے دوران یا حمل ختم ہونے کے 42 دن کے اندر ہونے والی موت ، حمل کی مدت اور اسکی جگہ سے قطع نظر ،حمل یا اس کے انتظام سے متعلق یا کسی بھی تکلیف دہ صورت حال کی وجہ سے ہونے والی موت، لیکن حادثاتی یا واقعاتی وجوہات سے ہونے والی موت شامل نہیں ہے </string>
     <string name="e117"> اگر ہاں، تو کتنی خواتین کا انتقال ہوچکا ہے؟ </string>
     <string name="e118"> عورت کا نام </string>
@@ -1621,7 +1632,7 @@
     <string name="j123p"> بچے کو لے کر گئے لیکن ٹیکے لگانے کا دن نہیں تھا </string>
     <string name="j123x"> دیگر(وضاحت کریں </string>
 
-    <string name="k101"> K101:/t کیا آپ نے کبھی حمل میں وقفہ کرنے کے طریقہ کار کے بارے میں سنا ہے ؟ </string>
+    <string name="k101"> K101:\t کیا آپ نے کبھی حمل میں وقفہ کرنے کے طریقہ کار کے بارے میں سنا ہے ؟ </string>
     <string name="k101a"> ہاں </string>
     <string name="k101b"> نہیں </string>
     <string name="k101aa"> آپ نے حمل میں وقفہ کرنے کے طریقہ کار کے بارے میں کہاں سے سنا ہے ؟ </string>
@@ -2123,12 +2134,13 @@
     <string name="o106"> کیا آپ مجھے ہاتھ دھونے کی اشیاء دیکھا سکتی ہیں ؟ </string>
     <string name="o106a"> ہاں، دیکھ لیا </string>
     <string name="o106b"> نہیں، نہیں دیکھیں </string>
+
     <string name="o107"> اپنا مشاہدہ درج کریں۔ </string>
     <string name="o107hint"> ایک سے زیادہ جوابات آ سکتے ہیں۔ </string>
     <string name="o107a"> صابن </string>
-    <string name="o107b"> ڈیٹرجنٹ(پاوڈر/ مائع/پیسٹ) </string>
+    <string name="o107b"> ڈیٹرجنٹ (پاوڈر / مائع / پیسٹ) </string>
     <string name="o107c"> مائع صابن </string>
-    <string name="o107d"> راکھ /مٹی /ریت </string>
+    <string name="o107d"> راکھ / مٹی / ریت </string>
     <string name="o107x"> دیگر (وضاحت کریں) </string>
 
     <string name="o108"> انٹرویو کا نتیجہ </string>

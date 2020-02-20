@@ -155,7 +155,7 @@
     <string name="d103n"> Domestic Servant </string>
     <string name="d103o"> Don’t Know </string>
 
-    <string name="d104"> D104:\t Is [NAME] male or female?</string>
+    <string name="d104"> D104:\t Is [NAME] male or female ? </string>
     <string name="d104a"> Male </string>
     <string name="d104b"> Female </string>
 
