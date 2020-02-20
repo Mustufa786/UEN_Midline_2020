@@ -2050,6 +2050,8 @@
     <string name="l117c"> دونوں مل کے </string>
     <string name="l117x"> دیگر (وضاحت کریں) </string>
 
+
+    <!--  SECTION-M  -->
     <string name="m101"> M101:\t کیا عام طور پر کھانا گھر پر پکایا جاتاہے، کسی مختلف عمارت میں یا پھر گھر سے باہر ؟ </string>
     <string name="m101a"> گھر پر </string>
     <string name="m101b"> مختلف عمارت میں </string>
@@ -2078,7 +2080,8 @@
     <string name="m103m"> میٹ </string>
     <string name="m103n"> سنگ مر مر </string>
 
-    <string name="m104"> گھر کی چھت میں استعمال ہونے والا بنیادی مواد۔ مشاہدہ کریں </string>
+    <string name="m104"> M104:\t گھر کی چھت میں استعمال ہونے والا بنیادی مواد ۔ </string>
+    <string name="m104hint"> مشاہدہ کریں </string>
     <string name="m104a"> کوئی چھت نہیں </string>
     <string name="m104a_title"> قدرتی چھت </string>
     <string name="m104b"> گھاس پھونس /کھجو ر کے پتے </string>
@@ -2098,7 +2101,8 @@
     <string name="m104n"> سرامک ٹائلز </string>
     <string name="m104o"> چھت میں استعمال ہونے والے ٹائلز </string>
 
-    <string name="m105"> گھر کی دیوار وں میں استعمال ہونے والا بنیادی مواد: مشاہدہ کریں: </string>
+    <string name="m105"> M105:\t گھر کی دیوار وں میں استعمال ہونے والا بنیادی مواد </string>
+    <string name="m105hint"> مشاہدہ کریں </string>
     <string name="m105a"> کوئی دیوار نہیں </string>
     <string name="m105a_title"> قدرتی دیواریں </string>
     <string name="m105b"> چھڑی/کھجور کے درخت /تنے </string>
@@ -2124,9 +2128,9 @@
     <string name="m105t"> کچی اینٹوں سے بنی (لیپ کی ہوئی) </string>
     <string name="m105u"> لکڑی کے تختے / شنگلز </string>
 
-    <string name="m106"> اس مکان میں سونے کے لئے کتنے کمرے استعمال کیے جاتے ہیں؟ </string>
+    <string name="m106"> اس مکان میں سونے کے لئے کتنے کمرے استعمال کیے جاتے ہیں ؟ </string>
 
-    <string name="m107"> کیا اس مکان کے کسی فرد کی ملکیت میں درج ذیل چیزیں ہیں؟ </string>
+    <string name="m107"> کیا اس مکان کے کسی فرد کی ملکیت میں درج ذیل چیزیں ہیں ؟ </string>
 
     <string name="m107a"> گھڑی </string>
     <string name="m107aa"> ہاں </string>

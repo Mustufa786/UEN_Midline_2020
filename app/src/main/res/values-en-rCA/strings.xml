@@ -2079,92 +2079,111 @@
     <string name="m103m"> Mats </string>
     <string name="m103n"> Marble </string>
 
-    <string name="m104">M104:\t Main material of the roof  RECORD OBSERVATION</string>
-    <string name="m104a">No Roof</string>
-    <string name="m104a_title">NATURAL ROOF</string>
-    <string name="m104b">Thatch/Palm Leaf</string>
-    <string name="m104c">Sod/Grass </string>
-    <string name="m104d">Rustic Mat</string>
-    <string name="m104d_title">RUDIMENTARY ROOFING</string>
-    <string name="m104e">Palm/Bamboo</string>
-    <string name="m104f">Wood Planks</string>
-    <string name="m104g">Cardboard</string>
-    <string name="m104h">Iron sheets/Asbestos</string>
-    <string name="m104h_title">FINISHING ROOFING</string>
-    <string name="m104i">Reinforced brick cement/RCC </string>
-    <string name="m104j">Metal</string>
-    <string name="m104k">Wood/T-Iron/Mud</string>
-    <string name="m104l">Calamine/Cement Fibber</string>
-    <string name="m104m">Cement/RCC </string>
-    <string name="m104n">Ceramic Tiles</string>
-    <string name="m104o">Roofing Shingles</string>
-    <string name="m105">M105:\t Main material of the walls  RECORD OBSERVATION</string>
-    <string name="m105a">No walls </string>
-    <string name="m105a_title">NATURAL WALLS</string>
-    <string name="m105b">Cane/Palm/Trunks </string>
-    <string name="m105c">Dirt</string>
-    <string name="m105d">Mud/Stones </string>
-    <string name="m105e">Bamboo/Sticks/Mud </string>
-    <string name="m105f">Unbaked bricks/Mud</string>
-    <string name="m105f_title">RUDIMENTARY WALLS</string>
-    <string name="m105g">Carton/Plastic</string>
-    <string name="m105h">Bamboo with mud</string>
-    <string name="m105i">Stone with mud</string>
-    <string name="m105j">Uncovered adobe</string>
-    <string name="m105k">Plywood </string>
-    <string name="m105l">Cardboard</string>
-    <string name="m105m">Reused wood</string>
-    <string name="m105n">Baked bricks</string>
-    <string name="m105n_title">FINISHED WALLS</string>
-    <string name="m105o">Tent</string>
-    <string name="m105p">Cement</string>
-    <string name="m105q">Stone with lime/Cement</string>
-    <string name="m105r">Bricks</string>
-    <string name="m105s">Cement block</string>
-    <string name="m105t">Covered adobe</string>
-    <string name="m105u">Wood planks/Shingles </string>
-    <string name="m106">M106:\t How many rooms in this house are used for sleeping?</string>
-    <string name="m107">M107:\t Does any member of this household own?</string>
-    <string name="m107a">Watch</string>
-    <string name="m107aa">Yes</string>
-    <string name="m107ab">No</string>
-    <string name="m107b">Mobile telephone</string>
-    <string name="m107ba">Yes</string>
-    <string name="m107bb">No</string>
+    <string name="m104"> M104:\t Main material of the roof </string>
+    <string name="m104hint"> RECORD OBSERVATION </string>
+    <string name="m104a"> No Roof </string>
+    <string name="m104a_title"> NATURAL ROOF </string>
+    <string name="m104b"> Thatch / Palm Leaf </string>
+    <string name="m104c"> Sod/Grass </string>
+    <string name="m104d"> Rustic Mat </string>
+    <string name="m104d_title"> RUDIMENTARY ROOFING </string>
+    <string name="m104e"> Palm / Bamboo </string>
+    <string name="m104f"> Wood Planks </string>
+    <string name="m104g"> Cardboard </string>
+    <string name="m104h"> Iron sheets / Asbestos </string>
+    <string name="m104h_title"> FINISHING ROOFING </string>
+    <string name="m104i"> Reinforced brick cement / RCC </string>
+    <string name="m104j"> Metal </string>
+    <string name="m104k"> Wood / T-Iron / Mud </string>
+    <string name="m104l"> Calamine / Cement Fibber </string>
+    <string name="m104m"> Cement / RCC </string>
+    <string name="m104n"> Ceramic Tiles </string>
+    <string name="m104o"> Roofing Shingles </string>
+
+    <string name="m105"> M105:\t Main material of the walls </string>
+    <string name="m105hint"> RECORD OBSERVATION </string>
+    <string name="m105a"> No walls </string>
+    <string name="m105a_title"> NATURAL WALLS </string>
+    <string name="m105b"> Cane / Palm / Trunks </string>
+    <string name="m105c"> Dirt </string>
+    <string name="m105d"> Mud / Stones </string>
+    <string name="m105e"> Bamboo / Sticks / Mud </string>
+    <string name="m105f"> Unbaked bricks / Mud</string>
+    <string name="m105f_title"> RUDIMENTARY WALLS </string>
+    <string name="m105g"> Carton/Plastic </string>
+    <string name="m105h"> Bamboo with mud </string>
+    <string name="m105i"> Stone with mud </string>
+    <string name="m105j"> Uncovered adobe </string>
+    <string name="m105k"> Plywood </string>
+    <string name="m105l"> Cardboard </string>
+    <string name="m105m"> Reused wood </string>
+    <string name="m105n"> Baked bricks </string>
+    <string name="m105n_title"> FINISHED WALLS </string>
+    <string name="m105o"> Tent </string>
+    <string name="m105p"> Cement </string>
+    <string name="m105q"> Stone with lime / Cement </string>
+    <string name="m105r"> Bricks </string>
+    <string name="m105s"> Cement block </string>
+    <string name="m105t"> Covered adobe </string>
+    <string name="m105u"> Wood planks / Shingles </string>
+
+    <string name="m106"> M106:\t How many rooms in this house are used for sleeping ? </string>
+
+    <string name="m107"> M107:\t Does any member of this household own ? </string>
+
+    <string name="m107a"> Watch </string>
+    <string name="m107aa"> Yes </string>
+    <string name="m107ab"> No </string>
+
+    <string name="m107b"> Mobile Telephone </string>
+    <string name="m107ba"> Yes </string>
+    <string name="m107bb"> No </string>
+
     <string name="m107c">Bicycle</string>
     <string name="m107ca">Yes</string>
     <string name="m107cb">No</string>
+
     <string name="m107d">Motorcycle/Scooter</string>
     <string name="m107da">Yes</string>
     <string name="m107db">No</string>
-    <string name="m107e">Animal-Drawn Cart</string>
-    <string name="m107f">Car/Truck/Bus</string>
-    <string name="m107fa">Yes</string>
-    <string name="m107fb">No</string>
-    <string name="m107g">Tractor</string>
-    <string name="m107ga">Yes</string>
-    <string name="m107gb">No</string>
+
+    <string name="m107e"> Animal-Drawn Cart </string>
+
+    <string name="m107f"> Car / Truck / Bus </string>
+    <string name="m107fa"> Yes </string>
+    <string name="m107fb"> No </string>
+
+    <string name="m107g"> Tractor </string>
+    <string name="m107ga"> Yes </string>
+    <string name="m107gb"> No </string>
+
     <string name="m107h">Boat with motor</string>
     <string name="m107ha">Yes</string>
     <string name="m107hb">No</string>
+
     <string name="m107i">Boat without motor</string>
     <string name="m107ia">Yes</string>
     <string name="m107ib">No</string>
+
     <string name="m108">M108:\t Does respondent (selected woman) of this household own mobile phone?</string>
     <string name="m108a">Yes</string>
     <string name="m108b">No</string>
     <string name="m108ea">Yes</string>
     <string name="m108eb">No</string>
+
     <string name="m109">M109:\t Does any member of this household own any agricultural land?</string>
     <string name="m109a">Yes</string>
     <string name="m109b">No</string>
+
     <string name="m110">M110:\t How many acres or kanals of agricultural land do members of this household own?</string>
     <string name="m110a">Acres </string>
     <string name="m110b">Kanals </string>
     <string name="m110c">Don\'t Know</string>
+
     <string name="m111">M111:\t Does this household own any livestock, herds, other farm animals?</string>
     <string name="m111a">Yes</string>
     <string name="m111b">No</string>
+
     <string name="m112">M112:\t How many of the following animals does the household own?</string>
     <string name="m112a">Cows/Bulls</string>
     <string name="m112b">Horses/Donkeys/Mules</string>

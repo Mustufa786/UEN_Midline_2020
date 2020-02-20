@@ -1972,6 +1972,7 @@
     <string name="m103n"> ماربل </string>
 
     <string name="m104"> M104:\t ڇت ڪهڙي قسم جي آهي </string>
+    <string name="m104hint"> مشاھدو ڪريو: </string>
     <string name="m104a"> ڇت ڪونهي </string>
     <string name="m104a_title"> </string>
     <string name="m104b"> </string>
@@ -1991,7 +1992,8 @@
     <string name="m104n"> ٽائلس </string>
     <string name="m104o"> پڪيون سرون </string>
 
-    <string name="m105"> M105:\t ڀتيون ڪهڙي قسم جون آهن ؟ مشاھدو ڪريو </string>
+    <string name="m105"> M105:\t ڀتيون ڪهڙي قسم جون آهن ؟ </string>
+    <string name="m105hint"> مشاھدو ڪريو: </string>
     <string name="m105a"> ڀتيون نه آھن </string>
     <string name="m105a_title"> </string>
     <string name="m105b"> ڪکا / گاه </string>
