@@ -138,6 +138,7 @@ public class SectionI2Activity extends AppCompatActivity {
 
         bi.i209.setOnCheckedChangeListener(((radioGroup, i) -> {
             if (i == bi.i209a.getId()) {
+                Clear.clearAllFields(bi.fldGrpCVi210);
                 Clear.clearAllFields(bi.fldGrpi023);
             }
         }));
