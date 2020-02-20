@@ -2,7 +2,7 @@
 
 <resources>
     <!--new Strings-->
-    <string name="app_name"> UEN Midline 2020 </string>
+    <string name="app_name"> UEN Midline 2020 Sindhi </string>
 
     <!-- Strings related to login -->
     <string name="btnSync">Sync</string>
@@ -19,17 +19,17 @@
 
 
     <string name="tdheading">SECTION D: HOUSEHOLD MEMBER’S INFORMATION</string>
-    <string name="teheading">SECTION E: REPRODUCTIVE HEALTH (Complete this table for all married women aged 15-49 years in the household) </string>
-    <string name="te2heading">MATERNAL MORTALITY STATUS</string>
-    <string name="tfheading">SECTION F: ANTENATAL CARE</string>
+    <string name="teheading">SECTION E: REPRODUCTIVE HEALTH (Complete this table for all married women aged 15 &#8211; 49 years in the household) </string>
+    <string name="te2heading">MATERNAL MORTALITY STATUS </string>
+    <string name="tfheading">SECTION F: ANTENATAL CARE </string>
     <string name="tiheading">SECTION I: CHILD HEALTH</string>
-    <string name="ti2heading">SECTION I2: ACUTE RESPIRATORY INFECTION (ARI)</string>
-    <string name="tjheading">SECTION J: IMMUNIZATION</string>
-    <string name="tkheading">SECTION K: FAMILY PLANNING</string>
-    <string name="tlheading">SECTION L: WOMEN EMPOWERMENT</string>
-    <string name="tmheading">SECTION M: SOCIOL ECONOMIC STATUS OF HOUSEHOLD</string>
-    <string name="tnheading">SECTION N: WATER AND SANITATION</string>
-    <string name="toheading">SECTION O: HANDWASHING</string>
+    <string name="ti2heading">SECTION I2: ACUTE RESPIRATORY INFECTION (ARI) </string>
+    <string name="tjheading">SECTION J: IMMUNIZATION </string>
+    <string name="tkheading">SECTION K: FAMILY PLANNING </string>
+    <string name="tlheading">SECTION L: WOMEN EMPOWERMENT </string>
+    <string name="tmheading">SECTION M: SOCIOL ECONOMIC STATUS OF HOUSEHOLD </string>
+    <string name="tnheading">SECTION N: WATER AND SANITATION </string>
+    <string name="toheading">SECTION O: HANDWASHING </string>
 
     <string name="splashText">Supporting Women and Girls in Pakistan Scaling Up\n
     Empowerment and Care  Strategies  to Address Health and Survival\n
@@ -1943,31 +1943,34 @@
     <string name="l117c"> مڙس سان گڏجي</string>
     <string name="l117x"> (ٻيو ڪو (وضاحت ڪريو</string>
 
-    <string name="m101"> m101:\t ڇا کاڌو اڪثر ڪري گھر جي اندر، الڳ جاءِ تي يا گھر کان ٻاھر پچايو ويندو آھي؟</string>
+    <string name="m101"> M101:\t ڇا کاڌو اڪثر ڪري گھر جي اندر، الڳ جاءِ تي يا گھر کان ٻاھر پچايو ويندو آھي ؟ </string>
     <string name="m101a"> گھر جي اندر </string>
     <string name="m101b"> الڳ ڪمرو آھي </string>
     <string name="m101c"> گھر جي ٻاھر </string>
-    <string name="m102"> m102:\t ڇا رڌ پچاءُ لاءِ الڳ ڪمرو آھي؟</string>
-    <string name="m102a"> ھا</string>
-    <string name="m102b"> نه</string>
-    <string name="m103"> m103:\t فرش ڪهڙي قسم جو آهي مشاھدو ڪريو</string>
+
+    <string name="m102"> M102:\t ڇا رڌ پچاءُ لاءِ الڳ ڪمرو آھي ؟ </string>
+    <string name="m102a"> ھا </string>
+    <string name="m102b"> نه </string>
+
+    <string name="m103"> M103:\t فرش ڪهڙي قسم جو آهي مشاھدو ڪريو </string>
     <string name="m103a"> زمين / واري / مٽي </string>
     <string name="m103a_title"> </string>
-    <string name="m103b"> ڇيڻو</string>
+    <string name="m103b">  ڇيڻو </string>
     <string name="m103c"> بنيادي فرش </string>
     <string name="m103d">  </string>
-    <string name="m103e"> بانس</string>
-    <string name="m103f"> ڪاٺ</string>
+    <string name="m103e"> بانس </string>
+    <string name="m103f"> ڪاٺ </string>
     <string name="m103f_title"> ڪاٺين جو فرش </string>
     <string name="m103g"> اسفالٽ سٽرپس </string>
-    <string name="m103h"> ٽائلس</string>
-    <string name="m103i"> سيمينٽ</string>
+    <string name="m103h"> ٽائلس </string>
+    <string name="m103i"> سيمينٽ </string>
     <string name="m103j"> قالين </string>
-    <string name="m103k"> چتائي</string>
+    <string name="m103k"> چتائي </string>
     <string name="m103l"> سرون </string>
     <string name="m103m"> </string>
-    <string name="m103n"> ماربل</string>
-    <string name="m104"> m104:\t ڇت ڪهڙي قسم جي آهي</string>
+    <string name="m103n"> ماربل </string>
+
+    <string name="m104"> M104:\t ڇت ڪهڙي قسم جي آهي </string>
     <string name="m104a"> ڇت ڪونهي </string>
     <string name="m104a_title"> </string>
     <string name="m104b"> </string>
@@ -1986,164 +1989,204 @@
     <string name="m104m"> پڪي</string>
     <string name="m104n"> ٽائلس</string>
     <string name="m104o"> پڪيون سرون </string>
-    <string name="m105"> m105:\t ڀتيون ڪهڙي قسم جون آهن؟مشاھدو ڪريو</string>
+
+    <string name="m105"> M105:\t ڀتيون ڪهڙي قسم جون آهن ؟ مشاھدو ڪريو </string>
     <string name="m105a"> ڀتيون نه آھن </string>
     <string name="m105a_title"> </string>
-    <string name="m105b"> </string>
-    <string name="m105c"> </string>
-    <string name="m105d"> مٽي سان پٿر</string>
-    <string name="m105e"> مٽي سان بانس</string>
-    <string name="m105f"> </string>
+    <string name="m105b"> ڪکا / گاه </string>
+    <string name="m105c"> مٽي </string>
+    <string name="m105d"> مٽي / پٿر </string>
+    <string name="m105e"> مٽي / ڪاٺيون / مٽي </string>
+    <string name="m105f"> ڪچيون سرون/ مٽي </string>
     <string name="m105f_title"> </string>
-    <string name="m105g"> </string>
-    <string name="m105h"> </string>
-    <string name="m105i"> </string>
-    <string name="m105j"> </string>
-    <string name="m105k"> </string>
-    <string name="m105l"> </string>
-    <string name="m105m"> </string>
-    <string name="m105n"> </string>
+    <string name="m105g"> ڪاغذن جا گتا / پلاسٽڪ </string>
+    <string name="m105h"> مٽي سان بانس </string>
+    <string name="m105i"> مٽي سان پٿر </string>
+    <string name="m105j"> اڻپوري / اڌوري ڀت </string>
+    <string name="m105k"> تختن جي ڀت </string>
+    <string name="m105l"> ڪاغذن جي / گتن جي </string>
+    <string name="m105m"> استعمال شده ڪاٺ جي ڀت </string>
+    <string name="m105n"> پڪيون سرون </string>
     <string name="m105n_title"> </string>
-    <string name="m105o"> </string>
-    <string name="m105p"> سيمينٽ</string>
-    <string name="m105q"> </string>
-    <string name="m105r"> سرون</string>
-    <string name="m105s"> </string>
-    <string name="m105t"> </string>
+    <string name="m105o"> تنبو </string>
+    <string name="m105p"> سيمينٽ </string>
+    <string name="m105q"> پٿر سيمينٽ سان لڳل </string>
+    <string name="m105r"> سرون </string>
+    <string name="m105s"> سيمينٽ بلاڪ </string>
+    <string name="m105t"> مڪمل ڀت </string>
     <string name="m105u"> ڪاٺ جي تختا </string>
-    <string name="m106"> m106:\t گھر ۾ ڪيترا ڪمرا سُمهڻ لاءِ استعمال ٿيندا آهن؟</string>
-    <string name="m107"> m107:\t گھر جي ڪنهن به ميمبر وٽ هيٺيون شيون موجود آهن:</string>
-    <string name="m107a"> m107a:\t واچ</string>
+
+    <string name="m106"> M106:\t گھر ۾ ڪيترا ڪمرا سُمهڻ لاءِ استعمال ٿيندا آهن ؟ </string>
+
+    <string name="m107"> M107:\t گھر جي ڪنهن به ميمبر وٽ هيٺيون شيون موجود آهن ؟ </string>
+    <string name="m107a"> واچ </string>
     <string name="m107aa"> ھا </string>
-    <string name="m107ab">  نه</string>
-    <string name="m107b"> m107b:\t موبائل /ٽيليفون </string>
+    <string name="m107ab">  نه </string>
+
+    <string name="m107b"> موبائل / ٽيليفون </string>
     <string name="m107ba"> ھا </string>
-    <string name="m107bb"> نه</string>
-    <string name="m107c"> m107c:\t سائيڪل</string>
+    <string name="m107bb"> نه </string>
+
+    <string name="m107c"> سائيڪل </string>
     <string name="m107ca"> ھا </string>
-    <string name="m107cb"> نه</string>
-    <string name="m107d"> m107d:\t موٽرسائيڪل/اسڪوٽر  </string>
+    <string name="m107cb"> نه </string>
+
+    <string name="m107d"> موٽرسائيڪل / اسڪوٽر </string>
     <string name="m107da"> ھا </string>
-    <string name="m107db"> نه</string>
-    <string name="m107e"> m107e:\t گاڏو</string>
+    <string name="m107db"> نه </string>
+
+    <string name="m107e"> گاڏو </string>
     <string name="m108ea"> ھا </string>
-    <string name="m108eb"> نه</string>
-    <string name="m107f"> m107f:\t ڪار/ٽرڪ/بس  </string>
-    <string name="m107fa"> ھا</string>
-    <string name="m107fb"> نه</string>
-    <string name="m107g"> m107g:\t ٽريڪٽر</string>
-    <string name="m107ga"> ھا</string>
-    <string name="m107gb"> نه</string>
-    <string name="m107h"> m107h:\t موٽر واري ٻيڙي</string>
+    <string name="m108eb"> نه </string>
+
+    <string name="m107f"> ڪار / ٽرڪ / بس </string>
+    <string name="m107fa"> ھا </string>
+    <string name="m107fb"> نه </string>
+
+    <string name="m107g"> ٽريڪٽر </string>
+    <string name="m107ga"> ھا </string>
+    <string name="m107gb"> نه </string>
+
+    <string name="m107h"> موٽر واري ٻيڙي </string>
     <string name="m107ha"> ھا </string>
-    <string name="m107hb"> نه</string>
-    <string name="m107i"> m107i:\t بنا موٽر واري ٻيڙي </string>
+    <string name="m107hb"> نه </string>
+
+    <string name="m107i"> بنا موٽر واري ٻيڙي </string>
     <string name="m107ia"> ھا </string>
-    <string name="m107ib"> نه</string>
-    <string name="m108"> m108:\t ڇا جواب ڏيندڙ (چونڊيل عورت) وٽ پنھنجي موبائل آھي؟</string>
+    <string name="m107ib"> نه </string>
+
+    <string name="m108"> M108:\t ڇا جواب ڏيندڙ (چونڊيل عورت) وٽ پنھنجي موبائل آھي ؟ </string>
     <string name="m108a"> ھا </string>
-    <string name="m108b"> نه</string>
-    <string name="m109"> m109:\t گھر جي ڪنهن به ميمبر وٽ پنهنجي ٻني آهي؟</string>
+    <string name="m108b"> نه </string>
+
+    <string name="m109"> M109:\t گھر جي ڪنهن به ميمبر وٽ پنهنجي ٻني آهي ؟ </string>
     <string name="m109a"> ھا </string>
-    <string name="m109b"> نه</string>
-    <string name="m110"> m110:\t ڪيترا ايڪڙ آهن؟</string>
-    <string name="m110a"> ايڪڙ</string>
-    <string name="m110b"> ڪئنال</string>
+    <string name="m109b"> نه </string>
+
+    <string name="m110"> M110:\t ڪيترا ايڪڙ آهن ؟ </string>
+    <string name="m110a"> ايڪڙ </string>
+    <string name="m110b"> ڪئنال </string>
     <string name="m110c"> خبر نه آھي </string>
-    <string name="m111"> m111:\t ڇا توهان وٽ پنهنجو چوپايو مال جانور يا ڪُڪڙيون آهن؟</string>
-    <string name="m111a"> ھا</string>
-    <string name="m111b"> نه</string>
-    <string name="m112"> m112:\t ھيٺين مان ڪيترو مال ھن گھر جي ملڪيت ۾ آھي؟</string>
+
+    <string name="m111"> M111:\t ڇا توهان وٽ پنهنجو چوپايو مال جانور يا ڪُڪڙيون آهن ؟ </string>
+    <string name="m111a"> ھا </string>
+    <string name="m111b"> نه </string>
+
+    <string name="m112"> M112:\t ھيٺين مان ڪيترو مال ھن گھر جي ملڪيت ۾ آھي ؟ </string>
     <string name="m112a"> ڳئون / ڍڳا </string>
-    <string name="m112b"> گھوڙا/گڏھ/خچر </string>
+    <string name="m112b"> گھوڙا / گڏھ / خچر </string>
     <string name="m112c"> ٻڪريون </string>
     <string name="m112d"> رڍون </string>
-    <string name="m112e"> ڪڪڙيون</string>
-    <string name="m112f"> مينھون</string>
+    <string name="m112e"> ڪڪڙيون </string>
+    <string name="m112f"> مينھون </string>
     <string name="m112g"> اُٺ </string>
-    <string name="m113"> m113:\t ڇا توهان جي گھر جي ڪنھن به فرد جو بئنڪ اڪائونٽ آھي؟</string>
-    <string name="m113a"> ھا</string>
-    <string name="m113b"> نه</string>
-    <string name="m114"> m114:\t توهان جي گھر ۾ هيٺن مان ڪهڙيون سهولتون موجود آهن:</string>
-    <string name="m114a"> m114a:\t بجلي</string>
+
+    <string name="m113"> M113:\t ڇا توهان جي گھر جي ڪنھن به فرد جو بئنڪ اڪائونٽ آھي ؟ </string>
+    <string name="m113a"> ھا </string>
+    <string name="m113b"> نه </string>
+
+
+    <string name="m114"> M114:\t توهان جي گھر ۾ هيٺن مان ڪهڙيون سهولتون موجود آهن ؟ </string>
+
+    <string name="m114a"> بجلي </string>
     <string name="m114aa"> ھا </string>
-    <string name="m114ab">  نه</string>
-    <string name="m114b"> m114b:\t ريڊيو</string>
-    <string name="m114ba"> ھا</string>
-    <string name="m114bb">  نه</string>
-    <string name="m114c"> m114c:\t ٽيليويزن</string>
+    <string name="m114ab"> نه </string>
+
+    <string name="m114b"> ريڊيو </string>
+    <string name="m114ba"> ھا </string>
+    <string name="m114bb"> نه </string>
+
+    <string name="m114c"> ٽيليويزن </string>
     <string name="m114ca"> ھا </string>
-    <string name="m114cb">  نه</string>
-    <string name="m114d"> m114d:\t ٽيليويزن</string>
-    <string name="m114da"> ھا</string>
-    <string name="m114db">  نه</string>
-    <string name="m114e"> m114e:\t ريفريجريٽر</string>
-    <string name="m114ea"> ھا  </string>
-    <string name="m114eb">  نه</string>
-    <string name="m114f"> m114f:\t الماڙي</string>
+    <string name="m114cb"> نه </string>
+
+    <string name="m114d"> تار واري فون </string>
+    <string name="m114da"> ھا </string>
+    <string name="m114db"> نه </string>
+
+    <string name="m114e"> ريفريجريٽر </string>
+    <string name="m114ea"> ھا </string>
+    <string name="m114eb"> نه </string>
+
+    <string name="m114f"> الماڙي </string>
     <string name="m114fa"> ھا </string>
-    <string name="m114fb"> نه</string>
-    <string name="m114g"> m114g:\t ڪرسي</string>
+    <string name="m114fb"> نه </string>
+
+    <string name="m114g"> ڪرسي </string>
     <string name="m114ga"> ھا </string>
-    <string name="m114gb"> نه</string>
-    <string name="m114h"> m114h:\t ايئر ڪولر </string>
+    <string name="m114gb"> نه </string>
+
+    <string name="m114h"> ايئر ڪولر </string>
     <string name="m114ha"> ھا </string>
-    <string name="m114hb"> نه</string>
-    <string name="m114i"> m114i:\t ائير ڪنڊيشنر </string>
+    <string name="m114hb"> نه </string>
+
+    <string name="m114i"> ائير ڪنڊيشنر </string>
     <string name="m114ia"> ھا </string>
-    <string name="m114ib">  نه</string>
-    <string name="m114j"> m114j:\t ڪپڙن ڌوئڻواري مشين </string>
-    <string name="m114ja"> ھا</string>
-    <string name="m114jb">  نه</string>
-    <string name="m114k"> m114k:\t پاڻي واري پمپ </string>
+    <string name="m114ib"> نه </string>
+
+    <string name="m114j"> ڪپڙن ڌوئڻ واري مشين </string>
+    <string name="m114ja"> ھا </string>
+    <string name="m114jb"> نه </string>
+
+    <string name="m114k"> پاڻي واري پمپ </string>
     <string name="m114ka"> ھا </string>
-    <string name="m114kb"> نه</string>
-    <string name="m114l"> m114l:\t بيڊ </string>
+    <string name="m114kb"> نه </string>
+
+    <string name="m114l"> بيڊ </string>
     <string name="m114la"> ھا </string>
-    <string name="m114lb">  نه</string>
-    <string name="m114m"> m114m:\t گھڙيال</string>
+    <string name="m114lb"> نه </string>
+
+    <string name="m114m"> گھڙيال </string>
     <string name="m114ma"> ھا </string>
-    <string name="m114mb">  نه</string>
-    <string name="m114n"> m114n:\t صوفا </string>
+    <string name="m114mb"> نه </string>
+
+    <string name="m114n"> صوفا </string>
     <string name="m114na"> ھا </string>
-    <string name="m114nb">  نه</string>
-    <string name="m114o"> m114o:\t ڪئميرا </string>
-    <string name="m114oa"> ھا</string>
-    <string name="m114ob"> نه</string>
-    <string name="m114p"> m114p:\t سلائي واري مشين</string>
+    <string name="m114nb"> نه </string>
+
+    <string name="m114o"> ڪئميرا </string>
+    <string name="m114oa"> ھا </string>
+    <string name="m114ob"> نه </string>
+
+    <string name="m114p"> سلائي واري مشين </string>
     <string name="m114pa"> ھا </string>
-    <string name="m114pb"> نه</string>
-    <string name="m114q"> m114q:\t ڪمپيوٽر</string>
-    <string name="m114qa"> ھا</string>
-    <string name="m114qb"> نه</string>
-    <string name="m114r"> m114r:\t انٽرنيٽ ڪنيڪشن </string>
-    <string name="m114ra"> ھا</string>
-    <string name="m114rb"> نه</string>
-    <string name="m115"> m115:\t گھر ۾ رڌ پچاءُ لاءِ ڪهڙي قسم جو ٻارڻ خاص طور تي استعمال ڪندا آهيو؟</string>
+    <string name="m114pb"> نه </string>
+
+    <string name="m114q"> ڪمپيوٽر </string>
+    <string name="m114qa"> ھا </string>
+    <string name="m114qb"> نه </string>
+
+    <string name="m114r"> انٽرنيٽ ڪنيڪشن </string>
+    <string name="m114ra"> ھا </string>
+    <string name="m114rb"> نه </string>
+
+    <string name="m115"> M115:\t گھر ۾ رڌ پچاءُ لاءِ ڪهڙي قسم جو ٻارڻ خاص طور تي استعمال ڪندا آهيو ؟ </string>
     <string name="m115a"> بجلي </string>
     <string name="m115b"> LPG سئلنڊر واري گئس </string>
     <string name="m115c"> قدرتي گئس </string>
-    <string name="m115d">  ھٿرادو گئس </string>
-    <string name="m115e"> گاسليٽ</string>
-    <string name="m115f"> ڪوئلو/ چمني </string>
-    <string name="m115g"> اڱار</string>
-    <string name="m115h"> ڪاٺ</string>
+    <string name="m115d"> ھٿرادو گئس </string>
+    <string name="m115e"> گاسليٽ </string>
+    <string name="m115f"> ڪوئلو / چمني </string>
+    <string name="m115g"> اڱار </string>
+    <string name="m115h"> ڪاٺ </string>
     <string name="m115i"> گاھ / ديويون / بوسو </string>
     <string name="m115j"> جانورن جا ڇيڻا </string>
     <string name="m115k"> گھر ۾ رڌ پچاءُ نه ڪندا آھيون </string>
-    <string name="m116"> m116:\t توھان گھر ۾ اڪثر ڪھڙي ٻولي ڳالھائيندا آھيو؟</string>
-    <string name="m116a"> اردو</string>
-    <string name="m116b"> پنجابي</string>
-    <string name="m116c"> سنڌي</string>
-    <string name="m116d"> بلوچي</string>
-    <string name="m116e"> سرائيڪي</string>
-    <string name="m116f"> برائھوي</string>
-    <string name="m116g"> بروشڪي</string>
-    <string name="m116h"> پشتو</string>
-    <string name="n101"> n101:\t توهان جي گھر ۾ پيئڻ جو پاڻي جو مکيه ذريعو ڪھڙو آهي؟</string>
+
+    <string name="m116"> M116:\t توھان گھر ۾ اڪثر ڪھڙي ٻولي ڳالھائيندا آھيو ؟ </string>
+    <string name="m116a"> اردو </string>
+    <string name="m116b"> پنجابي </string>
+    <string name="m116c"> سنڌي </string>
+    <string name="m116d"> بلوچي </string>
+    <string name="m116e"> سرائيڪي </string>
+    <string name="m116f"> برائھوي </string>
+    <string name="m116g"> بروشڪي </string>
+    <string name="m116h"> پشتو </string>
+
+    <string name="n101"> N101:\t توهان جي گھر ۾ پيئڻ جو پاڻي جو مکيه ذريعو ڪھڙو آهي ؟ </string>
     <string name="n101a"> گھر جي اندر پاڻي جي لائن اچي ٿي </string>
     <string name="n101a_title"> </string>
-    <string name="n101b"> گھر جي ٻاهر پاڻي جي لائن اچي ٿي</string>
+    <string name="n101b"> گھر جي ٻاهر پاڻي جي لائن اچي ٿي </string>
     <string name="n101c"> پاڙي ۾ اندر جي پاڻي جي لائن اچي ٿي </string>
     <string name="n101d"> عوامي نلڪو لڳل آهي </string>
     <string name="n101e"> صاف پاڻي جو فلٽر پلانٽ </string>
@@ -2152,15 +2195,15 @@
     <string name="n101g"> نلڪي جو پاڻي </string>
     <string name="n101h"> ڍڪيل کوهه جو پاڻي </string>
     <string name="n101h_title"> </string>
-    <string name="n101i"> بنا ڍڪيل کوهه جو پاڻي</string>
+    <string name="n101i"> بنا ڍڪيل کوهه جو پاڻي </string>
     <string name="n101j"> مينهن جو پاڻي </string>
     <string name="n101k"> ٽينڪروارو پاڻي </string>
-    <string name="n101l"> گڏهه گاڏي سان پاڻي جو ٽئنڪ</string>
-    <string name="n101m"> ندي، دريا جو پاڻي</string>
+    <string name="n101l"> گڏهه گاڏي سان پاڻي جو ٽئنڪ </string>
+    <string name="n101m"> ندي، دريا جو پاڻي </string>
     <string name="n101n"> بوتل وارو پاڻي </string>
     <string name="n101x"> ٻيو ڪجھ </string>
 
-    <string name="n102"> n102:\t توهان جي گھر ۾ رڌ پچاءُ ۽ ھٿ ڌوئڻ  لاءِ پاڻي جو مکيه ذريعو ڪھڙو آهي؟</string>
+    <string name="n102"> N102:\t توهان جي گھر ۾ رڌ پچاءُ ۽ ھٿ ڌوئڻ  لاءِ پاڻي جو مکيه ذريعو ڪھڙو آهي ؟ </string>
     <string name="n102a"> گھر جي اندر پاڻي جي لائن اچي ٿي </string>
     <string name="n102a_title"> </string>
     <string name="n102b"> گھر جي ٻاهر پاڻي جي لائن اچي ٿي </string>
@@ -2172,15 +2215,15 @@
     <string name="n102g"> نلڪي جو پاڻي </string>
     <string name="n102h"> ڍڪيل کوهه جو پاڻي </string>
     <string name="n102h_title"> کوهه </string>
-    <string name="n102i"> بنا ڍڪيل کوهه جو پاڻي</string>
+    <string name="n102i"> بنا ڍڪيل کوهه جو پاڻي </string>
     <string name="n102j"> مينهن جو پاڻي </string>
-    <string name="n102k"> ٽينڪروارو پاڻي </string>
-    <string name="n102l"> گڏهه گاڏي سان پاڻي جو ٽئنڪ</string>
-    <string name="n102m"> ندي، دريا جو پاڻي</string>
+    <string name="n102k"> ٽينڪر وارو پاڻي </string>
+    <string name="n102l"> گڏهه گاڏي سان پاڻي جو ٽئنڪ </string>
+    <string name="n102m"> ندي، دريا جو پاڻي </string>
     <string name="n102n"> بوتل وارو پاڻي </string>
     <string name="n102x"> ٻيو ڪجھ </string>
 
-    <string name="n103"> n103:\t پاڻي ڪٿا آندو ويندو آھي؟</string>
+    <string name="n103"> N103:\t پاڻي ڪٿا آندو ويندو آھي ؟ </string>
     <string name="n103a"> پنھنجي گھر </string>
     <string name="n103b"> پلاٽ / گھر جي ٻاهر </string>
     <string name="n103c"> ٻئي جڳھ تان </string>
@@ -2189,27 +2232,30 @@
     <string name="n104a"> وقت منٽن ۾</string>
     <string name="n10498"> خبر نه آھي </string>
 
-    <string name="n105"> n105:\t توھان جي گھر مان اڪثر ڪري ڪير پاڻي ڀرڻ ويندو آھي ؟</string>
+    <string name="n105"> N105:\t توھان جي گھر مان اڪثر ڪري ڪير پاڻي ڀرڻ ويندو آھي ؟ </string>
     <string name="n105hint"> پڇا ڪيو ته ڇا اھو ماڻھو 15 سالن جي عمر کان گھٽ آھي؟ جنس ڇا آھي ؟ </string>
-    <string name="n105a"> (عورت (عمر 15 سالن کان وڌيڪ</string>
-    <string name="n105b"> (مرد (عمر 15 سالن کان وڌيڪ</string>
-    <string name="n105c"> (عورت (عمر 15 سالن کان گھٽ</string>
+    <string name="n105a"> عورت (عمر 15 سالن کان وڌيڪ) </string>
+    <string name="n105b"> مرد (عمر 15 سالن کان وڌيڪ) </string>
+    <string name="n105c"> عورت (عمر 15 سالن کان گھٽ) </string>
     <string name="n105d"> </string>
     <string name="n105e"> </string>
     <string name="n105f"> خبر نه آھي </string>
-    <string name="n106"> n106:\t جيڪو پاڻي توھان گھر ۾ استعمال ڪندا آھيو ڇا ان جو ذائقو مٺو يا کارو آھي؟</string>
-    <string name="n106a"> مٺو پاڻي</string>
+
+    <string name="n106"> N106:\t جيڪو پاڻي توھان گھر ۾ استعمال ڪندا آھيو ڇا ان جو ذائقو مٺو يا کارو آھي ؟ </string>
+    <string name="n106a"> مٺو پاڻي </string>
     <string name="n106b"> کارو پاڻي </string>
-    <string name="n107"> n107:\t ڇا پاڻي ڀرڻ وقت اھو صاف ھوندوآھي يا ميرو ھوندو آھي؟</string>
+
+    <string name="n107"> N107:\t ڇا پاڻي ڀرڻ وقت اھو صاف ھوندوآھي يا ميرو ھوندو آھي ؟ </string>
     <string name="n107a"> صاف </string>
     <string name="n107b"> ميرو </string>
     <string name="n107c"> خبر نه آھي </string>
-    <string name="n108"> n108:\t ڇا توهان پيئڻ جي پاڻي کي صاف ڪندا آهيو؟</string>
+
+    <string name="n108"> N108:\t ڇا توهان پيئڻ جي پاڻي کي صاف ڪندا آهيو ؟ </string>
     <string name="n108a"> ھا </string>
-    <string name="n108b"> نه</string>
+    <string name="n108b"> نه </string>
     <string name="n108c"> خبر نه آھي </string>
 
-    <string name="n109"> N109:\t پاڻي کي پيئڻ جي قابل ڪرڻ لاءِ اڪثر ڪهڙو طريقو استعمال ڪندا آهيو؟</string>
+    <string name="n109"> N109:\t پاڻي کي پيئڻ جي قابل ڪرڻ لاءِ اڪثر ڪهڙو طريقو استعمال ڪندا آهيو ؟ </string>
     <string name="n109a"> گرم ڪندا آهيون </string>
     <string name="n109b"> ڪلورين / گوريون </string>
     <string name="n109c"> ڪپڙي سان ڇاڻيندا آهيون </string>
@@ -2218,14 +2264,14 @@
     <string name="n109f"> رکندا آهيون ۽ ڇڻي وڃي </string>
     <string name="n109g"> ڦٽڪي جي ذريعي </string>
 
-    <string name="n110"> N110:\t گھر ۾ ڪهڙي قسم جو ٽوائلٽ / ڪاڪوس استعمال ڪندا آهيو ؟ </string>
+    <string name="n110"> N110:\t گھر ۾ ڪهڙي قسم جو ٽوائلٽ يا ڪاڪوس استعمال ڪندا آهيو ؟ </string>
     <string name="n110hint"> If not possible to determine, ask permission to observe the facility. </string>
+    <string name="n110a_title"> FLUSH / POURFLUSH </string>
     <string name="n110a"> گھٽر نالي وارو  </string>
-    <string name="n110a_title"> </string>
     <string name="n110b"> فليش ٽينڪ </string>
     <string name="n110c"> کڏي وارو ڪاڪوس </string>
     <string name="n110d"> ٻاهر اڇلائڻ </string>
-    <string name="n110e"> اڻ سڃاتل جڳھ تي/پڪ نه آھي / خبر نه آھي ڪٿي </string>
+    <string name="n110e"> اڻ سڃاتل جڳھ تي / پڪ نه آھي / خبر نه آھي ڪٿي </string>
     <string name="n110f"> هوادار بهتر کڏي وارو ڪاڪوس </string>
     <string name="n110f_title"> کڏي وارو ڍڪيل ڪاڪوس </string>
     <string name="n110g"> گھر جي ٻاهر پاڻي جي لائن اچي ٿي </string>
@@ -2233,42 +2279,48 @@
     <string name="n110i"> ڪمپوزٽنگ ٽوائلٽ </string>
     <string name="n110j"> ٽوڪري وارو ڪاڪوس </string>
     <string name="n110k"> ڪا به سهولت نه آهي/ کليل ميدان ۾ </string>
-    <string name="n111"> n111:\t ڇا ٻين گھرن جا ڀاتي به اهيو ڪاڪوس استعمال ڪندا آهن؟</string>
+
+    <string name="n111"> N111:\t ڇا ٻين گھرن جا ڀاتي به اهيو ڪاڪوس استعمال ڪندا آهن ؟ </string>
     <string name="n111a"> ھا </string>
-    <string name="n111b"> نه</string>
+    <string name="n111b"> نه </string>
     <string name="n111c"> خبر نه آھي </string>
-    <string name="n112"> n112:\t ڇا ٻين گھرن جا ڀاتي به اهيو ٽوائلٽ / ڪاڪوس استعمال ڪندا آهن جنھن کي توھان سڃاڻيندا آھيو يا عوامي طور تي استعمال ٿيندو آھي؟ </string>
-    <string name="n112a"> (صرف ٻين گھرن کي (عوامي نه آھي</string>
-    <string name="n112b"> عوامي آھي</string>
-    <string name="n113"> n113:\t توھان جي گھر کان علاوه گھر جا ٽوٽل ڪيترا ڀاتي ھي ٽوائلٽ / ڪاڪوس استعمال ڪندا آھن؟</string>
-    <string name="n113a"> (گھر جي ڀاتين جو تعداد (10 کان گھٽ</string>
+
+    <string name="n112"> N112:\t ڇا ٻين گھرن جا ڀاتي به اهيو ٽوائلٽ / ڪاڪوس استعمال ڪندا آهن جنھن کي توھان سڃاڻيندا آھيو يا عوامي طور تي استعمال ٿيندو آھي ؟ </string>
+    <string name="n112a"> (صرف ٻين گھرن کي (عوامي نه آھي </string>
+    <string name="n112b"> عوامي آھي </string>
+
+    <string name="n113"> N113:\t توھان جي گھر کان علاوه گھر جا ٽوٽل ڪيترا ڀاتي ھي ٽوائلٽ / ڪاڪوس استعمال ڪندا آھن ؟ </string>
+    <string name="n113a"> گھر جي ڀاتين جو تعداد (10 کان گھٽ) </string>
     <string name="n113b"> ڏھ يا ڏھن کان وڌيڪ </string>
     <string name="n113c"> خبر نه آھي </string>
 
-    <string name="o101"> O101:\t مهرباني ڪري اسان کي هٿ ڌوئڻ جي جڳهه ڏيکاريو جتي توهان اڪثر هٿ ڌوئيندا آهيو.</string>
+
+    <!--   SECTION O  -->
+    <string name="o101"> O101:\t مهرباني ڪري اسان کي هٿ ڌوئڻ جي جڳهه ڏيکاريو جتي توهان اڪثر هٿ ڌوئيندا آهيو </string>
     <string name="o101a"> مشاهدو ڪيو ويو </string>
-    <string name="o101b_title"> مشاهدو نه ڪيو ويو</string>
+    <string name="o101b_title"> مشاهدو نه ڪيو ويو </string>
     <string name="o101b"> رهائش واري جڳهه تي نه هو </string>
     <string name="o101c"> ڏسڻ جي اجازت نه ڏني وئي </string>
     <string name="o101x"> ٻي ڪا وجھه هئي </string>
 
-    <string name="o102"> O102:\t پاڻي جي موجودگي جو مشاهدو ڪيو ويو ته ڪهڙي جڳهه تي هٿ ڌويا ويندا آهن</string>
-    <string name="o102hint"> Verify by checking the tap/pump, or basin, bucket, water container or similar objects for presence of water. </string>
+    <string name="o102"> O102:\t پاڻي جي موجودگي جو مشاهدو ڪيو ويو ته ڪهڙي جڳهه تي هٿ ڌوئيا ويندا آهن ؟ </string>
+    <string name="o102hint"> Verify by checking the tap / pump, or basin, bucket, water container or similar objects for presence of water. </string>
     <string name="o102a"> پاڻي موجود آهي </string>
     <string name="o102b"> پاڻي موجود ڪونهي </string>
-    <string name="o103"> o103:\t ڇا ھٿ ڌوئڻ واري جاءِ تي صابڻ موجود ھو؟</string>
+
+    <string name="o103"> O103:\t  ڇا ھٿ ڌوئڻ واري جاءِ تي صابڻ موجود ھو ؟ </string>
     <string name="o103a"> ھا، موجود هو </string>
     <string name="o103b"> نه، موجود نه هو </string>
 
-    <string name="o104"> O104:\t جيڪڏهن نوٽ ڪيو ويو ته واقعي صابڻ موجود هو جتي هٿ ڌويا ويندا آهن ؟</string>
-    <string name="o104hint"> Record your observation. Select all that apply. </string>
+    <string name="o104"> O104:\t جيڪڏهن نوٽ ڪيو ويو ته واقعي صابڻ موجود هو جتي هٿ ڌويا ويندا آهن ؟ </string>
+    <string name="o104hint"> هڪ کان وڌيڪ چونڊجي سگهجي ٿو </string>
     <string name="o104a"> صابڻ </string>
-    <string name="o104b"> (صابڻ (پائوڊر/ملائم چيز/ پيسٽ </string>
+    <string name="o104b"> صابڻ (پائوڊر / ملائم چيز / پيسٽ) </string>
     <string name="o104c"> ملائم صابڻ </string>
     <string name="o104d"> چيڪي مٽي </string>
-    <string name="o104x"> </string>
+    <string name="o104x"> ٻيو ڪجھ (وضاحت ڪريو) </string>
 
-    <string name="o105"> O105:\t ڇا توهان وٽ گھر ۾ هٿ ڌوئڻ لاءِ صابڻ موجود آهي؟</string>
+    <string name="o105"> O105:\t ڇا توهان وٽ گھر ۾ هٿ ڌوئڻ لاءِ صابڻ موجود آهي ؟ </string>
     <string name="o105a"> ھا </string>
     <string name="o105b"> نه </string>
 
@@ -2276,10 +2328,10 @@
     <string name="o106a"> ھا، ڏٺو </string>
     <string name="o106b"> نه، نه ڏٺو </string>
 
-    <string name="o107"> O107:\t مشاھدو نوٽ ڪريو</string>
-    <string name="o107hint"> Multiple responses are allowed </string>
+    <string name="o107"> O107:\t مشاھدو نوٽ ڪريو </string>
+    <string name="o107hint"> هڪ کان وڌيڪ چونڊجي سگهجي ٿو </string>
     <string name="o107a"> صابڻ </string>
-    <string name="o107b"> (صابڻ (پائوڊر/ملائم چيز/ پيسٽ </string>
+    <string name="o107b"> صابڻ (پائوڊر / ملائم چيز / پيسٽ) </string>
     <string name="o107c"> ملائم صابڻ </string>
     <string name="o107d"> چيڪي مٽي </string>
     <string name="o107x"> ٻيو ڪجھ (وضاحت ڪريو) </string>
