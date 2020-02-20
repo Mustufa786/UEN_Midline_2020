@@ -47,7 +47,7 @@
                             style="@style/i_textview"
                             android:layout_width="0dp"
                             android:layout_weight="1"
-                            android:text="@string/d101" />
+                            android:text="@string/num" />
 
                     </LinearLayout>
 
@@ -74,7 +74,7 @@
                         <EditText
                             android:id="@+id/d102"
                             style="@style/textInputName"
-                            android:hint="@string/d102" />
+                            android:hint="@string/name" />
 
                     </LinearLayout>
 
@@ -241,9 +241,10 @@
                         <TextView
                             android:id="@+id/d102Name"
                             style="@style/textView3Head"
-                            android:text="@string/d102" />
+                            android:text="@string/name" />
 
                     </LinearLayout>
+
                 </androidx.cardview.widget.CardView>
 
                 <!-- d106  Radio   -->
@@ -268,6 +269,7 @@
                             android:layout_margin="10dp" />
 
                     </LinearLayout>
+
                 </androidx.cardview.widget.CardView>
 
                 <!-- d107  Radio   -->
