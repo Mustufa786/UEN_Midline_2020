@@ -2051,15 +2051,17 @@
     <string name="l117c">Jointly with husband</string>
     <string name="l117x">Other (specify)</string>
 
-    <string name="m101">M101:\t Is the cooking usually done in the house, in a separate building, or outdoors?</string>
+    <string name="m101">M101:\t Is the cooking usually done in the house, in a separate building, or outdoors ? </string>
     <string name="m101a">In the house  </string>
     <string name="m101b">In a separate building</string>
     <string name="m101c">Outdoors</string>
-    <string name="m102">M102:\t Do you have a separate room which is used as a kitchen?</string>
+
+    <string name="m102">M102:\t Do you have a separate room which is used as a kitchen ? </string>
     <string name="m102a">Yes</string>
     <string name="m102b">No</string>
 
-    <string name="m103">M103:\t Main material of the floor  RECORD OBSERVATION</string>
+    <string name="m103">M103:\t Main material of the floor </string>
+    <string name="m103hint"> RECORD OBSERVATIONS: </string>
     <string name="m103a"> Earth / sand / mud </string>
     <string name="m103a_title"> NATURAL FLOOR </string>
     <string name="m103b"> Dung </string>
@@ -2072,10 +2074,10 @@
     <string name="m103h">Ceramic tiles </string>
     <string name="m103i">Cement</string>
     <string name="m103j">Carpet</string>
-    <string name="m103k">Chips/terrazzo  </string>
-    <string name="m103l">Bricks</string>
-    <string name="m103m">Mats</string>
-    <string name="m103n">Marble </string>
+    <string name="m103k"> Chips / terrazzo  </string>
+    <string name="m103l"> Bricks </string>
+    <string name="m103m"> Mats </string>
+    <string name="m103n"> Marble </string>
 
     <string name="m104">M104:\t Main material of the roof  RECORD OBSERVATION</string>
     <string name="m104a">No Roof</string>
@@ -2171,9 +2173,11 @@
     <string name="m112e"> Chickens</string>
     <string name="m112f">Buffalo</string>
     <string name="m112g"> Camels</string>
+
     <string name="m113">M113:\t Does any member of this household have a bank account?</string>
     <string name="m113a">Yes</string>
     <string name="m113b">No</string>
+
     <string name="m114">M114:\t Does your household have?</string>
     <string name="m114a">Electricity </string>
     <string name="m114aa">Yes</string>
@@ -2220,15 +2224,19 @@
     <string name="m114o">Camera</string>
     <string name="m114oa">Yes</string>
     <string name="m114ob">No</string>
+
     <string name="m114p">Sewing Machine</string>
     <string name="m114pa">Yes</string>
     <string name="m114pb">No</string>
+
     <string name="m114q">Computer</string>
     <string name="m114qa">Yes</string>
     <string name="m114qb">No</string>
+
     <string name="m114r">Internet Connection </string>
     <string name="m114ra">Yes</string>
     <string name="m114rb">No</string>
+
     <string name="m115">M115:\t What type of fuel does your household mainly use for cooking</string>
     <string name="m115a">Electricity</string>
     <string name="m115b">Liquefied Petroleum Gas (LPG) </string>
@@ -2241,6 +2249,7 @@
     <string name="m115i">Straw/Shrubs/Grass</string>
     <string name="m115j">Animal dung</string>
     <string name="m115k">No food cooked in household</string>
+
     <string name="m116">M116:\t What language do you usually speak in your household?</string>
     <string name="m116a">Urdu </string>
     <string name="m116b">Punjabi </string>

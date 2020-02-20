@@ -1952,7 +1952,8 @@
     <string name="m102a"> ھا </string>
     <string name="m102b"> نه </string>
 
-    <string name="m103"> M103:\t فرش ڪهڙي قسم جو آهي مشاھدو ڪريو </string>
+    <string name="m103"> M103:\t فرش ڪهڙي قسم جو آهي  </string>
+    <string name="m103hint"> مشاھدو ڪريو: </string>
     <string name="m103a"> زمين / واري / مٽي </string>
     <string name="m103a_title"> </string>
     <string name="m103b">  ڇيڻو </string>

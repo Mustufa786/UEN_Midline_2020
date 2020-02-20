@@ -1106,17 +1106,20 @@
     <string name="i106d"> کوئی مرد گھر پر موجود نہیں تھا جو مرکزِ صحت تک لے جاتا </string>
     <string name="i106e"> گھر کے سربراہ/شوہر/ساس نے اجازت نہیں دی </string>
     <string name="i106f"> مرکزِصحت بہت دور تھا </string>
+
     <string name="i107"> آپ نے (نام) کی دستوں کی بیماری کا علاج کہاں سے کروایا تھا ؟ </string>
     <string name="i107a"> سرکاری مرکز صحت میں </string>
     <string name="i107b"> نجی مرکز صحت میں </string>
     <string name="i107c"> رفاہی ادارے یارفاہی مرکز صحت میں </string>
-    <string name="i108"> آپ کو کس نےنام کو مرکزِ صحت لے جانے کی تجویز دی تھی؟ </string>
+
+    <string name="i108"> آپ کو کس نے نام کو مرکزِ صحت لے جانے کی تجویز دی تھی ؟ </string>
     <string name="i108a"> ڈاکٹر </string>
-    <string name="i108b"> ایل ایچ وی(لیڈی ہیلتھ وزیٹر) </string>
+    <string name="i108b"> ایل ایچ وی (لیڈی ہیلتھ وزیٹر) </string>
     <string name="i108c"> نرس </string>
     <string name="i108d"> سی ایم ڈبلیو(کمیونیٹی مڈوائف) </string>
     <string name="i108e"> ایل ایچ ڈبلیو(کمیونٹی ہیلتھ ورکر) </string>
     <string name="i108f"> دائی/ٹی بی اے(پیشہ ور زچگی کروانے والی) </string>
+
     <string name="i109"> مرکزِ صحت جہاں آپ نے(نام)کا دستوں کی تکلیف ہونے پر علاج کروایا، آپ کے گھر سے کتنا دور ہے؟ </string>
     <string name="i110"> جہاں آپ نے(نام )کا دستوں کی تکلیف کا علاج کروایا۔ اُس مرکزِ صحت میں جانے کے لیے کتنا وقت لگتا ہے؟ </string>
     <string name="i111"> (نام )کی دستوں کی تکلیف کا علاج کس نے کیا تھا؟ </string>
@@ -1173,7 +1176,7 @@
     <string name="i120a"> ہاں </string>
     <string name="i120b"> نہیں </string>
 
-    <string name="i121"> آپ نے او آر ایس بنانا کہاں سے سیکھا؟ </string>
+    <string name="i121"> آپ نے او آر ایس بنانا کہاں سے سیکھا ؟ </string>
     <string name="i121a"> ڈاکٹر </string>
     <string name="i121b"> ایل ایچ وی (لیڈی ہیلتھ وزیٹر) </string>
     <string name="i121c"> نرس </string>
@@ -1204,31 +1207,41 @@
     <string name="i124e"> سب کچھ الٹی کرنا </string>
     <string name="i124f"> پاخانے میں خون </string>
     <string name="i124g"> چٹکی بھرنے پر جسم کا بہت آہستگی سے واپس آنا </string>
+
     <string name="i125"> کیا لیڈی ہیلتھ ورکر نے (نام) کے دستوں کی تکلیف کے دوران آپ کے گھر کا وزٹ کیا تھا ؟ </string>
     <string name="i125a"> ہاں </string>
     <string name="i125b"> نہیں </string>
+
     <string name="i126"> لیڈی ہیلتھ ورکر نے کیا خدمات فراہم کیں تھیں؟ </string>
     <string name="i126a"> ماں کو او ار ایس گھر پر تیار کرنے کا طریقہ بتایا </string>
     <string name="i126b"> زنک ڈی ٹی فراہم کیا </string>
     <string name="i126c"> او ار ایس کا پیکٹ فراہم کیا </string>
     <string name="i126d"> مرکز صحت ریفر کیا </string>
     <string name="i126e"> دستوں کی خطرناک علامات بتائیں </string>
+
     <string name="i201"> کیا کسی پانچ سال سے کم عمر بچے کو پچھلے دو ہفتوں میں بخار ہواتھا؟ </string>
     <string name="i201a"> ہاں </string>
     <string name="i201b"> نہیں </string>
+
     <string name="i202"> اس گھر میں پچھلے دو ہفتوں میں کتنے بچوں کو بخار ہواتھا؟ </string>
+
     <string name="i203"> کیا کسی بچے کو پچھلے دو ہفتوں میں بخار کے ساتھ کھانسی کا مسئلہ درپیش آیا۔ جیسے کہ تیزی سے سانس لینا/ یا سانس لینے میں دشواری؟ </string>
     <string name="i203a"> ہاں </string>
     <string name="i203b"> نہیں </string>
+
     <string name="i204"> کتنے بچوں کو پچھلے دو ہفتوں میں بخار کے ساتھ کھانسی کا مسئلہ درپیش آیا۔ جیسے کہ تیزی سے سانس لینا/ یا سانس لیتے میں دشواری؟ </string>
+
     <string name="i205"> کیا(نام)کو بخار یا کھانسی کے دوران پسلیاں چلنا یا سینہ کی خرابی کا مسئلہ درپیش آیا تھا؟ </string>
     <string name="i205a"> ہاں </string>
     <string name="i205b"> نہیں </string>
     <string name="i205c"> معلوم نہیں </string>
+
     <string name="i206"> (نام)کو کتنے دن تک بخار اور کھانسی کی علامات علامات رہئیں؟ </string>
+
     <string name="i207"> کیاآپ نے (نام) کا کھانسی، بخار اور سانس میں دشواری کے لیے علاج کروایا تھا؟ </string>
     <string name="i207a"> ہاں </string>
     <string name="i207b"> نہیں </string>
+
     <string name="i208"> آپ نے (نام) کی بیماری کا علاج کیوں نہیں کروایا تھا؟ </string>
     <string name="i208a"> مسئلہ اتنا بڑا نہیں تھا کہ علاج کرواتے </string>
     <string name="i208b"> صحت کی سہولت فراہم کرنے والے کو دینے کے لیے پیسے نہیں تھے </string>
@@ -1238,11 +1251,13 @@
     <string name="i208f"> مرکز صحت کافی دور تھا </string>
     <string name="i208g"> صحت کا مرکز بند تھا </string>
     <string name="i208h"> سروسز کا معیار اچھا نہیں تھا </string>
+
     <string name="i209"> آپ نے (نام)کا بخار، کھانسی اور سانس کی تیز رفتار کی علامات آنے پر،کہاں سے علاج کروایاتھا؟ </string>
     <string name="i209a"> گھر پر </string>
     <string name="i209b"> سرکاری مرکز صحت میں </string>
     <string name="i209c"> نجی مرکز صحت میں </string>
     <string name="i209d"> رفاہی ادارے یارفاہی مرکز صحت میں </string>
+
     <string name="i210"> (نام)کو بخار، کھانسی اور سانس کی تیز رفتار کے علاج کے لیے کس نے ریفر کیا؟ </string>
     <string name="i210a"> ڈاکٹر </string>
     <string name="i210b"> ایل ایچ وی(لیڈی ہیلتھ وزیٹر) </string>
@@ -1252,26 +1267,33 @@
     <string name="i210f"> ایل ایچ ڈبلیو(کمیونٹی ہیلتھ ورکر) </string>
     <string name="i210g"> دائی/ٹی بی اے(پیشہ ور زچگی کروانے والی) </string>
     <string name="i210h"> خود سے </string>
+
     <string name="i211"> وہ مرکزِ صحت جہاںآپ نے (نام)کے کھانسی، بخار یا سانس کی تیز رفتار کی علامات کے لیے علاج کروایاتھا، آپ کے گھر سے کتنے فاصلے پر ہے؟ </string>
+
     <string name="i212"> اس مرکزِ صحت تک پہنچنے میں آپ کو کتنا وقت لگاتھا، جہاں آپ نے نام کی کھانسی، بخار اور سانس کی تیز رفتار کے علامات کا علاج کروایاتھا؟ </string>
+
     <string name="i213"> (نام) کی بخار، کھانسی اور سانس کی تیز رفتار علامات کا علاج کس نے کیاتھا؟ </string>
     <string name="i213a"> ڈاکٹر </string>
     <string name="i213b"> ایل ایچ وی(لیڈی ہیلتھ وزیٹر) </string>
     <string name="i213c"> نرس </string>
     <string name="i213d"> سی ایم ڈبلیو(کمیونیٹی مڈوائف) </string>
     <string name="i213f"> ڈسپینسر/کمپائونڈر </string>
+
     <string name="i214"> کیا (نام) کو کھانسی ، بخاری یا سانس کی تیز رفتار علامات کے درپیش ہونے پر ہسپتال میں داخل کیا گیاتھا؟ </string>
     <string name="i214a"> ہاں </string>
     <string name="i214b"> نہیں </string>
+
     <string name="i215"> (نام)کو بخار، کھانسی اور سانس کی تیز رفتارعلامات کےدرپیش آنے پر کہاں داخل کیا گیاتھا؟ </string>
     <string name="i215a"> سرکاری مرکز صحت میں </string>
     <string name="i215b"> نجی مرکز صحت میں </string>
     <string name="i215c"> رفاہی ادارے یارفاہی مرکز صحت میں </string>
+
     <string name="i216"> (نام)کو کھانسی، بخار اور سانس کی تیز رفتار علامات کے علاج کے لیے کتنے دن تک ہسپتال میں رکھا گیاتھا؟ </string>
     <string name="i217"> کیاہسپتال میں داخلے کے وقت (نام)کو کھانسی، بخار یا سانس کی تیز رفتار علامات کے لیے کوئی ادویات دی گئی تھیں؟ </string>
     <string name="i217a"> ہاں </string>
     <string name="i217b"> نہیں </string>
     <string name="i217c"> معلوم نہیں </string>
+
     <string name="i218"> (نام)کو کونسا علاج فراہم کیا گیا تھا؟ </string>
     <string name="i218a"> کلوروکوین </string>
     <string name="i218b"> ایموڈایقوین </string>
@@ -1287,16 +1309,20 @@
     <string name="i218l"> کھانسی کا شربت </string>
     <string name="i218m"> ایموکسل ڈی ٹی </string>
     <string name="i218n"> گھریلو نسخے </string>
+
     <string name="i219"> کیا (نام)کے سینے کا ایکسرے ہوا تھا؟ </string>
     <string name="i219a"> ہاں </string>
     <string name="i219b"> نہیں </string>
     <string name="i220"> کیا بیماری کے دوران کسی بھی وقت (نام) کی انگلی یا ایڑی سے خون کا نمونہ لیا گیاتھا؟ </string>
     <string name="i220a"> ہاں </string>
     <string name="i220b"> نہیں </string>
+
     <string name="i221"> (نام) کی کھانسی، بخار اور سانس کی تیزی کا علاج کروانے پر کتنا خرچ آیاتھا؟ </string>
+
     <string name="i222"> کیا آپ کو نمونیا کی خطرناک علامات کے بارے میں معلوم ہے؟َ </string>
     <string name="i222a"> ہاں </string>
     <string name="i222b"> نہیں </string>
+
     <string name="i223"> کیا آپ نمونیا کی خطرناک علامات کے بارے میں بتا سکتی ہیں؟ </string>
     <string name="i223a"> پسلیاں چلنا </string>
     <string name="i223b"> کچھ بھی نہ پی سکنا </string>
@@ -1305,6 +1331,7 @@
     <string name="i223e"> نڈہال ہونا یا بے ہوشی </string>
     <string name="i223f"> سینے میں خرخراہٹ کی آواز </string>
     <string name="i223g"> شدید غذائی کمی </string>
+
     <string name="i224"> نمونیا کی خطرناک علامات کی معلومات آپ کو کس نے دی تھی؟ سب پر نشان لگائیں جو لاگو ہوتے ہیں </string>
     <string name="i224a"> ڈاکٹر </string>
     <string name="i224b"> ایل ایچ وی(لیڈی ہیلتھ وزیٹر) </string>
@@ -1312,9 +1339,11 @@
     <string name="i224d"> سی ایم ڈبلیو(کمیونیٹی مڈوائف) </string>
     <string name="i224e"> ایل ایچ ڈبلیو(کمیونٹی ہیلتھ ورکر) </string>
     <string name="i224f"> دائی/ٹی بی اے(پیشہ ور زچگی کروانے والی) </string>
+
     <string name="i225"> کیا جب (نام) نمونیا کی بیماری میں مبتلا تھا اس وقت لیڈی ہیلتھ ورکر نے آپ کے گھر کا وزٹ کیا تھا ؟ </string>
     <string name="i225a"> ہاں </string>
     <string name="i225b"> نہیں </string>
+
     <string name="i226"> لیڈی ہیلتھ ورکر نے کیا خدمات فراہم کی تھیں؟ </string>
     <string name="i226a"> ایموکسل ڈی-ٹی فراہم کیا تھا </string>
     <string name="i226b"> پیناڈول(دوا/ سیرپ) دیاتھا </string>
@@ -1322,24 +1351,29 @@
     <string name="i226d"> نمونیا کے علاج کے لیے مرکز صحت ریفر کیا </string>
     <string name="i226e"> گھریلو / فضائی آلودگی کے نقصانات کے بارے میں بتایا </string>
     <string name="i226f"> نمونیا کی خطرناک علامات کے بارے میں بتایا </string>
+
     <string name="j101"> کیا آپ کے پاس کسی سرکاری یا نجی مرکز صحت سے ملا ہوا حفاظتی ٹیکوں کا کارڈ موجود ہے جس میں بچہ/بچی (نام) کو لگنے والے حفاظتی ٹیکوں کا اندراج ہو؟ </string>
     <string name="j101hint"> اگر ہاں: تو برائے مہربانی کیا میں اسے دیکھ سکتا/ سکتی ہوں؟ </string>
     <string name="j101hint1"> جواب دہندہ انٹرویو کی اجازت ملنے کے بعد کارڈ فراہم کر چکی/چکا ہو گا </string>
     <string name="j101a"> ہاں، کارڈدیکھ لیا </string>
     <string name="j101b"> نہیں، کارڈنہیں دیکھا </string>
     <string name="j101c"> نہیں </string>
+
     <string name="j102"> کیا (نام) کے لئےآپ کے پاس کبھی کسی سرکاری یا نجی مرکز صحت کا حفاظتی ٹیکوں کا کارڈ موجود تھا؟ </string>
     <string name="j102a"> ہاں </string>
     <string name="j102b"> نہیں </string>
+
     <string name="j103"> کارڈ پر لکھی ہوئی تاریخ پیدائش چیک کر یں اور درج کریں۔ </string>
     <string name="j103a"> دن </string>
     <string name="j103b"> مہینہ </string>
     <string name="j103c"> سال </string>
     <string name="j103d"> معلوم نہیں </string>
+
     <string name="j10401"> (بی سی جی) </string>
     <string name="j10401d"> دن </string>
     <string name="j10401m"> مہینہ </string>
     <string name="j10401y"> سال </string>
+
     <string name="j10401a"> (نام) کو بی-سی-جی کا ٹیکہ کہاں لگوایا گیاتھا؟ </string>
     <string name="j10401aa"> سرکاری مرکز صحت </string>
     <string name="j10401ab"> نجی مرکز صحت </string>
@@ -1347,19 +1381,22 @@
     <string name="j10401ad"> کمیونٹی میں موجود ماں اور بچے کی صحت کا سینٹر </string>
     <string name="j10401ae"> رفاہی مرکز صحت میں </string>
     <string name="j10401af"> بچوں کی صحت کا دن/حفاظتی ٹیکوں کے ہفتے </string>
-    <string name="j10401b"> (نام) کو بی-سی-جی کا ٹیکہ کس نے لگا یا تھا؟ </string>
+
+    <string name="j10401b"> (نام) کو بی-سی-جی کا ٹیکہ کس نے لگا یا تھا ؟ </string>
     <string name="j10401ba"> ڈاکٹر </string>
     <string name="j10401bb"> لیڈی ہیلتھ ورکر </string>
     <string name="j10401bc"> لیڈی ہیلتھ وزیٹر </string>
     <string name="j10401bd"> این جی او(NGO) ورکر </string>
     <string name="j10401be"> ویکسینیٹر </string>
     <string name="j10401bf"> کمیونٹی ہیلتھ ورکر </string>
-    <string name="j10401bg"> ڈسپینسر/کمپائونڈڑ </string>
+    <string name="j10401bg"> ڈسپینسر / کمپائونڈڑ </string>
     <string name="j10401bx"> دیگر (وضاحت کریں) </string>
-    <string name="j10402"> پیدائش کے وقت (منہ کے ذریعے دیئے جانے والے پولیو کے قطروں)کی خورا ک۔ </string>
+
+    <string name="j10402"> پیدائش کے وقت (منہ کے ذریعے دیئے جانے والے پولیو کے قطروں) کی خوراک ۔ </string>
     <string name="j10402d"> دن </string>
     <string name="j10402m"> مہینہ </string>
     <string name="j10402y"> سال </string>
+
     <string name="j10402a"> پولیو کے قطروں کی خوراک OPV-O (نام) کو کہاں سے پلوائی تھی؟ </string>
     <string name="j10402aa"> سرکاری مرکز صحت </string>
     <string name="j10402ab"> نجی مرکز صحت </string>
@@ -1367,6 +1404,7 @@
     <string name="j10402ad"> کمیونٹی میں موجود ماں اور بچے کی صحت کا سینٹر </string>
     <string name="j10402ae"> رفاہی مرکز صحت میں </string>
     <string name="j10402af"> بچوں کی صحت کا دن/حفاظتی ٹیکوں کے ہفتے </string>
+
     <string name="j10402b"> (نام) کو پولیو کے قطروں کی خوراک کس نے دی تھی؟ </string>
     <string name="j10402ba"> ڈاکٹر </string>
     <string name="j10402bb"> لیڈی ہیلتھ ورکر </string>
@@ -1376,10 +1414,12 @@
     <string name="j10402bf"> کمیونٹی ہیلتھ ورکر </string>
     <string name="j10402bg"> ڈسپینسر/کمپائونڈڑ </string>
     <string name="j10402bx"> دیگر (وضاحت کریں) </string>
+
     <string name="j10403"> منہ کے ذریعے دیئے جانے والے پولیو ویکسین پہلی خوراک </string>
     <string name="j10403d"> دن </string>
     <string name="j10403m"> مہینہ </string>
     <string name="j10403y"> سال </string>
+
     <string name="j10403a"> (نام) کو پولیو کے قطروں کی پہلی خوراک OPV-1کہاں سے پلوائی تھی؟ </string>
     <string name="j10403aa"> سرکاری مرکز صحت </string>
     <string name="j10403ab"> نجی مرکز صحت </string>
@@ -1387,6 +1427,7 @@
     <string name="j10403ad"> کمیونٹی میں موجود ماں اور بچے کی صحت کا سینٹر </string>
     <string name="j10403ae"> رفاہی مرکز صحت میں </string>
     <string name="j10403af"> بچوں کی صحت کا دن/حفاظتی ٹیکوں کے ہفتے </string>
+
     <string name="j10403b"> (نام) کو پولیو کے قطروں کی پہلی خوراکOPV-1 کس نے دی تھی؟ </string>
     <string name="j10403ba"> ڈاکٹر </string>
     <string name="j10403bb"> لیڈی ہیلتھ ورکر </string>
@@ -1396,18 +1437,21 @@
     <string name="j10403bf"> کمیونٹی ہیلتھ ورکر </string>
     <string name="j10403bg"> ڈسپینسر/کمپائونڈڑ </string>
     <string name="j10403bx"> دیگر (وضاحت کریں) </string>
+
     <string name="j10404"> Penta-1 کی پہلی خوراک </string>
     <string name="j10404d"> دن </string>
     <string name="j10404m"> مہینہ </string>
     <string name="j10404y"> سال </string>
-    <string name="j10404a"> (نام) کوPenta-1کا ٹیکہ کہاں سے لگوایا تھا؟ </string>
+
+    <string name="j10404a"> (نام) کوPenta-1کا ٹیکہ کہاں سے لگوایا تھا ؟ </string>
     <string name="j10404aa"> سرکاری مرکز صحت </string>
     <string name="j10404ab"> نجی مرکز صحت </string>
     <string name="j10404ac"> ای پی آئی سینٹر </string>
     <string name="j10404ad"> کمیونٹی میں موجود ماں اور بچے کی صحت کا سینٹر </string>
     <string name="j10404ae"> رفاہی مرکز صحت میں </string>
     <string name="j10404af"> بچوں کی صحت کا دن/حفاظتی ٹیکوں کے ہفتے </string>
-    <string name="j10404b"> (نام) کو Penta-1 کا ٹیکہ کس نے لگایا تھا؟ </string>
+
+    <string name="j10404b"> (نام) کو Penta-1 کا ٹیکہ کس نے لگایا تھا ؟ </string>
     <string name="j10404ba"> ڈاکٹر </string>
     <string name="j10404bb"> لیڈی ہیلتھ ورکر </string>
     <string name="j10404bc"> لیڈی ہیلتھ وزیٹر </string>
@@ -1416,17 +1460,20 @@
     <string name="j10404bf"> کمیونٹی ہیلتھ ورکر </string>
     <string name="j10404bg"> ڈسپینسر/کمپائونڈڑ </string>
     <string name="j10404bx"> دیگر (وضاحت کریں) </string>
+
     <string name="j10405"> نمونیہ ویکسین کی پہلی خورا ک </string>
     <string name="j10405d"> دن </string>
     <string name="j10405m"> مہینہ </string>
     <string name="j10405y"> سال </string>
-    <string name="j10405a"> (نام) کو PCV-1 کا ٹیکہ کہاں سے لگوایا تھا؟ </string>
+
+    <string name="j10405a"> (نام) کو PCV-1 کا ٹیکہ کہاں سے لگوایا تھا ؟ </string>
     <string name="j10405aa"> سرکاری مرکز صحت </string>
     <string name="j10405ab"> نجی مرکز صحت </string>
     <string name="j10405ac"> ای پی آئی سینٹر </string>
     <string name="j10405ad"> کمیونٹی میں موجود ماں اور بچے کی صحت کا سینٹر </string>
     <string name="j10405ae"> رفاہی مرکز صحت میں </string>
     <string name="j10405af"> بچوں کی صحت کا دن/حفاظتی ٹیکوں کے ہفتے </string>
+
     <string name="j10405b"> (نام) کو PCV-1 کا ٹیکہ کس نے لگایا تھا؟ </string>
     <string name="j10405ba"> ڈاکٹر </string>
     <string name="j10405bb"> لیڈی ہیلتھ ورکر </string>
@@ -1436,10 +1483,12 @@
     <string name="j10405bf"> کمیونٹی ہیلتھ ورکر </string>
     <string name="j10405bg"> ڈسپینسر/کمپائونڈڑ </string>
     <string name="j10405bx"> دیگر (وضاحت کریں) </string>
+
     <string name="j10406"> منہ کے ذریعے دیئے جانے والے پولیو کے قطروں کی دوسری خورا ک </string>
     <string name="j10406d"> دن </string>
     <string name="j10406m"> مہینہ </string>
     <string name="j10406y"> سال </string>
+
     <string name="j10406a"> (نام) کو پولیو کے قطروں کی دوسری خوراک OPV-2 کہاں سے پلوائی تھی؟ </string>
     <string name="j10406aa"> سرکاری مرکز صحت </string>
     <string name="j10406ab"> نجی مرکز صحت </string>
@@ -1447,6 +1496,7 @@
     <string name="j10406ad"> کمیونٹی میں موجود ماں اور بچے کی صحت کا سینٹر </string>
     <string name="j10406ae"> رفاہی مرکز صحت میں </string>
     <string name="j10406af"> بچوں کی صحت کا دن/حفاظتی ٹیکوں کے ہفتے </string>
+
     <string name="j10406b"> (نام) کو PCV-1 کا ٹیکہ کس نے لگایا تھا؟ </string>
     <string name="j10406ba"> ڈاکٹر </string>
     <string name="j10406bb"> لیڈی ہیلتھ ورکر </string>
@@ -1456,10 +1506,12 @@
     <string name="j10406bf"> کمیونٹی ہیلتھ ورکر </string>
     <string name="j10406bg"> ڈسپینسر/کمپائونڈڑ </string>
     <string name="j10406bx"> دیگر (وضاحت کریں) </string>
+
     <string name="j10407"> پینٹا وایلنٹ ویکسین کی دوسری خوراک </string>
     <string name="j10407d"> دن </string>
     <string name="j10407m"> مہینہ </string>
     <string name="j10407y"> سال </string>
+
     <string name="j10407a"> (نام) کوPenta-2کا ٹیکہ کہاں سے لگوایا تھا؟ </string>
     <string name="j10407aa"> سرکاری مرکز صحت </string>
     <string name="j10407ab"> نجی مرکز صحت </string>
@@ -1467,6 +1519,7 @@
     <string name="j10407ad"> کمیونٹی میں موجود ماں اور بچے کی صحت کا سینٹر </string>
     <string name="j10407ae"> رفاہی مرکز صحت میں </string>
     <string name="j10407af"> بچوں کی صحت کا دن/حفاظتی ٹیکوں کے ہفتے </string>
+
     <string name="j10407b"> (نام) کو Penta-2 کا ٹیکہ کس نے لگایا تھا؟ </string>
     <string name="j10407ba"> ڈاکٹر </string>
     <string name="j10407bb"> لیڈی ہیلتھ ورکر </string>
@@ -1476,10 +1529,12 @@
     <string name="j10407bf"> کمیونٹی ہیلتھ ورکر </string>
     <string name="j10407bg"> ڈسپینسر/کمپائونڈڑ </string>
     <string name="j10407bx"> دیگر (وضاحت کریں) </string>
+
     <string name="j10408"> نمونیہ ویکسین کی دوسری خورا ک </string>
     <string name="j10408d"> دن </string>
     <string name="j10408m"> مہینہ </string>
     <string name="j10408y"> سال </string>
+
     <string name="j10408a"> (نام) کو PCV-2 کا ٹیکہ کہاں سے لگوایا تھا؟ </string>
     <string name="j10408aa"> سرکاری مرکز صحت </string>
     <string name="j10408ab"> نجی مرکز صحت </string>
@@ -1487,6 +1542,7 @@
     <string name="j10408ad"> کمیونٹی میں موجود ماں اور بچے کی صحت کا سینٹر </string>
     <string name="j10408ae"> رفاہی مرکز صحت میں </string>
     <string name="j10408af"> بچوں کی صحت کا دن/حفاظتی ٹیکوں کے ہفتے </string>
+
     <string name="j10408b"> (نام) کو PCV-2 کا ٹیکہ کس نے لگایا تھا؟ </string>
     <string name="j10408ba"> ڈاکٹر </string>
     <string name="j10408bb"> لیڈی ہیلتھ ورکر </string>
@@ -1496,10 +1552,12 @@
     <string name="j10408bf"> کمیونٹی ہیلتھ ورکر </string>
     <string name="j10408bg"> ڈسپینسر/کمپائونڈڑ </string>
     <string name="j10408bx"> دیگر (وضاحت کریں) </string>
+
     <string name="j10409"> منہ کے ذریعے دیئے جانے والے پولیو کے قطروں کی تیسری خوراک </string>
     <string name="j10409d"> دن </string>
     <string name="j10409m"> مہینہ </string>
     <string name="j10409y"> سال </string>
+
     <string name="j10409a"> (نام) کو پولیو کے قطروں کی تیسری خوراک OPV-3 کہاں سے پلوائی تھی؟ </string>
     <string name="j10409aa"> سرکاری مرکز صحت </string>
     <string name="j10409ab"> نجی مرکز صحت </string>
@@ -1507,6 +1565,7 @@
     <string name="j10409ad"> کمیونٹی میں موجود ماں اور بچے کی صحت کا سینٹر </string>
     <string name="j10409ae"> رفاہی مرکز صحت میں </string>
     <string name="j10409af"> بچوں کی صحت کا دن/حفاظتی ٹیکوں کے ہفتے </string>
+
     <string name="j10409b"> (نام) کو پولیو کے قطروں کی تیسری خوراک OPV-3 کس نے پلوائی تھی؟ </string>
     <string name="j10409ba"> ڈاکٹر </string>
     <string name="j10409bb"> لیڈی ہیلتھ ورکر </string>
@@ -1516,10 +1575,12 @@
     <string name="j10409bf"> کمیونٹی ہیلتھ ورکر </string>
     <string name="j10409bg"> ڈسپینسر/کمپائونڈڑ </string>
     <string name="j10409bx"> دیگر (وضاحت کریں) </string>
+
     <string name="j10410"> پینٹا وایلنٹ ویکسین کی تیسری خوراک </string>
     <string name="j10410d"> دن </string>
     <string name="j10410m"> مہینہ </string>
     <string name="j10410y"> سال </string>
+
     <string name="j10410a"> (نام) کوPenta-3کا ٹیکہ کہاں سے لگوایا تھا؟ </string>
     <string name="j10410aa"> سرکاری مرکز صحت </string>
     <string name="j10410ab"> نجی مرکز صحت </string>
@@ -1527,6 +1588,7 @@
     <string name="j10410ad"> کمیونٹی میں موجود ماں اور بچے کی صحت کا سینٹر </string>
     <string name="j10410ae"> رفاہی مرکز صحت میں </string>
     <string name="j10410af"> بچوں کی صحت کا دن/حفاظتی ٹیکوں کے ہفتے </string>
+
     <string name="j10410b"> (نام) کو کاPenta-3 ٹیکہ کس نے لگایا تھا؟ </string>
     <string name="j10410ba"> ڈاکٹر </string>
     <string name="j10410bb"> لیڈی ہیلتھ ورکر </string>
@@ -1536,10 +1598,12 @@
     <string name="j10410bf"> کمیونٹی ہیلتھ ورکر </string>
     <string name="j10410bg"> ڈسپینسر/کمپائونڈڑ </string>
     <string name="j10410bx"> دیگر (وضاحت کریں) </string>
-    <string name="j10411"> نمونیہ ویکسین کی تیسری خورا ک </string>
+
+    <string name="j10411"> نمونیہ ویکسین کی تیسری خوراک </string>
     <string name="j10411d"> دن </string>
     <string name="j10411m"> مہینہ </string>
     <string name="j10411y"> سال </string>
+
     <string name="j10411a"> (نام) کو کا PCV-3 ٹیکہ کہاں سے لگوایا تھا؟ </string>
     <string name="j10411aa"> سرکاری مرکز صحت </string>
     <string name="j10411ab"> نجی مرکز صحت </string>
@@ -1547,6 +1611,7 @@
     <string name="j10411ad"> کمیونٹی میں موجود ماں اور بچے کی صحت کا سینٹر </string>
     <string name="j10411ae"> رفاہی مرکز صحت میں </string>
     <string name="j10411af"> بچوں کی صحت کا دن/حفاظتی ٹیکوں کے ہفتے </string>
+
     <string name="j10411b"> (نام) کوPCV-3 کا ٹیکہ کس نے لگایا تھا؟ </string>
     <string name="j10411ba"> ڈاکٹر </string>
     <string name="j10411bb"> لیڈی ہیلتھ ورکر </string>
@@ -1556,10 +1621,12 @@
     <string name="j10411bf"> کمیونٹی ہیلتھ ورکر </string>
     <string name="j10411bg"> ڈسپینسر/کمپائونڈڑ </string>
     <string name="j10411bx"> دیگر (وضاحت کریں) </string>
+
     <string name="j10412"> آئی پی وی (پولیو ویکسین کی انجیکشن) </string>
     <string name="j10412d"> دن </string>
     <string name="j10412m"> مہینہ </string>
     <string name="j10412y"> سال </string>
+
     <string name="j10412a"> (نام) کو IPVکا ٹیکہ کہاں سے لگوایا تھا؟ </string>
     <string name="j10412aa"> سرکاری مرکز صحت </string>
     <string name="j10412ab"> نجی مرکز صحت </string>
@@ -1567,6 +1634,7 @@
     <string name="j10412ad"> کمیونٹی میں موجود ماں اور بچے کی صحت کا سینٹر </string>
     <string name="j10412ae"> رفاہی مرکز صحت میں </string>
     <string name="j10412af"> بچوں کی صحت کا دن/حفاظتی ٹیکوں کے ہفتے </string>
+
     <string name="j10412b"> (نام) کو IPV کا ٹیکہ کس نے لگایا تھا؟ </string>
     <string name="j10412ba"> ڈاکٹر </string>
     <string name="j10412bb"> لیڈی ہیلتھ ورکر </string>
@@ -1576,10 +1644,12 @@
     <string name="j10412bf"> کمیونٹی ہیلتھ ورکر </string>
     <string name="j10412bg"> ڈسپینسر/کمپائونڈڑ </string>
     <string name="j10412bx"> دیگر (وضاحت کریں) </string>
+
     <string name="j10413"> خسرہ کا ٹیکہ پہلی خوراک </string>
     <string name="j10413d"> دن </string>
     <string name="j10413m"> مہینہ </string>
     <string name="j10413y"> سال </string>
+
     <string name="j10413a"> (نام) کو Measles-1کا ٹیکہ کہاں سے لگوایا تھا؟ </string>
     <string name="j10413aa"> سرکاری مرکز صحت </string>
     <string name="j10413ab"> نجی مرکز صحت </string>
@@ -1587,6 +1657,7 @@
     <string name="j10413ad"> کمیونٹی میں موجود ماں اور بچے کی صحت کا سینٹر </string>
     <string name="j10413ae"> رفاہی مرکز صحت میں </string>
     <string name="j10413af"> بچوں کی صحت کا دن/حفاظتی ٹیکوں کے ہفتے </string>
+
     <string name="j10413b"> (نام) کو Measles-1 کا ٹیکہ کس نے لگایا تھا؟ </string>
     <string name="j10413ba"> ڈاکٹر </string>
     <string name="j10413bb"> لیڈی ہیلتھ ورکر </string>
@@ -1596,18 +1667,21 @@
     <string name="j10413bf"> کمیونٹی ہیلتھ ورکر </string>
     <string name="j10413bg"> ڈسپینسر/کمپائونڈڑ </string>
     <string name="j10413bx"> دیگر (وضاحت کریں) </string>
+
     <string name="j10414"> خسرہ کا ٹیکہ دوسری خوراک </string>
     <string name="j10414d"> دن </string>
     <string name="j10414m"> مہینہ </string>
     <string name="j10414y"> سال </string>
-    <string name="j10414a"> (نام) کو Measles-2 کا ٹیکہ کہاں سے لگوایا تھا؟ </string>
+
+    <string name="j10414a"> (نام) کو Measles-2 کا ٹیکہ کہاں سے لگوایا تھا ؟ </string>
     <string name="j10414aa"> سرکاری مرکز صحت </string>
     <string name="j10414ab"> نجی مرکز صحت </string>
     <string name="j10414ac"> ای پی آئی سینٹر </string>
     <string name="j10414ad"> کمیونٹی میں موجود ماں اور بچے کی صحت کا سینٹر </string>
     <string name="j10414ae"> رفاہی مرکز صحت میں </string>
     <string name="j10414af"> بچوں کی صحت کا دن/حفاظتی ٹیکوں کے ہفتے </string>
-    <string name="j10414b"> (نام) کو Measles-2کا ٹیکہ کس نے لگایا تھا؟ </string>
+
+    <string name="j10414b"> (نام) کو Measles-2کا ٹیکہ کس نے لگایا تھا ؟ </string>
     <string name="j10414ba"> ڈاکٹر </string>
     <string name="j10414bb"> لیڈی ہیلتھ ورکر </string>
     <string name="j10414bc"> لیڈی ہیلتھ وزیٹر </string>
@@ -1616,18 +1690,21 @@
     <string name="j10414bf"> کمیونٹی ہیلتھ ورکر </string>
     <string name="j10414bg"> ڈسپینسر/کمپائونڈڑ </string>
     <string name="j10414bx"> دیگر (وضاحت کریں) </string>
+
     <string name="j10415"> روٹا وائرس پہلی خوراک </string>
     <string name="j10415d"> دن </string>
     <string name="j10415m"> مہینہ </string>
     <string name="j10415y"> سال </string>
-    <string name="j10415a"> (نام) کوRV1 کا ٹیکہ کہاں سے لگوایا تھا؟ </string>
+
+    <string name="j10415a"> (نام) کوRV1 کا ٹیکہ کہاں سے لگوایا تھا ؟ </string>
     <string name="j10415aa"> سرکاری مرکز صحت </string>
     <string name="j10415ab"> نجی مرکز صحت </string>
     <string name="j10415ac"> ای پی آئی سینٹر </string>
     <string name="j10415ad"> کمیونٹی میں موجود ماں اور بچے کی صحت کا سینٹر </string>
     <string name="j10415ae"> رفاہی مرکز صحت میں </string>
     <string name="j10415af"> بچوں کی صحت کا دن/حفاظتی ٹیکوں کے ہفتے </string>
-    <string name="j10415b"> (نام) کو RV1 کا ٹیکہ کس نے لگایا تھا؟ </string>
+
+    <string name="j10415b"> (نام) کو RV1 کا ٹیکہ کس نے لگایا تھا ؟ </string>
     <string name="j10415ba"> ڈاکٹر </string>
     <string name="j10415bb"> لیڈی ہیلتھ ورکر </string>
     <string name="j10415bc"> لیڈی ہیلتھ وزیٹر </string>
@@ -1636,10 +1713,12 @@
     <string name="j10415bf"> کمیونٹی ہیلتھ ورکر </string>
     <string name="j10415bg"> ڈسپینسر/کمپائونڈڑ </string>
     <string name="j10415bx"> دیگر (وضاحت کریں) </string>
+
     <string name="j10416"> روٹا وائرس دوسری خوراک </string>
     <string name="j10416d"> دن </string>
     <string name="j10416m"> مہینہ </string>
     <string name="j10416y"> سال </string>
+
     <string name="j10416a"> (نام) کو RV2 کا ٹیکہ کہاں سے لگوایا تھا؟ </string>
     <string name="j10416aa"> سرکاری مرکز صحت </string>
     <string name="j10416ab"> نجی مرکز صحت </string>
@@ -1647,6 +1726,7 @@
     <string name="j10416ad"> کمیونٹی میں موجود ماں اور بچے کی صحت کا سینٹر </string>
     <string name="j10416ae"> رفاہی مرکز صحت میں </string>
     <string name="j10416af"> بچوں کی صحت کا دن/حفاظتی ٹیکوں کے ہفتے </string>
+
     <string name="j10416b"> (نام) کو RV2 کا ٹیکہ کس نے لگایا تھا؟ </string>
     <string name="j10416ba"> ڈاکٹر </string>
     <string name="j10416bb"> لیڈی ہیلتھ ورکر </string>
@@ -1656,66 +1736,83 @@
     <string name="j10416bf"> کمیونٹی ہیلتھ ورکر </string>
     <string name="j10416bg"> ڈسپینسر/کمپائونڈڑ </string>
     <string name="j10416bx"> دیگر (وضاحت کریں) </string>
+
     <string name="j105"> کیا تمام حفاظتی ٹیکوں(بی سی جی سے لے کر خسرہ کی دوسری خوراک تک کی معلومات ریکارڈ کر لی گئی ہیں؟ J104چیک کریں </string>
     <string name="j105a"> ہاں </string>
     <string name="j105b"> نہیں </string>
+
     <string name="j106"> اس کارڈ پر درج ویکسین کے علاوہ جو آپ نے مجھے دکھایا ہے، کیا (نام) کو کوئی اوراضافی ویکسین بھی لگی ہے؟ </string>
     <string name="j106a"> ہاں </string>
     <string name="j106b"> نہیں </string>
     <string name="j106c"> معلوم نہیں </string>
-    <string name="j107"> (J104) واپس پر جائیں اور ان حفاظتی ٹیکوں کی جانچ کریں </string>
+
+    <string name="j107">  واپس (J104) پر جائیں اور ان حفاظتی ٹیکوں کی جانچ کریں </string>
     <string name="j107hint"> لگنے والی ہر ویکسین کے لئے اس دن کے کالم میں\'66\' ریکارڈ کریں۔ </string>
     <string name="j107hint1"> جو ویکسینز نہیں لگیں ان کے لئے\'00\' ریکارڈ سوال نمبر کریں۔ </string>
     <string name="j107hint2"> جب مکمل کر لیں، تو ماڈیول کے اختتام پر جائیں </string>
+
     <string name="j108"> کیا (نام)کو کبھی بیماریوں سے بچاؤکے لئے کوئی ویکسین لگی ہےجو اسے بیماریوں سے بچا سکے۔ اس میں حفاظتی ٹیکوں کی مہم کے دوران لگنے والی ویکسین ، حفاظتی ٹیکے لگانے والا دن یا بچوں کی صحت کے دن لگنے والی ویکسین شامل ہیں۔ </string>
     <string name="j108a"> ہاں </string>
     <string name="j108b"> نہیں </string>
     <string name="j108c"> معلوم نہیں </string>
+
     <string name="j109"> کیا (نام)کوکبھی ٹی بی کی بیماری سے بچاؤکے لئے بی سی جی کی ویکسین لگی ہے، یہ ایک انجکشن ہےجوعام طور پر بازو یا کندھے میں لگایا جاتا ہے جس کی وجہ سے بازو یا کندھے پر نشان پڑ جاتا ہے؟ </string>
     <string name="j109a"> ہاں </string>
     <string name="j109b"> نہیں </string>
     <string name="j109c"> معلوم نہیں </string>
+
     <string name="j111"> کیا (نام)کوکبھی منہ کے ذ ریعے دیئے جانے والے پولیو کی بیماری سے بچاؤکے قطرےپلوائے گئے ہیں؟ </string>
     <string name="j111hint"> نشاندہی کرتے ہوئے اس بات کی تحقیق کریں کہ بعض اوقات پولیو کے قطروں کی پہلی خوراک پیدائش کے وقت اور دیگر بیماریوں سے بچاؤکے انجکشن لگاتے وقت ایک ساتھ ہی دے دی جاتی ہے </string>
     <string name="j111a"> ہاں </string>
     <string name="j111b"> نہیں </string>
     <string name="j111c"> معلوم نہیں </string>
+
     <string name="j112"> کیاپہلی بار پلائے گئے پولیو کے قطرے پیدائش کےبعد پہلے دو ہفتوں میں دیئےگئے تھے؟ </string>
     <string name="j112a"> ہاں </string>
     <string name="j112b"> نہیں </string>
     <string name="j112c"> معلوم نہیں </string>
+
     <string name="j113"> پولیو کے قطرےکتنی بار پلوائے گئے تھے؟ </string>
+
     <string name="j114"> آخری بار جب (نام) کوپولیو کے قطرےپلائے گئے تھے؛ تو کیا اس وقت(بچے/بچی) کو پولیو سےبچائو کا ٹیکہ بھی لگوایا گیا تھا؟ </string>
     <string name="j114hint"> اس بات کی یقین دہانی کرنے کے لئےمزید پوچھیں کہ کیا اس وقت قطرے اور ٹیکہ دونوں دیئے گئے تھے </string>
     <string name="j114a"> ہاں </string>
     <string name="j114b"> نہیں </string>
     <string name="j114c"> معلوم نہیں </string>
+
     <string name="j115"> کیا(نام)کوکبھی(Pentavalent) لگا ہے یہ ایک انجکشن ہےجو ران میں لگایا جاتا ہے جو (بچہ/بچی) کو تشنج،کالی کھانسی، خناق،ہیپا ٹائٹس بی کی بیماری ،اور ہیموفائلس انفلوئنزا بی سےمحفوظ رکھتا ہے؟ </string>
     <string name="j115hint"> نشاندہی کرتے ہوئے اس بات کی تحقیق کریں کہ بعض اوقات پولیو کے قطروں کے ساتھ ہی پینٹا ویلینٹ ویکسین بھی دی جاتی ہے </string>
     <string name="j115a"> ہاں </string>
     <string name="j115b"> نہیں </string>
     <string name="j115c"> معلوم نہیں </string>
+
     <string name="j116"> پینٹا ویلینٹ ویکسین کتنی بار لگی تھی؟ </string>
+
     <string name="j117"> کیا (نام) کوکبھی (Pneumococcal)نمونیاکی ویکسین لگی ہے، جوایک انجکشن ران میں لگایا جاتا ہے جس سے (بچہ/بچی)نمونیہ، کان کا انفیکشن اور گردن توڑ بخار کی بیماریوں سے محفوظ رہتا ہے؟ </string>
     <string name="j117hint"> نشاندہی کرتے ہوئےاس بات کی تحقیق کریں کہ بعض اوقات پولیو کے قطروں کے ساتھ ہی نمونیہ کی ویکسین بھی دی جاتی ہے </string>
     <string name="j117a"> ہاں </string>
     <string name="j117b"> نہیں </string>
     <string name="j117c"> معلوم نہیں </string>
+
     <string name="j118"> نمونیہ کی ویکسین کتنی بار لگی تھی؟ </string>
+
     <string name="j119"> کیا (نام) کوکبھی آئی پی وی انجکشن لگا ہے، ایک انجکشن جو 14 ہفتےیا اس سے زیادہ عمر میں ران میں لگایا جاتا ہے جس سے (بچہ/بچی) پولیو کی بیماری سے محفوظ رہتا /رہتی ہے؟ </string>
     <string name="j119a"> ہاں </string>
     <string name="j119b"> نہیں </string>
     <string name="j119c"> معلوم نہیں </string>
+
     <string name="j120"> کیا (نام) کوکبھی خسرہ کا پہلا ٹیکہ لگا ہے، جو ایک انجکشن 9مہینےیا اس سے زیادہ عمر میں بازو میں لگایا جاتا ہے جس سے (بچہ/بچی) خسرہ کی بیماری سے محفوظ رہتا ہے؟ </string>
     <string name="j120a"> ہاں </string>
     <string name="j120b"> نہیں </string>
     <string name="j120c"> معلوم نہیں </string>
+
     <string name="j121"> خسرہ کا ٹیکہ کتنی بار لگاتھا؟ </string>
     <string name="j122"> کیا(نام)کو کبھی "دست" (روٹا وائرس ویکسین)کا حفاظتی ٹیکہ لگا ہے </string>
     <string name="j122a"> ہاں </string>
     <string name="j122b"> نہیں </string>
     <string name="j122c"> معلوم نہیں </string>
-    <string name="j123"> (نام) کو حفاظتی ٹیکے کیوں نہیں لگوائے تھے؟ اگر بچے کوتمام حفاظتی ٹیکے نہیں لگوائے گئے، تو ماں/دیکھ بھال کرنے والے سے پوچھیں۔ </string>
+
+    <string name="j123"> (نام) کو حفاظتی ٹیکے کیوں نہیں لگوائے تھے ؟ اگر بچے کو تمام حفاظتی ٹیکے نہیں لگوائے گئے، تو ماں / دیکھ بھال کرنے والے سے پوچھیں۔ </string>
     <string name="j123hint"> بتائی گئیں تمام وجوہات کو ریکارڈ کریں لیکن فوری طور پر کسی مخصوص وجہ پر مت جائیں۔ ماں کو تمام وجوہات فراہم کرنے کی ترغیب دیں۔ </string>
     <string name="j123a"> حفاظتی ٹیکوں کا مرکزبہت دور تھا </string>
     <string name="j123b"> حفاظتی ٹیکے لگوانے کا وقت مناسب نہیں تھا </string>
@@ -1733,12 +1830,13 @@
     <string name="j123n"> بچے کو لے کر گئے لیکن حفاظتی ٹیکوں کا مرکز بند تھا </string>
     <string name="j123o"> بچہ بیمار تھا </string>
     <string name="j123p"> بچے کو لے کر گئے لیکن ٹیکے لگانے کا دن نہیں تھا </string>
-    <string name="j123x"> دیگر(وضاحت کریں </string>
+    <string name="j123x"> دیگر (وضاحت کریں </string>
 
     <string name="k101"> K101:\t کیا آپ نے کبھی حمل میں وقفہ کرنے کے طریقہ کار کے بارے میں سنا ہے ؟ </string>
     <string name="k101a"> ہاں </string>
     <string name="k101b"> نہیں </string>
-    <string name="k101aa"> آپ نے حمل میں وقفہ کرنے کے طریقہ کار کے بارے میں کہاں سے سنا ہے ؟ </string>
+
+    <string name="k101aa">  K101a:\t آپ نے حمل میں وقفہ کرنے کے طریقہ کار کے بارے میں کہاں سے سنا ہے ؟ </string>
     <string name="k101aaa"> گورمنٹ ہسپتال </string>
     <string name="k101aab"> فیملی ویلفئر سینٹر </string>
     <string name="k101aac"> موبائل سروس کیمپ </string>
@@ -1752,13 +1850,16 @@
     <string name="k101aak"> آوٹ ڈور بلبورڈ </string>
     <string name="k101aal"> پمفلٹ / بروشر </string>
     <string name="k101aam"> موبائل فون / اسمارٹ فون </string>
-    <string name="k102"> کیا آپ یا آپ کے شوہر نے حمل کو روکنے کےلئےکبھی کوئی مانع حمل طریقہ کا استعمال کیاہے ؟ </string>
+
+    <string name="k102"> K102:\t کیا آپ یا آپ کے شوہر نے حمل کو روکنے کے لئے کبھی کوئی مانع حمل طریقہ کا استعمال کیا ہے ؟ </string>
     <string name="k102a"> ہاں </string>
     <string name="k102b"> نہیں </string>
-    <string name="k103"> کیا آپ یا آپ کے شوہر فی الحال حمل میں وقفے کے لیے کوئی طریقہ استعمال کررہی ہیں؟ </string>
+
+    <string name="k103"> K103:\t کیا آپ یا آپ کے شوہر فی الحال حمل میں وقفے کے لیے کوئی طریقہ استعمال کر رہے ہیں ؟ </string>
     <string name="k103a"> ہاں </string>
     <string name="k103b"> نہیں </string>
-    <string name="k104"> آپ حمل میں وقفے کے لیے کونسا طریقہ استعمال کررہی ہیں؟ اگر ایک سے زیادہ طریقہ کار ہوتو سب آپشن پر دائرہ لگائیں (تجویز نہ دیں) </string>
+
+    <string name="k104"> K104:\t آپ حمل میں وقفے کے لیے کونسا طریقہ استعمال کررہی ہیں ؟ اگر ایک سے زیادہ طریقہ کار ہو تو سب آپشن پر دائرہ لگائیں (تجویز نہ دیں) </string>
     <string name="k104a"> خواتین کی نس بندی </string>
     <string name="k104b"> مردوں کی نس بندی </string>
     <string name="k104c"> آئی یو ڈی </string>
@@ -1772,12 +1873,9 @@
     <string name="k104k"> باہر ڈسچارج ہونا </string>
     <string name="k104l"> دیگر جدید طریقہ کار </string>
     <string name="k104m"> دیگرکوئی روایتی طریقہ کار </string>
-    <string name="k105"> آپ کو موجودہ حمل میں وقفے کے طریقہ کے بارے میں کہاں سے پتہ چلا تھا ؟ </string>
+
+    <string name="k105"> K105:\t آپ کو موجودہ حمل میں وقفے کے طریقہ کے بارے میں کہاں سے پتہ چلا تھا ؟ </string>
     <string name="k105a"> گورمنٹ ہسپتال </string>
-    <string name="k105aa"> آپ کب سے بغیر تعطل کے یہ طریقہ استعمال کر رہیں ہیں ؟ </string>
-    <string name="k105aaa"> مہینے </string>
-    <string name="k105aab"> سال </string>
-    <string name="k105aac"> استعمال کرنا بند کردیا </string>
     <string name="k105b"> فیملی ویلفئر سینٹر </string>
     <string name="k105c"> موبائل سروس کیمپ </string>
     <string name="k105d"> لیڈی ہیلتھ ورکر </string>
@@ -1786,7 +1884,13 @@
     <string name="k105g"> فارمیسی،کیمسٹ </string>
     <string name="k105h"> دوست / رشتےدار </string>
     <string name="k105i"> دائی/ٹی بی اے </string>
-    <string name="k106"> خاندانی منصوبابندی کے کسی بھی طریقہ کار کو استعمال نہ کرنے کی وجوہات کیا تھیں؟ ایک سے زیادہ وجوہات آ سکتے ہیں۔ </string>
+
+    <string name="k105aa"> K105a:\t آپ کب سے بغیر تعطل کے یہ طریقہ استعمال کر رہیں ہیں ؟ </string>
+    <string name="k105aaa"> مہینے </string>
+    <string name="k105aab"> سال </string>
+    <string name="k105aac"> استعمال کرنا بند کردیا </string>
+
+    <string name="k106"> K106:\t خاندانی منصوبابندی کے کسی بھی طریقہ کار کو استعمال نہ کرنے کی وجوہات کیا تھیں ؟ ایک سے زیادہ وجوہات آ سکتے ہیں ۔ </string>
     <string name="k106a"> مانع حمل کی اشیاء کے ضمنی اثرات </string>
     <string name="k106b"> حمل چاہتی تھی </string>
     <string name="k106c"> بیٹے کی خواہش </string>
@@ -1796,135 +1900,168 @@
     <string name="k106g"> موجودہ طریقہ کار بہت مہنگا ہے </string>
     <string name="k106h"> شوہر /بیوی کی مخالفت </string>
     <string name="k106x"> دیگر(وضاحت کریں) </string>
-    <string name="k107"> کیا(ایل ایچ ڈبلیو)نے مانع حمل کی گولیاں فراہم کی تھیں /یا دیگر مانع حمل طریقوں کے بارے میں بتایا تھا؟ </string>
+
+    <string name="k107"> K107:\t کیا (ایل ایچ ڈبلیو) نے مانع حمل کی گولیاں فراہم کی تھیں یا دیگر مانع حمل طریقوں کے بارے میں بتایا تھا ؟ </string>
     <string name="k107a"> ہاں </string>
     <string name="k107b"> نہیں </string>
-    <string name="k108"> کیا(ایل ایچ ڈبلیو)نےآپ اور آپ کے شوہر کے ساتھ میٹنگ کا بندوبست کیا تھا؟ </string>
+
+    <string name="k108"> K108:\t کیا (ایل ایچ ڈبلیو) نے آپ اور آپ کے شوہر کے ساتھ میٹنگ کا بندوبست کیا تھا ؟ </string>
     <string name="k108a"> ہاں </string>
     <string name="k108b"> نہیں </string>
     <string name="k108c"> کمیونٹی میں عمومی میٹنگ </string>
-    <string name="k109"> کیا آپ اپنے علاقہ میں گھر کے قریب کسی لیڈی ہیلتھ ورکر\'ہیلتھ ہاؤس\' کے بارے میں جانتی ہیں ؟ </string>
+
+    <string name="k109"> K109:\t کیا آپ اپنے علاقہ میں گھر کے قریب کسی لیڈی ہیلتھ ورکر \'ہیلتھ ہاؤس\' کے بارے میں جانتی ہیں ؟ </string>
     <string name="k109a"> ہاں </string>
     <string name="k109ab"> نہیں </string>
-    <string name="l101"> کیا آپ کے پاس اپنا ذاتی موبائل فون ہے ؟ </string>
+
+    <string name="l101"> L101:\t کیا آپ کے پاس اپنا ذاتی موبائل فون ہے ؟ </string>
     <string name="l101a"> ہاں </string>
     <string name="l101b"> نہیں </string>
-    <string name="l102"> اپنے گھر کے کام کے علاوہ آخری سات دنوں میں آپ نے کوئی کام کیا ؟ </string>
+
+    <string name="l102"> L102:\t اپنے گھر کے کام کے علاوہ آخری سات دنوں میں آپ نے کوئی کام کیا ؟ </string>
     <string name="l102a"> ہاں </string>
     <string name="l102b"> نہیں </string>
-    <string name="l103"> آپ نے آخری سات دنوں میں کوئی کام نہیں کیا، کیا آپ اپنی بیماری ، زچگی یا چھٹیوں کی وجہ سے یا دیگر کسی اور وجہ سے کسی کاروبار اور نوکری وغیرہ سے غیر حاضر ہیں؟ </string>
+
+    <string name="l103"> L103:\t آپ نے آخری سات دنوں میں کوئی کام نہیں کیا، کیا آپ اپنی بیماری ، زچگی یا چھٹیوں کی وجہ سے یا دیگر کسی اور وجہ سے کسی کاروبار اور نوکری وغیرہ سے غیر حاضر ہیں ؟ </string>
     <string name="l103a"> ہاں </string>
     <string name="l103b"> نہیں </string>
-    <string name="l104"> آپ کا پیشہ کیا ہے؟ آپ بنیادہ طور پر کیا کام کرتے ہیں؟ </string>
+
+    <string name="l104"> L104:\t آپ کا پیشہ کیا ہے ؟ آپ بنیادی طور پر کیا کام کرتے ہیں ؟ </string>
     <string name="l104a"> ذراعت </string>
     <string name="l104b"> تعلیم </string>
     <string name="l104c"> ملازم </string>
     <string name="l104d"> صرف فیملی کے لئے کام کرتی ہیں </string>
     <string name="l104e"> دوسروں کے لئے کام کرتی ہیں </string>
     <string name="l104x"> دیگر (وضاحت کریں) </string>
-    <string name="l105"> کیا آپ کو اس کام کی تنخواہ ملتی ہے؟ </string>
+
+    <string name="l105"> L105:\t کیا آپ کو اس کام کی تنخواہ ملتی ہے ؟ </string>
     <string name="l105a"> نقد رقم </string>
     <string name="l105b"> اناج </string>
     <string name="l105c"> نقد اوراناج دونوں </string>
     <string name="l105d"> کچھ نہیں ملتا </string>
-    <string name="l106"> عام طور پر کون فیصلہ کرتا ہے کے آپ کی کمائی ہوئی رقم کیسے خرچ ہوگی ؟ </string>
+
+    <string name="l106"> L106:\t عام طور پر کون فیصلہ کرتا ہے کے آپ کی کمائی ہوئی رقم کیسے خرچ ہوگی ؟ </string>
     <string name="l106a"> آپ خود </string>
     <string name="l106b"> شوہر </string>
     <string name="l106c"> دونوں مل کے </string>
     <string name="l106d"> دیگر (وضاحت کریں) </string>
-    <string name="l107"> زیادہ تر کون فیصلہ لیتا ہے کہ آپ کے شوہر کی کمائی کیسے خرچ ہوگی؟ </string>
+
+    <string name="l107"> L107:\t زیادہ تر کون فیصلہ لیتا ہے کہ آپ کے شوہر کی کمائی کیسے خرچ ہوگی ؟ </string>
     <string name="l107a"> آپ خود </string>
     <string name="l107b"> شوہر </string>
     <string name="l107c"> دونوں مل کے </string>
     <string name="l107d"> وہ کچھ نہیں کماتا </string>
     <string name="l107x"> دیگر(وضاحت کریں) </string>
-    <string name="l108"> آپ کی صحت کی دیکھ بھال کے لئے زیادہ تر کون فیصلہ کرتا ہے ؟ </string>
+
+    <string name="l108"> L108:\t آپ کی صحت کی دیکھ بھال کے لئے زیادہ تر کون فیصلہ کرتا ہے ؟ </string>
     <string name="l108a"> آپ خود </string>
     <string name="l108b"> شوہر </string>
     <string name="l108c"> دونوں مل کے </string>
     <string name="l108x"> دیگر (وضاحت کریں) </string>
-    <string name="l109"> عام طور پر رشتہ داروں کے گھر جانے کا فیصلہ کون کرتا ہے ؟ </string>
+
+    <string name="l109"> L109:\t عام طور پر رشتہ داروں کے گھر جانے کا فیصلہ کون کرتا ہے ؟ </string>
     <string name="l109a"> آپ خود </string>
     <string name="l109b"> شوہر </string>
     <string name="l109c"> دونوں مل کے </string>
     <string name="l109x"> دیگر (وضاحت کریں) </string>
-    <string name="l110"> کیا آپ کی ملکیت میں اپنا ذاتی گھر/زمین/جائیداد وغیرہ ہے ؟ </string>
+
+    <string name="l110"> L110:\t کیا آپ کی ملکیت میں اپنا ذاتی گھر/زمین/جائیداد وغیرہ ہے ؟ </string>
     <string name="l110a"> صرف میری اپنی ملکیت میں ہے </string>
     <string name="l110b"> شوہر کے ساتھ </string>
     <string name="l110c"> کسی اور کے ساتھ </string>
     <string name="l110d"> کوئی ذاتی جائیداد نہیں </string>
-    <string name="l111"> جو جائیدادذاتی گھر/زمین وغیرہ آپ کی ہےکیا اس کے سرکاری دستاویزات آپ کے نام پر ہیں؟ </string>
+
+    <string name="l111"> L111:\t جو جائیداد ذاتی گھر / زمین وغیرہ آپ کی ہے کیا اس کے سرکاری دستاویزات آپ کے نام پر ہیں ؟ </string>
     <string name="l111a"> ہاں </string>
     <string name="l111b"> نہیں </string>
     <string name="l111c"> معلوم نہیں </string>
     <string name="l111d"> اس طرح کے کوئی کاغذات موجود نہیں </string>
-    <string name="l112"> آپ کے خیال میں مندرجہ ذیل وجوہات میں سے کس بات پر شوہر کا بیوی کو مارنا ٹھیک ہے: </string>
-    <string name="l112a"> بیوی کا شوہر کو بغیر بتائے باہر جانا؟ </string>
+
+    <string name="l112"> L112:\t آپ کے خیال میں مندرجہ ذیل وجوہات میں سے کس بات پر شوہر کا بیوی کو مارنا ٹھیک ہے: </string>
+
+    <string name="l112a"> L112A:\t بیوی کا شوہر کو بغیر بتائے باہر جانا ؟ </string>
     <string name="l112aa"> ہاں </string>
     <string name="l112ab"> نہیں </string>
     <string name="l112ac"> معلوم نہیں </string>
-    <string name="l112b"> اگر وہ بچوں کی دیکھ بھال نہ کرے؟ </string>
+
+    <string name="l112b"> L112B:\t اگر وہ بچوں کی دیکھ بھال نہ کرے ؟ </string>
     <string name="l112ba"> ہاں </string>
     <string name="l112bb"> نہیں </string>
     <string name="l112bc"> معلوم نہیں </string>
-    <string name="l112c"> اگر وہ شوہر سے بحث کرے </string>
+
+    <string name="l112c"> L112C:\t اگر وہ شوہر سے بحث کرے </string>
     <string name="l112ca"> ہاں </string>
     <string name="l112cb"> نہیں </string>
     <string name="l112cc"> معلوم نہیں </string>
-    <string name="l112d"> اگر وہ شوہر سے رجوع نہ کرے </string>
+
+    <string name="l112d"> L112D:\t اگر وہ شوہر سے رجوع نہ کرے </string>
     <string name="l112da"> ہاں </string>
     <string name="l112db"> نہیں </string>
     <string name="l112dc"> معلوم نہیں </string>
-    <string name="l112e"> کھانا جلانے پہ </string>
+
+    <string name="l112e"> L112E:\t کھانا جلانے پہ </string>
     <string name="l112ea"> ہاں </string>
     <string name="l112eb"> نہیں </string>
     <string name="l112ec"> معلوم نہیں </string>
-    <string name="l113"> وسائل کی دستیابی انسانی آزادی کے لئے ایک نمایاں خصوصیت ہے۔ وسائل تک خواتین کی رسائی کے مندرجہ زیل اہم جزوہیں: </string>
-    <string name="l113a"> قرض اسکیموں کی معلومات </string>
+
+    <string name="l113"> L113:\t وسائل کی دستیابی انسانی آزادی کے لئے ایک نمایاں خصوصیت ہے۔ وسائل تک خواتین کی رسائی کے مندرجہ زیل اہم جزوہیں </string>
+
+    <string name="l113a"> L113A:\t قرض اسکیموں کی معلومات </string>
     <string name="l113aa"> ہاں </string>
     <string name="l113ab"> نہیں </string>
     <string name="l113ac"> معلوم نہیں </string>
-    <string name="l113b"> قرض حاصل کرنا </string>
+
+    <string name="l113b"> L113B:\t قرض حاصل کرنا </string>
     <string name="l113ba"> ہاں </string>
     <string name="l113bb"> نہیں </string>
     <string name="l113bc"> معلوم نہیں </string>
-    <string name="l113c"> بینک میں بچت اکائونٹ </string>
+
+    <string name="l113c"> L113C:\t بینک میں بچت اکائونٹ </string>
     <string name="l113ca"> ہاں </string>
     <string name="l113cb"> نہیں </string>
     <string name="l113cc"> معلوم نہیں </string>
-    <string name="l113d"> باہر کام کرنے کی آزادی </string>
+
+    <string name="l113d"> L113D:\t باہر کام کرنے کی آزادی </string>
     <string name="l113da"> ہاں </string>
     <string name="l113db"> نہیں </string>
     <string name="l113dc"> معلوم نہیں </string>
-    <string name="l114"> کیا خاندانی منصوبہ بندی کےاستعمال کا فیصلہ آپ کرتی ہیں ؟ </string>
+
+    <string name="l114"> L114:\t کیا خاندانی منصوبہ بندی کےاستعمال کا فیصلہ آپ کرتی ہیں ؟ </string>
     <string name="l114a"> ہاں </string>
     <string name="l114b"> نہیں </string>
     <string name="l114c"> دونوں مل کے </string>
     <string name="l114x"> دیگر (وضاحت کریں) </string>
-    <string name="l115"> کیا یہ فیصلہ آپ نے کیا ہے کہ آپ کے کتنے بچے ہونے چاہیئں ؟ </string>
+
+    <string name="l115"> L115:\t کیا یہ فیصلہ آپ نے کیا ہے کہ آپ کے کتنے بچے ہونے چاہیئں ؟ </string>
     <string name="l115a"> ہاں </string>
     <string name="l115b"> نہیں </string>
     <string name="l115c"> دونوں مل کے </string>
     <string name="l115x"> دیگر (وضاحت کریں) </string>
-    <string name="l116"> کیا اپنے بچوں کی تعلیم کے بارے میں فیصلہ آپ کرتی ہیں؟ </string>
+
+    <string name="l116"> L116:\t کیا اپنے بچوں کی تعلیم کے بارے میں فیصلہ آپ کرتی ہیں ؟ </string>
     <string name="l116a"> ہاں </string>
     <string name="l116b"> نہیں </string>
     <string name="l116c"> دونوں مل کے </string>
     <string name="l116x"> دیگر (وضاحت کریں) </string>
-    <string name="l117"> کیا اپنے بچوں کی صحت/بیماری کے بارے میں فیصلہ آپ کرتی ہیں؟ </string>
+
+    <string name="l117"> L117:\t کیا اپنے بچوں کی صحت/بیماری کے بارے میں فیصلہ آپ کرتی ہیں ؟ </string>
     <string name="l117a"> ہاں </string>
     <string name="l117b"> نہیں </string>
     <string name="l117c"> دونوں مل کے </string>
     <string name="l117x"> دیگر (وضاحت کریں) </string>
-    <string name="m101"> کیا عام طور پر کھانا گھر پر پکایا جاتاہے، کسی مختلف عمارت میں یا پھر گھر سے باہر؟ </string>
+
+    <string name="m101"> M101:\t کیا عام طور پر کھانا گھر پر پکایا جاتاہے، کسی مختلف عمارت میں یا پھر گھر سے باہر ؟ </string>
     <string name="m101a"> گھر پر </string>
     <string name="m101b"> مختلف عمارت میں </string>
     <string name="m101c"> گھر سے باہر </string>
-    <string name="m102"> کیا آپ کے گھر میں باورچی خانے کے لیے مختلف کمرہ استعمال کیا جاتا ہے؟ </string>
+
+    <string name="m102"> M102:\t کیا آپ کے گھر میں باورچی خانے کے لیے مختلف کمرہ استعمال کیا جاتا ہے ؟ </string>
     <string name="m102a"> ہاں </string>
     <string name="m102b"> نہیں </string>
-    <string name="m103"> گھر کے فرش میں استعمال ہونے والا بنیادی مواد: مشاہدہ کریں: </string>
-    <string name="m103a"> مٹی/چکنی مٹی/زمین/ریت </string>
+
+    <string name="m103"> M103:\t گھر کے فرش میں استعمال ہونے والا بنیادی مواد </string>
+    <string name="m103hint"> مشاہدہ کریں: </string>
+    <string name="m103a"> مٹی / چکنی مٹی / زمین / ریت </string>
     <string name="m103a_title"> قدرتی فرش </string>
     <string name="m103b"> جانوروں کا گوبر </string>
     <string name="m103c"> بنیادی /ابتدائی فرش </string>
@@ -1940,6 +2077,7 @@
     <string name="m103l"> اینٹیں </string>
     <string name="m103m"> میٹ </string>
     <string name="m103n"> سنگ مر مر </string>
+
     <string name="m104"> گھر کی چھت میں استعمال ہونے والا بنیادی مواد۔ مشاہدہ کریں </string>
     <string name="m104a"> کوئی چھت نہیں </string>
     <string name="m104a_title"> قدرتی چھت </string>
@@ -1947,18 +2085,19 @@
     <string name="m104c"> گھاس پھوس سے بنی ہوئی چھت </string>
     <string name="m104d"> بنیادی سادہ چھت </string>
     <string name="m104d_title"> تنکے کی چٹائی </string>
-    <string name="m104e"> کھجور یاناریل کے درخت/بانس </string>
+    <string name="m104e"> کھجور یاناریل کے درخت / بانس </string>
     <string name="m104f"> لکڑی کے تختے </string>
     <string name="m104g"> گتے سے بنی ہوئی چھت </string>
     <string name="m104h"> لوہے کی چادریں </string>
     <string name="m104h_title"> تیار چھت </string>
-    <string name="m104i"> پکی اینٹیں سیمنٹ/آر سی سی </string>
+    <string name="m104i"> پکی اینٹیں سیمنٹ / آر سی سی </string>
     <string name="m104j"> دھات </string>
-    <string name="m104k"> لکٹری /لوہا/مٹی </string>
-    <string name="m104l"> کیلا مائن/سیمنٹ فائبر </string>
+    <string name="m104k"> لکٹری / لوہا / مٹی </string>
+    <string name="m104l"> کیلا مائن / سیمنٹ فائبر </string>
     <string name="m104m"> سیمنٹ آر سی سی(پکی چھت) </string>
     <string name="m104n"> سرامک ٹائلز </string>
     <string name="m104o"> چھت میں استعمال ہونے والے ٹائلز </string>
+
     <string name="m105"> گھر کی دیوار وں میں استعمال ہونے والا بنیادی مواد: مشاہدہ کریں: </string>
     <string name="m105a"> کوئی دیوار نہیں </string>
     <string name="m105a_title"> قدرتی دیواریں </string>
@@ -1976,57 +2115,73 @@
     <string name="m105l"> گّتہ </string>
     <string name="m105m"> استعمال شدہ لکڑی </string>
     <string name="m105n"> پکی اینٹیں </string>
-    <string name="m105n_title"> تیاردیواریں </string>
-    <string name="m105o"> ٹینٹ/شامیانہ </string>
+    <string name="m105n_title"> تیار دیواریں </string>
+    <string name="m105o"> ٹینٹ / شامیانہ </string>
     <string name="m105p"> سیمنٹ </string>
-    <string name="m105q"> پتھرچونے/سیمنٹ کے ساتھ </string>
+    <string name="m105q"> پتھرچونے / سیمنٹ کے ساتھ </string>
     <string name="m105r"> اینٹیں </string>
     <string name="m105s"> سیمنٹ سے بنی ہوئی بلاکس </string>
-    <string name="m105t"> کچی اینٹوں سے بنی(لیپ کی ہوئی) </string>
-    <string name="m105u"> لکڑی کے تختے/شنگلز </string>
+    <string name="m105t"> کچی اینٹوں سے بنی (لیپ کی ہوئی) </string>
+    <string name="m105u"> لکڑی کے تختے / شنگلز </string>
+
     <string name="m106"> اس مکان میں سونے کے لئے کتنے کمرے استعمال کیے جاتے ہیں؟ </string>
+
     <string name="m107"> کیا اس مکان کے کسی فرد کی ملکیت میں درج ذیل چیزیں ہیں؟ </string>
+
     <string name="m107a"> گھڑی </string>
     <string name="m107aa"> ہاں </string>
     <string name="m107ab"> نہیں </string>
+
     <string name="m107b"> موبائل فون </string>
     <string name="m107ba"> ہاں </string>
     <string name="m107bb"> نہیں </string>
+
     <string name="m107c"> سائیکل </string>
     <string name="m107ca"> ہاں </string>
     <string name="m107cb"> نہیں </string>
-    <string name="m107d"> موٹر سائیکل/اسکوٹر </string>
+
+    <string name="m107d"> موٹر سائیکل / اسکوٹر </string>
     <string name="m107da"> ہاں </string>
     <string name="m107db"> نہیں </string>
-    <string name="m107e"> گدھا گاڑی/ بیل گاڑی </string>
-    <string name="m107f"> کار/ ٹرک / بس </string>
+
+    <string name="m107e"> گدھا گاڑی / بیل گاڑی </string>
+
+    <string name="m107f"> کار / ٹرک / بس </string>
     <string name="m107fa"> ہاں </string>
     <string name="m107fb"> نہیں </string>
+
     <string name="m107g"> ٹریکٹر </string>
     <string name="m107ga"> ہاں </string>
     <string name="m107gb"> نہیں </string>
+
     <string name="m107h"> موٹر والی کشتی </string>
     <string name="m107ha"> ہاں </string>
     <string name="m107hb"> نہیں </string>
+
     <string name="m107i"> موٹر کے بغیر کشتی </string>
     <string name="m107ia"> ہاں </string>
     <string name="m107ib"> نہیں </string>
-    <string name="m108"> کیا اس گھر کی جواب دہندہ (منتخب عورت) کے پاس موبائل فون ہے؟ </string>
+
+    <string name="m108"> کیا اس گھر کی جواب دہندہ (منتخب عورت) کے پاس موبائل فون ہے ؟ </string>
     <string name="m108a"> ہاں </string>
     <string name="m108b"> نہیں </string>
     <string name="m108ea"> ہاں </string>
     <string name="m108eb"> نہیں </string>
-    <string name="m109"> کیا اس گھر کے کسی فرد کی ملکیت میں زرعئی زمین ہے؟ </string>
+
+    <string name="m109"> کیا اس گھر کے کسی فرد کی ملکیت میں زرعئی زمین ہے ؟ </string>
     <string name="m109a"> ہاں </string>
     <string name="m109b"> نہیں </string>
-    <string name="m110"> اس گھر کے فرد کی ملکیت میں کل کتنے ایکڑ یا کنال زرعئی زمین ہے؟ </string>
+
+    <string name="m110"> اس گھر کے فرد کی ملکیت میں کل کتنے ایکڑ یا کنال زرعئی زمین ہے ؟ </string>
     <string name="m110a"> ایکڑ </string>
     <string name="m110b"> کنال </string>
-    <string name="m110c"> معلوم نہیں- </string>
-    <string name="m111"> کیااس گھرکی ملکیت میں کوئی مال مویشی،جانور یا مرغی خانہ دیگر پالتو جانور ہیں؟ </string>
+    <string name="m110c"> معلوم نہیں </string>
+
+    <string name="m111"> کیااس گھرکی ملکیت میں کوئی مال مویشی،جانور یا مرغی خانہ دیگر پالتو جانور ہیں ؟ </string>
     <string name="m111a"> ہاں </string>
     <string name="m111b"> نہیں </string>
-    <string name="m112"> اگر ہاں تو آپ کے گھر میں کتنے مویشی ، مرغیاں یا پالتو جانور موجود ہیں؟ </string>
+
+    <string name="m112"> اگر ہاں تو آپ کے گھر میں کتنے مویشی ، مرغیاں یا پالتو جانور موجود ہیں ؟ </string>
     <string name="m112a"> مال مویشی (گائے اور بیل) </string>
     <string name="m112b"> گھوڑے/گدھے/خچر </string>
     <string name="m112c"> بکریاں </string>
@@ -2034,64 +2189,85 @@
     <string name="m112e"> مُرغیاں </string>
     <string name="m112f"> بھینسیں </string>
     <string name="m112g"> اونٹ </string>
-    <string name="m113"> کیا اس گھر کے کسی فرد کا بینک اکاؤنٹ ہے؟ </string>
+
+    <string name="m113"> کیا اس گھر کے کسی فرد کا بینک اکاؤنٹ ہے ؟ </string>
     <string name="m113a"> ہاں </string>
     <string name="m113b"> نہیں </string>
-    <string name="m114"> کیا آپ کے گھر میں مندرجہ ذیل چیزیں ہیں؟ </string>
+
+    <string name="m114"> کیا آپ کے گھر میں مندرجہ ذیل چیزیں ہیں ؟ </string>
+
     <string name="m114a"> بجلی </string>
     <string name="m114aa"> ہاں </string>
     <string name="m114ab"> نہیں </string>
+
     <string name="m114b"> ریڈیو </string>
     <string name="m114ba"> ہاں </string>
     <string name="m114bb"> نہیں </string>
+
     <string name="m114c"> ٹیلی وژن </string>
     <string name="m114ca"> ہاں </string>
     <string name="m114cb"> نہیں </string>
+
     <string name="m114d"> ٹیلیفون </string>
     <string name="m114da"> ہاں </string>
     <string name="m114db"> نہیں </string>
+
     <string name="m114e"> ریفریجریٹر </string>
     <string name="m114ea"> ہاں </string>
     <string name="m114eb"> نہیں </string>
+
     <string name="m114f"> الماری/کیبنٹ </string>
     <string name="m114fa"> ہاں </string>
     <string name="m114fb"> نہیں </string>
+
     <string name="m114g"> کرسی </string>
     <string name="m114ga"> ہاں </string>
     <string name="m114gb"> نہیں </string>
+
     <string name="m114h"> روم کولر </string>
     <string name="m114ha"> ہاں </string>
     <string name="m114hb"> نہیں </string>
+
     <string name="m114i"> ائیرکنڈئشنر </string>
     <string name="m114ia"> ہاں </string>
     <string name="m114ib"> نہیں </string>
+
     <string name="m114j"> واشنگ مشین </string>
     <string name="m114ja"> ہاں </string>
     <string name="m114jb"> نہیں </string>
+
     <string name="m114k"> پانی کا پمپ </string>
     <string name="m114ka"> ہاں </string>
     <string name="m114kb"> نہیں </string>
+
     <string name="m114l"> پلنگ </string>
     <string name="m114la"> ہاں </string>
     <string name="m114lb"> نہیں </string>
+
     <string name="m114m"> گھٹری </string>
     <string name="m114ma"> ہاں </string>
     <string name="m114mb"> نہیں </string>
+
     <string name="m114n"> صوفہ </string>
     <string name="m114na"> ہاں </string>
     <string name="m114nb"> نہیں </string>
+
     <string name="m114o"> کیمرہ </string>
     <string name="m114oa"> ہاں </string>
     <string name="m114ob"> نہیں </string>
+
     <string name="m114p"> سلائی مشین </string>
     <string name="m114pa"> ہاں </string>
     <string name="m114pb"> نہیں </string>
+
     <string name="m114q"> کمپیوٹر/لیپ ٹاپ </string>
     <string name="m114qa"> ہاں </string>
     <string name="m114qb"> نہیں </string>
+
     <string name="m114r"> انٹرنیٹ کا کنکشن </string>
     <string name="m114ra"> ہاں </string>
     <string name="m114rb"> نہیں </string>
+
     <string name="m115"> آپ کے گھر میں کھانا پکانے کے لیے کونسا ایندھن استعمال ہوتا ہے ؟ </string>
     <string name="m115a"> بجلی </string>
     <string name="m115b"> ایل پی جی گیس (LPG) </string>
@@ -2104,7 +2280,8 @@
     <string name="m115i"> گھانس پھونس/تنکے/جھاڑیاں </string>
     <string name="m115j"> جانوروں کا گوبر </string>
     <string name="m115k"> گھر میں کھانا نہیں پکتا </string>
-    <string name="m116"> آپ کے گھر میں عام طور پر کونسی زبان بولی جاتی ہے؟ </string>
+
+    <string name="m116"> آپ کے گھر میں عام طور پر کونسی زبان بولی جاتی ہے ؟ </string>
     <string name="m116a"> اردو </string>
     <string name="m116b"> پنجابی </string>
     <string name="m116c"> سندھی </string>
@@ -2113,6 +2290,7 @@
     <string name="m116f"> بروہی </string>
     <string name="m116g"> لاسی </string>
     <string name="m116h"> پشتو </string>
+
     <string name="n101"> آپ کے گھرکے افراد کے لئے پینے کے پانی کا سب سے اہم ذریعہ کیا ہے ؟ </string>
     <string name="n101a"> گھر کانلکا </string>
     <string name="n101a_title"> میونسپل کمیٹی کا پانی کاکنکشن </string>
@@ -2132,6 +2310,7 @@
     <string name="n101m"> سطح والا پانی(دریا،جھیل ،ڈیم،تالاب/ ندی/نہر کا پانی) </string>
     <string name="n101n"> بوتل کا پانی </string>
     <string name="n101x"> دیگر (وضاحت کریں) </string>
+
     <string name="n102"> آپکے گھرانہ میں دوسرے مقاصد یعنی کھانا پکانے اورہاتھ دھونے کے لئے استعمال ہونے والا پانی کا اہم ذریعہ کیا ہے؟ </string>
     <string name="n102a"> گھر کانلکا </string>
     <string name="n102a_title"> میونسپل کمیٹی کا پانی کاکنکشن </string>
@@ -2151,32 +2330,39 @@
     <string name="n102m"> سطح والا پانی(دریا،جھیل ،ڈیم،تالاب/ ندی/نہر کا پانی) </string>
     <string name="n102n"> بوتل کا پانی </string>
     <string name="n102x"> دیگر (وضاحت کریں) </string>
+
     <string name="n103"> پانی کے زرائع کی یہ سہولت کہاں واقع ہے؟ </string>
     <string name="n103a"> اپنے مکان میں </string>
     <string name="n103b"> اپنے پلاٹ میں </string>
     <string name="n103c"> کہیں اور </string>
-    <string name="n104"> آپکوپانی کے اہم ذریعے تک پہنچنے میں اور وہاں سے پانی لے کر گھر آنے میں کتنا وقت لگتا ہے ؟ </string>
+
+    <string name="n104"> آپکو پانی کے اہم ذریعے تک پہنچنے میں اور وہاں سے پانی لے کر گھر آنے میں کتنا وقت لگتا ہے ؟ </string>
     <string name="n104a"> منٹس کی تعداد </string>
     <string name="n10498"> معلوم نہیں </string>
-    <string name="n105"> عموماًگھر کے لئے پانی لینے کے لیے کون جاتاہے؟ ت </string>
-    <string name="n105hint"> تحقیق کریں، کیا جو فرد پانی لینے جاتے ہیں اس کی عمر پندرہ سال سے کم ہے ؟ اسکی جنس کیا ہے؟ </string>
+
+    <string name="n105"> عموما ً گھر کے لئے پانی لینے کے لیے کون جاتا ہے ؟ </string>
+    <string name="n105hint"> تحقیق کریں، کیا جو فرد پانی لینے جاتے ہیں اس کی عمر پندرہ سال سے کم ہے ؟ اسکی جنس کیا ہے ؟ </string>
     <string name="n105a"> بالغ عورت(15 سال سےزیادہ) </string>
     <string name="n105b"> بالغ مرد(15 سال سےزیادہ) </string>
     <string name="n105c"> بچی ( 15 سال سے کم) </string>
     <string name="n105d"> بچہ (15 سال سے کم) </string>
     <string name="n105e"> جو بھی دستیاب ہو </string>
     <string name="n105f"> معلوم نہیں </string>
-    <string name="n106"> اس گھر کےپانی کا ذائقہ میٹھا ہے یا کھارا؟ </string>
+
+    <string name="n106"> اس گھر کے پانی کا ذائقہ میٹھا ہے یا کھارا؟ </string>
     <string name="n106a"> میٹھا </string>
     <string name="n106b"> کھارا </string>
-    <string name="n107"> کیا پانی بھرتے وقت صاف ہوتاہے یا مٹی والا ہوتاہے؟ </string>
+
+    <string name="n107"> کیا پانی بھرتے وقت صاف ہوتا ہے یا مٹی والا ہوتاہے ؟ </string>
     <string name="n107a"> صاف </string>
     <string name="n107b"> مٹی والا/گدلا </string>
     <string name="n107c"> معلوم نہیں </string>
+
     <string name="n108"> کیا آپ پینے کےپانی کو محفوظ بنانے کے لیے کوئی طریقہ استعمال کرتے ہیں </string>
     <string name="n108a"> ہاں </string>
     <string name="n108b"> نہیں </string>
     <string name="n108c"> معلوم نہیں </string>
+
     <string name="n109"> عموماً آپ پینے کےپانی کو محفوظ بنانے کے لیے کیا کرتے ہیں؟ سب پر نشان لگائیں جو لاگو ہوتے ہیں۔ </string>
     <string name="n109a"> ابالتے ہیں </string>
     <string name="n109b"> بلیچ/کلورین کی گولی ملاتے ہیں </string>
@@ -2185,6 +2371,7 @@
     <string name="n109e"> سورج کی شعاعوں سے/دھوپ میں رکھتے ہیں </string>
     <string name="n109f"> برتن میں پانی ڈال کر ٹھہرنے کا انتظار کرتے ہیں </string>
     <string name="n109g"> پھٹکری ملاتے ہیں </string>
+
     <string name="n110"> آپ کے گھرانے کے افراد عام طورپر کس قسم کا بیت الخلاء استعمال کرتے ہیں ؟ </string>
     <string name="n110hint"> اگر تعین کرنا ممکن نہ ہوتو سہولت کا جائزہ لینے کی اجازت مانگیں- </string>
     <string name="n110a"> فلش سیوریج کے نظام سے منسلک </string>
@@ -2200,30 +2387,37 @@
     <string name="n110i"> کھاد بنانے ٹوائلٹ </string>
     <string name="n110j"> بالٹی والا ٹوائلٹ </string>
     <string name="n110k"> کوئی سہولت نہیں /جھاڑیوں/زمین پر </string>
+
     <string name="n111"> کیا اس بیت الخلاء کی سہولت کو دوسرے گھرانوں کے افراد بھی استعمال کر تےہیں جو آپ کے گھرانے کے فرد نہیں ہیں؟ </string>
     <string name="n111a"> ہاں </string>
     <string name="n111b"> نہیں </string>
     <string name="n111c"> معلوم نہیں </string>
+
     <string name="n112"> کیا آپ یہ سہولت صرف ان دوسرے گھرانوں کے افراد کے ساتھ مل کر استعمال کرتے ہیں جنہیں آپ جانتے ہیں یا یہ سہولت عوام الناس کے استعمال کے لئے کھلی ہے </string>
     <string name="n112a"> دوسرے گھرانے (عوام الناس نہیں) </string>
     <string name="n112b"> عوام الناس نہیں </string>
+
     <string name="n113"> مجموعی طور پر کتنے گھرانے اس سہولت کو استعمال کرتے ہیں، اپنے گھر کو شامل کرتے ہوئے بتائیں؟ </string>
     <string name="n113a"> گھرانوں کی تعداد(اگر 10 سے کم) </string>
     <string name="n113b"> دس یا اس سے زیادہ گھرانے </string>
     <string name="n113c"> معلوم نہیں </string>
+
     <string name="o101"> ہم جاننا چاہیں گے کہ گھر والے ہاتھ دھونے کے لیے کن جگہوں کا استعمال کرتے ہیں۔ کیا آپ مجھے وہ جگہ دیکھا سکتی ہیں جہاں آپ کے گھر والے عموماً ہاتھ دھوتے ہیں؟ </string>
     <string name="o101a"> مشاہدہ کیا </string>
     <string name="o101b"> رہائش گاہ پلاٹ /صحن میں موجود نہیں </string>
     <string name="o101b_title"> مشاہدہ نہیں کیا </string>
     <string name="o101c"> دیکھنے کیاجازت نہیں ملی </string>
     <string name="o101x"> دیگر وضاحت کریں </string>
+
     <string name="o102"> ہاتھ دھونے کے لیے اس جگہ پر پانی کی موجودگی کا مشاہدہ </string>
     <string name="o102hint"> نل / پمپ، یا بیسن، بالٹی، پانی کے کنٹینر یا اسی طرح کی اشیاء پانی کی موجودگی کے لئے کی جانچ پڑتال کی طرف سے تصدیق کریں </string>
     <string name="o102a"> پانی موجود ہے </string>
     <string name="o102b"> پانی موجود نہیں ہے </string>
-    <string name="o103"> کیا آپ کے گھر میں ہاتھ دھونے کے لیے صابن یا صفائی والی اشیاء ڈٹرجنٹ /راکھ /مٹی /ریت موجود ہے؟ </string>
+
+    <string name="o103"> کیا آپ کے گھر میں ہاتھ دھونے کے لیے صابن یا صفائی والی اشیاء ڈٹرجنٹ /راکھ /مٹی /ریت موجود ہے ؟ </string>
     <string name="o103a"> ہاں ،موجود ہے </string>
     <string name="o103b"> نہیں، موجود نہیں </string>
+
     <string name="o104"> ہاتھ دھونے کی جگہ پر کونسی چیزیں دستیاب ہیں؟ اپنا مشاہدہ درج کریں۔ سب پر نشان لگائیں جو لاگو ہوتے ہیں۔ </string>
     <string name="o104hint"> سب پر نشان لگائیں جو لاگو ہوتے ہیں۔ </string>
     <string name="o104a"> صابن </string>
@@ -2231,14 +2425,16 @@
     <string name="o104c"> مائع صابن </string>
     <string name="o104d"> راکھ /مٹی /ریت </string>
     <string name="o104x"> دیگر (وضاحت کریں) </string>
-    <string name="o105"> کیا آپ کے گھر میں ہاتھ دھونے کے لیے صابن یا صفائی والی اشیاء ڈٹرجنٹ /راکھ /مٹی /ریت موجود ہے؟ </string>
+
+    <string name="o105"> کیا آپ کے گھر میں ہاتھ دھونے کے لیے صابن یا صفائی والی اشیاء ڈٹرجنٹ / راکھ / مٹی / ریت موجود ہے ؟ </string>
     <string name="o105a"> ہاں </string>
     <string name="o105b"> نہیں </string>
+
     <string name="o106"> کیا آپ مجھے ہاتھ دھونے کی اشیاء دیکھا سکتی ہیں ؟ </string>
     <string name="o106a"> ہاں، دیکھ لیا </string>
     <string name="o106b"> نہیں، نہیں دیکھیں </string>
 
-    <string name="o107"> اپنا مشاہدہ درج کریں۔ </string>
+    <string name="o107"> اپنا مشاہدہ درج کریں ۔ </string>
     <string name="o107hint"> ایک سے زیادہ جوابات آ سکتے ہیں۔ </string>
     <string name="o107a"> صابن </string>
     <string name="o107b"> ڈیٹرجنٹ (پاوڈر / مائع / پیسٹ) </string>
