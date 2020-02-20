@@ -709,7 +709,7 @@
 
             </androidx.cardview.widget.CardView>
 
-            <!-- f113  Radio   -->
+            <!-- f113  EditText & CheckBox   -->
             <androidx.cardview.widget.CardView
                 android:id="@+id/fldGrpCVf113"
                 style="@style/cardView"
@@ -729,7 +729,7 @@
                         android:layout_height="wrap_content"
                         android:orientation="horizontal">
 
-                        <EditText
+                        <com.edittextpicker.aliazaz.EditTextPicker
                             android:id="@+id/f113"
                             style="@style/EditTextNum"
                             android:layout_width="0dp"

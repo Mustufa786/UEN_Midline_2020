@@ -281,7 +281,7 @@
 
             </androidx.cardview.widget.CardView>
 
-            <!-- n104  Radio   -->
+            <!-- n104  EditText & CheckBox   -->
             <androidx.cardview.widget.CardView
                 android:id="@+id/fldGrpCVn104"
                 style="@style/cardView"
