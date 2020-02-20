@@ -243,7 +243,7 @@ public class SectionJ03Activity extends AppCompatActivity {
         //j122
         bi.j122.setOnCheckedChangeListener((group, checkedId) -> {
 
-            if (checkedId == bi.j122a.getId()) {
+            if (checkedId == bi.j122b.getId()) {
                 bi.fldGrpCVj123.setVisibility(View.VISIBLE);
             } else {
                 bi.fldGrpCVj123.setVisibility(View.GONE);
