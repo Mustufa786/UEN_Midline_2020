@@ -339,7 +339,6 @@
                             style="@style/EditTextNum"
                             android:hint="@string/minutes"
                             android:maxLength="2"
-                            android:textColor="@android:color/black"
                             app:defaultValue="00"
                             app:maxValue="99"
                             app:minValue="1"
@@ -353,7 +352,7 @@
 
             <LinearLayout
                 android:id="@+id/fldGrpSectionFB"
-                style="@style/linearlayout_view_wt_bound"
+                style="@style/linearlayout_view"
                 android:visibility='@{f101a.checked ? View.VISIBLE :View.GONE}'>
 
                 <!-- f107  Radio   -->
@@ -393,7 +392,6 @@
                                 android:id="@+id/f10796x"
                                 style="@style/EditTextAlpha"
                                 android:hint="@string/specify"
-                                android:tag="f10796"
                                 android:text='@{f10796.checked? f10796x.getText().toString() : ""}'
                                 android:visibility='@{f10796.checked? View.VISIBLE : View.GONE}' />
 
@@ -417,59 +415,55 @@
                             style="@style/i_textview"
                             android:text="@string/f108" />
 
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:orientation="horizontal">
-
                             <RadioGroup
                                 android:id="@+id/f108"
-                                style="@style/radiogroup">
+                                style="@style/radiogroup"
+                                android:orientation="horizontal">
 
                                 <RadioButton
                                     android:id="@+id/f108a"
                                     style="@style/radiobutton"
+                                    android:layout_width="0dp"
+                                    android:layout_weight="1"
                                     android:text="@string/f108a" />
-
-                                <com.edittextpicker.aliazaz.EditTextPicker
-                                    android:id="@+id/f108aw"
-                                    style="@style/EditTextNum"
-                                    android:layout_width="match_parent"
-                                    android:hint="@string/weeks"
-                                    android:maxLength="2"
-                                    android:tag="f108a"
-                                    android:text='@{f108a.checked? f108aw.getText().toString() : ""}'
-                                    android:visibility='@{f108a.checked?  View.VISIBLE : View.GONE}'
-                                    app:maxValue="40"
-                                    app:minValue="1"
-                                    app:type="range" />
 
                                 <RadioButton
                                     android:id="@+id/f108b"
                                     style="@style/radiobutton"
+                                    android:layout_width="0dp"
+                                    android:layout_weight="1"
                                     android:text="@string/f108b" />
-
-                                <com.edittextpicker.aliazaz.EditTextPicker
-                                    android:id="@+id/f108bm"
-                                    style="@style/EditTextNum"
-                                    android:layout_width="match_parent"
-                                    android:hint="@string/month"
-                                    android:maxLength="1"
-                                    android:tag="f108b"
-                                    android:text='@{f108b.checked? f108bm.getText().toString() : ""}'
-                                    android:visibility='@{f108b.checked?  View.VISIBLE : View.GONE}'
-                                    app:maxValue="9"
-                                    app:minValue="1"
-                                    app:type="range" />
 
                                 <RadioButton
                                     android:id="@+id/f10898"
                                     style="@style/radiobutton"
+                                    android:layout_width="0dp"
+                                    android:layout_weight="1"
                                     android:text="@string/dkn" />
 
                             </RadioGroup>
 
-                        </LinearLayout>
+                        <com.edittextpicker.aliazaz.EditTextPicker
+                            android:id="@+id/f108aw"
+                            style="@style/EditTextNum"
+                            android:hint="@string/weeks"
+                            android:maxLength="2"
+                            android:text='@{f108a.checked ? f108aw.getText().toString() : ""}'
+                            android:visibility='@{f108a.checked ?  View.VISIBLE : View.GONE}'
+                            app:maxValue="40"
+                            app:minValue="1"
+                            app:type="range" />
+
+                        <com.edittextpicker.aliazaz.EditTextPicker
+                            android:id="@+id/f108bm"
+                            style="@style/EditTextNum"
+                            android:hint="@string/month"
+                            android:maxLength="1"
+                            android:text='@{f108b.checked? f108bm.getText().toString() : ""}'
+                            android:visibility='@{f108b.checked ?  View.VISIBLE : View.GONE}'
+                            app:maxValue="9"
+                            app:minValue="1"
+                            app:type="range" />
 
                     </LinearLayout>
 
