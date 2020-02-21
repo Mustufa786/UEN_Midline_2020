@@ -18,7 +18,6 @@
         android:layoutDirection="rtl"
         android:textDirection="anyRtl">
 
-
         <LinearLayout
             android:id="@+id/fldGrpSectionJ02"
             android:layout_width="match_parent"

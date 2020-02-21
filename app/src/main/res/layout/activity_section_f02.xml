@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <layout xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <data>
@@ -19,13 +18,11 @@
         android:textDirection="rtl"
         tools:context=".ui.sections.SectionF02Activity">
 
-
         <LinearLayout
             android:id="@+id/fldGrpSectionf02"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
-
 
             <!-- f121  Radio   -->
             <androidx.cardview.widget.CardView
@@ -609,6 +606,7 @@
                 </LinearLayout>
 
             </LinearLayout>
+
 
             <!-- f132  Radio   -->
             <androidx.cardview.widget.CardView

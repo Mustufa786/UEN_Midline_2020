@@ -192,7 +192,6 @@
                 android:orientation="vertical"
                 android:visibility='@{i203b.checked? View.GONE : View.VISIBLE}'>
 
-
                 <!-- i204  Input-Numeric   -->
                 <androidx.cardview.widget.CardView
                     android:id="@+id/fldGrpCVi204"
@@ -787,6 +786,7 @@
 
                     </LinearLayout>
 
+
                     <!-- i218  CheckBox   -->
                     <androidx.cardview.widget.CardView
                         android:id="@+id/fldGrpCVi218"
@@ -1251,6 +1251,7 @@
                     </androidx.cardview.widget.CardView>
 
                 </LinearLayout>
+
 
             </LinearLayout>
 

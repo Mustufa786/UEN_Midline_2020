@@ -13,7 +13,6 @@
             type="edu.aku.hassannaqvi.uen_midline.ui.sections.SectionE2Activity" />
     </data>
 
-
     <ScrollView
         style="@style/i_scrollview"
         android:layoutDirection="rtl"

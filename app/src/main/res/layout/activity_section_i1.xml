@@ -40,7 +40,6 @@
 
             </androidx.cardview.widget.CardView>
 
-
             <!-- i100  Spinner   -->
             <androidx.cardview.widget.CardView
                 android:id="@+id/fldGrpCVd107"
@@ -67,7 +66,6 @@
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
-
 
             <!-- i10res  Spinner   -->
             <androidx.cardview.widget.CardView
@@ -97,7 +95,6 @@
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
-
 
             <!-- i101  Radio   -->
             <androidx.cardview.widget.CardView

@@ -392,6 +392,7 @@
                                 android:id="@+id/o10797"
                                 style="@style/checkbox"
                                 android:text="@string/none" />
+
                         </LinearLayout>
 
                     </LinearLayout>

@@ -21,7 +21,6 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-
             <TextView
                 android:id="@+id/f101Name"
                 style="@style/textView3Head"
@@ -142,6 +141,7 @@
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
+
 
             <LinearLayout
                 android:id="@+id/fldGrpSectionFA"
@@ -349,6 +349,7 @@
                 </androidx.cardview.widget.CardView>
 
             </LinearLayout>
+
 
             <LinearLayout
                 android:id="@+id/fldGrpSectionFB"
@@ -614,6 +615,7 @@
                 </androidx.cardview.widget.CardView>
 
             </LinearLayout>
+
 
             <!-- f111  Radio   -->
             <androidx.cardview.widget.CardView
@@ -1123,7 +1125,6 @@
                     </LinearLayout>
 
                 </androidx.cardview.widget.CardView>
-
 
             </LinearLayout>
 
