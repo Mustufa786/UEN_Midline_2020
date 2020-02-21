@@ -115,23 +115,23 @@
 
                                 <RadioButton
                                     android:id="@+id/e105c"
+                                    style="@style/radiobutton"
                                     android:checked="@{e104b.checked ? false : false}"
                                     android:enabled="@{e104b.checked ? true : false}"
-                                    style="@style/radiobutton"
                                     android:text="@string/e105c" />
 
                                 <RadioButton
                                     android:id="@+id/e105d"
+                                    style="@style/radiobutton"
                                     android:checked="@{e104b.checked ? false : false}"
                                     android:enabled="@{e104b.checked ? true : false}"
-                                    style="@style/radiobutton"
                                     android:text="@string/e105d" />
 
                                 <RadioButton
                                     android:id="@+id/e105e"
+                                    style="@style/radiobutton"
                                     android:checked="@{e104b.checked ? false : false}"
                                     android:enabled="@{e104b.checked ? true : false}"
-                                    style="@style/radiobutton"
                                     android:text="@string/e105e" />
 
                                 <RadioButton
@@ -152,9 +152,9 @@
             <!--container1-->
             <LinearLayout
                 android:id="@+id/container1"
-                android:orientation="vertical"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
 
                 <!-- e106  Title   -->
                 <androidx.cardview.widget.CardView
@@ -371,9 +371,9 @@
             <!--mainContainer2-->
             <LinearLayout
                 android:id="@+id/mainContainer2"
-                android:orientation="vertical"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
 
                 <!-- e110  Title   -->
                 <androidx.cardview.widget.CardView
@@ -411,7 +411,6 @@
                                     android:maxLength="2"
                                     android:text='@{e11098.checked ? "" : e110a.getText().toString()}'
                                     android:textColor="@android:color/black"
-                                    app:defaultValue="00"
                                     app:maxValue="30"
                                     app:minValue="1"
                                     app:type="range" />
@@ -436,6 +435,7 @@
                                     android:maxLength="2"
                                     android:text='@{e11098.checked ? "" : e110b.getText().toString()}'
                                     android:textColor="@android:color/black"
+                                    app:defaultValue="00"
                                     app:maxValue="11"
                                     app:minValue="1"
                                     app:type="range" />
@@ -460,6 +460,7 @@
                                     android:maxLength="4"
                                     android:text='@{e11098.checked ? "" : e110c.getText().toString()}'
                                     android:textColor="@android:color/black"
+                                    app:defaultValue="00"
                                     app:maxValue="0"
                                     app:minValue="0"
                                     app:type="range" />
