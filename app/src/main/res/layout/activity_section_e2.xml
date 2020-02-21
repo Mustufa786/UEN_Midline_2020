@@ -115,23 +115,23 @@
 
                                 <RadioButton
                                     android:id="@+id/e105c"
-                                    style="@style/radiobutton"
                                     android:checked="@{e104b.checked ? false : false}"
                                     android:enabled="@{e104b.checked ? true : false}"
+                                    style="@style/radiobutton"
                                     android:text="@string/e105c" />
 
                                 <RadioButton
                                     android:id="@+id/e105d"
-                                    style="@style/radiobutton"
                                     android:checked="@{e104b.checked ? false : false}"
                                     android:enabled="@{e104b.checked ? true : false}"
+                                    style="@style/radiobutton"
                                     android:text="@string/e105d" />
 
                                 <RadioButton
                                     android:id="@+id/e105e"
-                                    style="@style/radiobutton"
                                     android:checked="@{e104b.checked ? false : false}"
                                     android:enabled="@{e104b.checked ? true : false}"
+                                    style="@style/radiobutton"
                                     android:text="@string/e105e" />
 
                                 <RadioButton
@@ -193,7 +193,7 @@
                                     android:text='@{e10698.checked ? "" : e106a.getText().toString()}'
                                     android:textColor="@android:color/black"
                                     app:defaultValue="00"
-                                    app:maxValue="30"
+                                    app:maxValue="31"
                                     app:minValue="1"
                                     app:type="range" />
 
@@ -218,7 +218,7 @@
                                     android:text='@{e10698.checked ? "" : e106b.getText().toString()}'
                                     android:textColor="@android:color/black"
                                     app:defaultValue="00"
-                                    app:maxValue="11"
+                                    app:maxValue="12"
                                     app:minValue="1"
                                     app:type="range" />
 
