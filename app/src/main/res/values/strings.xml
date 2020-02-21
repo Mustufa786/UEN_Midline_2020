@@ -1949,6 +1949,8 @@
     <string name="l117c"> مڙس سان گڏجي</string>
     <string name="l117x"> (ٻيو ڪو (وضاحت ڪريو</string>
 
+
+    <!--  SECTION-M  -->
     <string name="m101"> M101:\t ڇا کاڌو اڪثر ڪري گھر جي اندر، الڳ جاءِ تي يا گھر کان ٻاھر پچايو ويندو آھي ؟ </string>
     <string name="m101a"> گھر جي اندر </string>
     <string name="m101b"> الڳ ڪمرو آھي </string>
@@ -2237,7 +2239,7 @@
     <string name="n103b"> پلاٽ / گھر جي ٻاهر </string>
     <string name="n103c"> ٻئي جڳھ تان </string>
 
-    <string name="n104"> N104:\t پاڻي ڀرڻ ۽ واپس اچڻ تائين ڪيترو وقت لڳندو آھي؟</string>
+    <string name="n104"> N104:\t پاڻي ڀرڻ ۽ واپس اچڻ تائين ڪيترو وقت لڳندو آھي؟ </string>
     <string name="n104a"> وقت منٽن ۾ </string>
     <string name="n10498"> خبر نه آھي </string>
 
