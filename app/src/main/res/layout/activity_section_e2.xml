@@ -411,8 +411,8 @@
                                     android:maxLength="2"
                                     android:text='@{e11098.checked ? "" : e110a.getText().toString()}'
                                     android:textColor="@android:color/black"
-                                    app:maxValue="30"
-                                    app:minValue="1"
+                                    app:maxValue="29"
+                                    app:minValue="0"
                                     app:type="range" />
 
                             </LinearLayout>
@@ -435,9 +435,8 @@
                                     android:maxLength="2"
                                     android:text='@{e11098.checked ? "" : e110b.getText().toString()}'
                                     android:textColor="@android:color/black"
-                                    app:defaultValue="00"
                                     app:maxValue="11"
-                                    app:minValue="1"
+                                    app:minValue="0"
                                     app:type="range" />
 
                             </LinearLayout>
@@ -460,8 +459,7 @@
                                     android:maxLength="4"
                                     android:text='@{e11098.checked ? "" : e110c.getText().toString()}'
                                     android:textColor="@android:color/black"
-                                    app:defaultValue="00"
-                                    app:maxValue="0"
+                                    app:maxValue="39"
                                     app:minValue="0"
                                     app:type="range" />
 
@@ -476,6 +474,7 @@
                             android:text="@string/dkn" />
 
                     </LinearLayout>
+
                 </androidx.cardview.widget.CardView>
 
                 <!-- e111  Radio   -->
@@ -766,6 +765,5 @@
         </LinearLayout>
 
     </ScrollView>
-
 
 </layout>
