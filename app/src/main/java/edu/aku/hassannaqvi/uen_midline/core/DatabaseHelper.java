@@ -613,6 +613,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         values.put(SingleMember.COLUMN_NAME, fmc.getName());
         values.put(SingleMember.COLUMN_RELATION_HH, fmc.getRelHH());
         values.put(SingleMember.COLUMN_AGE, fmc.getAge());
+        values.put(SingleMember.COLUMN_MONTH_FM, fmc.getMonthfm());
         values.put(SingleMember.COLUMN_MOTHER_NAME, fmc.getMother_name());
         values.put(SingleMember.COLUMN_MOTHER_SERIAL, fmc.getMother_serial());
         values.put(FamilyMembersContract.SingleMember.COLUMN_GENDER, fmc.getGender());
