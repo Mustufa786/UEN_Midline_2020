@@ -913,21 +913,22 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         SQLiteDatabase db = this.getReadableDatabase();
         Cursor c = null;
         String[] columns = {
-                FamilyMembersContract.SingleMember.COLUMN_ID,
+                SingleMember.COLUMN_ID,
                 SingleMember.COLUMN_UID,
                 SingleMember.COLUMN_UUID,
-                FamilyMembersContract.SingleMember.COLUMN_FORMDATE,
-                FamilyMembersContract.SingleMember.COLUMN_CLUSTERNO,
+                SingleMember.COLUMN_FORMDATE,
+                SingleMember.COLUMN_CLUSTERNO,
                 SingleMember.COLUMN_HHNO,
                 SingleMember.COLUMN_SERIAL_NO,
                 SingleMember.COLUMN_NAME,
                 SingleMember.COLUMN_RELATION_HH,
                 SingleMember.COLUMN_AGE,
-                FamilyMembersContract.SingleMember.COLUMN_MOTHER_NAME,
+                SingleMember.COLUMN_MONTH_FM,
+                SingleMember.COLUMN_MOTHER_NAME,
                 SingleMember.COLUMN_MOTHER_SERIAL,
                 SingleMember.COLUMN_GENDER,
-                FamilyMembersContract.SingleMember.COLUMN_MARITAL,
-                FamilyMembersContract.SingleMember.COLUMN_SD,
+                SingleMember.COLUMN_MARITAL,
+                SingleMember.COLUMN_SD,
         };
         String whereClause = null;
         String[] whereArgs = null;

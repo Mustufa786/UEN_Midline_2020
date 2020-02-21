@@ -413,7 +413,7 @@
                                     android:textColor="@android:color/black"
                                     app:defaultValue="00"
                                     app:maxValue="2020"
-                                    app:minValue="1950"
+                                    app:minValue="1930"
                                     app:type="range" />
 
                             </LinearLayout>
@@ -512,19 +512,42 @@
                             style="@style/textView3Head"
                             android:text="@string/d109a" />
 
-                        <com.edittextpicker.aliazaz.EditTextPicker
-                            android:id="@+id/d109"
-                            style="@style/textInput"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:enabled="false"
-                            android:hint="@string/d109a"
-                            android:inputType="number"
-                            android:maxLength="2"
-                            android:textColor="@android:color/black"
-                            app:maxValue="99"
-                            app:minValue="0"
-                            app:type="range" />
+                        <LinearLayout
+                            style="@style/linearlayout_view_wt_bound"
+                            android:orientation="horizontal">
+
+                            <com.edittextpicker.aliazaz.EditTextPicker
+                                android:id="@+id/d109"
+                                style="@style/textInput"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:enabled="false"
+                                android:hint="@string/year"
+                                android:inputType="number"
+                                android:maxLength="2"
+                                android:textColor="@android:color/black"
+                                app:maxValue="99"
+                                app:minValue="0"
+                                app:type="range" />
+
+                            <com.edittextpicker.aliazaz.EditTextPicker
+                                android:id="@+id/d109a"
+                                style="@style/textInput"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:enabled="false"
+                                android:hint="@string/month"
+                                android:inputType="number"
+                                android:maxLength="2"
+                                android:textColor="@android:color/black"
+                                app:defaultValue="00"
+                                app:maxValue="11"
+                                app:minValue="1"
+                                app:type="range" />
+
+                        </LinearLayout>
 
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>

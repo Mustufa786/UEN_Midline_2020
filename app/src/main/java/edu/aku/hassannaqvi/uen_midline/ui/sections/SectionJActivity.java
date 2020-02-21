@@ -85,6 +85,9 @@ public class SectionJActivity extends AppCompatActivity {
         bi.j10408y.setMaxvalue(CONSTANTS.MAXYEAR);
         bi.j10408y.setMinvalue(CONSTANTS.MINYEAR_IM);
 
+        //Immunization visibility
+        int totalMonth = Integer.valueOf(fmc_child.getAge()) + Integer.valueOf(fmc_child.getMonthfm());
+
     }
 
     private void populateRespondentSpinner() {
