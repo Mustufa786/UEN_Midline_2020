@@ -404,7 +404,6 @@
                             <RadioButton
                                 android:id="@+id/h10898"
                                 style="@style/radiobutton"
-                                android:visibility="gone"
                                 android:text="@string/dkn" />
 
                         </RadioGroup>
