@@ -131,9 +131,6 @@ public class SectionE2Activity extends AppCompatActivity {
         bi.e106c.setMaxvalue(CONSTANTS.MAXYEAR);
         bi.e106c.setMinvalue(CONSTANTS.MINYEAR);
 
-        bi.e110c.setMaxvalue(60);
-        bi.e110c.setMinvalue(0);
-
         bi.e113y.setMaxvalue(CONSTANTS.MAXYEAR);
         bi.e113y.setMinvalue(CONSTANTS.MINYEAR);
 

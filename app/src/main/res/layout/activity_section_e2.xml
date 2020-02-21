@@ -152,9 +152,9 @@
             <!--container1-->
             <LinearLayout
                 android:id="@+id/container1"
-                android:orientation="vertical"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
 
                 <!-- e106  Title   -->
                 <androidx.cardview.widget.CardView
@@ -371,9 +371,9 @@
             <!--mainContainer2-->
             <LinearLayout
                 android:id="@+id/mainContainer2"
-                android:orientation="vertical"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
 
                 <!-- e110  Title   -->
                 <androidx.cardview.widget.CardView
@@ -411,9 +411,8 @@
                                     android:maxLength="2"
                                     android:text='@{e11098.checked ? "" : e110a.getText().toString()}'
                                     android:textColor="@android:color/black"
-                                    app:defaultValue="00"
-                                    app:maxValue="31"
-                                    app:minValue="1"
+                                    app:maxValue="29"
+                                    app:minValue="0"
                                     app:type="range" />
 
                             </LinearLayout>
@@ -436,8 +435,8 @@
                                     android:maxLength="2"
                                     android:text='@{e11098.checked ? "" : e110b.getText().toString()}'
                                     android:textColor="@android:color/black"
-                                    app:maxValue="12"
-                                    app:minValue="1"
+                                    app:maxValue="11"
+                                    app:minValue="0"
                                     app:type="range" />
 
                             </LinearLayout>
@@ -460,7 +459,7 @@
                                     android:maxLength="4"
                                     android:text='@{e11098.checked ? "" : e110c.getText().toString()}'
                                     android:textColor="@android:color/black"
-                                    app:maxValue="0"
+                                    app:maxValue="39"
                                     app:minValue="0"
                                     app:type="range" />
 
@@ -475,6 +474,7 @@
                             android:text="@string/dkn" />
 
                     </LinearLayout>
+
                 </androidx.cardview.widget.CardView>
 
                 <!-- e111  Radio   -->
@@ -765,6 +765,5 @@
         </LinearLayout>
 
     </ScrollView>
-
 
 </layout>
