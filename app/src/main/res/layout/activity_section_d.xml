@@ -294,6 +294,7 @@
                             android:layout_margin="10dp" />
 
                     </LinearLayout>
+
                 </androidx.cardview.widget.CardView>
 
                 <!-- d108  (d/m/y)Title   -->

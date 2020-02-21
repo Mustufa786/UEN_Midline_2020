@@ -79,12 +79,12 @@
 
     <string name="a103"> سيريل نمبر </string>
 
-    <string name="a104"> صوبو </string>
+    <string name="a104">" صوبو: "</string>
     <string name="a104a"> بلوچستان </string>
     <string name="a104b"> پنجاب </string>
     <string name="a104c"> سنڌ </string>
 
-    <string name="a105">  ضلعي </string>
+    <string name="a105">"  ضلعو:"</string>
     <string name="a105a"> جعفرآباد </string>
     <string name="a105a_title"> بلوچستان </string>
     <string name="a105b"> نصيرآباد </string>
@@ -124,15 +124,15 @@
 
     <string name="c101"> C101:\t ڇا اجازت ورتي وئي </string>
 
-    <string name="c101a"> زباني اجازت نامو </string>
+    <string name="c101a"> C101a:\t زباني اجازت نامو </string>
     <string name="c101aa"> ها </string>
     <string name="c101ab"> نه </string>
 
-    <string name="c101b"> لکتي اجازت نامو </string>
+    <string name="c101b"> C101b:\t لکتي اجازت نامو </string>
     <string name="c101ba"> ها </string>
     <string name="c101bb"> نه </string>
 
-    <string name="d101"> گھر ڀاتيءَ جو سريل نمبر: </string>
+    <string name="d101"> D101:\t :گھر ڀاتيءَ جو سريل نمبر </string>
 
     <string name="d102"> D102:\t گھر جي ميمبر جو نالو ڇا آهي </string>
     <string name="d102a"> نالو: مھرباني ڪري مون کي پنھنجي گھر ڀاتين جا نالا ٻڌايو جيڪي اڪثر ڪري ھن گھر ۾ رھن ٿا.  گھر جي سربراھ کان نالا لکڻ شروع ڪيو. </string>
@@ -144,7 +144,7 @@
     <string name="d103c"> پُٽُ / ڌيءُ </string>
     <string name="d103d"> نياڻو / ننھن </string>
     <string name="d103e"> پوٽاڻ / ڏوھٽاڻ </string>
-    <string name="d103f"> مائٽ </string>
+    <string name="d103f">" والدين "</string>
     <string name="d103g"> ساھورا </string>
     <string name="d103h"> ڀاءَ / ڀيڻ </string>
     <string name="d103i"> ڀيڻويو / سالي / ڀاڄائي / سنڍو </string>
@@ -155,28 +155,28 @@
     <string name="d103n"> گهر جو ملازم </string>
     <string name="d103o"> خبر نه آھي </string>
 
-    <string name="d104"> D104:\t   جنس : ڇا (نالو) مرد يا عورت آھي؟ </string>
+    <string name="d104">" D104:\t   جنس : ڇا (نالو) مرد يا عورت آھي ؟ "</string>
     <string name="d104a"> مرد </string>
     <string name="d104b"> عورت </string>
 
     <string name="d105"> D105:\t ازدواجي حيثيت</string>
     <string name="d105a"> شادي شدھ </string>
-    <string name="d105b"> غير شادي شدھ</string>
-    <string name="d105c"> بيوھ</string>
-    <string name="d105d"> طلاق شدھ / عليحده</string>
+    <string name="d105b"> غير شادي شدھ </string>
+    <string name="d105c"> بيوھ </string>
+    <string name="d105d"> طلاق شدھ / عليحده </string>
 
-    <string name="d106"> D106:\t لکوNA پيءُ جو سريل نمبر: جيڪڏهن پيءُ جو نالو گھر ڀاتين جي لسٽ ۾ نه آهي ته </string>
+    <string name="d106"> D106:\t لکو NA پيءُ جو سريل نمبر: جيڪڏهن پيءُ جو نالو گھر ڀاتين جي لسٽ ۾ نه آهي ته </string>
     <string name="d106a"> پيءُ جو سيريل نمبر </string>
-    <string name="d106b"> </string>
+    <string name="d106b"> NA </string>
 
     <string name="d107"> D107:\t لکوNA ماءُ جو سريل نمبر: جيڪڏهن پيءُ جو نالو گھر ڀاتين جي لسٽ ۾ نه آهي ته</string>
-    <string name="d107a"> ماءُ جو  سيريل نمبر</string>
-    <string name="d107b"> </string>
+    <string name="d107a"> ماءُ جو  سيريل نمبر </string>
+    <string name="d107b"> NA </string>
 
     <string name="d108"> D108:\t پيدائش جي تاريخ: جيڪڏهن پيدائش جي تاريخ ياد نه آهي ته 00 لکو ۽ عمر درج ڪريو</string>
-    <string name="d108a"> تاريخ</string>
-    <string name="d108b"> مھينو</string>
-    <string name="d108c"> سال</string>
+    <string name="d108a"> تاريخ </string>
+    <string name="d108b"> مھينو </string>
+    <string name="d108c"> سال </string>
 
     <string name="d109"> D109:\t  عمر پيدائش جي تاريخ </string>
     <string name="d109hint"> جيڪڏهن پيدائش جي تاريخ ڏنل آهي ته عمر پيدائش جي تاريخ ۽ انٽرويو جي تاريخ مطابق پاڻمرادو اچي ويندي </string>
@@ -753,7 +753,8 @@
     <string name="h116a"> ھا، صرف ۽ صرف ماءُ جو کير </string>
     <string name="h116b"> ھا، ماءُ جي کير سان گڏ ٻيو کاڌوکائڻ/پيارڻ</string>
     <string name="h116c"> (ڪڏھن به کير نه پياريو (نالو</string>
-    <string name="h117"> h117:\t نالو) ڪيترو وقت صرف ماءُ جي ٿڃ پيتي؟)</string>
+
+    <string name="h117"> h117:\t نالو) ڪيترو وقت صرف ماءُ جي ٿڃ پيتي؟) </string>
     <string name="h118"> h118:\t ڇا توھان اڃا تائين (نالو) کي صرف ماءُ جي ٿڃ پياري رھيا آھيو؟</string>
     <string name="h118a"> ھا 	</string>
     <string name="h118b"> نه </string>
@@ -1027,19 +1028,24 @@
 
 
     <string name="i1_diarrhea"> ھاڻي آءٌ توھان کان توھان جي 5 سالن کان گھٽ عمر اري ٻار جي صحت بابت سوال ڪندس جنھن کي گذريل ٻن ھفتن دوران دست يا ساھ کڻڻ ۾ تڪيلف ٿي ھجي </string>
-    <string name="i101"> i101:\t ڇا گذريل ٻن ھفتن جي دوران توھان جي گھر ۾ 5 سالن کان گھٽ عمر ٻارن کي دستن جي بيماري ٿي؟ </string>
+    <string name="i101"> I101:\t ڇا گذريل ٻن ھفتن جي دوران توھان جي گھر ۾ 5 سالن کان گھٽ عمر ٻارن کي دستن جي بيماري ٿي ؟ </string>
     <string name="i101hint"> An episode of diarrhea is defined as, “(three or more loose stools in a day/24 hours)” </string>
     <string name="i101a"> ھا</string>
     <string name="i101b"> نه</string>
-    <string name="i102"> i102:\t گذريل ٻن ھفتن ۾ ڪيترن ٻارن کي دستن جي بيماري ٿي؟</string>
-    <string name="i103"> i103:\t نالو) کي ڪيترن ڏينھن تائين دستن جي بيماري ھئي؟)</string>
-    <string name="i104"> i104:\t ڇا دستن ۾ رت آيو؟</string>
+
+    <string name="i102"> I102:\t گذريل ٻن ھفتن ۾ ڪيترن ٻارن کي دستن جي بيماري ٿي ؟ </string>
+
+    <string name="i103"> (نالو) کي ڪيترن ڏينھن تائين دستن جي بيماري ھئي ؟ I103:\t </string>
+
+    <string name="i104"> I104:\t ڇا دستن ۾ رت آيو ؟ </string>
     <string name="i104a"> ھا </string>
     <string name="i104b"> نه</string>
     <string name="i104c"> خبر نه آھي </string>
-    <string name="i105"> i105:\t ڇا توھان (نالو) دستن جي بيماري جو علاج ڪرايو؟</string>
+
+    <string name="i105"> I105:\t ڇا توھان (نالو) دستن جي بيماري جو علاج ڪرايو ؟ </string>
     <string name="i105a"> ھا </string>
-    <string name="i105b"> نه</string>
+    <string name="i105b"> نه </string>
+
     <string name="i106"> i106:\t توھان (نالو) دستن جي بيماري جو علاج ڇو نه ڪرايو؟</string>
     <string name="i106a"> ايڏو وڏو مسئلو نه ھو </string>
     <string name="i106b"> پئسا نه ھئا </string>
@@ -2357,7 +2363,7 @@
 
     <string name="dialog_text"> مهرباني ڪري سيڪنڊ ٻار لاء ڄاڻ شامل ڪريو. </string>
     <string name="countNo"> نه </string>
-    <string name="countYes"> ها </string>
+    <string name="countYes">" جي ها "</string>
     <string name="countAlertMsg"> يقينا! توھان جاري رکڻ چاھيو ٿا </string>
 
 

@@ -75,11 +75,11 @@
     <string name="a102a"> جن کلسٹرز میں ایل ایچ ڈبلیو دورہ کرتی ہے </string>
     <string name="a102b"> جن کلسٹرز میں ایل ایچ ڈبلیو دورہ نہیں کرتی </string>
     <string name="a103"> فارم سیریل نمبر: </string>
-    <string name="a104"> ضلع: </string>
+    <string name="a104">" صوبہ: "</string>
     <string name="a104a"> بلوچستان </string>
     <string name="a104b"> پنجاب </string>
     <string name="a104c"> سندھ </string>
-    <string name="a105"> تحصیل: </string>
+    <string name="a105">" ضلع: "</string>
     <string name="a105a"> جعفرآباد </string>
     <string name="a105a_title"> بلوچستان </string>
     <string name="a105b"> نصیرآباد </string>
@@ -91,14 +91,14 @@
     <string name="a105f_title"> سندھ </string>
     <string name="a105g"> سانگھڑ </string>
     <string name="a105h"> قمبر شہداد کوٹ </string>
-    <string name="a106"> یوسی: </string>
-    <string name="a107"> گاؤں\محلہ: </string>
+    <string name="a106">" تحصیل: "</string>
+    <string name="a107">" یوسی: "</string>
     <string name="a108"> جگہ / تحقیق: </string>
     <string name="a108a"> شہری </string>
     <string name="a108b"> دیہی </string>
     <string name="a109"> گاؤں کا نام: </string>
     <string name="a110"> بلاک / محلہ </string>
-    <string name="a111"> سڑک </string>
+    <string name="a111">" گلی: "</string>
     <string name="a112"> گھر / خاندان نمبر </string>
     <string name="a112a"> دستیاب نہیں </string>
 
@@ -114,7 +114,7 @@
     <string name="c101aa"> جی ہاں </string>
     <string name="c101ab"> نہیں </string>
 
-    <string name="c101b"> تحریری اجازت نامہ </string>
+    <string name="c101b"> C101b:\t تحریری اجازت نامہ </string>
     <string name="c101ba"> جی ہاں </string>
     <string name="c101bb"> نہیں </string>
 
@@ -162,7 +162,7 @@
     <string name="d107b"> NA </string>
 
     <string name="d108"> D108:\t تاریخ پیدائش : اگر تاریخ پیدائش معلوم نہیں تو ‘00’ ریکارڈ کریں اور عمر درج کریں </string>
-    <string name="d108a"> دن </string>
+    <string name="d108a">تاریخ</string>
     <string name="d108b"> مہینہ </string>
     <string name="d108c"> سال </string>
 
@@ -341,16 +341,16 @@
     <string name="f102c"> ہیلتھ ہائوس </string>
     <string name="f102d"> میٹرنیٹی ہوم </string>
 
-    <string name="f103"> F103:\t آخری حمل کے دوران پیدائش سے قبل معائنہ کس نے کیا تھا؟ مزید پوچھیں: کوئی اور </string>
+    <string name="f103"> F103:\t آخری حمل کے دوران پیدائش سے قبل معائنہ کس نے کیا تھا ؟ مزید پوچھیں: کوئی اور </string>
     <string name="f103a"> ڈاکٹر </string>
     <string name="f103b"> ایل ایچ وی(لیڈی ہیلتھ وزیٹر) </string>
     <string name="f103c"> نرس </string>
     <string name="f103d"> سی ایم ڈبلیو (کمیونیٹی مڈوائف) </string>
     <string name="f103e"> ایل ایچ ڈبلیو (لیڈی ہیلتھ ورکر) </string>
 
-    <string name="f104"> آپ کے گھر سے وہ مرکز صحت کتنی دور ہے جہاں آپ نے عام طور پر حمل کے دوران قبل از پیدائش معائنے کروائے تھے ؟ </string>
+    <string name="f104"> F104:\t آپ کے گھر سے وہ مرکز صحت کتنی دور ہے جہاں آپ نے عام طور پر حمل کے دوران قبل از پیدائش معائنے کروائے تھے ؟ </string>
 
-    <string name="f105"> آپ عام طور پر اس مرکز صحت تک کس طرح جاتی ہیں جہاں آپ نے اپنے آخری حمل کے دوران (نام) کی پیدائش سے قبل حمل کی دیکھ بھال کے لئے معائنہ یا چیک اپ کروایا تھا ؟ </string>
+    <string name="f105"> F105:\t آپ عام طور پر اس مرکز صحت تک کس طرح جاتی ہیں جہاں آپ نے اپنے آخری حمل کے دوران (نام) کی پیدائش سے قبل حمل کی دیکھ بھال کے لئے معائنہ یا چیک اپ کروایا تھا ؟ </string>
     <string name="f105a"> پیدل </string>
     <string name="f105b"> کار </string>
     <string name="f105c"> موٹر سائیکل </string>
@@ -398,21 +398,21 @@
     <string name="f112b"> نہیں </string>
     <string name="f112c"> معلوم نہیں </string>
 
-    <string name="f113"> آپ نے (نام) کی پیدائش سے قبل حمل کے دوران تشنج سے بچائو کا ٹیکہ کتنی بار لگوایا تھا ؟ </string>
+    <string name="f113"> F113:\t آپ نے (نام) کی پیدائش سے قبل حمل کے دوران تشنج سے بچائو کا ٹیکہ کتنی بار لگوایا تھا ؟ </string>
     <string name="f113a"> تعداد </string>
     <string name="f113b"> معلوم نہیں </string>
 
-    <string name="f114"> کیا آپ نے کبھی (نام) کی پیدائش سے قبل حمل کے دوران فولاد یا آئرن کی گولیاںاستعمال کی تھیں؟ </string>
+    <string name="f114"> F114:\t کیا آپ نے کبھی (نام) کی پیدائش سے قبل حمل کے دوران فولاد یا آئرن کی گولیاں استعمال کی تھیں ؟ </string>
     <string name="f114a"> ہاں </string>
     <string name="f114b"> نہیں </string>
 
-    <string name="f115"> آپ کو(نام) کی پیدائش سے قبل حمل کے دوران فولاد یا آئرن کی گولیاں استعمال کرنے کا مشورہ کس نے دیا تھا؟ </string>
+    <string name="f115"> F115:\t آپ کو (نام) کی پیدائش سے قبل حمل کے دوران فولاد یا آئرن کی گولیاں استعمال کرنے کا مشورہ کس نے دیا تھا ؟ </string>
     <string name="f115a"> ڈاکٹر </string>
     <string name="f115b"> ایل ایچ وی(لیڈی ہیلتھ وزیٹر) </string>
     <string name="f115c"> نرس </string>
-    <string name="f115d"> سی ایم ڈبلیو(کمیونیٹی مڈوائف) </string>
-    <string name="f115e"> ایل ایچ ڈبلیو(لیڈی ہیلتھ ورکر) </string>
-    <string name="f115f"> دائی/ٹی بی اے(پیشہ ور زچگی کروانے والی) </string>
+    <string name="f115d"> سی ایم ڈبلیو (کمیونیٹی مڈوائف) </string>
+    <string name="f115e"> ایل ایچ ڈبلیو (لیڈی ہیلتھ ورکر) </string>
+    <string name="f115f"> دائی / ٹی بی اے (پیشہ ور زچگی کروانے والی) </string>
 
     <string name="f116"> آپ نے حمل کے دوران فولاد یا آئرن کی گولیاں کہاں سے حاصل کی تھیں؟ (ایک سے زیادہ جوابات آسکتے ہیں) </string>
     <string name="f116a"> ڈاکٹر </string>
@@ -1581,15 +1581,15 @@
     <string name="j10410m"> مہینہ </string>
     <string name="j10410y"> سال </string>
 
-    <string name="j10410a"> (نام) کوPenta-3کا ٹیکہ کہاں سے لگوایا تھا؟ </string>
+    <string name="j10410a"> (نام) کو Penta-3 کا ٹیکہ کہاں سے لگوایا تھا ؟ </string>
     <string name="j10410aa"> سرکاری مرکز صحت </string>
     <string name="j10410ab"> نجی مرکز صحت </string>
     <string name="j10410ac"> ای پی آئی سینٹر </string>
     <string name="j10410ad"> کمیونٹی میں موجود ماں اور بچے کی صحت کا سینٹر </string>
     <string name="j10410ae"> رفاہی مرکز صحت میں </string>
-    <string name="j10410af"> بچوں کی صحت کا دن/حفاظتی ٹیکوں کے ہفتے </string>
+    <string name="j10410af"> بچوں کی صحت کا دن / حفاظتی ٹیکوں کے ہفتے </string>
 
-    <string name="j10410b"> (نام) کو کاPenta-3 ٹیکہ کس نے لگایا تھا؟ </string>
+    <string name="j10410b"> (نام) کو کا Penta-3 ٹیکہ کس نے لگایا تھا ؟ </string>
     <string name="j10410ba"> ڈاکٹر </string>
     <string name="j10410bb"> لیڈی ہیلتھ ورکر </string>
     <string name="j10410bc"> لیڈی ہیلتھ وزیٹر </string>
@@ -1719,7 +1719,7 @@
     <string name="j10416m"> مہینہ </string>
     <string name="j10416y"> سال </string>
 
-    <string name="j10416a"> (نام) کو RV2 کا ٹیکہ کہاں سے لگوایا تھا؟ </string>
+    <string name="j10416a"> (نام) کو RV2 کا ٹیکہ کہاں سے لگوایا تھا ؟ </string>
     <string name="j10416aa"> سرکاری مرکز صحت </string>
     <string name="j10416ab"> نجی مرکز صحت </string>
     <string name="j10416ac"> ای پی آئی سینٹر </string>
@@ -1737,7 +1737,7 @@
     <string name="j10416bg"> ڈسپینسر/کمپائونڈڑ </string>
     <string name="j10416bx"> دیگر (وضاحت کریں) </string>
 
-    <string name="j105"> کیا تمام حفاظتی ٹیکوں(بی سی جی سے لے کر خسرہ کی دوسری خوراک تک کی معلومات ریکارڈ کر لی گئی ہیں؟ J104چیک کریں </string>
+    <string name="j105"> کیا تمام حفاظتی ٹیکوں (بی سی جی سے لے کر خسرہ کی دوسری خوراک تک کی معلومات ریکارڈ کر لی گئی ہیں ؟  J104 چیک کریں </string>
     <string name="j105a"> ہاں </string>
     <string name="j105b"> نہیں </string>
 
@@ -1767,20 +1767,20 @@
     <string name="j111b"> نہیں </string>
     <string name="j111c"> معلوم نہیں </string>
 
-    <string name="j112"> کیاپہلی بار پلائے گئے پولیو کے قطرے پیدائش کےبعد پہلے دو ہفتوں میں دیئےگئے تھے؟ </string>
+    <string name="j112"> کیا پہلی بار پلائے گئے پولیو کے قطرے پیدائش کے بعد پہلے دو ہفتوں میں دیئے گئے تھے؟ </string>
     <string name="j112a"> ہاں </string>
     <string name="j112b"> نہیں </string>
     <string name="j112c"> معلوم نہیں </string>
 
-    <string name="j113"> پولیو کے قطرےکتنی بار پلوائے گئے تھے؟ </string>
+    <string name="j113"> پولیو کے قطرے کتنی بار پلوائے گئے تھے؟ </string>
 
-    <string name="j114"> آخری بار جب (نام) کوپولیو کے قطرےپلائے گئے تھے؛ تو کیا اس وقت(بچے/بچی) کو پولیو سےبچائو کا ٹیکہ بھی لگوایا گیا تھا؟ </string>
-    <string name="j114hint"> اس بات کی یقین دہانی کرنے کے لئےمزید پوچھیں کہ کیا اس وقت قطرے اور ٹیکہ دونوں دیئے گئے تھے </string>
+    <string name="j114"> آخری بار جب (نام) کو پولیو کے قطرے پلائے گئے تھے؛ تو کیا اس وقت (بچے/بچی) کو پولیو سے بچائو کا ٹیکہ بھی لگوایا گیا تھا ؟ </string>
+    <string name="j114hint"> اس بات کی یقین دہانی کرنے کے لئے مزید پوچھیں کہ کیا اس وقت قطرے اور ٹیکہ دونوں دیئے گئے تھے </string>
     <string name="j114a"> ہاں </string>
     <string name="j114b"> نہیں </string>
     <string name="j114c"> معلوم نہیں </string>
 
-    <string name="j115"> کیا(نام)کوکبھی(Pentavalent) لگا ہے یہ ایک انجکشن ہےجو ران میں لگایا جاتا ہے جو (بچہ/بچی) کو تشنج،کالی کھانسی، خناق،ہیپا ٹائٹس بی کی بیماری ،اور ہیموفائلس انفلوئنزا بی سےمحفوظ رکھتا ہے؟ </string>
+    <string name="j115"> کیا(نام)کوکبھی(Pentavalent) لگا ہے یہ ایک انجکشن ہے جو ران میں لگایا جاتا ہے جو (بچہ / بچی) کو تشنج،کالی کھانسی، خناق،ہیپا ٹائٹس بی کی بیماری ،اور ہیموفائلس انفلوئنزا بی سےمحفوظ رکھتا ہے ؟ </string>
     <string name="j115hint"> نشاندہی کرتے ہوئے اس بات کی تحقیق کریں کہ بعض اوقات پولیو کے قطروں کے ساتھ ہی پینٹا ویلینٹ ویکسین بھی دی جاتی ہے </string>
     <string name="j115a"> ہاں </string>
     <string name="j115b"> نہیں </string>
@@ -1926,7 +1926,7 @@
     <string name="l103a"> ہاں </string>
     <string name="l103b"> نہیں </string>
 
-    <string name="l104"> L104:\t آپ کا پیشہ کیا ہے ؟ آپ بنیادی طور پر کیا کام کرتے ہیں ؟ </string>
+    <string name="l104"> L104:\t آپ کا پیشہ کیا ہے ؟  آپ بنیادی طور پر کیا کام کرتے ہیں ؟ </string>
     <string name="l104a"> ذراعت </string>
     <string name="l104b"> تعلیم </string>
     <string name="l104c"> ملازم </string>
@@ -1937,7 +1937,7 @@
     <string name="l105"> L105:\t کیا آپ کو اس کام کی تنخواہ ملتی ہے ؟ </string>
     <string name="l105a"> نقد رقم </string>
     <string name="l105b"> اناج </string>
-    <string name="l105c"> نقد اوراناج دونوں </string>
+    <string name="l105c"> نقد اور اناج دونوں </string>
     <string name="l105d"> کچھ نہیں ملتا </string>
 
     <string name="l106"> L106:\t عام طور پر کون فیصلہ کرتا ہے کے آپ کی کمائی ہوئی رقم کیسے خرچ ہوگی ؟ </string>

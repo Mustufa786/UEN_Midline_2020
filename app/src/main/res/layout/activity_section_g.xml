@@ -334,8 +334,8 @@
                             android:id="@+id/g107"
                             style="@style/EditTextNum"
                             android:hint="@string/minutes"
-                            android:maxLength="2"
-                            app:maxValue="59"
+                            app:mask="###"
+                            app:maxValue="180"
                             app:minValue="1"
                             app:type="range" />
 
