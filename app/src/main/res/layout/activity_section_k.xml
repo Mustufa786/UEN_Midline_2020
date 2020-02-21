@@ -427,7 +427,7 @@
                                 android:hint="@string/month"
                                 android:maxLength="2"
                                 android:text='@{k105aac.checked? "" : k105aaa.getText().toString()}'
-                                app:maxValue="11"
+                                app:maxValue="12"
                                 app:minValue="0"
                                 app:type="range" />
 

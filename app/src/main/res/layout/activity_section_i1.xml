@@ -198,7 +198,7 @@
                             android:hint="@string/days"
                             android:maxLength="2"
                             app:defaultValue="00"
-                            app:maxValue="30"
+                            app:maxValue="31"
                             app:minValue="1"
                             app:type="range" />
 

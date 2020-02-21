@@ -193,7 +193,7 @@
                                     android:text='@{e10698.checked ? "" : e106a.getText().toString()}'
                                     android:textColor="@android:color/black"
                                     app:defaultValue="00"
-                                    app:maxValue="30"
+                                    app:maxValue="31"
                                     app:minValue="1"
                                     app:type="range" />
 
@@ -218,7 +218,7 @@
                                     android:text='@{e10698.checked ? "" : e106b.getText().toString()}'
                                     android:textColor="@android:color/black"
                                     app:defaultValue="00"
-                                    app:maxValue="11"
+                                    app:maxValue="12"
                                     app:minValue="1"
                                     app:type="range" />
 
@@ -412,7 +412,7 @@
                                     android:text='@{e11098.checked ? "" : e110a.getText().toString()}'
                                     android:textColor="@android:color/black"
                                     app:defaultValue="00"
-                                    app:maxValue="30"
+                                    app:maxValue="31"
                                     app:minValue="1"
                                     app:type="range" />
 
@@ -436,7 +436,7 @@
                                     android:maxLength="2"
                                     android:text='@{e11098.checked ? "" : e110b.getText().toString()}'
                                     android:textColor="@android:color/black"
-                                    app:maxValue="11"
+                                    app:maxValue="12"
                                     app:minValue="1"
                                     app:type="range" />
 
