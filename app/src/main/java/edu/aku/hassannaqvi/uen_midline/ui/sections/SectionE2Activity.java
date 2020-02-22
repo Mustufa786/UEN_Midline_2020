@@ -35,7 +35,7 @@ public class SectionE2Activity extends AppCompatActivity {
     ActivitySectionE2Binding bi;
     private MWRAContract mwraContract;
     MWRA_PREContract mwraPre;
-    private static int noOfPreCounter = 0;
+    public static int noOfPreCounter = 0;
 
 
     @Override
