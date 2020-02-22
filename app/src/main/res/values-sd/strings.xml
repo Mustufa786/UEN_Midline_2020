@@ -169,11 +169,11 @@
     <string name="d106a"> پيءُ جو سيريل نمبر </string>
     <string name="d106b"> NA </string>
 
-    <string name="d107"> D107:\t لکوNA ماءُ جو سريل نمبر: جيڪڏهن پيءُ جو نالو گھر ڀاتين جي لسٽ ۾ نه آهي ته</string>
+    <string name="d107"> D107:\t لکو NA ماءُ جو سريل نمبر: جيڪڏهن پيءُ جو نالو گھر ڀاتين جي لسٽ ۾ نه آهي ته </string>
     <string name="d107a"> ماءُ جو  سيريل نمبر </string>
     <string name="d107b"> NA </string>
 
-    <string name="d108"> D108:\t پيدائش جي تاريخ: جيڪڏهن پيدائش جي تاريخ ياد نه آهي ته 00 لکو ۽ عمر درج ڪريو</string>
+    <string name="d108"> D108:\t پيدائش جي تاريخ: جيڪڏهن پيدائش جي تاريخ ياد نه آهي ته 00 لکو ۽ عمر درج ڪريو </string>
     <string name="d108a"> تاريخ </string>
     <string name="d108b"> مھينو </string>
     <string name="d108c"> سال </string>
@@ -187,16 +187,16 @@
     <string name="d110"> D110:\t تعليم (نالو) ڪيترا درجه مڪمل طور پڙهيل آهي</string>
     <string name="d110a"> ڪا به نه</string>
     <string name="d110b"> پرائمري ۾</string>
-    <string name="d110c"> (پرائمري / پنجين پاس (1 کان 5 تائين</string>
-    <string name="d110d"> مڊل / اٺين پاس (6 کان 8 تائين)</string>
-    <string name="d110e"> (مئٽرڪ / ڏھين پاس (9 کان 10 تائين)</string>
-    <string name="d110f"> انٽر / ٻارھين پاس (11 کان 12 تائين)</string>
-    <string name="d110g"> گريجوئيشن</string>
-    <string name="d110h"> ماسٽر</string>
-    <string name="d110i"> پي ايڇ ڊي</string>
-    <string name="d110j"> (ڊپلومه (آءِ ٽي/اليڪٽرڪ/ميڪنڪ/سول</string>
-    <string name="d110k"> اسلامي تعليم (حافظ / عالم)</string>
-    <string name="d110l"> خبر نه آھي</string>
+    <string name="d110c"> پرائمري / پنجين پاس (1 کان 5 تائين) </string>
+    <string name="d110d"> مڊل / اٺين پاس (6 کان 8 تائين) </string>
+    <string name="d110e"> مئٽرڪ / ڏھين پاس (9 کان 10 تائين) </string>
+    <string name="d110f"> انٽر / ٻارھين پاس (11 کان 12 تائين) </string>
+    <string name="d110g"> گريجوئيشن </string>
+    <string name="d110h"> ماسٽر </string>
+    <string name="d110i"> پي ايڇ ڊي </string>
+    <string name="d110j"> ڊپلومه (آءِ ٽي / اليڪٽرڪ / ميڪنڪ / سول) </string>
+    <string name="d110k"> اسلامي تعليم (حافظ / عالم) </string>
+    <string name="d110l"> خبر نه آھي </string>
     <string name="d110m"> لاڳو نه ٿو ٿئي </string>
 
     <string name="d111"> D111:\t ڌنڌو </string>

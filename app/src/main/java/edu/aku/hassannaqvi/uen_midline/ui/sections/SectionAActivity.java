@@ -86,8 +86,6 @@ public class SectionAActivity extends AppCompatActivity implements Util.EndSecAA
                     bi.fldGrpSectionA02.setVisibility(View.GONE);
                     Clear.clearAllFields(bi.fldGrpSectionA02);
                 }
-
-
             }
 
             @Override
