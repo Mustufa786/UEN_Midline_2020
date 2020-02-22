@@ -16,6 +16,7 @@ import edu.aku.hassannaqvi.uen_midline.R;
 import edu.aku.hassannaqvi.uen_midline.core.DatabaseHelper;
 import edu.aku.hassannaqvi.uen_midline.core.MainApp;
 import edu.aku.hassannaqvi.uen_midline.databinding.ActivityEndingBinding;
+import edu.aku.hassannaqvi.uen_midline.ui.sections.SectionE2Activity;
 
 public class EndingActivity extends AppCompatActivity {
 
@@ -51,6 +52,7 @@ public class EndingActivity extends AppCompatActivity {
             bi.istatus96.setEnabled(true);
         }
 
+
 //
     }
 
@@ -80,6 +82,7 @@ public class EndingActivity extends AppCompatActivity {
 
         MainApp.fc.setIstatus88x(bi.istatus96x.getText().toString());
         MainApp.fc.setEndingdatetime(new SimpleDateFormat("dd-MM-yy HH:mm").format(new Date().getTime()));
+        SectionE2Activity.noOfPreCounter = 0;
     }
 
     public boolean UpdateDB() {
