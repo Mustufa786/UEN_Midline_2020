@@ -7,6 +7,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
 
+import com.validatorcrawler.aliazaz.Clear;
 import com.validatorcrawler.aliazaz.Validator;
 
 import org.json.JSONException;
@@ -18,7 +19,6 @@ import edu.aku.hassannaqvi.uen_midline.core.DatabaseHelper;
 import edu.aku.hassannaqvi.uen_midline.core.MainApp;
 import edu.aku.hassannaqvi.uen_midline.databinding.ActivitySectionNBinding;
 import edu.aku.hassannaqvi.uen_midline.utils.Util;
-import edu.aku.hassannaqvi.uen_midline.validator.ClearClass;
 
 public class SectionNActivity extends AppCompatActivity {
 
@@ -38,20 +38,20 @@ public class SectionNActivity extends AppCompatActivity {
 
         bi.n103.setOnCheckedChangeListener(((radioGroup, i) -> {
             if (i != bi.n103c.getId()) {
-                ClearClass.ClearAllFields(bi.fldGrpCVn104, null);
+                Clear.clearAllFields(bi.fldGrpCVn104);
             }
 
         }));
 
         bi.n108.setOnCheckedChangeListener(((radioGroup, i) -> {
             if (i != bi.n108a.getId()) {
-                ClearClass.ClearAllFields(bi.fldGrpCVn109, null);
+                Clear.clearAllFields(bi.fldGrpCVn109);
             }
         }));
 
         bi.n111.setOnCheckedChangeListener(((radioGroup, i) -> {
             if (i != bi.n111a.getId()) {
-                ClearClass.ClearAllFields(bi.fldGrp1213, null);
+                Clear.clearAllFields(bi.fldGrp1213);
             }
         }));
     }

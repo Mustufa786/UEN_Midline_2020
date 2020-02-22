@@ -16,15 +16,14 @@
 
     <ScrollView
         style="@style/i_scrollview"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layoutDirection="rtl"
+        android:textDirection="rtl">
 
 
         <LinearLayout
             android:id="@+id/fldGrpSectionE3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layoutDirection="ltr"
             android:orientation="vertical">
 
             <!-- e116_title  Title   -->
@@ -41,7 +40,9 @@
                     <TextView
                         style="@style/textView3Head"
                         android:text="@string/e116_title" />
+
                 </LinearLayout>
+
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView

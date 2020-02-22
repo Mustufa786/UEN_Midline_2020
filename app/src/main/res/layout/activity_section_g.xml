@@ -1,6 +1,5 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools">
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <data>
 
@@ -13,15 +12,12 @@
 
     <ScrollView
         style="@style/i_scrollview"
-        android:fadeScrollbars="false"
-        android:fillViewport="true"
-        android:scrollbarSize="10dip"
-        tools:context=".ui.Myactivity">
+        android:layoutDirection="rtl"
+        android:textDirection="rtl">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layoutDirection="ltr"
             android:orientation="vertical">
 
             <LinearLayout
@@ -338,8 +334,8 @@
                             android:id="@+id/g107"
                             style="@style/EditTextNum"
                             android:hint="@string/minutes"
-                            android:maxLength="2"
-                            app:maxValue="59"
+                            app:mask="###"
+                            app:maxValue="180"
                             app:minValue="1"
                             app:type="range" />
 
@@ -772,7 +768,9 @@
                                     android:id="@+id/g117a"
                                     style="@style/EditTextNum"
                                     android:hint="@string/days"
+                                    android:enabled="@{g11798.checked ? false : true}"
                                     android:maxLength="2"
+                                    android:text='@{g11798.checked ? "" : g117a.getText().toString()}'
                                     android:textColor="@android:color/black"
                                     app:defaultValue="00"
                                     app:maxValue="30"
@@ -795,7 +793,9 @@
                                     android:id="@+id/g117b"
                                     style="@style/EditTextNum"
                                     android:hint="@string/hours"
+                                    android:enabled="@{g11798.checked ? false : true}"
                                     android:maxLength="2"
+                                    android:text='@{g11798.checked ? "" : g117b.getText().toString()}'
                                     android:textColor="@android:color/black"
                                     app:defaultValue="00"
                                     app:maxValue="23"
@@ -819,7 +819,9 @@
                                     style="@style/EditTextNum"
                                     android:digits="0123456789"
                                     android:hint="@string/minutes"
+                                    android:enabled="@{g11798.checked ? false : true}"
                                     android:maxLength="2"
+                                    android:text='@{g11798.checked ? "" : g117c.getText().toString()}'
                                     android:textColor="@android:color/black"
                                     app:defaultValue="00"
                                     app:maxValue="59"
@@ -829,6 +831,12 @@
                             </LinearLayout>
 
                         </LinearLayout>
+
+                        <CheckBox
+                            android:id="@+id/g11798"
+                            style="@style/checkbox"
+                            android:tag="-1"
+                            android:text="@string/dkn" />
 
                     </LinearLayout>
 
@@ -848,14 +856,33 @@
                             style="@style/i_textview"
                             android:text="@string/g118" />
 
-                        <com.edittextpicker.aliazaz.EditTextPicker
-                            android:id="@+id/g118"
-                            style="@style/EditTextNum"
-                            android:hint="@string/rupees"
-                            android:maxLength="6"
-                            app:maxValue="100000"
-                            app:minValue="1"
-                            app:type="range" />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <com.edittextpicker.aliazaz.EditTextPicker
+                                android:id="@+id/g118"
+                                style="@style/EditTextNum"
+                                android:layout_width="0dp"
+                                android:layout_weight="2"
+                                android:enabled='@{g11898.checked? false : true}'
+                                android:hint="@string/rupees"
+                                android:maxLength="6"
+                                android:text='@{g11898.checked? "" : g118.getText().toString()}'
+                                app:maxValue="700000"
+                                app:minValue="1"
+                                app:type="range" />
+
+                            <CheckBox
+                                android:id="@+id/g11898"
+                                style="@style/checkbox"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:tag="-1"
+                                android:text="@string/dkn" />
+
+                        </LinearLayout>
 
                     </LinearLayout>
 
@@ -1440,7 +1467,6 @@
                     </LinearLayout>
 
                 </androidx.cardview.widget.CardView>
-
 
             </LinearLayout>
 

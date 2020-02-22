@@ -7,6 +7,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
 
+import com.validatorcrawler.aliazaz.Clear;
 import com.validatorcrawler.aliazaz.Validator;
 
 import org.json.JSONException;
@@ -20,7 +21,6 @@ import edu.aku.hassannaqvi.uen_midline.core.DatabaseHelper;
 import edu.aku.hassannaqvi.uen_midline.core.MainApp;
 import edu.aku.hassannaqvi.uen_midline.databinding.ActivitySectionJBinding;
 import edu.aku.hassannaqvi.uen_midline.utils.Util;
-import edu.aku.hassannaqvi.uen_midline.validator.ClearClass;
 
 public class SectionJActivity extends AppCompatActivity {
 
@@ -85,6 +85,9 @@ public class SectionJActivity extends AppCompatActivity {
         bi.j10408y.setMaxvalue(CONSTANTS.MAXYEAR);
         bi.j10408y.setMinvalue(CONSTANTS.MINYEAR_IM);
 
+        //Immunization visibility
+        int totalMonth = Integer.valueOf(fmc_child.getAge()) + Integer.valueOf(fmc_child.getMonthfm());
+
     }
 
     private void populateRespondentSpinner() {
@@ -140,7 +143,7 @@ public class SectionJActivity extends AppCompatActivity {
         bi.j101.setOnCheckedChangeListener(((radioGroup, i) -> {
 
             if (i != bi.j101c.getId()) {
-                ClearClass.ClearAllFields(bi.fldGrpCVj102, null);
+                Clear.clearAllFields(bi.fldGrpCVj102);
             }
 
         }));
@@ -148,7 +151,7 @@ public class SectionJActivity extends AppCompatActivity {
         bi.j102.setOnCheckedChangeListener(((radioGroup, i) -> {
 
             if (i == bi.j102a.getId() || i == bi.j102b.getId()) {
-                ClearClass.ClearAllFields(bi.fldGrpSectionJ011, null);
+                Clear.clearAllFields(bi.fldGrpSectionJ011);
             }
 
         }));

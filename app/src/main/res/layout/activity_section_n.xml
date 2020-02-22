@@ -1,6 +1,5 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools">
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <data>
 
@@ -13,16 +12,13 @@
 
     <ScrollView
         style="@style/i_scrollview"
-        android:fadeScrollbars="false"
-        android:fillViewport="true"
-        android:scrollbarSize="10dip"
-        tools:context=".ui.Myactivity">
+        android:layoutDirection="rtl"
+        android:textDirection="rtl">
 
         <LinearLayout
             android:id="@+id/fldGrpSectionN"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layoutDirection="ltr"
             android:orientation="vertical">
 
             <!-- n101  Radio   -->
@@ -81,7 +77,6 @@
                             style="@style/radiobutton"
                             android:text="@string/n101f" />
 
-
                         <RadioButton
                             android:id="@+id/n101g"
                             style="@style/radiobutton"
@@ -91,12 +86,10 @@
                             style="@style/i_textviewhint"
                             android:text="@string/n101h_title" />
 
-
                         <RadioButton
                             android:id="@+id/n101h"
                             style="@style/radiobutton"
                             android:text="@string/n101h" />
-
 
                         <RadioButton
                             android:id="@+id/n101i"
@@ -285,7 +278,7 @@
 
             </androidx.cardview.widget.CardView>
 
-            <!-- n104  Radio   -->
+            <!-- n104  EditText & CheckBox   -->
             <androidx.cardview.widget.CardView
                 android:id="@+id/fldGrpCVn104"
                 style="@style/cardView"
@@ -644,7 +637,6 @@
                             android:id="@+id/n110f"
                             style="@style/radiobutton"
                             android:text="@string/n110f" />
-
 
                         <RadioButton
                             android:id="@+id/n110g"

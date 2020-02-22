@@ -8,6 +8,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
 
+import com.validatorcrawler.aliazaz.Clear;
 import com.validatorcrawler.aliazaz.Validator;
 
 import org.json.JSONException;
@@ -19,7 +20,6 @@ import edu.aku.hassannaqvi.uen_midline.core.DatabaseHelper;
 import edu.aku.hassannaqvi.uen_midline.core.MainApp;
 import edu.aku.hassannaqvi.uen_midline.databinding.ActivitySectionH2Binding;
 import edu.aku.hassannaqvi.uen_midline.utils.Util;
-import edu.aku.hassannaqvi.uen_midline.validator.ClearClass;
 
 public class SectionH2Activity extends AppCompatActivity {
 
@@ -45,9 +45,9 @@ public class SectionH2Activity extends AppCompatActivity {
                 bi.fldGrpCVh204.setVisibility(View.VISIBLE);
                 bi.fldGrpCVh205.setVisibility(View.VISIBLE);
             } else {
-                ClearClass.ClearAllFields(bi.fldGrpCVh203, null);
-                ClearClass.ClearAllFields(bi.fldGrpCVh204, null);
-                ClearClass.ClearAllFields(bi.fldGrpCVh205, null);
+                Clear.clearAllFields(bi.fldGrpCVh203);
+                Clear.clearAllFields(bi.fldGrpCVh204);
+                Clear.clearAllFields(bi.fldGrpCVh205);
                 bi.fldGrpCVh203.setVisibility(View.GONE);
                 bi.fldGrpCVh204.setVisibility(View.GONE);
                 bi.fldGrpCVh205.setVisibility(View.GONE);
@@ -62,8 +62,8 @@ public class SectionH2Activity extends AppCompatActivity {
                 bi.fldGrpCVh207.setVisibility(View.VISIBLE);
                 bi.fldGrpCVh208.setVisibility(View.VISIBLE);
             } else {
-                ClearClass.ClearAllFields(bi.fldGrpCVh207, null);
-                ClearClass.ClearAllFields(bi.fldGrpCVh208, null);
+                Clear.clearAllFields(bi.fldGrpCVh207);
+                Clear.clearAllFields(bi.fldGrpCVh208);
                 bi.fldGrpCVh207.setVisibility(View.GONE);
                 bi.fldGrpCVh208.setVisibility(View.GONE);
             }
@@ -79,10 +79,10 @@ public class SectionH2Activity extends AppCompatActivity {
                 bi.fldGrpCVh212.setVisibility(View.VISIBLE);
                 bi.fldGrpCVh213.setVisibility(View.VISIBLE);
             } else {
-                ClearClass.ClearAllFields(bi.fldGrpCVh210, null);
-                ClearClass.ClearAllFields(bi.fldGrpCVh211, null);
-                ClearClass.ClearAllFields(bi.fldGrpCVh212, null);
-                ClearClass.ClearAllFields(bi.fldGrpCVh213, null);
+                Clear.clearAllFields(bi.fldGrpCVh210);
+                Clear.clearAllFields(bi.fldGrpCVh211);
+                Clear.clearAllFields(bi.fldGrpCVh212);
+                Clear.clearAllFields(bi.fldGrpCVh213);
                 bi.fldGrpCVh210.setVisibility(View.GONE);
                 bi.fldGrpCVh211.setVisibility(View.GONE);
                 bi.fldGrpCVh212.setVisibility(View.GONE);
@@ -101,11 +101,11 @@ public class SectionH2Activity extends AppCompatActivity {
                 bi.fldGrpCVh222.setVisibility(View.VISIBLE);
                 bi.fldGrpCVh223.setVisibility(View.VISIBLE);
             } else {
-                ClearClass.ClearAllFields(bi.fldGrpCVh219, null);
-                ClearClass.ClearAllFields(bi.fldGrpCVh220, null);
-                ClearClass.ClearAllFields(bi.fldGrpCVh221, null);
-                ClearClass.ClearAllFields(bi.fldGrpCVh222, null);
-                ClearClass.ClearAllFields(bi.fldGrpCVh223, null);
+                Clear.clearAllFields(bi.fldGrpCVh219);
+                Clear.clearAllFields(bi.fldGrpCVh220);
+                Clear.clearAllFields(bi.fldGrpCVh221);
+                Clear.clearAllFields(bi.fldGrpCVh222);
+                Clear.clearAllFields(bi.fldGrpCVh223);
                 bi.fldGrpCVh219.setVisibility(View.GONE);
                 bi.fldGrpCVh220.setVisibility(View.GONE);
                 bi.fldGrpCVh221.setVisibility(View.GONE);
@@ -117,10 +117,10 @@ public class SectionH2Activity extends AppCompatActivity {
         //h20798
         bi.h20798.setOnCheckedChangeListener((compoundButton, b) -> {
             if (b) {
-                ClearClass.ClearAllFields(bi.h207check, false);
+                Clear.clearAllFields(bi.h207check, false);
                 bi.h207check.setTag("-1");
             } else {
-                ClearClass.ClearAllFields(bi.h207check, true);
+                Clear.clearAllFields(bi.h207check, true);
                 bi.h207check.setTag("0");
             }
         });
@@ -220,15 +220,15 @@ public class SectionH2Activity extends AppCompatActivity {
                         bi.h210c.isChecked() ? "3" :
                                 bi.h21098.isChecked() ? "98" : "0");
 
-        json.put("h211", bi.h211a.isChecked() ? "1" :
-                bi.h211b.isChecked() ? "2" :
-                        bi.h211c.isChecked() ? "3" :
-                                bi.h211d.isChecked() ? "4" :
-                                        bi.h211e.isChecked() ? "5" :
-                                                bi.h211f.isChecked() ? "6" :
-                                                        bi.h211g.isChecked() ? "7" :
-                                                                bi.h211h.isChecked() ? "8" :
-                                                                        bi.h211i.isChecked() ? "9" : "0");
+        json.put("h211a", bi.h211a.isChecked() ? "1" : "0");
+        json.put("h211b", bi.h211b.isChecked() ? "2" : "0");
+        json.put("h211c", bi.h211c.isChecked() ? "3" : "0");
+        json.put("h211d", bi.h211d.isChecked() ? "4" : "0");
+        json.put("h211e", bi.h211e.isChecked() ? "5" : "0");
+        json.put("h211f", bi.h211f.isChecked() ? "6" : "0");
+        json.put("h211g", bi.h211g.isChecked() ? "7" : "0");
+        json.put("h211h", bi.h211h.isChecked() ? "8" : "0");
+        json.put("h211i", bi.h211i.isChecked() ? "9" : "0");
 
         json.put("h212", bi.h212.getText().toString());
 
@@ -245,7 +245,8 @@ public class SectionH2Activity extends AppCompatActivity {
                 bi.h215b.isChecked() ? "2" :
                         bi.h215c.isChecked() ? "3" :
                                 bi.h215d.isChecked() ? "4" :
-                                        bi.h215e.isChecked() ? "5" : "0");
+                                        bi.h215e.isChecked() ? "5" :
+                                                bi.h21598.isChecked() ? "98" : "0");
 
         json.put("h216", bi.h216a.isChecked() ? "1" :
                 bi.h216b.isChecked() ? "2" :

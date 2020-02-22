@@ -2401,7 +2401,7 @@
     <string name="n112a"> دوسرے گھرانے (عوام الناس نہیں) </string>
     <string name="n112b"> عوام الناس نہیں </string>
 
-    <string name="n113"> مجموعی طور پر کتنے گھرانے اس سہولت کو استعمال کرتے ہیں، اپنے گھر کو شامل کرتے ہوئے بتائیں ؟ </string>
+    <string name="n113"> مجموعی طور پر کتنے گھرانے اس سہولت کو استعمال کرتے ہیں، اپنے گھر کو شامل کرتے ہوئے بتائیں؟ </string>
     <string name="n113a"> گھرانوں کی تعداد(اگر 10 سے کم) </string>
     <string name="n113b"> دس یا اس سے زیادہ گھرانے </string>
     <string name="n113c"> معلوم نہیں </string>
@@ -2466,5 +2466,6 @@
     <string name="countNo"> نہیں </string>
     <string name="countYes"> جی ہاں </string>
     <string name="countAlertMsg"> یقینا! آپ جاری رکھنا چاہتے ہیں </string>
+
 
 </resources>

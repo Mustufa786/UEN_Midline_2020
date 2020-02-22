@@ -1,6 +1,5 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools">
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <data>
 
@@ -13,15 +12,12 @@
 
     <ScrollView
         style="@style/i_scrollview"
-        android:fadeScrollbars="false"
-        android:fillViewport="true"
-        android:scrollbarSize="10dip"
-        tools:context=".ui.Myactivity">
+        android:layoutDirection="rtl"
+        android:textDirection="rtl">
 
         <LinearLayout
             android:id="@+id/fldGrpSectionM"
-            style="@style/linearlayout_view_wt_bound"
-            android:layoutDirection="ltr">
+            style="@style/linearlayout_view_wt_bound">
 
             <!-- m101  Radio   -->
             <androidx.cardview.widget.CardView
@@ -660,7 +656,6 @@
 
                 </LinearLayout>
 
-
             </androidx.cardview.widget.CardView>
 
             <!-- m107e  Radio   -->
@@ -1085,16 +1080,13 @@
                             android:layout_weight="1"
                             android:text="@string/m112a" />
 
-                        <com.edittextpicker.aliazaz.EditTextPicker
+                        <EditText
                             android:id="@+id/m112a"
                             style="@style/EditTextNum"
                             android:layout_width="0dp"
                             android:layout_weight="1"
-                            android:hint="@string/num"
-                            app:defaultValue="00"
-                            app:maxValue="10"
-                            app:minValue="0"
-                            app:type="range" />
+                            android:hint="##"
+                            android:maxLength="2" />
 
                     </LinearLayout>
 
@@ -1109,16 +1101,13 @@
                             android:layout_weight="1"
                             android:text="@string/m112b" />
 
-                        <com.edittextpicker.aliazaz.EditTextPicker
+                        <EditText
                             android:id="@+id/m112b"
                             style="@style/EditTextNum"
                             android:layout_width="0dp"
                             android:layout_weight="1"
-                            android:hint="@string/num"
-                            app:defaultValue="00"
-                            app:maxValue="10"
-                            app:minValue="0"
-                            app:type="range" />
+                            android:hint="##"
+                            android:maxLength="2" />
 
                     </LinearLayout>
 
@@ -1133,16 +1122,13 @@
                             android:layout_weight="1"
                             android:text="@string/m112c" />
 
-                        <com.edittextpicker.aliazaz.EditTextPicker
+                        <EditText
                             android:id="@+id/m112c"
                             style="@style/EditTextNum"
                             android:layout_width="0dp"
                             android:layout_weight="1"
-                            android:hint="@string/num"
-                            app:defaultValue="00"
-                            app:maxValue="10"
-                            app:minValue="0"
-                            app:type="range" />
+                            android:hint="##"
+                            android:maxLength="2" />
 
                     </LinearLayout>
 
@@ -1157,16 +1143,13 @@
                             android:layout_weight="1"
                             android:text="@string/m112d" />
 
-                        <com.edittextpicker.aliazaz.EditTextPicker
+                        <EditText
                             android:id="@+id/m112d"
                             style="@style/EditTextNum"
                             android:layout_width="0dp"
                             android:layout_weight="1"
-                            android:hint="@string/num"
-                            app:defaultValue="00"
-                            app:maxValue="10"
-                            app:minValue="0"
-                            app:type="range" />
+                            android:hint="##"
+                            android:maxLength="2" />
 
                     </LinearLayout>
 
@@ -1181,16 +1164,13 @@
                             android:layout_weight="1"
                             android:text="@string/m112e" />
 
-                        <com.edittextpicker.aliazaz.EditTextPicker
+                        <EditText
                             android:id="@+id/m112e"
                             style="@style/EditTextNum"
                             android:layout_width="0dp"
                             android:layout_weight="1"
-                            android:hint="@string/num"
-                            app:defaultValue="00"
-                            app:maxValue="10"
-                            app:minValue="0"
-                            app:type="range" />
+                            android:hint="##"
+                            android:maxLength="2" />
 
                     </LinearLayout>
 
@@ -1205,16 +1185,13 @@
                             android:layout_weight="1"
                             android:text="@string/m112f" />
 
-                        <com.edittextpicker.aliazaz.EditTextPicker
+                        <EditText
                             android:id="@+id/m112f"
                             style="@style/EditTextNum"
                             android:layout_width="0dp"
                             android:layout_weight="1"
-                            android:hint="@string/num"
-                            app:defaultValue="00"
-                            app:maxValue="10"
-                            app:minValue="0"
-                            app:type="range" />
+                            android:hint="##"
+                            android:maxLength="2" />
 
                     </LinearLayout>
 
@@ -1229,16 +1206,13 @@
                             android:layout_weight="1"
                             android:text="@string/m112g" />
 
-                        <com.edittextpicker.aliazaz.EditTextPicker
+                        <EditText
                             android:id="@+id/m112g"
                             style="@style/EditTextNum"
                             android:layout_width="0dp"
                             android:layout_weight="1"
-                            android:hint="@string/num"
-                            app:defaultValue="00"
-                            app:maxValue="10"
-                            app:minValue="0"
-                            app:type="range" />
+                            android:hint="##"
+                            android:maxLength="2" />
 
                     </LinearLayout>
 

@@ -11,6 +11,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
 
+import com.validatorcrawler.aliazaz.Clear;
 import com.validatorcrawler.aliazaz.Validator;
 
 import org.json.JSONException;
@@ -27,7 +28,7 @@ import edu.aku.hassannaqvi.uen_midline.core.DatabaseHelper;
 import edu.aku.hassannaqvi.uen_midline.core.MainApp;
 import edu.aku.hassannaqvi.uen_midline.databinding.ActivitySectionE2Binding;
 import edu.aku.hassannaqvi.uen_midline.utils.Util;
-import edu.aku.hassannaqvi.uen_midline.validator.ClearClass;
+import edu.aku.hassannaqvi.uen_midline.validator.ClearClassOld;
 
 public class SectionE2Activity extends AppCompatActivity {
 
@@ -76,19 +77,19 @@ public class SectionE2Activity extends AppCompatActivity {
                 bi.fldGrpCVe109.setVisibility(View.GONE);
                 bi.fldGrpCVe107.setVisibility(View.GONE);
                 bi.fldGrpCVe110.setVisibility(View.GONE);
-                ClearClass.ClearAllFields(bi.fldGrpCVd108, null);
-                ClearClass.ClearAllFields(bi.fldGrpCVe108, null);
-                ClearClass.ClearAllFields(bi.fldGrpCVe109, null);
-                ClearClass.ClearAllFields(bi.fldGrpCVe107, null);
-                ClearClass.ClearAllFields(bi.fldGrpCVe110, null);
+                Clear.clearAllFields(bi.fldGrpCVd108);
+                Clear.clearAllFields(bi.fldGrpCVe108);
+                Clear.clearAllFields(bi.fldGrpCVe109);
+                Clear.clearAllFields(bi.fldGrpCVe107);
+                Clear.clearAllFields(bi.fldGrpCVe110);
                 bi.mainContainer2.setVisibility(View.VISIBLE);
 
               /*  bi.container1.setVisibility(View.GONE);
                 bi.container2.setVisibility(View.VISIBLE);
                 bi.container3.setVisibility(View.VISIBLE);
                 bi.fldGrpCVe110.setVisibility(View.GONE);
-                ClearClass.ClearAllFields(bi.fldGrpCVe110, null);
-                ClearClass.ClearAllFields(bi.container1, null);*/
+                Clear.clearAllFields(bi.fldGrpCVe110);
+                Clear.clearAllFields(bi.container1);*/
             } else {
                 bi.fldGrpCVd108.setVisibility(View.VISIBLE);
                 bi.fldGrpCVe108.setVisibility(View.VISIBLE);
@@ -97,32 +98,39 @@ public class SectionE2Activity extends AppCompatActivity {
                 bi.fldGrpCVe110.setVisibility(View.VISIBLE);
                 /*bi.container1.setVisibility(View.VISIBLE);*/
                 /*bi.fldGrpCVe110.setVisibility(View.VISIBLE);*/
+                bi.mainContainer2.setVisibility(View.GONE);
             }
 
         }));
 
 
-        bi.e107.setOnCheckedChangeListener(((radioGroup, i) -> {
+        bi.e108.setOnCheckedChangeListener(((radioGroup, i) -> {
 
-            if (i == bi.e107b.getId()) {
+            if (i == bi.e108b.getId()) {
                 bi.mainContainer2.setVisibility(View.VISIBLE);
                 bi.fldGrpCVe113.setVisibility(View.GONE);
                 bi.fldGrpCVe114.setVisibility(View.GONE);
                 bi.fldGrpCVe115.setVisibility(View.GONE);
-                ClearClass.ClearAllFields(bi.fldGrpCVe113, null);
-                ClearClass.ClearAllFields(bi.fldGrpCVe114, null);
-                ClearClass.ClearAllFields(bi.fldGrpCVe115, null);
+                Clear.clearAllFields(bi.fldGrpCVe113);
+                Clear.clearAllFields(bi.fldGrpCVe114);
+                Clear.clearAllFields(bi.fldGrpCVe115);
             } else {
                 bi.mainContainer2.setVisibility(View.GONE);
-                ClearClass.ClearAllFields(bi.mainContainer2, null);
+                Clear.clearAllFields(bi.mainContainer2);
             }
+
+
+            if (i == bi.e105b.getId()
+                    || i == bi.e105e.getId()
+                    || i == bi.e105f.getId()) {
+                bi.mainContainer2.setVisibility(View.VISIBLE);
+            }
+
+
         }));
 
         bi.e106c.setMaxvalue(CONSTANTS.MAXYEAR);
         bi.e106c.setMinvalue(CONSTANTS.MINYEAR);
-
-        bi.e110c.setMaxvalue(CONSTANTS.MAXYEAR);
-        bi.e110c.setMinvalue(CONSTANTS.MINYEAR);
 
         bi.e113y.setMaxvalue(CONSTANTS.MAXYEAR);
         bi.e113y.setMinvalue(CONSTANTS.MINYEAR);
@@ -185,14 +193,22 @@ public class SectionE2Activity extends AppCompatActivity {
 
     }
 
+    /*    private void clearContainer() {
+            Clear.clearAllFields(bi.container1);
+            Clear.clearAllFields(bi.mainContainer2);
+            Clear.clearAllFields(bi.e104015, false);
+            bi.e104b.setChecked(true);
+            bi.e105c.setChecked(true);
+            MainApp.twinFlag = false;
+
+        }*/
     private void clearContainer() {
-        ClearClass.ClearAllFields(bi.container1, null);
-        ClearClass.ClearAllFields(bi.mainContainer2, null);
-        ClearClass.ClearAllFields(bi.e104015, false);
+        ClearClassOld.ClearAllFields(bi.container1, null);
+        ClearClassOld.ClearAllFields(bi.mainContainer2, null);
+        ClearClassOld.ClearAllFields(bi.e104015, false);
         bi.e104b.setChecked(true);
         bi.e105c.setChecked(true);
         MainApp.twinFlag = false;
-
     }
 
     private boolean UpdateDB() {
@@ -222,7 +238,9 @@ public class SectionE2Activity extends AppCompatActivity {
         e2.put("fm_serial", mwraContract.getFm_serial());
         e2.put("fm_uid", mwraContract.getFmuid());
         e2.put("hhno", MainApp.fc.getHhno());
-        e2.put("cluster", MainApp.fc.getClusterCode());
+        e2.put("cluster_no", MainApp.fc.getClusterCode());
+        e2.put("_luid", MainApp.fc.getLuid());
+        e2.put("appversion", MainApp.appInfo.getAppVersion());
         e2.put("counter", noOfPreCounter);
 
         e2.put("e104", bi.e104a.isChecked() ? "1" :

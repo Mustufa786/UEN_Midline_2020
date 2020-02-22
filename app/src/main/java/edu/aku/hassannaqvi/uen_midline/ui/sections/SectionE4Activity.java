@@ -108,8 +108,10 @@ public class SectionE4Activity extends AppCompatActivity {
 
         JSONObject f1 = new JSONObject();
         f1.put("hhno", MainApp.fc.getHhno());
-        f1.put("cluster", MainApp.fc.getClusterCode());
+        f1.put("cluster_no", MainApp.fc.getClusterCode());
         f1.put("counter", noOfDeath);
+        f1.put("_luid", MainApp.fc.getLuid());
+        f1.put("appversion", MainApp.appInfo.getAppVersion());
         f1.put("e118", bi.e118.getText().toString());
         f1.put("e119a", bi.e119a.getText().toString());
         f1.put("e119b", bi.e119b.getText().toString());

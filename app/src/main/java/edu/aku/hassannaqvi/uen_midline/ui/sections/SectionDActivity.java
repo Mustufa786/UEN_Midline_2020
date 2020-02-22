@@ -145,6 +145,7 @@ public class SectionDActivity extends AppCompatActivity {
     private void SaveDraft() throws JSONException {
 
         if (fmcFLAG) {
+            fmc.setUuid(MainApp.fc.get_UID());
             fmc.setClusterno(MainApp.fc.getClusterCode());
             fmc.setHhno(MainApp.fc.getHhno());
             fmc.setSerialno(bi.d101.getText().toString());
@@ -190,6 +191,7 @@ public class SectionDActivity extends AppCompatActivity {
         sd.put("deviceid", MainApp.appInfo.getDeviceID());
         sd.put("tagid", MainApp.appInfo.getTagName());
         sd.put("appversion", MainApp.appInfo.getAppVersion());
+        sd.put("_luid", MainApp.fc.getLuid());
 
         sd.put("d106", fatherSerial);
         fmc.setfName(bi.d106.getSelectedItem().toString());
@@ -203,6 +205,7 @@ public class SectionDActivity extends AppCompatActivity {
         sd.put("d108c", bi.d108c.getText().toString());
         sd.put("d109", bi.d109.getText().toString());
         fmc.setAge(bi.d109.getText().toString());
+        fmc.setMonthfm(bi.d109a.getText().toString().trim().isEmpty() ? "0" : bi.d109a.getText().toString());
 
         sd.put("d110", bi.d110a.isChecked() ? "0" :
                 bi.d110b.isChecked() ? "1" :
@@ -309,9 +312,12 @@ public class SectionDActivity extends AppCompatActivity {
             public void onTextChanged(CharSequence s, int start, int before, int count) {
                 bi.d109.setEnabled(false);
                 bi.d109.setText(null);
+                bi.d109a.setEnabled(false);
+                bi.d109a.setText(null);
                 if (bi.d108c.getText().toString().isEmpty()) return;
-                if (bi.d108c.getText().toString().equals("00")) {
+                if (bi.d108a.getText().toString().equals("00") || bi.d108b.getText().toString().equals("00") || bi.d108c.getText().toString().equals("00")) {
                     bi.d109.setEnabled(true);
+                    bi.d109a.setEnabled(true);
                     return;
                 }
 

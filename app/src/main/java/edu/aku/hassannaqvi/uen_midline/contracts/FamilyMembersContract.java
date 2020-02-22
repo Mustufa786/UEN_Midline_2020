@@ -18,6 +18,7 @@ public class FamilyMembersContract {
     private String name;
     private String relHH;
     private String age;
+    private String monthfm;
     private String mother_name;
     private String mother_serial;
     private String gender;
@@ -42,6 +43,7 @@ public class FamilyMembersContract {
         this.name = cursor.getString(cursor.getColumnIndex(SingleMember.COLUMN_NAME));
         this.relHH = cursor.getString(cursor.getColumnIndex(SingleMember.COLUMN_RELATION_HH));
         this.age = cursor.getString(cursor.getColumnIndex(SingleMember.COLUMN_AGE));
+        this.monthfm = cursor.getString(cursor.getColumnIndex(SingleMember.COLUMN_MONTH_FM));
         this.mother_name = cursor.getString(cursor.getColumnIndex(SingleMember.COLUMN_MOTHER_NAME));
         this.mother_serial = cursor.getString(cursor.getColumnIndex(SingleMember.COLUMN_MOTHER_SERIAL));
         this.gender = cursor.getString(cursor.getColumnIndex(SingleMember.COLUMN_GENDER));
@@ -64,6 +66,7 @@ public class FamilyMembersContract {
         json.put(SingleMember.COLUMN_NAME, this.name == null ? JSONObject.NULL : this.name);
         json.put(SingleMember.COLUMN_RELATION_HH, this.relHH == null ? JSONObject.NULL : this.relHH);
         json.put(SingleMember.COLUMN_AGE, this.age == null ? JSONObject.NULL : this.age);
+        json.put(SingleMember.COLUMN_MONTH_FM, this.monthfm == null ? JSONObject.NULL : this.monthfm);
         json.put(SingleMember.COLUMN_MOTHER_NAME, this.mother_name == null ? JSONObject.NULL : this.mother_name);
         json.put(SingleMember.COLUMN_MOTHER_SERIAL, this.mother_serial == null ? JSONObject.NULL : this.mother_serial);
         json.put(SingleMember.COLUMN_GENDER, this.gender == null ? JSONObject.NULL : this.gender);
@@ -156,6 +159,14 @@ public class FamilyMembersContract {
         this.age = age;
     }
 
+    public String getMonthfm() {
+        return monthfm;
+    }
+
+    public void setMonthfm(String monthfm) {
+        this.monthfm = monthfm;
+    }
+
     public String getMother_name() {
         return mother_name;
     }
@@ -220,6 +231,7 @@ public class FamilyMembersContract {
         public static final String COLUMN_UUID = "_uuid";
         public static final String COLUMN_FORMDATE = "formdate";
         public static final String COLUMN_AGE = "age";
+        public static final String COLUMN_MONTH_FM = "monthfm";
         public static final String COLUMN_CLUSTERNO = "clusterno";
         public static final String COLUMN_HHNO = "hhno";
         public static final String COLUMN_RELATION_HH = "relHH";

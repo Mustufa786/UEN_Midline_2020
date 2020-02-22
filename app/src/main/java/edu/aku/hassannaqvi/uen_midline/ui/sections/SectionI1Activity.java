@@ -10,6 +10,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
 
+import com.validatorcrawler.aliazaz.Clear;
 import com.validatorcrawler.aliazaz.Validator;
 
 import org.json.JSONException;
@@ -27,7 +28,6 @@ import edu.aku.hassannaqvi.uen_midline.core.DatabaseHelper;
 import edu.aku.hassannaqvi.uen_midline.core.MainApp;
 import edu.aku.hassannaqvi.uen_midline.databinding.ActivitySectionI1Binding;
 import edu.aku.hassannaqvi.uen_midline.utils.Util;
-import edu.aku.hassannaqvi.uen_midline.validator.ClearClass;
 import kotlin.Pair;
 
 import static edu.aku.hassannaqvi.uen_midline.ui.list_activity.FamilyMembersListActivity.mainVModel;
@@ -117,56 +117,51 @@ public class SectionI1Activity extends AppCompatActivity {
         bi.i101.setOnCheckedChangeListener(((radioGroup, i) -> {
 
             if (i == bi.i101b.getId()) {
-                ClearClass.ClearAllFields(bi.fldGrpi01, null);
+                Clear.clearAllFields(bi.fldGrpi01);
             }
 
         }));
 
         bi.i105.setOnCheckedChangeListener(((radioGroup, i) -> {
             if (i == bi.i105a.getId()) {
-                ClearClass.ClearAllFields(bi.fldGrpCVi106, null);
-            }
-        }));
-
-        bi.i105.setOnCheckedChangeListener(((radioGroup, i) -> {
-
-            if (i == bi.i105b.getId()) {
-                ClearClass.ClearAllFields(bi.fldGrpi02, null);
+                Clear.clearAllFields(bi.fldGrpCVi106);
+            } else {
+                Clear.clearAllFields(bi.fldGrpi02);
             }
         }));
 
         bi.i113.setOnCheckedChangeListener(((radioGroup, i) -> {
 
             if (i == bi.i113b.getId()) {
-                ClearClass.ClearAllFields(bi.fldGrpi03, null);
+                Clear.clearAllFields(bi.fldGrpi03);
             }
         }));
 
         bi.i119.setOnCheckedChangeListener(((radioGroup, i) -> {
 
             if (i == bi.i119b.getId()) {
-                ClearClass.ClearAllFields(bi.fldGrpi05, null);
+                Clear.clearAllFields(bi.fldGrpi05);
             }
         }));
 
         bi.i120.setOnCheckedChangeListener(((radioGroup, i) -> {
 
             if (i == bi.i120b.getId()) {
-                ClearClass.ClearAllFields(bi.fldGrpCVi121, null);
+                Clear.clearAllFields(bi.fldGrpCVi121);
             }
         }));
 
         bi.i122.setOnCheckedChangeListener(((radioGroup, i) -> {
 
             if (i == bi.i122b.getId()) {
-                ClearClass.ClearAllFields(bi.fldGrpi04, null);
+                Clear.clearAllFields(bi.fldGrpi04);
             }
         }));
 
         bi.i125.setOnCheckedChangeListener(((radioGroup, i) -> {
 
             if (i == bi.i125b.getId()) {
-                ClearClass.ClearAllFields(bi.fldGrpCVi126, null);
+                Clear.clearAllFields(bi.fldGrpCVi126);
             }
         }));
     }
@@ -223,7 +218,9 @@ public class SectionI1Activity extends AppCompatActivity {
         JSONObject json = new JSONObject();
 
         json.put("hhno", MainApp.fc.getHhno());
-        json.put("cluster", MainApp.fc.getClusterCode());
+        json.put("cluster_no", MainApp.fc.getClusterCode());
+        json.put("_luid", MainApp.fc.getLuid());
+        json.put("appversion", MainApp.appInfo.getAppVersion());
         json.put("i1_fm_uid", fmc_child.getUid());
         json.put("i1_fm_serial", fmc_child.getSerialno());
         json.put("i1_res_fm_uid", res_child.getUid());
@@ -306,8 +303,10 @@ public class SectionI1Activity extends AppCompatActivity {
         json.put("i116g", bi.i116g.isChecked() ? "7" : "0");
         json.put("i116h", bi.i116h.isChecked() ? "8" : "0");
 
+        json.put("i11798", bi.i11798.isChecked() ? "1" : "0");
         json.put("i117", bi.i117.getText().toString());
 
+        json.put("i11898", bi.i11898.isChecked() ? "1" : "0");
         json.put("i118", bi.i118.getText().toString());
 
         json.put("i119", bi.i119a.isChecked() ? "1" :
@@ -336,13 +335,13 @@ public class SectionI1Activity extends AppCompatActivity {
                                         bi.i123e.isChecked() ? "5" :
                                                 bi.i123f.isChecked() ? "6" : "0");
 
-        json.put("i124", bi.i124a.isChecked() ? "1" :
-                bi.i124b.isChecked() ? "2" :
-                        bi.i124c.isChecked() ? "3" :
-                                bi.i124d.isChecked() ? "4" :
-                                        bi.i124e.isChecked() ? "5" :
-                                                bi.i124f.isChecked() ? "6" :
-                                                        bi.i124g.isChecked() ? "7" : "0");
+        json.put("i124a", bi.i124a.isChecked() ? "1" : "0");
+        json.put("i124b", bi.i124b.isChecked() ? "2" : "0");
+        json.put("i124c", bi.i124c.isChecked() ? "3" : "0");
+        json.put("i124d", bi.i124d.isChecked() ? "4" : "0");
+        json.put("i124e", bi.i124e.isChecked() ? "5" : "0");
+        json.put("i124f", bi.i124f.isChecked() ? "6" : "0");
+        json.put("i124g", bi.i124g.isChecked() ? "7" : "0");
 
         json.put("i125", bi.i125a.isChecked() ? "1" :
                 bi.i125b.isChecked() ? "2" : "0");

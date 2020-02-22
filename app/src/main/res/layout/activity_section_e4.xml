@@ -15,12 +15,12 @@
 
 
     <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        style="@style/i_scrollview"
+        android:layoutDirection="rtl"
+        android:textDirection="rtl">
 
 
         <LinearLayout
-            android:layoutDirection="ltr"
             android:id="@+id/fldGrpSectionE4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -87,7 +87,7 @@
                                 android:maxLength="2"
                                 android:textColor="@android:color/black"
                                 app:defaultValue="00"
-                                app:maxValue="30"
+                                app:maxValue="31"
                                 app:minValue="1"
                                 app:type="range" />
 
@@ -110,7 +110,7 @@
                                 android:maxLength="2"
                                 android:textColor="@android:color/black"
                                 app:defaultValue="00"
-                                app:maxValue="11"
+                                app:maxValue="12"
                                 app:minValue="1"
                                 app:type="range" />
 

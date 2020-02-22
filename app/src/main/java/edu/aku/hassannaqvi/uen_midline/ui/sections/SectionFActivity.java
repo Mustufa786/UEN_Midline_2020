@@ -7,6 +7,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
 
+import com.validatorcrawler.aliazaz.Clear;
 import com.validatorcrawler.aliazaz.Validator;
 
 import org.json.JSONException;
@@ -18,7 +19,6 @@ import edu.aku.hassannaqvi.uen_midline.core.DatabaseHelper;
 import edu.aku.hassannaqvi.uen_midline.core.MainApp;
 import edu.aku.hassannaqvi.uen_midline.databinding.ActivitySectionFBinding;
 import edu.aku.hassannaqvi.uen_midline.utils.Util;
-import edu.aku.hassannaqvi.uen_midline.validator.ClearClass;
 
 public class SectionFActivity extends AppCompatActivity {
 
@@ -43,23 +43,35 @@ public class SectionFActivity extends AppCompatActivity {
 
         bi.f101.setOnCheckedChangeListener(((radioGroup, i) -> {
             if (i == bi.f101a.getId()) {
-                ClearClass.ClearAllFields(bi.fldGrpCVf101a, null);
+                Clear.clearAllFields(bi.fldGrpCVf101a);
             } else {
-                ClearClass.ClearAllFields(bi.fldGrpSectionFA, null);
-                ClearClass.ClearAllFields(bi.fldGrpSectionFB, null);
+                Clear.clearAllFields(bi.fldGrpSectionFA);
+                Clear.clearAllFields(bi.fldGrpSectionFB);
             }
         }));
 
+
+        //f110i
+        bi.f11097.setOnCheckedChangeListener((compoundButton, b) -> {
+            if (b) {
+                Clear.clearAllFields(bi.f110check, false);
+                bi.f110check.setTag("-1");
+            } else {
+                Clear.clearAllFields(bi.f110check, true);
+                bi.f110check.setTag("0");
+            }
+        });
+
         bi.f112.setOnCheckedChangeListener(((radioGroup, i) -> {
             if (i != bi.f112a.getId()) {
-                ClearClass.ClearAllFields(bi.fldGrpCVf113, null);
+                Clear.clearAllFields(bi.fldGrpCVf113);
             }
         }));
 
         bi.f114.setOnCheckedChangeListener((radioGroup, i) -> {
 
             if (i != bi.f114a.getId()) {
-                ClearClass.ClearAllFields(bi.fldGrp1520, null);
+                Clear.clearAllFields(bi.fldGrp1520);
             }
         });
     }
@@ -154,7 +166,7 @@ public class SectionFActivity extends AppCompatActivity {
         f1.put("f110f", bi.f110f.isChecked() ? "6" : "0");
         f1.put("f110g", bi.f110g.isChecked() ? "7" : "0");
         f1.put("f110h", bi.f110h.isChecked() ? "8" : "0");
-        f1.put("f110i", bi.f110i.isChecked() ? "9" : "0");
+        f1.put("f11097", bi.f11097.isChecked() ? "97" : "0");
         f1.put("f11096", bi.f11096.isChecked() ? "96" : "0");
         f1.put("f11096x", bi.f11096x.getText().toString());
 
@@ -201,7 +213,8 @@ public class SectionFActivity extends AppCompatActivity {
         f1.put("f119", bi.f119a.isChecked() ? "1" :
                 bi.f119b.isChecked() ? "2" : "0");
 
-        f1.put("f120", bi.f120.getText().toString());
+        f1.put("f120a", bi.f120a.getText().toString());
+        f1.put("f12098", bi.f12098.isChecked() ? "1" : "0");
 
         MainApp.kish.setsF(String.valueOf(f1));
 

@@ -7,6 +7,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
 
+import com.validatorcrawler.aliazaz.Clear;
 import com.validatorcrawler.aliazaz.Validator;
 
 import org.json.JSONException;
@@ -21,7 +22,6 @@ import edu.aku.hassannaqvi.uen_midline.core.DatabaseHelper;
 import edu.aku.hassannaqvi.uen_midline.core.MainApp;
 import edu.aku.hassannaqvi.uen_midline.databinding.ActivitySectionLBinding;
 import edu.aku.hassannaqvi.uen_midline.utils.Util;
-import edu.aku.hassannaqvi.uen_midline.validator.ClearClass;
 
 import static edu.aku.hassannaqvi.uen_midline.ui.list_activity.FamilyMembersListActivity.mainVModel;
 
@@ -45,7 +45,7 @@ public class SectionLActivity extends AppCompatActivity {
 
         bi.l102.setOnCheckedChangeListener(((radioGroup, i) -> {
             if (i == bi.l102a.getId()) {
-                ClearClass.ClearAllFields(bi.fldGrpCVl103, null);
+                Clear.clearAllFields(bi.fldGrpCVl103);
             }
         }));
     }

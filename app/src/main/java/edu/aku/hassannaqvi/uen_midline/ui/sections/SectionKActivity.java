@@ -7,6 +7,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
 
+import com.validatorcrawler.aliazaz.Clear;
 import com.validatorcrawler.aliazaz.Validator;
 
 import org.json.JSONException;
@@ -18,7 +19,6 @@ import edu.aku.hassannaqvi.uen_midline.core.DatabaseHelper;
 import edu.aku.hassannaqvi.uen_midline.core.MainApp;
 import edu.aku.hassannaqvi.uen_midline.databinding.ActivitySectionKBinding;
 import edu.aku.hassannaqvi.uen_midline.utils.Util;
-import edu.aku.hassannaqvi.uen_midline.validator.ClearClass;
 
 public class SectionKActivity extends AppCompatActivity {
 
@@ -42,14 +42,14 @@ public class SectionKActivity extends AppCompatActivity {
         bi.k102.setOnCheckedChangeListener(((radioGroup, i) -> {
 
             if (i == bi.k102b.getId()) {
-                ClearClass.ClearAllFields(bi.fldGrpk1022, null);
+                Clear.clearAllFields(bi.fldGrpk1022);
             }
 
         }));
 
         /*bi.k105.setOnCheckedChangeListener(((radioGroup, i) -> {
             if (i != bi.k105aac.getId()) {
-                ClearClass.ClearAllFields(bi.fldGrpCVk106, null);
+                Clear.clearAllFields(bi.fldGrpCVk106);
             }
         }));*/
 
@@ -100,21 +100,19 @@ public class SectionKActivity extends AppCompatActivity {
                         bi.k101b.isChecked() ? "2" :
                                 "0");
 
-        json.put("k101aa",
-                bi.k101aaa.isChecked() ? "1" :
-                        bi.k101aab.isChecked() ? "2" :
-                                bi.k101aac.isChecked() ? "3" :
-                                        bi.k101aad.isChecked() ? "4" :
-                                                bi.k101aae.isChecked() ? "5" :
-                                                        bi.k101aaf.isChecked() ? "6" :
-                                                                bi.k101aag.isChecked() ? "7" :
-                                                                        bi.k101aah.isChecked() ? "8" :
-                                                                                bi.k101aai.isChecked() ? "9" :
-                                                                                        bi.k101aaj.isChecked() ? "10" :
-                                                                                                bi.k101aak.isChecked() ? "11" :
-                                                                                                        bi.k101aal.isChecked() ? "12" :
-                                                                                                                bi.k101aam.isChecked() ? "13" :
-                                                                                                                        "0");
+        json.put("k101aaa", bi.k101aaa.isChecked() ? "1" : "0");
+        json.put("k101aab", bi.k101aab.isChecked() ? "2" : "0");
+        json.put("k101aac", bi.k101aac.isChecked() ? "3" : "0");
+        json.put("k101aad", bi.k101aad.isChecked() ? "4" : "0");
+        json.put("k101aae", bi.k101aae.isChecked() ? "5" : "0");
+        json.put("k101aaf", bi.k101aaf.isChecked() ? "6" : "0");
+        json.put("k101aag", bi.k101aag.isChecked() ? "7" : "0");
+        json.put("k101aah", bi.k101aah.isChecked() ? "8" : "0");
+        json.put("k101aai", bi.k101aai.isChecked() ? "9" : "0");
+        json.put("k101aaj", bi.k101aaj.isChecked() ? "10" : "0");
+        json.put("k101aak", bi.k101aak.isChecked() ? "11" : "0");
+        json.put("k101aal", bi.k101aal.isChecked() ? "12" : "0");
+        json.put("k101aam", bi.k101aam.isChecked() ? "13" : "0");
 
         json.put("k102",
                 bi.k102a.isChecked() ? "1" :

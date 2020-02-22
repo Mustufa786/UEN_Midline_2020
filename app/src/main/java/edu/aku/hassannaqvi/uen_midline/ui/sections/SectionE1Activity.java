@@ -151,11 +151,13 @@ public class SectionE1Activity extends AppCompatActivity {
         JSONObject json = new JSONObject();
         FamilyMembersContract selMWRA = mainVModel.getMemberInfo(MainApp.pragnantWoman.getFirst().get(bi.womanSpinner.getSelectedItemPosition() - 1));
         mwra.setFmuid(selMWRA.getUid());
-        json.put("fmuid", selMWRA.getUid());
         mwra.setFm_serial(selMWRA.getSerialno());
+        json.put("fm_uid", selMWRA.getUid());
         json.put("fm_serial", selMWRA.getSerialno());
         json.put("hhno", MainApp.fc.getHhno());
-        json.put("cluster", MainApp.fc.getClusterCode());
+        json.put("cluster_no", MainApp.fc.getClusterCode());
+        json.put("_luid", MainApp.fc.getLuid());
+        json.put("appversion", MainApp.appInfo.getAppVersion());
 
         json.put("e100", bi.womanSpinner.getSelectedItem().toString());
         mwra.setMwra_name(bi.womanSpinner.getSelectedItem().toString());
