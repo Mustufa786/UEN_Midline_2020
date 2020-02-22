@@ -28,13 +28,14 @@ import edu.aku.hassannaqvi.uen_midline.core.DatabaseHelper;
 import edu.aku.hassannaqvi.uen_midline.core.MainApp;
 import edu.aku.hassannaqvi.uen_midline.databinding.ActivitySectionE2Binding;
 import edu.aku.hassannaqvi.uen_midline.utils.Util;
+import edu.aku.hassannaqvi.uen_midline.validator.ClearClassOld;
 
 public class SectionE2Activity extends AppCompatActivity {
 
     ActivitySectionE2Binding bi;
     private MWRAContract mwraContract;
     MWRA_PREContract mwraPre;
-    private static int noOfPreCounter = 0;
+    public static int noOfPreCounter = 0;
 
 
     @Override
@@ -192,14 +193,22 @@ public class SectionE2Activity extends AppCompatActivity {
 
     }
 
+    /*    private void clearContainer() {
+            Clear.clearAllFields(bi.container1);
+            Clear.clearAllFields(bi.mainContainer2);
+            Clear.clearAllFields(bi.e104015, false);
+            bi.e104b.setChecked(true);
+            bi.e105c.setChecked(true);
+            MainApp.twinFlag = false;
+
+        }*/
     private void clearContainer() {
-        Clear.clearAllFields(bi.container1);
-        Clear.clearAllFields(bi.mainContainer2);
-        Clear.clearAllFields(bi.e104015, false);
+        ClearClassOld.ClearAllFields(bi.container1, null);
+        ClearClassOld.ClearAllFields(bi.mainContainer2, null);
+        ClearClassOld.ClearAllFields(bi.e104015, false);
         bi.e104b.setChecked(true);
         bi.e105c.setChecked(true);
         MainApp.twinFlag = false;
-
     }
 
     private boolean UpdateDB() {
