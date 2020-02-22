@@ -42,12 +42,10 @@ public class SectionGActivity extends AppCompatActivity {
         //g102
         bi.g102.setOnCheckedChangeListener((group, checkedId) -> {
             Clear.clearAllFields(bi.fldGrpCVg103);
-            Clear.clearAllFields(bi.fldGrpCVg104);
             Clear.clearAllFields(bi.fldGrpCVg105);
             Clear.clearAllFields(bi.fldGrpCVg106);
             Clear.clearAllFields(bi.fldGrpCVg107);
             bi.fldGrpCVg103.setVisibility(View.GONE);
-            bi.fldGrpCVg104.setVisibility(View.GONE);
             bi.fldGrpCVg105.setVisibility(View.GONE);
             bi.fldGrpCVg106.setVisibility(View.GONE);
             bi.fldGrpCVg107.setVisibility(View.GONE);
@@ -55,7 +53,6 @@ public class SectionGActivity extends AppCompatActivity {
             if (checkedId == bi.g102a.getId()) {
                 bi.fldGrpCVg103.setVisibility(View.VISIBLE);
             } else {
-                bi.fldGrpCVg104.setVisibility(View.VISIBLE);
                 bi.fldGrpCVg105.setVisibility(View.VISIBLE);
                 bi.fldGrpCVg106.setVisibility(View.VISIBLE);
                 bi.fldGrpCVg107.setVisibility(View.VISIBLE);
