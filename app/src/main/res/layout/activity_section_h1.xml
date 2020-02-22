@@ -306,7 +306,7 @@
                             style="@style/EditTextNum"
                             android:hint="@string/minutes"
                             android:maxLength="1"
-                            app:maxValue="2"
+                            app:maxValue="5"
                             app:minValue="0"
                             app:type="range" />
 
@@ -404,7 +404,6 @@
                             <RadioButton
                                 android:id="@+id/h10898"
                                 style="@style/radiobutton"
-                                android:visibility="gone"
                                 android:text="@string/dkn" />
 
                         </RadioGroup>
@@ -550,7 +549,7 @@
 
                 </androidx.cardview.widget.CardView>
 
-                <!-- h112  Input-Numeric   -->
+                <!-- h112  Radio   -->
                 <androidx.cardview.widget.CardView
                     android:id="@+id/fldGrpCVh112"
                     style="@style/cardView">
@@ -949,7 +948,6 @@
                     </LinearLayout>
 
                 </androidx.cardview.widget.CardView>
-
 
             </LinearLayout>
 

@@ -77,7 +77,6 @@
                             style="@style/radiobutton"
                             android:text="@string/n101f" />
 
-
                         <RadioButton
                             android:id="@+id/n101g"
                             style="@style/radiobutton"
@@ -87,12 +86,10 @@
                             style="@style/i_textviewhint"
                             android:text="@string/n101h_title" />
 
-
                         <RadioButton
                             android:id="@+id/n101h"
                             style="@style/radiobutton"
                             android:text="@string/n101h" />
-
 
                         <RadioButton
                             android:id="@+id/n101i"
@@ -281,7 +278,7 @@
 
             </androidx.cardview.widget.CardView>
 
-            <!-- n104  Radio   -->
+            <!-- n104  EditText & CheckBox   -->
             <androidx.cardview.widget.CardView
                 android:id="@+id/fldGrpCVn104"
                 style="@style/cardView"
@@ -640,7 +637,6 @@
                             android:id="@+id/n110f"
                             style="@style/radiobutton"
                             android:text="@string/n110f" />
-
 
                         <RadioButton
                             android:id="@+id/n110g"

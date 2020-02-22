@@ -293,6 +293,7 @@
                     </RadioGroup>
 
                 </LinearLayout>
+
             </androidx.cardview.widget.CardView>
 
             <!-- l107  Radio   -->
@@ -800,6 +801,7 @@
                     <TextView
                         style="@style/i_textview"
                         android:text="@string/l113" />
+
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>

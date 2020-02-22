@@ -38,7 +38,7 @@
 
     <string name="title_activity_family_members_list">Family Members List</string>
 
-    <string name="sM">UC</string>
+    <string name="sM"> UC </string>
     <string name="yes"> Yes </string>
     <string name="no"> No </string>
     <string name="dkn"> Don\'t Know </string>
@@ -65,7 +65,7 @@
     <string name="name"> Name </string>
 
     <string name="total"> Total </string>
-    <string name="mwra">MWRA</string>
+    <string name="mwra"> MWRA </string>
     <string name="under5"> Child Under 5 </string>
 
     <string name="taheading"> SECTION A: HH Identification </string>
@@ -86,17 +86,17 @@
 
     <!--    <string name="a105"> A105:\t District</string>-->
     <string name="a105"> District </string>
-    <string name="a105a">Jafferabad </string>
-    <string name="a105a_title">Balochistan</string>
-    <string name="a105b">Nasirabad </string>
-    <string name="a105c">Lasbella </string>
-    <string name="a105d">Muzaffargarh</string>
-    <string name="a105d_title">Punjab </string>
-    <string name="a105e">Rahimyar Khan </string>
-    <string name="a105f">Badin </string>
-    <string name="a105f_title">Sindh</string>
-    <string name="a105g">Sanghar </string>
-    <string name="a105h">Qamber Shahdadkot </string>
+    <string name="a105a"> Jafferabad </string>
+    <string name="a105a_title"> Balochistan </string>
+    <string name="a105b"> Nasirabad </string>
+    <string name="a105c"> Lasbella </string>
+    <string name="a105d"> Muzaffargarh </string>
+    <string name="a105d_title"> Punjab </string>
+    <string name="a105e"> Rahimyar Khan </string>
+    <string name="a105f"> Badin </string>
+    <string name="a105f_title"> Sindh </string>
+    <string name="a105g"> Sanghar </string>
+    <string name="a105h"> Qamber Shahdadkot </string>
 
     <!--    <string name="a106"> A106:\t Tehsil/Taluka </string>-->
     <string name="a106"> Tehsil/Taluka </string>
@@ -109,11 +109,11 @@
 
     <string name="a109"> Village </string>
 
-    <string name="a110"> Block/mohalla </string>
+    <string name="a110"> Block / mohalla </string>
 
     <string name="a111"> Street </string>
 
-    <string name="a112"> House number/khandan number </string>
+    <string name="a112"> House Number / Khandan Number </string>
     <string name="a112a"> Not Available </string>
 
     <string name="checkHHpresent"> Selected Head name present (A/C Line listing) </string>
@@ -124,11 +124,11 @@
 
     <string name="c101"> C101:\t Was consent taken ? </string>
 
-    <string name="c101a"> Verbal consent </string>
+    <string name="c101a"> C101a:\t Verbal consent </string>
     <string name="c101aa"> Yes </string>
     <string name="c101ab"> No </string>
 
-    <string name="c101b"> Written consent </string>
+    <string name="c101b"> C101b:\t Written consent </string>
     <string name="c101ba"> Yes </string>
     <string name="c101bb"> No </string>
 
@@ -140,22 +140,22 @@
     <string name="d103"> D103:\t Relationship to Head of HH </string>
     <string name="d103hint"> What is the relationship of [NAME] to the Head of the household ? </string>
     <string name="d103a"> Head of HH </string>
-    <string name="d103b"> Wife/Husband </string>
-    <string name="d103c"> Son/Daughters </string>
-    <string name="d103d"> Son in law/Daughter in law </string>
+    <string name="d103b"> Wife / Husband </string>
+    <string name="d103c"> Son / Daughters </string>
+    <string name="d103d"> Son in law / Daughter in law </string>
     <string name="d103e"> Grand child </string>
     <string name="d103f"> Parents </string>
     <string name="d103g"> Parents in law </string>
-    <string name="d103h"> Brother/Sister </string>
-    <string name="d103i"> Brother in law/Sister in law </string>
-    <string name="d103j"> Niece/Nephew </string>
+    <string name="d103h"> Brother / Sister </string>
+    <string name="d103i"> Brother in law / Sister in law </string>
+    <string name="d103j"> Niece / Nephew </string>
     <string name="d103k"> Grand Parents </string>
-    <string name="d103l"> Aunts/Uncle </string>
-    <string name="d103m"> Adopted/Step child </string>
+    <string name="d103l"> Aunts / Uncle </string>
+    <string name="d103m"> Adopted / Step child </string>
     <string name="d103n"> Domestic Servant </string>
     <string name="d103o"> Don’t Know </string>
 
-    <string name="d104"> D104:\t Is [NAME] male or female?</string>
+    <string name="d104"> D104:\t Is [NAME] male or female ? </string>
     <string name="d104a"> Male </string>
     <string name="d104b"> Female </string>
 
@@ -174,13 +174,13 @@
     <string name="d107b"> NA </string>
 
     <string name="d108"> D108:\t Date of Birth - If date of birth is not available record “00” and record age </string>
-    <string name="d108a"> Day </string>
+    <string name="d108a">" Date"</string>
     <string name="d108b"> Month </string>
     <string name="d108c"> Year </string>
 
     <string name="d109"> D109:\t Age </string>
     <string name="d109hint"> If date of birth recorded then age will be automatically calculated from D.O.I and D.O.B </string>
-    <string name="d109a"> Age </string>
+    <string name="d109a">" Days "</string>
     <string name="d109b"> Months </string>
     <string name="d109c"> Years </string>
 
@@ -1745,7 +1745,7 @@
     <string name="j10415bd"> NGO Worker </string>
     <string name="j10415be"> Vaccinator </string>
     <string name="j10415bf"> CHW </string>
-    <string name="j10415bg"> Dispenser/Compounder </string>
+    <string name="j10415bg"> Dispenser / Compounder </string>
     <string name="j10415bx"> Other </string>
 
     <string name="j10416"> J10416:\t RV-2 Rota virus Vaccine 2nd dose (Date _ Month_  Year) </string>
@@ -2051,116 +2051,139 @@
     <string name="l117c">Jointly with husband</string>
     <string name="l117x">Other (specify)</string>
 
-    <string name="m101">M101:\t Is the cooking usually done in the house, in a separate building, or outdoors?</string>
+    <string name="m101">M101:\t Is the cooking usually done in the house, in a separate building, or outdoors ? </string>
     <string name="m101a">In the house  </string>
     <string name="m101b">In a separate building</string>
     <string name="m101c">Outdoors</string>
-    <string name="m102">M102:\t Do you have a separate room which is used as a kitchen?</string>
+
+    <string name="m102">M102:\t Do you have a separate room which is used as a kitchen ? </string>
     <string name="m102a">Yes</string>
     <string name="m102b">No</string>
-    <string name="m103">M103:\t Main material of the floor  RECORD OBSERVATION</string>
-    <string name="m103a">Earth/sand/mud</string>
-    <string name="m103a_title">NATURAL FLOOR</string>
-    <string name="m103b">Dung</string>
-    <string name="m103c">Rudimentary floor</string>
-    <string name="m103d">Wood planks </string>
-    <string name="m103e">Palm/bamboo </string>
-    <string name="m103f">Wood</string>
+
+    <string name="m103">M103:\t Main material of the floor </string>
+    <string name="m103hint"> RECORD OBSERVATIONS: </string>
+    <string name="m103a"> Earth / sand / mud </string>
+    <string name="m103a_title"> NATURAL FLOOR </string>
+    <string name="m103b"> Dung </string>
+    <string name="m103c"> Rudimentary floor </string>
+    <string name="m103d"> Wood planks </string>
+    <string name="m103e"> Palm / bamboo </string>
+    <string name="m103f"> Wood </string>
     <string name="m103f_title">FINISHED FLOOR PARQUET OR POLISHED</string>
     <string name="m103g">Vinyl or asphalt strips  </string>
     <string name="m103h">Ceramic tiles </string>
     <string name="m103i">Cement</string>
     <string name="m103j">Carpet</string>
-    <string name="m103k">Chips/terrazzo  </string>
-    <string name="m103l">Bricks</string>
-    <string name="m103m">Mats</string>
-    <string name="m103n">Marble </string>
-    <string name="m104">M104:\t Main material of the roof  RECORD OBSERVATION</string>
-    <string name="m104a">No Roof</string>
-    <string name="m104a_title">NATURAL ROOF</string>
-    <string name="m104b">Thatch/Palm Leaf</string>
-    <string name="m104c">Sod/Grass </string>
-    <string name="m104d">Rustic Mat</string>
-    <string name="m104d_title">RUDIMENTARY ROOFING</string>
-    <string name="m104e">Palm/Bamboo</string>
-    <string name="m104f">Wood Planks</string>
-    <string name="m104g">Cardboard</string>
-    <string name="m104h">Iron sheets/Asbestos</string>
-    <string name="m104h_title">FINISHING ROOFING</string>
-    <string name="m104i">Reinforced brick cement/RCC </string>
-    <string name="m104j">Metal</string>
-    <string name="m104k">Wood/T-Iron/Mud</string>
-    <string name="m104l">Calamine/Cement Fibber</string>
-    <string name="m104m">Cement/RCC </string>
-    <string name="m104n">Ceramic Tiles</string>
-    <string name="m104o">Roofing Shingles</string>
-    <string name="m105">M105:\t Main material of the walls  RECORD OBSERVATION</string>
-    <string name="m105a">No walls </string>
-    <string name="m105a_title">NATURAL WALLS</string>
-    <string name="m105b">Cane/Palm/Trunks </string>
-    <string name="m105c">Dirt</string>
-    <string name="m105d">Mud/Stones </string>
-    <string name="m105e">Bamboo/Sticks/Mud </string>
-    <string name="m105f">Unbaked bricks/Mud</string>
-    <string name="m105f_title">RUDIMENTARY WALLS</string>
-    <string name="m105g">Carton/Plastic</string>
-    <string name="m105h">Bamboo with mud</string>
-    <string name="m105i">Stone with mud</string>
-    <string name="m105j">Uncovered adobe</string>
-    <string name="m105k">Plywood </string>
-    <string name="m105l">Cardboard</string>
-    <string name="m105m">Reused wood</string>
-    <string name="m105n">Baked bricks</string>
-    <string name="m105n_title">FINISHED WALLS</string>
-    <string name="m105o">Tent</string>
-    <string name="m105p">Cement</string>
-    <string name="m105q">Stone with lime/Cement</string>
-    <string name="m105r">Bricks</string>
-    <string name="m105s">Cement block</string>
-    <string name="m105t">Covered adobe</string>
-    <string name="m105u">Wood planks/Shingles </string>
-    <string name="m106">M106:\t How many rooms in this house are used for sleeping?</string>
-    <string name="m107">M107:\t Does any member of this household own?</string>
-    <string name="m107a">Watch</string>
-    <string name="m107aa">Yes</string>
-    <string name="m107ab">No</string>
-    <string name="m107b">Mobile telephone</string>
-    <string name="m107ba">Yes</string>
-    <string name="m107bb">No</string>
+    <string name="m103k"> Chips / terrazzo  </string>
+    <string name="m103l"> Bricks </string>
+    <string name="m103m"> Mats </string>
+    <string name="m103n"> Marble </string>
+
+    <string name="m104"> M104:\t Main material of the roof </string>
+    <string name="m104hint"> RECORD OBSERVATION </string>
+    <string name="m104a"> No Roof </string>
+    <string name="m104a_title"> NATURAL ROOF </string>
+    <string name="m104b"> Thatch / Palm Leaf </string>
+    <string name="m104c"> Sod/Grass </string>
+    <string name="m104d"> Rustic Mat </string>
+    <string name="m104d_title"> RUDIMENTARY ROOFING </string>
+    <string name="m104e"> Palm / Bamboo </string>
+    <string name="m104f"> Wood Planks </string>
+    <string name="m104g"> Cardboard </string>
+    <string name="m104h"> Iron sheets / Asbestos </string>
+    <string name="m104h_title"> FINISHING ROOFING </string>
+    <string name="m104i"> Reinforced brick cement / RCC </string>
+    <string name="m104j"> Metal </string>
+    <string name="m104k"> Wood / T-Iron / Mud </string>
+    <string name="m104l"> Calamine / Cement Fibber </string>
+    <string name="m104m"> Cement / RCC </string>
+    <string name="m104n"> Ceramic Tiles </string>
+    <string name="m104o"> Roofing Shingles </string>
+
+    <string name="m105"> M105:\t Main material of the walls </string>
+    <string name="m105hint"> RECORD OBSERVATION </string>
+    <string name="m105a"> No walls </string>
+    <string name="m105a_title"> NATURAL WALLS </string>
+    <string name="m105b"> Cane / Palm / Trunks </string>
+    <string name="m105c"> Dirt </string>
+    <string name="m105d"> Mud / Stones </string>
+    <string name="m105e"> Bamboo / Sticks / Mud </string>
+    <string name="m105f"> Unbaked bricks / Mud</string>
+    <string name="m105f_title"> RUDIMENTARY WALLS </string>
+    <string name="m105g"> Carton/Plastic </string>
+    <string name="m105h"> Bamboo with mud </string>
+    <string name="m105i"> Stone with mud </string>
+    <string name="m105j"> Uncovered adobe </string>
+    <string name="m105k"> Plywood </string>
+    <string name="m105l"> Cardboard </string>
+    <string name="m105m"> Reused wood </string>
+    <string name="m105n"> Baked bricks </string>
+    <string name="m105n_title"> FINISHED WALLS </string>
+    <string name="m105o"> Tent </string>
+    <string name="m105p"> Cement </string>
+    <string name="m105q"> Stone with lime / Cement </string>
+    <string name="m105r"> Bricks </string>
+    <string name="m105s"> Cement block </string>
+    <string name="m105t"> Covered adobe </string>
+    <string name="m105u"> Wood planks / Shingles </string>
+
+    <string name="m106"> M106:\t How many rooms in this house are used for sleeping ? </string>
+
+    <string name="m107"> M107:\t Does any member of this household own ? </string>
+
+    <string name="m107a"> Watch </string>
+    <string name="m107aa"> Yes </string>
+    <string name="m107ab"> No </string>
+
+    <string name="m107b"> Mobile Telephone </string>
+    <string name="m107ba"> Yes </string>
+    <string name="m107bb"> No </string>
+
     <string name="m107c">Bicycle</string>
     <string name="m107ca">Yes</string>
     <string name="m107cb">No</string>
+
     <string name="m107d">Motorcycle/Scooter</string>
     <string name="m107da">Yes</string>
     <string name="m107db">No</string>
-    <string name="m107e">Animal-Drawn Cart</string>
-    <string name="m107f">Car/Truck/Bus</string>
-    <string name="m107fa">Yes</string>
-    <string name="m107fb">No</string>
-    <string name="m107g">Tractor</string>
-    <string name="m107ga">Yes</string>
-    <string name="m107gb">No</string>
+
+    <string name="m107e"> Animal-Drawn Cart </string>
+
+    <string name="m107f"> Car / Truck / Bus </string>
+    <string name="m107fa"> Yes </string>
+    <string name="m107fb"> No </string>
+
+    <string name="m107g"> Tractor </string>
+    <string name="m107ga"> Yes </string>
+    <string name="m107gb"> No </string>
+
     <string name="m107h">Boat with motor</string>
     <string name="m107ha">Yes</string>
     <string name="m107hb">No</string>
+
     <string name="m107i">Boat without motor</string>
     <string name="m107ia">Yes</string>
     <string name="m107ib">No</string>
+
     <string name="m108">M108:\t Does respondent (selected woman) of this household own mobile phone?</string>
     <string name="m108a">Yes</string>
     <string name="m108b">No</string>
     <string name="m108ea">Yes</string>
     <string name="m108eb">No</string>
+
     <string name="m109">M109:\t Does any member of this household own any agricultural land?</string>
     <string name="m109a">Yes</string>
     <string name="m109b">No</string>
+
     <string name="m110">M110:\t How many acres or kanals of agricultural land do members of this household own?</string>
     <string name="m110a">Acres </string>
     <string name="m110b">Kanals </string>
     <string name="m110c">Don\'t Know</string>
+
     <string name="m111">M111:\t Does this household own any livestock, herds, other farm animals?</string>
     <string name="m111a">Yes</string>
     <string name="m111b">No</string>
+
     <string name="m112">M112:\t How many of the following animals does the household own?</string>
     <string name="m112a">Cows/Bulls</string>
     <string name="m112b">Horses/Donkeys/Mules</string>
@@ -2169,9 +2192,11 @@
     <string name="m112e"> Chickens</string>
     <string name="m112f">Buffalo</string>
     <string name="m112g"> Camels</string>
+
     <string name="m113">M113:\t Does any member of this household have a bank account?</string>
     <string name="m113a">Yes</string>
     <string name="m113b">No</string>
+
     <string name="m114">M114:\t Does your household have?</string>
     <string name="m114a">Electricity </string>
     <string name="m114aa">Yes</string>
@@ -2218,15 +2243,19 @@
     <string name="m114o">Camera</string>
     <string name="m114oa">Yes</string>
     <string name="m114ob">No</string>
+
     <string name="m114p">Sewing Machine</string>
     <string name="m114pa">Yes</string>
     <string name="m114pb">No</string>
+
     <string name="m114q">Computer</string>
     <string name="m114qa">Yes</string>
     <string name="m114qb">No</string>
+
     <string name="m114r">Internet Connection </string>
     <string name="m114ra">Yes</string>
     <string name="m114rb">No</string>
+
     <string name="m115">M115:\t What type of fuel does your household mainly use for cooking</string>
     <string name="m115a">Electricity</string>
     <string name="m115b">Liquefied Petroleum Gas (LPG) </string>
@@ -2239,6 +2268,7 @@
     <string name="m115i">Straw/Shrubs/Grass</string>
     <string name="m115j">Animal dung</string>
     <string name="m115k">No food cooked in household</string>
+
     <string name="m116">M116:\t What language do you usually speak in your household?</string>
     <string name="m116a">Urdu </string>
     <string name="m116b">Punjabi </string>

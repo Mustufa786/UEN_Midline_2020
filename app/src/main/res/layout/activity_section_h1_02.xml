@@ -79,20 +79,31 @@
                             style="@style/i_textview"
                             android:text="@string/h122" />
 
-                        <com.edittextpicker.aliazaz.EditTextPicker
-                            android:id="@+id/h122"
-                            style="@style/EditTextNum"
-                            android:hint="@string/kg"
-                            android:maxLength="1"
-                            app:maxValue="5"
-                            app:minValue="1"
-                            app:type="range" />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
 
-                        <CheckBox
-                            android:id="@+id/h12298"
-                            style="@style/checkbox"
-                            android:tag="-1"
-                            android:text="@string/dkn" />
+                            <com.edittextpicker.aliazaz.EditTextPicker
+                                android:id="@+id/h122"
+                                style="@style/EditTextNum"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:hint="#.##"
+                                app:mask="#.##"
+                                app:maxValue="5"
+                                app:minValue="1"
+                                app:type="range" />
+
+                            <CheckBox
+                                android:id="@+id/h12298"
+                                style="@style/checkbox"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:tag="-1"
+                                android:text="@string/dkn" />
+
+                        </LinearLayout>
 
                     </LinearLayout>
 

@@ -18,13 +18,11 @@
         android:layoutDirection="rtl"
         android:textDirection="rtl">
 
-
         <LinearLayout
             android:id="@+id/fldGrpSectionJ03"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
-
 
             <!-- j105  Radio   -->
             <androidx.cardview.widget.CardView
@@ -64,7 +62,6 @@
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
-
 
             <!-- j106  Radio   -->
             <androidx.cardview.widget.CardView
@@ -128,7 +125,6 @@
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>-->
 
-
             <!-- j108  Radio   -->
             <androidx.cardview.widget.CardView
                 android:id="@+id/fldGrpCVj108"
@@ -174,6 +170,7 @@
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
+
 
             <LinearLayout
                 android:id="@+id/fldGrpSectionJ0301"
@@ -720,6 +717,7 @@
                 </androidx.cardview.widget.CardView>
 
             </LinearLayout>
+
 
             <!-- j123  CheckBox   -->
             <androidx.cardview.widget.CardView

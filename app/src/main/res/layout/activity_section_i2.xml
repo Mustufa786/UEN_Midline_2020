@@ -192,7 +192,6 @@
                 android:orientation="vertical"
                 android:visibility='@{i203b.checked? View.GONE : View.VISIBLE}'>
 
-
                 <!-- i204  Input-Numeric   -->
                 <androidx.cardview.widget.CardView
                     android:id="@+id/fldGrpCVi204"
@@ -452,7 +451,8 @@
                     <!-- i210  Radio   -->
                     <androidx.cardview.widget.CardView
                         android:id="@+id/fldGrpCVi210"
-                        style="@style/cardView">
+                        style="@style/cardView"
+                        android:visibility='@{i209a.checked? View.GONE : View.VISIBLE}'>
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -728,7 +728,7 @@
                                         style="@style/EditTextNum"
                                         android:hint="@string/days"
                                         android:maxLength="2"
-                                        app:maxValue="30"
+                                        app:maxValue="31"
                                         app:minValue="0"
                                         app:type="range" />
 
@@ -785,6 +785,7 @@
                         </LinearLayout>
 
                     </LinearLayout>
+
 
                     <!-- i218  CheckBox   -->
                     <androidx.cardview.widget.CardView
@@ -1250,6 +1251,7 @@
                     </androidx.cardview.widget.CardView>
 
                 </LinearLayout>
+
 
             </LinearLayout>
 
