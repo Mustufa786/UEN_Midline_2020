@@ -16,7 +16,6 @@ import org.json.JSONObject;
 import edu.aku.hassannaqvi.uen_midline.CONSTANTS;
 import edu.aku.hassannaqvi.uen_midline.R;
 import edu.aku.hassannaqvi.uen_midline.contracts.ChildContract;
-import edu.aku.hassannaqvi.uen_midline.contracts.FamilyMembersContract;
 import edu.aku.hassannaqvi.uen_midline.core.DatabaseHelper;
 import edu.aku.hassannaqvi.uen_midline.core.MainApp;
 import edu.aku.hassannaqvi.uen_midline.databinding.ActivitySectionJ02Binding;
@@ -27,7 +26,6 @@ public class SectionJ02Activity extends AppCompatActivity {
 
 
     ActivitySectionJ02Binding bi;
-    private FamilyMembersContract fmc_child;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -66,7 +64,7 @@ public class SectionJ02Activity extends AppCompatActivity {
         bi.j10416y.setMinvalue(CONSTANTS.MINYEAR_IM);
 
         //Immunization visibility
-        int totalMonth = Integer.valueOf(fmc_child.getAge()) + Integer.valueOf(fmc_child.getMonthfm());
+        int totalMonth = Integer.valueOf(MainApp.indexKishMWRAChild.getAge()) + Integer.valueOf(MainApp.indexKishMWRAChild.getMonthfm());
 
         if (totalMonth > 2) {
             bi.fldGrpCVj10409.setVisibility(View.VISIBLE);
@@ -80,7 +78,7 @@ public class SectionJ02Activity extends AppCompatActivity {
             bi.fldGrpCVj10414.setVisibility(View.VISIBLE);
         }
 
-        if (totalMonth > 9) {
+        if (totalMonth > 8) {
             bi.fldGrpCVj10415.setVisibility(View.VISIBLE);
         }
 
