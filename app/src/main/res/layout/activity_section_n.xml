@@ -281,8 +281,7 @@
             <!-- n104  EditText & CheckBox   -->
             <androidx.cardview.widget.CardView
                 android:id="@+id/fldGrpCVn104"
-                style="@style/cardView"
-                android:visibility='@{n103c.checked? View.VISIBLE : View.GONE}'>
+                style="@style/cardView">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -306,7 +305,6 @@
                             android:enabled='@{n10498.checked ? false : true }'
                             android:hint="@string/n104a"
                             android:maxLength="2"
-                            android:tag="n104a"
                             android:text='@{n10498.checked ? "" : n104.getText().toString() }'
                             app:maxValue="60"
                             app:minValue="1"
