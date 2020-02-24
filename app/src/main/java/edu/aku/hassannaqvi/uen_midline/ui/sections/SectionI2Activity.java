@@ -244,12 +244,12 @@ public class SectionI2Activity extends AppCompatActivity {
 
         f2.put("i210", bi.i210a.isChecked() ? "1" :
                 bi.i210b.isChecked() ? "2" :
-                                bi.i210c.isChecked() ? "3" :
-                                        bi.i210d.isChecked() ? "4" :
-                                                bi.i210e.isChecked() ? "5" :
-                                                        bi.i210f.isChecked() ? "6" :
-                                                                bi.i210g.isChecked() ? "7" :
-                                                                        bi.i210h.isChecked() ? "8" : "0");
+                        bi.i210c.isChecked() ? "3" :
+                                bi.i210d.isChecked() ? "4" :
+                                        bi.i210e.isChecked() ? "5" :
+                                                bi.i210f.isChecked() ? "6" :
+                                                        bi.i210g.isChecked() ? "7" :
+                                                                bi.i210h.isChecked() ? "8" : "0");
 
         f2.put("i211", bi.i211.getText().toString());
 
@@ -299,14 +299,22 @@ public class SectionI2Activity extends AppCompatActivity {
 
         f2.put("i222", bi.i222a.isChecked() ? "1" :
                 bi.i222b.isChecked() ? "2" : "0");
-
+/*
         f2.put("i223", bi.i223a.isChecked() ? "1" :
                 bi.i223b.isChecked() ? "2" :
                         bi.i223c.isChecked() ? "3" :
                                 bi.i223d.isChecked() ? "4" :
                                         bi.i223e.isChecked() ? "5" :
                                                 bi.i223f.isChecked() ? "6" :
-                                                        bi.i223g.isChecked() ? "7" : "0");
+                                                        bi.i223g.isChecked() ? "7" : "0");*/
+
+        f2.put("i223a", bi.i223a.isChecked() ? "1" : "0");
+        f2.put("i223b", bi.i223b.isChecked() ? "2" : "0");
+        f2.put("i223c", bi.i223c.isChecked() ? "3" : "0");
+        f2.put("i223d", bi.i223d.isChecked() ? "4" : "0");
+        f2.put("i223e", bi.i223e.isChecked() ? "5" : "0");
+        f2.put("i223f", bi.i223f.isChecked() ? "6" : "0");
+        f2.put("i223g", bi.i223g.isChecked() ? "7" : "0");
 
         f2.put("i224a", bi.i224a.isChecked() ? "1" : "0");
         f2.put("i224b", bi.i224b.isChecked() ? "2" : "0");
@@ -318,12 +326,21 @@ public class SectionI2Activity extends AppCompatActivity {
         f2.put("i225", bi.i225a.isChecked() ? "1" :
                 bi.i225b.isChecked() ? "2" : "0");
 
-        f2.put("i226", bi.i226a.isChecked() ? "1" :
+       /* f2.put("i226", bi.i226a.isChecked() ? "1" :
                 bi.i226b.isChecked() ? "2" :
                         bi.i226c.isChecked() ? "3" :
                                 bi.i226d.isChecked() ? "4" :
                                         bi.i226e.isChecked() ? "5" :
-                                                bi.i226f.isChecked() ? "6" : "0");
+                                                bi.i226f.isChecked() ? "6" : "0");*/
+
+
+        f2.put("i226a", bi.i226a.isChecked() ? "1" : "0");
+        f2.put("i226b", bi.i226b.isChecked() ? "2" : "0");
+        f2.put("i226c", bi.i226c.isChecked() ? "3" : "0");
+        f2.put("i226d", bi.i226d.isChecked() ? "4" : "0");
+        f2.put("i226e", bi.i226e.isChecked() ? "5" : "0");
+        f2.put("i226f", bi.i226f.isChecked() ? "6" : "0");
+
 
         MainApp.child.setsI2(String.valueOf(f2));
     }

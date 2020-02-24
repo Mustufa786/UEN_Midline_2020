@@ -821,7 +821,7 @@
                             style="@style/EditTextNum"
                             android:hint="@string/month"
                             android:maxLength="1"
-                            app:maxValue="26"
+                            app:maxValue="6"
                             app:minValue="1"
                             app:type="range" />
 

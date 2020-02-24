@@ -265,10 +265,10 @@
                             android:id="@+id/f104"
                             style="@style/EditTextNum"
                             android:hint="@string/km"
-                            android:maxLength="2"
+                            android:maxLength="3"
                             android:textColor="@android:color/black"
                             app:defaultValue="00"
-                            app:maxValue="99"
+                            app:maxValue="150"
                             app:minValue="1"
                             app:type="range" />
 
@@ -338,9 +338,9 @@
                             android:id="@+id/f106"
                             style="@style/EditTextNum"
                             android:hint="@string/minutes"
-                            android:maxLength="2"
+                            android:maxLength="3"
                             app:defaultValue="00"
-                            app:maxValue="99"
+                            app:maxValue="120"
                             app:minValue="1"
                             app:type="range" />
 

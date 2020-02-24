@@ -63,7 +63,8 @@
             <!-- k101aa  Radio   -->
             <androidx.cardview.widget.CardView
                 android:id="@+id/fldGrpCVk101aa"
-                style="@style/cardView">
+                style="@style/cardView"
+                android:visibility='@{k101b.checked? View.GONE : View.VISIBLE}'>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -423,10 +424,8 @@
                                 style="@style/EditTextNum"
                                 android:layout_width="0dp"
                                 android:layout_weight="0.8"
-                                android:enabled='@{k105aac.checked?  false : true}'
                                 android:hint="@string/month"
                                 android:maxLength="2"
-                                android:text='@{k105aac.checked? "" : k105aaa.getText().toString()}'
                                 app:maxValue="12"
                                 app:minValue="0"
                                 app:type="range" />
@@ -436,10 +435,8 @@
                                 style="@style/EditTextNum"
                                 android:layout_width="0dp"
                                 android:layout_weight="0.8"
-                                android:enabled='@{k105aac.checked?  false : true}'
                                 android:hint="@string/year"
                                 android:maxLength="2"
-                                android:text='@{k105aac.checked? "" : k105aab.getText().toString()}'
                                 app:maxValue="10"
                                 app:minValue="0"
                                 app:type="range" />
@@ -464,7 +461,8 @@
             <!-- k106  CheckBox   -->
             <androidx.cardview.widget.CardView
                 android:id="@+id/fldGrpCVk106"
-                style="@style/cardView">
+                style="@style/cardView"
+                >
 
                 <LinearLayout
                     android:layout_width="match_parent"

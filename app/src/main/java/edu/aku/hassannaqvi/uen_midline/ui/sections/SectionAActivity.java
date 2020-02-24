@@ -10,6 +10,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
 
+import com.validatorcrawler.aliazaz.Clear;
 import com.validatorcrawler.aliazaz.Validator;
 
 import org.json.JSONException;
@@ -17,6 +18,7 @@ import org.json.JSONObject;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.Objects;
 
 import edu.aku.hassannaqvi.uen_midline.R;
 import edu.aku.hassannaqvi.uen_midline.contracts.BLRandomContract;
@@ -57,13 +59,12 @@ public class SectionAActivity extends AppCompatActivity implements Util.EndSecAA
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count) {
 
-                if (s.toString().equals("")) {
+                if (bi.a101.getText().hashCode() == s.hashCode()) {
                     bi.fldGrpSectionA01.setVisibility(View.GONE);
                     bi.fldGrpSectionA02.setVisibility(View.GONE);
-//                    Clear.clearAllFields(bi.fldGrpSectionA01);
+                    Clear.clearAllFields(bi.fldGrpSectionA01);
                 }
 
-//
             }
 
             @Override
@@ -71,6 +72,7 @@ public class SectionAActivity extends AppCompatActivity implements Util.EndSecAA
 
             }
         });
+
         bi.a112.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
@@ -80,12 +82,10 @@ public class SectionAActivity extends AppCompatActivity implements Util.EndSecAA
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count) {
 
-                if (s.toString().equals("")) {
+                if (Objects.requireNonNull(bi.a112.getText()).hashCode() == s.hashCode()) {
                     bi.fldGrpSectionA02.setVisibility(View.GONE);
-//                    Clear.clearAllFields(bi.fldGrpSectionA02);
+                    Clear.clearAllFields(bi.fldGrpSectionA02);
                 }
-
-
             }
 
             @Override

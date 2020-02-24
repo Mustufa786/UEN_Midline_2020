@@ -59,6 +59,7 @@
 
                     <Button
                         android:id="@+id/checkHHBtn1"
+                        style="@style/button"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
@@ -232,6 +233,7 @@
                             <com.edittextpicker.aliazaz.EditTextPicker
                                 android:id="@+id/a112"
                                 style="@style/EditTextNum"
+                                android:layout_width="0dp"
                                 android:layout_weight="1"
                                 android:hint="@string/num"
                                 app:defaultValue=""
@@ -242,6 +244,7 @@
                             <Button
                                 android:id="@+id/checkHHBtn2"
                                 style="@style/button"
+                                android:layout_width="0dp"
                                 android:layout_weight="1"
                                 android:background="@drawable/button_bg"
                                 android:onClick="@{() -> callback.BtnCheckHH()}"
