@@ -17,9 +17,7 @@ import com.validatorcrawler.aliazaz.Validator;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 import java.util.Objects;
 
@@ -186,7 +184,7 @@ public class SectionDActivity extends AppCompatActivity {
 
         JSONObject sd = new JSONObject();
 
-        sd.put("formdate", new SimpleDateFormat("dd-MM-yy HH:mm").format(new Date().getTime()));
+        sd.put("formdate", MainApp.fc.getFormDate());
         sd.put("username", MainApp.userName);
         sd.put("deviceid", MainApp.appInfo.getDeviceID());
         sd.put("tagid", MainApp.appInfo.getTagName());
@@ -315,7 +313,7 @@ public class SectionDActivity extends AppCompatActivity {
                 bi.d109a.setEnabled(false);
                 bi.d109a.setText(null);
                 if (bi.d108c.getText().toString().isEmpty()) return;
-                if (bi.d108a.getText().toString().equals("00") || bi.d108b.getText().toString().equals("00") || bi.d108c.getText().toString().equals("00")) {
+                if (bi.d108a.getText().toString().equals("00") && bi.d108b.getText().toString().equals("00") && bi.d108c.getText().toString().equals("00")) {
                     bi.d109.setEnabled(true);
                     bi.d109a.setEnabled(true);
                     return;

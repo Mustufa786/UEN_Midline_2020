@@ -11,14 +11,10 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
 
-import com.validatorcrawler.aliazaz.Clear;
 import com.validatorcrawler.aliazaz.Validator;
 
 import org.json.JSONException;
 import org.json.JSONObject;
-
-import java.text.SimpleDateFormat;
-import java.util.Date;
 
 import edu.aku.hassannaqvi.uen_midline.CONSTANTS;
 import edu.aku.hassannaqvi.uen_midline.R;
@@ -44,6 +40,8 @@ public class SectionE2Activity extends AppCompatActivity {
 
         bi = DataBindingUtil.setContentView(this, R.layout.activity_section_e2);
         bi.setCallback(this);
+
+        MainApp.twinFlag = false;
 
         setUIComponent();
     }
@@ -77,19 +75,19 @@ public class SectionE2Activity extends AppCompatActivity {
                 bi.fldGrpCVe109.setVisibility(View.GONE);
                 bi.fldGrpCVe107.setVisibility(View.GONE);
                 bi.fldGrpCVe110.setVisibility(View.GONE);
-                Clear.clearAllFields(bi.fldGrpCVd108);
-                Clear.clearAllFields(bi.fldGrpCVe108);
-                Clear.clearAllFields(bi.fldGrpCVe109);
-                Clear.clearAllFields(bi.fldGrpCVe107);
-                Clear.clearAllFields(bi.fldGrpCVe110);
+                ClearClassOld.ClearAllFields(bi.fldGrpCVd108, null);
+                ClearClassOld.ClearAllFields(bi.fldGrpCVe108, null);
+                ClearClassOld.ClearAllFields(bi.fldGrpCVe109, null);
+                ClearClassOld.ClearAllFields(bi.fldGrpCVe107, null);
+                ClearClassOld.ClearAllFields(bi.fldGrpCVe110, null);
                 bi.mainContainer2.setVisibility(View.VISIBLE);
 
               /*  bi.container1.setVisibility(View.GONE);
                 bi.container2.setVisibility(View.VISIBLE);
                 bi.container3.setVisibility(View.VISIBLE);
                 bi.fldGrpCVe110.setVisibility(View.GONE);
-                Clear.clearAllFields(bi.fldGrpCVe110);
-                Clear.clearAllFields(bi.container1);*/
+                ClearClassOld.ClearAllFields(bi.fldGrpCVe110, null);
+                ClearClassOld.ClearAllFields(bi.container1, null);*/
             } else {
                 bi.fldGrpCVd108.setVisibility(View.VISIBLE);
                 bi.fldGrpCVe108.setVisibility(View.VISIBLE);
@@ -111,12 +109,12 @@ public class SectionE2Activity extends AppCompatActivity {
                 bi.fldGrpCVe113.setVisibility(View.GONE);
                 bi.fldGrpCVe114.setVisibility(View.GONE);
                 bi.fldGrpCVe115.setVisibility(View.GONE);
-                Clear.clearAllFields(bi.fldGrpCVe113);
-                Clear.clearAllFields(bi.fldGrpCVe114);
-                Clear.clearAllFields(bi.fldGrpCVe115);
+                ClearClassOld.ClearAllFields(bi.fldGrpCVe113, null);
+                ClearClassOld.ClearAllFields(bi.fldGrpCVe114, null);
+                ClearClassOld.ClearAllFields(bi.fldGrpCVe115, null);
             } else {
                 bi.mainContainer2.setVisibility(View.GONE);
-                Clear.clearAllFields(bi.mainContainer2);
+                ClearClassOld.ClearAllFields(bi.mainContainer2, null);
             }
 
 
@@ -232,7 +230,8 @@ public class SectionE2Activity extends AppCompatActivity {
         mwraPre.set_UUID(MainApp.fc.get_UID());
         mwraPre.setDeviceId(MainApp.appInfo.getDeviceID());
         mwraPre.setDevicetagID(MainApp.appInfo.getTagName());
-        mwraPre.setFormDate(new SimpleDateFormat("dd-MM-yy HH:mm").format(new Date().getTime()));
+        mwraPre.setFormDate(MainApp.fc.getFormDate());
+        mwraPre.setUser(MainApp.fc.getUser());
         JSONObject e2 = new JSONObject();
         e2.put("mw_uid", mwraContract.getUID());
         e2.put("fm_serial", mwraContract.getFm_serial());
