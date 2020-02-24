@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!--new Strings-->
-    <string name="app_name">UEN Midline 2020 - Urdu</string>
+    <string name="app_name"> UEN Midline 2020 - Urdu </string>
 
     <!-- Strings related to login -->
     <string name="btnSync">Sync</string>
@@ -310,7 +310,8 @@
     <string name="e121g"> جھٹکے </string>
     <string name="e121h"> وجہ معلوم نہیں / معلوم نہیں </string>
     <string name="e121x"> دیگر (وضاحت کریں) </string>
-    <string name="e122"> انتقال کا مقام </string>
+
+    <string name="e122"> E122:\t انتقال کا مقام </string>
     <string name="e122a"> گھر پر </string>
     <string name="e122b"> سرکاری مرکز صحت </string>
     <string name="e122c"> نجی مرکز صحت </string>
