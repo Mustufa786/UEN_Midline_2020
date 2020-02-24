@@ -16,7 +16,7 @@
     <ScrollView
         style="@style/i_scrollview"
         android:layoutDirection="rtl"
-        android:textDirection="anyRtl">
+        android:textDirection="rtl">
 
         <LinearLayout
             android:id="@+id/fldGrpSectionJ02"
