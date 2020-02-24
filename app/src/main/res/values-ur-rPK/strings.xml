@@ -574,6 +574,7 @@
     <string name="g106d"> پیدل </string>
 
     <string name="g107"> G107:\t جہاں(نام) کی پیدائش ہوئی تھی وہاں تک پہنچنے میں آپ کو کتنا وقت لگا تھا؟ </string>
+    ]
     <string name="g108"> G108:\t کیا بچے کی پیدائش کے وقت آپ کے شوہرموجود تھے؟ </string>
     <string name="g108a"> ہاں </string>
     <string name="g108b"> نہیں </string>
@@ -860,27 +861,27 @@
 
     <string name="h129"> H129:\t پہلی بار صحت کے چیک اپ کے دوران، کیا (نام) کا مندرجہ زیل میں سے کوئی معائنہ ہوا تھا ؟ </string>
 
-    <string name="h129a"> ناڑو کا معائنہ </string>
+    <string name="h129a"> ناڑو کا معائنہ H129a:\t </string>
     <string name="h129aa"> ہاں </string>
     <string name="h129ab"> نہیں </string>
     <string name="h129ac"> معلوم نہیں </string>
 
-    <string name="h129b"> خطرناک علامات کی جانچ </string>
+    <string name="h129b"> خطرناک علامات کی جانچ H129b:\t </string>
     <string name="h129ba"> ہاں </string>
     <string name="h129bb"> نہیں </string>
     <string name="h129bc"> معلوم نہیں </string>
 
-    <string name="h129c"> جسم کے درجہ حرارت کی جانچ </string>
+    <string name="h129c"> جسم کے درجہ حرارت کی جانچ H129c:\t </string>
     <string name="h129ca"> ہاں </string>
     <string name="h129cb"> نہیں </string>
     <string name="h129cc"> معلوم نہیں </string>
 
-    <string name="h129d"> ماں کا دودھ پلانے کا مشورہ </string>
+    <string name="h129d"> ماں کا دودھ پلانے کا مشورہ H129d:\t </string>
     <string name="h129da"> ہاں </string>
     <string name="h129db"> نہیں </string>
     <string name="h129dc"> معلوم نہیں </string>
 
-    <string name="h129e"> نوزایئدہ کے وزن کی جانچ </string>
+    <string name="h129e"> نوزایئدہ کے وزن کی جانچ H129e:\t </string>
     <string name="h129ea"> ہاں </string>
     <string name="h129eb"> نہیں </string>
     <string name="h129ec"> معلوم نہیں </string>
@@ -936,14 +937,14 @@
     <string name="h137a"> ہاں </string>
     <string name="h137b"> نہیں </string>
 
-    <string name="h137aa"> (نام) کو بی سی جی کا ٹیکہ کہاں سے لگوایا تھا ؟ </string>
+    <string name="h137aa"> H137a:\t (نام) کو بی سی جی کا ٹیکہ کہاں سے لگوایا تھا ؟ </string>
     <string name="h137aaa"> سرکاری صحت کی سہولت </string>
     <string name="h137aab"> نجی صحت کی سہولت </string>
     <string name="h137aac"> ای پی آئی سینٹر(EPI) </string>
     <string name="h137aad"> کمیونٹی میں موجود ماں اور بچے کی صحت کا سینٹر </string>
     <string name="h137aae"> رفاہی ادارے کی سہولت NGO </string>
 
-    <string name="h137bb"> (نام) کو حفاظتی ٹیکے کس نے لگائے تھے ؟ </string>
+    <string name="h137bb"> H137b:\t (نام) کو حفاظتی ٹیکے کس نے لگائے تھے ؟ </string>
     <string name="h137bba"> ڈاکٹر </string>
     <string name="h137bbb"> لیڈی ہیلتھ ورکر </string>
     <string name="h137bbc"> لیڈی ہیلتھ وزیٹر </string>
@@ -1111,7 +1112,7 @@
     <string name="i104b"> نہیں </string>
     <string name="i104c"> معلوم نہیں </string>
 
-    <string name="i105"> (نام) کو دستوں کی تکلیف ہونے پر کیا آپ نے علاج کروایا تھا ؟ </string>
+    <string name="i105"> I105:\t (نام) کو دستوں کی تکلیف ہونے پر کیا آپ نے علاج کروایا تھا ؟ </string>
     <string name="i105a"> ہاں </string>
     <string name="i105b"> نہیں </string>
 
@@ -1293,31 +1294,31 @@
 
     <string name="i211"> I211:\t وہ مرکزِ صحت جہاںآپ نے (نام)کے کھانسی، بخار یا سانس کی تیز رفتار کی علامات کے لیے علاج کروایاتھا، آپ کے گھر سے کتنے فاصلے پر ہے؟ </string>
 
-    <string name="i212"> اس مرکزِ صحت تک پہنچنے میں آپ کو کتنا وقت لگاتھا، جہاں آپ نے نام کی کھانسی، بخار اور سانس کی تیز رفتار کے علامات کا علاج کروایاتھا؟ </string>
+    <string name="i212"> I212:\t اس مرکزِ صحت تک پہنچنے میں آپ کو کتنا وقت لگاتھا، جہاں آپ نے نام کی کھانسی، بخار اور سانس کی تیز رفتار کے علامات کا علاج کروایاتھا؟ </string>
 
-    <string name="i213"> (نام) کی بخار، کھانسی اور سانس کی تیز رفتار علامات کا علاج کس نے کیاتھا؟ </string>
+    <string name="i213"> I213:\t (نام) کی بخار، کھانسی اور سانس کی تیز رفتار علامات کا علاج کس نے کیاتھا؟ </string>
     <string name="i213a"> ڈاکٹر </string>
     <string name="i213b"> ایل ایچ وی(لیڈی ہیلتھ وزیٹر) </string>
     <string name="i213c"> نرس </string>
     <string name="i213d"> سی ایم ڈبلیو(کمیونیٹی مڈوائف) </string>
     <string name="i213f"> ڈسپینسر/کمپائونڈر </string>
 
-    <string name="i214"> کیا (نام) کو کھانسی ، بخاری یا سانس کی تیز رفتار علامات کے درپیش ہونے پر ہسپتال میں داخل کیا گیاتھا؟ </string>
+    <string name="i214"> I214:\t کیا (نام) کو کھانسی ، بخاری یا سانس کی تیز رفتار علامات کے درپیش ہونے پر ہسپتال میں داخل کیا گیاتھا؟ </string>
     <string name="i214a"> ہاں </string>
     <string name="i214b"> نہیں </string>
 
-    <string name="i215"> (نام)کو بخار، کھانسی اور سانس کی تیز رفتارعلامات کےدرپیش آنے پر کہاں داخل کیا گیاتھا؟ </string>
+    <string name="i215"> I215:\t (نام)کو بخار، کھانسی اور سانس کی تیز رفتارعلامات کےدرپیش آنے پر کہاں داخل کیا گیاتھا؟ </string>
     <string name="i215a"> سرکاری مرکز صحت میں </string>
     <string name="i215b"> نجی مرکز صحت میں </string>
     <string name="i215c"> رفاہی ادارے یارفاہی مرکز صحت میں </string>
 
-    <string name="i216"> (نام)کو کھانسی، بخار اور سانس کی تیز رفتار علامات کے علاج کے لیے کتنے دن تک ہسپتال میں رکھا گیاتھا؟ </string>
-    <string name="i217"> کیاہسپتال میں داخلے کے وقت (نام)کو کھانسی، بخار یا سانس کی تیز رفتار علامات کے لیے کوئی ادویات دی گئی تھیں؟ </string>
+    <string name="i216"> I216:\t نام)کو کھانسی، بخار اور سانس کی تیز رفتار علامات کے علاج کے لیے کتنے دن تک ہسپتال میں رکھا گیاتھا؟) </string>
+    <string name="i217"> I217:\t کیاہسپتال میں داخلے کے وقت (نام)کو کھانسی، بخار یا سانس کی تیز رفتار علامات کے لیے کوئی ادویات دی گئی تھیں؟ </string>
     <string name="i217a"> ہاں </string>
     <string name="i217b"> نہیں </string>
     <string name="i217c"> معلوم نہیں </string>
 
-    <string name="i218"> (نام)کو کونسا علاج فراہم کیا گیا تھا؟ </string>
+    <string name="i218"> I218:\t (نام)کو کونسا علاج فراہم کیا گیا تھا؟ </string>
     <string name="i218a"> کلوروکوین </string>
     <string name="i218b"> ایموڈایقوین </string>
     <string name="i218c"> کیونین </string>
@@ -1333,20 +1334,21 @@
     <string name="i218m"> ایموکسل ڈی ٹی </string>
     <string name="i218n"> گھریلو نسخے </string>
 
-    <string name="i219"> کیا (نام)کے سینے کا ایکسرے ہوا تھا؟ </string>
+    <string name="i219"> I219:\t کیا (نام)کے سینے کا ایکسرے ہوا تھا؟ </string>
     <string name="i219a"> ہاں </string>
     <string name="i219b"> نہیں </string>
-    <string name="i220"> کیا بیماری کے دوران کسی بھی وقت (نام) کی انگلی یا ایڑی سے خون کا نمونہ لیا گیاتھا؟ </string>
+
+    <string name="i220"> I220:\t کیا بیماری کے دوران کسی بھی وقت (نام) کی انگلی یا ایڑی سے خون کا نمونہ لیا گیاتھا؟ </string>
     <string name="i220a"> ہاں </string>
     <string name="i220b"> نہیں </string>
 
-    <string name="i221"> (نام) کی کھانسی، بخار اور سانس کی تیزی کا علاج کروانے پر کتنا خرچ آیاتھا؟ </string>
+    <string name="i221"> I221:\t (نام) کی کھانسی، بخار اور سانس کی تیزی کا علاج کروانے پر کتنا خرچ آیاتھا؟ </string>
 
-    <string name="i222"> کیا آپ کو نمونیا کی خطرناک علامات کے بارے میں معلوم ہے؟َ </string>
+    <string name="i222"> کیا آپ کو نمونیا کی خطرناک علامات کے بارے میں معلوم ہے؟َ I222:\t </string>
     <string name="i222a"> ہاں </string>
     <string name="i222b"> نہیں </string>
 
-    <string name="i223"> کیا آپ نمونیا کی خطرناک علامات کے بارے میں بتا سکتی ہیں؟ </string>
+    <string name="i223"> کیا آپ نمونیا کی خطرناک علامات کے بارے میں بتا سکتی ہیں؟ I223:\t </string>
     <string name="i223a"> پسلیاں چلنا </string>
     <string name="i223b"> کچھ بھی نہ پی سکنا </string>
     <string name="i223c"> مسلسل قے کرنا </string>
@@ -1355,19 +1357,19 @@
     <string name="i223f"> سینے میں خرخراہٹ کی آواز </string>
     <string name="i223g"> شدید غذائی کمی </string>
 
-    <string name="i224"> نمونیا کی خطرناک علامات کی معلومات آپ کو کس نے دی تھی؟ سب پر نشان لگائیں جو لاگو ہوتے ہیں </string>
+    <string name="i224"> نمونیا کی خطرناک علامات کی معلومات آپ کو کس نے دی تھی؟ سب پر نشان لگائیں جو لاگو ہوتے ہیں I224:\t </string>
     <string name="i224a"> ڈاکٹر </string>
     <string name="i224b"> ایل ایچ وی(لیڈی ہیلتھ وزیٹر) </string>
     <string name="i224c"> نرس </string>
-    <string name="i224d"> سی ایم ڈبلیو(کمیونیٹی مڈوائف) </string>
-    <string name="i224e"> ایل ایچ ڈبلیو(کمیونٹی ہیلتھ ورکر) </string>
-    <string name="i224f"> دائی/ٹی بی اے(پیشہ ور زچگی کروانے والی) </string>
+    <string name="i224d"> سی ایم ڈبلیو (کمیونیٹی مڈوائف) </string>
+    <string name="i224e"> ایل ایچ ڈبلیو (کمیونٹی ہیلتھ ورکر) </string>
+    <string name="i224f"> دائی / ٹی بی اے (پیشہ ور زچگی کروانے والی) </string>
 
-    <string name="i225"> کیا جب (نام) نمونیا کی بیماری میں مبتلا تھا اس وقت لیڈی ہیلتھ ورکر نے آپ کے گھر کا وزٹ کیا تھا ؟ </string>
+    <string name="i225"> کیا جب (نام) نمونیا کی بیماری میں مبتلا تھا اس وقت لیڈی ہیلتھ ورکر نے آپ کے گھر کا وزٹ کیا تھا ؟ I225:\t </string>
     <string name="i225a"> ہاں </string>
     <string name="i225b"> نہیں </string>
 
-    <string name="i226"> لیڈی ہیلتھ ورکر نے کیا خدمات فراہم کی تھیں؟ </string>
+    <string name="i226"> لیڈی ہیلتھ ورکر نے کیا خدمات فراہم کی تھیں؟ I226:\t </string>
     <string name="i226a"> ایموکسل ڈی-ٹی فراہم کیا تھا </string>
     <string name="i226b"> پیناڈول(دوا/ سیرپ) دیاتھا </string>
     <string name="i226c"> اے-آر-آئی ٹائمر کی مدد سے بچہ کی سانس کی رفتار گنیں </string>
@@ -1375,18 +1377,18 @@
     <string name="i226e"> گھریلو / فضائی آلودگی کے نقصانات کے بارے میں بتایا </string>
     <string name="i226f"> نمونیا کی خطرناک علامات کے بارے میں بتایا </string>
 
-    <string name="j101"> کیا آپ کے پاس کسی سرکاری یا نجی مرکز صحت سے ملا ہوا حفاظتی ٹیکوں کا کارڈ موجود ہے جس میں بچہ/بچی (نام) کو لگنے والے حفاظتی ٹیکوں کا اندراج ہو؟ </string>
+    <string name="j101"> کیا آپ کے پاس کسی سرکاری یا نجی مرکز صحت سے ملا ہوا حفاظتی ٹیکوں کا کارڈ موجود ہے جس میں بچہ/بچی (نام) کو لگنے والے حفاظتی ٹیکوں کا اندراج ہو؟ J101:\t </string>
     <string name="j101hint"> اگر ہاں: تو برائے مہربانی کیا میں اسے دیکھ سکتا/ سکتی ہوں؟ </string>
     <string name="j101hint1"> جواب دہندہ انٹرویو کی اجازت ملنے کے بعد کارڈ فراہم کر چکی/چکا ہو گا </string>
     <string name="j101a"> ہاں، کارڈدیکھ لیا </string>
     <string name="j101b"> نہیں، کارڈنہیں دیکھا </string>
     <string name="j101c"> نہیں </string>
 
-    <string name="j102"> کیا (نام) کے لئےآپ کے پاس کبھی کسی سرکاری یا نجی مرکز صحت کا حفاظتی ٹیکوں کا کارڈ موجود تھا؟ </string>
+    <string name="j102"> کیا (نام) کے لئےآپ کے پاس کبھی کسی سرکاری یا نجی مرکز صحت کا حفاظتی ٹیکوں کا کارڈ موجود تھا؟ J102:\t </string>
     <string name="j102a"> ہاں </string>
     <string name="j102b"> نہیں </string>
 
-    <string name="j103"> کارڈ پر لکھی ہوئی تاریخ پیدائش چیک کر یں اور درج کریں۔ </string>
+    <string name="j103"> کارڈ پر لکھی ہوئی تاریخ پیدائش چیک کر یں اور درج کریں۔ J103:\t </string>
     <string name="j103a"> دن </string>
     <string name="j103b"> مہینہ </string>
     <string name="j103c"> سال </string>
@@ -1397,7 +1399,7 @@
     <string name="j10401m"> مہینہ </string>
     <string name="j10401y"> سال </string>
 
-    <string name="j10401a"> (نام) کو بی-سی-جی کا ٹیکہ کہاں لگوایا گیاتھا؟ </string>
+    <string name="j10401a"> J10401a:\t (نام) کو بی-سی-جی کا ٹیکہ کہاں لگوایا گیاتھا ؟ </string>
     <string name="j10401aa"> سرکاری مرکز صحت </string>
     <string name="j10401ab"> نجی مرکز صحت </string>
     <string name="j10401ac"> ای پی آئی سینٹر </string>
@@ -1405,7 +1407,7 @@
     <string name="j10401ae"> رفاہی مرکز صحت میں </string>
     <string name="j10401af"> بچوں کی صحت کا دن/حفاظتی ٹیکوں کے ہفتے </string>
 
-    <string name="j10401b"> (نام) کو بی-سی-جی کا ٹیکہ کس نے لگا یا تھا ؟ </string>
+    <string name="j10401b"> J10401b:\t (نام) کو بی-سی-جی کا ٹیکہ کس نے لگا یا تھا ؟ </string>
     <string name="j10401ba"> ڈاکٹر </string>
     <string name="j10401bb"> لیڈی ہیلتھ ورکر </string>
     <string name="j10401bc"> لیڈی ہیلتھ وزیٹر </string>
@@ -1415,12 +1417,12 @@
     <string name="j10401bg"> ڈسپینسر / کمپائونڈڑ </string>
     <string name="j10401bx"> دیگر (وضاحت کریں) </string>
 
-    <string name="j10402"> پیدائش کے وقت (منہ کے ذریعے دیئے جانے والے پولیو کے قطروں) کی خوراک ۔ </string>
+    <string name="j10402"> J10402:\t پیدائش کے وقت (منہ کے ذریعے دیئے جانے والے پولیو کے قطروں) کی خوراک ۔ </string>
     <string name="j10402d"> دن </string>
     <string name="j10402m"> مہینہ </string>
     <string name="j10402y"> سال </string>
 
-    <string name="j10402a"> پولیو کے قطروں کی خوراک OPV-O (نام) کو کہاں سے پلوائی تھی؟ </string>
+    <string name="j10402a"> J10402:\t پولیو کے قطروں کی خوراک OPV-O نام) کو کہاں سے پلوائی تھی؟) </string>
     <string name="j10402aa"> سرکاری مرکز صحت </string>
     <string name="j10402ab"> نجی مرکز صحت </string>
     <string name="j10402ac"> ای پی آئی سینٹر </string>
@@ -1428,7 +1430,7 @@
     <string name="j10402ae"> رفاہی مرکز صحت میں </string>
     <string name="j10402af"> بچوں کی صحت کا دن/حفاظتی ٹیکوں کے ہفتے </string>
 
-    <string name="j10402b"> (نام) کو پولیو کے قطروں کی خوراک کس نے دی تھی؟ </string>
+    <string name="j10402b"> J10402b:\t نام) کو پولیو کے قطروں کی خوراک کس نے دی تھی؟) </string>
     <string name="j10402ba"> ڈاکٹر </string>
     <string name="j10402bb"> لیڈی ہیلتھ ورکر </string>
     <string name="j10402bc"> لیڈی ہیلتھ وزیٹر </string>
@@ -1438,12 +1440,12 @@
     <string name="j10402bg"> ڈسپینسر/کمپائونڈڑ </string>
     <string name="j10402bx"> دیگر (وضاحت کریں) </string>
 
-    <string name="j10403"> منہ کے ذریعے دیئے جانے والے پولیو ویکسین پہلی خوراک </string>
+    <string name="j10403"> منہ کے ذریعے دیئے جانے والے پولیو ویکسین پہلی خوراک J10403:\t </string>
     <string name="j10403d"> دن </string>
     <string name="j10403m"> مہینہ </string>
     <string name="j10403y"> سال </string>
 
-    <string name="j10403a"> (نام) کو پولیو کے قطروں کی پہلی خوراک OPV-1کہاں سے پلوائی تھی؟ </string>
+    <string name="j10403a"> (نام) کو پولیو کے قطروں کی پہلی خوراک OPV-1کہاں سے پلوائی تھی؟ J10403a:\t </string>
     <string name="j10403aa"> سرکاری مرکز صحت </string>
     <string name="j10403ab"> نجی مرکز صحت </string>
     <string name="j10403ac"> ای پی آئی سینٹر </string>
@@ -1451,7 +1453,7 @@
     <string name="j10403ae"> رفاہی مرکز صحت میں </string>
     <string name="j10403af"> بچوں کی صحت کا دن/حفاظتی ٹیکوں کے ہفتے </string>
 
-    <string name="j10403b"> (نام) کو پولیو کے قطروں کی پہلی خوراکOPV-1 کس نے دی تھی؟ </string>
+    <string name="j10403b"> (نام) کو پولیو کے قطروں کی پہلی خوراکOPV-1 کس نے دی تھی؟ J10403b:\t </string>
     <string name="j10403ba"> ڈاکٹر </string>
     <string name="j10403bb"> لیڈی ہیلتھ ورکر </string>
     <string name="j10403bc"> لیڈی ہیلتھ وزیٹر </string>
@@ -1461,12 +1463,12 @@
     <string name="j10403bg"> ڈسپینسر/کمپائونڈڑ </string>
     <string name="j10403bx"> دیگر (وضاحت کریں) </string>
 
-    <string name="j10404"> Penta-1 کی پہلی خوراک </string>
+    <string name="j10404"> J10404:\t Penta-1 کی پہلی خوراک </string>
     <string name="j10404d"> دن </string>
     <string name="j10404m"> مہینہ </string>
     <string name="j10404y"> سال </string>
 
-    <string name="j10404a"> (نام) کوPenta-1کا ٹیکہ کہاں سے لگوایا تھا ؟ </string>
+    <string name="j10404a"> (نام) کوPenta-1کا ٹیکہ کہاں سے لگوایا تھا ؟ J10404a:\t </string>
     <string name="j10404aa"> سرکاری مرکز صحت </string>
     <string name="j10404ab"> نجی مرکز صحت </string>
     <string name="j10404ac"> ای پی آئی سینٹر </string>
@@ -1474,7 +1476,7 @@
     <string name="j10404ae"> رفاہی مرکز صحت میں </string>
     <string name="j10404af"> بچوں کی صحت کا دن/حفاظتی ٹیکوں کے ہفتے </string>
 
-    <string name="j10404b"> (نام) کو Penta-1 کا ٹیکہ کس نے لگایا تھا ؟ </string>
+    <string name="j10404b"> (نام) کو Penta-1 کا ٹیکہ کس نے لگایا تھا ؟ J10404b:\t </string>
     <string name="j10404ba"> ڈاکٹر </string>
     <string name="j10404bb"> لیڈی ہیلتھ ورکر </string>
     <string name="j10404bc"> لیڈی ہیلتھ وزیٹر </string>
@@ -1484,12 +1486,12 @@
     <string name="j10404bg"> ڈسپینسر/کمپائونڈڑ </string>
     <string name="j10404bx"> دیگر (وضاحت کریں) </string>
 
-    <string name="j10405"> نمونیہ ویکسین کی پہلی خورا ک </string>
+    <string name="j10405"> نمونیہ ویکسین کی پہلی خورا ک J10405:\t </string>
     <string name="j10405d"> دن </string>
     <string name="j10405m"> مہینہ </string>
     <string name="j10405y"> سال </string>
 
-    <string name="j10405a"> (نام) کو PCV-1 کا ٹیکہ کہاں سے لگوایا تھا ؟ </string>
+    <string name="j10405a"> (نام) کو PCV-1 کا ٹیکہ کہاں سے لگوایا تھا ؟ J10405a:\t </string>
     <string name="j10405aa"> سرکاری مرکز صحت </string>
     <string name="j10405ab"> نجی مرکز صحت </string>
     <string name="j10405ac"> ای پی آئی سینٹر </string>
@@ -1497,7 +1499,7 @@
     <string name="j10405ae"> رفاہی مرکز صحت میں </string>
     <string name="j10405af"> بچوں کی صحت کا دن/حفاظتی ٹیکوں کے ہفتے </string>
 
-    <string name="j10405b"> (نام) کو PCV-1 کا ٹیکہ کس نے لگایا تھا؟ </string>
+    <string name="j10405b"> (نام) کو PCV-1 کا ٹیکہ کس نے لگایا تھا؟ J10405b:\t </string>
     <string name="j10405ba"> ڈاکٹر </string>
     <string name="j10405bb"> لیڈی ہیلتھ ورکر </string>
     <string name="j10405bc"> لیڈی ہیلتھ وزیٹر </string>
@@ -1507,12 +1509,12 @@
     <string name="j10405bg"> ڈسپینسر/کمپائونڈڑ </string>
     <string name="j10405bx"> دیگر (وضاحت کریں) </string>
 
-    <string name="j10406"> روٹا وائرس پہلی خوراک </string>
+    <string name="j10406"> روٹا وائرس پہلی خوراک J10406:\t </string>
     <string name="j10406d"> دن </string>
     <string name="j10406m"> مہینہ </string>
     <string name="j10406y"> سال </string>
 
-    <string name="j10406a"> (نام) کوRV1 کا ٹیکہ کہاں سے لگوایا تھا ؟ </string>
+    <string name="j10406a"> (نام) کوRV1 کا ٹیکہ کہاں سے لگوایا تھا ؟ J10406a:\t </string>
     <string name="j10406aa"> سرکاری مرکز صحت </string>
     <string name="j10406ab"> نجی مرکز صحت </string>
     <string name="j10406ac"> ای پی آئی سینٹر </string>
@@ -1520,7 +1522,7 @@
     <string name="j10406ae"> رفاہی مرکز صحت میں </string>
     <string name="j10406af"> بچوں کی صحت کا دن/حفاظتی ٹیکوں کے ہفتے </string>
 
-    <string name="j10406b"> (نام) کو RV1 کا ٹیکہ کس نے لگایا تھا ؟ </string>
+    <string name="j10406b"> (نام) کو RV1 کا ٹیکہ کس نے لگایا تھا ؟ J10406b:\t </string>
     <string name="j10406ba"> ڈاکٹر </string>
     <string name="j10406bb"> لیڈی ہیلتھ ورکر </string>
     <string name="j10406bc"> لیڈی ہیلتھ وزیٹر </string>
@@ -1530,12 +1532,12 @@
     <string name="j10406bg"> ڈسپینسر/کمپائونڈڑ </string>
     <string name="j10406bx"> دیگر (وضاحت کریں) </string>
 
-    <string name="j10407"> منہ کے ذریعے دیئے جانے والے پولیو کے قطروں کی دوسری خورا ک </string>
+    <string name="j10407"> منہ کے ذریعے دیئے جانے والے پولیو کے قطروں کی دوسری خورا ک J10407:\t </string>
     <string name="j10407d"> دن </string>
     <string name="j10407m"> مہینہ </string>
     <string name="j10407y"> سال </string>
 
-    <string name="j10407a"> (نام) کو پولیو کے قطروں کی دوسری خوراک OPV-2 کہاں سے پلوائی تھی؟ </string>
+    <string name="j10407a"> (نام) کو پولیو کے قطروں کی دوسری خوراک OPV-2 کہاں سے پلوائی تھی ؟ J10407a:\t </string>
     <string name="j10407aa"> سرکاری مرکز صحت </string>
     <string name="j10407ab"> نجی مرکز صحت </string>
     <string name="j10407ac"> ای پی آئی سینٹر </string>
@@ -1543,7 +1545,7 @@
     <string name="j10407ae"> رفاہی مرکز صحت میں </string>
     <string name="j10407af"> بچوں کی صحت کا دن/حفاظتی ٹیکوں کے ہفتے </string>
 
-    <string name="j10407b"> (نام) کو PCV-1 کا ٹیکہ کس نے لگایا تھا؟ </string>
+    <string name="j10407b"> (نام) کو PCV-1 کا ٹیکہ کس نے لگایا تھا؟ J10407b:\t </string>
     <string name="j10407ba"> ڈاکٹر </string>
     <string name="j10407bb"> لیڈی ہیلتھ ورکر </string>
     <string name="j10407bc"> لیڈی ہیلتھ وزیٹر </string>
@@ -1553,12 +1555,12 @@
     <string name="j10407bg"> ڈسپینسر/کمپائونڈڑ </string>
     <string name="j10407bx"> دیگر (وضاحت کریں) </string>
 
-    <string name="j10408"> پینٹا وایلنٹ ویکسین کی دوسری خوراک </string>
+    <string name="j10408"> پینٹا وایلنٹ ویکسین کی دوسری خوراک J10408:\t </string>
     <string name="j10408d"> دن </string>
     <string name="j10408m"> مہینہ </string>
     <string name="j10408y"> سال </string>
 
-    <string name="j10408a"> (نام) کوPenta-2کا ٹیکہ کہاں سے لگوایا تھا؟ </string>
+    <string name="j10408a"> (نام) کوPenta-2کا ٹیکہ کہاں سے لگوایا تھا؟ J10408a:\t </string>
     <string name="j10408aa"> سرکاری مرکز صحت </string>
     <string name="j10408ab"> نجی مرکز صحت </string>
     <string name="j10408ac"> ای پی آئی سینٹر </string>
@@ -1566,7 +1568,7 @@
     <string name="j10408ae"> رفاہی مرکز صحت میں </string>
     <string name="j10408af"> بچوں کی صحت کا دن/حفاظتی ٹیکوں کے ہفتے </string>
 
-    <string name="j10408b"> (نام) کو Penta-2 کا ٹیکہ کس نے لگایا تھا؟ </string>
+    <string name="j10408b"> (نام) کو Penta-2 کا ٹیکہ کس نے لگایا تھا؟ J10408b:\t </string>
     <string name="j10408ba"> ڈاکٹر </string>
     <string name="j10408bb"> لیڈی ہیلتھ ورکر </string>
     <string name="j10408bc"> لیڈی ہیلتھ وزیٹر </string>
@@ -1576,12 +1578,12 @@
     <string name="j10408bg"> ڈسپینسر/کمپائونڈڑ </string>
     <string name="j10408bx"> دیگر (وضاحت کریں) </string>
 
-    <string name="j10409"> نمونیہ ویکسین کی دوسری خورا ک </string>
+    <string name="j10409"> نمونیہ ویکسین کی دوسری خورا ک J10409:\t </string>
     <string name="j10409d"> دن </string>
     <string name="j10409m"> مہینہ </string>
     <string name="j10409y"> سال </string>
 
-    <string name="j10409a"> (نام) کو PCV-2 کا ٹیکہ کہاں سے لگوایا تھا؟ </string>
+    <string name="j10409a"> (نام) کو PCV-2 کا ٹیکہ کہاں سے لگوایا تھا؟ J10409a:\t </string>
     <string name="j10409aa"> سرکاری مرکز صحت </string>
     <string name="j10409ab"> نجی مرکز صحت </string>
     <string name="j10409ac"> ای پی آئی سینٹر </string>
@@ -1589,7 +1591,7 @@
     <string name="j10409ae"> رفاہی مرکز صحت میں </string>
     <string name="j10409af"> بچوں کی صحت کا دن/حفاظتی ٹیکوں کے ہفتے </string>
 
-    <string name="j10409b"> (نام) کو PCV-2 کا ٹیکہ کس نے لگایا تھا؟ </string>
+    <string name="j10409b"> (نام) کو PCV-2 کا ٹیکہ کس نے لگایا تھا؟ J10409b:\t </string>
     <string name="j10409ba"> ڈاکٹر </string>
     <string name="j10409bb"> لیڈی ہیلتھ ورکر </string>
     <string name="j10409bc"> لیڈی ہیلتھ وزیٹر </string>
@@ -1599,12 +1601,12 @@
     <string name="j10409bg"> ڈسپینسر/کمپائونڈڑ </string>
     <string name="j10409bx"> دیگر (وضاحت کریں) </string>
 
-    <string name="j10410"> روٹا وائرس دوسری خوراک </string>
+    <string name="j10410"> روٹا وائرس دوسری خوراک J10410:\t </string>
     <string name="j10410d"> دن </string>
     <string name="j10410m"> مہینہ </string>
     <string name="j10410y"> سال </string>
 
-    <string name="j10410a"> (نام) کو RV2 کا ٹیکہ کہاں سے لگوایا تھا ؟ </string>
+    <string name="j10410a"> (نام) کو RV2 کا ٹیکہ کہاں سے لگوایا تھا ؟ J10410a:\t </string>
     <string name="j10410aa"> سرکاری مرکز صحت </string>
     <string name="j10410ab"> نجی مرکز صحت </string>
     <string name="j10410ac"> ای پی آئی سینٹر </string>
@@ -1622,12 +1624,12 @@
     <string name="j10410bg"> ڈسپینسر/کمپائونڈڑ </string>
     <string name="j10410bx"> دیگر (وضاحت کریں) </string>
 
-    <string name="j10411"> منہ کے ذریعے دیئے جانے والے پولیو کے قطروں کی تیسری خوراک </string>
+    <string name="j10411"> منہ کے ذریعے دیئے جانے والے پولیو کے قطروں کی تیسری خوراک J10411:\t </string>
     <string name="j10411d"> دن </string>
     <string name="j10411m"> مہینہ </string>
     <string name="j10411y"> سال </string>
 
-    <string name="j10411a"> (نام) کو پولیو کے قطروں کی تیسری خوراک OPV-3 کہاں سے پلوائی تھی؟ </string>
+    <string name="j10411a"> (نام) کو پولیو کے قطروں کی تیسری خوراک OPV-3 کہاں سے پلوائی تھی؟ J10411a:\t </string>
     <string name="j10411aa"> سرکاری مرکز صحت </string>
     <string name="j10411ab"> نجی مرکز صحت </string>
     <string name="j10411ac"> ای پی آئی سینٹر </string>
@@ -1635,7 +1637,7 @@
     <string name="j10411ae"> رفاہی مرکز صحت میں </string>
     <string name="j10411af"> بچوں کی صحت کا دن/حفاظتی ٹیکوں کے ہفتے </string>
 
-    <string name="j10411b"> (نام) کو پولیو کے قطروں کی تیسری خوراک OPV-3 کس نے پلوائی تھی؟ </string>
+    <string name="j10411b"> (نام) کو پولیو کے قطروں کی تیسری خوراک OPV-3 کس نے پلوائی تھی؟ J10411b:\t </string>
     <string name="j10411ba"> ڈاکٹر </string>
     <string name="j10411bb"> لیڈی ہیلتھ ورکر </string>
     <string name="j10411bc"> لیڈی ہیلتھ وزیٹر </string>
@@ -1645,12 +1647,12 @@
     <string name="j10411bg"> ڈسپینسر/کمپائونڈڑ </string>
     <string name="j10411bx"> دیگر (وضاحت کریں) </string>
 
-    <string name="j10412"> پینٹا وایلنٹ ویکسین کی تیسری خوراک </string>
+    <string name="j10412"> پینٹا وایلنٹ ویکسین کی تیسری خوراک J10412:\t </string>
     <string name="j10412d"> دن </string>
     <string name="j10412m"> مہینہ </string>
     <string name="j10412y"> سال </string>
 
-    <string name="j10412a"> (نام) کو Penta-3 کا ٹیکہ کہاں سے لگوایا تھا ؟ </string>
+    <string name="j10412a"> (نام) کو Penta-3 کا ٹیکہ کہاں سے لگوایا تھا ؟ J10412a:\t </string>
     <string name="j10412aa"> سرکاری مرکز صحت </string>
     <string name="j10412ab"> نجی مرکز صحت </string>
     <string name="j10412ac"> ای پی آئی سینٹر </string>
@@ -1658,7 +1660,7 @@
     <string name="j10412ae"> رفاہی مرکز صحت میں </string>
     <string name="j10412af"> بچوں کی صحت کا دن / حفاظتی ٹیکوں کے ہفتے </string>
 
-    <string name="j10412b"> (نام) کو کا Penta-3 ٹیکہ کس نے لگایا تھا ؟ </string>
+    <string name="j10412b"> (نام) کو کا Penta-3 ٹیکہ کس نے لگایا تھا ؟ J10412b:\t </string>
     <string name="j10412ba"> ڈاکٹر </string>
     <string name="j10412bb"> لیڈی ہیلتھ ورکر </string>
     <string name="j10412bc"> لیڈی ہیلتھ وزیٹر </string>
@@ -1668,12 +1670,12 @@
     <string name="j10412bg"> ڈسپینسر/کمپائونڈڑ </string>
     <string name="j10412bx"> دیگر (وضاحت کریں) </string>
 
-    <string name="j10413"> نمونیہ ویکسین کی تیسری خوراک </string>
+    <string name="j10413"> نمونیہ ویکسین کی تیسری خوراک J10413:\t </string>
     <string name="j10413d"> دن </string>
     <string name="j10413m"> مہینہ </string>
     <string name="j10413y"> سال </string>
 
-    <string name="j10413a"> (نام) کو کا PCV-3 ٹیکہ کہاں سے لگوایا تھا؟ </string>
+    <string name="j10413a"> (نام) کو کا PCV-3 ٹیکہ کہاں سے لگوایا تھا؟ J10413a:\t </string>
     <string name="j10413aa"> سرکاری مرکز صحت </string>
     <string name="j10413ab"> نجی مرکز صحت </string>
     <string name="j10413ac"> ای پی آئی سینٹر </string>
@@ -1681,7 +1683,7 @@
     <string name="j10413ae"> رفاہی مرکز صحت میں </string>
     <string name="j10413af"> بچوں کی صحت کا دن/حفاظتی ٹیکوں کے ہفتے </string>
 
-    <string name="j10413b"> (نام) کوPCV-3 کا ٹیکہ کس نے لگایا تھا؟ </string>
+    <string name="j10413b"> (نام) کوPCV-3 کا ٹیکہ کس نے لگایا تھا؟ J10413b:\t </string>
     <string name="j10413ba"> ڈاکٹر </string>
     <string name="j10413bb"> لیڈی ہیلتھ ورکر </string>
     <string name="j10413bc"> لیڈی ہیلتھ وزیٹر </string>
@@ -1691,12 +1693,12 @@
     <string name="j10413bg"> ڈسپینسر/کمپائونڈڑ </string>
     <string name="j10413bx"> دیگر (وضاحت کریں) </string>
 
-    <string name="j10414"> آئی پی وی (پولیو ویکسین کی انجیکشن) </string>
+    <string name="j10414"> آئی پی وی (پولیو ویکسین کی انجیکشن) J10414:\t </string>
     <string name="j10414d"> دن </string>
     <string name="j10414m"> مہینہ </string>
     <string name="j10414y"> سال </string>
 
-    <string name="j10414a"> (نام) کو IPVکا ٹیکہ کہاں سے لگوایا تھا؟ </string>
+    <string name="j10414a"> (نام) کو IPVکا ٹیکہ کہاں سے لگوایا تھا؟ J10414a:\t </string>
     <string name="j10414aa"> سرکاری مرکز صحت </string>
     <string name="j10414ab"> نجی مرکز صحت </string>
     <string name="j10414ac"> ای پی آئی سینٹر </string>
@@ -1704,7 +1706,7 @@
     <string name="j10414ae"> رفاہی مرکز صحت میں </string>
     <string name="j10414af"> بچوں کی صحت کا دن/حفاظتی ٹیکوں کے ہفتے </string>
 
-    <string name="j10414b"> (نام) کو IPV کا ٹیکہ کس نے لگایا تھا؟ </string>
+    <string name="j10414b"> (نام) کو IPV کا ٹیکہ کس نے لگایا تھا؟ J10414b:\t </string>
     <string name="j10414ba"> ڈاکٹر </string>
     <string name="j10414bb"> لیڈی ہیلتھ ورکر </string>
     <string name="j10414bc"> لیڈی ہیلتھ وزیٹر </string>
@@ -1714,12 +1716,12 @@
     <string name="j10414bg"> ڈسپینسر/کمپائونڈڑ </string>
     <string name="j10414bx"> دیگر (وضاحت کریں) </string>
 
-    <string name="j10415"> خسرہ کا ٹیکہ پہلی خوراک </string>
+    <string name="j10415"> خسرہ کا ٹیکہ پہلی خوراک J10415:\t </string>
     <string name="j10415d"> دن </string>
     <string name="j10415m"> مہینہ </string>
     <string name="j10415y"> سال </string>
 
-    <string name="j10415a"> (نام) کو Measles-1کا ٹیکہ کہاں سے لگوایا تھا؟ </string>
+    <string name="j10415a"> (نام) کو Measles-1 کا ٹیکہ کہاں سے لگوایا تھا ؟ J10415a:\t </string>
     <string name="j10415aa"> سرکاری مرکز صحت </string>
     <string name="j10415ab"> نجی مرکز صحت </string>
     <string name="j10415ac"> ای پی آئی سینٹر </string>
@@ -1727,7 +1729,7 @@
     <string name="j10415ae"> رفاہی مرکز صحت میں </string>
     <string name="j10415af"> بچوں کی صحت کا دن/حفاظتی ٹیکوں کے ہفتے </string>
 
-    <string name="j10415b"> (نام) کو Measles-1 کا ٹیکہ کس نے لگایا تھا؟ </string>
+    <string name="j10415b"> (نام) کو Measles-1 کا ٹیکہ کس نے لگایا تھا؟ J10415b:\t </string>
     <string name="j10415ba"> ڈاکٹر </string>
     <string name="j10415bb"> لیڈی ہیلتھ ورکر </string>
     <string name="j10415bc"> لیڈی ہیلتھ وزیٹر </string>
@@ -1737,12 +1739,12 @@
     <string name="j10415bg"> ڈسپینسر/کمپائونڈڑ </string>
     <string name="j10415bx"> دیگر (وضاحت کریں) </string>
 
-    <string name="j10416"> خسرہ کا ٹیکہ دوسری خوراک </string>
+    <string name="j10416"> خسرہ کا ٹیکہ دوسری خوراک J10416:\t </string>
     <string name="j10416d"> دن </string>
     <string name="j10416m"> مہینہ </string>
     <string name="j10416y"> سال </string>
 
-    <string name="j10416a"> (نام) کو Measles-2 کا ٹیکہ کہاں سے لگوایا تھا ؟ </string>
+    <string name="j10416a"> (نام) کو Measles-2 کا ٹیکہ کہاں سے لگوایا تھا ؟ J10416a:\t </string>
     <string name="j10416aa"> سرکاری مرکز صحت </string>
     <string name="j10416ab"> نجی مرکز صحت </string>
     <string name="j10416ac"> ای پی آئی سینٹر </string>
@@ -1750,7 +1752,7 @@
     <string name="j10416ae"> رفاہی مرکز صحت میں </string>
     <string name="j10416af"> بچوں کی صحت کا دن/حفاظتی ٹیکوں کے ہفتے </string>
 
-    <string name="j10416b"> (نام) کو Measles-2کا ٹیکہ کس نے لگایا تھا ؟ </string>
+    <string name="j10416b"> (نام) کو Measles-2کا ٹیکہ کس نے لگایا تھا ؟ J10416b:\t </string>
     <string name="j10416ba"> ڈاکٹر </string>
     <string name="j10416bb"> لیڈی ہیلتھ ورکر </string>
     <string name="j10416bc"> لیڈی ہیلتھ وزیٹر </string>
@@ -1760,12 +1762,12 @@
     <string name="j10416bg"> ڈسپینسر/کمپائونڈڑ </string>
     <string name="j10416bx"> دیگر (وضاحت کریں) </string>
 
-    <string name="j10417"> Typhoid vaccine خوراک </string>
+    <string name="j10417"> J10417:\t Typhoid vaccine خوراک </string>
     <string name="j10417d"> دن </string>
     <string name="j10417m"> مہینہ </string>
     <string name="j10417y"> سال </string>
 
-    <string name="j10417a"> (نام) کو Typhoid vaccine کا ٹیکہ کہاں سے لگوایا تھا ؟ </string>
+    <string name="j10417a"> (نام) کو Typhoid vaccine کا ٹیکہ کہاں سے لگوایا تھا ؟ J10417a:\t </string>
     <string name="j10417aa"> سرکاری مرکز صحت </string>
     <string name="j10417ab"> نجی مرکز صحت </string>
     <string name="j10417ac"> ای پی آئی سینٹر </string>
@@ -1773,7 +1775,7 @@
     <string name="j10417ae"> رفاہی مرکز صحت میں </string>
     <string name="j10417af"> بچوں کی صحت کا دن/حفاظتی ٹیکوں کے ہفتے </string>
 
-    <string name="j10417b"> (نام) کو Typhoid vaccine کا ٹیکہ کس نے لگایا تھا؟ </string>
+    <string name="j10417b"> (نام) کو Typhoid vaccine کا ٹیکہ کس نے لگایا تھا ؟ J10417b:\t </string>
     <string name="j10417ba"> ڈاکٹر </string>
     <string name="j10417bb"> لیڈی ہیلتھ ورکر </string>
     <string name="j10417bc"> لیڈی ہیلتھ وزیٹر </string>
@@ -1783,82 +1785,82 @@
     <string name="j10417bg"> ڈسپینسر/کمپائونڈڑ </string>
     <string name="j10417bx"> دیگر (وضاحت کریں) </string>
 
-    <string name="j105"> کیا تمام حفاظتی ٹیکوں (بی سی جی سے لے کر خسرہ کی دوسری خوراک تک کی معلومات ریکارڈ کر لی گئی ہیں ؟  J104 چیک کریں </string>
+    <string name="j105"> کیا تمام حفاظتی ٹیکوں (بی سی جی سے لے کر خسرہ کی دوسری خوراک تک کی معلومات ریکارڈ کر لی گئی ہیں ؟  J104 چیک کریں J105:\t </string>
     <string name="j105a"> ہاں </string>
     <string name="j105b"> نہیں </string>
 
-    <string name="j106"> اس کارڈ پر درج ویکسین کے علاوہ جو آپ نے مجھے دکھایا ہے، کیا (نام) کو کوئی اوراضافی ویکسین بھی لگی ہے؟ </string>
+    <string name="j106"> اس کارڈ پر درج ویکسین کے علاوہ جو آپ نے مجھے دکھایا ہے، کیا (نام) کو کوئی اوراضافی ویکسین بھی لگی ہے؟ J106:\t </string>
     <string name="j106a"> ہاں </string>
     <string name="j106b"> نہیں </string>
     <string name="j106c"> معلوم نہیں </string>
 
-    <string name="j107">  واپس (J104) پر جائیں اور ان حفاظتی ٹیکوں کی جانچ کریں </string>
+    <string name="j107">  واپس (J104) پر جائیں اور ان حفاظتی ٹیکوں کی جانچ کریں J107:\t </string>
     <string name="j107hint"> لگنے والی ہر ویکسین کے لئے اس دن کے کالم میں\'66\' ریکارڈ کریں۔ </string>
     <string name="j107hint1"> جو ویکسینز نہیں لگیں ان کے لئے\'00\' ریکارڈ سوال نمبر کریں۔ </string>
     <string name="j107hint2"> جب مکمل کر لیں، تو ماڈیول کے اختتام پر جائیں </string>
 
-    <string name="j108"> کیا (نام)کو کبھی بیماریوں سے بچاؤکے لئے کوئی ویکسین لگی ہےجو اسے بیماریوں سے بچا سکے۔ اس میں حفاظتی ٹیکوں کی مہم کے دوران لگنے والی ویکسین ، حفاظتی ٹیکے لگانے والا دن یا بچوں کی صحت کے دن لگنے والی ویکسین شامل ہیں۔ </string>
+    <string name="j108"> کیا (نام)کو کبھی بیماریوں سے بچاؤکے لئے کوئی ویکسین لگی ہےجو اسے بیماریوں سے بچا سکے۔ اس میں حفاظتی ٹیکوں کی مہم کے دوران لگنے والی ویکسین ، حفاظتی ٹیکے لگانے والا دن یا بچوں کی صحت کے دن لگنے والی ویکسین شامل ہیں۔ J108:\t </string>
     <string name="j108a"> ہاں </string>
     <string name="j108b"> نہیں </string>
     <string name="j108c"> معلوم نہیں </string>
 
-    <string name="j109"> کیا (نام)کوکبھی ٹی بی کی بیماری سے بچاؤکے لئے بی سی جی کی ویکسین لگی ہے، یہ ایک انجکشن ہےجوعام طور پر بازو یا کندھے میں لگایا جاتا ہے جس کی وجہ سے بازو یا کندھے پر نشان پڑ جاتا ہے؟ </string>
+    <string name="j109"> کیا (نام)کوکبھی ٹی بی کی بیماری سے بچاؤکے لئے بی سی جی کی ویکسین لگی ہے، یہ ایک انجکشن ہےجوعام طور پر بازو یا کندھے میں لگایا جاتا ہے جس کی وجہ سے بازو یا کندھے پر نشان پڑ جاتا ہے؟ J109:\t </string>
     <string name="j109a"> ہاں </string>
     <string name="j109b"> نہیں </string>
     <string name="j109c"> معلوم نہیں </string>
 
-    <string name="j111"> کیا (نام)کوکبھی منہ کے ذ ریعے دیئے جانے والے پولیو کی بیماری سے بچاؤکے قطرےپلوائے گئے ہیں؟ </string>
+    <string name="j111"> کیا (نام)کوکبھی منہ کے ذ ریعے دیئے جانے والے پولیو کی بیماری سے بچاؤکے قطرےپلوائے گئے ہیں؟ J111:\t </string>
     <string name="j111hint"> نشاندہی کرتے ہوئے اس بات کی تحقیق کریں کہ بعض اوقات پولیو کے قطروں کی پہلی خوراک پیدائش کے وقت اور دیگر بیماریوں سے بچاؤکے انجکشن لگاتے وقت ایک ساتھ ہی دے دی جاتی ہے </string>
     <string name="j111a"> ہاں </string>
     <string name="j111b"> نہیں </string>
     <string name="j111c"> معلوم نہیں </string>
 
-    <string name="j112"> کیا پہلی بار پلائے گئے پولیو کے قطرے پیدائش کے بعد پہلے دو ہفتوں میں دیئے گئے تھے؟ </string>
+    <string name="j112"> کیا پہلی بار پلائے گئے پولیو کے قطرے پیدائش کے بعد پہلے دو ہفتوں میں دیئے گئے تھے؟ J112:\t </string>
     <string name="j112a"> ہاں </string>
     <string name="j112b"> نہیں </string>
     <string name="j112c"> معلوم نہیں </string>
 
-    <string name="j113"> پولیو کے قطرے کتنی بار پلوائے گئے تھے؟ </string>
+    <string name="j113"> پولیو کے قطرے کتنی بار پلوائے گئے تھے؟ J113:\t </string>
 
-    <string name="j114"> آخری بار جب (نام) کو پولیو کے قطرے پلائے گئے تھے؛ تو کیا اس وقت (بچے/بچی) کو پولیو سے بچائو کا ٹیکہ بھی لگوایا گیا تھا ؟ </string>
+    <string name="j114"> آخری بار جب (نام) کو پولیو کے قطرے پلائے گئے تھے؛ تو کیا اس وقت (بچے/بچی) کو پولیو سے بچائو کا ٹیکہ بھی لگوایا گیا تھا ؟ J114:\t </string>
     <string name="j114hint"> اس بات کی یقین دہانی کرنے کے لئے مزید پوچھیں کہ کیا اس وقت قطرے اور ٹیکہ دونوں دیئے گئے تھے </string>
     <string name="j114a"> ہاں </string>
     <string name="j114b"> نہیں </string>
     <string name="j114c"> معلوم نہیں </string>
 
-    <string name="j115"> کیا(نام)کوکبھی(Pentavalent) لگا ہے یہ ایک انجکشن ہے جو ران میں لگایا جاتا ہے جو (بچہ / بچی) کو تشنج،کالی کھانسی، خناق،ہیپا ٹائٹس بی کی بیماری ،اور ہیموفائلس انفلوئنزا بی سےمحفوظ رکھتا ہے ؟ </string>
+    <string name="j115"> کیا(نام)کوکبھی(Pentavalent) لگا ہے یہ ایک انجکشن ہے جو ران میں لگایا جاتا ہے جو (بچہ / بچی) کو تشنج،کالی کھانسی، خناق،ہیپا ٹائٹس بی کی بیماری ،اور ہیموفائلس انفلوئنزا بی سےمحفوظ رکھتا ہے ؟ J115:\t </string>
     <string name="j115hint"> نشاندہی کرتے ہوئے اس بات کی تحقیق کریں کہ بعض اوقات پولیو کے قطروں کے ساتھ ہی پینٹا ویلینٹ ویکسین بھی دی جاتی ہے </string>
     <string name="j115a"> ہاں </string>
     <string name="j115b"> نہیں </string>
     <string name="j115c"> معلوم نہیں </string>
 
-    <string name="j116"> پینٹا ویلینٹ ویکسین کتنی بار لگی تھی؟ </string>
+    <string name="j116"> J116:\t پینٹا ویلینٹ ویکسین کتنی بار لگی تھی؟ </string>
 
-    <string name="j117"> کیا (نام) کوکبھی (Pneumococcal)نمونیاکی ویکسین لگی ہے، جوایک انجکشن ران میں لگایا جاتا ہے جس سے (بچہ/بچی)نمونیہ، کان کا انفیکشن اور گردن توڑ بخار کی بیماریوں سے محفوظ رہتا ہے؟ </string>
+    <string name="j117"> J117:\t کیا (نام) کوکبھی (Pneumococcal)نمونیاکی ویکسین لگی ہے، جوایک انجکشن ران میں لگایا جاتا ہے جس سے (بچہ/بچی)نمونیہ، کان کا انفیکشن اور گردن توڑ بخار کی بیماریوں سے محفوظ رہتا ہے؟ </string>
     <string name="j117hint"> نشاندہی کرتے ہوئےاس بات کی تحقیق کریں کہ بعض اوقات پولیو کے قطروں کے ساتھ ہی نمونیہ کی ویکسین بھی دی جاتی ہے </string>
     <string name="j117a"> ہاں </string>
     <string name="j117b"> نہیں </string>
     <string name="j117c"> معلوم نہیں </string>
 
-    <string name="j118"> نمونیہ کی ویکسین کتنی بار لگی تھی؟ </string>
+    <string name="j118"> J118:\t نمونیہ کی ویکسین کتنی بار لگی تھی؟ </string>
 
-    <string name="j119"> کیا (نام) کوکبھی آئی پی وی انجکشن لگا ہے، ایک انجکشن جو 14 ہفتےیا اس سے زیادہ عمر میں ران میں لگایا جاتا ہے جس سے (بچہ/بچی) پولیو کی بیماری سے محفوظ رہتا /رہتی ہے؟ </string>
+    <string name="j119"> J119:\t کیا (نام) کوکبھی آئی پی وی انجکشن لگا ہے، ایک انجکشن جو 14 ہفتےیا اس سے زیادہ عمر میں ران میں لگایا جاتا ہے جس سے (بچہ/بچی) پولیو کی بیماری سے محفوظ رہتا /رہتی ہے؟ </string>
     <string name="j119a"> ہاں </string>
     <string name="j119b"> نہیں </string>
     <string name="j119c"> معلوم نہیں </string>
 
-    <string name="j120"> کیا (نام) کوکبھی خسرہ کا پہلا ٹیکہ لگا ہے، جو ایک انجکشن 9مہینےیا اس سے زیادہ عمر میں بازو میں لگایا جاتا ہے جس سے (بچہ/بچی) خسرہ کی بیماری سے محفوظ رہتا ہے؟ </string>
+    <string name="j120"> J120:\t کیا (نام) کوکبھی خسرہ کا پہلا ٹیکہ لگا ہے، جو ایک انجکشن 9مہینےیا اس سے زیادہ عمر میں بازو میں لگایا جاتا ہے جس سے (بچہ/بچی) خسرہ کی بیماری سے محفوظ رہتا ہے؟ </string>
     <string name="j120a"> ہاں </string>
     <string name="j120b"> نہیں </string>
     <string name="j120c"> معلوم نہیں </string>
 
-    <string name="j121"> خسرہ کا ٹیکہ کتنی بار لگاتھا؟ </string>
-    <string name="j122"> کیا(نام)کو کبھی "دست" (روٹا وائرس ویکسین)کا حفاظتی ٹیکہ لگا ہے </string>
+    <string name="j121"> J121:\t خسرہ کا ٹیکہ کتنی بار لگاتھا؟ </string>
+    <string name="j122"> J122:\t کیا(نام)کو کبھی "دست" (روٹا وائرس ویکسین)کا حفاظتی ٹیکہ لگا ہے </string>
     <string name="j122a"> ہاں </string>
     <string name="j122b"> نہیں </string>
     <string name="j122c"> معلوم نہیں </string>
 
-    <string name="j123"> (نام) کو حفاظتی ٹیکے کیوں نہیں لگوائے تھے ؟ اگر بچے کو تمام حفاظتی ٹیکے نہیں لگوائے گئے، تو ماں / دیکھ بھال کرنے والے سے پوچھیں۔ </string>
+    <string name="j123"> J123:\t (نام) کو حفاظتی ٹیکے کیوں نہیں لگوائے تھے ؟ اگر بچے کو تمام حفاظتی ٹیکے نہیں لگوائے گئے، تو ماں / دیکھ بھال کرنے والے سے پوچھیں۔ </string>
     <string name="j123hint"> بتائی گئیں تمام وجوہات کو ریکارڈ کریں لیکن فوری طور پر کسی مخصوص وجہ پر مت جائیں۔ ماں کو تمام وجوہات فراہم کرنے کی ترغیب دیں۔ </string>
     <string name="j123a"> حفاظتی ٹیکوں کا مرکزبہت دور تھا </string>
     <string name="j123b"> حفاظتی ٹیکے لگوانے کا وقت مناسب نہیں تھا </string>
