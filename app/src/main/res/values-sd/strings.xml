@@ -1331,7 +1331,7 @@
     <string name="j10402bg"> ڊسپينسر/ڪمپائونڊر</string>
     <string name="j10402bx"> (ٻيو ڪو (وضاحت ڪري</string>
 
-    <string name="j10403"> J10403:\t (منهن جي ذريعي ڏيڻ واري او پي وي ون جي پهرين خوراڪ (ڏينهن مهينو سال</string>
+    <string name="j10403"> J10403:\t منهن جي ذريعي ڏيڻ واري او پي وي ون جي پهرين خوراڪ (ڏينهن مهينو سال)</string>
     <string name="j10403d"> ڏينھن </string>
     <string name="j10403m"> مھينو </string>
     <string name="j10403y"> سال </string>
@@ -1358,7 +1358,7 @@
     <string name="j10404m"> مھينو </string>
     <string name="j10404y"> سال </string>
 
-    <string name="j10404a"> J10404a:\t نالو) پينٽا جي ويڪسين ڪٿان لڳرائي؟)</string>
+    <string name="j10404a"> J10404a:\t پينٽا ويلنٽ جي پهرين خوراڪ( ڏينهن مهينو سال)</string>
     <string name="j10404aa"> سرڪار صحت مرڪز</string>
     <string name="j10404ab"> پرائيويٽ صحت مرڪز</string>
     <string name="j10404ac"> ٽڪن جو مرڪز </string>
@@ -1375,7 +1375,7 @@
     <string name="j10404bg"> ڊسپينسر/ڪمپائونڊر</string>
     <string name="j10404bx"> (ٻيو ڪو (وضاحت ڪريو</string>
 
-    <string name="j10405"> J10405:\t (نمونيا ويڪسين جي پهرين خوراڪ (ڏينهن مهينو سال</string>
+    <string name="j10405"> J10405:\t نمونيا ويڪسين جي پهرين خوراڪ (ڏينهن مهينو سال) </string>
     <string name="j10405d"> ڏينھن </string>
     <string name="j10405m"> مھينو </string>
     <string name="j10405y"> سال </string>
@@ -1387,6 +1387,7 @@
     <string name="j10405ad"> ماءُ ۽ ٻار جي صحت جو مرڪز</string>
     <string name="j10405ae"> اين جي او صحت مرڪز</string>
     <string name="j10405af"> ٻار جي ٽڪن وارو ھفتو</string>
+
     <string name="j10405b"> J10405b:\t ويڪسين ڪنھن لڳائي؟</string>
     <string name="j10405ba"> ڊاڪٽر</string>
     <string name="j10405bb"> ليڊي ھيلٿ ورڪر</string>
@@ -1397,7 +1398,7 @@
     <string name="j10405bg"> ڊسپينسر/ڪمپائونڊر</string>
     <string name="j10405bx"> (ٻيو ڪو (وضاحت ڪريو</string>
 
-    <string name="j10406"> J10406:\t پيدائش جي وقت منهن جي ذريعي ڏيڻ واري پوليو جي قطرن جي ٻي خوراڪ (ڏينهن مهينو سال</string>
+    <string name="j10406"> J10406:\t روٽا وائرس جي پهرين خوراڪ  (ڏينهن مهينو سال)</string>
     <string name="j10406d"> ڏينھن </string>
     <string name="j10406m"> مھينو </string>
     <string name="j10406y"> سال </string>
@@ -1420,7 +1421,7 @@
     <string name="j10406bg"> ڊسپينسر/ڪمپائونڊر</string>
     <string name="j10406bx"> (ٻيو ڪو (وضاحت ڪريو</string>
 
-    <string name="j10407"> J10407:\t (پينٽا 2 ويڪسين جي ٻي خوراڪ (ڏينهن مهينو سال</string>
+    <string name="j10407"> J10407:\t پيدائش جي وقت منهن جي ذريعي ڏيڻ واري پوليو جي قطرن جي ٻي خوراڪ (ڏينهن مهينو سال)</string>
     <string name="j10407d"> ڏينھن </string>
     <string name="j10407m"> مھينو </string>
     <string name="j10407y"> سال </string>
@@ -1443,7 +1444,7 @@
     <string name="j10407bg"> ڊسپينسر/ڪمپائونڊر</string>
     <string name="j10407bx"> (ٻيو ڪو (وضاحت ڪريو</string>
 
-    <string name="j10408"> J10408:\t </string>
+    <string name="j10408"> J10408:\t پينٽا ويلنٽ ويڪسين جي ٻي خوراڪ (ڏينهن مهينو سال)</string>
     <string name="j10408d"> ڏينھن </string>
     <string name="j10408m"> مھينو </string>
     <string name="j10408y"> سال </string>
@@ -1466,7 +1467,7 @@
     <string name="j10408bg"> ڊسپينسر/ڪمپائونڊر</string>
     <string name="j10408bx"> (ٻيو ڪو (وضاحت ڪريو</string>
 
-    <string name="j10409"> J10409:\t OPV-3 Oral Polio vaccine 3rd dose (Date _ Month_  Year) </string>
+    <string name="j10409"> J10409:\t نمونيا ويڪسين جي ٻي خوراڪ (ڏينهن مهينو سال) </string>
     <string name="j10409d"> ڏينھن </string>
     <string name="j10409m"> مھينو </string>
     <string name="j10409y"> سال </string>
@@ -1488,7 +1489,7 @@
     <string name="j10409bg"> ڊسپينسر/ڪمپائونڊر</string>
     <string name="j10409bx"> (ٻيو ڪو (وضاحت ڪريو</string>
 
-    <string name="j10410"> J10410:\t OPV-3 PENTA-3 Pentavalent-3 (DPTHepBHib) (Date _ Month_  Year) </string>
+    <string name="j10410"> J10410:\t روٽا وائرس 2 جي ٻي خوراڪ (ڏينهن مهينو سال) </string>
     <string name="j10410d"> ڏينھن </string>
     <string name="j10410m"> مھينو </string>
     <string name="j10410y"> سال </string>
@@ -1511,7 +1512,7 @@
     <string name="j10410bg"> ڊسپينسر/ڪمپائونڊر</string>
     <string name="j10410bx"> (ٻيو ڪو (وضاحت ڪريو</string>
 
-    <string name="j10411"> J10411:\t PCV-3 Pneumococcal Conjugate Vaccine 3rd dose (Date _ Month_  Year) </string>
+    <string name="j10411"> J10411:\t پيدائش جي وقت منهن جي ذريعي ڏيڻ واري پوليو جي قطرن </string>
     <string name="j10411d"> ڏينھن </string>
     <string name="j10411m"> مھينو </string>
     <string name="j10411y"> سال </string>
@@ -1533,7 +1534,7 @@
     <string name="j10411bg"> ڊسپينسر/ڪمپائونڊر</string>
     <string name="j10411bx"> (ٻيو ڪو (وضاحت ڪريو</string>
 
-    <string name="j10412"> J10412:\t IPV (Injectable Polio Vaccine) (Date _ Month_  Year)</string>
+    <string name="j10412"> J10412:\t پينٽا ويلنٽ ويڪسين جي ٽي خوراڪ (ڏينهن مهينو سال) </string>
     <string name="j10412d"> ڏينھن </string>
     <string name="j10412m"> مھينو </string>
     <string name="j10412y"> سال </string>
@@ -1555,7 +1556,7 @@
     <string name="j10412bg"> ڊسپينسر/ڪمپائونڊر</string>
     <string name="j10412bx"> (ٻيو ڪو (وضاحت ڪريو</string>
 
-    <string name="j10413"> J10413:\t MEASLES-1	Measles vaccine 1st dose (Date _ Month_  Year) </string>
+    <string name="j10413"> J10413:\t نمونيا ويڪسين جي ٽي خوراڪ (ڏينهن مهينو سال) </string>
     <string name="j10413d"> ڏينھن </string>
     <string name="j10413m"> مھينو </string>
     <string name="j10413y"> سال </string>
@@ -1578,7 +1579,7 @@
     <string name="j10413bg"> ڊسپينسر/ڪمپائونڊر</string>
     <string name="j10413bx"> (ٻيو ڪو (وضاحت ڪريو</string>
 
-    <string name="j10414"> J10414:\t MEASLES-2 Measles vaccine 2nd dose _(Date _ Month_  Year) </string>
+    <string name="j10414"> J10414:\t آئي پي وي ويڪسين (ڏينهن مهينو سال) </string>
     <string name="j10414d"> ڏينھن </string>
     <string name="j10414m"> مھينو </string>
     <string name="j10414y"> سال </string>
@@ -1600,7 +1601,7 @@
     <string name="j10414bg"> ڊسپينسر/ڪمپائونڊر</string>
     <string name="j10414bx"> (ٻيو ڪو (وضاحت ڪريو</string>
 
-    <string name="j10415"> J10415:\t RV-1 Rota virus Vaccine 1st dose (Date _ Month_  Year) </string>
+    <string name="j10415"> J10415:\t ارڙي جو ٽيڪو پهرين خوراڪ (ڏينهن مهينو سال) </string>
     <string name="j10415d"> ڏينھن </string>
     <string name="j10415m"> مھينو </string>
     <string name="j10415y"> سال </string>
@@ -1623,7 +1624,7 @@
     <string name="j10415bg"> ڊسپينسر/ڪمپائونڊر</string>
     <string name="j10415bx"> (ٻيو ڪو (وضاحت ڪريو</string>
 
-    <string name="j10416"> J10416:\t RV-2 Rota virus Vaccine 2nd dose (Date _ Month_  Year) </string>
+    <string name="j10416"> J10416:\t ارڙي جو ٽيڪو ٻي خوراڪ (ڏينهن مهينو سال) </string>
     <string name="j10416d"> ڏينھن </string>
     <string name="j10416m"> مھينو </string>
     <string name="j10416y"> سال </string>
@@ -1645,6 +1646,29 @@
     <string name="j10416bf"> ڪميونٽي ھيلٿ ورڪر</string>
     <string name="j10416bg"> ڊسپينسر/ڪمپائونڊر</string>
     <string name="j10416bx"> (ٻيو ڪو (وضاحت ڪريو</string>
+
+    <string name="j10417"> J10417:\t ٽائيفائڊ ويڪسين جي پهرين خوراڪ  (ڏينهن مهينو سال) </string>
+    <string name="j10417d"> ڏينھن </string>
+    <string name="j10417m"> مھينو </string>
+    <string name="j10417y"> سال </string>
+
+    <string name="j10417a"> J10417a:\t نالو) ارڙي جي ويڪسين ڪٿان لڳرائي؟)</string>
+    <string name="j10417aa"> سرڪار صحت مرڪز</string>
+    <string name="j10417ab"> پرائيويٽ صحت مرڪز</string>
+    <string name="j10417ac"> ٽڪن جو مرڪز </string>
+    <string name="j10417ad"> ماءُ ۽ ٻار جي صحت جو مرڪز</string>
+    <string name="j10417ae"> اين جي او صحت مرڪز</string>
+    <string name="j10417af"> ٻار جي ٽڪن وارو ھفتو</string>
+
+    <string name="j10417b"> J10417b:\t ويڪسين ڪنھن لڳائي؟</string>
+    <string name="j10417ba"> ڊاڪٽر</string>
+    <string name="j10417bb"> ليڊي ھيلٿ ورڪر</string>
+    <string name="j10417bc"> ليڊي ھيلٿ وزيٽر</string>
+    <string name="j10417bd"> اين جي او ورڪر</string>
+    <string name="j10417be"> ويڪسينيٽر</string>
+    <string name="j10417bf"> ڪميونٽي ھيلٿ ورڪر</string>
+    <string name="j10417bg"> ڊسپينسر/ڪمپائونڊر</string>
+    <string name="j10417bx"> (ٻيو ڪو (وضاحت ڪريو</string>
 
     <string name="j105"> J105:\t لکيل آھي ؟ J104 چيڪ ڪريو ته بي سي جي کان ميزل 2 تائين سڀ ويڪسين لڳل آھن يا ريڪارڊ </string>
     <string name="j105a"> ھا </string>

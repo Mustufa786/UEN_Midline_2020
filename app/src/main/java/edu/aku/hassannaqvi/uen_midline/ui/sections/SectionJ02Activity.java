@@ -2,6 +2,7 @@ package edu.aku.hassannaqvi.uen_midline.ui.sections;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -15,6 +16,7 @@ import org.json.JSONObject;
 import edu.aku.hassannaqvi.uen_midline.CONSTANTS;
 import edu.aku.hassannaqvi.uen_midline.R;
 import edu.aku.hassannaqvi.uen_midline.contracts.ChildContract;
+import edu.aku.hassannaqvi.uen_midline.contracts.FamilyMembersContract;
 import edu.aku.hassannaqvi.uen_midline.core.DatabaseHelper;
 import edu.aku.hassannaqvi.uen_midline.core.MainApp;
 import edu.aku.hassannaqvi.uen_midline.databinding.ActivitySectionJ02Binding;
@@ -25,6 +27,7 @@ public class SectionJ02Activity extends AppCompatActivity {
 
 
     ActivitySectionJ02Binding bi;
+    private FamilyMembersContract fmc_child;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -61,6 +64,33 @@ public class SectionJ02Activity extends AppCompatActivity {
 
         bi.j10416y.setMaxvalue(CONSTANTS.MAXYEAR);
         bi.j10416y.setMinvalue(CONSTANTS.MINYEAR_IM);
+
+        //Immunization visibility
+        int totalMonth = Integer.valueOf(fmc_child.getAge()) + Integer.valueOf(fmc_child.getMonthfm());
+
+        if (totalMonth > 2) {
+            bi.fldGrpCVj10409.setVisibility(View.VISIBLE);
+            bi.fldGrpCVj10410.setVisibility(View.VISIBLE);
+        }
+
+        if (totalMonth > 3) {
+            bi.fldGrpCVj10411.setVisibility(View.VISIBLE);
+            bi.fldGrpCVj10412.setVisibility(View.VISIBLE);
+            bi.fldGrpCVj10413.setVisibility(View.VISIBLE);
+            bi.fldGrpCVj10414.setVisibility(View.VISIBLE);
+        }
+
+        if (totalMonth > 9) {
+            bi.fldGrpCVj10415.setVisibility(View.VISIBLE);
+        }
+
+        if (totalMonth > 15) {
+            bi.fldGrpCVj10416.setVisibility(View.VISIBLE);
+        }
+
+        if (totalMonth > 23) {
+            bi.fldGrpCVj10417.setVisibility(View.VISIBLE);
+        }
 
     }
 
@@ -126,6 +156,10 @@ public class SectionJ02Activity extends AppCompatActivity {
         j2.put("j10416d", bi.j10416d.getText().toString());
         j2.put("j10416m", bi.j10416m.getText().toString());
         j2.put("j10416y", bi.j10416y.getText().toString());
+
+        j2.put("j10417d", bi.j10417d.getText().toString());
+        j2.put("j10417m", bi.j10417m.getText().toString());
+        j2.put("j10417y", bi.j10417y.getText().toString());
 
         try {
             JSONObject s4_merge = JSONUtils.mergeJSONObjects(new JSONObject(MainApp.child.getsJ()), j2);

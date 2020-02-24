@@ -2,6 +2,7 @@ package edu.aku.hassannaqvi.uen_midline.ui.sections;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -87,6 +88,19 @@ public class SectionJActivity extends AppCompatActivity {
 
         //Immunization visibility
         int totalMonth = Integer.valueOf(fmc_child.getAge()) + Integer.valueOf(fmc_child.getMonthfm());
+
+
+        if (totalMonth > 1) {
+            bi.fldGrpCVj10403.setVisibility(View.VISIBLE);
+            bi.fldGrpCVj10404.setVisibility(View.VISIBLE);
+            bi.fldGrpCVj10405.setVisibility(View.VISIBLE);
+            bi.fldGrpCVj10406.setVisibility(View.VISIBLE);
+        }
+
+        if (totalMonth > 2) {
+            bi.fldGrpCVj10407.setVisibility(View.VISIBLE);
+            bi.fldGrpCVj10408.setVisibility(View.VISIBLE);
+        }
 
     }
 

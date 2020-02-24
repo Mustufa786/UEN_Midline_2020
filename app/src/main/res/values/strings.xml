@@ -1484,12 +1484,12 @@
     <string name="j10405bg"> ڈسپینسر/کمپائونڈڑ </string>
     <string name="j10405bx"> دیگر (وضاحت کریں) </string>
 
-    <string name="j10406"> منہ کے ذریعے دیئے جانے والے پولیو کے قطروں کی دوسری خورا ک </string>
+    <string name="j10406"> روٹا وائرس پہلی خوراک </string>
     <string name="j10406d"> دن </string>
     <string name="j10406m"> مہینہ </string>
     <string name="j10406y"> سال </string>
 
-    <string name="j10406a"> (نام) کو پولیو کے قطروں کی دوسری خوراک OPV-2 کہاں سے پلوائی تھی؟ </string>
+    <string name="j10406a"> (نام) کوRV1 کا ٹیکہ کہاں سے لگوایا تھا ؟ </string>
     <string name="j10406aa"> سرکاری مرکز صحت </string>
     <string name="j10406ab"> نجی مرکز صحت </string>
     <string name="j10406ac"> ای پی آئی سینٹر </string>
@@ -1497,7 +1497,7 @@
     <string name="j10406ae"> رفاہی مرکز صحت میں </string>
     <string name="j10406af"> بچوں کی صحت کا دن/حفاظتی ٹیکوں کے ہفتے </string>
 
-    <string name="j10406b"> (نام) کو PCV-1 کا ٹیکہ کس نے لگایا تھا؟ </string>
+    <string name="j10406b"> (نام) کو RV1 کا ٹیکہ کس نے لگایا تھا ؟ </string>
     <string name="j10406ba"> ڈاکٹر </string>
     <string name="j10406bb"> لیڈی ہیلتھ ورکر </string>
     <string name="j10406bc"> لیڈی ہیلتھ وزیٹر </string>
@@ -1507,12 +1507,12 @@
     <string name="j10406bg"> ڈسپینسر/کمپائونڈڑ </string>
     <string name="j10406bx"> دیگر (وضاحت کریں) </string>
 
-    <string name="j10407"> پینٹا وایلنٹ ویکسین کی دوسری خوراک </string>
+    <string name="j10407"> منہ کے ذریعے دیئے جانے والے پولیو کے قطروں کی دوسری خورا ک </string>
     <string name="j10407d"> دن </string>
     <string name="j10407m"> مہینہ </string>
     <string name="j10407y"> سال </string>
 
-    <string name="j10407a"> (نام) کوPenta-2کا ٹیکہ کہاں سے لگوایا تھا؟ </string>
+    <string name="j10407a"> (نام) کو پولیو کے قطروں کی دوسری خوراک OPV-2 کہاں سے پلوائی تھی؟ </string>
     <string name="j10407aa"> سرکاری مرکز صحت </string>
     <string name="j10407ab"> نجی مرکز صحت </string>
     <string name="j10407ac"> ای پی آئی سینٹر </string>
@@ -1520,7 +1520,7 @@
     <string name="j10407ae"> رفاہی مرکز صحت میں </string>
     <string name="j10407af"> بچوں کی صحت کا دن/حفاظتی ٹیکوں کے ہفتے </string>
 
-    <string name="j10407b"> (نام) کو Penta-2 کا ٹیکہ کس نے لگایا تھا؟ </string>
+    <string name="j10407b"> (نام) کو PCV-1 کا ٹیکہ کس نے لگایا تھا؟ </string>
     <string name="j10407ba"> ڈاکٹر </string>
     <string name="j10407bb"> لیڈی ہیلتھ ورکر </string>
     <string name="j10407bc"> لیڈی ہیلتھ وزیٹر </string>
@@ -1530,12 +1530,12 @@
     <string name="j10407bg"> ڈسپینسر/کمپائونڈڑ </string>
     <string name="j10407bx"> دیگر (وضاحت کریں) </string>
 
-    <string name="j10408"> نمونیہ ویکسین کی دوسری خورا ک </string>
+    <string name="j10408"> پینٹا وایلنٹ ویکسین کی دوسری خوراک </string>
     <string name="j10408d"> دن </string>
     <string name="j10408m"> مہینہ </string>
     <string name="j10408y"> سال </string>
 
-    <string name="j10408a"> (نام) کو PCV-2 کا ٹیکہ کہاں سے لگوایا تھا؟ </string>
+    <string name="j10408a"> (نام) کوPenta-2کا ٹیکہ کہاں سے لگوایا تھا؟ </string>
     <string name="j10408aa"> سرکاری مرکز صحت </string>
     <string name="j10408ab"> نجی مرکز صحت </string>
     <string name="j10408ac"> ای پی آئی سینٹر </string>
@@ -1543,7 +1543,7 @@
     <string name="j10408ae"> رفاہی مرکز صحت میں </string>
     <string name="j10408af"> بچوں کی صحت کا دن/حفاظتی ٹیکوں کے ہفتے </string>
 
-    <string name="j10408b"> (نام) کو PCV-2 کا ٹیکہ کس نے لگایا تھا؟ </string>
+    <string name="j10408b"> (نام) کو Penta-2 کا ٹیکہ کس نے لگایا تھا؟ </string>
     <string name="j10408ba"> ڈاکٹر </string>
     <string name="j10408bb"> لیڈی ہیلتھ ورکر </string>
     <string name="j10408bc"> لیڈی ہیلتھ وزیٹر </string>
@@ -1553,12 +1553,12 @@
     <string name="j10408bg"> ڈسپینسر/کمپائونڈڑ </string>
     <string name="j10408bx"> دیگر (وضاحت کریں) </string>
 
-    <string name="j10409"> منہ کے ذریعے دیئے جانے والے پولیو کے قطروں کی تیسری خوراک </string>
+    <string name="j10409"> نمونیہ ویکسین کی دوسری خورا ک </string>
     <string name="j10409d"> دن </string>
     <string name="j10409m"> مہینہ </string>
     <string name="j10409y"> سال </string>
 
-    <string name="j10409a"> (نام) کو پولیو کے قطروں کی تیسری خوراک OPV-3 کہاں سے پلوائی تھی؟ </string>
+    <string name="j10409a"> (نام) کو PCV-2 کا ٹیکہ کہاں سے لگوایا تھا؟ </string>
     <string name="j10409aa"> سرکاری مرکز صحت </string>
     <string name="j10409ab"> نجی مرکز صحت </string>
     <string name="j10409ac"> ای پی آئی سینٹر </string>
@@ -1566,7 +1566,7 @@
     <string name="j10409ae"> رفاہی مرکز صحت میں </string>
     <string name="j10409af"> بچوں کی صحت کا دن/حفاظتی ٹیکوں کے ہفتے </string>
 
-    <string name="j10409b"> (نام) کو پولیو کے قطروں کی تیسری خوراک OPV-3 کس نے پلوائی تھی؟ </string>
+    <string name="j10409b"> (نام) کو PCV-2 کا ٹیکہ کس نے لگایا تھا؟ </string>
     <string name="j10409ba"> ڈاکٹر </string>
     <string name="j10409bb"> لیڈی ہیلتھ ورکر </string>
     <string name="j10409bc"> لیڈی ہیلتھ وزیٹر </string>
@@ -1576,20 +1576,20 @@
     <string name="j10409bg"> ڈسپینسر/کمپائونڈڑ </string>
     <string name="j10409bx"> دیگر (وضاحت کریں) </string>
 
-    <string name="j10410"> پینٹا وایلنٹ ویکسین کی تیسری خوراک </string>
+    <string name="j10410"> روٹا وائرس دوسری خوراک </string>
     <string name="j10410d"> دن </string>
     <string name="j10410m"> مہینہ </string>
     <string name="j10410y"> سال </string>
 
-    <string name="j10410a"> (نام) کو Penta-3 کا ٹیکہ کہاں سے لگوایا تھا ؟ </string>
+    <string name="j10410a"> (نام) کو RV2 کا ٹیکہ کہاں سے لگوایا تھا ؟ </string>
     <string name="j10410aa"> سرکاری مرکز صحت </string>
     <string name="j10410ab"> نجی مرکز صحت </string>
     <string name="j10410ac"> ای پی آئی سینٹر </string>
     <string name="j10410ad"> کمیونٹی میں موجود ماں اور بچے کی صحت کا سینٹر </string>
     <string name="j10410ae"> رفاہی مرکز صحت میں </string>
-    <string name="j10410af"> بچوں کی صحت کا دن / حفاظتی ٹیکوں کے ہفتے </string>
+    <string name="j10410af"> بچوں کی صحت کا دن/حفاظتی ٹیکوں کے ہفتے </string>
 
-    <string name="j10410b"> (نام) کو کا Penta-3 ٹیکہ کس نے لگایا تھا ؟ </string>
+    <string name="j10410b"> (نام) کو RV2 کا ٹیکہ کس نے لگایا تھا؟ </string>
     <string name="j10410ba"> ڈاکٹر </string>
     <string name="j10410bb"> لیڈی ہیلتھ ورکر </string>
     <string name="j10410bc"> لیڈی ہیلتھ وزیٹر </string>
@@ -1599,12 +1599,12 @@
     <string name="j10410bg"> ڈسپینسر/کمپائونڈڑ </string>
     <string name="j10410bx"> دیگر (وضاحت کریں) </string>
 
-    <string name="j10411"> نمونیہ ویکسین کی تیسری خوراک </string>
+    <string name="j10411"> منہ کے ذریعے دیئے جانے والے پولیو کے قطروں کی تیسری خوراک </string>
     <string name="j10411d"> دن </string>
     <string name="j10411m"> مہینہ </string>
     <string name="j10411y"> سال </string>
 
-    <string name="j10411a"> (نام) کو کا PCV-3 ٹیکہ کہاں سے لگوایا تھا؟ </string>
+    <string name="j10411a"> (نام) کو پولیو کے قطروں کی تیسری خوراک OPV-3 کہاں سے پلوائی تھی؟ </string>
     <string name="j10411aa"> سرکاری مرکز صحت </string>
     <string name="j10411ab"> نجی مرکز صحت </string>
     <string name="j10411ac"> ای پی آئی سینٹر </string>
@@ -1612,7 +1612,7 @@
     <string name="j10411ae"> رفاہی مرکز صحت میں </string>
     <string name="j10411af"> بچوں کی صحت کا دن/حفاظتی ٹیکوں کے ہفتے </string>
 
-    <string name="j10411b"> (نام) کوPCV-3 کا ٹیکہ کس نے لگایا تھا؟ </string>
+    <string name="j10411b"> (نام) کو پولیو کے قطروں کی تیسری خوراک OPV-3 کس نے پلوائی تھی؟ </string>
     <string name="j10411ba"> ڈاکٹر </string>
     <string name="j10411bb"> لیڈی ہیلتھ ورکر </string>
     <string name="j10411bc"> لیڈی ہیلتھ وزیٹر </string>
@@ -1622,20 +1622,20 @@
     <string name="j10411bg"> ڈسپینسر/کمپائونڈڑ </string>
     <string name="j10411bx"> دیگر (وضاحت کریں) </string>
 
-    <string name="j10412"> آئی پی وی (پولیو ویکسین کی انجیکشن) </string>
+    <string name="j10412"> پینٹا وایلنٹ ویکسین کی تیسری خوراک </string>
     <string name="j10412d"> دن </string>
     <string name="j10412m"> مہینہ </string>
     <string name="j10412y"> سال </string>
 
-    <string name="j10412a"> (نام) کو IPVکا ٹیکہ کہاں سے لگوایا تھا؟ </string>
+    <string name="j10412a"> (نام) کو Penta-3 کا ٹیکہ کہاں سے لگوایا تھا ؟ </string>
     <string name="j10412aa"> سرکاری مرکز صحت </string>
     <string name="j10412ab"> نجی مرکز صحت </string>
     <string name="j10412ac"> ای پی آئی سینٹر </string>
     <string name="j10412ad"> کمیونٹی میں موجود ماں اور بچے کی صحت کا سینٹر </string>
     <string name="j10412ae"> رفاہی مرکز صحت میں </string>
-    <string name="j10412af"> بچوں کی صحت کا دن/حفاظتی ٹیکوں کے ہفتے </string>
+    <string name="j10412af"> بچوں کی صحت کا دن / حفاظتی ٹیکوں کے ہفتے </string>
 
-    <string name="j10412b"> (نام) کو IPV کا ٹیکہ کس نے لگایا تھا؟ </string>
+    <string name="j10412b"> (نام) کو کا Penta-3 ٹیکہ کس نے لگایا تھا ؟ </string>
     <string name="j10412ba"> ڈاکٹر </string>
     <string name="j10412bb"> لیڈی ہیلتھ ورکر </string>
     <string name="j10412bc"> لیڈی ہیلتھ وزیٹر </string>
@@ -1645,12 +1645,12 @@
     <string name="j10412bg"> ڈسپینسر/کمپائونڈڑ </string>
     <string name="j10412bx"> دیگر (وضاحت کریں) </string>
 
-    <string name="j10413"> خسرہ کا ٹیکہ پہلی خوراک </string>
+    <string name="j10413"> نمونیہ ویکسین کی تیسری خوراک </string>
     <string name="j10413d"> دن </string>
     <string name="j10413m"> مہینہ </string>
     <string name="j10413y"> سال </string>
 
-    <string name="j10413a"> (نام) کو Measles-1کا ٹیکہ کہاں سے لگوایا تھا؟ </string>
+    <string name="j10413a"> (نام) کو کا PCV-3 ٹیکہ کہاں سے لگوایا تھا؟ </string>
     <string name="j10413aa"> سرکاری مرکز صحت </string>
     <string name="j10413ab"> نجی مرکز صحت </string>
     <string name="j10413ac"> ای پی آئی سینٹر </string>
@@ -1658,7 +1658,7 @@
     <string name="j10413ae"> رفاہی مرکز صحت میں </string>
     <string name="j10413af"> بچوں کی صحت کا دن/حفاظتی ٹیکوں کے ہفتے </string>
 
-    <string name="j10413b"> (نام) کو Measles-1 کا ٹیکہ کس نے لگایا تھا؟ </string>
+    <string name="j10413b"> (نام) کوPCV-3 کا ٹیکہ کس نے لگایا تھا؟ </string>
     <string name="j10413ba"> ڈاکٹر </string>
     <string name="j10413bb"> لیڈی ہیلتھ ورکر </string>
     <string name="j10413bc"> لیڈی ہیلتھ وزیٹر </string>
@@ -1668,12 +1668,12 @@
     <string name="j10413bg"> ڈسپینسر/کمپائونڈڑ </string>
     <string name="j10413bx"> دیگر (وضاحت کریں) </string>
 
-    <string name="j10414"> خسرہ کا ٹیکہ دوسری خوراک </string>
+    <string name="j10414"> آئی پی وی (پولیو ویکسین کی انجیکشن) </string>
     <string name="j10414d"> دن </string>
     <string name="j10414m"> مہینہ </string>
     <string name="j10414y"> سال </string>
 
-    <string name="j10414a"> (نام) کو Measles-2 کا ٹیکہ کہاں سے لگوایا تھا ؟ </string>
+    <string name="j10414a"> (نام) کو IPVکا ٹیکہ کہاں سے لگوایا تھا؟ </string>
     <string name="j10414aa"> سرکاری مرکز صحت </string>
     <string name="j10414ab"> نجی مرکز صحت </string>
     <string name="j10414ac"> ای پی آئی سینٹر </string>
@@ -1681,7 +1681,7 @@
     <string name="j10414ae"> رفاہی مرکز صحت میں </string>
     <string name="j10414af"> بچوں کی صحت کا دن/حفاظتی ٹیکوں کے ہفتے </string>
 
-    <string name="j10414b"> (نام) کو Measles-2کا ٹیکہ کس نے لگایا تھا ؟ </string>
+    <string name="j10414b"> (نام) کو IPV کا ٹیکہ کس نے لگایا تھا؟ </string>
     <string name="j10414ba"> ڈاکٹر </string>
     <string name="j10414bb"> لیڈی ہیلتھ ورکر </string>
     <string name="j10414bc"> لیڈی ہیلتھ وزیٹر </string>
@@ -1691,12 +1691,12 @@
     <string name="j10414bg"> ڈسپینسر/کمپائونڈڑ </string>
     <string name="j10414bx"> دیگر (وضاحت کریں) </string>
 
-    <string name="j10415"> روٹا وائرس پہلی خوراک </string>
+    <string name="j10415"> خسرہ کا ٹیکہ پہلی خوراک </string>
     <string name="j10415d"> دن </string>
     <string name="j10415m"> مہینہ </string>
     <string name="j10415y"> سال </string>
 
-    <string name="j10415a"> (نام) کوRV1 کا ٹیکہ کہاں سے لگوایا تھا ؟ </string>
+    <string name="j10415a"> (نام) کو Measles-1کا ٹیکہ کہاں سے لگوایا تھا؟ </string>
     <string name="j10415aa"> سرکاری مرکز صحت </string>
     <string name="j10415ab"> نجی مرکز صحت </string>
     <string name="j10415ac"> ای پی آئی سینٹر </string>
@@ -1704,7 +1704,7 @@
     <string name="j10415ae"> رفاہی مرکز صحت میں </string>
     <string name="j10415af"> بچوں کی صحت کا دن/حفاظتی ٹیکوں کے ہفتے </string>
 
-    <string name="j10415b"> (نام) کو RV1 کا ٹیکہ کس نے لگایا تھا ؟ </string>
+    <string name="j10415b"> (نام) کو Measles-1 کا ٹیکہ کس نے لگایا تھا؟ </string>
     <string name="j10415ba"> ڈاکٹر </string>
     <string name="j10415bb"> لیڈی ہیلتھ ورکر </string>
     <string name="j10415bc"> لیڈی ہیلتھ وزیٹر </string>
@@ -1714,12 +1714,12 @@
     <string name="j10415bg"> ڈسپینسر/کمپائونڈڑ </string>
     <string name="j10415bx"> دیگر (وضاحت کریں) </string>
 
-    <string name="j10416"> روٹا وائرس دوسری خوراک </string>
+    <string name="j10416"> خسرہ کا ٹیکہ دوسری خوراک </string>
     <string name="j10416d"> دن </string>
     <string name="j10416m"> مہینہ </string>
     <string name="j10416y"> سال </string>
 
-    <string name="j10416a"> (نام) کو RV2 کا ٹیکہ کہاں سے لگوایا تھا ؟ </string>
+    <string name="j10416a"> (نام) کو Measles-2 کا ٹیکہ کہاں سے لگوایا تھا ؟ </string>
     <string name="j10416aa"> سرکاری مرکز صحت </string>
     <string name="j10416ab"> نجی مرکز صحت </string>
     <string name="j10416ac"> ای پی آئی سینٹر </string>
@@ -1727,7 +1727,7 @@
     <string name="j10416ae"> رفاہی مرکز صحت میں </string>
     <string name="j10416af"> بچوں کی صحت کا دن/حفاظتی ٹیکوں کے ہفتے </string>
 
-    <string name="j10416b"> (نام) کو RV2 کا ٹیکہ کس نے لگایا تھا؟ </string>
+    <string name="j10416b"> (نام) کو Measles-2کا ٹیکہ کس نے لگایا تھا ؟ </string>
     <string name="j10416ba"> ڈاکٹر </string>
     <string name="j10416bb"> لیڈی ہیلتھ ورکر </string>
     <string name="j10416bc"> لیڈی ہیلتھ وزیٹر </string>
@@ -1736,6 +1736,29 @@
     <string name="j10416bf"> کمیونٹی ہیلتھ ورکر </string>
     <string name="j10416bg"> ڈسپینسر/کمپائونڈڑ </string>
     <string name="j10416bx"> دیگر (وضاحت کریں) </string>
+
+    <string name="j10417"> Typhoid vaccine خوراک </string>
+    <string name="j10417d"> دن </string>
+    <string name="j10417m"> مہینہ </string>
+    <string name="j10417y"> سال </string>
+
+    <string name="j10417a"> (نام) کو Typhoid vaccine کا ٹیکہ کہاں سے لگوایا تھا ؟ </string>
+    <string name="j10417aa"> سرکاری مرکز صحت </string>
+    <string name="j10417ab"> نجی مرکز صحت </string>
+    <string name="j10417ac"> ای پی آئی سینٹر </string>
+    <string name="j10417ad"> کمیونٹی میں موجود ماں اور بچے کی صحت کا سینٹر </string>
+    <string name="j10417ae"> رفاہی مرکز صحت میں </string>
+    <string name="j10417af"> بچوں کی صحت کا دن/حفاظتی ٹیکوں کے ہفتے </string>
+
+    <string name="j10417b"> (نام) کو Typhoid vaccine کا ٹیکہ کس نے لگایا تھا؟ </string>
+    <string name="j10417ba"> ڈاکٹر </string>
+    <string name="j10417bb"> لیڈی ہیلتھ ورکر </string>
+    <string name="j10417bc"> لیڈی ہیلتھ وزیٹر </string>
+    <string name="j10417bd"> این جی او(NGO) ورکر </string>
+    <string name="j10417be"> ویکسینیٹر </string>
+    <string name="j10417bf"> کمیونٹی ہیلتھ ورکر </string>
+    <string name="j10417bg"> ڈسپینسر/کمپائونڈڑ </string>
+    <string name="j10417bx"> دیگر (وضاحت کریں) </string>
 
     <string name="j105"> کیا تمام حفاظتی ٹیکوں (بی سی جی سے لے کر خسرہ کی دوسری خوراک تک کی معلومات ریکارڈ کر لی گئی ہیں ؟  J104 چیک کریں </string>
     <string name="j105a"> ہاں </string>
