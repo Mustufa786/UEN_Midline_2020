@@ -134,7 +134,7 @@
                                 android:id="@+id/j101c"
                                 style="@style/radiobutton"
                                 android:layout_width="0dp"
-                                android:layout_weight="1"
+                                android:layout_weight="0.7"
                                 android:text="@string/no" />
 
                         </RadioGroup>

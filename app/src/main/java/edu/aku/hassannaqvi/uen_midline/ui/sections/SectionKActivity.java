@@ -3,7 +3,6 @@ package edu.aku.hassannaqvi.uen_midline.ui.sections;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.CompoundButton;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -58,22 +57,19 @@ public class SectionKActivity extends AppCompatActivity {
         }));
 
 
-        bi.k105aac.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-            @Override
-            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+        bi.k105aac.setOnCheckedChangeListener((compoundButton, b) -> {
 
-                if (b) {
-                    bi.fldGrpCVk106.setVisibility(View.VISIBLE);
-                    bi.k105aab.setText(null);
-                    bi.k105aaa.setText(null);
-                    bi.k105aab.setEnabled(true);
-                    bi.k105aaa.setEnabled(true);
-                } else {
-                    bi.fldGrpCVk106.setVisibility(View.GONE);
-                    Clear.clearAllFields(bi.fldGrpCVk106);
-                    bi.k105aab.setEnabled(false);
-                    bi.k105aaa.setEnabled(false);
-                }
+            if (b) {
+                bi.fldGrpCVk106.setVisibility(View.GONE);
+                Clear.clearAllFields(bi.fldGrpCVk106);
+                bi.k105aab.setEnabled(false);
+                bi.k105aaa.setEnabled(false);
+            } else {
+                bi.fldGrpCVk106.setVisibility(View.VISIBLE);
+                bi.k105aab.setText(null);
+                bi.k105aaa.setText(null);
+                bi.k105aab.setEnabled(true);
+                bi.k105aaa.setEnabled(true);
             }
         });
         /*bi.k105.setOnCheckedChangeListener(((radioGroup, i) -> {
