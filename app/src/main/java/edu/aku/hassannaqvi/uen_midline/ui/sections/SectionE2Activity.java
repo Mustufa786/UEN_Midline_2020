@@ -17,9 +17,6 @@ import com.validatorcrawler.aliazaz.Validator;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import java.text.SimpleDateFormat;
-import java.util.Date;
-
 import edu.aku.hassannaqvi.uen_midline.CONSTANTS;
 import edu.aku.hassannaqvi.uen_midline.R;
 import edu.aku.hassannaqvi.uen_midline.contracts.MWRAContract;
@@ -28,7 +25,6 @@ import edu.aku.hassannaqvi.uen_midline.core.DatabaseHelper;
 import edu.aku.hassannaqvi.uen_midline.core.MainApp;
 import edu.aku.hassannaqvi.uen_midline.databinding.ActivitySectionE2Binding;
 import edu.aku.hassannaqvi.uen_midline.utils.Util;
-import edu.aku.hassannaqvi.uen_midline.validator.ClearClassOld;
 
 public class SectionE2Activity extends AppCompatActivity {
 
@@ -203,11 +199,12 @@ public class SectionE2Activity extends AppCompatActivity {
 
         }*/
     private void clearContainer() {
-        ClearClassOld.ClearAllFields(bi.container1, null);
-        ClearClassOld.ClearAllFields(bi.mainContainer2, null);
-        ClearClassOld.ClearAllFields(bi.e104015, false);
+        Clear.clearAllFields(bi.container1);
+        Clear.clearAllFields(bi.mainContainer2);
+        /*Clear.clearAllFields(bi.e104015, false);
         bi.e104b.setChecked(true);
-        bi.e105c.setChecked(true);
+        bi.e105c.setChecked(true);*/
+        bi.e104015.setVisibility(View.GONE);
         MainApp.twinFlag = false;
     }
 
@@ -232,7 +229,8 @@ public class SectionE2Activity extends AppCompatActivity {
         mwraPre.set_UUID(MainApp.fc.get_UID());
         mwraPre.setDeviceId(MainApp.appInfo.getDeviceID());
         mwraPre.setDevicetagID(MainApp.appInfo.getTagName());
-        mwraPre.setFormDate(new SimpleDateFormat("dd-MM-yy HH:mm").format(new Date().getTime()));
+        mwraPre.setFormDate(MainApp.fc.getFormDate());
+        mwraPre.setUser(MainApp.fc.getUser());
         JSONObject e2 = new JSONObject();
         e2.put("mw_uid", mwraContract.getUID());
         e2.put("fm_serial", mwraContract.getFm_serial());

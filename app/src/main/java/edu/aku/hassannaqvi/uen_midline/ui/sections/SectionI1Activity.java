@@ -16,9 +16,7 @@ import com.validatorcrawler.aliazaz.Validator;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 import edu.aku.hassannaqvi.uen_midline.R;
@@ -211,7 +209,7 @@ public class SectionI1Activity extends AppCompatActivity {
         MainApp.child.set_UUID(MainApp.fc.get_UID());
         MainApp.child.setDeviceId(MainApp.appInfo.getDeviceID());
         MainApp.child.setDevicetagID(MainApp.appInfo.getTagName());
-        MainApp.child.setFormDate(new SimpleDateFormat("dd-MM-yy HH:mm").format(new Date().getTime()));
+        MainApp.child.setFormDate(MainApp.fc.getFormDate());
         MainApp.child.setUser(MainApp.userName);
 
 

@@ -12,8 +12,6 @@ import com.validatorcrawler.aliazaz.Validator;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import java.text.SimpleDateFormat;
-import java.util.Date;
 import java.util.List;
 
 import edu.aku.hassannaqvi.uen_midline.CONSTANTS;
@@ -102,7 +100,7 @@ public class SectionE4Activity extends AppCompatActivity {
 
         morc.set_UUID(MainApp.fc.get_UID());
         morc.setDeviceId(MainApp.appInfo.getDeviceID());
-        morc.setFormDate(new SimpleDateFormat("dd-MM-yy HH:mm").format(new Date().getTime()));
+        morc.setFormDate(MainApp.fc.getFormDate());
         morc.setUser(MainApp.userName);
         morc.setDevicetagID(MainApp.appInfo.getTagName());
 
