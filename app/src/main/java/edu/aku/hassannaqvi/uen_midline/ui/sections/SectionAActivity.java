@@ -40,14 +40,12 @@ public class SectionAActivity extends AppCompatActivity implements Util.EndSecAA
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         bi = DataBindingUtil.setContentView(this, R.layout.activity_section_a);
         bi.setCallback(this);
         db = MainApp.appInfo.getDbHelper();
 
         setUIComponent();
     }
-
 
     private void setUIComponent() {
         bi.a101.addTextChangedListener(new TextWatcher() {
@@ -95,7 +93,6 @@ public class SectionAActivity extends AppCompatActivity implements Util.EndSecAA
         });
     }
 
-
     public void BtnContinue() {
         if (formValidation()) {
             try {
@@ -110,7 +107,6 @@ public class SectionAActivity extends AppCompatActivity implements Util.EndSecAA
         }
     }
 
-
     private boolean UpdateDB() {
         long updcount = db.addForm(MainApp.fc);
         MainApp.fc.set_ID(String.valueOf(updcount));
@@ -124,7 +120,6 @@ public class SectionAActivity extends AppCompatActivity implements Util.EndSecAA
         }
 
     }
-
 
     private void SaveDraft() throws JSONException {
 

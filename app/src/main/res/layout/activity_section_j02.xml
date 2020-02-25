@@ -297,7 +297,7 @@
 
             </androidx.cardview.widget.CardView>
 
-            <!-- j10412  PENTA-3 (d/m/y)Title   -->
+            <!-- j10412  PENTA-3 (d/m/y)Title -->
             <androidx.cardview.widget.CardView
                 style="@style/cardView">
 

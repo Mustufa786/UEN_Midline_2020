@@ -35,7 +35,6 @@ public class SectionE3Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         bi = DataBindingUtil.setContentView(this, R.layout.activity_section_e3);
         bi.setCallback(this);
 
@@ -124,11 +123,9 @@ public class SectionE3Activity extends AppCompatActivity {
         return Validator.emptyCheckingContainer(this, bi.fldGrpSectionE3);
     }
 
-
     public void BtnEnd() {
         Util.openEndActivity(this);
     }
-
 
     @Override
     public void onBackPressed() {

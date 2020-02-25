@@ -36,7 +36,6 @@ public class SectionGActivity extends AppCompatActivity {
 
     }
 
-
     private void setupSkips() {
 
         //g102
@@ -168,7 +167,6 @@ public class SectionGActivity extends AppCompatActivity {
 
     }
 
-
     public void BtnContinue() {
         if (formValidation()) {
             try {
@@ -184,7 +182,6 @@ public class SectionGActivity extends AppCompatActivity {
             }
         }
     }
-
 
     public void BtnEnd() {
 
@@ -202,7 +199,6 @@ public class SectionGActivity extends AppCompatActivity {
             return false;
         }
     }
-
 
     private void SaveDraft() throws JSONException {
 
@@ -362,12 +358,10 @@ public class SectionGActivity extends AppCompatActivity {
 
     }
 
-
     private boolean formValidation() {
         return Validator.emptyCheckingContainer(this, bi.GrpName);
 
     }
-
 
     @Override
     public void onBackPressed() {

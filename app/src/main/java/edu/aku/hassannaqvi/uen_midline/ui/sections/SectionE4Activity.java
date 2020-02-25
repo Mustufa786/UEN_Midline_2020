@@ -39,7 +39,6 @@ public class SectionE4Activity extends AppCompatActivity {
 
         setListeners();
 
-
     }
 
     private void setListeners() {

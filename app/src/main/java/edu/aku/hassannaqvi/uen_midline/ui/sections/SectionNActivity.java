@@ -31,7 +31,6 @@ public class SectionNActivity extends AppCompatActivity {
         bi = DataBindingUtil.setContentView(this, R.layout.activity_section_n);
         bi.setCallback(this);
 
-
         setUIComponent();
     }
 
