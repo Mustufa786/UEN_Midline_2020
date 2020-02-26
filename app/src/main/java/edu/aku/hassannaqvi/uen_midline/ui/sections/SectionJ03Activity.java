@@ -31,10 +31,11 @@ public class SectionJ03Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         bi = DataBindingUtil.setContentView(this, R.layout.activity_section_j03);
         bi.setCallback(this);
-
         setupSkips();
-        setlistener();
+
+
     }
+
 
     private void setupSkips() {
 
@@ -89,51 +90,6 @@ public class SectionJ03Activity extends AppCompatActivity {
         });
 
 
-        /*//h121
-        bi.h121.setOnCheckedChangeListener((group, checkedId) -> {
-
-            Clear.clearAllFields(bi.fldGrpCVh122);
-            Clear.clearAllFields(bi.fldGrpCVh123);
-            Clear.clearAllFields(bi.fldGrpCVh124);
-            bi.fldGrpCVh122.setVisibility(View.GONE);
-            bi.fldGrpCVh123.setVisibility(View.GONE);
-            bi.fldGrpCVh124.setVisibility(View.GONE);
-
-            if (checkedId == bi.h121a.getId()) {
-                bi.fldGrpCVh122.setVisibility(View.VISIBLE);
-                bi.fldGrpCVh123.setVisibility(View.VISIBLE);
-            } else if (checkedId == bi.h121b.getId()) {
-                bi.fldGrpCVh124.setVisibility(View.VISIBLE);
-            }
-        });
-
-
-        //h12298
-        bi.h12298.setOnCheckedChangeListener((compoundButton, b) -> {
-            if (b) {
-                Clear.clearAllFields(bi.h122);
-                Clear.clearAllFields(bi.fldGrpCVh123);
-                bi.h122.setVisibility(View.GONE);
-                bi.fldGrpCVh123.setVisibility(View.GONE);
-            } else {
-                bi.h122.setVisibility(View.VISIBLE);
-                bi.fldGrpCVh123.setVisibility(View.VISIBLE);
-            }
-        });
-
-
-        //h13598
-        bi.h13598.setOnCheckedChangeListener((compoundButton, b) -> {
-            if (b) {
-                Clear.clearAllFields(bi.h135check, false);
-                bi.h135check.setTag("-1");
-            } else {
-                Clear.clearAllFields(bi.h135check, true);
-                bi.h135check.setTag("0");
-            }
-        });*/
-
-
         //j106
         bi.j106.setOnCheckedChangeListener((group, checkedId) -> {
 
@@ -181,80 +137,6 @@ public class SectionJ03Activity extends AppCompatActivity {
             }
         });
 
-        /*//j108
-        bi.j108.setOnCheckedChangeListener((group, checkedId) -> {
-
-            if (checkedId == bi.j108b.getId()) {
-                bi.fldGrpCVj109.setVisibility(View.GONE);
-                bi.fldGrpCVj111.setVisibility(View.GONE);
-                bi.fldGrpCVj112.setVisibility(View.GONE);
-                bi.fldGrpCVj113.setVisibility(View.GONE);
-                bi.fldGrpCVj114.setVisibility(View.GONE);
-                bi.fldGrpCVj115.setVisibility(View.GONE);
-                bi.fldGrpCVj116.setVisibility(View.GONE);
-                bi.fldGrpCVj117.setVisibility(View.GONE);
-                bi.fldGrpCVj118.setVisibility(View.GONE);
-                bi.fldGrpCVj119.setVisibility(View.GONE);
-                bi.fldGrpCVj120.setVisibility(View.GONE);
-                bi.fldGrpCVj121.setVisibility(View.GONE);
-                bi.fldGrpCVj122.setVisibility(View.GONE);
-                Clear.clearAllFields(bi.fldGrpCVj109);
-                Clear.clearAllFields(bi.fldGrpCVj111);
-                Clear.clearAllFields(bi.fldGrpCVj112);
-                Clear.clearAllFields(bi.fldGrpCVj113);
-                Clear.clearAllFields(bi.fldGrpCVj114);
-                Clear.clearAllFields(bi.fldGrpCVj115);
-                Clear.clearAllFields(bi.fldGrpCVj116);
-                Clear.clearAllFields(bi.fldGrpCVj117);
-                Clear.clearAllFields(bi.fldGrpCVj118);
-                Clear.clearAllFields(bi.fldGrpCVj119);
-                Clear.clearAllFields(bi.fldGrpCVj120);
-                Clear.clearAllFields(bi.fldGrpCVj121);
-                Clear.clearAllFields(bi.fldGrpCVj122);
-            } else {
-                bi.fldGrpCVj109.setVisibility(View.VISIBLE);
-                bi.fldGrpCVj111.setVisibility(View.VISIBLE);
-                bi.fldGrpCVj112.setVisibility(View.VISIBLE);
-                bi.fldGrpCVj113.setVisibility(View.VISIBLE);
-                bi.fldGrpCVj114.setVisibility(View.VISIBLE);
-                bi.fldGrpCVj115.setVisibility(View.VISIBLE);
-                bi.fldGrpCVj116.setVisibility(View.VISIBLE);
-                bi.fldGrpCVj117.setVisibility(View.VISIBLE);
-                bi.fldGrpCVj118.setVisibility(View.VISIBLE);
-                bi.fldGrpCVj119.setVisibility(View.VISIBLE);
-                bi.fldGrpCVj120.setVisibility(View.VISIBLE);
-                bi.fldGrpCVj121.setVisibility(View.VISIBLE);
-                bi.fldGrpCVj122.setVisibility(View.VISIBLE);
-            }
-        });*/
-
-        //j117
-        bi.j117.setOnCheckedChangeListener((group, checkedId) -> {
-
-            if (checkedId == bi.j117a.getId()) {
-                bi.fldGrpCVj118.setVisibility(View.VISIBLE);
-            } else {
-                bi.fldGrpCVj118.setVisibility(View.GONE);
-                Clear.clearAllFields(bi.fldGrpCVj118);
-            }
-        });
-
-        //j122
-        bi.j122.setOnCheckedChangeListener((group, checkedId) -> {
-
-            if (checkedId == bi.j122b.getId()) {
-                bi.fldGrpCVj123.setVisibility(View.VISIBLE);
-            } else {
-                bi.fldGrpCVj123.setVisibility(View.GONE);
-                Clear.clearAllFields(bi.fldGrpCVj123);
-            }
-        });
-
-
-    }
-
-    private void setlistener() {
-
         bi.j108.setOnCheckedChangeListener(((radioGroup, i) -> {
 
             if (i == bi.j108b.getId()) {
@@ -279,6 +161,18 @@ public class SectionJ03Activity extends AppCompatActivity {
 
         }));
 
+
+        //j117
+        bi.j117.setOnCheckedChangeListener((group, checkedId) -> {
+
+            if (checkedId == bi.j117a.getId()) {
+                bi.fldGrpCVj118.setVisibility(View.VISIBLE);
+            } else {
+                bi.fldGrpCVj118.setVisibility(View.GONE);
+                Clear.clearAllFields(bi.fldGrpCVj118);
+            }
+        });
+
         /*bi.j117.setOnCheckedChangeListener(((radioGroup, i) -> {
 
             if (i != bi.j117a.getId()) {
@@ -294,7 +188,33 @@ public class SectionJ03Activity extends AppCompatActivity {
             }
 
         }));
+
+        //j122
+        bi.j122.setOnCheckedChangeListener((group, checkedId) -> {
+
+            if (checkedId == bi.j122a.getId()) {
+                bi.fldGrpCVj123.setVisibility(View.VISIBLE);
+            } else {
+                bi.fldGrpCVj123.setVisibility(View.GONE);
+                Clear.clearAllFields(bi.fldGrpCVj123);
+            }
+        });
+
+        //j12398
+        bi.j12398.setOnCheckedChangeListener((compoundButton, b) -> {
+            if (b) {
+                Clear.clearAllFields(bi.j123check, false);
+                bi.j123check.setTag("-1");
+            } else {
+                Clear.clearAllFields(bi.j123check, true);
+                bi.j123check.setTag("0");
+            }
+        });
+
+
     }
+
+
 
     public void BtnContinue() {
         if (formValidation()) {
@@ -422,7 +342,7 @@ public class SectionJ03Activity extends AppCompatActivity {
         json.put("j123n", bi.j123n.isChecked() ? "14" : "0");
         json.put("j123o", bi.j123o.isChecked() ? "15" : "0");
         json.put("j123p", bi.j123p.isChecked() ? "16" : "0");
-        json.put("j123dk", bi.j123dk.isChecked() ? "98" : "0");
+        json.put("j123dk", bi.j12398.isChecked() ? "98" : "0");
         json.put("j12396", bi.j12396.isChecked() ? "96" : "0");
         json.put("j12396x", bi.j12396x.getText().toString());
 
