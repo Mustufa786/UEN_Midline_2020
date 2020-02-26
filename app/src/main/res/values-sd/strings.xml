@@ -116,7 +116,7 @@
     <string name="a112"> گهر / خاندان نمبر: </string>
     <string name="a112a"> دستياب ناهي </string>
 
-    <string name="checkHHpresent"> گهر جي سربراھ جو نالو لائن لسٽنگ موجب آھي. </string>
+    <string name="checkHHpresent">چونڊيل گھر جي سربراھ جو نالو موجود آھي (لائن لسٽنگ جي مطابق. </string>
     <string name="newHHheadname"> گھر جي نيئن سربراهه جو نالو </string>
 
     <string name="b101"> Latitude (Example: 24.861462) </string>
@@ -218,7 +218,7 @@
 
     <string name="d114"> D114:\t گھر ۾ پنجن سالن کان گھٽ عمر وارن ٻارن جو تعداد </string>
 
-    <string name="d115"> D115:\t ڇا ھي شخص گھر ۾ موجود آھي ؟ </string>
+    <string name="d115"> D115:\t ڇا هي گهر ڀاتي گهر ۾ موجود آهي </string>
     <string name="d115a"> ھا </string>
     <string name="d115b"> نه </string>
 
@@ -239,7 +239,7 @@
 
     <string name="e104"> E104:\t توھان پنھنجي حملن کي ياد ڪري ٻڌايو ته توھان جي پھرين حمل ۾ ھڪ ٻار ٿيو يا جاڙا ؟  </string>
     <string name="e104hint">  ھر ھڪ حمل لاءِ ساڳيا سوال ظاھر ٿيندا </string>
-    <string name="e104hint1">  ھر ھڪ حمل لاءِ ساڳيا سوال ظاھر ٿيندا </string>
+    <string name="e104hint1"> مثالطور (سڀ کان وڏي ٻار جو نالو) کان پوءِ واري حمل کي ياد ڪري ٻڌايو </string>
     <string name="e104a"> ھڪ ٻار </string>
     <string name="e104b"> ھڪ کان وڌيڪ يا جاڙا ٻار </string>
 
@@ -297,7 +297,7 @@
     <string name="e115a"> ھا</string>
     <string name="e115b"> نه</string>
 
-    <string name="e116_title"> MATERNAL MORTALITY STATUS The following questions now related to maternal mortality in the past 3 years in your household. (2017 &#8212; 2020) Definition of Maternal Mortality: Maternal death is the death of a woman while pregnant or within 42 days of termination of pregnancy, irrespective of the duration and site of the pregnancy, from any cause related to or aggravated by the pregnancy or its management but not from accidental or incidental causes. </string>
+    <string name="e116_title">مائرن جي موت (ميٽرنل ڊيٿ) صورتحال ھيٺ ڏنل سوال گذريل ٽن سالن (2017 کان 2019 تائين) ۾ مائرن جي موت جي حوالي سان آھن، جيڪا ھن گهر ۾ ٿي ھجي ماءُ جي موت (ميٽرنل ڊيٿ) وصف: ويم جي دوران، ڊليوري جي دوران يا ڊليوري کان پوءِ 42 ڏينھن جي اندر ڪا عورت ويم جي پيچيدگين، ڊليوري جي پيچيدگين يا ڊليوري کان پوءِ 42 ڏينھن جي اندر ٿيندڙ پيچيدگين جي ڪري ان عويت جو موت واقع ٿئي ته ان کي ماءٌ جو موت (ميٽرنل ڊيٿ) چئبو آھي۔ </string>
     <string name="e116"> E116:\t خدانه خواسته ڇا گذريل پنجن سالن جي دوران توھان جي گھر ۾ ڪا عورت حمل دوران، ڊليوري (ويم) دوران يا ڊليوري (ويم) کان پوءِ 42 ڏينھن جي اندر ڪنھن خطرناڪ علامت / پيچيدگيءَ سبب وفات ڪري وئي ھجي</string>
     <string name="e116a"> ھا</string>
     <string name="e116b"> نه</string>
@@ -324,7 +324,7 @@
 
     <string name="f101"> F101:\t ڪرايو (ANC)ڇا توھان (نالو) حمل دوران طبي معائنو</string>
     <string name="f101a"> F101a:\t ڇو نه ڪرايو (ANC)توھان (نالو) حمل دوران طبي معائنو</string>
-    <string name="f101ahint"> گهڻن جوابن جي اجازت ڏني وئي </string>
+    <string name="f101ahint"> هڪ کان وڌيڪ جواب ٿي سگھن ٿا</string>
     <string name="f101aa"> سواري نه ھئي </string>
     <string name="f101ab"> عملي جو غير مناسب رويو </string>
     <string name="f101ac"> صحت مرڪز ڪارآمد صورت ۾ نه ھو</string>
@@ -372,7 +372,7 @@
     <string name="f109b"> خبر نه آھي </string>
 
     <string name="f110"> F110:\t نالو) حمل دوران ڇا توھان ھيٺين مان ڪا به چڪاس گھٽ ۾ گھٽ ھڪ دفعو ڪرائي ؟)</string>
-    <string name="f110hint"> هر اپشن بابت پڇو ۽ سڀني مثبت جوابن کي دائرو ڪريو </string>
+    <string name="f110hint"> ہر آپشن کے بارے میں پوچھیں اور تمام مثبت ردعمل کا دائرہ لگائیں</string>
     <string name="f110a"> وزن ڪيو ويو </string>
     <string name="f110b"> بلڊ پريشر </string>
     <string name="f110c"> پيشاب جو نمونو </string>
@@ -386,7 +386,7 @@
 
     <string name="f111"> F111:\t جيڪڏھن ھا ته ڇا مان اھو ڏسي سگھان ٿي ؟ (TT) ڇا توھان وٽ ڪو ڪارڊ يا پرچي آھي جنھن ۾ جھٽڪن </string>
     <string name="f111hint">  ڪارڊ ڏسي معلومات حاصل ڪريو  </string>
-    <string name="f111hint1"> کان بچاءُ وارا ٽڪا لڳرائڻ جو ريڪارڊ موجود ھجي </string>
+    <string name="f111hint1">جيڪڏھن ڪارڊ موجود آهي ته ان ڪارڊ کي هيٺ ڏنل سوالن جي جوابن لاءِ استعمال ڪريو </string>
     <string name="f111a"> (ھا (پرچي يا ڪارڊ ڏٺو ويو </string>
     <string name="f111b"> (نه (پرچي يا ڪارڊ نه ڏٺو ويو </string>
 
@@ -459,7 +459,7 @@
     <string name="f124b"> نه </string>
 
     <string name="f125"> F125:\t جن خطرناڪ علامتن / پيچيدگين بابت توھان کي معلومات آھي، ڇا توھان انھن جا نالا  ٻڌائي سگھو ٿا؟ (ھڪ کان وڌيڪ جواب ٿي سگھن ٿا)</string>
-    <string name="f125hint"> ڪنهن به مشوري سان لسٽ يا پيراپپ نٿا ڏيو جهڙوڪ ڪنهن ٻئي خطرناڪ نشان </string>
+    <string name="f125hint">لسٽ ۾ موجود جواب پڙھي نه ٻڌايو، ٻڌايل جواب کان پوءِ پڇو ڪا ٻي خطرناڪ علامت/پيچيدگي </string>
     <string name="f125a"> شرم گاھ مان رت اچڻ </string>
     <string name="f125b"> مٿي ۾شديد سور ۽ نظر ڌنڌلي ٿي وڃڻ </string>
     <string name="f125c"> تيز بخار </string>
@@ -537,7 +537,7 @@
     <string name="g102f"> پيدائش اسٽيشن (ڪميونٽي مڊوائف) </string>
 
     <string name="g103"> G103:\t توھان (نالو) ڊليوري صحت مرڪز تي ڇو نه ڪرائي ان جو ڇا سبب آھي؟</string>
-    <string name="g103hint"> جيڪڏهن ويم گهر م ڀيو ته ڪنهن ٻئي سبب جي سڃاڻپ ڪرڻ لاء سڀ ڪجهه رڪارڊ رڪارڊ ڪريو. </string>
+    <string name="g103hint"> جيڪڏھن ويم گھر ۾ ٿيو هو- ڪنهن ٻي سبب جي نشاندهي ڪرڻ جي لاءِ پڇا ڪريو- ٻڌايل سڀني جوابن کي رڪارڊ ڪريو </string>
     <string name="g103a"> سواري نه ھئي </string>
     <string name="g103b"> عملي جو غير مناسب رويو </string>
     <string name="g103c"> صحت مرڪز ڪارآمد صورت ۾ نه ھو</string>
@@ -642,7 +642,7 @@
     <string name="g123g"> ٽيليويزن/ريڊيو/اخبار </string>
 
     <string name="g124"> G124:\t  ڇا توھان سور ۽ ڊليوري دوران ٿيندڙ خطرناڪ علامتن جا نالا ٻڌائي سگھو ٿا ؟ </string>
-    <string name="g124hint"> جواب پڙهي نه ٻڌائي </string>
+    <string name="g124hint"> لسٽ ۾ موجود جواب پڙھي نه ٻڌايو، ٻڌايل جواب کان پوءِ پڇو ڪا ٻي خطرناڪ علامت/پيچيدگي </string>
     <string name="g124a"> شرم گاھ مان رت جو اچڻ</string>
     <string name="g124b"> جھٽڪا</string>
     <string name="g124c"> شديد مٿي جو سور </string>
@@ -749,7 +749,7 @@
     <string name="h115i"> نيم ٺھوس غذا </string>
 
     <string name="h116"> H116:\t ڇا (نالو) صرف ماءُ جو کير پياريو ويو؟ </string>
-    <string name="h116hint"> Exclusive breastfeeding is when a child is only fed breast milk, and not given anything else. This also includes water, or liquids for stomach pain etc. </string>
+    <string name="h116hint">صرف ماءُ جي کير مان مطلب آهي ته ٻار کي صرف ۽ صرف ماءُ جو کير پياريو ويو آهي ايستائين جو پاڻي جو ھڪ ڦڙو به نه، يا پاڻياٺ واري ڪا شي يا پيٽ جي سور جي دوا وغيرھ وغيرھ. </string>
     <string name="h116a"> ھا، صرف ۽ صرف ماءُ جو کير </string>
     <string name="h116b"> ھا، ماءُ جي کير سان گڏ ٻيو کاڌوکائڻ/پيارڻ</string>
     <string name="h116c"> (ڪڏھن به کير نه پياريو (نالو</string>
@@ -900,7 +900,7 @@
     <string name="h137bbe"> ويڪسينيٽر</string>
     <string name="h137bbf"> (سي ايڇ ڊبليو (ڪميونٽي ھيلٿ ورڪر</string>
     <string name="h137bbg"> ڊسپينسر / ڪمپائونڊر </string>
-    <string name="h137bbx"> </string>
+    <string name="h137bbx">ٻيو ڪجھ (وضاحت ڪريو) </string>
 
 
     <string name="th2heading"> SECTION H: POSTNATAL CARE </string>
@@ -1029,7 +1029,7 @@
 
     <string name="i1_diarrhea"> ھاڻي آءٌ توھان کان توھان جي 5 سالن کان گھٽ عمر اري ٻار جي صحت بابت سوال ڪندس جنھن کي گذريل ٻن ھفتن دوران دست يا ساھ کڻڻ ۾ تڪيلف ٿي ھجي </string>
     <string name="i101"> I101:\t ڇا گذريل ٻن ھفتن جي دوران توھان جي گھر ۾ 5 سالن کان گھٽ عمر ٻارن کي دستن جي بيماري ٿي ؟ </string>
-    <string name="i101hint"> An episode of diarrhea is defined as, “(three or more loose stools in a day/24 hours)” </string>
+    <string name="i101hint"> دستن جي بيماري جي وصف :24 ڪلاڪن جي اندر (3 يا 3 کان وڌيڪ ڀيرا پاڻياٺ جھڙو پائخانو/ڪاڪوس ان کي دستن جي بيماري چئبو آھي </string>
     <string name="i101a"> ھا</string>
     <string name="i101b"> نه</string>
 
@@ -1270,8 +1270,8 @@
     <string name="i226f"> نمونيا جي خطرناڪ علامتن بابت معلومات </string>
 
     <string name="j101"> J101:\t ڇا توھان وٽ ٽڪن وارو ڪارڊ موجود آھي؟ جيڪو سرڪاري صحت يا پرائيويٽ صحت مرڪز وارا ڏيندا آھن جنھن تي (نالو) ٽڪن جي معلومات لکيل ھوندي آھي. </string>
-    <string name="j101hint"> If yes: May I see it please ? </string>
-    <string name="j101hint1"> The respondent should already have brought the card when you got permission to begin the interview.</string>
+    <string name="j101hint"> جيڪڏهن ها ته آءٌ اهو ڏسي سگھان ٿي/ٿو؟ </string>
+    <string name="j101hint1"> جڏھن توھان کي انٽرويو شروع ڪرڻ جي اجازت ملي ته جواب ڏيندڙ کي ڪارڊ کڻي اچڻ گھرجي </string>
     <string name="j101a"> ھا، ڏٺو </string>
     <string name="j101b"> ھا، نه ڏٺو </string>
     <string name="j101c"> نه</string>
@@ -1695,7 +1695,7 @@
     <string name="j109c"> خبر نه آھي </string>
 
     <string name="j111"> J111:\t ڇا (نالو) ڪڏھن به وات جي ذريعي پوليو جا ڦڙا پيتا جيڪي ھن کي پوليو جي بيماري کان بچاءُ لاءِ ڏنا ويندا آھن ؟ </string>
-    <string name="j111hint"> Probe by indicating that the first drop is usually given at birth and later at the same time as injections to prevent other diseases. </string>
+    <string name="j111hint"> ھن ڳالھ جي نشاندھي ڪري تحقيق ڪريو ته عام طور تي پيدائش کان پوءِ پھريون ڀيرو قطرو پياريو ويندو آھي ۽ ان ئي وقت انجيڪشن جي طور تي ڏنو ويندو آھي ته جئين ٻين بيمارين کان بچي سگھجي  </string>
     <string name="j111a"> ھا </string>
     <string name="j111b"> نه </string>
     <string name="j111c"> خبر نه آھي </string>
@@ -1708,13 +1708,13 @@
     <string name="j113"> J113:\t نالو) کي ڪيترا دفعا پوليو جا ڦڙا ڏنا ويا ؟) </string>
 
     <string name="j114"> J114:\t ڇا گذريل دفعي (نالو) کي پوليو جي بيماري کان بچاءُ لاءِ پوليو جا ڦڙا يا پوليو جو ٽڪو لڳرايو ويو، جنھن وقت ٻئي حفاظتي ٽڪا لڳايا ويا ؟ </string>
-    <string name="j114hint"> Probe to ensure that both were given, drops and injection. </string>
+    <string name="j114hint"> ان ڳالھ جي پڪ ڪريو ته ۽ وڌيڪ پڇا ڪريو ته ان وقت قطرا ۽ ٽڪا ٻئي ڏنا ويا هئا </string>
     <string name="j114a"> ھا </string>
     <string name="j114b"> نه </string>
     <string name="j114c"> خبر نه آھي </string>
 
     <string name="j115"> J115:\t ڇا (نالو) کي ڪڏھن به ران ڌڏ ۾ ٽڪو لڳو آھي جيڪو ٻار کي جھٽڪن، ڪاري کنگھ، خناق، ھيپاٽائيٽس ۽ ھيموفيلس انفلوئينزا جي بيمارين کان بچاءُ ڪندو آھي؟ (ڪڏھن ڪڏھن پوليو جي ڦڙن سان گڏ لڳايو ويندو آھي) </string>
-    <string name="j115hint"> Probe by indicating that Pentavalent vaccination is sometimes given at the same time as the Polio drops. </string>
+    <string name="j115hint">نشاندهي ڪندي ان ڳالھ جي تحقيق ڪريو ته بعض اوقات پوليو جي قطرن سان گڏ هي پينٽا ويلنيٽ ويڪسين به ڏني ويندي آهي. </string>
     <string name="j115a"> ھا</string>
     <string name="j115b"> نه</string>
     <string name="j115c"> خبر نه آھي </string>
@@ -1722,7 +1722,7 @@
     <string name="j116"> J116:\t  ڪيترا دفعه (نالو) کي ران ڌڏ ۾ ٽڪو لڳو آھي جيڪو ٻار کي جھٽڪن، ڪاري کنگھ، خناق، ھيپاٽائيٽس ۽ ھيموفيلس انفلوئينزا جي بيمارين کان بچاءُ ڪندو آھي؟</string>
 
     <string name="j117"> J117:\t ڇا (نالو) کي ڪڏھن به ران ۾ ٽڪو لڳو آھي جيڪو ٻار کي نمونيا جي بيماري کان بچاءُ ڪندو آھي؟ </string>
-    <string name="j117hint"> Probe by indicating that Pneumococcal Conjugate vaccination is sometimes given at the same time as the Pentavalent vaccination. </string>
+    <string name="j117hint">نشاندهي ڪندي ان ڳالھ جي تحقيق ڪريو ته بعض اوقات پوليو جي قطرن سان گڏ هي نمونيا جي ويڪسين به ڏني ويندي آهي </string>
     <string name="j117a"> ھا </string>
     <string name="j117b"> نه </string>
     <string name="j117c"> خبر نه آھي </string>
@@ -1747,7 +1747,7 @@
     <string name="j122c"> خبر نه آھي </string>
 
     <string name="j123"> J123:\t ٻار کي ويڪسين ڇو نه لڳرائي وئي ؟ </string>
-    <string name="j123hint"> Record all the reasons mentioned but do not prompt by asking specific. Encourage the mother to provide all reasons. </string>
+    <string name="j123hint"> ٻڌايل سڀنين سببن کي رڪارڊ ڪريو پر فوري طور تي ڪنهن مخصوص وجھ تي نه وڃو ماءُ کي تمام سبب فراهم ڪرڻ جي ترغيب ڏيو </string>
     <string name="j123a"> ٽڪن لڳرائڻ وارو صحت مرڪز جوپري ھجڻ</string>
     <string name="j123b"> ٽڪن جو وقت غير مناسب ھجڻ</string>
     <string name="j123c"> ماءُ تمام گھڻي مصروف ھئي</string>
@@ -1781,7 +1781,7 @@
     <string name="k101aah"> دوست / مائٽ </string>
     <string name="k101aai"> دائي / ٽي بي اي </string>
     <string name="k101aaj"> مڙس </string>
-    <string name="k101aak"> آئوٽ ڊور سائين / بلبورڊ </string>
+    <string name="k101aak"> آوٽ ڊور / بل بورڊ </string>
     <string name="k101aal"> پرچہ / بروشر </string>
     <string name="k101aam"> موبائل / سمارٽ فون </string>
     <string name="k101b"> نه </string>
@@ -1985,35 +1985,35 @@
     <string name="m103"> M103:\t فرش ڪهڙي قسم جو آهي  </string>
     <string name="m103hint"> مشاھدو ڪريو: </string>
     <string name="m103a"> زمين / واري / مٽي </string>
-    <string name="m103a_title"> </string>
+    <string name="m103a_title">زمين</string>
     <string name="m103b">  ڇيڻو </string>
     <string name="m103c"> بنيادي فرش </string>
-    <string name="m103d">  </string>
+    <string name="m103d">  ڪاٺ جا تختا</string>
     <string name="m103e"> بانس </string>
     <string name="m103f"> ڪاٺ </string>
-    <string name="m103f_title"> ڪاٺين جو فرش </string>
+    <string name="m103f_title"> تيار فرش/ ڪاٺ جو فرش يا پالش والي ڪاٺي</string>
     <string name="m103g"> اسفالٽ سٽرپس </string>
     <string name="m103h"> ٽائلس </string>
     <string name="m103i"> سيمينٽ </string>
     <string name="m103j"> قالين </string>
-    <string name="m103k"> چتائي </string>
+    <string name="m103k"> چپس </string>
     <string name="m103l"> سرون </string>
-    <string name="m103m"> </string>
+    <string name="m103m">تڏو </string>
     <string name="m103n"> ماربل </string>
 
     <string name="m104"> M104:\t ڇت ڪهڙي قسم جي آهي </string>
     <string name="m104hint"> مشاھدو ڪريو: </string>
     <string name="m104a"> ڇت ڪونهي </string>
-    <string name="m104a_title"> </string>
+    <string name="m104a_title">ڇت </string>
     <string name="m104b"> </string>
     <string name="m104c"> ڪکا / گاه </string>
     <string name="m104d"> رسٽڪ ڇٽائي </string>
-    <string name="m104d_title"> </string>
+    <string name="m104d_title">تختي جي چتائي </string>
     <string name="m104e"> بانسن جي </string>
     <string name="m104f"> ڪاٺين جون تختيون </string>
     <string name="m104g"> ڪاغذن جي / گتن جي </string>
     <string name="m104h"> لوهه جا پتر </string>
-    <string name="m104h_title"> </string>
+    <string name="m104h_title"> تيار ڇت</string>
     <string name="m104i"> پڪيون سرون </string>
     <string name="m104j"> </string>
     <string name="m104k"> ڪاٺ /ٽي آئرن / مٽي </string>
@@ -2025,13 +2025,13 @@
     <string name="m105"> M105:\t ڀتيون ڪهڙي قسم جون آهن ؟ </string>
     <string name="m105hint"> مشاھدو ڪريو: </string>
     <string name="m105a"> ڀتيون نه آھن </string>
-    <string name="m105a_title"> </string>
+    <string name="m105a_title">ڀتيون </string>
     <string name="m105b"> ڪکا / گاه </string>
     <string name="m105c"> مٽي </string>
     <string name="m105d"> مٽي / پٿر </string>
     <string name="m105e"> مٽي / ڪاٺيون / مٽي </string>
     <string name="m105f"> ڪچيون سرون / مٽي </string>
-    <string name="m105f_title"> </string>
+    <string name="m105f_title">ڪچيون ڀتيون </string>
     <string name="m105g"> ڪاغذن جا گتا / پلاسٽڪ </string>
     <string name="m105h"> مٽي سان بانس </string>
     <string name="m105i"> مٽي سان پٿر </string>
@@ -2040,7 +2040,7 @@
     <string name="m105l"> ڪاغذن جي / گتن جي </string>
     <string name="m105m"> استعمال شده ڪاٺ جي ڀت </string>
     <string name="m105n"> پڪيون سرون </string>
-    <string name="m105n_title"> </string>
+    <string name="m105n_title">تيار ديوارون </string>
     <string name="m105o"> تنبو </string>
     <string name="m105p"> سيمينٽ </string>
     <string name="m105q"> پٿر سيمينٽ سان لڳل </string>
@@ -2218,43 +2218,43 @@
 
     <string name="n101"> N101:\t توهان جي گھر ۾ پيئڻ جو پاڻي جو مکيه ذريعو ڪھڙو آهي ؟ </string>
     <string name="n101a"> گھر جي اندر پاڻي جي لائن اچي ٿي </string>
-    <string name="n101a_title"> </string>
+    <string name="n101a_title"> ميونسپل ڪميٽي جو پاڻي ڪنيڪشن</string>
     <string name="n101b"> گھر جي ٻاهر پاڻي جي لائن اچي ٿي </string>
     <string name="n101c"> پاڙي ۾ اندر جي پاڻي جي لائن اچي ٿي </string>
     <string name="n101d"> عوامي نلڪو لڳل آهي </string>
     <string name="n101e"> صاف پاڻي جو فلٽر پلانٽ </string>
     <string name="n101f"> بورنگ جو پاڻي </string>
-    <string name="n101f_title"> </string>
+    <string name="n101f_title"> زمين وارو پاڻي</string>
     <string name="n101g"> نلڪي جو پاڻي </string>
     <string name="n101h"> ڍڪيل کوهه جو پاڻي </string>
-    <string name="n101h_title"> </string>
+    <string name="n101h_title">کوھ </string>
     <string name="n101i"> بنا ڍڪيل کوهه جو پاڻي </string>
     <string name="n101j"> مينهن جو پاڻي </string>
     <string name="n101k"> ٽينڪروارو پاڻي </string>
     <string name="n101l"> گڏهه گاڏي سان پاڻي جو ٽئنڪ </string>
     <string name="n101m"> ندي، دريا جو پاڻي </string>
     <string name="n101n"> بوتل وارو پاڻي </string>
-    <string name="n101x"> ٻيو ڪجھ </string>
+    <string name="n101x"> ٻيو ڪجھ (وضاحت ڪريو)  </string>
 
     <string name="n102"> N102:\t توهان جي گھر ۾ رڌ پچاءُ ۽ ھٿ ڌوئڻ  لاءِ پاڻي جو مکيه ذريعو ڪھڙو آهي ؟ </string>
     <string name="n102a"> گھر جي اندر پاڻي جي لائن اچي ٿي </string>
-    <string name="n102a_title"> </string>
+    <string name="n102a_title"> ميونسپل ڪميٽي جو پاڻي ڪنيڪشن</string>
     <string name="n102b"> گھر جي ٻاهر پاڻي جي لائن اچي ٿي </string>
     <string name="n102c"> پاڙي ۾ اندر جي پاڻي جي لائن اچي ٿي </string>
     <string name="n102d"> عوامي نلڪو لڳل آهي </string>
     <string name="n102e"> صاف پاڻي جو فلٽر پلانٽ </string>
     <string name="n102f"> بورنگ جو پاڻي </string>
-    <string name="n102f_title"> </string>
+    <string name="n102f_title"> زمين وارو پاڻي</string>
     <string name="n102g"> نلڪي جو پاڻي </string>
     <string name="n102h"> ڍڪيل کوهه جو پاڻي </string>
-    <string name="n102h_title"> کوهه </string>
+    <string name="n102h_title"> کوھ </string>
     <string name="n102i"> بنا ڍڪيل کوهه جو پاڻي </string>
     <string name="n102j"> مينهن جو پاڻي </string>
     <string name="n102k"> ٽينڪر وارو پاڻي </string>
     <string name="n102l"> گڏهه گاڏي سان پاڻي جو ٽئنڪ </string>
     <string name="n102m"> ندي، دريا جو پاڻي </string>
     <string name="n102n"> بوتل وارو پاڻي </string>
-    <string name="n102x"> ٻيو ڪجھ </string>
+    <string name="n102x"> ٻيو ڪجھ (وضاحت ڪريو)  </string>
 
     <string name="n103"> N103:\t پاڻي ڪٿا آندو ويندو آھي ؟ </string>
     <string name="n103a"> پنھنجي گھر </string>
@@ -2271,7 +2271,7 @@
     <string name="n105b"> مرد (عمر 05 سالن کان وڌيڪ) </string>
     <string name="n105c"> عورت (عمر 05 سالن کان گھٽ) </string>
     <string name="n105d"> مرد (عمر 05 سالن کان گھٽ) </string>
-    <string name="n105e"> جيڪو به دستياب آهي </string>
+    <string name="n105e">جيڪو به موجود هجي</string>
     <string name="n105f"> خبر نه آھي </string>
 
     <string name="n106"> N106:\t جيڪو پاڻي توھان گھر ۾ استعمال ڪندا آھيو ڇا ان جو ذائقو مٺو يا کارو آھي ؟ </string>
@@ -2298,15 +2298,15 @@
     <string name="n109g"> ڦٽڪي جي ذريعي </string>
 
     <string name="n110"> N110:\t گھر ۾ ڪهڙي قسم جو ٽوائلٽ / ڪاڪوس استعمال ڪندا آهيو ؟ </string>
-    <string name="n110hint"> If not possible to determine, ask permission to observe the facility. </string>
-    <string name="n110a_title"> FLUSH / POURFLUSH </string>
+    <string name="n110hint"> جيڪڏھن ممڪن نه هجي ته سهولت جو جائزو وٺڻ جي اجازت وٺو۔ </string>
+    <string name="n110a_title"> پليش يا اونڌو ڪري پاڻي وجھڻ وارو</string>
     <string name="n110a"> گھٽر نالي وارو  </string>
     <string name="n110b"> فليش ٽينڪ </string>
     <string name="n110c"> کڏي وارو ڪاڪوس </string>
     <string name="n110d"> ٻاهر اڇلائڻ </string>
     <string name="n110e"> اڻ سڃاتل جڳھ تي / پڪ نه آھي / خبر نه آھي ڪٿي </string>
     <string name="n110f"> هوادار بهتر کڏي وارو ڪاڪوس </string>
-    <string name="n110f_title"> کڏي وارو ڍڪيل ڪاڪوس </string>
+    <string name="n110f_title">کڏي وارو ليٽرين</string>
     <string name="n110g"> گھر جي ٻاهر پاڻي جي لائن اچي ٿي </string>
     <string name="n110h"> کڏي وارو بنا ڍڪيل / کليل </string>
     <string name="n110i"> ڪمپوزٽنگ ٽوائلٽ </string>
@@ -2337,7 +2337,7 @@
     <string name="o101x"> ٻي ڪا وجھه هئي </string>
 
     <string name="o102"> O102:\t پاڻي جي موجودگي جو مشاهدو ڪيو ويو ته ڪهڙي جڳهه تي هٿ ڌوئيا ويندا آهن ؟ </string>
-    <string name="o102hint"> Verify by checking the tap / pump, or basin, bucket, water container or similar objects for presence of water. </string>
+    <string name="o102hint">نل/ پمپ يا بيسن، بالٽي پاڻي جا ڪنٽينر يا ان طرح جون شيون پاڻي جي موجودگي جي لاءِ جانچ پرتال جي تصديق ڪريو۔</string>
     <string name="o102a"> پاڻي موجود آهي </string>
     <string name="o102b"> پاڻي موجود ڪونهي </string>
 
@@ -2346,12 +2346,12 @@
     <string name="o103b"> نه، موجود نه هو </string>
 
     <string name="o104"> O104:\t جيڪڏهن نوٽ ڪيو ويو ته واقعي صابڻ موجود هو جتي هٿ ڌويا ويندا آهن ؟ </string>
-    <string name="o104hint"> هڪ کان وڌيڪ چونڊجي سگهجي ٿو </string>
+    <string name="o104hint">سڀنين تي نشان لڳايو جيڪي لاڳو ٿين ٿا</string>
     <string name="o104a"> صابڻ </string>
     <string name="o104b"> صابڻ (پائوڊر / ملائم چيز / پيسٽ) </string>
     <string name="o104c"> ملائم صابڻ </string>
     <string name="o104d"> چيڪي مٽي </string>
-    <string name="o104x"> ٻيو ڪجھ (وضاحت ڪريو) </string>
+    <string name="o104x"> ٻيو ڪجھ (وضاحت ڪريو)  </string>
 
     <string name="o105"> O105:\t ڇا توهان وٽ گھر ۾ هٿ ڌوئڻ لاءِ صابڻ موجود آهي ؟ </string>
     <string name="o105a"> ھا </string>
@@ -2362,12 +2362,12 @@
     <string name="o106b"> نه، نه ڏٺو </string>
 
     <string name="o107"> O107:\t مشاھدو نوٽ ڪريو </string>
-    <string name="o107hint"> هڪ کان وڌيڪ چونڊجي سگهجي ٿو </string>
+    <string name="o107hint">هڪ کان وڌيڪ جواب ٿي سگھن ٿا </string>
     <string name="o107a"> صابڻ </string>
     <string name="o107b"> صابڻ (پائوڊر / ملائم چيز / پيسٽ) </string>
     <string name="o107c"> ملائم صابڻ </string>
     <string name="o107d"> چيڪي مٽي </string>
-    <string name="o107x"> ٻيو ڪجھ (وضاحت ڪريو) </string>
+    <string name="o107x">ٻيو ڪجھ (وضاحت ڪريو)  </string>
 
     <string name="o108"> O108:\t انٽرويو جو نتيجو </string>
     <string name="o108a"> مڪمل ٿيو </string>
@@ -2381,14 +2381,14 @@
 
     <string name="end_interview"> انٽرويو جو خاتمو </string>
     <string name="start_interview"> انٽرويو شروع ڪيو </string>
-    <string name="nextSection"> اڳيون سيڪشن </string>
+    <string name="nextSection"> ٻيو </string>
     <string name="nextPregnancy"> Next Pregnancy </string>
     <string name="nextMortality"> Next Mortality </string>
 
-    <string name="dialog_text"> مهرباني ڪري سيڪنڊ ٻار لاء ڄاڻ شامل ڪريو. </string>
+    <string name="dialog_text"> مهرباني ڪري ٻئي ٻار جي معلومات ڏيو. </string>
     <string name="countNo"> نه </string>
     <string name="countYes">" جي ها "</string>
-    <string name="countAlertMsg"> يقينا! توھان جاري رکڻ چاھيو ٿا </string>
+    <string name="countAlertMsg">ڇا توهان جاري رکڻ چاهيو تا </string>
 
 
 </resources>
