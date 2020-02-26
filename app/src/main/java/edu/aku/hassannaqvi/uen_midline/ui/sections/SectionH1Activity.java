@@ -109,19 +109,18 @@ public class SectionH1Activity extends AppCompatActivity {
             Clear.clearAllFields(bi.fldGrpCVh117);
             Clear.clearAllFields(bi.fldGrpCVh118);
             Clear.clearAllFields(bi.fldGrpCVh119);
-            Clear.clearAllFields(bi.fldGrpCVh120);
             bi.fldGrpCVh117.setVisibility(View.GONE);
             bi.fldGrpCVh118.setVisibility(View.GONE);
             bi.fldGrpCVh119.setVisibility(View.GONE);
-            bi.fldGrpCVh120.setVisibility(View.GONE);
 
             if (checkedId == bi.h116a.getId()) {
                 bi.fldGrpCVh117.setVisibility(View.VISIBLE);
+                bi.fldGrpCVh118.setVisibility(View.VISIBLE);
+                bi.fldGrpCVh119.setVisibility(View.VISIBLE);
             } else if (checkedId == bi.h116b.getId()) {
                 bi.fldGrpCVh118.setVisibility(View.VISIBLE);
                 bi.fldGrpCVh119.setVisibility(View.VISIBLE);
-            } else
-                bi.fldGrpCVh120.setVisibility(View.VISIBLE);
+            }
         });
 
 
