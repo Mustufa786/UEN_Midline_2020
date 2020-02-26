@@ -134,7 +134,7 @@
                                 android:id="@+id/j101c"
                                 style="@style/radiobutton"
                                 android:layout_width="0dp"
-                                android:layout_weight="1"
+                                android:layout_weight="0.7"
                                 android:text="@string/no" />
 
                         </RadioGroup>
@@ -291,7 +291,7 @@
 
                     </androidx.cardview.widget.CardView>
 
-                    <!-- j10401  (d/m/y)Title   -->
+                    <!-- j10401  BCG (d/m/y)Title   -->
                     <androidx.cardview.widget.CardView style="@style/cardView">
 
                         <LinearLayout
@@ -380,7 +380,7 @@
 
                     </androidx.cardview.widget.CardView>
 
-                    <!-- j10402  (d/m/y)Title   -->
+                    <!-- j10402  OPV-0 (d/m/y)Title   -->
                     <androidx.cardview.widget.CardView style="@style/cardView">
 
                         <LinearLayout
@@ -393,7 +393,6 @@
                                 android:text="@string/j10402" />
 
                             <LinearLayout
-                                android:id="@+id/fldGrpCVj10402"
                                 style="@style/linearlayout_view_wt_bound"
                                 android:orientation="horizontal">
 
@@ -469,20 +468,21 @@
 
                     </androidx.cardview.widget.CardView>
 
-                    <!-- j10403  (d/m/y)Title   -->
+                    <!-- j10403  OPV-1 (d/m/y)Title   -->
                     <androidx.cardview.widget.CardView style="@style/cardView">
 
                         <LinearLayout
+                            android:id="@+id/fldGrpCVj10403"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:orientation="vertical">
+                            android:orientation="vertical"
+                            android:visibility="gone">
 
                             <TextView
                                 style="@style/i_textview"
                                 android:text="@string/j10403" />
 
                             <LinearLayout
-                                android:id="@+id/fldGrpCVj10403"
                                 style="@style/linearlayout_view_wt_bound"
                                 android:orientation="horizontal">
 
@@ -558,20 +558,21 @@
 
                     </androidx.cardview.widget.CardView>
 
-                    <!-- j10404  (d/m/y)Title   -->
+                    <!-- j10404  PENTA-1 (d/m/y)Title   -->
                     <androidx.cardview.widget.CardView style="@style/cardView">
 
                         <LinearLayout
+                            android:id="@+id/fldGrpCVj10404"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:orientation="vertical">
+                            android:orientation="vertical"
+                            android:visibility="gone">
 
                             <TextView
                                 style="@style/i_textview"
                                 android:text="@string/j10404" />
 
                             <LinearLayout
-                                android:id="@+id/fldGrpCVj10404"
                                 style="@style/linearlayout_view_wt_bound"
                                 android:orientation="horizontal">
 
@@ -647,20 +648,21 @@
 
                     </androidx.cardview.widget.CardView>
 
-                    <!-- j10405  (d/m/y)Title   -->
+                    <!-- j10405  PCV-1 (d/m/y)Title   -->
                     <androidx.cardview.widget.CardView style="@style/cardView">
 
                         <LinearLayout
+                            android:id="@+id/fldGrpCVj10405"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:orientation="vertical">
+                            android:orientation="vertical"
+                            android:visibility="gone">
 
                             <TextView
                                 style="@style/i_textview"
                                 android:text="@string/j10405" />
 
                             <LinearLayout
-                                android:id="@+id/fldGrpCVj10405"
                                 style="@style/linearlayout_view_wt_bound"
                                 android:orientation="horizontal">
 
@@ -733,22 +735,24 @@
                             </LinearLayout>
 
                         </LinearLayout>
+
                     </androidx.cardview.widget.CardView>
 
-                    <!-- j10406  (d/m/y)Title   -->
+                    <!-- j10406  RV-1 (d/m/y)Title   -->
                     <androidx.cardview.widget.CardView style="@style/cardView">
 
                         <LinearLayout
+                            android:id="@+id/fldGrpCVj10406"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:orientation="vertical">
+                            android:orientation="vertical"
+                            android:visibility="gone">
 
                             <TextView
                                 style="@style/i_textview"
                                 android:text="@string/j10406" />
 
                             <LinearLayout
-                                android:id="@+id/fldGrpCVj10406"
                                 style="@style/linearlayout_view_wt_bound"
                                 android:orientation="horizontal">
 
@@ -824,20 +828,21 @@
 
                     </androidx.cardview.widget.CardView>
 
-                    <!-- j10407  (d/m/y)Title   -->
+                    <!-- j10407  OPV-2 (d/m/y)Title   -->
                     <androidx.cardview.widget.CardView style="@style/cardView">
 
                         <LinearLayout
+                            android:id="@+id/fldGrpCVj10407"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:orientation="vertical">
+                            android:orientation="vertical"
+                            android:visibility="gone">
 
                             <TextView
                                 style="@style/i_textview"
                                 android:text="@string/j10407" />
 
                             <LinearLayout
-                                android:id="@+id/fldGrpCVj10407"
                                 style="@style/linearlayout_view_wt_bound"
                                 android:orientation="horizontal">
 
@@ -914,20 +919,21 @@
 
                     </androidx.cardview.widget.CardView>
 
-                    <!-- j10408  (d/m/y)Title   -->
+                    <!-- j10408  PENTA-2 (d/m/y)Title   -->
                     <androidx.cardview.widget.CardView style="@style/cardView">
 
                         <LinearLayout
+                            android:id="@+id/fldGrpCVj10408"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:orientation="vertical">
+                            android:orientation="vertical"
+                            android:visibility="gone">
 
                             <TextView
                                 style="@style/i_textview"
                                 android:text="@string/j10408" />
 
                             <LinearLayout
-                                android:id="@+id/fldGrpCVj10408"
                                 style="@style/linearlayout_view_wt_bound"
                                 android:orientation="horizontal">
 

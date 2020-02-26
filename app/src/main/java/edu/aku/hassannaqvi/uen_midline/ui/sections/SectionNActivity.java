@@ -2,6 +2,7 @@ package edu.aku.hassannaqvi.uen_midline.ui.sections;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -30,15 +31,20 @@ public class SectionNActivity extends AppCompatActivity {
         bi = DataBindingUtil.setContentView(this, R.layout.activity_section_n);
         bi.setCallback(this);
 
-
         setUIComponent();
     }
 
     private void setUIComponent() {
 
         bi.n103.setOnCheckedChangeListener(((radioGroup, i) -> {
-            if (i != bi.n103c.getId()) {
+            if (i == bi.n103c.getId()) {
+                bi.fldGrpCVn104.setVisibility(View.VISIBLE);
+                bi.fldGrpCVn105.setVisibility(View.VISIBLE);
+            } else {
+                bi.fldGrpCVn104.setVisibility(View.GONE);
+                bi.fldGrpCVn105.setVisibility(View.GONE);
                 Clear.clearAllFields(bi.fldGrpCVn104);
+                Clear.clearAllFields(bi.fldGrpCVn105);
             }
 
         }));

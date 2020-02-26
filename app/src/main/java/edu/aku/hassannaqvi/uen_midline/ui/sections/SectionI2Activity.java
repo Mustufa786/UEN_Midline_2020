@@ -164,7 +164,6 @@ public class SectionI2Activity extends AppCompatActivity {
         }));
     }
 
-
     public void BtnContinue() {
         if (formValidation()) {
             try {
@@ -181,7 +180,6 @@ public class SectionI2Activity extends AppCompatActivity {
         }
     }
 
-
     public void BtnEnd() {
 
         Util.openEndActivity(this);
@@ -197,7 +195,6 @@ public class SectionI2Activity extends AppCompatActivity {
             return false;
         }
     }
-
 
     private void SaveDraft() throws JSONException {
 
@@ -345,12 +342,10 @@ public class SectionI2Activity extends AppCompatActivity {
         MainApp.child.setsI2(String.valueOf(f2));
     }
 
-
     private boolean formValidation() {
         return Validator.emptyCheckingContainer(this, bi.fldGrpSectioni02);
 
     }
-
 
     @Override
     public void onBackPressed() {

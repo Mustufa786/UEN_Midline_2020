@@ -73,7 +73,6 @@ public class SectionI1Activity extends AppCompatActivity {
         bi.i10res.setAdapter(new ArrayAdapter<>(this, android.R.layout.simple_dropdown_item_1line, reponList));
     }
 
-
     private void setListener() {
 
         bi.i100.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
@@ -164,7 +163,6 @@ public class SectionI1Activity extends AppCompatActivity {
         }));
     }
 
-
     public void BtnContinue() {
         if (formValidation()) {
             try {
@@ -180,7 +178,6 @@ public class SectionI1Activity extends AppCompatActivity {
             }
         }
     }
-
 
     public void BtnEnd() {
 
@@ -201,7 +198,6 @@ public class SectionI1Activity extends AppCompatActivity {
             return false;
         }
     }
-
 
     private void SaveDraft() throws JSONException {
 
@@ -370,12 +366,10 @@ public class SectionI1Activity extends AppCompatActivity {
 
     }
 
-
     private boolean formValidation() {
         return Validator.emptyCheckingContainer(this, bi.fldGrpSectioni01);
 
     }
-
 
     @Override
     public void onBackPressed() {

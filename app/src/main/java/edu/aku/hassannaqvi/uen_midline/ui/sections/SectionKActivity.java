@@ -3,7 +3,6 @@ package edu.aku.hassannaqvi.uen_midline.ui.sections;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.CompoundButton;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -24,7 +23,6 @@ import edu.aku.hassannaqvi.uen_midline.utils.Util;
 
 public class SectionKActivity extends AppCompatActivity {
 
-
     ActivitySectionKBinding bi;
 
 
@@ -36,11 +34,9 @@ public class SectionKActivity extends AppCompatActivity {
 
         setlistener();
 
-
     }
 
     private void setlistener() {
-
 
         bi.k101.setOnCheckedChangeListener(((radioGroup, i) -> {
 
@@ -58,22 +54,19 @@ public class SectionKActivity extends AppCompatActivity {
         }));
 
 
-        bi.k105aac.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-            @Override
-            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+        bi.k105aac.setOnCheckedChangeListener((compoundButton, b) -> {
 
-                if (b) {
-                    bi.fldGrpCVk106.setVisibility(View.VISIBLE);
-                    bi.k105aab.setText(null);
-                    bi.k105aaa.setText(null);
-                    bi.k105aab.setEnabled(true);
-                    bi.k105aaa.setEnabled(true);
-                } else {
-                    bi.fldGrpCVk106.setVisibility(View.GONE);
-                    Clear.clearAllFields(bi.fldGrpCVk106);
-                    bi.k105aab.setEnabled(false);
-                    bi.k105aaa.setEnabled(false);
-                }
+            if (b) {
+                bi.fldGrpCVk106.setVisibility(View.GONE);
+                Clear.clearAllFields(bi.fldGrpCVk106);
+                bi.k105aab.setEnabled(false);
+                bi.k105aaa.setEnabled(false);
+            } else {
+                bi.fldGrpCVk106.setVisibility(View.VISIBLE);
+                bi.k105aab.setText(null);
+                bi.k105aaa.setText(null);
+                bi.k105aab.setEnabled(true);
+                bi.k105aaa.setEnabled(true);
             }
         });
         /*bi.k105.setOnCheckedChangeListener(((radioGroup, i) -> {
@@ -83,7 +76,6 @@ public class SectionKActivity extends AppCompatActivity {
         }));*/
 
     }
-
 
     public void BtnContinue() {
         if (formValidation()) {
@@ -100,7 +92,6 @@ public class SectionKActivity extends AppCompatActivity {
             }
         }
     }
-
 
     public void BtnEnd() {
 
@@ -119,15 +110,12 @@ public class SectionKActivity extends AppCompatActivity {
         }
     }
 
-
     private void SaveDraft() throws JSONException {
 
         JSONObject json = new JSONObject();
 
-        json.put("k101",
-                bi.k101a.isChecked() ? "1" :
-                        bi.k101b.isChecked() ? "2" :
-                                "0");
+        json.put("k101", bi.k101a.isChecked() ? "1" :
+                bi.k101b.isChecked() ? "2" : "0");
 
         json.put("k101aaa", bi.k101aaa.isChecked() ? "1" : "0");
         json.put("k101aab", bi.k101aab.isChecked() ? "2" : "0");
@@ -143,10 +131,8 @@ public class SectionKActivity extends AppCompatActivity {
         json.put("k101aal", bi.k101aal.isChecked() ? "12" : "0");
         json.put("k101aam", bi.k101aam.isChecked() ? "13" : "0");
 
-        json.put("k102",
-                bi.k102a.isChecked() ? "1" :
-                        bi.k102b.isChecked() ? "2" :
-                                "0");
+        json.put("k102", bi.k102a.isChecked() ? "1" :
+                bi.k102b.isChecked() ? "2" : "0");
 
         json.put("k103", bi.k103a.isChecked() ? "1" :
                 bi.k103b.isChecked() ? "2" : "0");
@@ -193,32 +179,24 @@ public class SectionKActivity extends AppCompatActivity {
         json.put("k10696", bi.k10696.isChecked() ? "96" : "0");
         json.put("k10696x", bi.k10696x.getText().toString());
 
-        json.put("k107",
-                bi.k107a.isChecked() ? "1" :
-                        bi.k107b.isChecked() ? "2" :
-                                "0");
+        json.put("k107", bi.k107a.isChecked() ? "1" :
+                bi.k107b.isChecked() ? "2" : "0");
 
-        json.put("k108",
-                bi.k108a.isChecked() ? "1" :
-                        bi.k108b.isChecked() ? "2" :
-                                bi.k108c.isChecked() ? "3" :
-                                        "0");
+        json.put("k108", bi.k108a.isChecked() ? "1" :
+                bi.k108b.isChecked() ? "2" :
+                        bi.k108c.isChecked() ? "3" : "0");
 
-        json.put("k109",
-                bi.k109a.isChecked() ? "1" :
-                        bi.k109ab.isChecked() ? "2" :
-                                "0");
+        json.put("k109", bi.k109a.isChecked() ? "1" :
+                bi.k109ab.isChecked() ? "2" : "0");
 
         MainApp.kish.setsK(String.valueOf(json));
 
     }
 
-
     private boolean formValidation() {
         return Validator.emptyCheckingContainer(this, bi.fldGrpSectionk01);
 
     }
-
 
     @Override
     public void onBackPressed() {

@@ -16,7 +16,7 @@
     <ScrollView
         style="@style/i_scrollview"
         android:layoutDirection="rtl"
-        android:textDirection="anyRtl">
+        android:textDirection="rtl">
 
         <LinearLayout
             android:id="@+id/fldGrpSectionJ02"
@@ -24,21 +24,22 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <!-- j10409  (d/m/y)Title   -->
+            <!-- j10409  PCV-2 (d/m/y)Title   -->
             <androidx.cardview.widget.CardView
                 style="@style/cardView">
 
                 <LinearLayout
+                    android:id="@+id/fldGrpCVj10409"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:visibility="gone">
 
                     <TextView
                         style="@style/i_textview"
                         android:text="@string/j10409" />
 
                     <LinearLayout
-                        android:id="@+id/fldGrpCVj10409"
                         style="@style/linearlayout_view_wt_bound"
                         android:orientation="horizontal">
 
@@ -114,21 +115,22 @@
 
             </androidx.cardview.widget.CardView>
 
-            <!-- j10410  (d/m/y)Title   -->
+            <!-- j10410  RV-2 (d/m/y)Title   -->
             <androidx.cardview.widget.CardView
                 style="@style/cardView">
 
                 <LinearLayout
+                    android:id="@+id/fldGrpCVj10410"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:visibility="gone">
 
                     <TextView
                         style="@style/i_textview"
                         android:text="@string/j10410" />
 
                     <LinearLayout
-                        android:id="@+id/fldGrpCVj10410"
                         style="@style/linearlayout_view_wt_bound"
                         android:orientation="horizontal">
 
@@ -204,21 +206,22 @@
 
             </androidx.cardview.widget.CardView>
 
-            <!-- j10411  (d/m/y)Title   -->
+            <!-- j10411  OPV-3 (d/m/y)Title   -->
             <androidx.cardview.widget.CardView
                 style="@style/cardView">
 
                 <LinearLayout
+                    android:id="@+id/fldGrpCVj10411"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:visibility="gone">
 
                     <TextView
                         style="@style/i_textview"
                         android:text="@string/j10411" />
 
                     <LinearLayout
-                        android:id="@+id/fldGrpCVj10411"
                         style="@style/linearlayout_view_wt_bound"
                         android:orientation="horizontal">
 
@@ -294,21 +297,22 @@
 
             </androidx.cardview.widget.CardView>
 
-            <!-- j10412  (d/m/y)Title   -->
+            <!-- j10412  PENTA-3 (d/m/y)Title -->
             <androidx.cardview.widget.CardView
                 style="@style/cardView">
 
                 <LinearLayout
+                    android:id="@+id/fldGrpCVj10412"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:visibility="gone">
 
                     <TextView
                         style="@style/i_textview"
                         android:text="@string/j10412" />
 
                     <LinearLayout
-                        android:id="@+id/fldGrpCVj10412"
                         style="@style/linearlayout_view_wt_bound"
                         android:orientation="horizontal">
 
@@ -384,21 +388,22 @@
 
             </androidx.cardview.widget.CardView>
 
-            <!-- j10413  (d/m/y)Title   -->
+            <!-- j10413  PCV-3 (d/m/y)Title   -->
             <androidx.cardview.widget.CardView
                 style="@style/cardView">
 
                 <LinearLayout
+                    android:id="@+id/fldGrpCVj10413"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:visibility="gone">
 
                     <TextView
                         style="@style/i_textview"
                         android:text="@string/j10413" />
 
                     <LinearLayout
-                        android:id="@+id/fldGrpCVj10413"
                         style="@style/linearlayout_view_wt_bound"
                         android:orientation="horizontal">
 
@@ -474,21 +479,22 @@
 
             </androidx.cardview.widget.CardView>
 
-            <!-- j10414  (d/m/y)Title   -->
+            <!-- j10414  IPV (d/m/y)Title   -->
             <androidx.cardview.widget.CardView
                 style="@style/cardView">
 
                 <LinearLayout
+                    android:id="@+id/fldGrpCVj10414"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:visibility="gone">
 
                     <TextView
                         style="@style/i_textview"
                         android:text="@string/j10414" />
 
                     <LinearLayout
-                        android:id="@+id/fldGrpCVj10414"
                         style="@style/linearlayout_view_wt_bound"
                         android:orientation="horizontal">
 
@@ -563,21 +569,22 @@
 
             </androidx.cardview.widget.CardView>
 
-            <!-- j10415  (d/m/y)Title   -->
+            <!-- j10415  MEASLES-1 (d/m/y)Title   -->
             <androidx.cardview.widget.CardView
                 style="@style/cardView">
 
                 <LinearLayout
+                    android:id="@+id/fldGrpCVj10415"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:visibility="gone">
 
                     <TextView
                         style="@style/i_textview"
                         android:text="@string/j10415" />
 
                     <LinearLayout
-                        android:id="@+id/fldGrpCVj10415"
                         style="@style/linearlayout_view_wt_bound"
                         android:orientation="horizontal">
 
@@ -653,21 +660,22 @@
 
             </androidx.cardview.widget.CardView>
 
-            <!-- j10416  (d/m/y)Title   -->
+            <!-- j10416  MEASLES-2 (d/m/y)Title   -->
             <androidx.cardview.widget.CardView
                 style="@style/cardView">
 
                 <LinearLayout
+                    android:id="@+id/fldGrpCVj10416"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:visibility="gone">
 
                     <TextView
                         style="@style/i_textview"
                         android:text="@string/j10416" />
 
                     <LinearLayout
-                        android:id="@+id/fldGrpCVj10416"
                         style="@style/linearlayout_view_wt_bound"
                         android:orientation="horizontal">
 
@@ -727,6 +735,96 @@
 
                             <com.edittextpicker.aliazaz.EditTextPicker
                                 android:id="@+id/j10416y"
+                                style="@style/EditTextNum"
+                                android:hint="@string/j10415y"
+                                android:maxLength="4"
+                                app:defaultValue="00"
+                                app:maxValue="0"
+                                app:minValue="0"
+                                app:type="range" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <!-- j10417  Typhoid vaccine (d/m/y)Title   -->
+            <androidx.cardview.widget.CardView style="@style/cardView">
+
+                <LinearLayout
+                    android:id="@+id/fldGrpCVj10417"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <TextView
+                        style="@style/i_textview"
+                        android:text="@string/j10417" />
+
+                    <LinearLayout
+                        style="@style/linearlayout_view_wt_bound"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                style="@style/textView3Head"
+                                android:text="@string/j10417d" />
+
+                            <com.edittextpicker.aliazaz.EditTextPicker
+                                android:id="@+id/j10417d"
+                                style="@style/EditTextNum"
+                                android:hint="@string/j10416d"
+                                android:maxLength="2"
+                                app:defaultValue="00"
+                                app:maxValue="31"
+                                app:minValue="1"
+                                app:type="range" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                style="@style/textView3Head"
+                                android:text="@string/j10417m" />
+
+                            <com.edittextpicker.aliazaz.EditTextPicker
+                                android:id="@+id/j10417m"
+                                style="@style/EditTextNum"
+                                android:hint="@string/j10416m"
+                                android:maxLength="2"
+                                app:defaultValue="00"
+                                app:maxValue="12"
+                                app:minValue="1"
+                                app:type="range" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                style="@style/textView3Head"
+                                android:text="@string/j10417y" />
+
+                            <com.edittextpicker.aliazaz.EditTextPicker
+                                android:id="@+id/j10417y"
                                 style="@style/EditTextNum"
                                 android:hint="@string/j10415y"
                                 android:maxLength="4"

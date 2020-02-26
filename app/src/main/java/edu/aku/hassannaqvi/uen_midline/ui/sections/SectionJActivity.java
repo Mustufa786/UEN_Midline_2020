@@ -2,6 +2,7 @@ package edu.aku.hassannaqvi.uen_midline.ui.sections;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -16,7 +17,6 @@ import org.json.JSONObject;
 import edu.aku.hassannaqvi.uen_midline.CONSTANTS;
 import edu.aku.hassannaqvi.uen_midline.R;
 import edu.aku.hassannaqvi.uen_midline.contracts.ChildContract;
-import edu.aku.hassannaqvi.uen_midline.contracts.FamilyMembersContract;
 import edu.aku.hassannaqvi.uen_midline.core.DatabaseHelper;
 import edu.aku.hassannaqvi.uen_midline.core.MainApp;
 import edu.aku.hassannaqvi.uen_midline.databinding.ActivitySectionJBinding;
@@ -25,7 +25,7 @@ import edu.aku.hassannaqvi.uen_midline.utils.Util;
 public class SectionJActivity extends AppCompatActivity {
 
     ActivitySectionJBinding bi;
-    private FamilyMembersContract fmc_child;
+    int totalMonth = 0;
 //    private FamilyMembersContract fmc_child, res_child;
 //    private Pair<List<Integer>, List<String>> childLst, resList;
 
@@ -36,7 +36,7 @@ public class SectionJActivity extends AppCompatActivity {
         bi.setCallback(this);
 
         setUIComponent();
-        setlistener();
+        setListener();
 
     }
 
@@ -53,9 +53,7 @@ public class SectionJActivity extends AppCompatActivity {
 
         bi.j100.setAdapter(new ArrayAdapter<>(this, android.R.layout.simple_dropdown_item_1line, childLst));*/
 
-        fmc_child = MainApp.indexKishMWRAChild;
-
-        bi.txtHeadLbl.setText(new StringBuilder(fmc_child.getName().toUpperCase()).append("\n")
+        bi.txtHeadLbl.setText(new StringBuilder(MainApp.indexKishMWRAChild.getName().toUpperCase()).append("\n")
                 .append(MainApp.selectedKishMWRA.getName().toUpperCase()));
 
         bi.j103c.setMaxvalue(CONSTANTS.MAXYEAR);
@@ -86,7 +84,20 @@ public class SectionJActivity extends AppCompatActivity {
         bi.j10408y.setMinvalue(CONSTANTS.MINYEAR_IM);
 
         //Immunization visibility
-        int totalMonth = Integer.valueOf(fmc_child.getAge()) + Integer.valueOf(fmc_child.getMonthfm());
+        totalMonth = Integer.valueOf(MainApp.indexKishMWRAChild.getAge()) + Integer.valueOf(MainApp.indexKishMWRAChild.getMonthfm());
+
+
+        if (totalMonth > 1) {
+            bi.fldGrpCVj10403.setVisibility(View.VISIBLE);
+            bi.fldGrpCVj10404.setVisibility(View.VISIBLE);
+            bi.fldGrpCVj10405.setVisibility(View.VISIBLE);
+            bi.fldGrpCVj10406.setVisibility(View.VISIBLE);
+        }
+
+        if (totalMonth > 2) {
+            bi.fldGrpCVj10407.setVisibility(View.VISIBLE);
+            bi.fldGrpCVj10408.setVisibility(View.VISIBLE);
+        }
 
     }
 
@@ -102,7 +113,7 @@ public class SectionJActivity extends AppCompatActivity {
         bi.j100res.setAdapter(new ArrayAdapter<>(this, android.R.layout.simple_dropdown_item_1line, reponList));*/
     }
 
-    private void setlistener() {
+    private void setListener() {
 
         /*bi.j100.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
@@ -166,7 +177,7 @@ public class SectionJActivity extends AppCompatActivity {
             }
             if (UpdateDB()) {
                 finish();
-                startActivity(new Intent(this, SectionJ02Activity.class));
+                startActivity(new Intent(this, totalMonth > 2 ? SectionJ02Activity.class : SectionJ03Activity.class));
             } else {
                 Toast.makeText(this, "Failed to Update Database!", Toast.LENGTH_SHORT).show();
             }
@@ -187,8 +198,8 @@ public class SectionJActivity extends AppCompatActivity {
     private void SaveDraft() throws JSONException {
 
         JSONObject json = new JSONObject();
-        json.put("j_fm_uid", fmc_child.getUid());
-        json.put("j_fm_serial", fmc_child.getSerialno());
+        json.put("j_fm_uid", MainApp.indexKishMWRAChild.getUid());
+        json.put("j_fm_serial", MainApp.indexKishMWRAChild.getSerialno());
         /*json.put("j_res_fm_uid", res_child.getUid());
         json.put("j_res_fm_serial", res_child.getSerialno());*/
 

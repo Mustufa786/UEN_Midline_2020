@@ -22,13 +22,11 @@ import edu.aku.hassannaqvi.uen_midline.utils.Util;
 
 public class SectionMActivity extends AppCompatActivity {
 
-
     ActivitySectionMBinding bi;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         bi = DataBindingUtil.setContentView(this, R.layout.activity_section_m);
         bi.setCallback(this);
 
