@@ -188,7 +188,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
-                    android:visibility='@{j102a.checked || j102b.checked ? View.GONE : View.VISIBLE}'>
+                    android:visibility='@{j102b.checked ? View.GONE : View.VISIBLE}'>
 
                     <!-- j103  (d/m/y)Title   -->
                     <androidx.cardview.widget.CardView style="@style/cardView">

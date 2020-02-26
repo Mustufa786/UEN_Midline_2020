@@ -346,7 +346,7 @@
                                 style="@style/EditTextNum"
                                 android:hint="@string/num"
                                 android:maxLength="2"
-                                app:maxValue="10"
+                                app:maxValue="40"
                                 app:minValue="0"
                                 app:type="range" />
 
@@ -468,8 +468,8 @@
                             android:id="@+id/j116"
                             style="@style/EditTextNum"
                             android:hint="@string/num"
-                            android:maxLength="2"
-                            app:maxValue="20"
+                            android:maxLength="1"
+                            app:maxValue="3"
                             app:minValue="0"
                             app:type="range" />
 
@@ -541,8 +541,8 @@
                             android:id="@+id/j118"
                             style="@style/EditTextNum"
                             android:hint="@string/num"
-                            android:maxLength="2"
-                            app:maxValue="20"
+                            android:maxLength="1"
+                            app:maxValue="3"
                             app:minValue="0"
                             app:type="range" />
 
@@ -661,8 +661,8 @@
                             android:id="@+id/j121"
                             style="@style/EditTextNum"
                             android:hint="@string/num"
-                            android:maxLength="2"
-                            app:maxValue="20"
+                            android:maxLength="1"
+                            app:maxValue="2"
                             app:minValue="0"
                             app:type="range" />
 
@@ -716,6 +716,7 @@
 
                 </androidx.cardview.widget.CardView>
 
+
             </LinearLayout>
 
 
@@ -735,9 +736,7 @@
 
                     <LinearLayout
                         android:id="@+id/j123check"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="vertical"
+                        style="@style/linearlayout_view"
                         android:tag="0">
 
                         <CheckBox
@@ -821,11 +820,6 @@
                             android:text="@string/j123p" />
 
                         <CheckBox
-                            android:id="@+id/j123dk"
-                            style="@style/checkbox"
-                            android:text="@string/dkn" />
-
-                        <CheckBox
                             android:id="@+id/j12396"
                             style="@style/checkbox"
                             android:text="@string/other" />
@@ -840,9 +834,16 @@
 
                     </LinearLayout>
 
+                    <CheckBox
+                        android:id="@+id/j12398"
+                        style="@style/checkbox"
+                        android:tag="-1"
+                        android:text="@string/dkn" />
+
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
+
 
             <LinearLayout
                 android:layout_width="match_parent"

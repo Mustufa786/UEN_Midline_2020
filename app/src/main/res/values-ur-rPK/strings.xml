@@ -17,18 +17,18 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email completions." </string>
 
 
-    <string name="tdheading">SECTION D: HOUSEHOLD MEMBER’S INFORMATION</string>
-    <string name="teheading">SECTION E: REPRODUCTIVE HEALTH (Complete this table for all married women aged 15 &#8211; 49 years in the household) </string>
-    <string name="te2heading">MATERNAL MORTALITY STATUS</string>
-    <string name="tfheading">SECTION F: ANTENATAL CARE</string>
-    <string name="tiheading">SECTION I: CHILD HEALTH</string>
-    <string name="ti2heading">SECTION I2: ACUTE RESPIRATORY INFECTION (ARI)</string>
-    <string name="tjheading">SECTION J: IMMUNIZATION</string>
-    <string name="tkheading">SECTION K: FAMILY PLANNING</string>
-    <string name="tlheading">SECTION L: WOMEN EMPOWERMENT</string>
-    <string name="tmheading">SECTION M: SOCIOL ECONOMIC STATUS OF HOUSEHOLD</string>
-    <string name="tnheading">SECTION N: WATER AND SANITATION</string>
-    <string name="toheading">SECTION O: HANDWASHING</string>
+    <string name="tdheading"> SECTION D: HOUSEHOLD MEMBER’S INFORMATION </string>
+    <string name="teheading"> SECTION E: REPRODUCTIVE HEALTH (Complete this table for all married women aged 15 &#8211; 49 years in the household) </string>
+    <string name="te2heading"> MATERNAL MORTALITY STATUS </string>
+    <string name="tfheading"> SECTION F: ANTENATAL CARE </string>
+    <string name="tiheading"> SECTION I: CHILD HEALTH </string>
+    <string name="ti2heading"> SECTION I2: ACUTE RESPIRATORY INFECTION (ARI) </string>
+    <string name="tjheading"> SECTION J: IMMUNIZATION </string>
+    <string name="tkheading"> SECTION K: FAMILY PLANNING </string>
+    <string name="tlheading"> SECTION L: WOMEN EMPOWERMENT </string>
+    <string name="tmheading"> SECTION M: SOCIOL ECONOMIC STATUS OF HOUSEHOLD </string>
+    <string name="tnheading"> SECTION N: WATER AND SANITATION </string>
+    <string name="toheading"> SECTION O: HANDWASHING </string>
 
     <string name="splashText">Supporting Women and Girls in Pakistan Scaling Up\n
     Empowerment and Care  Strategies  to Address Health and Survival\n
@@ -255,7 +255,7 @@
     <string name="e108b"> نہیں </string>
 
     <string name="e109"> E109:\t بچے کا کیا نام رکھا گیا تھا ؟ </string>
-    <string name="e109hint"> اگر نام نہیں دیا گیا تو "BABY-1"،"BABY-1" درج کریں </string>
+    <string name="e109hint"> اگر نام نہیں دیا گیا تو "Baby-One"،"Baby-Two" درج کریں </string>
 
     <string name="e110"> E110:\t بچہ / بچی کے انتقال کے وقت (نام) کی عمر کیا تھی ؟ </string>
     <string name="e110a"> دن </string>
@@ -394,7 +394,7 @@
     <string name="f111a"> ہاں  (کارڈ یا دیگر دستاویذ دیکھا دیں) </string>
     <string name="f111b"> نہیں  (کارڈ یا دیگر دستاویز نہیں دکھائیں) </string>
 
-    <string name="f112"> F112:\t جب آپ (نام) کی پیدائش سے قبل حمل سے تھیں، تو کیا آپ نے خود کو یا بچے کو تشنج یا جھٹکوں کی بیماری سے بچانے کے لئے اپنے بازو یا کندھے میں تشنج سے بچائو کا حفاظتی تیکہ لگوایا تھا ؟ </string>
+    <string name="f112"> F112:\t جب آپ (نام) کی پیدائش سے قبل حمل سے تھیں، تو کیا آپ نے خود کو یا بچے کو تشنج یا جھٹکوں کی بیماری سے بچانے کے لئے اپنے بازو یا کندھے میں تشنج سے بچائو کا حفاظتی ٹیکہ لگوایا تھا ؟ </string>
     <string name="f112a"> ہاں </string>
     <string name="f112b"> نہیں </string>
     <string name="f112c"> معلوم نہیں </string>
@@ -525,7 +525,7 @@
     <string name="f133c"> کوئی تبدیلی نہیں کی </string>
 
     <string name="f134"> F134:\t (نام) کی پیدائش کے لئے آپ نے کیا اقدامات کئے تھے؟ جوابات پڑھیں، ایک سے زیادہ جوابات آ سکتے ہیں </string>
-    <string name="f134a"> دائی کا انتخاب </string>
+    <string name="f134a"> ڈاکٹر کا انتخاب </string>
     <string name="f134b"> کسی بھی پیچیدگی کی صورت میں مرکز صحت جانے کا انتخاب </string>
     <string name="f134c"> کسی بھی ایمرجنسی سے نمٹنے کے لئے پیسوں کا بندوبست </string>
     <string name="f134d"> وقت سے پہلے گاڑی کا بندوبست </string>
@@ -1289,7 +1289,7 @@
     <string name="i210c"> نرس </string>
     <string name="i210d"> سی ایم ڈبلیو(کمیونیٹی مڈوائف) </string>
     <string name="i210e"> ڈسپینسر/کمپائونڈر </string>
-    <string name="i210f"> ایل ایچ ڈبلیو(کمیونٹی ہیلتھ ورکر) </string>
+    <string name="i210f"> ایل ایچ ڈبلیو(لیڈی ہیلتھ ورکر)  </string>
     <string name="i210g"> دائی/ٹی بی اے(پیشہ ور زچگی کروانے والی) </string>
     <string name="i210h"> خود سے </string>
 
