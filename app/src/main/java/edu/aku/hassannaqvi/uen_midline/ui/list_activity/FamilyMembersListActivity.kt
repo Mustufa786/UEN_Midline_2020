@@ -162,39 +162,6 @@ class FamilyMembersListActivity : AppCompatActivity() {
     }
 
     private fun handlingHolder() {
-        /*viewHolder?.let {
-            viewHolder!!.parentLayout.isEnabled = flag
-            viewHolder!!.parentLayout.checkIcon.visibility = if (flag) View.GONE else View.VISIBLE
-            viewHolder = null
-            if (flag) memSelectedCounter--
-        }*/
-
-        /*currentFM?.let {
-            mainVModel.getHolder(currentFM!!)?.let {
-                it.parentLayout.isEnabled = flag
-                it.parentLayout.checkIcon.visibility = if (flag) View.GONE else View.VISIBLE
-                if (flag) memSelectedCounter--
-            }
-        }*/
-
-        /*if (flag) {
-            memSelectedCounter--
-            return
-        } else {
-            currentFM?.let {
-                clickLst.add(currentFM!!)
-            }
-        }
-
-        for (item in clickLst) {
-
-            val view = mainVModel.getHolder(item)
-            view?.let {
-                bi.contentScroll.recyclerView.getChildAt(view).parentLayout?.isEnabled = false
-                bi.contentScroll.recyclerView.getChildAt(view).checkIcon?.visibility = View.VISIBLE
-            }
-
-        }*/
         memSelectedCounter++
         currentFM?.let {
             mainVModel.setCheckedItemValues(currentFM!!.serialno.toInt())

@@ -69,12 +69,11 @@ import edu.aku.hassannaqvi.uen_midline.core.MainApp;
 import edu.aku.hassannaqvi.uen_midline.ui.sync.SyncActivity;
 import edu.aku.hassannaqvi.uen_midline.utils.Util;
 
-import static edu.aku.hassannaqvi.uen_midline.utils.Constants.DUMMY_CREDENTIALS;
-import static edu.aku.hassannaqvi.uen_midline.utils.Constants.MINIMUM_DISTANCE_CHANGE_FOR_UPDATES;
-import static edu.aku.hassannaqvi.uen_midline.utils.Constants.MINIMUM_TIME_BETWEEN_UPDATES;
-import static edu.aku.hassannaqvi.uen_midline.utils.Constants.MY_PERMISSIONS_REQUEST_READ_CONTACTS;
-import static edu.aku.hassannaqvi.uen_midline.utils.Constants.MY_PERMISSIONS_REQUEST_READ_PHONE_STATE;
-import static edu.aku.hassannaqvi.uen_midline.utils.Constants.TWO_MINUTES;
+import static edu.aku.hassannaqvi.uen_midline.CONSTANTS.MINIMUM_DISTANCE_CHANGE_FOR_UPDATES;
+import static edu.aku.hassannaqvi.uen_midline.CONSTANTS.MINIMUM_TIME_BETWEEN_UPDATES;
+import static edu.aku.hassannaqvi.uen_midline.CONSTANTS.MY_PERMISSIONS_REQUEST_READ_CONTACTS;
+import static edu.aku.hassannaqvi.uen_midline.CONSTANTS.MY_PERMISSIONS_REQUEST_READ_PHONE_STATE;
+import static edu.aku.hassannaqvi.uen_midline.CONSTANTS.TWO_MINUTES;
 import static edu.aku.hassannaqvi.uen_midline.utils.CreateTable.DATABASE_NAME;
 import static edu.aku.hassannaqvi.uen_midline.utils.CreateTable.DB_NAME;
 import static edu.aku.hassannaqvi.uen_midline.utils.CreateTable.PROJECT_NAME;
@@ -678,6 +677,10 @@ public class LoginActivity extends Activity implements LoaderCallbacks<Cursor> {
             } catch (InterruptedException e) {
                 return false;
             }
+
+            String[] DUMMY_CREDENTIALS = new String[]{
+                    "test1234:test1234", "testS12345:testS12345", "bar@example.com:world"
+            };
 
             for (String credential : DUMMY_CREDENTIALS) {
                 String[] pieces = credential.split(":");
