@@ -31,10 +31,10 @@ public class SectionH102Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         bi = DataBindingUtil.setContentView(this, R.layout.activity_section_h1_02);
         bi.setCallback(this);
+
         setupSkips();
 
     }
-
 
     private void setupSkips() {
 
@@ -174,7 +174,6 @@ public class SectionH102Activity extends AppCompatActivity {
 
     }
 
-
     public void BtnContinue() {
         if (formValidation()) {
             try {
@@ -190,7 +189,6 @@ public class SectionH102Activity extends AppCompatActivity {
             }
         }
     }
-
 
     public void BtnEnd() {
 
@@ -208,7 +206,6 @@ public class SectionH102Activity extends AppCompatActivity {
             return false;
         }
     }
-
 
     private void SaveDraft() throws JSONException {
 
@@ -341,12 +338,10 @@ public class SectionH102Activity extends AppCompatActivity {
 
     }
 
-
     private boolean formValidation() {
         return Validator.emptyCheckingContainer(this, bi.fldGrpSectionH2);
 
     }
-
 
     @Override
     public void onBackPressed() {

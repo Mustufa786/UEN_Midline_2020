@@ -30,10 +30,10 @@ public class SectionH2Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         bi = DataBindingUtil.setContentView(this, R.layout.activity_section_h2);
         bi.setCallback(this);
+
         setupSkips();
 
     }
-
 
     private void setupSkips() {
 
@@ -128,7 +128,6 @@ public class SectionH2Activity extends AppCompatActivity {
 
     }
 
-
     public void BtnContinue() {
         if (formValidation()) {
             try {
@@ -145,11 +144,9 @@ public class SectionH2Activity extends AppCompatActivity {
         }
     }
 
-
     public void BtnEnd() {
         Util.openEndActivity(this);
     }
-
 
     private boolean UpdateDB() {
 
@@ -162,7 +159,6 @@ public class SectionH2Activity extends AppCompatActivity {
             return false;
         }
     }
-
 
     private void SaveDraft() throws JSONException {
 
@@ -303,12 +299,10 @@ public class SectionH2Activity extends AppCompatActivity {
 
     }
 
-
     private boolean formValidation() {
         return Validator.emptyCheckingContainer(this, bi.GrpName);
 
     }
-
 
     @Override
     public void onBackPressed() {

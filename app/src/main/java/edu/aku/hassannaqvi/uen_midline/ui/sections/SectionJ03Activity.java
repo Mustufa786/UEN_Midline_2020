@@ -24,7 +24,6 @@ import edu.aku.hassannaqvi.uen_midline.utils.Util;
 
 public class SectionJ03Activity extends AppCompatActivity {
 
-
     ActivitySectionJ03Binding bi;
 
     @Override
@@ -324,7 +323,6 @@ public class SectionJ03Activity extends AppCompatActivity {
         }
     }
 
-
     private void SaveDraft() throws JSONException {
 
         JSONObject json = new JSONObject();
@@ -439,17 +437,14 @@ public class SectionJ03Activity extends AppCompatActivity {
 
     }
 
-
     @Override
     public void onBackPressed() {
         Toast.makeText(this, "You can't go back", Toast.LENGTH_SHORT).show();
     }
 
-
     private boolean formValidation() {
         return Validator.emptyCheckingContainer(this, bi.fldGrpSectionJ03);
     }
-
 
     public void BtnEnd() {
         Util.openEndActivity(this);

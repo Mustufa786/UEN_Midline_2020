@@ -24,7 +24,6 @@ import edu.aku.hassannaqvi.uen_midline.utils.Util;
 
 public class SectionJ02Activity extends AppCompatActivity {
 
-
     ActivitySectionJ02Binding bi;
 
     @Override
@@ -169,7 +168,6 @@ public class SectionJ02Activity extends AppCompatActivity {
         }
 
     }
-
 
     private boolean formValidation() {
         return Validator.emptyCheckingContainer(this, bi.fldGrpSectionJ02);

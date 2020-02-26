@@ -33,11 +33,8 @@ public class SectionLActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-
         bi = DataBindingUtil.setContentView(this, R.layout.activity_section_l);
         bi.setCallback(this);
-
 
         setUIComponent();
     }
@@ -65,7 +62,6 @@ public class SectionLActivity extends AppCompatActivity {
             }
         }));
     }
-
 
     public void BtnContinue() {
         if (formValidation()) {
