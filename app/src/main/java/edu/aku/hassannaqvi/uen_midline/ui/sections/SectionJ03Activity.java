@@ -342,7 +342,7 @@ public class SectionJ03Activity extends AppCompatActivity {
         json.put("j123n", bi.j123n.isChecked() ? "14" : "0");
         json.put("j123o", bi.j123o.isChecked() ? "15" : "0");
         json.put("j123p", bi.j123p.isChecked() ? "16" : "0");
-        json.put("j123dk", bi.j12398.isChecked() ? "98" : "0");
+        json.put("j12398", bi.j12398.isChecked() ? "98" : "0");
         json.put("j12396", bi.j12396.isChecked() ? "96" : "0");
         json.put("j12396x", bi.j12396x.getText().toString());
 

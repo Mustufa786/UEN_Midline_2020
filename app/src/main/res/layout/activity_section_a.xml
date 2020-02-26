@@ -313,7 +313,7 @@
 
                         <EditText
                             android:id="@+id/newHHheadname"
-                            style="@style/EditTextAlpha"
+                            style="@style/textInputName"
                             android:layout_width="0dp"
                             android:layout_weight="1"
                             android:maxLength="25"
