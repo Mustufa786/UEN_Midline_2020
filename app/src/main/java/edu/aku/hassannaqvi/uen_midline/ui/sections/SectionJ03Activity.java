@@ -141,6 +141,7 @@ public class SectionJ03Activity extends AppCompatActivity {
 
             if (i == bi.j108b.getId()) {
                 Clear.clearAllFields(bi.fldGrpSectionJ0301);
+                Clear.clearAllFields(bi.fldGrpCVj123);
             }
 
         }));
@@ -190,7 +191,7 @@ public class SectionJ03Activity extends AppCompatActivity {
         }));
 
         //j122
-        bi.j122.setOnCheckedChangeListener((group, checkedId) -> {
+        /*bi.j122.setOnCheckedChangeListener((group, checkedId) -> {
 
             if (checkedId == bi.j122a.getId()) {
                 bi.fldGrpCVj123.setVisibility(View.VISIBLE);
@@ -198,7 +199,7 @@ public class SectionJ03Activity extends AppCompatActivity {
                 bi.fldGrpCVj123.setVisibility(View.GONE);
                 Clear.clearAllFields(bi.fldGrpCVj123);
             }
-        });
+        });*/
 
         //j12398
         bi.j12398.setOnCheckedChangeListener((compoundButton, b) -> {
