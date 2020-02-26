@@ -6,6 +6,7 @@ import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.View;
 import android.widget.ArrayAdapter;
+import android.widget.EditText;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -26,8 +27,9 @@ import edu.aku.hassannaqvi.uen_midline.contracts.FamilyMembersContract;
 import edu.aku.hassannaqvi.uen_midline.core.DatabaseHelper;
 import edu.aku.hassannaqvi.uen_midline.core.MainApp;
 import edu.aku.hassannaqvi.uen_midline.databinding.ActivitySectionDBinding;
+import edu.aku.hassannaqvi.uen_midline.datecollection.AgeModel;
+import edu.aku.hassannaqvi.uen_midline.datecollection.DateRepository;
 import edu.aku.hassannaqvi.uen_midline.ui.list_activity.FamilyMembersListActivity;
-import edu.aku.hassannaqvi.uen_midline.utils.DateUtils;
 import edu.aku.hassannaqvi.uen_midline.viewmodel.MainVModel;
 import kotlin.Pair;
 
@@ -239,12 +241,12 @@ public class SectionDActivity extends AppCompatActivity {
         // Update in ViewModel
         mainVModel.updateFamilyMembers(fmc);
 
-        if (Integer.valueOf(fmc.getAge()) >= 15 && Integer.valueOf(fmc.getAge()) <= 49 && fmc.getGender().equals("2") && !bi.d105b.isChecked())
+        if (Integer.valueOf(fmc.getAge()) >= 15 && Integer.valueOf(fmc.getAge()) < 49 && fmc.getGender().equals("2") && !bi.d105b.isChecked())
             mainVModel.setMWRA(fmc);
         else if (Integer.valueOf(fmc.getAge()) < 5) {
             mainVModel.setChildU5(fmc);
             if (motherFMC == null) return;
-            if (Integer.valueOf(motherFMC.getAge()) >= 15 && Integer.valueOf(motherFMC.getAge()) <= 49 && motherFMC.getAvailable().equals("1"))
+            if (Integer.valueOf(motherFMC.getAge()) >= 15 && Integer.valueOf(motherFMC.getAge()) < 49 && motherFMC.getAvailable().equals("1"))
                 mainVModel.setMwraChildU5(motherFMC);
         }
 
@@ -299,6 +301,30 @@ public class SectionDActivity extends AppCompatActivity {
     }
 
     private void setListeners() {
+
+        EditText[] txtListener = new EditText[]{bi.d108a, bi.d108b};
+        for (EditText txtItem : txtListener) {
+
+            txtItem.addTextChangedListener(new TextWatcher() {
+                @Override
+                public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+
+                }
+
+                @Override
+                public void onTextChanged(CharSequence s, int start, int before, int count) {
+                    bi.d109.setText(null);
+                    bi.d109a.setText(null);
+                }
+
+                @Override
+                public void afterTextChanged(Editable s) {
+
+                }
+            });
+
+        }
+
         bi.d108c.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
@@ -311,18 +337,23 @@ public class SectionDActivity extends AppCompatActivity {
                 bi.d109.setText(null);
                 bi.d109a.setEnabled(false);
                 bi.d109a.setText(null);
-                if (bi.d108c.getText().toString().isEmpty()) return;
+                /*if (bi.d108a.getText().toString().isEmpty() || bi.d108b.getText().toString().isEmpty() || bi.d108c.getText().toString().isEmpty())
+                    return;*/
+                if (!bi.d108a.isRangeTextValidate() || !bi.d108b.isRangeTextValidate() || !bi.d108c.isRangeTextValidate())
+                    return;
                 if (bi.d108a.getText().toString().equals("00") && bi.d108b.getText().toString().equals("00") && bi.d108c.getText().toString().equals("00")) {
                     bi.d109.setEnabled(true);
                     bi.d109a.setEnabled(true);
                     return;
                 }
+                int day = bi.d108a.getText().toString().equals("00") ? 0 : Integer.valueOf(bi.d108a.getText().toString());
+                int month = Integer.valueOf(bi.d108b.getText().toString());
+                int year = Integer.valueOf(bi.d108c.getText().toString());
 
-                int day = bi.d108a.getText().toString().isEmpty() ? 0 : Integer.valueOf(bi.d108a.getText().toString());
-                int month = bi.d108b.getText().toString().isEmpty() ? 0 : Integer.valueOf(bi.d108b.getText().toString());
-                int year = bi.d108c.getText().toString().isEmpty() ? 0 : Integer.valueOf(bi.d108c.getText().toString());
-
-                bi.d109.setText(DateUtils.ageInYears(day, month, year));
+                AgeModel age = DateRepository.Companion.getCalculatedAge(year, month, day);
+                if (age == null) return;
+                bi.d109.setText(String.valueOf(age.getYear()));
+                bi.d109a.setText(String.valueOf(age.getMonth()));
             }
 
             @Override

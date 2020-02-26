@@ -25,7 +25,7 @@ public class Util {
             Manifest.permission.ACCESS_COARSE_LOCATION, Manifest.permission.WRITE_EXTERNAL_STORAGE,
             Manifest.permission.CAMERA};
 
-    public static int[] checkPermission(Context context) {
+    private static int[] checkPermission(Context context) {
 
         return new int[]{ContextCompat.checkSelfPermission(context,
                 Manifest.permission.READ_CONTACTS), ContextCompat.checkSelfPermission(context,
