@@ -57,18 +57,22 @@ public class SectionKActivity extends AppCompatActivity {
         bi.k105aac.setOnCheckedChangeListener((compoundButton, b) -> {
 
             if (b) {
-                bi.fldGrpCVk106.setVisibility(View.GONE);
+                bi.fldGrpCVk106.setVisibility(View.VISIBLE);
                 Clear.clearAllFields(bi.fldGrpCVk106);
+                bi.k105aab.setText(null);
+                bi.k105aaa.setText(null);
                 bi.k105aab.setEnabled(false);
                 bi.k105aaa.setEnabled(false);
             } else {
-                bi.fldGrpCVk106.setVisibility(View.VISIBLE);
+                bi.fldGrpCVk106.setVisibility(View.GONE);
+                Clear.clearAllFields(bi.fldGrpCVk106);
                 bi.k105aab.setText(null);
                 bi.k105aaa.setText(null);
                 bi.k105aab.setEnabled(true);
                 bi.k105aaa.setEnabled(true);
             }
         });
+
         /*bi.k105.setOnCheckedChangeListener(((radioGroup, i) -> {
             if (i != bi.k105aac.getId()) {
                 Clear.clearAllFields(bi.fldGrpCVk106);
