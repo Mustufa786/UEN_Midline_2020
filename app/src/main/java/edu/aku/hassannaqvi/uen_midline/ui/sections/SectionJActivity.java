@@ -161,7 +161,7 @@ public class SectionJActivity extends AppCompatActivity {
 
         bi.j102.setOnCheckedChangeListener(((radioGroup, i) -> {
 
-            if (i == bi.j102a.getId() || i == bi.j102b.getId()) {
+            if (i == bi.j102b.getId()) {
                 Clear.clearAllFields(bi.fldGrpSectionJ011);
             }
 
