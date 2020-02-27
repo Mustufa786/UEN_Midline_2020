@@ -69,13 +69,35 @@
                         </RadioGroup>
 
                         <com.edittextpicker.aliazaz.EditTextPicker
-                            android:id="@+id/h201x"
+                            android:id="@+id/h201h"
                             style="@style/EditTextNum"
-                            android:hint="@string/h201"
+                            android:hint="@string/hours"
                             android:maxLength="2"
-                            android:text='@{h201a.checked || h201b.checked || h201c.checked ? h201x.getText().toString() : ""}'
-                            android:visibility='@{h201a.checked || h201b.checked || h201c.checked ? View.VISIBLE : View.GONE}'
-                            app:maxValue="99"
+                            android:text='@{h201a.checked ? h201h.getText().toString() : ""}'
+                            android:visibility='@{h201a.checked ? View.VISIBLE : View.GONE}'
+                            app:maxValue="23"
+                            app:minValue="1"
+                            app:type="range" />
+
+                        <com.edittextpicker.aliazaz.EditTextPicker
+                            android:id="@+id/h201d"
+                            style="@style/EditTextNum"
+                            android:hint="@string/days"
+                            android:maxLength="2"
+                            android:text='@{h201b.checked ? h201d.getText().toString() : ""}'
+                            android:visibility='@{h201b.checked ? View.VISIBLE : View.GONE}'
+                            app:maxValue="29"
+                            app:minValue="1"
+                            app:type="range" />
+
+                        <com.edittextpicker.aliazaz.EditTextPicker
+                            android:id="@+id/h201w"
+                            style="@style/EditTextNum"
+                            android:hint="@string/weeks"
+                            android:maxLength="1"
+                            android:text='@{h201c.checked ? h201w.getText().toString() : ""}'
+                            android:visibility='@{h201c.checked ? View.VISIBLE : View.GONE}'
+                            app:maxValue="3"
                             app:minValue="1"
                             app:type="range" />
 
