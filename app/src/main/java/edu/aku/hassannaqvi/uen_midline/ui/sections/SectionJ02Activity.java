@@ -77,16 +77,16 @@ public class SectionJ02Activity extends AppCompatActivity {
             bi.fldGrpCVj10414.setVisibility(View.VISIBLE);
         }
 
+        if (totalMonth > 6) {
+            bi.fldGrpCVj10417.setVisibility(View.VISIBLE);
+        }
+
         if (totalMonth > 8) {
             bi.fldGrpCVj10415.setVisibility(View.VISIBLE);
         }
 
         if (totalMonth > 15) {
             bi.fldGrpCVj10416.setVisibility(View.VISIBLE);
-        }
-
-        if (totalMonth > 23) {
-            bi.fldGrpCVj10417.setVisibility(View.VISIBLE);
         }
 
     }
