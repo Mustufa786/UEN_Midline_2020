@@ -575,7 +575,7 @@
     <string name="g106d"> پیدل </string>
 
     <string name="g107"> G107:\t جہاں(نام) کی پیدائش ہوئی تھی وہاں تک پہنچنے میں آپ کو کتنا وقت لگا تھا؟ </string>
-    ]
+
     <string name="g108"> G108:\t کیا بچے کی پیدائش کے وقت آپ کے شوہرموجود تھے؟ </string>
     <string name="g108a"> ہاں </string>
     <string name="g108b"> نہیں </string>
@@ -1447,7 +1447,7 @@
     <string name="j10403m"> مہینہ </string>
     <string name="j10403y"> سال </string>
 
-    <string name="j10403a"> (نام) کو پولیو کے قطروں کی پہلی خوراک OPV-1کہاں سے پلوائی تھی؟ J10403a:\t </string>
+    <string name="j10403a"> (نام) کو پولیو کے قطروں کی پہلی خوراک OPV-1 کہاں سے پلوائی تھی؟ J10403a:\t </string>
     <string name="j10403aa"> سرکاری مرکز صحت </string>
     <string name="j10403ab"> نجی مرکز صحت </string>
     <string name="j10403ac"> ای پی آئی سینٹر </string>
@@ -1455,7 +1455,7 @@
     <string name="j10403ae"> رفاہی مرکز صحت میں </string>
     <string name="j10403af"> بچوں کی صحت کا دن/حفاظتی ٹیکوں کے ہفتے </string>
 
-    <string name="j10403b"> (نام) کو پولیو کے قطروں کی پہلی خوراکOPV-1 کس نے دی تھی؟ J10403b:\t </string>
+    <string name="j10403b"> (نام) کو پولیو کے قطروں کی پہلی خوراک OPV-1 کس نے دی تھی؟ J10403b:\t </string>
     <string name="j10403ba"> ڈاکٹر </string>
     <string name="j10403bb"> لیڈی ہیلتھ ورکر </string>
     <string name="j10403bc"> لیڈی ہیلتھ وزیٹر </string>
@@ -1470,7 +1470,7 @@
     <string name="j10404m"> مہینہ </string>
     <string name="j10404y"> سال </string>
 
-    <string name="j10404a"> (نام) کوPenta-1کا ٹیکہ کہاں سے لگوایا تھا ؟ J10404a:\t </string>
+    <string name="j10404a"> (نام) کو Penta-1 کا ٹیکہ کہاں سے لگوایا تھا ؟ J10404a:\t </string>
     <string name="j10404aa"> سرکاری مرکز صحت </string>
     <string name="j10404ab"> نجی مرکز صحت </string>
     <string name="j10404ac"> ای پی آئی سینٹر </string>
@@ -1516,7 +1516,7 @@
     <string name="j10406m"> مہینہ </string>
     <string name="j10406y"> سال </string>
 
-    <string name="j10406a"> (نام) کوRV1 کا ٹیکہ کہاں سے لگوایا تھا ؟ J10406a:\t </string>
+    <string name="j10406a"> (نام) کو RV1 کا ٹیکہ کہاں سے لگوایا تھا ؟ J10406a:\t </string>
     <string name="j10406aa"> سرکاری مرکز صحت </string>
     <string name="j10406ab"> نجی مرکز صحت </string>
     <string name="j10406ac"> ای پی آئی سینٹر </string>
@@ -1562,7 +1562,7 @@
     <string name="j10408m"> مہینہ </string>
     <string name="j10408y"> سال </string>
 
-    <string name="j10408a"> (نام) کوPenta-2کا ٹیکہ کہاں سے لگوایا تھا؟ J10408a:\t </string>
+    <string name="j10408a"> (نام) کو Penta-2 کا ٹیکہ کہاں سے لگوایا تھا؟ J10408a:\t </string>
     <string name="j10408aa"> سرکاری مرکز صحت </string>
     <string name="j10408ab"> نجی مرکز صحت </string>
     <string name="j10408ac"> ای پی آئی سینٹر </string>
@@ -1685,7 +1685,7 @@
     <string name="j10413ae"> رفاہی مرکز صحت میں </string>
     <string name="j10413af"> بچوں کی صحت کا دن/حفاظتی ٹیکوں کے ہفتے </string>
 
-    <string name="j10413b"> (نام) کوPCV-3 کا ٹیکہ کس نے لگایا تھا؟ J10413b:\t </string>
+    <string name="j10413b"> (نام) کو PCV-3 کا ٹیکہ کس نے لگایا تھا؟ J10413b:\t </string>
     <string name="j10413ba"> ڈاکٹر </string>
     <string name="j10413bb"> لیڈی ہیلتھ ورکر </string>
     <string name="j10413bc"> لیڈی ہیلتھ وزیٹر </string>
@@ -1700,7 +1700,7 @@
     <string name="j10414m"> مہینہ </string>
     <string name="j10414y"> سال </string>
 
-    <string name="j10414a"> (نام) کو IPVکا ٹیکہ کہاں سے لگوایا تھا؟ J10414a:\t </string>
+    <string name="j10414a"> (نام) کو IPV کا ٹیکہ کہاں سے لگوایا تھا؟ J10414a:\t </string>
     <string name="j10414aa"> سرکاری مرکز صحت </string>
     <string name="j10414ab"> نجی مرکز صحت </string>
     <string name="j10414ac"> ای پی آئی سینٹر </string>
@@ -1754,7 +1754,7 @@
     <string name="j10416ae"> رفاہی مرکز صحت میں </string>
     <string name="j10416af"> بچوں کی صحت کا دن/حفاظتی ٹیکوں کے ہفتے </string>
 
-    <string name="j10416b"> (نام) کو Measles-2کا ٹیکہ کس نے لگایا تھا ؟ J10416b:\t </string>
+    <string name="j10416b"> (نام) کو Measles-2 کا ٹیکہ کس نے لگایا تھا ؟ J10416b:\t </string>
     <string name="j10416ba"> ڈاکٹر </string>
     <string name="j10416bb"> لیڈی ہیلتھ ورکر </string>
     <string name="j10416bc"> لیڈی ہیلتھ وزیٹر </string>
@@ -2120,7 +2120,7 @@
     <string name="m103d"> لکٹری کے تختے </string>
     <string name="m103e"> کھجور یاناریل کے پتے /بانس </string>
     <string name="m103f"> لکڑی </string>
-    <string name="m103f_title"> تیار فرش/لکڑی کا فرش یا پالش والی لکڑی : </string>
+    <string name="m103f_title"> تیار فرش/لکڑی کا فرش یا پالش والی لکڑی: </string>
     <string name="m103g"> لکڑی کی پلائی یا لکڑی کے ٹائلز </string>
     <string name="m103h"> سرامک ٹائلز </string>
     <string name="m103i"> سیمنٹ </string>
