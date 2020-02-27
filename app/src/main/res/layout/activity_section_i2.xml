@@ -980,9 +980,9 @@
                                 android:id="@+id/i221"
                                 style="@style/EditTextNum"
                                 android:hint="@string/rupees"
-                                android:maxLength="4"
+                                android:maxLength="5"
                                 app:defaultValue="00"
-                                app:maxValue="5000"
+                                app:maxValue="10000"
                                 app:minValue="0"
                                 app:type="range" />
 
