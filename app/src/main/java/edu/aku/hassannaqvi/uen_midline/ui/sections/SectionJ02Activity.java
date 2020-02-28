@@ -62,6 +62,9 @@ public class SectionJ02Activity extends AppCompatActivity {
         bi.j10416y.setMaxvalue(CONSTANTS.MAXYEAR);
         bi.j10416y.setMinvalue(CONSTANTS.MINYEAR_IM);
 
+        bi.j10417y.setMaxvalue(CONSTANTS.MAXYEAR);
+        bi.j10417y.setMinvalue(CONSTANTS.MINYEAR_IM);
+
         //Immunization visibility
         int totalMonth = Integer.valueOf(MainApp.indexKishMWRAChild.getAge()) + Integer.valueOf(MainApp.indexKishMWRAChild.getMonthfm());
 
