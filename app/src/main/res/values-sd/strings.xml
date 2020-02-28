@@ -122,6 +122,8 @@
     <string name="b101"> Latitude (Example: 24.861462) </string>
     <string name="b102"> Longitude (Example:67.009939) </string>
 
+
+    <!-- SECTION - C -->
     <string name="c101"> C101:\t ڇا اجازت ورتي وئي </string>
 
     <string name="c101a"> C101a:\t زباني اجازت نامو </string>
@@ -132,6 +134,8 @@
     <string name="c101ba"> ها </string>
     <string name="c101bb"> نه </string>
 
+
+    <!-- SECTION - D -->
     <string name="d101"> D101:\t :گھر ڀاتيءَ جو سريل نمبر </string>
 
     <string name="d102"> D102:\t گھر جي ميمبر جو نالو ڇا آهي </string>
@@ -222,6 +226,8 @@
     <string name="d115a"> ھا </string>
     <string name="d115b"> نه </string>
 
+
+    <!-- SECTION - E -->
     <string name="e100"> E100:\t عورت جو نالو </string>
 
     <string name="e101"> E101:\t ڇا (عورت جو نالو) شادي کان پوءِ ڪڏھن به حمل سان ٿي </string>
@@ -328,6 +334,8 @@
     <string name="e122d">  صحت مرڪز  (NGO)اين جي او </string>
     <string name="e122e"> صحت مرڪز ڏانھن ويندي رستي ۾ </string>
 
+
+    <!-- SECTION - F -->
     <string name="f101"> F101:\t ڇا توھان (نالو) حمل دوران طبي معائنو (ANC) ڪرايو ؟ </string>
 
     <string name="f101a"> F101a:\t توھان (نالو) حمل دوران طبي معائنو (ANC) ڇو نه ڪرايو ؟ </string>
@@ -383,7 +391,7 @@
     <string name="f109a"> تعداد </string>
     <string name="f109b"> خبر نه آھي </string>
 
-    <string name="f110"> F110:\t نالو) حمل دوران ڇا توھان ھيٺين مان ڪا به چڪاس گھٽ ۾ گھٽ ھڪ دفعو ڪرائي ؟)</string>
+    <string name="f110"> F110:\t (نالو) حمل دوران ڇا توھان ھيٺين مان ڪا به چڪاس گھٽ ۾ گھٽ ھڪ دفعو ڪرائي ؟ </string>
     <string name="f110hint"> هر ھڪ جواب جي باري ۾ پڇو ۽ تمام ٻڌايل جواب تي دائرو لڳايو </string>
     <string name="f110a"> وزن ڪيو ويو </string>
     <string name="f110b"> بلڊ پريشر </string>
@@ -402,56 +410,56 @@
     <string name="f111a"> (ھا (پرچي يا ڪارڊ ڏٺو ويو </string>
     <string name="f111b"> (نه (پرچي يا ڪارڊ نه ڏٺو ويو </string>
 
-    <string name="f112"> F112:\t ڇا توھان (نالو) حمل دوران جھٽڪن کان بچاءُ وارا ٽڪا لڳرايا جيڪي ٻانھن جي مٿين حصي ۾ لڳندا آھن</string>
-    <string name="f112a"> ھا</string>
-    <string name="f112b"> نه</string>
+    <string name="f112"> F112:\t ڇا توھان (نالو) حمل دوران جھٽڪن کان بچاءُ وارا ٽڪا لڳرايا جيڪي ٻانھن جي مٿين حصي ۾ لڳندا آھن </string>
+    <string name="f112a"> ھا </string>
+    <string name="f112b"> نه </string>
     <string name="f112c"> خبر نه آھي </string>
 
-    <string name="f113"> F113:\t توھان (نالو) حمل جي دوران جھٽڪي جي بيماري کان بچاءُ لاءِ ڪيترا ٽڪا لڳرايا؟</string>
-    <string name="f113a"> تعداد</string>
+    <string name="f113"> F113:\t توھان (نالو) حمل جي دوران جھٽڪي جي بيماري کان بچاءُ لاءِ ڪيترا ٽڪا لڳرايا ؟ </string>
+    <string name="f113a"> تعداد </string>
     <string name="f113b"> خبر نه آھي </string>
 
-    <string name="f114"> F114:\t ڇا توھان (نالو) حمل دوران آئرن فولڪ ايسڊ (طاقت جي دوا) کاڌي ؟</string>
-    <string name="f114a"> ھا</string>
-    <string name="f114b"> نه</string>
+    <string name="f114"> F114:\t ڇا توھان (نالو) حمل دوران آئرن فولڪ ايسڊ (طاقت جي دوا) کاڌي ؟ </string>
+    <string name="f114a"> ھا </string>
+    <string name="f114b"> نه </string>
 
-    <string name="f115"> F115:\t ڇا توھان (نالو) حمل دوران آئرن فولڪ ايسڊ (طاقت جي دوا) کائڻ لاءِ ڪنھن مشورو ڏنو؟</string>
+    <string name="f115"> F115:\t ڇا توھان (نالو) حمل دوران آئرن فولڪ ايسڊ (طاقت جي دوا) کائڻ لاءِ ڪنھن مشورو ڏنو ؟ </string>
     <string name="f115a"> ڊاڪٽر </string>
-    <string name="f115b"> (ايل ايڇ وي (ليڊي ھيلٿ وزيٽر</string>
-    <string name="f115c"> نرس</string>
-    <string name="f115d"> (سي ايم ڊبليو (ڪميونٽي مڊوائف</string>
-    <string name="f115e"> (ايل ايڇ ڊبليو (ليڊي ھيلٿ ورڪر</string>
+    <string name="f115b"> (ايل ايڇ وي (ليڊي ھيلٿ وزيٽر </string>
+    <string name="f115c"> نرس </string>
+    <string name="f115d"> (سي ايم ڊبليو (ڪميونٽي مڊوائف </string>
+    <string name="f115e"> (ايل ايڇ ڊبليو (ليڊي ھيلٿ ورڪر </string>
     <string name="f115f"> دائي / ٽي بي اي </string>
 
-    <string name="f116"> F116:\t توھان پنھنجي پوري (نالو) حمل دوران آئرن فولڪ ايسڊ (طاقت جي دوا) ڪٿان حاصل ڪئي؟</string>
-    <string name="f116a"> ڊاڪٽر</string>
-    <string name="f116b"> (ايل ايڇ وي (ليڊي ھيلٿ وزيٽر</string>
-    <string name="f116c"> نرس</string>
-    <string name="f116d"> (سي ايم ڊبليو (ڪميونٽي مڊوائف</string>
+    <string name="f116"> F116:\t توھان پنھنجي پوري (نالو) حمل دوران آئرن فولڪ ايسڊ (طاقت جي دوا) ڪٿان حاصل ڪئي ؟ </string>
+    <string name="f116a"> ڊاڪٽر </string>
+    <string name="f116b"> (ايل ايڇ وي (ليڊي ھيلٿ وزيٽر </string>
+    <string name="f116c"> نرس </string>
+    <string name="f116d"> (سي ايم ڊبليو (ڪميونٽي مڊوائف </string>
     <string name="f116e"> ڊسپينسر/ ڪمپائوڊر </string>
-    <string name="f116f"> (ايل ايڇ ڊبليو (ليڊي ھيلٿ ورڪر</string>
+    <string name="f116f"> (ايل ايڇ ڊبليو (ليڊي ھيلٿ ورڪر </string>
     <string name="f116g"> دائي / ٽي بي اي </string>
-    <string name="f116h"> (فارميسي (ميڊيڪل اسٽور</string>
-    <string name="f116i"> دوست / مائٽ</string>
+    <string name="f116h"> (فارميسي (ميڊيڪل اسٽور </string>
+    <string name="f116i"> دوست / مائٽ </string>
 
-    <string name="f117"> F117:\t توھان  پنھنجي پوري (نالو) حمل دوران آئرن فولڪ ايسڊ (طاقت جي دوا) جو ڊوز ڪئين ھوندو ھو؟</string>
+    <string name="f117"> F117:\t توھان  پنھنجي پوري (نالو) حمل دوران آئرن فولڪ ايسڊ (طاقت جي دوا) جو ڊوز ڪئين ھوندو ھو ؟ </string>
     <string name="f117a"> ھر روز </string>
     <string name="f117b"> ھفتي ۾ ھڪ دفعو</string>
     <string name="f117c"> ھفتي ۾ ٻه دفعه</string>
     <string name="f117d"> مھيني ۾ ھڪ دفعو</string>
     <string name="f117e"> ڪڏھن ڪڏھن</string>
 
-    <string name="f118"> F118:\t توھان  پنھنجي پوري (نالو) حمل دوران آئرن فولڪ ايسڊ (طاقت جي دوا) جو ڪيترا مھينا يا ڏينھن کاڌي؟</string>
+    <string name="f118"> F118:\t توھان  پنھنجي پوري (نالو) حمل دوران آئرن فولڪ ايسڊ (طاقت جي دوا) جو ڪيترا مھينا يا ڏينھن کاڌي ؟ </string>
     <string name="f118a"> مھينا</string>
     <string name="f118b"> ڏينھن</string>
 
-    <string name="f119"> F119:\t ڇا توھان آئرن فولڪ ايسڊ (طاقت جي دوا) جا پئسا ڏنا؟</string>
+    <string name="f119"> F119:\t ڇا توھان آئرن فولڪ ايسڊ (طاقت جي دوا) جا پئسا ڏنا ؟</string>
     <string name="f119a"> ھا</string>
     <string name="f119b"> نه </string>
 
-    <string name="f120"> F120:\t توھان (نالو) حمل جي دوران ھر مھيني طاقت جي دوا تي سراسري ڪيترو خرچ ڪندا ھئا؟</string>
+    <string name="f120"> F120:\t توھان (نالو) حمل جي دوران ھر مھيني طاقت جي دوا تي سراسري ڪيترو خرچ ڪندا ھئا ؟ </string>
 
-    <string name="f121"> F121:\t توھان جي گذريل حمل دوران ليڊي ھيلٿ ورڪر (ايل ايڇ ڊبليو) توھان جي گھر جو دورو ڪيو؟</string>
+    <string name="f121"> F121:\t توھان جي گذريل حمل دوران ليڊي ھيلٿ ورڪر (ايل ايڇ ڊبليو) توھان جي گھر جو دورو ڪيو؟ </string>
     <string name="f121a"> ھا </string>
     <string name="f121b"> نه </string>
 
