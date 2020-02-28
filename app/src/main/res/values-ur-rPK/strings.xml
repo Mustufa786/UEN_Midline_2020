@@ -2331,7 +2331,7 @@
     <string name="m115f"> پتھر کا کوئلہ, کوئلہ </string>
     <string name="m115g"> چارکول </string>
     <string name="m115h"> لکڑی </string>
-    <string name="m115i"> گھانس پھونس/تنکے/جھاڑیاں </string>
+    <string name="m115i"> گھانس پھونس / تنکے / جھاڑیاں </string>
     <string name="m115j"> جانوروں کا گوبر </string>
     <string name="m115k"> گھر میں کھانا نہیں پکتا </string>
 
@@ -2351,17 +2351,17 @@
     <string name="n101b"> صحن میں نلکا </string>
     <string name="n101c"> پڑوسی کی گھرکا نلکا </string>
     <string name="n101d"> گلی / علاقہ کا نلکا </string>
-    <string name="n101e"> فلٹر پلانٹ/یونٹ </string>
-    <string name="n101f"> ٹیوب ویل/ بورنگ کا پانی </string>
+    <string name="n101e"> فلٹر پلانٹ / یونٹ </string>
+    <string name="n101f"> ٹیوب ویل / بورنگ کا پانی </string>
     <string name="n101f_title"> زیر زمین پانی </string>
     <string name="n101g"> ہینڈ پمپ </string>
     <string name="n101h"> محفوظ کنواں </string>
     <string name="n101h_title"> کنواں </string>
     <string name="n101i"> غیر محفوظ کنواں </string>
     <string name="n101j"> بارش کا پانی </string>
-    <string name="n101k"> پانی کا ٹینکر/ٹرک </string>
-    <string name="n101l"> ریڑھی کے ساتھ چھوٹی ٹنکی/ڈرم </string>
-    <string name="n101m"> سطح والا پانی(دریا،جھیل ،ڈیم،تالاب/ ندی/نہر کا پانی) </string>
+    <string name="n101k"> پانی کا ٹینکر / ٹرک </string>
+    <string name="n101l"> ریڑھی کے ساتھ چھوٹی ٹنکی / ڈرم </string>
+    <string name="n101m"> سطح والا پانی (دریا، جھیل، ڈیم، تالاب / ندی / نہر کا پانی) </string>
     <string name="n101n"> بوتل کا پانی </string>
     <string name="n101x"> دیگر (وضاحت کریں) </string>
 
@@ -2396,8 +2396,8 @@
 
     <string name="n105"> N105:\t عموما ً گھر کے لئے پانی لینے کے لیے کون جاتا ہے ؟ </string>
     <string name="n105hint"> تحقیق کریں، کیا جو فرد پانی لینے جاتے ہیں اس کی عمر پندرہ سال سے کم ہے ؟ اسکی جنس کیا ہے ؟ </string>
-    <string name="n105a"> بالغ عورت(15 سال سےزیادہ) </string>
-    <string name="n105b"> بالغ مرد(15 سال سےزیادہ) </string>
+    <string name="n105a"> بالغ عورت (15 سال سے زیادہ) </string>
+    <string name="n105b"> بالغ مرد(15 سال سے زیادہ) </string>
     <string name="n105c"> بچی ( 15 سال سے کم) </string>
     <string name="n105d"> بچہ (15 سال سے کم) </string>
     <string name="n105e"> جو بھی دستیاب ہو </string>

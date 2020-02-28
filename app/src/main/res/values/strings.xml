@@ -251,7 +251,7 @@
     <string name="e105e"> ٻئي مري ويا </string>
     <string name="e105f"> حمل ضائع ٿيو </string>
 
-    <string name="e106"> E106:\t نالو) ڪھڙي مھيني ۽ سال ۾ ڄائو ؟ (نالو) جي سالگرھ جو پڇو) </string>
+    <string name="e106"> E106:\t (نالو) ڪھڙي مھيني ۽ سال ۾ ڄائو ؟ (نالو) جي سالگرھ جو پڇو </string>
     <string name="e106a"> ڏينھن </string>
     <string name="e106b"> مھينو </string>
     <string name="e106c"> سال </string>
@@ -321,54 +321,60 @@
     <string name="e121h"> خبر نه آھي </string>
     <string name="e121x"> (ٻيو ڪجھ (وضاحت ڪريو</string>
 
-    <string name="e122"> E122:\t وفات جي جاءِ</string>
+    <string name="e122"> E122:\t وفات جي جاءِ </string>
     <string name="e122a"> گھر ۾</string>
     <string name="e122b"> سرڪاري صحت مرڪز </string>
     <string name="e122c"> پرائيوٽ (خانگي) صحت مرڪز </string>
     <string name="e122d">  صحت مرڪز  (NGO)اين جي او </string>
     <string name="e122e"> صحت مرڪز ڏانھن ويندي رستي ۾ </string>
 
-    <string name="f101">F101:\t ڇا توھان (نالو) حمل دوران طبي معائنو (ANC) ڪرايو؟</string>
-    <string name="f101a"> F101a:\t ڇو نه ڪرايو (ANC)توھان (نالو) حمل دوران طبي معائنو </string>
-    <string name="f101ahint"> هڪ کان وڌيڪ جواب ٿي سگھن ٿا</string>
+    <string name="f101"> F101:\t ڇا توھان (نالو) حمل دوران طبي معائنو (ANC) ڪرايو ؟ </string>
+
+    <string name="f101a"> F101a:\t توھان (نالو) حمل دوران طبي معائنو (ANC) ڇو نه ڪرايو ؟ </string>
+    <string name="f101ahint"> هڪ کان وڌيڪ جواب ٿي سگھن ٿا </string>
     <string name="f101aa"> سواري نه ھئي </string>
     <string name="f101ab"> عملي جو غير مناسب رويو </string>
-    <string name="f101ac"> صحت مرڪز ڪارآمد صورت ۾ نه ھو</string>
-    <string name="f101ad"> صحت مرڪز تمام پري آھي</string>
+    <string name="f101ac"> صحت مرڪز ڪارآمد صورت ۾ نه ھو </string>
+    <string name="f101ad"> صحت مرڪز تمام پري آھي </string>
     <string name="f101ae"> ڪو مرد صحت مرڪز ڏانھن گڏ وڃڻ لاءِ موجود نه ھو </string>
     <string name="f101af"> غير معياري خدمتون </string>
     <string name="f101ag"> صحت مرڪز تي عورت ڪارڪن موجود نه ھئي </string>
     <string name="f101ah"> ضروري نه ھو </string>
     <string name="f101ai"> تمام مھانگو </string>
     <string name="f101n"> نه </string>
-    <string name="f101y"> ھا</string>
-    <string name="f102"> F102:\t ڪٿان ڪرايو(ANC) توھان (نالو) حمل دوران طبي معائنو</string>
-    <string name="f102a"> سرڪاري صحت مرڪز</string>
-    <string name="f102b"> پرائيويٽ صحت مرڪز</string>
+    <string name="f101y"> ھا </string>
+
+    <string name="f102"> F102:\t توھان (نالو) حمل دوران طبي معائنو (ANC)  ڪٿان ڪرايو ؟ </string>
+    <string name="f102a"> سرڪاري صحت مرڪز </string>
+    <string name="f102b"> پرائيويٽ صحت مرڪز </string>
     <string name="f102c"> هيلٿ ھائوس (ايل ايڇ ڊبليو) </string>
     <string name="f102d"> (CMW) ويم گهر برٿ اسٽيشن  </string>
-    <string name="f103"> F103:\t ڪنھن کان ڪرايو (ANC)توھان (نالو) حمل دوران طبي معائنو</string>
-    <string name="f103a"> ڊاڪٽر</string>
-    <string name="f103b"> ايل ايڇ وي (ليڊي ھيلٿ وزيٽر)</string>
-    <string name="f103c"> نرس</string>
+
+    <string name="f103"> F103:\t توھان (نالو) حمل دوران طبي معائنو (ANC) ڪنھن کان ڪرايو ؟ </string>
+    <string name="f103a"> ڊاڪٽر </string>
+    <string name="f103b"> ايل ايڇ وي (ليڊي ھيلٿ وزيٽر) </string>
+    <string name="f103c"> نرس </string>
     <string name="f103d"> سي ايم ڊبليو (ڪميونٽي مڊوائف) </string>
     <string name="f103e"> ايل ايڇ ڊبليو (ليڊي ھيلٿ ورڪر) </string>
-    <string name="f104"> F104:\t توھان جي گهر کان صحت مرڪز ڪيتري مفاصلي تي آھي، جتي توھان (نالو) حمل جي دوران اڪثر طبي معائنو ڪرائڻ ويندا ھئا؟</string>
-    <string name="f105"> F105:\t جڏھن توھان (نالو) حمل سان ھئا ته  طبي معائني لاءِ توھان صحت مرڪز ڏانھن وڃڻ لاءِ اڪثر ڪري ڪھڙي سواري استعمال ڪندا ھئا؟</string>
+
+    <string name="f104"> F104:\t توھان جي گهر کان صحت مرڪز ڪيتري مفاصلي تي آھي، جتي توھان (نالو) حمل جي دوران اڪثر طبي معائنو (ANC) ڪرائڻ ويندا ھئا ؟ </string>
+
+    <string name="f105"> F105:\t جڏھن توھان (نالو) حمل سان ھئا ته  طبي معائني لاءِ توھان صحت مرڪز ڏانھن وڃڻ لاءِ اڪثر ڪري ڪھڙي سواري استعمال ڪندا ھئا ؟</string>
     <string name="f105a"> پنڌ</string>
     <string name="f105b"> ڪار</string>
     <string name="f105c"> موٽرسائيڪل</string>
     <string name="f105d"> عوامي سواري / بس / رڪشا  </string>
+
     <string name="f106"> F106:\t گھر کان صحت مرڪز پھچڻ تائين توھان کي ڪيترو وقت لڳو جتي توھان (نالو) حمل دوران اڪثر طبي معائنو ڪرائڻ ويندا ھئا؟</string>
 
-    <string name="f107"> F107:\t  لاءِ توھان سان گڏ ڪير ھليو (ANC)ڇا (نالو) حمل دوران ڪنھن به طبي معائني</string>
+    <string name="f107"> F107:\t  ڇا (نالو) حمل دوران ڪنھن به طبي معائني (ANC) لاءِ توھان سان گڏ ڪير ھليو ؟ </string>
     <string name="f107a"> مڙس </string>
     <string name="f107b"> ڪو به نه، مان پاڻ ويس </string>
     <string name="f107x"> ٻيو ڪو (وضاحت ڪريو)</string>
 
-    <string name="f108"> F108:\t حمل جي ڪھڙي مھيني يا ھفي ۾ ڪرايو (ANC)جڏھن توھان (نالو) حمل سان ھئا ته توھان پھريون طبي معائنو</string>
-    <string name="f108a"> ھفتو</string>
-    <string name="f108b"> مھينو</string>
+    <string name="f108"> F108:\t جڏھن توھان (نالو) حمل سان ھئا ته توھان پھريون طبي معائنو (ANC) حمل جي ڪھڙي مھيني يا ھفي ۾ ڪرايو ؟ </string>
+    <string name="f108a"> ھفتو </string>
+    <string name="f108b"> مھينو </string>
     <string name="f108c"> خبر نه آھي </string>
 
     <string name="f109"> F109:\t توھان (نالو) حمل دوران ڪيترا دفعه طبي معائنو ڪرايو ؟ </string>
@@ -378,7 +384,7 @@
     <string name="f109b"> خبر نه آھي </string>
 
     <string name="f110"> F110:\t نالو) حمل دوران ڇا توھان ھيٺين مان ڪا به چڪاس گھٽ ۾ گھٽ ھڪ دفعو ڪرائي ؟)</string>
-    <string name="f110hint"> ہر آپشن کے بارے میں پوچھیں اور تمام مثبت ردعمل کا دائرہ لگائیں</string>
+    <string name="f110hint"> هر ھڪ جواب جي باري ۾ پڇو ۽ تمام ٻڌايل جواب تي دائرو لڳايو </string>
     <string name="f110a"> وزن ڪيو ويو </string>
     <string name="f110b"> بلڊ پريشر </string>
     <string name="f110c"> پيشاب جو نمونو </string>
@@ -390,9 +396,9 @@
     <string name="f110i"> مٿين مان ڪو به نه </string>
     <string name="f110x"> (ٻيو ڪو (وضاحت ڪريو </string>
 
-    <string name="f111"> F111:\t جيڪڏھن ھا ته ڇا مان اھو ڏسي سگھان ٿي ؟ (TT) ڇا توھان وٽ ڪو ڪارڊ يا پرچي آھي جنھن ۾ جھٽڪن </string>
+    <string name="f111"> F111:\t ڇا توھان وٽ ڪو ڪارڊ يا پرچي آھي جنھن ۾ جھٽڪن (TT) کان بچاءُ وارا ٽڪا لڳرائڻ جو ريڪارڊ موجود ھجي؟ </string>
     <string name="f111hint">  ڪارڊ ڏسي معلومات حاصل ڪريو  </string>
-    <string name="f111hint1">جيڪڏھن ڪارڊ موجود آهي ته ان ڪارڊ کي هيٺ ڏنل سوالن جي جوابن لاءِ استعمال ڪريو </string>
+    <string name="f111hint1"> جيڪڏھن ھا ته ڇا مان اھو ڏسي سگھان ٿي ؟  </string>
     <string name="f111a"> (ھا (پرچي يا ڪارڊ ڏٺو ويو </string>
     <string name="f111b"> (نه (پرچي يا ڪارڊ نه ڏٺو ويو </string>
 
@@ -679,132 +685,155 @@
     <string name="g129a"> ھا</string>
     <string name="g129b"> نه</string>
 
+
+    <!--  SECTION - H  -->
     <string name="th1heading"> SECTION H: NEWBORN HEALTH </string>
-    <string name="h101"> H101:\t پيدائش وقت (نالو) جي مدت حمل ڪيتري ھئي؟</string>
-    <string name="h102"> H102:\t ڇا (نالو) پيدائش کان پوءِ جلدي رنو؟</string>
-    <string name="h102a"> ھا</string>
-    <string name="h102b"> نه</string>
+
+    <string name="h101"> H101:\t پيدائش وقت (نالو) جي مدت حمل ڪيتري ھئي ؟ </string>
+
+    <string name="h102"> H102:\t ڇا (نالو) پيدائش کان پوءِ جلدي رنو ؟ </string>
+    <string name="h102a"> ھا </string>
+    <string name="h102b"> نه </string>
     <string name="h102c"> خبر نه آھي </string>
-    <string name="h103"> H103:\t جنھن (نالو) ڊليوري ڪرائڻ ۾ مدد ڪئي ڇا ان ٻار کي ساھ کڻائڻ لاءِ اُپاءَ ورتا؟</string>
-    <string name="h103a"> ھا</string>
-    <string name="h103b"> نه</string>
+
+    <string name="h103"> H103:\t جنھن (نالو) ڊليوري ڪرائڻ ۾ مدد ڪئي ڇا ان ٻار کي ساھ کڻائڻ لاءِ اُپاءَ ورتا ؟ </string>
+    <string name="h103a"> ھا </string>
+    <string name="h103b"> نه </string>
     <string name="h103c"> خبر نه آھي </string>
-    <string name="h104"> H104:\t ڊليوري ڪرائيندڙ (نالو) جي ساھ کڻائڻ لاءِ ڪھڙا اُپاءَ ورتا؟</string>
+
+    <string name="h104"> H104:\t ڊليوري ڪرائيندڙ (نالو) جي ساھ کڻائڻ لاءِ ڪھڙا اُپاءَ ورتا ؟ </string>
     <string name="h104a"> ٻار جي پٺي تي ٿڦڪيون ھيون </string>
     <string name="h104b"> منھن جي ذريعي ساھ کڻايو </string>
     <string name="h104c"> امبو بيگ جي ذريعي ساھ کڻايو </string>
-    <string name="h104x"> (ٻيو ڪجھ (وضاحت ڪريو</string>
-    <string name="h105"> H105:\t ڇا (نالو) ڊليوري کان پوءَ صاف ڪپڙي سان خشڪ ڪيو ويو؟</string>
-    <string name="h105a"> ھا</string>
-    <string name="h105b"> نه</string>
+    <string name="h104x"> (ٻيو ڪجھ (وضاحت ڪريو </string>
+
+    <string name="h105"> H105:\t ڇا (نالو) ڊليوري کان پوءَ صاف ڪپڙي سان خشڪ ڪيو ويو ؟ </string>
+    <string name="h105a"> ھا </string>
+    <string name="h105b"> نه </string>
     <string name="h105c"> خبر نه آھي </string>
-    <string name="h106"> H106:\t نالو) پيدائش کان پوءِ ڪيتري دير بعد خشڪ ڪيو ويو؟)</string>
-    <string name="h107"> H107:\t نالو) کي ڪھڙي قسم جي صاف ڪپڙي سان خشڪ/ويڙھيو ويو؟)</string>
+
+    <string name="h106"> H106:\t (نالو) پيدائش کان پوءِ ڪيتري دير بعد خشڪ ڪيو ويو ؟ </string>
+
+    <string name="h107"> H107:\t (نالو) کي ڪھڙي قسم جي صاف ڪپڙي سان خشڪ/ويڙھيو ويو ؟ </string>
     <string name="h107a"> نئون ڪپڙو </string>
     <string name="h107b"> پراڻو ڪپڙو </string>
-    <string name="h107c"> ٽوال</string>
-    <string name="h107d"> ڪمبل</string>
+    <string name="h107c"> ٽوال </string>
+    <string name="h107d"> ڪمبل </string>
+
     <string name="h108"> H108:\t نالو) جي ناڙي کي کڻڻ لاءِ ڇا استعمال ڪيو ويو؟)</string>
     <string name="h108a"> نئون بليڊ </string>
     <string name="h108b"> پراڻو بليڊ </string>
     <string name="h108c"> قينچي</string>
     <string name="h108d"> چاقو</string>
-    <string name="h109"> H109:\t نالو) ناڙي کڻڻ کان پوءِ ان تي ڇا لڳايو )ويو؟</string>
+
+    <string name="h109"> H109:\t (نالو) ناڙي کڻڻ کان پوءِ ان تي ڇا لڳايو ويو ؟  </string>
     <string name="h109a"> جانور جو ڇيڻو </string>
     <string name="h109b"> ڪنھن به قسم جو تيل </string>
-    <string name="h109c"> ڊيٽول</string>
-    <string name="h109d"> پائيوڊين</string>
-    <string name="h109e"> ڪلوروھيزڊائن</string>
-    <string name="h109f"> مٽي/کاڪ </string>
+    <string name="h109c"> ڊيٽول </string>
+    <string name="h109d"> پائيوڊين </string>
+    <string name="h109e"> ڪلوروھيزڊائن </string>
+    <string name="h109f"> مٽي / کاڪ </string>
     <string name="h109g"> ماءُ جو کير </string>
     <string name="h109h"> ڪا به شي نه لڳائي وئي </string>
-    <string name="h110"> H110:\t ڇا (نالو) کي پيدائش کان پوءِ ماءُ جيڇاتي سان لڳايو ويو؟</string>
+
+    <string name="h110"> H110:\t ڇا (نالو) کي پيدائش کان پوءِ ماءُ جي ڇاتي سان لڳايو ويو ؟ </string>
     <string name="h110a"> ھا </string>
-    <string name="h110b"> نه</string>
+    <string name="h110b"> نه </string>
     <string name="h110c"> خبر نه آھي </string>
 
-    <string name="h111"> H111:\t نالو) پيدائش کان پوءِ ڪيتري دير بعد ماءُ جي ڇاتي سان لڳايو ويو ؟)</string>
+    <string name="h111"> H111:\t (نالو) پيدائش کان پوءِ ڪيتري دير بعد ماءُ جي ڇاتي سان لڳايو ويو ؟ </string>
 
     <string name="h112"> H112:\t نالو) پيدائش کان پوءِ ڪيتري دير بعد ماءُ جي ٿڃ پيتي ؟)</string>
     <string name="h112a"> 1 ڪلاڪ کان به گھٽ </string>
     <string name="h112b"> 1 ڪلاڪ کان وڌيڪ </string>
     <string name="h112c"> 1 ڏينهن کان وڌيڪ </string>
 
-    <string name="h113"> H113:\t ڇا توھان گھاٽو کير (ڪولسٽرم) خارج ڪيو جيڪو ڊليوري کان پوءِ جلدي ماءُ جي ڇاتي مان ايندو آھي ؟</string>
+    <string name="h113"> H113:\t ڇا توھان گھاٽو کير (ڪولسٽرم) خارج ڪيو جيڪو ڊليوري کان پوءِ جلدي ماءُ جي ڇاتي مان ايندو آھي ؟ </string>
     <string name="h113a"> ھا </string>
-    <string name="h113b"> نه</string>
-    <string name="h114"> H114:\t پيدائش کان پوءِ توھان اھو گھاٽو کير (ڪولسٽرم) ڇو ضايع ڪيو؟</string>
+    <string name="h113b"> نه </string>
+
+    <string name="h114"> H114:\t پيدائش کان پوءِ توھان اھو گھاٽو کير (ڪولسٽرم) ڇو ضايع ڪيو ؟ </string>
     <string name="h114a"> ماءُ بيمار ھئي </string>
     <string name="h114b"> نئون ڄاول ٻار بيمار ھو </string>
     <string name="h114c"> نئون ڄاول ٻار ٿڃ پيئڻ جھڙو نه ھو </string>
-    <string name="h114d"> اھو ڳورو آھي (صحت لاءِ صحيح نه آھي</string>
+    <string name="h114d"> ڪولسٽرم نئين ڄاول ٻار لاءِ نقصان ڪار آھي </string>
     <string name="h114e"> اھو خراب آھي </string>
     <string name="h114f"> اھو دست ڪندو آھي </string>
-    <string name="h114g"> اھو ڳورو آھي (صحت لاءِ صحيح نه آھي</string>
+    <string name="h114g"> اھو ڳورو آھي (صحت لاءِ صحيح نه آھي) </string>
     <string name="h114h"> روايتي يا مذھبي سبب </string>
 
-    <string name="h115"> H115:\t گذريل 24 ڪلاڪن جي دوران (نالو) کي کائڻ / پيئڻ لاءِ ڇا ڏنو ويو؟  (ھڪ کان وڌيڪ جواب ٿي سگھن ٿا)</string>
-    <string name="h115a"> (کير (ماءُ جي کير کان علاوه</string>
+    <string name="h115"> H115:\t گذريل 24 ڪلاڪن جي دوران (نالو) کي کائڻ / پيئڻ لاءِ ڇا ڏنو ويو ؟  (ھڪ کان وڌيڪ جواب ٿي سگھن ٿا) </string>
+    <string name="h115a"> (کير (ماءُ جي کير کان علاوه </string>
     <string name="h115b"> سادو پاڻي </string>
     <string name="h115c"> ماکي يا مٺو پاڻي </string>
     <string name="h115d"> گھي، مکڻ </string>
     <string name="h115e"> فروٽ جوس </string>
     <string name="h115f"> فارمولا وارو کير </string>
     <string name="h115g"> سائي چانھ / ڪاڙھو </string>
-    <string name="h115h"> صرف ماءُ جو کير</string>
-    <string name="h115i"> نيم ٺھوس غذا </string>
+    <string name="h115h"> صرف ماءُ جو کير </string>
+    <string name="h115i"> نيم ٺوس غذا </string>
 
-    <string name="h116"> H116:\t ڇا (نالو) صرف ماءُ جو کير پياريو ويو؟ </string>
-    <string name="h116hint">صرف ماءُ جي کير مان مطلب آهي ته ٻار کي صرف ۽ صرف ماءُ جو کير پياريو ويو آهي ايستائين جو پاڻي جو ھڪ ڦڙو به نه، يا پاڻياٺ واري ڪا شي يا پيٽ جي سور جي دوا وغيرھ وغيرھ. </string>
+    <string name="h116"> H116:\t ڇا (نالو) صرف ماءُ جو کير پياريو ويو ؟ </string>
+    <string name="h116hint"> صرف ماءُ جي کير مان مطلب آهي ته ٻار کي صرف ۽ صرف ماءُ جو کير پياريو ويو آهي ايستائين جو پاڻي جو ھڪ ڦڙو به نه، يا پاڻياٺ واري ڪا شي يا پيٽ جي سور جي دوا وغيرھ وغيرھ. </string>
     <string name="h116a"> ھا، صرف ۽ صرف ماءُ جو کير </string>
-    <string name="h116b"> ھا، ماءُ جي کير سان گڏ ٻيو کاڌوکائڻ/پيارڻ</string>
-    <string name="h116c"> (ڪڏھن به کير نه پياريو (نالو</string>
+    <string name="h116b"> ھا، ماءُ جي کير سان گڏ ٻيو کاڌو کائڻ / پيارڻ </string>
+    <string name="h116c">  ڪڏھن به کير نه پياريو </string>
 
-    <string name="h117"> H117:\t نالو) ڪيترو وقت صرف ماءُ جي ٿڃ پيتي؟) </string>
-    <string name="h118"> H118:\t ڇا توھان اڃا تائين (نالو) کي صرف ماءُ جي ٿڃ پياري رھيا آھيو؟</string>
-    <string name="h118a"> ھا 	</string>
+    <string name="h117"> H117:\t (نالو) ڪيترو وقت صرف ماءُ جي ٿڃ پيتي ؟ </string>
+
+    <string name="h118"> H118:\t ڇا توھان اڃا تائين (نالو) کي صرف ماءُ جي ٿڃ پياري رھيا آھيو ؟ </string>
+    <string name="h118a"> ھا </string>
     <string name="h118b"> نه </string>
+
     <string name="h119"> H119:\t توھان (نالو) کي ڪيترا مھينا ٿڃ پياري؟</string>
-    <string name="h120"> H120:\t نالو) جي پيدائش کان پوءِ ڪيتري وقت کان پوءِ وينجھاريو ويو؟)</string>
+
+    <string name="h120"> H120:\t (نالو) جي پيدائش کان پوءِ ڪيتري وقت کان پوءِ وينجھاريو ويو ؟ </string>
     <string name="h120a"> جلدي/ھڪ ڪلاڪ کان گھٽ </string>
-    <string name="h120b"> هڪ کان 6 ڪلاڪن تائين</string>
+    <string name="h120b"> هڪ کان 6 ڪلاڪن تائين </string>
     <string name="h120c"> 6 کان 12 ڪلاڪن تائين </string>
-    <string name="h120d"> 12 کان 24 ڪلاڪن تائين</string>
+    <string name="h120d"> 12 کان 24 ڪلاڪن تائين </string>
     <string name="h120e"> 24 ڪلاڪن کان وڌيڪ </string>
-    <string name="h120f"> خبر نه آھي / ياد نه آھي</string>
-    <string name="h121"> H121:\t ڇا (نالو) جو پيدائش وقت وزن ڪيو ويو؟</string>
-    <string name="h121a"> ھا</string>
-    <string name="h121b"> نه</string>
+    <string name="h120f"> خبر نه آھي / ياد نه آھي </string>
+
+    <string name="h121"> H121:\t ڇا (نالو) جو پيدائش وقت وزن ڪيو ويو ؟ </string>
+    <string name="h121a"> ھا </string>
+    <string name="h121b"> نه </string>
+
     <string name="h122"> H122:\t نالو) جو پيدائش وقت وزن ڪيترو ھو؟)</string>
-    <string name="h122a"> ڪلوگرام</string>
+    <string name="h122a"> ڪلوگرام </string>
     <string name="h122b"> خبر نه آھي </string>
-    <string name="h123"> H123:\t نالو) جي وزن معلوم ڪرڻ جو ذريعو ڪھڙو آھي؟)</string>
-    <string name="h123a"> ڪارڊ</string>
-    <string name="h123b"> ياداشت</string>
-    <string name="h124"> H124:\t جڏھن (نالو) پيدا ٿيو، ڇا ھيءُ/ھوءَ تمام وڏي/وڏو، ٿوري وڏي/وڏو، نارمل،ٿوري ننڍي/ننڍو يا تمام گھڻي ننڍي/ننڍو؟</string>
-    <string name="h124a"> تمام گھڻو وڏو</string>
-    <string name="h124b"> ٿورو وڏو</string>
-    <string name="h124c"> نارمل</string>
+
+    <string name="h123"> H123:\t (نالو) جي وزن معلوم ڪرڻ جو ذريعو ڪھڙو آھي ؟ </string>
+    <string name="h123a"> ڪارڊ </string>
+    <string name="h123b"> ياداشت </string>
+
+    <string name="h124"> H124:\t جڏھن (نالو) پيدا ٿيو، ڇا ھيء ُ / ھوءَ تمام وڏي / وڏو، ٿوري وڏي / وڏو، نارمل، ٿوري ننڍي / ننڍو يا تمام گھڻي ننڍي / ننڍو ؟ </string>
+    <string name="h124a"> تمام گھڻو وڏو </string>
+    <string name="h124b"> ٿورو وڏو </string>
+    <string name="h124c"> نارمل </string>
     <string name="h124d"> ٿورو ننڍو </string>
     <string name="h124e"> تمام گھڻو ننڍو </string>
     <string name="h124f"> خبر نه آھي </string>
-    <string name="h125"> H125:\t آءٌ توھان کان (نالو) جي پيدائش کان پوءِ جي صحت جي معائني جي باري ۾ ڪجھ سوال ڪرڻ چاھيندس</string>
-    <string name="h125hint"> ڇا (نالو) پيدائش کانپوءِ ڪنھن ھن جو معائنو ڪئي ؟ </string>
-    <string name="h125a"> ھا</string>
-    <string name="h125b"> نه</string>
-    <string name="h126"> H126:\t ڪيتري وقت کان پوءِ (نالو) جو پھريون معائنو ڪيو ويو؟</string>
-    <string name="h126a"> پيدائش کان پوءِ 24 ڪلاڪن جي اندر</string>
+
+    <string name="h125"> H125:\t آءٌ توھان کان (نالو) جي پيدائش کان پوءِ جي صحت جي معائني جي باري ۾ ڪجھ سوال ڪرڻ چاھيندس </string>
+    <string name="h125hint"> (نالو) جي پيدائش کان پوءِ (نالو) جي صحت جو ڪنهن معائنو ڪيو </string>
+    <string name="h125a"> ھا </string>
+    <string name="h125b"> نه </string>
+
+    <string name="h126"> H126:\t ڪيتري وقت کان پوءِ (نالو) جو پھريون معائنو ڪيو ويو ؟ </string>
+    <string name="h126a"> پيدائش کان پوءِ 24 ڪلاڪن جي اندر </string>
     <string name="h126b"> پيدائش کان پوءِ 24 کان 48 ڪلاڪن جي اندر </string>
-    <string name="h126c"> پيدائش کان پوءِ 3 کان 7 ڏينھن جي اندر</string>
-    <string name="h126d"> پيدائش کان پوءِ 7 ڏينھن کان وڌيڪ</string>
+    <string name="h126c"> پيدائش کان پوءِ 3 کان 7 ڏينھن جي اندر </string>
+    <string name="h126d"> پيدائش کان پوءِ 7 ڏينھن کان وڌيڪ </string>
     <string name="h126e"> خبر نه آھي </string>
-    <string name="h127"> H127:\t نالو) ڊليوري کان پوءِ توھان پھريون طبي معائنو ڪٿان ڪرايو؟)</string>
-    <string name="h127a"> گھر ۾</string>
+
+    <string name="h127"> H127:\t (نالو) ڊليوري کان پوءِ توھان پھريون طبي معائنو ڪٿان ڪرايو ؟ </string>
+    <string name="h127a"> گھر ۾ </string>
     <string name="h127b"> سرڪاري صحت مرڪز </string>
     <string name="h127c"> پرائيويٽ صحت مرڪز </string>
     <string name="h127d">  صحت مرڪز (NGO)اين جي او </string>
 
-    <string name="h128"> H128:\t نالو) ڊليوري کان پوءِ توھان جو پھريون معائنو ڪنھن ڪيو؟)</string>
+    <string name="h128"> H128:\t (نالو) ڊليوري کان پوءِ توھان جو پھريون معائنو ڪنھن ڪيو ؟ </string>
     <string name="h128a"> ڊاڪٽر </string>
     <string name="h128b"> (ايل ايڇ وي (ليڊي ھيلٿ وزيٽر </string>
     <string name="h128c"> نرس </string>
@@ -812,7 +841,7 @@
     <string name="h128e"> ايل ايڇ ڊبليو (ليڊي ھيلٿ ورڪر) </string>
     <string name="h128f"> دائي / ٽي بي اي  </string>
 
-    <string name="h129"> H129:\t نالو) پھرئين معائني جي دوران، ڇا ھنن مان ڪو معائنو ٿيو ؟) </string>
+    <string name="h129"> H129:\t (نالو) پھرئين معائني جي دوران، ڇا ھنن مان ڪو معائنو ٿيو ؟ </string>
 
     <string name="h129a"> ناڙي جو معائنو </string>
     <string name="h129aa"> ھا </string>
@@ -832,16 +861,16 @@
     <string name="h129d"> کير پيارڻ لاءِ مشورا </string>
     <string name="h129da">  ھا </string>
     <string name="h129db"> نه </string>
-    <string name="h129dc"> خبر نه آھي</string>
+    <string name="h129dc"> خبر نه آھي </string>
 
     <string name="h129e"> ٻار جو وزن </string>
     <string name="h129ea"> ھا </string>
-    <string name="h129eb"> نه</string>
-    <string name="h129ec"> خبر نه آھي</string>
+    <string name="h129eb"> نه </string>
+    <string name="h129ec"> خبر نه آھي </string>
 
-    <string name="h130"> H130:\t نالو) ڇا صحت جي ڪارڪن توھان کي ٽڪن لڳرائڻ جي صلاح ڏني ؟) </string>
+    <string name="h130"> H130:\t (نالو) ڇا صحت جي ڪارڪن توھان کي ٽڪن لڳرائڻ جي صلاح ڏني ؟ </string>
     <string name="h130a"> ھا </string>
-    <string name="h130b"> نه</string>
+    <string name="h130b"> نه </string>
 
     <string name="h131"> H131:\t نالو) کي ڇا توھان ٽڪا لڳرايا؟)</string>
     <string name="h131a"> ھا</string>
@@ -1052,14 +1081,15 @@
     <string name="i105a"> ھا </string>
     <string name="i105b"> نه </string>
 
-    <string name="i106"> I106:\t توھان (نالو) دستن جي بيماري جو علاج ڇو نه ڪرايو؟</string>
+    <string name="i106"> I106:\t توھان (نالو) دستن جي بيماري جو علاج ڇو نه ڪرايو؟ </string>
     <string name="i106a"> ايڏو وڏو مسئلو نه ھو </string>
     <string name="i106b"> پئسا نه ھئا </string>
     <string name="i106c"> سواري نه ھئي </string>
     <string name="i106d"> مرد جي غيرموجودگي جي ڪري </string>
-    <string name="i106e"> گھر جي سربراھ/مڙس/سس جي اجازت نه ھئي </string>
+    <string name="i106e"> گھر جي سربراھ / مڙس / سس جي اجازت نه ھئي </string>
     <string name="i106f"> صحت مرڪز پري آھي </string>
-    <string name="i107"> I107:\t توھان (نالو) دستن جي بيماري دوران علاج ڪٿان ڪرايو؟</string>
+
+    <string name="i107"> I107:\t توھان (نالو) دستن جي بيماري دوران علاج ڪٿان ڪرايو ؟</string>
     <string name="i107a"> سرڪاري صحت مرڪز </string>
     <string name="i107b"> پرائيويٽ صحت مرڪز </string>
     <string name="i107c">  صحت مرڪز  (NGO)اين جي او </string>
@@ -1275,6 +1305,8 @@
     <string name="i226e"> آلودگي جي بابت معلومات </string>
     <string name="i226f"> نمونيا جي خطرناڪ علامتن بابت معلومات </string>
 
+
+    <!-- SECTION - J -->
     <string name="j101"> J101:\t ڇا توھان وٽ ٽڪن وارو ڪارڊ موجود آھي؟ جيڪو سرڪاري صحت يا پرائيويٽ صحت مرڪز وارا ڏيندا آھن جنھن تي (نالو) ٽڪن جي معلومات لکيل ھوندي آھي. </string>
     <string name="j101hint"> جيڪڏهن ها ته آءٌ اهو ڏسي سگھان ٿي/ٿو؟ </string>
     <string name="j101hint1"> جڏھن توھان کي انٽرويو شروع ڪرڻ جي اجازت ملي ته جواب ڏيندڙ کي ڪارڊ کڻي اچڻ گھرجي </string>
@@ -1337,19 +1369,20 @@
     <string name="j10402bg"> ڊسپينسر/ڪمپائونڊر</string>
     <string name="j10402bx"> (ٻيو ڪو (وضاحت ڪري</string>
 
-    <string name="j10403"> J10403:\t منهن جي ذريعي ڏيڻ واري او پي وي ون جي پهرين خوراڪ (ڏينهن مهينو سال)</string>
+    <string name="j10403"> J10403:\t منهن جي ذريعي ڏيڻ واري او پي وي ون جي پهرين خوراڪ (ڏينهن مهينو سال) </string>
     <string name="j10403d"> ڏينھن </string>
     <string name="j10403m"> مھينو </string>
     <string name="j10403y"> سال </string>
 
-    <string name="j10403a"> J10403a:\t نالو) پوليو جا ڦڙا ڪٿان پياريا؟)</string>
-    <string name="j10403aa"> سرڪار صحت مرڪز</string>
-    <string name="j10403ab"> پرائيويٽ صحت مرڪز</string>
+    <string name="j10403a"> J10403a:\t (نالو) پوليو جا ڦڙا ڪٿان پياريا ؟ </string>
+    <string name="j10403aa"> سرڪار صحت مرڪز </string>
+    <string name="j10403ab"> پرائيويٽ صحت مرڪز </string>
     <string name="j10403ac"> ٽڪن جو مرڪز </string>
-    <string name="j10403ad"> ماءُ ۽ ٻار جي صحت جو مرڪز</string>
-    <string name="j10403ae"> اين جي او صحت مرڪز</string>
-    <string name="j10403af"> ٻار جي ٽڪن وارو ھفتو</string>
-    <string name="j10403b"> J10403b:\t ڦڙا ڪنھن پياريا؟</string>
+    <string name="j10403ad"> ماءُ ۽ ٻار جي صحت جو مرڪز </string>
+    <string name="j10403ae"> اين جي او صحت مرڪز </string>
+    <string name="j10403af"> ٻار جي ٽڪن وارو ھفتو </string>
+
+    <string name="j10403b"> J10403b:\t ڦڙا ڪنھن پياريا ؟ </string>
     <string name="j10403ba"> ڊاڪٽر</string>
     <string name="j10403bb"> ليڊي ھيلٿ ورڪر</string>
     <string name="j10403bc"> ليڊي ھيلٿ وزيٽر</string>
@@ -1359,18 +1392,19 @@
     <string name="j10403bg"> ڊسپينسر/ڪمپائونڊر</string>
     <string name="j10403bx"> (ٻيو ڪو (وضاحت ڪريو</string>
 
-    <string name="j10404"> J10404:\t (پينٽا ون جي پهرين خوراڪ( ڏينهن مهينو سال</string>
+    <string name="j10404"> J10404:\t پينٽا ون جي پهرين خوراڪ (ڏينهن مهينو سال) </string>
     <string name="j10404d"> ڏينھن </string>
     <string name="j10404m"> مھينو </string>
     <string name="j10404y"> سال </string>
 
-    <string name="j10404a"> J10404a:\t پينٽا ويلنٽ جي پهرين خوراڪ( ڏينهن مهينو سال)</string>
-    <string name="j10404aa"> سرڪار صحت مرڪز</string>
-    <string name="j10404ab"> پرائيويٽ صحت مرڪز</string>
+    <string name="j10404a"> J10404a:\t  پينٽا ويلنٽ جي پهرين خوراڪ (ڏينهن مهينو سال) </string>
+    <string name="j10404aa"> سرڪار صحت مرڪز </string>
+    <string name="j10404ab"> پرائيويٽ صحت مرڪز </string>
     <string name="j10404ac"> ٽڪن جو مرڪز </string>
-    <string name="j10404ad"> ماءُ ۽ ٻار جي صحت جو مرڪز</string>
-    <string name="j10404ae"> اين جي او صحت مرڪز</string>
-    <string name="j10404af"> ٻار جي ٽڪن وارو ھفتو</string>
+    <string name="j10404ad"> ماءُ ۽ ٻار جي صحت جو مرڪز </string>
+    <string name="j10404ae"> اين جي او صحت مرڪز </string>
+    <string name="j10404af"> ٻار جي ٽڪن وارو ھفتو </string>
+
     <string name="j10404b"> J10404b:\t ويڪسين ڪنھن لڳائي؟</string>
     <string name="j10404ba"> ڊاڪٽر</string>
     <string name="j10404bb"> ليڊي ھيلٿ ورڪر</string>
@@ -1478,13 +1512,14 @@
     <string name="j10409m"> مھينو </string>
     <string name="j10409y"> سال </string>
 
-    <string name="j10409a"> J10409a:\t نالو) پي سي وي جي ويڪسين ڪٿان لڳرائي؟)</string>
+    <string name="j10409a"> J10409a:\t (نالو) پي سي وي جي ويڪسين ڪٿان لڳرائي ؟ </string>
     <string name="j10409aa"> سرڪار صحت مرڪز</string>
     <string name="j10409ab"> پرائيويٽ صحت مرڪز</string>
     <string name="j10409ac"> ٽڪن جو مرڪز </string>
     <string name="j10409ad"> ماءُ ۽ ٻار جي صحت جو مرڪز</string>
     <string name="j10409ae"> اين جي او صحت مرڪز</string>
     <string name="j10409af"> ٻار جي ٽڪن وارو ھفتو</string>
+
     <string name="j10409b"> J10409b:\t ويڪسين ڪنھن لڳائي؟</string>
     <string name="j10409ba"> ڊاڪٽر</string>
     <string name="j10409bb"> ليڊي ھيلٿ ورڪر</string>
@@ -1530,6 +1565,7 @@
     <string name="j10411ad"> ماءُ ۽ ٻار جي صحت جو مرڪز</string>
     <string name="j10411ae"> اين جي او صحت مرڪز</string>
     <string name="j10411af"> ٻار جي ٽڪن وارو ھفتو</string>
+
     <string name="j10411b"> J10411b:\t ڦڙا ڪنھن پياريا؟</string>
     <string name="j10411ba"> ڊاڪٽر</string>
     <string name="j10411bb"> ليڊي ھيلٿ ورڪر</string>
@@ -1667,17 +1703,17 @@
     <string name="j10417ae"> اين جي او صحت مرڪز</string>
     <string name="j10417af"> ٻار جي ٽڪن وارو ھفتو</string>
 
-    <string name="j10417b"> J10417b:\t ويڪسين ڪنھن لڳائي؟</string>
-    <string name="j10417ba"> ڊاڪٽر</string>
-    <string name="j10417bb"> ليڊي ھيلٿ ورڪر</string>
-    <string name="j10417bc"> ليڊي ھيلٿ وزيٽر</string>
-    <string name="j10417bd"> اين جي او ورڪر</string>
-    <string name="j10417be"> ويڪسينيٽر</string>
-    <string name="j10417bf"> ڪميونٽي ھيلٿ ورڪر</string>
-    <string name="j10417bg"> ڊسپينسر/ڪمپائونڊر</string>
-    <string name="j10417bx"> (ٻيو ڪو (وضاحت ڪريو</string>
+    <string name="j10417b"> J10417b:\t ويڪسين ڪنھن لڳائي ؟ </string>
+    <string name="j10417ba"> ڊاڪٽر </string>
+    <string name="j10417bb"> ليڊي ھيلٿ ورڪر </string>
+    <string name="j10417bc"> ليڊي ھيلٿ وزيٽر </string>
+    <string name="j10417bd"> اين جي او ورڪر </string>
+    <string name="j10417be"> ويڪسينيٽر </string>
+    <string name="j10417bf"> ڪميونٽي ھيلٿ ورڪر </string>
+    <string name="j10417bg"> ڊسپينسر/ڪمپائونڊر </string>
+    <string name="j10417bx"> ٻيو  </string>
 
-    <string name="j105"> J105:\t لکيل آھي ؟ J104 چيڪ ڪريو ته بي سي جي کان ميزل 2 تائين سڀ ويڪسين لڳل آھن يا ريڪارڊ </string>
+    <string name="j105"> J105:\t چيڪ ڪريو ته بي سي جي کان ميزل 2 تائين سڀ ويڪسين لڳل آھن يا ريڪارڊ لکيل آھي ؟ J104 </string>
     <string name="j105a"> ھا </string>
     <string name="j105b"> نه </string>
 
@@ -1755,9 +1791,9 @@
 
     <string name="j123"> J123:\t ٻار کي ويڪسين ڇو نه لڳرائي وئي ؟ </string>
     <string name="j123hint"> ٻڌايل سڀنين سببن کي رڪارڊ ڪريو پر فوري طور تي ڪنهن مخصوص وجھ تي نه وڃو ماءُ کي تمام سبب فراهم ڪرڻ جي ترغيب ڏيو </string>
-    <string name="j123a"> ٽڪن لڳرائڻ وارو صحت مرڪز جوپري ھجڻ</string>
-    <string name="j123b"> ٽڪن جو وقت غير مناسب ھجڻ</string>
-    <string name="j123c"> ماءُ تمام گھڻي مصروف ھئي</string>
+    <string name="j123a"> ٽڪن لڳرائڻ وارو صحت مرڪز جوپري ھجڻ </string>
+    <string name="j123b"> ٽڪن جو وقت غير مناسب ھجڻ </string>
+    <string name="j123c"> ماءُ تمام گھڻي مصروف ھئي </string>
     <string name="j123d"> گهريلو مسئلا يا ماءُ جي بيماري </string>
     <string name="j123e"> ٻار بيماري جي ڪري نه ويو </string>
     <string name="j123f"> بيماري جي ڪري ٻار کي ويڪسين نه ٿي </string>
@@ -1766,14 +1802,15 @@
     <string name="j123i"> ٽڪن تي يقين نه ھجڻ </string>
     <string name="j123j"> منفي اثرن جو خوف </string>
     <string name="j123k"> ٽڪن جي صحت مرڪز جي خبر نه ھجڻ </string>
-    <string name="j123l"> ٻار کي موڪليو ويو پر ويڪسين نه ٿي</string>
+    <string name="j123l"> ٻار کي موڪليو ويو پر ويڪسين نه ٿي </string>
     <string name="j123m"> ٻار کي موڪليو ويو پر ويڪسينيٽر نه ھو </string>
     <string name="j123n"> ٻار کي موڪليو ويو پر صحت مرڪز بند ھو </string>
     <string name="j123o"> ٻار بيمار ھو </string>
     <string name="j123p"> ٻار کي موڪليو ويو پر ٽڪن جو ڏينھن نه ھو </string>
-    <string name="j123x"> (ٻيو ڪجھه (وضاحت ڪريو</string>
+    <string name="j123x"> (ٻيو ڪجھه (وضاحت ڪريو </string>
 
 
+    <!-- SECTION - K -->
     <string name="k101"> K101:\t ڇا توھان ڪڏھن به حمل کي روڪڻ واري طريقي جي باري ۾ ٻڌو آھي ؟ </string>
     <string name="k101a"> ھا </string>
 
@@ -1819,16 +1856,16 @@
     <string name="k105"> K105:\t توھان اھو طريقو ڪٿان حاصل ڪيو ؟ </string>
     <string name="k105a"> سرڪاري صحت مرڪز </string>
 
-    <string name="k105aa"> k105aa:\t ڪڏھن کان توھان ڪو طريقو استعمال ڪرڻ کان علاوه ھن کي روڪي رھيا آھيو؟</string>
-    <string name="k105aaa"> مهينا</string>
-    <string name="k105aab"> سال</string>
+    <string name="k105aa"> K105aa:\t ڪڏھن کان توھان ڪو طريقو استعمال ڪرڻ کان علاوه ھن کي روڪي رھيا آھيو ؟ </string>
+    <string name="k105aaa"> مهينا </string>
+    <string name="k105aab"> سال </string>
     <string name="k105aac"> ھاڻي استعمال روڪي ڇڏيو آھي </string>
     <string name="k105b"> خانداني فلاحي مرڪز </string>
     <string name="k105c"> موبائل سروس مھم </string>
     <string name="k105d"> ليڊي ھيلٿ ورڪر </string>
     <string name="k105e"> ليڊي ھيلٿ وزيٽر </string>
     <string name="k105f"> پرائيويٽ / خانداني صحت مرڪز </string>
-    <string name="k105g"> ميڊيڪل اسٽور / ڪيمسٽ</string>
+    <string name="k105g"> ميڊيڪل اسٽور / ڪيمسٽ </string>
     <string name="k105h"> دوست / مائٽ </string>
     <string name="k105i"> دائي / ٽي بي اي </string>
 
@@ -1841,13 +1878,13 @@
     <string name="k106f"> صحت مرڪز پري آھي </string>
     <string name="k106g"> طريقي ڪار مهانگو آھي </string>
     <string name="k106h"> مڙس جي اجازت نه ھئي </string>
-    <string name="k106x"> (ٻيو ڪو (وضآحت ڪريو </string>
+    <string name="k106x"> ٻيو ڪجھ </string>
 
     <string name="k107"> K107:\t ڇا ليڊي هيلٿ ورڪر حمل روڪڻ لاءِ ڪا گوري ڏني يا ٻيو ڪو طريقي ڪار بابت ٻڌايو ؟ </string>
     <string name="k107a"> ھا </string>
     <string name="k107b"> نه </string>
 
-    <string name="k108"> k108:\t ڇا ليڊي هيلٿ ورڪر صحت جي حوالي سان توھان ۽ توھان جي مڙس  ڪا ميٽنگ ڪئي ؟ </string>
+    <string name="k108"> K108:\t ڇا ليڊي هيلٿ ورڪر صحت جي حوالي سان توھان ۽ توھان جي مڙس  ڪا ميٽنگ ڪئي ؟ </string>
     <string name="k108a"> ھا </string>
     <string name="k108b"> نه </string>
     <string name="k108c"> ڳوٺ وارن سان معمول مطابق ميٽنگ </string>
@@ -1856,6 +1893,8 @@
     <string name="k109a"> ھا </string>
     <string name="k109ab"> نه </string>
 
+
+    <!-- SECTION - L -->
     <string name="l101"> L101:\t ڇا توھان کي پنھنجي موبائل فون آھي ؟ </string>
     <string name="l101a"> ھا </string>
     <string name="l101b"> نه </string>
@@ -1864,7 +1903,7 @@
     <string name="l102a"> ھا </string>
     <string name="l102b"> نه </string>
 
-    <string name="l103"> L103:\t جيڪڏھن توھان گذريل ستن ڏينهن ۾ ڪو ڪم نه ڪيو آھي پر ڇا توھان کي ڪا نوڪري يا ڪو ڪاروبار آھي جٿان توھان خدانه خواسته ڪنهن بيماري، موڪلون، ڊليوري جي ڪري يا ڪنهن ٻي سبب جري موڪل ڪئي ھجي؟</string>
+    <string name="l103"> L103:\t جيڪڏھن توھان گذريل ستن ڏينهن ۾ ڪو ڪم نه ڪيو آھي پر ڇا توھان کي ڪا نوڪري يا ڪو ڪاروبار آھي جٿان توھان خدانه خواسته ڪنهن بيماري، موڪلون، ڊليوري جي ڪري يا ڪنهن ٻي سبب جري موڪل ڪئي ھجي ؟ </string>
     <string name="l103a"> ھا </string>
     <string name="l103b"> نه </string>
 
@@ -1874,111 +1913,124 @@
     <string name="l104c"> پنهنجو ڪاروبار </string>
     <string name="l104d"> خاندان لاءِ ڪم </string>
     <string name="l104e"> ٻين لاءِ ڪم </string>
-    <string name="l104x"> (ٻيو ڪجھ (وضاحت ڪريو </string>
+    <string name="l104x"> ٻيو ڪجھ </string>
 
-    <string name="l105"> l105:\t ڇا توھان کي ان نوڪري جي عيوض ڪجھ ادا ڪيو ويندو آھي؟</string>
-    <string name="l105a"> نقدي رقم</string>
-    <string name="l105b"> سامان جي صورت ۾</string>
-    <string name="l105c"> ٻنهي ۾نقد رقم ۽ سامان جي صورت ۾</string>
+    <string name="l105"> L105:\t ڇا توھان کي ان نوڪري جي عيوض ڪجھ ادا ڪيو ويندو آھي ؟ </string>
+    <string name="l105a"> نقدي رقم </string>
+    <string name="l105b"> سامان جي صورت ۾ </string>
+    <string name="l105c"> ٻنهي ۾ نقد رقم ۽ سامان جي صورت ۾ </string>
     <string name="l105d"> ڪجهه به ادا نه ڪيو ويندو آھي </string>
 
-    <string name="l106"> l106:\t اڪثر ڪري اھو فيصلو ڪير ڪندو آھي ته توھان جي ڪمائيءَ کي ڪئين استعمال ڪئي وڃي؟</string>
-    <string name="l106a"> جواب ڏيندڙ</string>
-    <string name="l106b"> مڙس</string>
-    <string name="l106c"> گڏجي</string>
-    <string name="l106d"> (ٻيو ڪو (وضاحت ڪريو</string>
+    <string name="l106"> L106:\t اڪثر ڪري اھو فيصلو ڪير ڪندو آھي ته توھان جي ڪمائيءَ کي ڪئين استعمال ڪئي وڃي ؟ </string>
+    <string name="l106a"> جواب ڏيندڙ </string>
+    <string name="l106b"> مڙس </string>
+    <string name="l106c"> گڏجي </string>
+    <string name="l106d"> ٻيو ڪو </string>
 
-    <string name="l107"> l107:\t اڪثر ڪري اھو فيصلو ڪير ڪندو آھي ته توھان جي مڙس جي ڪمائيءَ کي ڪئين استعمال ڪئي وڃي؟</string>
-    <string name="l107a"> جواب ڏيندڙ</string>
-    <string name="l107b"> مڙس</string>
-    <string name="l107c"> گڏجي</string>
-    <string name="l107d"> مڙس نه ڪمائيندو آھي</string>
-    <string name="l107x"> (ٻيو ڪو (وضاحت ڪريو</string>
+    <string name="l107"> L107:\t اڪثر ڪري اھو فيصلو ڪير ڪندو آھي ته توھان جي مڙس جي ڪمائيءَ کي ڪئين استعمال ڪئي وڃي ؟ </string>
+    <string name="l107a"> جواب ڏيندڙ </string>
+    <string name="l107b"> مڙس </string>
+    <string name="l107c"> گڏجي </string>
+    <string name="l107d"> مڙس نه ڪمائيندو آھي </string>
+    <string name="l107x"> ٻيو ڪجھ </string>
 
-    <string name="l108"> l108:\t اڪثر ڪري توھان جي صحت جي سارسنڀال جي حوالي سان فيصلو ڪير ڪندو آھي؟</string>
-    <string name="l108a"> جواب ڏيندڙ</string>
-    <string name="l108b"> مڙس</string>
-    <string name="l108c"> گڏجي</string>
-    <string name="l108x"> (ٻيو ڪو (وضاحت ڪريو</string>
+    <string name="l108"> L108:\t اڪثر ڪري توھان جي صحت جي سارسنڀال جي حوالي سان فيصلو ڪير ڪندو آھي ؟ </string>
+    <string name="l108a"> جواب ڏيندڙ </string>
+    <string name="l108b"> مڙس </string>
+    <string name="l108c"> گڏجي </string>
+    <string name="l108x"> ٻيو ڪجھ </string>
 
-    <string name="l109"> l109:\t اڪثر ڪري مٽ مائٽن ڏانھن وڃڻ لاءِ فيصلو ڪري ڪندو آھي؟ </string>
-    <string name="l109a"> جواب ڏيندڙ</string>
-    <string name="l109b"> مڙس</string>
-    <string name="l109c"> گڏجي</string>
-    <string name="l109x"> (ٻيو ڪو (وضاحت ڪريو</string>
+    <string name="l109"> L109:\t اڪثر ڪري مٽ مائٽن ڏانھن وڃڻ لاءِ فيصلو ڪري ڪندو آھي ؟ </string>
+    <string name="l109a"> جواب ڏيندڙ </string>
+    <string name="l109b"> مڙس </string>
+    <string name="l109c"> گڏجي </string>
+    <string name="l109x"> ٻيو ڪجھ </string>
 
-    <string name="l110"> l110:\t ڇا توھان وٽ پنهنجي يا ٻي ڪنهن سان گڏ ڪا ملڪيت آھي؟  جهڙوڪ گھر، زمين ، جائيداد</string>
-    <string name="l110a"> پنهنجي يا ذاتي</string>
-    <string name="l110b"> مڙس سان گڏ</string>
-    <string name="l110c"> ڪنهن ٻي سان گڏ</string>
-    <string name="l110d"> پنهنجي نه آھي</string>
+    <string name="l110"> L110:\t ڇا توھان وٽ پنهنجي يا ٻي ڪنهن سان گڏ ڪا ملڪيت آھي ؟  جهڙوڪ گھر، زمين ، جائيداد </string>
+    <string name="l110a"> پنهنجي يا ذاتي </string>
+    <string name="l110b"> مڙس سان گڏ </string>
+    <string name="l110c"> ڪنهن ٻي سان گڏ </string>
+    <string name="l110d"> پنهنجي نه آھي </string>
 
-    <string name="l111"> l111:\t ڇا توھان جو نالو ڪنهن گهر، زمين يا جائيداد حڪومت جي طرفان تصديق شده دستاويز تي آھي؟ </string>
+    <string name="l111"> L111:\t ڇا توھان جو نالو ڪنهن گهر، زمين يا جائيداد حڪومت جي طرفان تصديق شده دستاويز تي آھي ؟ </string>
     <string name="l111a"> ھا </string>
-    <string name="l111b"> نه</string>
+    <string name="l111b"> نه </string>
     <string name="l111c"> خبر نه آھي </string>
-    <string name="l111d"> ڪو به اهڙو دستاويز نه آھي</string>
+    <string name="l111d"> ڪو به اهڙو دستاويز نه آھي </string>
 
-    <string name="l112"> l112:\t توھان جي خيال مطابق ڇا ھڪ مڙس کي پنهنجي زال کي هيٺ ڏنل حالتن ۾ مارڻ گھرجي؟</string>
-    <string name="l112a"> l112a:\t 1.	مڙس کي ٻڌائڻ کان سواءِ ٻاهر وڃڻ؟</string>
-    <string name="l112aa"> ھا</string>
-    <string name="l112ab"> نه</string>
-    <string name="l112ac"> خبر نه آھي</string>
 
-    <string name="l112b"> l112b:\t 1.	مڙس کي ٻڌائڻ کان سواءِ ٻاهر وڃڻ؟</string>
-    <string name="l112ba"> ھا</string>
-    <string name="l112bb"> نه</string>
-    <string name="l112bc"> خبر نه آھي</string>
+    <string name="l112"> L112:\t توھان جي خيال مطابق ڇا ھڪ مڙس کي پنهنجي زال کي هيٺ ڏنل حالتن ۾ مارڻ گھرجي ؟ </string>
 
-    <string name="l112c"> l112c:\t مڙس سان بحث ڪري؟</string>
-    <string name="l112ca"> ھا</string>
-    <string name="l112cb"> نه</string>
-    <string name="l112cc"> خبر نه آھي</string>
-    <string name="l112d"> l112d:\t مڙس سان جنسي تعلقات نه رکڻ؟</string>
-    <string name="l112da"> ھا</string>
-    <string name="l112db"> نه</string>
-    <string name="l112dc"> خبر نه آھي</string>
-    <string name="l112e"> l112e:\t کاڌو ساڙي ڇڏڻ؟</string>
-    <string name="l112ea"> ھا</string>
-    <string name="l112eb"> نه</string>
-    <string name="l112ec"> خبر نه آھي</string>
-    <string name="l113"> l113:\t وسيلن جي دستيابي لاء انساني آزادي جي لاء هڪ خاص خاصيت آهي. ذريعن کي عورتن جي رسائي حاصل ڪرڻ لاء بنيادي اجزاء هيٺ ڏنل آهي</string>
-    <string name="l113a"> l113a:\t قرض پروگرام جي ڄاڻ</string>
-    <string name="l113aa"> ھا</string>
-    <string name="l113ab"> نه</string>
-    <string name="l113ac"> خبر نه آھي</string>
-    <string name="l113b"> l113b:\t قرض حاصل ڪرڻ</string>
-    <string name="l113ba"> ھا</string>
-    <string name="l113bb"> نه</string>
-    <string name="l113bc"> خبر نه آھي</string>
-    <string name="l113c"> l113c:\t بئنڪ اڪائونٽ هجڻ</string>
-    <string name="l113ca"> ھا</string>
-    <string name="l113cb"> نه</string>
-    <string name="l113cc"> خبر نه آھي</string>
-    <string name="l113d"> l113d:\t گهر کان ٻاهر ڪم جي آزادي</string>
+    <string name="l112a"> L112a:\t	 مڙس کي ٻڌائڻ کان سواءِ ٻاهر وڃڻ ؟</string>
+    <string name="l112aa"> ھا </string>
+    <string name="l112ab"> نه </string>
+    <string name="l112ac"> خبر نه آھي </string>
+
+    <string name="l112b"> L112b:\t	 ٻارن کي نظر انداز ڪرڻ ؟</string>
+    <string name="l112ba"> ھا </string>
+    <string name="l112bb"> نه </string>
+    <string name="l112bc"> خبر نه آھي </string>
+
+    <string name="l112c"> L112c:\t مڙس سان بحث ڪري ؟ </string>
+    <string name="l112ca"> ھا </string>
+    <string name="l112cb"> نه </string>
+    <string name="l112cc"> خبر نه آھي </string>
+
+    <string name="l112d"> L112d:\t مڙس سان جنسي تعلقات نه رکڻ ؟ </string>
+    <string name="l112da"> ھا </string>
+    <string name="l112db"> نه </string>
+    <string name="l112dc"> خبر نه آھي </string>
+
+    <string name="l112e"> L112e:\t کاڌو ساڙي ڇڏڻ ؟ </string>
+    <string name="l112ea"> ھا </string>
+    <string name="l112eb"> نه </string>
+    <string name="l112ec"> خبر نه آھي </string>
+
+    <string name="l113"> L113:\t وسيلن جي دستيابي لاء انساني آزادي جي لاء هڪ خاص خاصيت آهي. ذريعن کي عورتن جي رسائي حاصل ڪرڻ لاء بنيادي اجزاء هيٺ ڏنل آهي </string>
+
+    <string name="l113a"> L113a:\t قرض پروگرام جي ڄاڻ </string>
+    <string name="l113aa"> ھا </string>
+    <string name="l113ab"> نه </string>
+    <string name="l113ac"> خبر نه آھي </string>
+
+    <string name="l113b"> L113b:\t قرض حاصل ڪرڻ </string>
+    <string name="l113ba"> ھا </string>
+    <string name="l113bb"> نه </string>
+    <string name="l113bc"> خبر نه آھي </string>
+
+    <string name="l113c"> L113c:\t بئنڪ اڪائونٽ هجڻ </string>
+    <string name="l113ca"> ھا </string>
+    <string name="l113cb"> نه </string>
+    <string name="l113cc"> خبر نه آھي </string>
+
+    <string name="l113d"> L113d:\t گهر کان ٻاهر ڪم جي آزادي </string>
     <string name="l113da"> ھا</string>
     <string name="l113db"> نه</string>
     <string name="l113dc"> خبر نه آھي</string>
-    <string name="l114"> l114:\t ڇا توھان خانداني منصوبه بندي جي طريقي ڪار جي استعمال ڪرڻ جو فيصلو ڪيو؟</string>
-    <string name="l114a"> ھا</string>
-    <string name="l114b"> نه</string>
-    <string name="l114c"> مڙس سان گڏجي</string>
-    <string name="l114x"> (ٻيو ڪو (وضاحت ڪريو</string>
-    <string name="l115"> l115:\t ڇا توھان اهو فيصلو ڪري سگھو ٿا ته توھان کي ڪيترا ٻار هجڻ گهرجن؟</string>
-    <string name="l115a"> ھا</string>
-    <string name="l115b"> نه</string>
-    <string name="l115c"> مڙس سان گڏجي</string>
-    <string name="l115x"> (ٻيو ڪو (وضاحت ڪريو</string>
-    <string name="l116"> l116:\t ڇا توھان پنهنجي ٻارن جي تعليم جو فيصلو ڪري سگھو ٿا؟</string>
-    <string name="l116a"> ھا</string>
-    <string name="l116b"> نه</string>
-    <string name="l116c"> مڙس سان گڏجي</string>
-    <string name="l116x"> (ٻيو ڪو (وضاحت ڪريو</string>
-    <string name="l117"> l117:\t ڇا توھان پنهنجي ٻارن جي صحت جو فيصلو ڪري سگھو ٿا؟</string>
-    <string name="l117a"> ھا</string>
-    <string name="l117b"> نه</string>
-    <string name="l117c"> مڙس سان گڏجي</string>
-    <string name="l117x"> (ٻيو ڪو (وضاحت ڪريو</string>
+
+    <string name="l114"> L114:\t ڇا توھان خانداني منصوبه بندي جي طريقي ڪار جي استعمال ڪرڻ جو فيصلو ڪيو ؟ </string>
+    <string name="l114a"> ھا </string>
+    <string name="l114b"> نه </string>
+    <string name="l114c"> مڙس سان گڏجي </string>
+    <string name="l114x"> ٻيو ڪجھ </string>
+
+    <string name="l115"> L115:\t ڇا توھان اهو فيصلو ڪري سگھو ٿا ته توھان کي ڪيترا ٻار هجڻ گهرجن ؟ </string>
+    <string name="l115a"> ھا </string>
+    <string name="l115b"> نه </string>
+    <string name="l115c"> مڙس سان گڏجي </string>
+    <string name="l115x"> ٻيو ڪجھ </string>
+
+    <string name="l116"> L116:\t ڇا توھان پنهنجي ٻارن جي تعليم جو فيصلو ڪري سگھو ٿا ؟ </string>
+    <string name="l116a"> ھا </string>
+    <string name="l116b"> نه </string>
+    <string name="l116c"> مڙس سان گڏجي </string>
+    <string name="l116x"> ٻيو ڪجھ </string>
+
+    <string name="l117"> L117:\t ڇا توھان پنهنجي ٻارن جي صحت جو فيصلو ڪري سگھو ٿا ؟ </string>
+    <string name="l117a"> ھا </string>
+    <string name="l117b"> نه </string>
+    <string name="l117c"> مڙس سان گڏجي </string>
+    <string name="l117x"> ٻيو ڪجھ </string>
 
     <string name="m101"> M101:\t ڇا کاڌو اڪثر ڪري گھر جي اندر، الڳ جاءِ تي يا گھر کان ٻاھر پچايو ويندو آھي ؟ </string>
     <string name="m101a"> گھر جي اندر </string>
@@ -1998,36 +2050,36 @@
     <string name="m103d">  ڪاٺ جا تختا</string>
     <string name="m103e"> بانس </string>
     <string name="m103f"> ڪاٺ </string>
-    <string name="m103f_title"> تيار فرش/ ڪاٺ جو فرش يا پالش والي ڪاٺي</string>
+    <string name="m103f_title"> تيار فرش / ڪاٺ جو فرش يا پالش والي ڪاٺي </string>
     <string name="m103g"> اسفالٽ سٽرپس </string>
     <string name="m103h"> ٽائلس </string>
     <string name="m103i"> سيمينٽ </string>
     <string name="m103j"> قالين </string>
     <string name="m103k"> چپس </string>
     <string name="m103l"> سرون </string>
-    <string name="m103m">تڏو </string>
+    <string name="m103m"> تڏو </string>
     <string name="m103n"> ماربل </string>
 
     <string name="m104"> M104:\t ڇت ڪهڙي قسم جي آهي </string>
     <string name="m104hint"> مشاھدو ڪريو: </string>
     <string name="m104a"> ڇت ڪونهي </string>
-    <string name="m104a_title">ڇت </string>
-    <string name="m104b"> </string>
+    <string name="m104a_title"> ڇت </string>
+    <string name="m104b"> کجي جي ڦرن جي </string>
     <string name="m104c"> ڪکا / گاه </string>
     <string name="m104d"> رسٽڪ ڇٽائي </string>
-    <string name="m104d_title">تختي جي چتائي </string>
+    <string name="m104d_title"> تختي جي چتائي </string>
     <string name="m104e"> بانسن جي </string>
     <string name="m104f"> ڪاٺين جون تختيون </string>
     <string name="m104g"> ڪاغذن جي / گتن جي </string>
     <string name="m104h"> لوهه جا پتر </string>
-    <string name="m104h_title"> تيار ڇت</string>
+    <string name="m104h_title"> تيار ڇت </string>
     <string name="m104i"> پڪيون سرون </string>
-    <string name="m104j"> </string>
-    <string name="m104k"> ڪاٺ /ٽي آئرن / مٽي </string>
+    <string name="m104j"> پڪي </string>
+    <string name="m104k"> ڪاٺ / ٽي آئرن / مٽي </string>
     <string name="m104l"> سيمينٽ فائبر </string>
-    <string name="m104m"> پڪي </string>
+    <string name="m104m"> سيمينٽ جي </string>
     <string name="m104n"> ٽائلس </string>
-    <string name="m104o"> پڪيون سرون </string>
+    <string name="m104o"> ڇت سازي </string>
 
     <string name="m105"> M105:\t ڀتيون ڪهڙي قسم جون آهن ؟ </string>
     <string name="m105hint"> مشاھدو ڪريو: </string>
@@ -2220,7 +2272,7 @@
     <string name="m116d"> بلوچي </string>
     <string name="m116e"> سرائيڪي </string>
     <string name="m116f"> برائھوي </string>
-    <string name="m116g"> بروشڪي </string>
+    <string name="m116g"> لاسي </string>
     <string name="m116h"> پشتو </string>
 
     <string name="n101"> N101:\t توهان جي گھر ۾ پيئڻ جو پاڻي جو مکيه ذريعو ڪھڙو آهي ؟ </string>
@@ -2274,11 +2326,11 @@
 
     <string name="n105"> N105:\t توھان جي گھر مان اڪثر ڪري ڪير پاڻي ڀرڻ ويندو آھي ؟ </string>
     <string name="n105hint"> پڇا ڪيو ته ڇا اھو ماڻھو 15 سالن جي عمر کان گھٽ آھي ؟ جنس ڇا آھي ؟ </string>
-    <string name="n105a"> عورت (عمر 05 سالن کان وڌيڪ) </string>
-    <string name="n105b"> مرد (عمر 05 سالن کان وڌيڪ) </string>
-    <string name="n105c"> عورت (عمر 05 سالن کان گھٽ) </string>
-    <string name="n105d"> مرد (عمر 05 سالن کان گھٽ) </string>
-    <string name="n105e">جيڪو به موجود هجي</string>
+    <string name="n105a"> عورت (عمر 15 سالن کان وڌيڪ) </string>
+    <string name="n105b"> مرد (عمر 15 سالن کان وڌيڪ) </string>
+    <string name="n105c"> عورت (عمر 15 سالن کان گھٽ) </string>
+    <string name="n105d"> مرد (عمر 15 سالن کان گھٽ) </string>
+    <string name="n105e"> جيڪو به موجود هجي </string>
     <string name="n105f"> خبر نه آھي </string>
 
     <string name="n106"> N106:\t جيڪو پاڻي توھان گھر ۾ استعمال ڪندا آھيو ڇا ان جو ذائقو مٺو يا کارو آھي ؟ </string>
@@ -2313,8 +2365,8 @@
     <string name="n110d"> ٻاهر اڇلائڻ </string>
     <string name="n110e"> اڻ سڃاتل جڳھ تي / پڪ نه آھي / خبر نه آھي ڪٿي </string>
     <string name="n110f"> هوادار بهتر کڏي وارو ڪاڪوس </string>
-    <string name="n110f_title">کڏي وارو ليٽرين</string>
-    <string name="n110g"> گھر جي ٻاهر پاڻي جي لائن اچي ٿي </string>
+    <string name="n110f_title"> کڏي وارو ليٽرين </string>
+    <string name="n110g"> کڏي وارو ڍڪيل ڪاڪوس </string>
     <string name="n110h"> کڏي وارو بنا ڍڪيل / کليل </string>
     <string name="n110i"> ڪمپوزٽنگ ٽوائلٽ </string>
     <string name="n110j"> ٽوڪري وارو ڪاڪوس </string>
@@ -2358,7 +2410,7 @@
     <string name="o104b"> صابڻ (پائوڊر / ملائم چيز / پيسٽ) </string>
     <string name="o104c"> ملائم صابڻ </string>
     <string name="o104d"> چيڪي مٽي </string>
-    <string name="o104x"> ٻيو ڪجھ (وضاحت ڪريو)  </string>
+    <string name="o104x"> ٻيو ڪجھ  </string>
 
     <string name="o105"> O105:\t ڇا توهان وٽ گھر ۾ هٿ ڌوئڻ لاءِ صابڻ موجود آهي ؟ </string>
     <string name="o105a"> ھا </string>
@@ -2374,7 +2426,7 @@
     <string name="o107b"> صابڻ (پائوڊر / ملائم چيز / پيسٽ) </string>
     <string name="o107c"> ملائم صابڻ </string>
     <string name="o107d"> چيڪي مٽي </string>
-    <string name="o107x">ٻيو ڪجھ (وضاحت ڪريو)  </string>
+    <string name="o107x"> ٻيو ڪجھ </string>
 
     <string name="o108"> O108:\t انٽرويو جو نتيجو </string>
     <string name="o108a"> مڪمل ٿيو </string>
@@ -2384,11 +2436,11 @@
     <string name="o108e"> رڪيل </string>
     <string name="o108f"> گھر کالي ھو </string>
     <string name="o108g"> مڪمل نه ٿيو </string>
-    <string name="o108x"> ٻيو ڪجھ (وضاحت ڪريو) </string>
+    <string name="o108x"> ٻيو ڪجھ </string>
 
     <string name="end_interview"> انٽرويو جو خاتمو </string>
     <string name="start_interview"> انٽرويو شروع ڪيو </string>
-    <string name="nextSection"> ٻيو </string>
+    <string name="nextSection"> ايندڙ سيڪشن </string>
     <string name="nextPregnancy"> Next Pregnancy </string>
     <string name="nextMortality"> Next Mortality </string>
 
