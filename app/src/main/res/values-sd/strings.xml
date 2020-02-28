@@ -138,13 +138,13 @@
     <string name="d102a"> نالو: مھرباني ڪري مون کي پنھنجي گھر ڀاتين جا نالا ٻڌايو جيڪي اڪثر ڪري ھن گھر ۾ رھن ٿا.  گھر جي سربراھ کان نالا لکڻ شروع ڪيو. </string>
 
     <string name="d103"> D103:\t گھر جي سربراھ سان رشتو:  </string>
-    <string name="d103hint"> (نالو) جو گھر جي سربراھ سان ڪھڙو رشتو آھي؟ </string>
+    <string name="d103hint"> (نالو) جو گھر جي سربراھ سان ڪھڙو رشتو آھي ؟ </string>
     <string name="d103a"> گهر جو سربراھ </string>
     <string name="d103b"> زال / مڙس </string>
     <string name="d103c"> پُٽُ / ڌيءُ </string>
     <string name="d103d"> نياڻو / ننھن </string>
     <string name="d103e"> پوٽاڻ / ڏوھٽاڻ </string>
-    <string name="d103f">" والدين "</string>
+    <string name="d103f"> والدين </string>
     <string name="d103g"> ساھورا </string>
     <string name="d103h"> ڀاءَ / ڀيڻ </string>
     <string name="d103i"> ڀيڻويو / سالي / ڀاڄائي / سنڍو </string>
@@ -155,7 +155,7 @@
     <string name="d103n"> گهر جو ملازم </string>
     <string name="d103o"> خبر نه آھي </string>
 
-    <string name="d104">" D104:\t   جنس : ڇا (نالو) مرد يا عورت آھي ؟ "</string>
+    <string name="d104"> D104:\t   جنس : ڇا (نالو) مرد يا عورت آھي ؟ </string>
     <string name="d104a"> مرد </string>
     <string name="d104b"> عورت </string>
 
@@ -212,9 +212,9 @@
     <string name="d111i"> ريٽائر </string>
     <string name="d111j"> لاڳو نه ٿو ٿئي </string>
 
-    <string name="d112"> D112:\t مڪمل گھر ڀاتين جو تعداد</string>
+    <string name="d112"> D112:\t مڪمل گھر ڀاتين جو تعداد </string>
 
-    <string name="d113"> D113:\t گھر ۾ مڪمل شادي شده عورتن جو تعداد</string>
+    <string name="d113"> D113:\t گھر ۾ مڪمل شادي شده عورتن جو تعداد </string>
 
     <string name="d114"> D114:\t گھر ۾ پنجن سالن کان گھٽ عمر وارن ٻارن جو تعداد </string>
 
@@ -224,12 +224,12 @@
 
     <string name="e100"> E100:\t عورت جو نالو </string>
 
-    <string name="e101"> E101:\t ڇا (عورت جو نالو) شادي کان پوءِ ڪڏھن به حمل سان ٿي</string>
+    <string name="e101"> E101:\t ڇا (عورت جو نالو) شادي کان پوءِ ڪڏھن به حمل سان ٿي </string>
 
-    <string name="e102"> E102:\t  توھان شادي کان پوءِ ڪيترا دفعه حمل سان ٿيا آھيو؟</string>
+    <string name="e102"> E102:\t  توھان شادي کان پوءِ ڪيترا دفعه حمل سان ٿيا آھيو ؟ </string>
     <string name="e101a"> ھا </string>
 
-    <string name="e102a"> E102a:\t توھان ھن وقت حمل سان آھيو؟</string>
+    <string name="e102a"> E102a:\t توھان ھن وقت حمل سان آھيو ؟ </string>
     <string name="e102aa"> ھا </string>
     <string name="e102ab"> نه </string>
     <string name="e101b"> نه </string>
@@ -243,18 +243,18 @@
     <string name="e104a"> ھڪ ٻار </string>
     <string name="e104b"> ھڪ کان وڌيڪ يا جاڙا ٻار </string>
 
-    <string name="e105"> E105:\t ڇا ٻار زندھ پيدا ٿيو، مئل پيدا ٿيو يا حمل ضايع ٿيو؟</string>
-    <string name="e105a"> (زندھ ڄائو (زندھ ٻار </string>
+    <string name="e105"> E105:\t ڇا ٻار زندھ پيدا ٿيو، مئل پيدا ٿيو يا حمل ضايع ٿيو ؟ </string>
+    <string name="e105a"> زندھ ڄائو (زندھ ٻار) </string>
     <string name="e105b"> مئل ڄائو (مئل ٻار) </string>
-    <string name="e105c"> جاڙا ٻار (ھڪ کان وڌيڪ)</string>
-    <string name="e105d"> ھڪ زندھ ھڪ مري ويو</string>
+    <string name="e105c"> جاڙا ٻار (ھڪ کان وڌيڪ) </string>
+    <string name="e105d"> ھڪ زندھ ھڪ مري ويو </string>
     <string name="e105e"> ٻئي مري ويا </string>
-    <string name="e105f"> حمل ضائع ٿيو</string>
+    <string name="e105f"> حمل ضائع ٿيو </string>
 
-    <string name="e106"> E106:\t نالو) ڪھڙي مھيني ۽ سال ۾ ڄائو؟  (نالو) جي سالگرھ جو پڇو)</string>
-    <string name="e106a"> ڏينھن</string>
-    <string name="e106b"> مھينو</string>
-    <string name="e106c"> سال</string>
+    <string name="e106"> E106:\t نالو) ڪھڙي مھيني ۽ سال ۾ ڄائو ؟ (نالو) جي سالگرھ جو پڇو) </string>
+    <string name="e106a"> ڏينھن </string>
+    <string name="e106b"> مھينو </string>
+    <string name="e106c"> سال </string>
 
     <string name="e107"> E107:\t ڇا (نالو) ڇوڪرو يا ڇوڪري آھي ؟ </string>
     <string name="e107a"> ڇوڪرو </string>
@@ -267,22 +267,22 @@
     <string name="e109"> E109:\t ٻار کي ڪھڙو نالو ڏنو ويو ؟ </string>
     <string name="e109hint"> جيڪڏھن ٻار کي  نالو نه ڏنو ويو آھي ته  ٻار 1، ٻار 2 لکو </string>
 
-    <string name="e110"> E110:\t نالو) جڏھن وفات ڪري ويو ته ان وقت ان جي عمر ڪيتري ھئي؟)</string>
-    <string name="e110a"> ڏينھن</string>
-    <string name="e110b"> مھينو</string>
-    <string name="e110c"> سال</string>
+    <string name="e110"> E110:\t نالو) جڏھن وفات ڪري ويو ته ان وقت ان جي عمر ڪيتري ھئي ؟) </string>
+    <string name="e110a"> ڏينھن </string>
+    <string name="e110b"> مھينو </string>
+    <string name="e110c"> سال </string>
 
     <string name="e111"> E111:\t نالو) جي وفات جو سبب ڇا ھو ؟) </string>
     <string name="e111a"> وقت کان اڳي پيدائش (37 ھفتن کان پھريان) </string>
-    <string name="e111b"> ساھ کڻڻ ۾ تڪليف  </string>
-    <string name="e111c"> انفيڪشن</string>
-    <string name="e111d"> نمونيا</string>
+    <string name="e111b"> ساھ کڻڻ ۾ تڪليف </string>
+    <string name="e111c"> انفيڪشن </string>
+    <string name="e111d"> نمونيا </string>
     <string name="e111e"> پيدائشي جھٽڪا لڳڻ </string>
-    <string name="e111f"> دست</string>
-    <string name="e111g"> بخار</string>
-    <string name="e111x"> (ٻيو ڪجھ (وضاحت ڪريو</string>
+    <string name="e111f"> دست </string>
+    <string name="e111g"> بخار </string>
+    <string name="e111x"> ٻيو ڪجھ (وضاحت ڪريو) </string>
 
-    <string name="e112"> E112:\t نالو) ڪٿي وفات ڪري ويو؟)</string>
+    <string name="e112"> E112:\t نالو) ڪٿي وفات ڪري ويو ؟) </string>
     <string name="e112a"> گھر ۾</string>
     <string name="e112b"> سرڪاري صحت مرڪز </string>
     <string name="e112c"> پرائيويٽ صحت مرڪز</string>
