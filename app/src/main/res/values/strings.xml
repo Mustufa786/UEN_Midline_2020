@@ -267,7 +267,7 @@
     <string name="e109"> E109:\t ٻار کي ڪھڙو نالو ڏنو ويو ؟ </string>
     <string name="e109hint"> جيڪڏھن ٻار کي  نالو نه ڏنو ويو آھي ته  ٻار 1، ٻار 2 لکو </string>
 
-    <string name="e110"> E110:\t نالو) جڏھن وفات ڪري ويو ته ان وقت ان جي عمر ڪيتري ھئي ؟) </string>
+    <string name="e110"> E110:\t (نالو) جڏھن وفات ڪري ويو ته ان وقت ان جي عمر ڪيتري ھئي ؟ </string>
     <string name="e110a"> ڏينھن </string>
     <string name="e110b"> مھينو </string>
     <string name="e110c"> سال </string>
