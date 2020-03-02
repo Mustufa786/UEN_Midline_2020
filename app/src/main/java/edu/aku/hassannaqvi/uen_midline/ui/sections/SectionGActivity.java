@@ -356,6 +356,8 @@ public class SectionGActivity extends AppCompatActivity {
 
         MainApp.kish.setsG(String.valueOf(json));
 
+        MainApp.G102 = bi.g102a.isChecked() ? "1" : "0";
+
     }
 
     private boolean formValidation() {

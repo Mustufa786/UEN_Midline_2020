@@ -37,6 +37,13 @@ public class SectionH2Activity extends AppCompatActivity {
 
     private void setupSkips() {
 
+        if (MainApp.G102.equals("1")) {
+            Clear.clearAllFields(bi.fldGrpCVh201);
+            bi.fldGrpCVh201.setVisibility(View.GONE);
+        } else {
+            bi.fldGrpCVh201.setVisibility(View.VISIBLE);
+        }
+
         //h202
         bi.h202.setOnCheckedChangeListener((group, checkedId) -> {
 
@@ -164,9 +171,11 @@ public class SectionH2Activity extends AppCompatActivity {
 
         JSONObject json = new JSONObject();
 
-        json.put("h201", bi.h201a.isChecked() ? "1" :
-                bi.h201b.isChecked() ? "2" :
-                        bi.h201c.isChecked() ? "3" : "0");
+        json.put("h201",
+                bi.h201a.isChecked() ? "1"
+                        : bi.h201b.isChecked() ? "2"
+                        : bi.h201c.isChecked() ? "3"
+                        : "0");
         json.put("h201h", bi.h201h.getText().toString());
         json.put("h201d", bi.h201d.getText().toString());
         json.put("h201w", bi.h201w.getText().toString());

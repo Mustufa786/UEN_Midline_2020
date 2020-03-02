@@ -85,6 +85,7 @@ public class MainApp extends Application {
     public static int deathCount = 0;
     public static String DeviceURL = "devices.php";
     public static String IMEI;
+    public static String G102;
     public static SharedPreferences sharedPref;
     public static String TAG = "AppMain";
     public static int noOfPragnencies = 0;
