@@ -76,7 +76,7 @@
                             android:text='@{h201a.checked ? h201h.getText().toString() : ""}'
                             android:visibility='@{h201a.checked ? View.VISIBLE : View.GONE}'
                             app:maxValue="23"
-                            app:minValue="1"
+                            app:minValue="0"
                             app:type="range" />
 
                         <com.edittextpicker.aliazaz.EditTextPicker
@@ -87,7 +87,7 @@
                             android:text='@{h201b.checked ? h201d.getText().toString() : ""}'
                             android:visibility='@{h201b.checked ? View.VISIBLE : View.GONE}'
                             app:maxValue="29"
-                            app:minValue="1"
+                            app:minValue="0"
                             app:type="range" />
 
                         <com.edittextpicker.aliazaz.EditTextPicker
@@ -98,7 +98,7 @@
                             android:text='@{h201c.checked ? h201w.getText().toString() : ""}'
                             android:visibility='@{h201c.checked ? View.VISIBLE : View.GONE}'
                             app:maxValue="3"
-                            app:minValue="1"
+                            app:minValue="0"
                             app:type="range" />
 
                     </LinearLayout>
