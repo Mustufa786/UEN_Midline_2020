@@ -598,11 +598,14 @@
     <string name="g111"> G111:\t ڇا توھان ڪلين ڊليوري ڪٽ لاءِ پئسا ڏنا؟</string>
     <string name="g111a"> ھا</string>
     <string name="g111b"> نه</string>
-    <string name="g112"> G112:\t توھان ڊليوري ڪٽ لاءِ ڪيترا پئسا ڏنا؟</string>
-    <string name="g113"> G113:\t ڇا (نالو) حمل جي دوران توھان کي ڪا دوا مائسوپروسٽول ڏني وئي جيڪا ڊليوري کان پوءِ رت جي وھڻ يا گھٽ ڪرڻ کان بچاءُ ڪندي آھي؟</string>
+
+    <string name="g112"> G112:\t توھان ڊليوري ڪٽ لاءِ ڪيترا پئسا ڏنا ؟</string>
+
+    <string name="g113"> G113:\t ڇا (نالو) حمل جي دوران توھان کي ڪا دوا مائسوپروسٽول ڏني وئي جيڪا ڊليوري کان پوءِ رت جي وھڻ يا گھٽ ڪرڻ کان بچاءُ ڪندي آھي ؟ </string>
     <string name="g113a"> ھا</string>
     <string name="g113b"> نه </string>
     <string name="g113c"> خبر نه آھي</string>
+
     <string name="g114"> G114:\t توھان مائسوپروسٽول ٽڪيون ڪٿان ورتي؟</string>
     <string name="g114a"> ڊاڪٽر</string>
     <string name="g114b"> ايل ايڇ وي (ليڊي ھيلٿ وزيٽر) </string>
@@ -612,19 +615,23 @@
     <string name="g114f"> (ايل ايڇ ڊبليو (ليڊي ھيلٿ ورڪر</string>
     <string name="g114g"> دائي / ٽي بي اي </string>
     <string name="g114h"> فارميسي / ميڊيڪل اسٽور</string>
-    <string name="g115"> G115:\t ڇا توھان مائسوپروسٽول ٽڪيون کاڌيون؟</string>
+
+    <string name="g115"> G115:\t ڇا توھان مائسوپروسٽول ٽڪيون کاڌيون ؟ </string>
     <string name="g115a"> ھا </string>
-    <string name="g115b"> نه</string>
-    <string name="g116"> G116:\t (توھان مائسوپروسٽرول ٽڪيون ڪڏھن کاڌيون؟  (سڀ جواب پڙھو ۽ ھڪ کي چونڊيو</string>
+    <string name="g115b"> نه </string>
+
+    <string name="g116"> G116:\t توھان مائسوپروسٽرول ٽڪيون ڪڏھن کاڌيون ؟  (سڀ جواب پڙھو ۽ ھڪ کي چونڊيو) </string>
     <string name="g116a"> ٻار جي پيدائش کان اڳ ۾ </string>
     <string name="g116b"> ٻار جي پيدائش کان پوءِ جلدي </string>
     <string name="g116c"> ٻار جي ڄمڻ کان پوءِ پر پليسنٽا جي اچڻ کان پھريان </string>
     <string name="g116d"> پلينسٽا جي ٻاھر اچڻ کان پوءِ </string>
     <string name="g116e"> ياد نه آھي </string>
-    <string name="g117"> G117:\t نالو) ڊليوري جي سورن ٿيڻ کان پيدائش تائين ڪيترو وقت لڳو؟)</string>
-    <string name="g117a"> ڏينھن</string>
-    <string name="g117b"> ڪلاڪ</string>
-    <string name="g117c"> منٽ</string>
+
+    <string name="g117"> G117:\t (نالو) ڊليوري جي سورن ٿيڻ کان پيدائش تائين ڪيترو وقت لڳو ؟ </string>
+    <string name="g117a"> ڏينھن </string>
+    <string name="g117b"> ڪلاڪ </string>
+    <string name="g117c"> منٽ </string>
+
     <string name="g118"> G118:\t نالو) جي ڊليوري جي سورن ٿيڻ کان وٺي پيدائش تائين توھان جو ٽوٽل ڪيترو خرچ ٿيو؟)</string>
     <string name="g119"> G119:\t نالو) ڊليوري دوران توھان کي مليل سھولتن مان توھان ڪيترو مطمئن آھيو؟)</string>
     <string name="g119a"> مطمئن</string>
@@ -639,6 +646,7 @@
     <string name="g120f"> سامان جي موجودگي</string>
     <string name="g120g"> مناسب فيس</string>
     <string name="g120x"> (ٻيو ڪجھ (وضاحت ڪريو</string>
+
     <string name="g121"> G121:\t اھي ڪھڙا بنيادي سبب آھن جن جي ڪري توھان (نالو) جي پيدائش تي انھن سھولتن کان ٿورو مطمئن يا غير مطمئن آھيو؟</string>
     <string name="g121a"> بد اخلاق عملو</string>
     <string name="g121b"> غير معياري سارسنڀال </string>
@@ -649,6 +657,7 @@
     <string name="g121g"> غير مناسب فيس</string>
     <string name="g121h"> رازداري جي ڪمي</string>
     <string name="g121x"> (ٻيو ڪجھ (وضاحت ڪريو</string>
+
     <string name="g122"> G122:\t ڇا توھان کي ڊليوري دوران ٿيندڙ خطرناڪ علامتن / پيچيدگين جي حوالي سان معلومات آھي؟</string>
     <string name="g122a"> ھا</string>
     <string name="g122b"> نه </string>
@@ -955,11 +964,12 @@
     <string name="h202a"> ھا</string>
     <string name="h202b"> نه</string>
 
-    <string name="h203"> H203:\t ڊليوري کان پوءِ ڪيتري دير بعد توھان جو پھريون دفعو طبي معائنو ڪيو ويو؟</string>
-    <string name="h204"> H204:\t ڊليوري کان پوءِ توھان پھريون طبي معائنو ڪٿان ڪرايو؟</string>
+    <string name="h203"> H203:\t ڊليوري کان پوءِ ڪيتري دير بعد توھان جو پھريون دفعو طبي معائنو ڪيو ويو ؟ </string>
+
+    <string name="h204"> H204:\t ڊليوري کان پوءِ توھان پھريون طبي معائنو ڪٿان ڪرايو ؟ </string>
     <string name="h204a"> سرڪاري صحت مرڪز </string>
     <string name="h204b"> پرائيويٽ صحت مرڪز </string>
-    <string name="h204c"> اين جي او  (NGO)صحت مرڪز </string>
+    <string name="h204c"> اين جي او (NGO) صحت مرڪز </string>
     <string name="h204d"> پيدائش اسٽيشن </string>
 
     <string name="h205"> H205:\t ڊليوري کان پوءِ توھان جو پھريون معائنو ڪنھن ڪيو؟</string>
