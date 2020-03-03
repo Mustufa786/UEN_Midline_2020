@@ -232,14 +232,13 @@
 
                             <com.edittextpicker.aliazaz.EditTextPicker
                                 android:id="@+id/a112"
-                                style="@style/EditTextNum"
+                                style="@style/textInput"
                                 android:layout_width="0dp"
                                 android:layout_weight="1"
-                                android:hint="@string/num"
-                                app:defaultValue=""
-                                app:mask="####-###"
-                                app:pattern="^(\\d{4,4}\\-\\d{3,3})$"
-                                app:type="equal" />
+                                android:hint="#-####-###"
+                                android:inputType="textCapCharacters"
+                                android:textDirection="ltr"
+                                app:mask="#-####-###" />
 
                             <Button
                                 android:id="@+id/checkHHBtn2"
@@ -306,8 +305,8 @@
 
                         <TextView
                             style="@style/i_textview"
-                            android:layout_height="match_parent"
                             android:layout_width="0dp"
+                            android:layout_height="match_parent"
                             android:layout_weight="1"
                             android:text="@string/newHHheadname" />
 
@@ -316,8 +315,8 @@
                             style="@style/textInputName"
                             android:layout_width="0dp"
                             android:layout_weight="1"
-                            android:maxLength="25"
                             android:hint="@string/name"
+                            android:maxLength="25"
                             android:text='@{checkHHHeadpresent.checked ? "" : newHHheadname.getText().toString()}' />
 
                     </LinearLayout>
@@ -336,8 +335,8 @@
 
                         <TextView
                             style="@style/i_textview"
-                            android:layout_height="match_parent"
                             android:layout_width="0dp"
+                            android:layout_height="match_parent"
                             android:layout_weight="1"
                             android:text="@string/a109" />
 
@@ -364,8 +363,8 @@
 
                         <TextView
                             style="@style/i_textview"
-                            android:layout_height="match_parent"
                             android:layout_width="0dp"
+                            android:layout_height="match_parent"
                             android:layout_weight="1"
                             android:text="@string/a110" />
 
@@ -392,8 +391,8 @@
 
                         <TextView
                             style="@style/i_textview"
-                            android:layout_height="match_parent"
                             android:layout_width="0dp"
+                            android:layout_height="match_parent"
                             android:layout_weight="1"
                             android:text="@string/a111" />
 

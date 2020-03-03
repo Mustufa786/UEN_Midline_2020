@@ -22,25 +22,12 @@ public class BLRandomContract {
     private String contact;
     private String selStructure;
     private String sno;
+    private String tabno;
 
     private String rndType;
     private String assignHH;
 
     public BLRandomContract() {
-    }
-
-    public BLRandomContract(BLRandomContract rnd) {
-        this._ID = rnd.get_ID();
-        this.LUID = rnd.getLUID();
-        this.subVillageCode = rnd.getSubVillageCode();
-        this.structure = rnd.getStructure();
-        this.extension = rnd.getExtension();
-        this.hh = rnd.getHh();
-        this.hhhead = rnd.getHhhead();
-        this.randomDT = rnd.getRandomDT();
-        this.contact = rnd.getContact();
-        this.selStructure = rnd.getSelStructure();
-        this.sno = rnd.getSno();
     }
 
     public BLRandomContract Sync(JSONObject jsonObject) throws JSONException {
@@ -53,7 +40,9 @@ public class BLRandomContract {
         this.extension = jsonObject.getString(SingleRandomHH.COLUMN_FAMILY_EXT_CODE);
         this.extension = String.format("%03d", Integer.valueOf(this.extension));
 
-        this.hh = structure + "-" + extension;
+        this.tabno = jsonObject.getString(SingleRandomHH.COLUMN_TAB_NO);
+
+        this.hh = tabno + "-" + structure + "-" + extension;
         this.randomDT = jsonObject.getString(SingleRandomHH.COLUMN_RANDOMDT);
         this.hhhead = jsonObject.getString(SingleRandomHH.COLUMN_HH_HEAD);
         this.contact = jsonObject.getString(SingleRandomHH.COLUMN_CONTACT);
@@ -120,7 +109,7 @@ public class BLRandomContract {
     }
 
     public String getHh() {
-        return structure + "-" + "" + extension;
+        return hh;
     }
 
     public void setHh(String hh) {
@@ -197,6 +186,7 @@ public class BLRandomContract {
         public static final String COLUMN_CONTACT = "hh09";
         public static final String COLUMN_HH_SELECTED_STRUCT = "hhss";
         public static final String COLUMN_SNO_HH = "sno";
+        public static final String COLUMN_TAB_NO = "tabNo";
 
         public static String _URI = "ml_random.php";
     }

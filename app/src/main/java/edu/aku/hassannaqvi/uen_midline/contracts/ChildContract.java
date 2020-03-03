@@ -68,13 +68,13 @@ public class ChildContract {
         json.put(SingleChild.COLUMN_FORMDATE, this.formDate == null ? JSONObject.NULL : this.formDate);
         json.put(SingleChild.COLUMN_USER, this.user == null ? JSONObject.NULL : this.user);
 
-        if (!this.sI1.equals("")) {
+        if (this.sI1 != null && !this.sI1.equals("")) {
             json.put(SingleChild.COLUMN_SI1, this.sI1.equals("") ? JSONObject.NULL : new JSONObject(this.sI1));
         }
-        if (!this.sI2.equals("")) {
+        if (this.sI2 != null && !this.sI2.equals("")) {
             json.put(SingleChild.COLUMN_SI2, this.sI2.equals("") ? JSONObject.NULL : new JSONObject(this.sI2));
         }
-        if (!this.sJ.equals("")) {
+        if (this.sJ != null && !this.sJ.equals("")) {
             json.put(SingleChild.COLUMN_SJ, this.sJ.equals("") ? JSONObject.NULL : new JSONObject(this.sJ));
         }
         json.put(SingleChild.COLUMN_DEVICETAGID, this.devicetagID == null ? JSONObject.NULL : this.devicetagID);

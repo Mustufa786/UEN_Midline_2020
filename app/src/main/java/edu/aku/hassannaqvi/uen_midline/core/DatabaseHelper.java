@@ -718,6 +718,8 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         values.put(SingleChild.COLUMN_FORMDATE, childContract.get_UUID());
         values.put(SingleChild.COLUMN_USER, childContract.get_UUID());
         values.put(SingleChild.COLUMN_SI1, childContract.getsI1());
+        values.put(SingleChild.COLUMN_SI2, childContract.getsI2());
+        values.put(SingleChild.COLUMN_SJ, childContract.getsJ());
         values.put(SingleChild.COLUMN_DEVICETAGID, childContract.getDevicetagID());
 
 
