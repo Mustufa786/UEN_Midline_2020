@@ -22,6 +22,8 @@ import edu.aku.hassannaqvi.uen_midline.core.MainApp;
 import edu.aku.hassannaqvi.uen_midline.databinding.ActivitySectionJBinding;
 import edu.aku.hassannaqvi.uen_midline.utils.Util;
 
+import static edu.aku.hassannaqvi.uen_midline.CONSTANTS.SEC_J_FLAG;
+
 public class SectionJActivity extends AppCompatActivity {
 
     ActivitySectionJBinding bi;
@@ -177,7 +179,9 @@ public class SectionJActivity extends AppCompatActivity {
             }
             if (UpdateDB()) {
                 finish();
-                startActivity(new Intent(this, totalMonth > 2 ? SectionJ02Activity.class : SectionJ03Activity.class));
+                startActivity(new Intent(this, bi.j102a.isChecked() ? (totalMonth > 2 ? SectionJ02Activity.class : SectionJ03Activity.class) : SectionJ03Activity.class)
+                        .putExtra(SEC_J_FLAG, bi.j102b.isChecked())
+                );
             } else {
                 Toast.makeText(this, "Failed to Update Database!", Toast.LENGTH_SHORT).show();
             }

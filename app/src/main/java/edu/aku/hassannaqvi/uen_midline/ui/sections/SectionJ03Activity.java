@@ -14,6 +14,7 @@ import com.validatorcrawler.aliazaz.Validator;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import edu.aku.hassannaqvi.uen_midline.CONSTANTS;
 import edu.aku.hassannaqvi.uen_midline.R;
 import edu.aku.hassannaqvi.uen_midline.contracts.ChildContract;
 import edu.aku.hassannaqvi.uen_midline.core.DatabaseHelper;
@@ -33,6 +34,10 @@ public class SectionJ03Activity extends AppCompatActivity {
         bi.setCallback(this);
         setupSkips();
 
+        if (getIntent().getBooleanExtra(CONSTANTS.SEC_J_FLAG, false)) {
+            bi.fldGrpCVj105.setVisibility(View.GONE);
+            bi.fldGrpCVj106.setVisibility(View.GONE);
+        }
 
     }
 
@@ -216,7 +221,6 @@ public class SectionJ03Activity extends AppCompatActivity {
     }
 
 
-
     public void BtnContinue() {
         if (formValidation()) {
             try {
@@ -325,7 +329,7 @@ public class SectionJ03Activity extends AppCompatActivity {
                 bi.j122a.isChecked() ? "1" :
                         bi.j122b.isChecked() ? "2" :
 //                                bi.j122c.isChecked() ? "98" :
-                                        "0");
+                                "0");
 
         json.put("j123a", bi.j123a.isChecked() ? "1" : "0");
         json.put("j123b", bi.j123b.isChecked() ? "2" : "0");
