@@ -179,7 +179,7 @@ public class SectionJActivity extends AppCompatActivity {
             }
             if (UpdateDB()) {
                 finish();
-                startActivity(new Intent(this, bi.j102a.isChecked() ? (totalMonth > 2 ? SectionJ02Activity.class : SectionJ03Activity.class) : SectionJ03Activity.class)
+                startActivity(new Intent(this, !bi.j102b.isChecked() ? (totalMonth > 2 ? SectionJ02Activity.class : SectionJ03Activity.class) : SectionJ03Activity.class)
                         .putExtra(SEC_J_FLAG, bi.j102b.isChecked())
                 );
             } else {
