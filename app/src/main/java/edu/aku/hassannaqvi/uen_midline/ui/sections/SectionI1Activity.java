@@ -215,12 +215,18 @@ public class SectionI1Activity extends AppCompatActivity {
         json.put("cluster_no", MainApp.fc.getClusterCode());
         json.put("_luid", MainApp.fc.getLuid());
         json.put("appversion", MainApp.appInfo.getAppVersion());
-        json.put("i1_fm_uid", fmc_child.getUid());
-        json.put("i1_fm_serial", fmc_child.getSerialno());
-        json.put("i1_res_fm_uid", res_child.getUid());
-        json.put("i1_res_fm_serial", res_child.getSerialno());
 
-        json.put("i100", bi.i100.getSelectedItem().toString());
+        if (bi.i101a.isChecked()) {
+            json.put("i1_fm_uid", fmc_child.getUid());
+            json.put("i1_fm_serial", fmc_child.getSerialno());
+
+            if (bi.respondentSpinner.getVisibility() == View.VISIBLE) {
+                json.put("i1_res_fm_uid", res_child.getUid());
+                json.put("i1_res_fm_serial", res_child.getSerialno());
+            }
+
+            json.put("i100", bi.i100.getSelectedItem().toString());
+        }
 
         json.put("i101", bi.i101a.isChecked() ? "1" :
                 bi.i101b.isChecked() ? "2" : "0");

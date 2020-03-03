@@ -200,10 +200,16 @@ public class SectionI2Activity extends AppCompatActivity {
 
         JSONObject f1 = new JSONObject();
 
-        f1.put("i2_fm_uid", fmc_child.getUid());
-        f1.put("i2_fm_serial", fmc_child.getSerialno());
-        f1.put("i2_res_fm_uid", res_child.getUid());
-        f1.put("i2_res_fm_serial", res_child.getSerialno());
+        if (bi.i203a.isChecked()) {
+            f1.put("i2_fm_uid", fmc_child.getUid());
+            f1.put("i2_fm_serial", fmc_child.getSerialno());
+
+            if (bi.respondentSpinner.getVisibility() == View.VISIBLE) {
+                f1.put("i2_res_fm_uid", res_child.getUid());
+                f1.put("i2_res_fm_serial", res_child.getSerialno());
+            }
+        }
+
         JSONObject f2 = new JSONObject();
 
         f2.put("i201", bi.i201a.isChecked() ? "1" :
