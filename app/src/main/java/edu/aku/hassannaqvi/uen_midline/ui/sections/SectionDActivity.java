@@ -149,25 +149,27 @@ public class SectionDActivity extends AppCompatActivity {
             fmc.setHhno(MainApp.fc.getHhno());
             fmc.setSerialno(bi.d101.getText().toString());
             fmc.setName(bi.d102.getText().toString());
-            fmc.setRelHH(bi.d103a.isChecked() ? "1" :
-                    bi.d103b.isChecked() ? "2" :
-                            bi.d103c.isChecked() ? "3" :
-                                    bi.d103d.isChecked() ? "4" :
-                                            bi.d103e.isChecked() ? "5" :
-                                                    bi.d103f.isChecked() ? "6" :
-                                                            bi.d103g.isChecked() ? "7" :
-                                                                    bi.d103h.isChecked() ? "8" :
-                                                                            bi.d103i.isChecked() ? "9" :
-                                                                                    bi.d103j.isChecked() ? "10" :
-                                                                                            bi.d103k.isChecked() ? "11" :
-                                                                                                    bi.d103l.isChecked() ? "12" :
-                                                                                                            bi.d103m.isChecked() ? "13" :
-                                                                                                                    bi.d103n.isChecked() ? "14" :
-                                                                                                                            bi.d103o.isChecked() ? "15" : "0");
 
-            fmc.setGender(
-                    bi.d104a.isChecked() ? "1" :
-                            bi.d104b.isChecked() ? "2" : "0");
+            fmc.setRelHH(bi.d103a.isChecked() ? "1"
+                    : bi.d103b.isChecked() ? "2"
+                    : bi.d103c.isChecked() ? "3"
+                    : bi.d103d.isChecked() ? "4"
+                    : bi.d103e.isChecked() ? "5"
+                    : bi.d103f.isChecked() ? "6"
+                    : bi.d103g.isChecked() ? "7"
+                    : bi.d103h.isChecked() ? "8"
+                    : bi.d103i.isChecked() ? "9"
+                    : bi.d103j.isChecked() ? "10"
+                    : bi.d103k.isChecked() ? "11"
+                    : bi.d103l.isChecked() ? "12"
+                    : bi.d103m.isChecked() ? "13"
+                    : bi.d103n.isChecked() ? "14"
+                    : bi.d103o.isChecked() ? "15"
+                    : "0");
+
+            fmc.setGender(bi.d104a.isChecked() ? "1"
+                    : bi.d104b.isChecked() ? "2"
+                    : "0");
 
             fmc.setAge("-1");
 
@@ -177,11 +179,11 @@ public class SectionDActivity extends AppCompatActivity {
             return;
         }
 
-        fmc.setMarital(
-                bi.d105a.isChecked() ? "1" :
-                        bi.d105b.isChecked() ? "2" :
-                                bi.d105c.isChecked() ? "3" :
-                                        bi.d105d.isChecked() ? "4" : "0");
+        fmc.setMarital(bi.d105a.isChecked() ? "1"
+                : bi.d105b.isChecked() ? "2"
+                : bi.d105c.isChecked() ? "3"
+                : bi.d105d.isChecked() ? "4"
+                : "0");
 
         JSONObject sd = new JSONObject();
 
@@ -206,35 +208,40 @@ public class SectionDActivity extends AppCompatActivity {
         fmc.setAge(bi.d109.getText().toString());
         fmc.setMonthfm(bi.d109a.getText().toString().trim().isEmpty() ? "0" : bi.d109a.getText().toString());
 
-        sd.put("d110", bi.d110a.isChecked() ? "0" :
-                bi.d110b.isChecked() ? "1" :
-                        bi.d110c.isChecked() ? "2" :
-                                bi.d110d.isChecked() ? "3" :
-                                        bi.d110e.isChecked() ? "4" :
-                                                bi.d110f.isChecked() ? "5" :
-                                                        bi.d110g.isChecked() ? "6" :
-                                                                bi.d110h.isChecked() ? "7" :
-                                                                        bi.d110i.isChecked() ? "8" :
-                                                                                bi.d110j.isChecked() ? "9" :
-                                                                                        bi.d110k.isChecked() ? "10" :
-                                                                                                bi.d110l.isChecked() ? "98" :
-                                                                                                        bi.d110m.isChecked() ? "99" : "0");
+        sd.put("d110", bi.d110a.isChecked() ? "0"
+                : bi.d110b.isChecked() ? "1"
+                : bi.d110c.isChecked() ? "2"
+                : bi.d110d.isChecked() ? "3"
+                : bi.d110e.isChecked() ? "4"
+                : bi.d110f.isChecked() ? "5"
+                : bi.d110g.isChecked() ? "6"
+                : bi.d110h.isChecked() ? "7"
+                : bi.d110i.isChecked() ? "8"
+                : bi.d110j.isChecked() ? "9"
+                : bi.d110k.isChecked() ? "10"
+                : bi.d110l.isChecked() ? "98"
+                : bi.d110m.isChecked() ? "99"
+                : "0");
 
-        sd.put("d111", bi.d111a.isChecked() ? "1" :
-                bi.d111b.isChecked() ? "2" :
-                        bi.d111c.isChecked() ? "3" :
-                                bi.d111d.isChecked() ? "4" :
-                                        bi.d111e.isChecked() ? "5" :
-                                                bi.d111f.isChecked() ? "6" :
-                                                        bi.d111g.isChecked() ? "6" :
-                                                                bi.d111h.isChecked() ? "8" :
-                                                                        bi.d111i.isChecked() ? "9" :
-                                                                                bi.d111j.isChecked() ? "99" : "0");
+        sd.put("d111", bi.d111a.isChecked() ? "1"
+                : bi.d111b.isChecked() ? "2"
+                : bi.d111c.isChecked() ? "3"
+                : bi.d111d.isChecked() ? "4"
+                : bi.d111e.isChecked() ? "5"
+                : bi.d111f.isChecked() ? "6"
+                : bi.d111g.isChecked() ? "6"
+                : bi.d111h.isChecked() ? "8"
+                : bi.d111i.isChecked() ? "9"
+                : bi.d111j.isChecked() ? "99"
+                : "0");
 
-        sd.put("d115", bi.d115a.isChecked() ? "1" :
-                bi.d115b.isChecked() ? "2" : "0");
+        sd.put("d115", bi.d115a.isChecked() ? "1"
+                : bi.d115b.isChecked() ? "2"
+                : "0");
 
-        fmc.setAvailable(bi.d115a.isChecked() ? "1" : bi.d115b.isChecked() ? "2" : "0");
+        fmc.setAvailable(bi.d115a.isChecked() ? "1"
+                : bi.d115b.isChecked() ? "2"
+                : "0");
 
         fmc.setsD(String.valueOf(sd));
 
