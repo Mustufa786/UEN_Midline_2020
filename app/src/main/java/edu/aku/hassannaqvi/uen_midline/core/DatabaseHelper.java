@@ -714,9 +714,9 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         ContentValues values = new ContentValues();
 //        values.put(MWRATable._ID, mwra.get_ID());
         values.put(SingleChild.COLUMN__UUID, childContract.get_UUID());
-        values.put(SingleChild.COLUMN_DEVICEID, childContract.get_UUID());
-        values.put(SingleChild.COLUMN_FORMDATE, childContract.get_UUID());
-        values.put(SingleChild.COLUMN_USER, childContract.get_UUID());
+        values.put(SingleChild.COLUMN_DEVICEID, childContract.getDeviceId());
+        values.put(SingleChild.COLUMN_FORMDATE, childContract.getFormDate());
+        values.put(SingleChild.COLUMN_USER, childContract.getUser());
         values.put(SingleChild.COLUMN_SI1, childContract.getsI1());
         values.put(SingleChild.COLUMN_SI2, childContract.getsI2());
         values.put(SingleChild.COLUMN_SJ, childContract.getsJ());
