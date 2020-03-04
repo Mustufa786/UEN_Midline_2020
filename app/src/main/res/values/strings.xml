@@ -135,10 +135,10 @@
     <string name="d103f"> والدین </string>
     <string name="d103g"> ساس / سُسر </string>
     <string name="d103h"> بھائی /  بہن </string>
-    <string name="d103i"> سالا / سالی </string>
+    <string name="d103i"> دیور، دیورانی / بھابھی، بہنوئی / سالا، سالی </string>
     <string name="d103j"> بھتیجا، بھتیجی / بھانجا، بھانجی </string>
     <string name="d103k"> دادا، دادی / نانا، نانی </string>
-    <string name="d103l"> چچا، چچی / ماموں، ممانی </string>
+    <string name="d103l"> پھُوپو، پھُوپا / خالو، خاله / چچا، چچی / ماموں، ممانی </string>
     <string name="d103m"> سوتیلے / رضاعی / لے پالک بچے </string>
     <string name="d103n"> گحریلو ملازم </string>
     <string name="d103o"> معلوم نہیں </string>
@@ -162,7 +162,7 @@
     <string name="d107b"> NA </string>
 
     <string name="d108"> D108:\t تاریخ پیدائش : اگر تاریخ پیدائش معلوم نہیں تو ‘00’ ریکارڈ کریں اور عمر درج کریں </string>
-    <string name="d108a">تاریخ</string>
+    <string name="d108a"> تاریخ </string>
     <string name="d108b"> مہینہ </string>
     <string name="d108c"> سال </string>
 
@@ -546,7 +546,7 @@
     <string name="g102e"> مرکز صحت جاتے ہوئے راستے میں </string>
     <string name="g102f"> پیدائش اسٹیشن ( کمیونیٹی مڈوائف ) </string>
 
-    <string name="g103"> G103:\t آپ نے (نام) کی پیدائش مرکز صحت پر کیوں نہیں کروائی ؟ </string>
+    <string name="g103"> G103:\t آپ نے (نام) کی پیدائش مرکز صحت پر کیوں نہیں کروائی؟ </string>
     <string name="g103hint"> اگر زچگی گھر میں ہوئی تھی۔ کسی اور وجہ کی نشاندہی کرنے کے لئے تحقیق کریں۔ بتائے گئے تمام جوابات ریکارڈ کریں۔ </string>
     <string name="g103a"> سواری نہیں تھی </string>
     <string name="g103b"> ہسپتال کے عملے کا رویہ صحیح نہیں تھا </string>
