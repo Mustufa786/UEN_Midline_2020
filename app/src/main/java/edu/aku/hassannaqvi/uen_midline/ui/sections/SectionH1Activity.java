@@ -181,19 +181,20 @@ public class SectionH1Activity extends AppCompatActivity {
         json.put("h101aw", bi.h101aw.getText().toString());
         //json.put("h101bm", bi.h101bm.getText().toString());
 
-        json.put("h102", bi.h102a.isChecked() ? "1" :
-                bi.h102b.isChecked() ? "2" :
-                        bi.h10298.isChecked() ? "98" : "0");
+        json.put("h102", bi.h102a.isChecked() ? "1"
+                : bi.h102b.isChecked() ? "2"
+                : bi.h10298.isChecked() ? "98"
+                : "0");
 
-        json.put("h103", bi.h103a.isChecked() ? "1" :
-                bi.h103b.isChecked() ? "2" :
-                        bi.h10398.isChecked() ? "98" : "0");
+        json.put("h103", bi.h103a.isChecked() ? "1"
+                : bi.h103b.isChecked() ? "2"
+                : bi.h10398.isChecked() ? "98"
+                : "0");
 
         json.put("h104a", bi.h104a.isChecked() ? "1" : "0");
         json.put("h104b", bi.h104b.isChecked() ? "2" : "0");
         json.put("h104c", bi.h104c.isChecked() ? "3" : "0");
         json.put("h10496", bi.h10496.isChecked() ? "96" : "0");
-
         json.put("h10496x", bi.h10496x.getText().toString());
 
         json.put("h105", bi.h105a.isChecked() ? "1" :
