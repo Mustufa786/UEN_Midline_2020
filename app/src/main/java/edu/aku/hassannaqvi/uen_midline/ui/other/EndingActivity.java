@@ -52,7 +52,6 @@ public class EndingActivity extends AppCompatActivity {
             bi.istatus96.setEnabled(true);
         }
 
-
 //
     }
 
