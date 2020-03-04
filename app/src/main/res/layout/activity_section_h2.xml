@@ -189,7 +189,7 @@
                         <com.edittextpicker.aliazaz.EditTextPicker
                             android:id="@+id/h203x"
                             style="@style/EditTextNum"
-                            android:hint='@{h203a.checked ? "گھنٹے" : h203b.checked ? "دن" : h203c.checked ? "ہفتے" : "select any option"}'
+                            android:hint='@{h203a.checked ? @string/hours : h203b.checked ? @string/days : h203c.checked ? @string/weeks : "select any option"}'
                             android:maxLength="2"
                             android:text='@{h203a.checked || h203b.checked || h203c.checked ? h203x.getText().toString() : ""}'
                             android:visibility='@{h203a.checked || h203b.checked || h203c.checked ? View.VISIBLE : View.GONE}'
