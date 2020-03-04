@@ -66,7 +66,7 @@ public class SectionJ02Activity extends AppCompatActivity {
         bi.j10417y.setMinvalue(CONSTANTS.MINYEAR_IM);
 
         //Immunization visibility
-        int totalMonth = Integer.valueOf(MainApp.indexKishMWRAChild.getAge()) + Integer.valueOf(MainApp.indexKishMWRAChild.getMonthfm());
+        int totalMonth = (Integer.valueOf(MainApp.indexKishMWRAChild.getAge()) * 12) + Integer.valueOf(MainApp.indexKishMWRAChild.getMonthfm());
 
         if (totalMonth > 2) {
             bi.fldGrpCVj10409.setVisibility(View.VISIBLE);
