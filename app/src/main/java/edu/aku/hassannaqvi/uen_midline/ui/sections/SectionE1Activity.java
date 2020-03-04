@@ -142,8 +142,8 @@ public class SectionE1Activity extends AppCompatActivity {
         mwra.set_UUID(MainApp.fc.get_UID());
         mwra.setDeviceId(MainApp.appInfo.getDeviceID());
         mwra.setFormDate(MainApp.fc.getFormDate());
-        mwra.setUser(MainApp.userName);
-        mwra.setDevicetagID(MainApp.appInfo.getTagName());
+        mwra.setUser(MainApp.fc.getUser());
+        mwra.setDevicetagID(MainApp.fc.getDevicetagID());
 
         JSONObject json = new JSONObject();
         FamilyMembersContract selMWRA = mainVModel.getMemberInfo(MainApp.pragnantWoman.getFirst().get(bi.womanSpinner.getSelectedItemPosition() - 1));

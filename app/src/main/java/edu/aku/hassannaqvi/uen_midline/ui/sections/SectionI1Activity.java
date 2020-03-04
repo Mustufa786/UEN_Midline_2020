@@ -204,9 +204,9 @@ public class SectionI1Activity extends AppCompatActivity {
         MainApp.child = new ChildContract();
         MainApp.child.set_UUID(MainApp.fc.get_UID());
         MainApp.child.setDeviceId(MainApp.appInfo.getDeviceID());
-        MainApp.child.setDevicetagID(MainApp.appInfo.getTagName());
+        MainApp.child.setDevicetagID(MainApp.fc.getDevicetagID());
         MainApp.child.setFormDate(MainApp.fc.getFormDate());
-        MainApp.child.setUser(MainApp.userName);
+        MainApp.child.setUser(MainApp.fc.getUser());
 
 
         JSONObject json = new JSONObject();

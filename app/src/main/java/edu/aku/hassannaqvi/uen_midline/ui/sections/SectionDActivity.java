@@ -149,6 +149,7 @@ public class SectionDActivity extends AppCompatActivity {
             fmc.setHhno(MainApp.fc.getHhno());
             fmc.setSerialno(bi.d101.getText().toString());
             fmc.setName(bi.d102.getText().toString());
+            fmc.setFormdate(MainApp.fc.getFormDate());
 
             fmc.setRelHH(bi.d103a.isChecked() ? "1"
                     : bi.d103b.isChecked() ? "2"
@@ -187,10 +188,10 @@ public class SectionDActivity extends AppCompatActivity {
 
         JSONObject sd = new JSONObject();
 
-        sd.put("formdate", MainApp.fc.getFormDate());
-        sd.put("username", MainApp.userName);
+//        sd.put("formdate", MainApp.fc.getFormDate());
+        sd.put("username", MainApp.fc.getUser());
         sd.put("deviceid", MainApp.appInfo.getDeviceID());
-        sd.put("tagid", MainApp.appInfo.getTagName());
+        sd.put("tagid", MainApp.fc.getDevicetagID());
         sd.put("appversion", MainApp.appInfo.getAppVersion());
         sd.put("_luid", MainApp.fc.getLuid());
 

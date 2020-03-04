@@ -227,7 +227,7 @@ public class SectionE2Activity extends AppCompatActivity {
         mwraPre = new MWRA_PREContract();
         mwraPre.set_UUID(MainApp.fc.get_UID());
         mwraPre.setDeviceId(MainApp.appInfo.getDeviceID());
-        mwraPre.setDevicetagID(MainApp.appInfo.getTagName());
+        mwraPre.setDevicetagID(MainApp.fc.getDevicetagID());
         mwraPre.setFormDate(MainApp.fc.getFormDate());
         mwraPre.setUser(MainApp.fc.getUser());
 
