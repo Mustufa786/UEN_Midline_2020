@@ -241,23 +241,27 @@ public class SectionE2Activity extends AppCompatActivity {
         json.put("appversion", MainApp.appInfo.getAppVersion());
         json.put("counter", noOfPreCounter);
 
-        json.put("e104", bi.e104a.isChecked() ? "1" :
-                bi.e104b.isChecked() ? "2" : "0");
+        json.put("e104", bi.e104a.isChecked() ? "1"
+                : bi.e104b.isChecked() ? "2"
+                : "0");
 
-        json.put("e105", bi.e105a.isChecked() ? "1" :
-                bi.e105b.isChecked() ? "2" :
-                        bi.e105c.isChecked() ? "3" : "0");
+        json.put("e105", bi.e105a.isChecked() ? "1"
+                : bi.e105b.isChecked() ? "2"
+                : bi.e105c.isChecked() ? "3"
+                : "0");
 
         json.put("e106a", bi.e106a.getText().toString());
         json.put("e106b", bi.e106b.getText().toString());
         json.put("e106c", bi.e106c.getText().toString());
         json.put("e10698", bi.e10698.isChecked() ? "1" : "0");
 
-        json.put("e107", bi.e107a.isChecked() ? "1" :
-                bi.e107b.isChecked() ? "2" : "0");
+        json.put("e107", bi.e107a.isChecked() ? "1"
+                : bi.e107b.isChecked() ? "2"
+                : "0");
 
-        json.put("e108", bi.e108a.isChecked() ? "1" :
-                bi.e108b.isChecked() ? "2" : "0");
+        json.put("e108", bi.e108a.isChecked() ? "1"
+                : bi.e108b.isChecked() ? "2"
+                : "0");
 
         json.put("e109", bi.e109.getText().toString());
 
@@ -266,29 +270,32 @@ public class SectionE2Activity extends AppCompatActivity {
         json.put("e110c", bi.e110c.getText().toString());
         json.put("e11098", bi.e11098.isChecked() ? "1" : "0");
 
-        json.put("e111", bi.e111a.isChecked() ? "1" :
-                bi.e111b.isChecked() ? "2" :
-                        bi.e111c.isChecked() ? "3" :
-                                bi.e111d.isChecked() ? "4" :
-                                        bi.e111e.isChecked() ? "5" :
-                                                bi.e111f.isChecked() ? "6" :
-                                                        bi.e111g.isChecked() ? "7" :
-                                                                bi.e11196.isChecked() ? "96" : "0");
+        json.put("e111", bi.e111a.isChecked() ? "1"
+                : bi.e111b.isChecked() ? "2"
+                : bi.e111c.isChecked() ? "3"
+                : bi.e111d.isChecked() ? "4"
+                : bi.e111e.isChecked() ? "5"
+                : bi.e111f.isChecked() ? "6"
+                : bi.e111g.isChecked() ? "7"
+                : bi.e11196.isChecked() ? "96"
+                : "0");
         json.put("e11196x", bi.e11196x.getText().toString());
 
-        json.put("e112", bi.e112a.isChecked() ? "1" :
-                bi.e112b.isChecked() ? "2" :
-                        bi.e112c.isChecked() ? "3" :
-                                bi.e112d.isChecked() ? "4" :
-                                        bi.e112e.isChecked() ? "5" : "0");
+        json.put("e112", bi.e112a.isChecked() ? "1"
+                : bi.e112b.isChecked() ? "2"
+                : bi.e112c.isChecked() ? "3"
+                : bi.e112d.isChecked() ? "4"
+                : bi.e112e.isChecked() ? "5"
+                : "0");
 
         json.put("e113m", bi.e113m.getText().toString());
         json.put("e113y", bi.e113y.getText().toString());
 
         json.put("e114", bi.e114.getText().toString());
 
-        json.put("e115", bi.e115a.isChecked() ? "1" :
-                bi.e115b.isChecked() ? "2" : "0");
+        json.put("e115", bi.e115a.isChecked() ? "1"
+                : bi.e115b.isChecked() ? "2"
+                : "0");
 
         mwraPre.setsE2(String.valueOf(json));
 
