@@ -123,48 +123,48 @@ public class SectionJ02Activity extends AppCompatActivity {
 
     private void SaveDraft() throws JSONException {
 
-        JSONObject j2 = new JSONObject();
+        JSONObject json = new JSONObject();
 
-        j2.put("j10409d", bi.j10409d.getText().toString());
-        j2.put("j10409m", bi.j10409m.getText().toString());
-        j2.put("j10409y", bi.j10409y.getText().toString());
+        json.put("j10409d", bi.j10409d.getText().toString());
+        json.put("j10409m", bi.j10409m.getText().toString());
+        json.put("j10409y", bi.j10409y.getText().toString());
 
-        j2.put("j10410d", bi.j10410d.getText().toString());
-        j2.put("j10410m", bi.j10410m.getText().toString());
-        j2.put("j10410y", bi.j10410y.getText().toString());
+        json.put("j10410d", bi.j10410d.getText().toString());
+        json.put("j10410m", bi.j10410m.getText().toString());
+        json.put("j10410y", bi.j10410y.getText().toString());
 
-        j2.put("j10411d", bi.j10411d.getText().toString());
-        j2.put("j10411m", bi.j10411m.getText().toString());
-        j2.put("j10411y", bi.j10411y.getText().toString());
+        json.put("j10411d", bi.j10411d.getText().toString());
+        json.put("j10411m", bi.j10411m.getText().toString());
+        json.put("j10411y", bi.j10411y.getText().toString());
 
-        j2.put("j10412d", bi.j10412d.getText().toString());
-        j2.put("j10412m", bi.j10412m.getText().toString());
-        j2.put("j10412y", bi.j10412y.getText().toString());
+        json.put("j10412d", bi.j10412d.getText().toString());
+        json.put("j10412m", bi.j10412m.getText().toString());
+        json.put("j10412y", bi.j10412y.getText().toString());
 
-        j2.put("j10413d", bi.j10413d.getText().toString());
-        j2.put("j10413m", bi.j10413m.getText().toString());
-        j2.put("j10413y", bi.j10413y.getText().toString());
+        json.put("j10413d", bi.j10413d.getText().toString());
+        json.put("j10413m", bi.j10413m.getText().toString());
+        json.put("j10413y", bi.j10413y.getText().toString());
 
-        j2.put("j10414d", bi.j10414d.getText().toString());
-        j2.put("j10414m", bi.j10414m.getText().toString());
-        j2.put("j10414y", bi.j10414y.getText().toString());
+        json.put("j10414d", bi.j10414d.getText().toString());
+        json.put("j10414m", bi.j10414m.getText().toString());
+        json.put("j10414y", bi.j10414y.getText().toString());
 
-        j2.put("j10415d", bi.j10415d.getText().toString());
-        j2.put("j10415m", bi.j10415m.getText().toString());
-        j2.put("j10415y", bi.j10415y.getText().toString());
+        json.put("j10415d", bi.j10415d.getText().toString());
+        json.put("j10415m", bi.j10415m.getText().toString());
+        json.put("j10415y", bi.j10415y.getText().toString());
 
-        j2.put("j10416d", bi.j10416d.getText().toString());
-        j2.put("j10416m", bi.j10416m.getText().toString());
-        j2.put("j10416y", bi.j10416y.getText().toString());
+        json.put("j10416d", bi.j10416d.getText().toString());
+        json.put("j10416m", bi.j10416m.getText().toString());
+        json.put("j10416y", bi.j10416y.getText().toString());
 
-        j2.put("j10417d", bi.j10417d.getText().toString());
-        j2.put("j10417m", bi.j10417m.getText().toString());
-        j2.put("j10417y", bi.j10417y.getText().toString());
+        json.put("j10417d", bi.j10417d.getText().toString());
+        json.put("j10417m", bi.j10417m.getText().toString());
+        json.put("j10417y", bi.j10417y.getText().toString());
 
         try {
-            JSONObject s4_merge = JSONUtils.mergeJSONObjects(new JSONObject(MainApp.child.getsJ()), j2);
+            JSONObject json_merge = JSONUtils.mergeJSONObjects(new JSONObject(MainApp.child.getsJ()), json);
 
-            MainApp.child.setsJ(String.valueOf(s4_merge));
+            MainApp.child.setsJ(String.valueOf(json_merge));
 
         } catch (JSONException e) {
             e.printStackTrace();
