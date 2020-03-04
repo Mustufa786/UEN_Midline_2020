@@ -100,8 +100,8 @@ public class SectionE4Activity extends AppCompatActivity {
         morc.set_UUID(MainApp.fc.get_UID());
         morc.setDeviceId(MainApp.appInfo.getDeviceID());
         morc.setFormDate(MainApp.fc.getFormDate());
-        morc.setUser(MainApp.userName);
-        morc.setDevicetagID(MainApp.appInfo.getTagName());
+        morc.setUser(MainApp.fc.getUser());
+        morc.setDevicetagID(MainApp.fc.getDevicetagID());
 
         JSONObject f1 = new JSONObject();
         f1.put("hhno", MainApp.fc.getHhno());

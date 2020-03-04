@@ -109,9 +109,9 @@ public class SectionFActivity extends AppCompatActivity {
         MainApp.kish = new KishMWRAContract();
         MainApp.kish.set_UUID(MainApp.fc.get_UID());
         MainApp.kish.setDeviceId(MainApp.appInfo.getDeviceID());
-        MainApp.kish.setDevicetagID(MainApp.appInfo.getTagName());
+        MainApp.kish.setDevicetagID(MainApp.fc.getDevicetagID());
         MainApp.kish.setFormDate(MainApp.fc.getFormDate());
-        MainApp.kish.setUser(MainApp.userName);
+        MainApp.kish.setUser(MainApp.fc.getUser());
 
         JSONObject json = new JSONObject();
 

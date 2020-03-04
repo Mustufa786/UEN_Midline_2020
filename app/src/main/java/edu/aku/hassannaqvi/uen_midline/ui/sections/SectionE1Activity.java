@@ -142,8 +142,8 @@ public class SectionE1Activity extends AppCompatActivity {
         mwra.set_UUID(MainApp.fc.get_UID());
         mwra.setDeviceId(MainApp.appInfo.getDeviceID());
         mwra.setFormDate(MainApp.fc.getFormDate());
-        mwra.setUser(MainApp.userName);
-        mwra.setDevicetagID(MainApp.appInfo.getTagName());
+        mwra.setUser(MainApp.fc.getUser());
+        mwra.setDevicetagID(MainApp.fc.getDevicetagID());
 
         JSONObject json = new JSONObject();
         FamilyMembersContract selMWRA = mainVModel.getMemberInfo(MainApp.pragnantWoman.getFirst().get(bi.womanSpinner.getSelectedItemPosition() - 1));
@@ -159,14 +159,15 @@ public class SectionE1Activity extends AppCompatActivity {
         json.put("e100", bi.womanSpinner.getSelectedItem().toString());
         mwra.setMwra_name(bi.womanSpinner.getSelectedItem().toString());
 
-        json.put("e101",
-                bi.e101a.isChecked() ? "1" :
-                        bi.e101b.isChecked() ? "2" : "0");
+        json.put("e101", bi.e101a.isChecked() ? "1"
+                : bi.e101b.isChecked() ? "2"
+                : "0");
 
         json.put("e102", bi.e102.getText().toString());
 
-        json.put("e102a", bi.e102aa.isChecked() ? "1" :
-                bi.e102ab.isChecked() ? "2" : "0");
+        json.put("e102a", bi.e102aa.isChecked() ? "1"
+                : bi.e102ab.isChecked() ? "2"
+                : "0");
 
 
         // Deleting item in list
