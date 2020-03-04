@@ -131,6 +131,7 @@ public class SectionAActivity extends AppCompatActivity implements Util.EndSecAA
         MainApp.fc.setAppversion(MainApp.appInfo.getAppVersion());
         MainApp.fc.setClusterCode(bi.a101.getText().toString());
         MainApp.fc.setHhno(bi.a112.getText().toString());
+        MainApp.fc.setLuid(bl.getLUID());
         MainApp.setGPS(this); // Set GPS
 
         JSONObject json = new JSONObject();
