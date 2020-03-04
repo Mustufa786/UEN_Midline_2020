@@ -312,7 +312,7 @@
 
                         <EditText
                             android:id="@+id/newHHheadname"
-                            style="@style/textInputName"
+                            style="@style/EditTextAlpha"
                             android:layout_width="0dp"
                             android:layout_weight="1"
                             android:hint="@string/name"
@@ -342,7 +342,7 @@
 
                         <EditText
                             android:id="@+id/a109"
-                            style="@style/textInputName"
+                            style="@style/EditTextAlphaNmeric"
                             android:layout_width="0dp"
                             android:layout_weight="1"
                             android:hint="@string/name" />
