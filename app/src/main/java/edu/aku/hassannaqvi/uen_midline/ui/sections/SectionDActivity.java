@@ -73,7 +73,7 @@ public class SectionDActivity extends AppCompatActivity {
                     .append(getResources().getString(R.string.d101name))
                     .append(":")
                     .append(fmc.getSerialno()));*/
-            bi.d102Name.setText(new StringBuilder(fmc.getName().toUpperCase()));
+            bi.d102Name.setText(new StringBuilder(fmc.getName()));
             bi.d102Num.setText(new StringBuilder(fmc.getSerialno()));
             bi.fldGrpSectionD01.setVisibility(View.GONE);
             bi.fldGrpSectionD02.setVisibility(View.VISIBLE);
