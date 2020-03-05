@@ -69,10 +69,12 @@ public class SectionDActivity extends AppCompatActivity {
             bi.fldGrpSectionD02.setVisibility(View.GONE);
             fmc = new FamilyMembersContract();
         } else {
-            bi.d102Name.setText(new StringBuilder(fmc.getName().toUpperCase()).append("\n")
-                    .append(getResources().getString(R.string.d101))
+            /*bi.d102Name.setText(new StringBuilder(fmc.getName().toUpperCase()).append("\n")
+                    .append(getResources().getString(R.string.d101name))
                     .append(":")
-                    .append(fmc.getSerialno()));
+                    .append(fmc.getSerialno()));*/
+            bi.d102Name.setText(new StringBuilder(fmc.getName().toUpperCase()));
+            bi.d102Num.setText(new StringBuilder(fmc.getSerialno()));
             bi.fldGrpSectionD01.setVisibility(View.GONE);
             bi.fldGrpSectionD02.setVisibility(View.VISIBLE);
 
