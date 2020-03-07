@@ -48,9 +48,9 @@ public class MainApp extends Application {
     public static final String _HOST_URL = MainApp._IP + "/uen_ml/api/";// .TEST server;
     public static final String _SERVER_URL = "sync.php";
 
-    //    private static final String LANGUAGE_CODE_UR = "ur";
-    private static final String LANGUAGE_CODE_SD = "sd";
-    public static final String _UPDATE_URL = MainApp._IP + "/uen_ml/app/" + LANGUAGE_CODE_SD + "/";
+    private static final String LANGUAGE_CODE_UR = "ur";
+    //    private static final String LANGUAGE_CODE_SD = "sd";
+    public static final String _UPDATE_URL = MainApp._IP + "/uen_ml/app/" + LANGUAGE_CODE_UR + "/";
     public static final Integer MONTHS_LIMIT = 11;
     public static final Integer DAYS_LIMIT = 29;
     //public static final long MILLISECONDS_IN_5YEAR = (MILLISECONDS_IN_YEAR + MILLISECONDS_IN_YEAR + MILLISECONDS_IN_YEAR + MILLISECONDS_IN_YEAR + MILLISECONDS_IN_YEAR);

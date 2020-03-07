@@ -177,6 +177,21 @@ public class SectionAActivity extends AppCompatActivity implements Util.EndSecAA
     public void BtnCheckCluster() {
 
         if (!Validator.emptyTextBox(this, bi.a101)) return;
+        boolean loginFlag;
+        if (bi.a101.getText().toString().length() != 6) {
+            Toast.makeText(this, "Invalid Cluster length!!", Toast.LENGTH_SHORT).show();
+            return;
+        }
+        int cluster = Integer.parseInt(bi.a101.getText().toString().substring(3, 6));
+        if (cluster < 500) {
+            loginFlag = !(MainApp.userName.equals("test1234") || MainApp.userName.equals("dmu@aku") || MainApp.userName.substring(0, 4).equals("user"));
+        } else {
+            loginFlag = MainApp.userName.equals("test1234") || MainApp.userName.equals("dmu@aku") || MainApp.userName.substring(0, 4).equals("user");
+        }
+        if (!loginFlag) {
+            Toast.makeText(this, "Can't proceed test cluster for current user!!", Toast.LENGTH_SHORT).show();
+            return;
+        }
 
         EnumBlockContract enumBlockContract = db.getEnumBlock(bi.a101.getText().toString());
         if (enumBlockContract != null) {
