@@ -76,11 +76,11 @@ public class SectionH102Activity extends AppCompatActivity {
         //h123
         bi.h123.setOnCheckedChangeListener((group, checkedId) -> {
 
-            if (checkedId == bi.h123b.getId()) {
-                bi.fldGrpCVh124.setVisibility(View.VISIBLE);
-            } else {
+            if (checkedId == bi.h123a.getId()) {
                 Clear.clearAllFields(bi.fldGrpCVh124);
                 bi.fldGrpCVh124.setVisibility(View.GONE);
+            } else {
+                bi.fldGrpCVh124.setVisibility(View.VISIBLE);
             }
         });
 
