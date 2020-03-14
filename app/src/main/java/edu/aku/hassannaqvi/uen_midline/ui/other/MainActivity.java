@@ -1,5 +1,6 @@
 package edu.aku.hassannaqvi.uen_midline.ui.other;
 
+import android.app.ActivityManager;
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.app.DialogFragment;
@@ -7,14 +8,18 @@ import android.app.DownloadManager;
 import android.app.Fragment;
 import android.app.FragmentTransaction;
 import android.app.ProgressDialog;
+import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.IntentFilter;
 import android.content.SharedPreferences;
+import android.database.Cursor;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.net.Uri;
 import android.os.Bundle;
+import android.os.Environment;
 import android.os.Handler;
 import android.text.InputType;
 import android.util.Log;
@@ -33,7 +38,9 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Date;
+import java.util.List;
 import java.util.Map;
+import java.util.Objects;
 
 import edu.aku.hassannaqvi.uen_midline.R;
 import edu.aku.hassannaqvi.uen_midline.contracts.AreasContract;
@@ -45,6 +52,7 @@ import edu.aku.hassannaqvi.uen_midline.core.MainApp;
 import edu.aku.hassannaqvi.uen_midline.databinding.ActivityMainBinding;
 import edu.aku.hassannaqvi.uen_midline.ui.sections.SectionAActivity;
 import edu.aku.hassannaqvi.uen_midline.ui.sync.SyncActivity;
+import edu.aku.hassannaqvi.uen_midline.utils.CreateTable;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -111,143 +119,38 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        bi = DataBindingUtil.setContentView(this, R.layout.activity_main);
-        bi.setCallback(this);
+    BroadcastReceiver broadcastReceiver = new BroadcastReceiver() {
+        @Override
+        public void onReceive(Context context, Intent intent) {
+            if (DownloadManager.ACTION_DOWNLOAD_COMPLETE.equals(intent.getAction())) {
 
+                DownloadManager.Query query = new DownloadManager.Query();
+                query.setFilterById(sharedPrefDownload.getLong("refID", 0));
 
-        db = new DatabaseHelper(this);
+                downloadManager = (DownloadManager) getSystemService(Context.DOWNLOAD_SERVICE);
+                assert downloadManager != null;
+                Cursor cursor = downloadManager.query(query);
+                if (cursor.moveToFirst()) {
+                    int colIndex = cursor.getColumnIndex(DownloadManager.COLUMN_STATUS);
+                    if (DownloadManager.STATUS_SUCCESSFUL == cursor.getInt(colIndex)) {
 
-        Collection<FormsContract> todaysForms = db.getTodayForms();
-        Collection<FormsContract> unsyncedForms = db.getUnsyncedForms();
-
-        rSumText += "TODAY'S RECORDS SUMMARY\r\n";
-
-        rSumText += "=======================\r\n";
-        rSumText += "\r\n";
-        rSumText += "Total Forms Today" + "(" + dtToday1 + "): " + todaysForms.size() + "\r\n";
-        rSumText += "\r\n";
-        if (todaysForms.size() > 0) {
-            rSumText += "\tFORMS' LIST: \r\n";
-            String iStatus;
-            rSumText += "--------------------------------------------------\r\n";
-            rSumText += "[ DSS ID ] \t[Form Status] \t[Sync Status]\r\n";
-            rSumText += "--------------------------------------------------\r\n";
-
-            for (FormsContract fc : todaysForms) {
-                if (fc.getIstatus() != null) {
-                    switch (fc.getIstatus()) {
-                        case "1":
-                            iStatus = "Complete";
-                            break;
-                        case "2":
-                            iStatus = "Incomplete";
-                            break;
-                        case "3":
-                            iStatus = "Refused";
-                            break;
-                        case "4":
-                            iStatus = "Refused";
-                            break;
-                        default:
-                            iStatus = "N/A";
-                    }
-                } else {
-                    iStatus = "N/A";
-                }
-
-                rSumText += fc.getLuid();
-                rSumText += "\t\t\t\t\t";
-
-                rSumText += iStatus;
-                rSumText += "\t\t\t\t\t";
-
-                rSumText += (fc.getSynced() == null ? "Not Synced" : "Synced");
-                rSumText += "\r\n";
-                rSumText += "--------------------------------------------------\r\n";
-            }
-        }
-
-
-        if (MainApp.admin) {
-            bi.adminsec.setVisibility(View.VISIBLE);
-            bi.databaseBtn.setVisibility(View.VISIBLE);
-            SharedPreferences syncPref = getSharedPreferences("SyncInfo", Context.MODE_PRIVATE);
-            rSumText += "Last Data Download: \t" + syncPref.getString("LastDownSyncServer", "Never Updated");
-            rSumText += "\r\n";
-            rSumText += "Last Data Upload: \t" + syncPref.getString("LastUpSyncServer", "Never Synced");
-            rSumText += "\r\n";
-            rSumText += "\r\n";
-            rSumText += "Unsynced Forms: \t" + unsyncedForms.size();
-            rSumText += "\r\n";
-        } else {
-            bi.adminsec.setVisibility(View.GONE);
-            bi.databaseBtn.setVisibility(View.GONE);
-        }
-        Log.d(TAG, "onCreate: " + rSumText);
-        bi.recordSummary.setText(rSumText);
-
-/*
-        sharedPrefDownload = getSharedPreferences("appDownload", MODE_PRIVATE);
-        editorDownload = sharedPrefDownload.edit();
-        versionAppContract = db.getVersionApp();
-        if (versionAppContract.getVersioncode() != null) {
-
-            preVer = MainApp.versionName + "." + MainApp.versionCode;
-            newVer = versionAppContract.getVersionname() + "." + versionAppContract.getVersioncode();
-
-            if (MainApp.versionCode < Integer.valueOf(versionAppContract.getVersioncode())) {
-                bi.lblAppVersion.setVisibility(View.VISIBLE);
-
-                String fileName = DatabaseHelper.DATABASE_NAME.replace(".db", "-New-Apps");
-                file = new File(Environment.getExternalStorageDirectory() + File.separator + fileName, versionAppContract.getPathname());
-
-                if (file.exists()) {
-                    bi.lblAppVersion.setText("SOSAS App New Version " + newVer + "  Downloaded.");
-//                    InstallNewApp(newVer, preVer);
-                    showDialog(newVer, preVer);
-                } else {
-                    NetworkInfo networkInfo = ((ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE)).getActiveNetworkInfo();
-                    if (networkInfo != null && networkInfo.isConnected()) {
-
-                        bi.lblAppVersion.setText("SOSASAPP New Version " + newVer + " Downloading..");
-                        downloadManager = (DownloadManager) getSystemService(Context.DOWNLOAD_SERVICE);
-                        Uri uri = Uri.parse(MainApp._UPDATE_URL + versionAppContract.getPathname());
-                        DownloadManager.Request request = new DownloadManager.Request(uri);
-                        request.setDestinationInExternalPublicDir(fileName, versionAppContract.getPathname())
-                                .setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE_NOTIFY_COMPLETED)
-                                .setTitle("Downloading SOSAS App new App ver." + newVer);
-                        refID = downloadManager.enqueue(request);
-
-                        editorDownload.putLong("refID", refID);
-                        editorDownload.putBoolean("flag", false);
+                        editorDownload.putBoolean("flag", true);
                         editorDownload.commit();
 
-                    } else {
-                        bi.lblAppVersion.setText("SOSAS App New Version " + newVer + "  Available..\n(Can't download.. Internet connectivity issue!!)");
+                        Toast.makeText(context, "New App downloaded!!", Toast.LENGTH_SHORT).show();
+                        bi.lblAppVersion.setText(new StringBuilder("UEN-ML App New Version ").append(newVer).append("  Downloaded"));
+
+                        ActivityManager am = (ActivityManager) getSystemService(ACTIVITY_SERVICE);
+                        List<ActivityManager.RunningTaskInfo> taskInfo = am.getRunningTasks(1);
+
+                        if (Objects.requireNonNull(taskInfo.get(0).topActivity).getClassName().equals(MainActivity.class.getName())) {
+                            showDialog(newVer, preVer);
+                        }
                     }
                 }
-
-            } else {
-                bi.lblAppVersion.setVisibility(View.GONE);
-                bi.lblAppVersion.setText(null);
             }
         }
-        registerReceiver(broadcastReceiver, new IntentFilter(DownloadManager.ACTION_DOWNLOAD_COMPLETE));
-*/
-
-//        Testing visibility
-        if (Integer.valueOf(MainApp.appInfo.getVersionName().split("\\.")[0]) > 0) {
-            bi.testing.setVisibility(View.GONE);
-        } else {
-            bi.testing.setVisibility(View.VISIBLE);
-        }
-
-        //loadTagDialog();
-
-    }
+    };
 
     void showDialog(String newVer, String preVer) {
         FragmentTransaction ft = getFragmentManager().beginTransaction();
@@ -390,6 +293,140 @@ public class MainActivity extends AppCompatActivity {
                     )
                     .create();
         }
+
+    }
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        bi = DataBindingUtil.setContentView(this, R.layout.activity_main);
+        bi.setCallback(this);
+
+        db = new DatabaseHelper(this);
+
+        Collection<FormsContract> todaysForms = db.getTodayForms();
+        Collection<FormsContract> unsyncedForms = db.getUnsyncedForms();
+
+        rSumText += "TODAY'S RECORDS SUMMARY\r\n";
+
+        rSumText += "=======================\r\n";
+        rSumText += "\r\n";
+        rSumText += "Total Forms Today" + "(" + dtToday1 + "): " + todaysForms.size() + "\r\n";
+        rSumText += "\r\n";
+        if (todaysForms.size() > 0) {
+            rSumText += "\tFORMS' LIST: \r\n";
+            String iStatus;
+            rSumText += "--------------------------------------------------\r\n";
+            rSumText += "[ DSS ID ] \t[Form Status] \t[Sync Status]\r\n";
+            rSumText += "--------------------------------------------------\r\n";
+
+            for (FormsContract fc : todaysForms) {
+                if (fc.getIstatus() != null) {
+                    switch (fc.getIstatus()) {
+                        case "1":
+                            iStatus = "Complete";
+                            break;
+                        case "2":
+                            iStatus = "Incomplete";
+                            break;
+                        case "3":
+                            iStatus = "Refused";
+                            break;
+                        case "4":
+                            iStatus = "Refused";
+                            break;
+                        default:
+                            iStatus = "N/A";
+                    }
+                } else {
+                    iStatus = "N/A";
+                }
+
+                rSumText += fc.getLuid();
+                rSumText += "\t\t\t\t\t";
+
+                rSumText += iStatus;
+                rSumText += "\t\t\t\t\t";
+
+                rSumText += (fc.getSynced() == null ? "Not Synced" : "Synced");
+                rSumText += "\r\n";
+                rSumText += "--------------------------------------------------\r\n";
+            }
+        }
+
+
+        if (MainApp.admin) {
+            bi.adminsec.setVisibility(View.VISIBLE);
+            bi.databaseBtn.setVisibility(View.VISIBLE);
+            SharedPreferences syncPref = getSharedPreferences("SyncInfo", Context.MODE_PRIVATE);
+            rSumText += "Last Data Download: \t" + syncPref.getString("LastDownSyncServer", "Never Updated");
+            rSumText += "\r\n";
+            rSumText += "Last Data Upload: \t" + syncPref.getString("LastUpSyncServer", "Never Synced");
+            rSumText += "\r\n";
+            rSumText += "\r\n";
+            rSumText += "Unsynced Forms: \t" + unsyncedForms.size();
+            rSumText += "\r\n";
+        } else {
+            bi.adminsec.setVisibility(View.GONE);
+            bi.databaseBtn.setVisibility(View.GONE);
+        }
+        Log.d(TAG, "onCreate: " + rSumText);
+        bi.recordSummary.setText(rSumText);
+
+        // Auto download app
+        sharedPrefDownload = getSharedPreferences("appDownload", MODE_PRIVATE);
+        editorDownload = sharedPrefDownload.edit();
+        versionAppContract = db.getVersionApp();
+        if (versionAppContract.getVersioncode() != null) {
+
+            preVer = MainApp.appInfo.getVersionName() + "." + MainApp.appInfo.getVersionCode();
+            newVer = versionAppContract.getVersionname() + "." + versionAppContract.getVersioncode();
+
+            if (MainApp.appInfo.getVersionCode() < Integer.parseInt(versionAppContract.getVersioncode())) {
+                bi.lblAppVersion.setVisibility(View.VISIBLE);
+
+                String fileName = CreateTable.DATABASE_NAME.replace(".db", "-New-Apps");
+                file = new File(Environment.getExternalStorageDirectory() + File.separator + fileName, versionAppContract.getPathname());
+
+                if (file.exists()) {
+                    bi.lblAppVersion.setText(new StringBuilder("UEN-ML App New Version ").append(newVer).append("  Downloaded"));
+                    showDialog(newVer, preVer);
+                } else {
+                    NetworkInfo networkInfo = ((ConnectivityManager) Objects.requireNonNull(getSystemService(Context.CONNECTIVITY_SERVICE))).getActiveNetworkInfo();
+                    if (networkInfo != null && networkInfo.isConnected()) {
+                        bi.lblAppVersion.setText(new StringBuilder("UEN-ML App New Version ").append(newVer).append("  Downloading.."));
+                        downloadManager = (DownloadManager) getSystemService(Context.DOWNLOAD_SERVICE);
+                        Uri uri = Uri.parse(MainApp._UPDATE_URL + versionAppContract.getPathname());
+                        DownloadManager.Request request = new DownloadManager.Request(uri);
+                        request.setDestinationInExternalPublicDir(fileName, versionAppContract.getPathname())
+                                .setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE_NOTIFY_COMPLETED)
+                                .setTitle("Downloading UEN-ML App new App ver." + newVer);
+                        refID = downloadManager.enqueue(request);
+
+                        editorDownload.putLong("refID", refID);
+                        editorDownload.putBoolean("flag", false);
+                        editorDownload.apply();
+
+                    } else {
+                        bi.lblAppVersion.setText(new StringBuilder("UEN-ML App New Version ").append(newVer).append("  Available..\n(Can't download.. Internet connectivity issue!!)"));
+                    }
+                }
+
+            } else {
+                bi.lblAppVersion.setVisibility(View.GONE);
+                bi.lblAppVersion.setText(null);
+            }
+        }
+        registerReceiver(broadcastReceiver, new IntentFilter(DownloadManager.ACTION_DOWNLOAD_COMPLETE));
+
+//        Testing visibility
+        if (Integer.parseInt(MainApp.appInfo.getVersionName().split("\\.")[0]) > 0) {
+            bi.testing.setVisibility(View.GONE);
+        } else {
+            bi.testing.setVisibility(View.VISIBLE);
+        }
+
+        //loadTagDialog();
 
     }
 
