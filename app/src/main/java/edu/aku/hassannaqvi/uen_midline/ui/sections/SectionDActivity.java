@@ -78,8 +78,8 @@ public class SectionDActivity extends AppCompatActivity {
             bi.fldGrpSectionD01.setVisibility(View.GONE);
             bi.fldGrpSectionD02.setVisibility(View.VISIBLE);
 
-            menSLst = mainVModel.getAllMenWomenName(1, Integer.valueOf(fmc.getSerialno()));
-            womenSLst = mainVModel.getAllMenWomenName(2, Integer.valueOf(fmc.getSerialno()));
+            menSLst = mainVModel.getAllMenWomenName(1, Integer.parseInt(fmc.getSerialno()));
+            womenSLst = mainVModel.getAllMenWomenName(2, Integer.parseInt(fmc.getSerialno()));
 
             List<String> menLst = new ArrayList<String>() {
                 {
@@ -251,12 +251,12 @@ public class SectionDActivity extends AppCompatActivity {
         // Update in ViewModel
         mainVModel.updateFamilyMembers(fmc);
 
-        if (Integer.valueOf(fmc.getAge()) >= 15 && Integer.valueOf(fmc.getAge()) < 49 && fmc.getGender().equals("2") && !bi.d105b.isChecked())
+        if (Integer.parseInt(fmc.getAge()) >= 15 && Integer.parseInt(fmc.getAge()) < 49 && fmc.getGender().equals("2") && !bi.d105b.isChecked())
             mainVModel.setMWRA(fmc);
-        else if (Integer.valueOf(fmc.getAge()) < 5) {
+        else if (Integer.parseInt(fmc.getAge()) < 5) {
             mainVModel.setChildU5(fmc);
             if (motherFMC == null) return;
-            if (Integer.valueOf(motherFMC.getAge()) >= 15 && Integer.valueOf(motherFMC.getAge()) < 49 && motherFMC.getAvailable().equals("1"))
+            if (Integer.parseInt(motherFMC.getAge()) >= 15 && Integer.parseInt(motherFMC.getAge()) < 49 && motherFMC.getAvailable().equals("1"))
                 mainVModel.setMwraChildU5(motherFMC);
         }
 
@@ -297,13 +297,13 @@ public class SectionDActivity extends AppCompatActivity {
             motherSerial = "97";
         }
 
-        int fAge = fatheFMC != null ? Integer.valueOf(fatheFMC.getAge()) : 0;
-        int mAge = motherFMC != null ? Integer.valueOf(motherFMC.getAge()) : 0;
+        int fAge = fatheFMC != null ? Integer.parseInt(fatheFMC.getAge()) : 0;
+        int mAge = motherFMC != null ? Integer.parseInt(motherFMC.getAge()) : 0;
 
         if (fAge == 0 && mAge == 0) return true;
         int maxAge = fAge > mAge ? mAge != 0 ? mAge : fAge : fAge != 0 ? fAge : mAge;
 
-        return Integer.valueOf(Objects.requireNonNull(bi.d109.getText()).toString().trim()) <= maxAge - 10;
+        return Integer.parseInt(Objects.requireNonNull(bi.d109.getText()).toString().trim()) <= maxAge - 10;
     }
 
     public void BtnEnd() {
