@@ -342,7 +342,12 @@
     <string name="f101ag"> No female provider at facility </string>
     <string name="f101ah"> Not necessary </string>
     <string name="f101ai"> High Cost </string>
-
+    <string name="f101aj"> Facility closed due to Corona </string>
+    <string name="f101ak"> Fear to contact with Corona </string>
+    <string name="f101al"> Social distancing </string>
+    <string name="f101am"> No transport due to Lock down Corona </string>
+    <string name="f101an"> PPE (gloves, mask)not available at home </string>
+    <string name="f101ao"> Provider’s not following SOPS (Not wearing gloves and masks) </string>
     <string name="f101n">No</string>
     <string name="f101y">Yes</string>
 
@@ -457,9 +462,23 @@
     <string name="f121a"> Yes </string>
     <string name="f121b"> No </string>
 
+    <string name="f1211"> Did LHW visit your household during your last pregnancy in CORONA LOCKDOWN? Probe for Yes </string>
+    <string name="f1211a"> Yes </string>
+    <string name="f1211b"> No </string>
+
+    <string name="f1212"> Reasons for not visiting LHW? </string>
+    <string name="f1212a"> LHW usually don’t visit </string>
+    <string name="f1212b"> LHW didn’t visit in Lockdown due to Corona </string>
+    <string name="f1212c"> LHW came but we didn’t allow her to enter in the home </string>
+    <string name="f1212d"> LHW not wearing mask </string>
+    <string name="f1212e"> I am afraid to contact with Corona </string>
+    <string name="f1212f"> Social distancing </string>
+    <string name="f1212h"> PPE not available at home </string>
+
+
     <string name="f122"> F122:\t How many times LHW visit, as part of your antenatal care during your last pregnancy ? </string>
 
-    <string name="f123"> F123:\t What was the purpose of LHW’s visit during your last pregnancy for ANC ? </string>
+    <string name="f123"> What was the purpose of LHW’s visit during your last pregnancy for ANC? </string>
     <string name="f123a"> Informed expected Delivery date </string>
     <string name="f123b"> Health, Nutrition, Hygiene counselling </string>
     <string name="f123c"> Referred for ANC at HCF </string>
@@ -467,6 +486,9 @@
     <string name="f123e"> Birth Preparedness counselling </string>
     <string name="f123f"> Provided IFA </string>
     <string name="f123g"> Informed about danger signs during pregnancy </string>
+    <string name="f123h"> Informed about precautions of Corona </string>
+    <string name="f123i"> Others specify </string>
+
 
     <string name="f124"> F124:\t Did you get information about danger sign /problems during your pregnancy with {NAME} ? </string>
     <string name="f124a"> Yes </string>
@@ -508,7 +530,7 @@
     <string name="f129a"> Yes </string>
     <string name="f129b"> No </string>
 
-    <string name="f130"> F130:\t Why did you not seek care from a health care provider for the danger signs/problems mentioned above during your pregnancy with {NAME} ? </string>
+    <string name="f130"> Why did you not seek care from a health care provider for the danger signs/problems mentioned above during your pregnancy with {NAME}? </string>
     <string name="f130a"> No transportation </string>
     <string name="f130b"> Poor attitude of staff </string>
     <string name="f130c"> Facility not functional </string>
@@ -518,6 +540,13 @@
     <string name="f130g"> No female provider at facility </string>
     <string name="f130h"> Not necessary </string>
     <string name="f130i"> High Cost </string>
+    <string name="f130j"> Facility closed due to Corona </string>
+    <string name="f130k"> Fear to contact with Corona </string>
+    <string name="f130l"> Social distancing </string>
+    <string name="f130m"> No transport due to Lock down Corona </string>
+    <string name="f130n"> PPE not available at home </string>
+    <string name="f130o"> Provider’s not following SOPS (Not wearing gloves and masks) </string>
+
 
     <string name="f131"> F131:\t Where did you seek care for the danger signs/problems you mentioned above during your pregnancy with {NAME} ? </string>
     <string name="f131a"> Government health facility </string>
@@ -542,6 +571,7 @@
     <string name="f134e"> Arrangement of clean delivery kit </string>
     <string name="f134f"> Blood donor </string>
     <string name="f134g"> Didn’t do any preparation </string>
+    <string name="f134h">Didn’t do any preparation due to Corona</string>
 
 
     <string name="tgheading"> SECTION G: DELIVERY PREPAREDNESS AND EXPERIENCE </string>

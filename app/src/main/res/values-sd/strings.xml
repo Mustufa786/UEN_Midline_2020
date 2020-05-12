@@ -350,6 +350,13 @@
     <string name="f101ag"> صحت مرڪز تي عورت ڪارڪن موجود نه ھئي </string>
     <string name="f101ah"> ضروري نه ھو </string>
     <string name="f101ai"> تمام مھانگو </string>
+    <string name="f101aj"> ڪرونا جي ڪري اسپتال بند ھئي </string>
+    <string name="f101ak"> ڪرونا جو خوف/ڊپ </string>
+    <string name="f101al"> ڪرونا جي ڪري سماجي مفاصلو </string>
+    <string name="f101am"> ڪرونا جي لاڪ ڊائون ڪري سواري نه ھئي </string>
+    <string name="f101an"> گهر ۾ حفاظتي سامان(ماسڪ/داستانه) موجود نه ھئا </string>
+    <string name="f101ao"> ڊاڪٽر معياري طريقيڪار تي عمل نه ڪري رھيو ھو (ماسڪ/داستانه پھريل نه ھئا </string>
+
     <string name="f101n"> نه </string>
     <string name="f101y"> ھا </string>
 
@@ -464,9 +471,25 @@
     <string name="f121a"> ھا </string>
     <string name="f121b"> نه </string>
 
+    <string name="f1211"> Did LHW visit your household during your last pregnancy in CORONA LOCKDOWN? Probe for Yes </string>
+    <string name="f1211a"> Yes </string>
+    <string name="f1211b"> No </string>
+
+    <string name="f1212"> ليڊي ھيلٿ ورڪر جي دوري نه ڪرڻ جو ڇا سبب ھو؟ </string>
+    <string name="f1212a"> ليڊي ھيلٿ ورڪر اڪثر ڪري نه ايندي آھي </string>
+    <string name="f1212b"> ڪرونا جي لاڪ ڊائون ڪري دورو نه ڪيو </string>
+    <string name="f1212c"> ليڊي ھيلٿ ورڪر آئي پر اسان ڪرونا جي ڪري اچڻ نه ڏنو </string>
+    <string name="f1212d"> ليڊي ھيلٿ ورڪر کي ماسڪ پاتل نه ھو </string>
+    <string name="f1212e"> ڪرونا جو خوف/ڊپ </string>
+    <string name="f1212f"> سماجي مفاصلو </string>
+    <string name="f1212h"> حفاظتي سامان گهر ۾ موجود نه ھو </string>
+
+
+
+
     <string name="f122"> F122:\t توھان جي گذريل حمل جي دوران ليڊي ھيلٿ ورڪر (ايل ايڇ ڊبليو) ڪيترا دفعا توھان جي گھر جو دورو ڪيو؟</string>
 
-    <string name="f123"> F123:\t توھان (نالو) حمل دوران ليڊي ھيلٿ ورڪر جي دوري (وزٽ) جو ڇا مقصد ھو؟ (ھڪ کان وڌيڪ جواب ٿي سگھن ٿا)</string>
+    <string name="f123"> توھان (نالو) حمل دوران ليڊي ھيلٿ ورڪر جي دوري (وزٽ) جو ڇا مقصد ھو؟ </string>
     <string name="f123a"> ڊليوري جي ممڪنه تاريخ بابت معلومات </string>
     <string name="f123b"> صحت، غذائيت ۽ صفائي جي حوالي سان تعليم/مشورو </string>
     <string name="f123c"> طبي معائني لاءِ صحت مرڪز موڪلڻ </string>
@@ -474,6 +497,10 @@
     <string name="f123e"> ويم جي تياري لاءِ صلاح / مشورو </string>
     <string name="f123f"> آئرن فولڪ ايسڊ بابت مشورو </string>
     <string name="f123g"> حمل جي بابت خطرناڪ علامتن جي بابت معلومات ڏيڻ </string>
+    <string name="f123h"> ڪرونا جي بيماري جي احتياطي اپائن بابت معلومات </string>
+    <string name="f123i"> ٻيو ڪجھ وضاحت ڪريو </string>
+
+
 
     <string name="f124"> F124:\t نالو) حمل دوران، ڇا توھان کي خطرناڪ علامتن / پيچيدگين جي معلومات ڏني وئي؟)</string>
     <string name="f124a"> ھا </string>
@@ -513,16 +540,25 @@
     <string name="f129"> F129:\t ڇا توھان مٿي ٻڌايل خطرناڪ علامتن/ پيچيدگين جو علاج ڪرايو؟</string>
     <string name="f129a"> ھا</string>
     <string name="f129b"> نه</string>
-    <string name="f130"> F130:\t توھان (نالو) حمل دوران مٿي ٻڌايل خطرناڪ علامتن / پيچيدگين جو علاج ڇو نه ڪرايو؟  (ھڪ کان وڌيڪ جواب ٿي سگھن ٿا)</string>
-    <string name="f130a"> سواري نه ھئي </string>
-    <string name="f130b"> عملي جو غير مناسب رويو </string>
-    <string name="f130c"> صحت مرڪز ڪارآمد صورت ۾ نه ھو</string>
-    <string name="f130d"> صحت مرڪز تمام پري آھي</string>
-    <string name="f130e"> ڪو مرد صحت مرڪز ڏانھن گڏ وڃڻ لاءِ موجود نه ھو </string>
-    <string name="f130f"> غير معياري خدمتون </string>
-    <string name="f130g"> صحت مرڪز تي عورت ڪارڪن موجود نه ھئي </string>
-    <string name="f130h"> ضروري نه ھو </string>
-    <string name="f130i"> تمام مھانگو </string>
+
+    <string name="f130"> Why did you not seek care from a health care provider for the danger signs/problems mentioned above during your pregnancy with {NAME}? </string>
+    <string name="f130a"> No transportation </string>
+    <string name="f130b"> Poor attitude of staff </string>
+    <string name="f130c"> Facility not functional </string>
+    <string name="f130d"> Too far </string>
+    <string name="f130e"> A male/husband was not present to accompany me to the health facility </string>
+    <string name="f130f"> Poor quality of service </string>
+    <string name="f130g"> No female provider at facility </string>
+    <string name="f130h"> Not necessary </string>
+    <string name="f130i"> High Cost </string>
+    <string name="f130j"> Facility closed due to Corona </string>
+    <string name="f130k"> Fear to contact with Corona </string>
+    <string name="f130l"> Social distancing </string>
+    <string name="f130m"> No transport due to Lock down Corona </string>
+    <string name="f130n"> PPE not available at home </string>
+    <string name="f130o"> Provider’s not following SOPS (Not wearing gloves and masks) </string>
+
+
     <string name="f131"> F131:\t توھان (نالو) حمل دوران مٿي ٻڌايل خطرناڪ علامتن/پيچيدگين جو علاج ڪٿان ڪرايو؟</string>
     <string name="f131a"> سرڪاري صحت مرڪز </string>
     <string name="f131b"> پرائيويٽ صحت مرڪز </string>
@@ -543,6 +579,7 @@
     <string name="f134e"> ڊليوري ڪٽ جو بندوبست </string>
     <string name="f134f"> رت ڏيڻ واري جو بندوبست </string>
     <string name="f134g"> ڪا به تياري نه ڪئي</string>
+    <string name="f134h"> ڪرونا جي ڪري تياري نه ڪئي </string>
 
     <string name="tgheading"> SECTION G: DELIVERY PREPAREDNESS AND EXPERIENCE </string>
     <string name="g101"> G101:\t نالو) ڇا توھان کي پنھنجي ڊليوري جي ممڪنه تاريخ جي خبر ھئي؟)</string>

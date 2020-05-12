@@ -334,6 +334,12 @@
     <string name="f101ag"> مرکز صحت میں کوئی خاتون ڈاکٹر دستیاب نہیں </string>
     <string name="f101ah"> ضروری نہیں سمجھا </string>
     <string name="f101ai"> علاج مہنگا ہے </string>
+    <string name="f101aj"> ہسپتال کرونا کی وجہ سے بند تھا </string>
+    <string name="f101ak"> کرونا کا ڈریا خوف </string>
+    <string name="f101al"> سماجی مفاصلہ </string>
+    <string name="f101am"> کرونا کے لاک ڈائون کی وجہ سے سواری نہیں تھی </string>
+    <string name="f101an"> حفاظتی سامان (ماسک، دستانے) گھر پر موجود نہیں تھے </string>
+    <string name="f101ao"> ڈاکٹر احتیاطی تدابیر پر عمل نہیں کر رہا تھا (ماسک اور دستانے نہیں پہنےہوئے تھے) </string>
     <string name="f101n"> نہیں </string>
     <string name="f101y"> ہاں </string>
 
@@ -448,16 +454,34 @@
     <string name="f121a"> ہاں </string>
     <string name="f121b"> نہیں </string>
 
+    <string name="f1211"> Did LHW visit your household during your last pregnancy in CORONA LOCKDOWN? Probe for Yes </string>
+    <string name="f1211a"> Yes </string>
+    <string name="f1211b"> No </string>
+
+    <string name="f1212"> لیڈی ہیلتھ ورکر کا وزٹ نہیں کرنے کا سبب کیا تھا؟ </string>
+    <string name="f1212a"> ایل ایچھ ڈبلیو اکثر کرکے نہیں آتی </string>
+    <string name="f1212b"> ایل ایچھ ڈبلیوکرونا کی وجہ سےوزٹ نہیں کرسکی </string>
+    <string name="f1212c"> ایل ایچھ ڈبلیوآئی مگر ہم نے گھر میں آنے نہیں دیا </string>
+    <string name="f1212d"> ایل ایچھ ڈبلیونے ماسک نہیں پہنا ہوا تھا </string>
+    <string name="f1212e"> کرونا کا ڈریا خوف </string>
+    <string name="f1212f"> سماجی مفاصلا </string>
+    <string name="f1212h"> حفاظتی سامان گھر پر موجود نہیں تھا </string>
+
+
+
+
     <string name="f122"> F122:\t گزشتہ حمل کےدوران آپ کےحمل کی دیکھ بھال کا ایک حصہ ہونے کےناتے،(ایل ایچ ڈبلیو) لیڈی ہیلتھ ورکرنے کتنی بار آپکے گھرکادورہ کیاتھا؟ </string>
 
-    <string name="f123"> F123:\t  (گزشتہ حمل کےدوران آپ کےحمل کی دیکھ بھال کے لئے کئے گئے ایل ایچ ڈبلیو کے دورے کا مقصد کیا تھا؟ (ایک سے زیادہ جوابات آسکتے ہیں </string>
+    <string name="f123"> گزشتہ حمل کےدوران آپ کےحمل کی دیکھ بھال کے لئے کئے گئے ایل ایچ ڈبلیو کے دورے کا مقصد کیا تھا؟ </string>
     <string name="f123a"> زچگی کی متوقع تاریخ کی معلومات دینا </string>
     <string name="f123b"> صحت،غذائیت، صفائی کا مشورہ دینا </string>
     <string name="f123c"> حمل کی دیکھ بھال کے لئے مرکز صحت جانے کاحوالہ دینا </string>
-    <string name="f123d"> تشنج کے حفاظتی ٹیکے لگوانا </string>
+    <string name="f123d"> تشنج کے حفاظتی ٹیکے لگوانے کا مشورہ دینا </string>
     <string name="f123e"> پیدائش سے پہلے تیاری کی مشاورت </string>
     <string name="f123f"> فولاد یا آئرن کی گولیاں فراہم کرنا </string>
     <string name="f123g"> زچگی کے دوران خطرناک علامات کی آگاہی دینا </string>
+    <string name="f123h"> کرونا کی احتیاطی تدابیر کےبارے میں معلومات </string>
+    <string name="f123i"> Others specify </string>
 
     <string name="f124"> F124:\t کیاآپ نے(نام)کی پیدائش سےقبل اپنےحمل کے دوران خطرناک علامات/مسائل کے بارے میں معلومات حاصل کی تھیں؟ </string>
     <string name="f124a"> ہاں </string>
@@ -499,16 +523,23 @@
     <string name="f129a"> ہاں </string>
     <string name="f129b"> نہیں </string>
 
-    <string name="f130"> F130:\t آپ(نام)کی پیدائش سےقبل حمل کے دوران پیش آنے والی خطرناک علامات / مسائل کی دیکھ بھال کے لئے کسی صحت کی سہولیات فراہم کرنے والے کے پاس کیوں نہیں گئیں ؟ سب پر نشان لگائیں جو لاگو ہوتے ہیں </string>
+    <string name="f130"> آپ(نام)کی پیدائش سےقبل حمل کے دوران پیش آنے والیخطرناک علامات/مسائل کی دیکھ بھال کے لئے کسی صحت کی سہولیات فراہم کرنے والے کے پاس کیوں نہیں گئیں تھی؟ </string>
     <string name="f130a"> سواری نہیں تھی </string>
     <string name="f130b"> ہسپتال کے عملے کا رویہ صحیح نہیں تھا </string>
-    <string name="f130c"> ہسپتال میں کام نہیں ہو رہا تھا </string>
+    <string name="f130c"> ہسپتال میں کام بند تھا </string>
     <string name="f130d"> مرکز صحت بہت دور تھا </string>
     <string name="f130e"> کوئی مرد/شوہر مرکز صحت لے جانے کے لیئے موجود نہیں تھا </string>
     <string name="f130f"> ناقص معیار کی خدمات </string>
     <string name="f130g"> مرکز صحت میں کوئی خاتون ڈاکٹر دستیاب نہیں </string>
     <string name="f130h"> ضروری نہیں سمجھا </string>
     <string name="f130i"> علاج مہنگا ہے </string>
+    <string name="f130j"> ہسپتال کرونا کی وجہ سے بند تھا </string>
+    <string name="f130k"> کرونا کا ڈریا خوف </string>
+    <string name="f130l"> سماجی مفاصلہ </string>
+    <string name="f130m"> کرونا کے لاک ڈائون کی وجہ سے سواری نہیں تھی </string>
+    <string name="f130n"> حفاظتی سامان (ماسک، دستانے) گھر پر موجود نہیں تھے </string>
+    <string name="f130o"> ڈاکٹر احتیاطی تدابیر پر عمل نہیں کر رہا تھا (ماسک اور دستانے نہیں پہنےہوئے تھے) </string>
+
 
     <string name="f131"> F131:\t آپ (نام) کی پیدائش سے قبل حمل کے دوران پیش آنے والی اوپر بیان کی گئی علامات / مسائل کی دیکھ بھال کے لئے کہاں گئے تھے ؟ </string>
     <string name="f131a"> سرکاری مرکز صحت </string>
@@ -533,6 +564,7 @@
     <string name="f134e"> کلین ڈیلیوری کٹ کا بندوبست </string>
     <string name="f134f"> خون کا بندوبست </string>
     <string name="f134g"> کوئی اقدامات یا تیاری نہیں کی تھی </string>
+    <string name="f134h"> کرونا کی وجہ سےکوئی تیاری نہیں کی </string>
 
     <string name="tgheading"> SECTION G: DELIVERY PREPAREDNESS AND EXPERIENCE </string>
     <string name="g101"> G101:\t کیا آپکو (نام) کی متوقع تاریخ پیدائش معلوم تھی ؟ </string>
