@@ -725,14 +725,14 @@
     <string name="g125a"> ھا</string>
     <string name="g125b"> نه</string>
 
-    <string name="G1251"> ليڊي ھيلٿ ورڪر اڪثر ڪري نه ايندي آھي </string>
-    <string name="G1251a"> ڪرونا جي لاڪ ڊائون ڪري دورو نه ڪيو </string>
-    <string name="G1251b"> ليڊي ھيلٿ ورڪر آئي پر اسان ڪرونا جي ڪري اچڻ نه ڏنو </string>
-    <string name="G1251c"> ليڊي ھيلٿ ورڪر کي ماسڪ پاتل نه ھو </string>
-    <string name="G1251d"> ڪرونا جو خوف/ڊپ </string>
-    <string name="G1251e"> سماجي مفاصلو </string>
-    <string name="G1251f"> حفاظتي سامان گهر ۾ موجود نه ھو </string>
-    <string name="G1251g"> PPE not available at home </string>
+    <string name="g1251"> ليڊي ھيلٿ ورڪر اڪثر ڪري نه ايندي آھي </string>
+    <string name="g1251a"> ڪرونا جي لاڪ ڊائون ڪري دورو نه ڪيو </string>
+    <string name="g1251b"> ليڊي ھيلٿ ورڪر آئي پر اسان ڪرونا جي ڪري اچڻ نه ڏنو </string>
+    <string name="g1251c"> ليڊي ھيلٿ ورڪر کي ماسڪ پاتل نه ھو </string>
+    <string name="g1251d"> ڪرونا جو خوف/ڊپ </string>
+    <string name="g1251e"> سماجي مفاصلو </string>
+    <string name="g1251f"> حفاظتي سامان گهر ۾ موجود نه ھو </string>
+    <string name="g1251g"> PPE not available at home </string>
 
 
     <string name="g126"> G126:\t ڇا ليڊي ھيلٿ ورڪر توھان کي ڪلين ڊليوري ڪٽ مھيا ڪئي؟</string>
@@ -940,14 +940,14 @@
     <string name="h131a"> ھا</string>
     <string name="h131b"> نه</string>
 
-    <string name="H1311"> (نالو) کي ٽڪا نه لڳرائڻ جو سبب ڇا ھو؟ </string>
-    <string name="H1311a"> اھيو ضروري نه آھي </string>
-    <string name="H1311b"> ڪرونا جي ڪري اسپتال بند ھئي </string>
-    <string name="H1311c"> ڪرونا جو خوف/ڊپ </string>
-    <string name="H1311d"> ڪرونا جي ڪري سماجي مفاصلو </string>
-    <string name="H1311e"> ڪرونا جي لاڪ ڊائون ڪري سواري نه ھئي </string>
-    <string name="H1311f"> گهر ۾ حفاظتي سامان(ماسڪ/داستانه) موجود نه ھئا </string>
-    <string name="H1311g"> ڊاڪٽر معياري طريقيڪار تي عمل نه ڪري رھيو ھو (ماسڪ/داستانه پھريل نه ھئا </string>
+    <string name="h1311"> (نالو) کي ٽڪا نه لڳرائڻ جو سبب ڇا ھو؟ </string>
+    <string name="h1311a"> اھيو ضروري نه آھي </string>
+    <string name="h1311b"> ڪرونا جي ڪري اسپتال بند ھئي </string>
+    <string name="h1311c"> ڪرونا جو خوف/ڊپ </string>
+    <string name="h1311d"> ڪرونا جي ڪري سماجي مفاصلو </string>
+    <string name="h1311e"> ڪرونا جي لاڪ ڊائون ڪري سواري نه ھئي </string>
+    <string name="h1311f"> گهر ۾ حفاظتي سامان(ماسڪ/داستانه) موجود نه ھئا </string>
+    <string name="h1311g"> ڊاڪٽر معياري طريقيڪار تي عمل نه ڪري رھيو ھو (ماسڪ/داستانه پھريل نه ھئا </string>
 
 
     <string name="h132"> H132:\t ڇا گورنمينٽ جي طرفان ليڊي ھيلٿ ورڪر (نالو) جي پيدائش کان پوءِ توھان جي گھر جو دورو ڪيو؟</string>
@@ -1005,6 +1005,16 @@
     <string name="h137"> H137:\t (ڇا نئين ڄاول ٻار کي (بي سي جي)  جي ويڪسين لڳائي وئي؟ (جيڪا اڪثر ڪري ٻانھن تي نشان ڇڏيندي آھي </string>
     <string name="h137a"> ھا </string>
     <string name="h137b"> نه </string>
+
+    <string name="h1371"> (نالو) کي ٽڪو نه لڳرائڻ جو سبب ڇا ھو؟ </string>
+    <string name="h1371a"> اھيو ضروري نه آھي </string>
+    <string name="h1371b"> ڪرونا جي ڪري اسپتال بند ھئي </string>
+    <string name="h1371c"> ڪرونا جو خوف/ڊپ </string>
+    <string name="h1371d"> ڪرونا جي ڪري سماجي مفاصلو </string>
+    <string name="h1371e"> ڪرونا جي لاڪ ڊائون ڪري سواري نه ھئي </string>
+    <string name="h1371f"> گهر ۾ حفاظتي سامان(ماسڪ/داستانه) موجود نه ھئا </string>
+    <string name="h1371g"> ڊاڪٽر معياري طريقيڪار تي عمل نه ڪري رھيو ھو (ماسڪ/داستانه پھريل نه ھئا </string>
+
 
     <string name="h137aa"> H137aa:\t نئين ڄاول ٻار کي (بي سي جي) جي ويڪسين ڪٿان لڳرائي وئي ؟ </string>
     <string name="h137aaa"> سرڪاري صحت مرڪز</string>
@@ -1069,6 +1079,17 @@
     <string name="h209"> H209:\t ڇا ليڊي ھيلٿ ورڪر توھان جي ڊليوري کان پوءِ توھان جي گھر جو دورو ڪيو؟</string>
     <string name="h209a"> ھا</string>
     <string name="h209b"> نه</string>
+
+    <string name="H2091"> ليڊي ھيلٿ ورڪر جي دوري نه ڪرڻ جو ڇا سبب ھو؟ </string>
+    <string name="H2091a"> ليڊي ھيلٿ ورڪر اڪثر ڪري نه ايندي آھي </string>
+    <string name="H2091b"> ڪرونا جي لاڪ ڊائون ڪري دورو نه ڪيو </string>
+    <string name="H2091c"> ليڊي ھيلٿ ورڪر آئي پر اسان ڪرونا جي ڪري اچڻ نه ڏنو </string>
+    <string name="H2091d"> ليڊي ھيلٿ ورڪر کي ماسڪ پاتل نه ھو </string>
+    <string name="H2091e"> ڪرونا جو خوف/ڊپ </string>
+    <string name="H2091f"> سماجي مفاصلو </string>
+    <string name="H2091g"> حفاظتي سامان گهر ۾ موجود نه ھو </string>
+
+
     <string name="h210"> H210:\t ليڊي ھيلٿ ورڪر توھان جي گھر جودورو ڪڏھن ڪيو؟</string>
     <string name="h210a"> 24 ڪلاڪن جي اندر </string>
     <string name="h210b"> ھڪ ھفتي جي اندر </string>
@@ -1084,6 +1105,8 @@
     <string name="h211g"> طبي معائني لاءِ صحت مرڪز موڪلڻ</string>
     <string name="h211h"> ٻار جي غذا ۽ ماءُ جي کير پيارڻ بابت مشاورت</string>
     <string name="h211i"> خانداني منصوبه بندي بابت صلاح مشورو</string>
+    <string name="h211j"> ڪرونا جي بيماري جي احتياطي اپائن بابت معلومات </string>
+
     <string name="h212"> H212:\t ليڊي ھيلٿ ورڪر دوري دوران  توھان جي گھر ۾ ڪيترو وقت گذاريندي آھي؟</string>
     <string name="h213"> H213:\t توھان ليڊي ھيلٿ ورڪر جي طريقي ڪار ۽ ڪم مان ڪيترو مطمئن آھيو؟</string>
     <string name="h213a"> تمام گھڻو مطئمن </string>
@@ -1094,6 +1117,7 @@
     <string name="h214b"> نه، خبر نه آھي </string>
     <string name="h214c"> ھا، شموليت ڪئي آھي </string>
     <string name="h214d"> ڪڏھن به شموليت نه ڪئي آھي </string>
+    <string name="h214e"> ڪرونا جي ڪري مٽينگ/گڏجاڻي نه ٿي سگهي </string>
     <string name="h215"> H215:\t ڇا توھان جي علائقي ۾ ماڻھن جو سھڪار ڪرڻ لاءِ ڪا حڪمت عملي ٺھيل آھي جيڪا عورتن ۽ ٻارن جي صحت جو خرچ برداشت نه ٿا ڪري سگھن انھن لاءِ ڪھڙو طريقيڪار آھي؟</string>
     <string name="h215a"> اين جي او</string>
     <string name="h215b"> ڳوٺاڻي سطح تي فنڊ</string>
@@ -1104,6 +1128,16 @@
     <string name="h216a"> ھا</string>
     <string name="h216b"> نه</string>
     <string name="h216c"> ان بابت ڪڏھن به نه ٻڌو آھي </string>
+
+    <string name="H2161"> ميٽنگ/ گڏجاڻي ۾ شموليت نه ڪرڻ جو سبب ڇا ھو؟ </string>
+    <string name="H2161a"> اھيو ضروري نه آھي </string>
+    <string name="H2161b"> ڪرونا جي ڪري نه ٿي سگھيو </string>
+    <string name="H2161c"> ڪرونا جو خوف/ڊپ </string>
+    <string name="H2161d"> ڪرونا جي ڪري سماجي مفاصلو </string>
+    <string name="H2161e"> ڪرونا جي لاڪ ڊائون ڪري سواري نه ھئي </string>
+    <string name="H2161f"> گهر ۾ حفاظتي سامان(ماسڪ/داستانه) موجود نه ھئا </string>
+
+
     <string name="h217"> H217:\t ماءُ، نئين ڄاول ٻار ۽ ٻارن جي صحت جي ضرورتن جي لاءِ توھان وٽ مالي مدد جو ڪھڙو ذريعو آھي؟</string>
     <string name="h217a"> (خاندان (مڙس/پنھنجو ذريعو</string>
     <string name="h217b"> بئنڪ/تنظيم کان قرض </string>
