@@ -1208,6 +1208,13 @@
     <string name="i106d"> مرد جي غيرموجودگي جي ڪري </string>
     <string name="i106e"> گھر جي سربراھ / مڙس / سس جي اجازت نه ھئي </string>
     <string name="i106f"> صحت مرڪز پري آھي </string>
+    <string name="i106g"> ڪرونا جي ڪري اسپتال بند ھئي </string>
+    <string name="i106h"> ڪرونا جو خوف/ڊپ </string>
+    <string name="i106i"> ڪرونا جي ڪري سماجي مفاصلو </string>
+    <string name="i106j"> ڪرونا جي لاڪ ڊائون ڪري سواري نه ھئي </string>
+    <string name="i106k"> گهر ۾ حفاظتي سامان(ماسڪ/داستانه) موجود نه ھئا </string>
+    <string name="i106l"> ڊاڪٽر معياري طريقيڪار تي عمل نه ڪري رھيو ھو (ماسڪ/داستانه پھريل نه ھئ </string>
+
 
     <string name="i107"> I107:\t توھان (نالو) دستن جي بيماري دوران علاج ڪٿان ڪرايو ؟</string>
     <string name="i107a"> سرڪاري صحت مرڪز </string>
@@ -1306,9 +1313,19 @@
     <string name="i124e"> ھر شي الٽي ڪري ڇڏڻ</string>
     <string name="i124f"> پئخاني ۾ رت جو اچڻ</string>
     <string name="i124g"> چمڙي جو آھستي واپس وڃڻ</string>
-    <string name="i125"> I125:\t جڏھن توھان جي ٻار کي دستن جي بيماري ھئي ته ڇا ليڊي ھيلٿ ورڪر توھان کي ان بيماري کان بچاءُ لاءِ معلومات مھيا ڪئي؟</string>
-    <string name="i125a"> ھا </string>
-    <string name="i125b"> نه</string>
+    <string name="i1251"> I125:\t جڏھن توھان جي ٻار کي دستن جي بيماري ھئي ته ڇا ليڊي ھيلٿ ورڪر توھان کي ان بيماري کان بچاءُ لاءِ معلومات مھيا ڪئي؟</string>
+    <string name="i1251a"> ھا </string>
+    <string name="i1251b"> نه</string>
+    <string name="i1252"> I125a:\t ليڊي ھيلٿ ورڪر جي دوري نه ڪرڻ جو ڇا سبب ھو؟?</string>
+    <string name="i1252a">ليڊي ھيلٿ ورڪر اڪثر ڪري نه ايندي آھي </string>
+    <string name="i1252b">ڪرونا جي لاڪ ڊائون ڪري دورو نه ڪيو </string>
+    <string name="i1252c">ليڊي ھيلٿ ورڪر آئي پر اسان ڪرونا جي ڪري اچڻ نه ڏنو</string>
+    <string name="i1252d">ليڊي ھيلٿ ورڪر کي ماسڪ پاتل نه ھو</string>
+    <string name="i1252e">ڪرونا جو خوف/ڊپ</string>
+    <string name="i1252f">سماجي مفاصلو</string>
+    <string name="i1252g">حفاظتي سامان گهر ۾ موجود نه ھوا</string>
+
+
     <string name="i126"> I126:\t ان توھان کي ڪھڙي معلومات مھيا ڪئي؟</string>
     <string name="i126a"> ماءُ کي گهر ۾ او آر ايس تيار ڪري ڏيکارڻ/سيکارڻ</string>
     <string name="i126b"> زنڪ ڊي ٽي مھيا ڪرڻ</string>
@@ -1340,6 +1357,12 @@
     <string name="i208f"> صحت مرڪز پري آھي </string>
     <string name="i208g"> صحت مرڪز کليل نه ھو </string>
     <string name="i208h"> غير معياري سھولتون</string>
+    <string name="i208i"> ڪرونا جي ڪري اسپتال بند ھئي </string>
+    <string name="i208j"> ڪرونا جو خوف/ڊپ </string>
+    <string name="i208k"> ڪرونا جي ڪري سماجي مفاصلو </string>
+    <string name="i208l"> ڪرونا جي لاڪ ڊائون ڪري سواري نه ھئي </string>
+    <string name="i208m"> گهر ۾ حفاظتي سامان(ماسڪ/داستانه) موجود نه ھئا </string>
+    <string name="i208n"> ڊاڪٽر معياري طريقيڪار تي عمل نه ڪري رھيو ھو (ماسڪ/داستانه پھريل نه ھئ </string>
     <string name="i209"> I209:\t ڇا (نالو) جو توھان بخار، کنگھ ۽ تڪڙا ساھ کڻڻ جو علاج ڪٿان ڪرايو؟</string>
     <string name="i209a"> گھر ۾</string>
     <string name="i209b"> سرڪاري صحت مرڪز </string>
@@ -1414,9 +1437,17 @@
     <string name="i224d"> سي ايم ڊبليو (ڪميونٽي مڊوائف) </string>
     <string name="i224e"> ايل ايڇ ڊبليو (ليڊي ھيلٿ ورڪر) </string>
     <string name="i224f"> دائي / ٽي بي اي </string>
-    <string name="i225"> I225:\t ڇا ليڊي ھليٿ ورڪر ٻار جي بيماريءَ دوران توھان جي گهر جو دورو ڪيو؟</string>
-    <string name="i225a"> ھا </string>
-    <string name="i225b"> نه </string>
+    <string name="i2251"> I125:\t جڏھن توھان جي ٻار کي دستن جي بيماري ھئي ته ڇا ليڊي ھيلٿ ورڪر توھان کي ان بيماري کان بچاءُ لاءِ معلومات مھيا ڪئي؟</string>
+    <string name="i2251a"> ھا </string>
+    <string name="i2251b"> نه</string>
+    <string name="i2252"> I125a:\t ليڊي ھيلٿ ورڪر جي دوري نه ڪرڻ جو ڇا سبب ھو؟?</string>
+    <string name="i2252a">ليڊي ھيلٿ ورڪر اڪثر ڪري نه ايندي آھي </string>
+    <string name="i2252b">ڪرونا جي لاڪ ڊائون ڪري دورو نه ڪيو </string>
+    <string name="i2252c">ليڊي ھيلٿ ورڪر آئي پر اسان ڪرونا جي ڪري اچڻ نه ڏنو</string>
+    <string name="i2252d">ليڊي ھيلٿ ورڪر کي ماسڪ پاتل نه ھو</string>
+    <string name="i2252e">ڪرونا جو خوف/ڊپ</string>
+    <string name="i2252f">سماجي مفاصلو</string>
+    <string name="i2252g">حفاظتي سامان گهر ۾ موجود نه ھوا</string>
     <string name="i226"> I226:\t ان توھان کي ڪھڙيون خدمتون مھيا ڪيون؟</string>
     <string name="i226a"> ايموڪسسلين ڊي ٽي مھيا ڪئي </string>
     <string name="i226b"> پيناڊول سيرپ يا گوريون </string>
@@ -1927,6 +1958,12 @@
     <string name="j123n"> ٻار کي موڪليو ويو پر صحت مرڪز بند ھو </string>
     <string name="j123o"> ٻار بيمار ھو </string>
     <string name="j123p"> ٻار کي موڪليو ويو پر ٽڪن جو ڏينھن نه ھو </string>
+    <string name="j123q"> ڪرونا جي ڪري اسپتال بند ھئي </string>
+    <string name="j123r"> ڪرونا جو خوف/ڊپ </string>
+    <string name="j123s"> ڪرونا جي ڪري سماجي مفاصلو </string>
+    <string name="j123t"> ڪرونا جي لاڪ ڊائون ڪري سواري نه ھئي </string>
+    <string name="j123u"> گهر ۾ حفاظتي سامان(ماسڪ/داستانه) موجود نه ھئا </string>
+    <string name="j123v"> ڊاڪٽر معياري طريقيڪار تي عمل نه ڪري رھيو ھو (ماسڪ/داستانه پھريل نه ھئ </string>
     <string name="j123x"> (ٻيو ڪجھه (وضاحت ڪريو </string>
 
 
@@ -2000,14 +2037,32 @@
     <string name="k106h"> مڙس جي اجازت نه ھئي </string>
     <string name="k106x"> ٻيو ڪجھ </string>
 
-    <string name="k107"> K107:\t ڇا ليڊي هيلٿ ورڪر حمل روڪڻ لاءِ ڪا گوري ڏني يا ٻيو ڪو طريقي ڪار بابت ٻڌايو ؟ </string>
-    <string name="k107a"> ھا </string>
-    <string name="k107b"> نه </string>
+    <string name="k1071"> K107:\t ڇا ليڊي هيلٿ ورڪر حمل روڪڻ لاءِ ڪا گوري ڏني يا ٻيو ڪو طريقي ڪار بابت ٻڌايو ؟ </string>
+    <string name="k1071a"> ھا </string>
+    <string name="k1071b"> نه </string>
 
-    <string name="k108"> K108:\t ڇا ليڊي هيلٿ ورڪر صحت جي حوالي سان توھان ۽ توھان جي مڙس  ڪا ميٽنگ ڪئي ؟ </string>
-    <string name="k108a"> ھا </string>
-    <string name="k108b"> نه </string>
-    <string name="k108c"> ڳوٺ وارن سان معمول مطابق ميٽنگ </string>
+    <string name="K1072"> I125a:\t ليڊي ھيلٿ ورڪر جي دوري نه ڪرڻ جو ڇا سبب ھو؟?</string>
+    <string name="K1072a">ليڊي ھيلٿ ورڪر اڪثر ڪري نه ايندي آھي </string>
+    <string name="K1072b">ڪرونا جي لاڪ ڊائون ڪري دورو نه ڪيو </string>
+    <string name="K1072c">ليڊي ھيلٿ ورڪر آئي پر اسان ڪرونا جي ڪري اچڻ نه ڏنو</string>
+    <string name="K1072d">ليڊي ھيلٿ ورڪر کي ماسڪ پاتل نه ھو</string>
+    <string name="K1072e">ڪرونا جو خوف/ڊپ</string>
+    <string name="K1072f">سماجي مفاصلو</string>
+    <string name="K1072g">حفاظتي سامان گهر ۾ موجود نه ھوا</string>
+
+    <string name="k1081"> K108:\t ڇا ليڊي هيلٿ ورڪر صحت جي حوالي سان توھان ۽ توھان جي مڙس  ڪا ميٽنگ ڪئي ؟ </string>
+    <string name="k1081a"> ھا </string>
+    <string name="k1081b"> نه </string>
+    <string name="k1081c"> ڳوٺ وارن سان معمول مطابق ميٽنگ </string>
+
+    <string name="k1082"> I125a:\t مٽينگ/گڏجاڻي نه ڪرڻ جو سبب ڇا ھو؟</string>
+    <string name="k1082a">ليڊي ھيلٿ ورڪر اڪثر ڪري نه ايندي آھي </string>
+    <string name="k1082b">ڪرونا جي لاڪ ڊائون ڪري دورو نه ڪيو </string>
+    <string name="K1082c">ليڊي ھيلٿ ورڪر آئي پر اسان ڪرونا جي ڪري اچڻ نه ڏنو</string>
+    <string name="K1082d">ليڊي ھيلٿ ورڪر کي ماسڪ پاتل نه ھو</string>
+    <string name="K1082e">ڪرونا جو خوف/ڊپ</string>
+    <string name="K1082f">سماجي مفاصلو</string>
+    <string name="K1082g">حفاظتي سامان گهر ۾ موجود نه ھوا</string>
 
     <string name="k109"> K109:\t ڇا توھان کي ليڊي هيلٿ ورڪر جي هيلٿ هائوس جي باري ۾ خبر آھي جيڪو توھان جي علائقي ۾ يا ان جي ويجھو موجود آھي ؟ </string>
     <string name="k109a"> ھا </string>
