@@ -741,6 +741,36 @@
                         android:tag="0">
 
                         <CheckBox
+                            android:id="@+id/j123q"
+                            style="@style/checkbox"
+                            android:text="@string/j123q" />
+
+                        <CheckBox
+                            android:id="@+id/j123r"
+                            style="@style/checkbox"
+                            android:text="@string/j123r" />
+
+                        <CheckBox
+                            android:id="@+id/j123s"
+                            style="@style/checkbox"
+                            android:text="@string/j123s" />
+
+                        <CheckBox
+                            android:id="@+id/j123t"
+                            style="@style/checkbox"
+                            android:text="@string/j123t" />
+
+                        <CheckBox
+                            android:id="@+id/j123u"
+                            style="@style/checkbox"
+                            android:text="@string/j123u" />
+
+                        <CheckBox
+                            android:id="@+id/j123v"
+                            style="@style/checkbox"
+                            android:text="@string/j123v" />
+
+                        <CheckBox
                             android:id="@+id/j123a"
                             style="@style/checkbox"
                             android:text="@string/j123a" />
