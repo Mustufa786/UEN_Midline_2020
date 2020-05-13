@@ -152,6 +152,16 @@ public class SectionGActivity extends AppCompatActivity {
             }
         });
 
+        //g1251
+        bi.g1251c.setOnCheckedChangeListener((buttonView, isChecked) -> {
+            if (isChecked)
+                bi.g1251check03.setVisibility(View.VISIBLE);
+            else {
+                Clear.clearAllFields(bi.g1251check03);
+                bi.g1251check03.setVisibility(View.GONE);
+            }
+        });
+
 
         //g126
         bi.g126.setOnCheckedChangeListener((group, checkedId) -> {
@@ -223,6 +233,12 @@ public class SectionGActivity extends AppCompatActivity {
         json.put("g103g", bi.g103g.isChecked() ? "7" : "0");
         json.put("g103h", bi.g103h.isChecked() ? "8" : "0");
         json.put("g103i", bi.g103i.isChecked() ? "9" : "0");
+        json.put("g103j", bi.g103j.isChecked() ? "10" : "0");
+        json.put("g103k", bi.g103k.isChecked() ? "11" : "0");
+        json.put("g103l", bi.g103l.isChecked() ? "12" : "0");
+        json.put("g103m", bi.g103m.isChecked() ? "13" : "0");
+        json.put("g103n", bi.g103n.isChecked() ? "14" : "0");
+        json.put("g103o", bi.g103o.isChecked() ? "15" : "0");
 
         json.put("g104", bi.g104a.isChecked() ? "1" :
                 bi.g104b.isChecked() ? "2" :
@@ -340,6 +356,13 @@ public class SectionGActivity extends AppCompatActivity {
 
         json.put("g125", bi.g125a.isChecked() ? "1" :
                 bi.g125b.isChecked() ? "2" : "0");
+        json.put("g1251a", bi.g1251a.isChecked() ? "1" : "0");
+        json.put("g1251b", bi.g1251b.isChecked() ? "2" : "0");
+        json.put("g1251c", bi.g1251c.isChecked() ? "3" : "0");
+        json.put("g1251d", bi.g1251d.isChecked() ? "4" : "0");
+        json.put("g1251e", bi.g1251e.isChecked() ? "5" : "0");
+        json.put("g1251f", bi.g1251f.isChecked() ? "6" : "0");
+        json.put("g1251g", bi.g1251g.isChecked() ? "7" : "0");
 
         json.put("g126", bi.g126a.isChecked() ? "1" :
                 bi.g126b.isChecked() ? "2" :

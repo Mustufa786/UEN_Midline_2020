@@ -473,7 +473,7 @@
     <string name="f1212d"> LHW not wearing mask </string>
     <string name="f1212e"> I am afraid to contact with Corona </string>
     <string name="f1212f"> Social distancing </string>
-    <string name="f1212h"> PPE not available at home </string>
+    <string name="f1212g"> PPE not available at home </string>
 
 
     <string name="f122"> F122:\t How many times LHW visit, as part of your antenatal care during your last pregnancy ? </string>
@@ -487,7 +487,7 @@
     <string name="f123f"> Provided IFA </string>
     <string name="f123g"> Informed about danger signs during pregnancy </string>
     <string name="f123h"> Informed about precautions of Corona </string>
-    <string name="f123i"> Others specify </string>
+    <string name="f12396"> Others specify </string>
 
 
     <string name="f124"> F124:\t Did you get information about danger sign /problems during your pregnancy with {NAME} ? </string>

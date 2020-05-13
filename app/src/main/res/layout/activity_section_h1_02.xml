@@ -709,6 +709,69 @@
 
                 </androidx.cardview.widget.CardView>
 
+                <!-- h1311  CheckBox   -->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/fldGrpCVh1311"
+                    style="@style/cardView"
+                    android:visibility="@{h131b.checked ? View.VISIBLE : View.GONE}">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/h1311" />
+
+                        <LinearLayout
+                            android:id="@+id/h1311check"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:tag="0">
+
+                            <CheckBox
+                                android:id="@+id/h1311a"
+                                style="@style/checkbox"
+                                android:text="@string/h1311a" />
+
+                            <CheckBox
+                                android:id="@+id/h1311b"
+                                style="@style/checkbox"
+                                android:text="@string/h1311b" />
+
+                            <CheckBox
+                                android:id="@+id/h1311c"
+                                style="@style/checkbox"
+                                android:text="@string/h1311c" />
+
+                            <CheckBox
+                                android:id="@+id/h1311d"
+                                style="@style/checkbox"
+                                android:text="@string/h1311d" />
+
+                            <CheckBox
+                                android:id="@+id/h1311e"
+                                style="@style/checkbox"
+                                android:text="@string/h1311e" />
+
+                            <CheckBox
+                                android:id="@+id/h1311f"
+                                style="@style/checkbox"
+                                android:text="@string/h1311f" />
+
+                            <CheckBox
+                                android:id="@+id/h1311g"
+                                style="@style/checkbox"
+                                android:text="@string/h1311g" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
                 <!-- h132  Radio   -->
                 <androidx.cardview.widget.CardView
                     android:id="@+id/fldGrpCVh132"
