@@ -2003,14 +2003,32 @@
     <string name="k106h"> مڙس جي اجازت نه ھئي </string>
     <string name="k106x"> ٻيو ڪجھ </string>
 
-    <string name="k107"> K107:\t ڇا ليڊي هيلٿ ورڪر حمل روڪڻ لاءِ ڪا گوري ڏني يا ٻيو ڪو طريقي ڪار بابت ٻڌايو ؟ </string>
-    <string name="k107a"> ھا </string>
-    <string name="k107b"> نه </string>
+    <string name="k1071"> K107:\t ڇا ليڊي هيلٿ ورڪر حمل روڪڻ لاءِ ڪا گوري ڏني يا ٻيو ڪو طريقي ڪار بابت ٻڌايو ؟ </string>
+    <string name="k1071a"> ھا </string>
+    <string name="k1071b"> نه </string>
 
-    <string name="k108"> K108:\t ڇا ليڊي هيلٿ ورڪر صحت جي حوالي سان توھان ۽ توھان جي مڙس  ڪا ميٽنگ ڪئي ؟ </string>
-    <string name="k108a"> ھا </string>
-    <string name="k108b"> نه </string>
-    <string name="k108c"> ڳوٺ وارن سان معمول مطابق ميٽنگ </string>
+    <string name="K1072"> I125a:\t ليڊي ھيلٿ ورڪر جي دوري نه ڪرڻ جو ڇا سبب ھو؟?</string>
+    <string name="K1072a">ليڊي ھيلٿ ورڪر اڪثر ڪري نه ايندي آھي </string>
+    <string name="K1072b">ڪرونا جي لاڪ ڊائون ڪري دورو نه ڪيو </string>
+    <string name="K1072c">ليڊي ھيلٿ ورڪر آئي پر اسان ڪرونا جي ڪري اچڻ نه ڏنو</string>
+    <string name="K1072d">ليڊي ھيلٿ ورڪر کي ماسڪ پاتل نه ھو</string>
+    <string name="K1072e">ڪرونا جو خوف/ڊپ</string>
+    <string name="K1072f">سماجي مفاصلو</string>
+    <string name="K1072g">حفاظتي سامان گهر ۾ موجود نه ھوا</string>
+
+    <string name="k1081"> K108:\t ڇا ليڊي هيلٿ ورڪر صحت جي حوالي سان توھان ۽ توھان جي مڙس  ڪا ميٽنگ ڪئي ؟ </string>
+    <string name="k1081a"> ھا </string>
+    <string name="k1081b"> نه </string>
+    <string name="k1081c"> ڳوٺ وارن سان معمول مطابق ميٽنگ </string>
+
+    <string name="k1082"> I125a:\t مٽينگ/گڏجاڻي نه ڪرڻ جو سبب ڇا ھو؟</string>
+    <string name="k1082a">ليڊي ھيلٿ ورڪر اڪثر ڪري نه ايندي آھي </string>
+    <string name="k1082b">ڪرونا جي لاڪ ڊائون ڪري دورو نه ڪيو </string>
+    <string name="K1082c">ليڊي ھيلٿ ورڪر آئي پر اسان ڪرونا جي ڪري اچڻ نه ڏنو</string>
+    <string name="K1082d">ليڊي ھيلٿ ورڪر کي ماسڪ پاتل نه ھو</string>
+    <string name="K1082e">ڪرونا جو خوف/ڊپ</string>
+    <string name="K1082f">سماجي مفاصلو</string>
+    <string name="K1082g">حفاظتي سامان گهر ۾ موجود نه ھوا</string>
 
     <string name="k109"> K109:\t ڇا توھان کي ليڊي هيلٿ ورڪر جي هيلٿ هائوس جي باري ۾ خبر آھي جيڪو توھان جي علائقي ۾ يا ان جي ويجھو موجود آھي ؟ </string>
     <string name="k109a"> ھا </string>

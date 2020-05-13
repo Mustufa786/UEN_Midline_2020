@@ -2061,14 +2061,32 @@
     <string name="k106h"> شوہر /بیوی کی مخالفت </string>
     <string name="k106x"> دیگر(وضاحت کریں) </string>
 
-    <string name="k107"> K107:\t کیا (ایل ایچ ڈبلیو) نے مانع حمل کی گولیاں فراہم کی تھیں یا دیگر مانع حمل طریقوں کے بارے میں بتایا تھا ؟ </string>
-    <string name="k107a"> ہاں </string>
-    <string name="k107b"> نہیں </string>
+    <string name="k1071"> K107:\t کیا (ایل ایچ ڈبلیو) نے مانع حمل کی گولیاں فراہم کی تھیں یا دیگر مانع حمل طریقوں کے بارے میں بتایا تھا ؟ </string>
+    <string name="k1071a"> ہاں </string>
+    <string name="k1071b"> نہیں </string>
 
-    <string name="k108"> K108:\t کیا (ایل ایچ ڈبلیو) نے آپ اور آپ کے شوہر کے ساتھ میٹنگ کا بندوبست کیا تھا ؟ </string>
-    <string name="k108a"> ہاں </string>
-    <string name="k108b"> نہیں </string>
-    <string name="k108c"> کمیونٹی میں عمومی میٹنگ </string>
+    <string name="K1072"> I125a:\t لیڈی ہیلتھ ورکر کا وزٹ نہیں کرنے کا سبب کیا تھا؟?</string>
+    <string name="K1072a">ایل ایچھ ڈبلیو اکثر کرکے نہیں آتی </string>
+    <string name="K1072b">ایل ایچھ ڈبلیوکرونا کی وجہ سےوزٹ نہیں کرسکی </string>
+    <string name="K1072c">ایل ایچھ ڈبلیوآئی مگر ہم نے گھر میں آنے نہیں دیا</string>
+    <string name="K1072d">ایل ایچھ ڈبلیو اکثر کرکے نہیں آتی</string>
+    <string name="K1072e">کرونا کا ڈریا خوف</string>
+    <string name="K1072f">سماجی مفاصلا </string>
+    <string name="K1072g">حفاظتی سامان گھر پر موجود نہیں تھا</string>
+
+    <string name="k1081"> K108:\t کیا (ایل ایچ ڈبلیو) نے آپ اور آپ کے شوہر کے ساتھ میٹنگ کا بندوبست کیا تھا ؟ </string>
+    <string name="k1081a"> ہاں </string>
+    <string name="k1081b"> نہیں </string>
+    <string name="k1081c"> کمیونٹی میں عمومی میٹنگ </string>
+
+    <string name="k1082">K108:\t شمولیت نہیں کرنے کا سبب کیا تھا؟</string>
+    <string name="k1082a">اتنا اہم نہیں تھا</string>
+    <string name="k1082b">ہسپتال  کرونا کی وجہ سے بند تھا</string>
+    <string name="K1082c">     کرونا کا ڈریا خوف</string>
+    <string name="K1082d">     سماجی مفاصل</string>
+    <string name="K1082e"> کرونا کے لاک ڈائون کی وجہ سے سواری نہیں تھی </string>
+    <string name="K1082f"> حفاظتی سامان (ماسک، دستانے) گھر پر موجود نہیں تھے </string>
+    <string name="K1082g"> ڈاکٹر احتیاطی تدابیر پر عمل نہیں کر رہا تھا (ماسک اور دستانے نہیں پہنےہوئے تھے) </string>
 
     <string name="k109"> K109:\t کیا آپ اپنے علاقہ میں گھر کے قریب کسی لیڈی ہیلتھ ورکر \'ہیلتھ ہاؤس\' کے بارے میں جانتی ہیں ؟ </string>
     <string name="k109a"> ہاں </string>
