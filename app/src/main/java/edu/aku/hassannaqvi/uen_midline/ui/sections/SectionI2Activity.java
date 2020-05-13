@@ -313,16 +313,19 @@ public class SectionI2Activity extends AppCompatActivity {
         json.put("i218m", bi.i218m.isChecked() ? "13" : "0");
         json.put("i218n", bi.i218n.isChecked() ? "14" : "0");
 
-        json.put("i219", bi.i219a.isChecked() ? "1" :
-                bi.i219b.isChecked() ? "2" : "0");
+        json.put("i219", bi.i219a.isChecked() ? "1"
+                : bi.i219b.isChecked() ? "2"
+                : "0");
 
-        json.put("i220", bi.i220a.isChecked() ? "1" :
-                bi.i220b.isChecked() ? "2" : "0");
+        json.put("i220", bi.i220a.isChecked() ? "1"
+                : bi.i220b.isChecked() ? "2"
+                : "0");
 
         json.put("i221", bi.i221.getText().toString());
 
-        json.put("i222", bi.i222a.isChecked() ? "1" :
-                bi.i222b.isChecked() ? "2" : "0");
+        json.put("i222", bi.i222a.isChecked() ? "1"
+                : bi.i222b.isChecked() ? "2"
+                : "0");
 /*
         f2.put("i223", bi.i223a.isChecked() ? "1" :
                 bi.i223b.isChecked() ? "2" :
