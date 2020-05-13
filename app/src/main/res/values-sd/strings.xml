@@ -605,6 +605,13 @@
     <string name="g103g"> صحت مرڪز تي عورت ڪارڪن موجود نه ھئي </string>
     <string name="g103h"> ضروري نه ھو </string>
     <string name="g103i"> تمام مھانگو </string>
+    <string name="g103j"> ڪرونا جي ڪري اسپتال بند ھئي </string>
+    <string name="g103k"> ڪرونا جو خوف/ڊپ </string>
+    <string name="g103l"> ڪرونا جي ڪري سماجي مفاصلو </string>
+    <string name="g103m"> ڪرونا جي لاڪ ڊائون ڪري سواري نه ھئي </string>
+    <string name="g103n"> گهر ۾ حفاظتي سامان(ماسڪ/داستانه) موجود نه ھئا </string>
+    <string name="g103o"> ڊاڪٽر معياري طريقيڪار تي عمل نه ڪري رھيو ھو (ماسڪ/داستانه پھريل نه ھئا </string>
+
 
     <string name="g104"> G104:\t نالو) ڊليوري ڪنھن ڪئي؟)</string>
     <string name="g104a"> ڊاڪٽر</string>
@@ -717,6 +724,17 @@
     <string name="g125"> G125:\t نالو) ڇا ڊليوري جي وقت ليڊي ھيلٿ ورڪر موجود ھئي؟)</string>
     <string name="g125a"> ھا</string>
     <string name="g125b"> نه</string>
+
+    <string name="G1251"> ليڊي ھيلٿ ورڪر اڪثر ڪري نه ايندي آھي </string>
+    <string name="G1251a"> ڪرونا جي لاڪ ڊائون ڪري دورو نه ڪيو </string>
+    <string name="G1251b"> ليڊي ھيلٿ ورڪر آئي پر اسان ڪرونا جي ڪري اچڻ نه ڏنو </string>
+    <string name="G1251c"> ليڊي ھيلٿ ورڪر کي ماسڪ پاتل نه ھو </string>
+    <string name="G1251d"> ڪرونا جو خوف/ڊپ </string>
+    <string name="G1251e"> سماجي مفاصلو </string>
+    <string name="G1251f"> حفاظتي سامان گهر ۾ موجود نه ھو </string>
+    <string name="G1251g"> PPE not available at home </string>
+
+
     <string name="g126"> G126:\t ڇا ليڊي ھيلٿ ورڪر توھان کي ڪلين ڊليوري ڪٽ مھيا ڪئي؟</string>
     <string name="g126a"> ھا</string>
     <string name="g126b"> نه</string>

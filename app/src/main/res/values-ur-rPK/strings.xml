@@ -590,6 +590,12 @@
     <string name="g103g"> مرکز صحت میں کوئی خاتون ڈاکٹر دستیاب نہیں </string>
     <string name="g103h"> ضروری نہیں سمجھا </string>
     <string name="g103i"> علاج مہنگا ہے </string>
+    <string name="g103j"> ہسپتال کرونا کی وجہ سے بند تھا </string>
+    <string name="g103k"> کرونا کا ڈریا خوف </string>
+    <string name="g103l"> سماجی مفاصلہ </string>
+    <string name="g103m"> کرونا کے لاک ڈائون کی وجہ سے سواری نہیں تھی </string>
+    <string name="g103n"> حفاظتی سامان (ماسک، دستانے) گھر پر موجود نہیں تھے </string>
+    <string name="g103o"> ڈاکٹر احتیاطی تدابیر پر عمل نہیں کر رہا تھا (ماسک اور دستانے نہیں پہنےہوئے تھے) </string>
 
     <string name="g104"> G104:\t (نام) کی پیدائش کس نے کروائی تھی ؟ </string>
     <string name="g104a"> ڈاکٹر </string>
@@ -721,6 +727,20 @@
     <string name="g125"> G125:\t کیاآپ کے بچے کی پیدائش کے وقت ایل-ایچ-ڈبلیو موجود تھی ؟ </string>
     <string name="g125a"> ہاں </string>
     <string name="g125b"> نہیں </string>
+
+    <string name="G1251"> لیڈی ہیلتھ ورکر کا وزٹ نہیں کرنے کا سبب کیا تھا؟ </string>
+    <string name="G1251a"> ایل ایچھ ڈبلیو اکثر کرکے نہیں آتی </string>
+    <string name="G1251b"> ایل ایچھ ڈبلیوکرونا کی وجہ سےوزٹ نہیں کرسکی </string>
+    <string name="G1251c"> ایل ایچھ ڈبلیوآئی مگر ہم نے گھر میں آنے نہیں دیا </string>
+    <string name="G1251d"> ایل ایچھ ڈبلیونے ماسک نہیں پہنا ہوا تھا </string>
+    <string name="G1251e"> کرونا کا ڈریا خوف </string>
+    <string name="G1251f"> سماجی مفاصلا </string>
+    <string name="G1251g"> حفاظتی سامان گھر پر موجود نہیں تھا </string>
+
+
+
+
+
 
     <string name="g126"> G126:\t کیا لیڈی ہیلتھ ورکر نے آپ کو صاف ڈیلوری کٹ فراہم کی تھی ؟ </string>
     <string name="g126a"> ہاں </string>
