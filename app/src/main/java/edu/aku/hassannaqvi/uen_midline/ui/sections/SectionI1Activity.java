@@ -155,12 +155,26 @@ public class SectionI1Activity extends AppCompatActivity {
             }
         }));
 
-        bi.i125.setOnCheckedChangeListener(((radioGroup, i) -> {
+        bi.i1251.setOnCheckedChangeListener(((radioGroup, i) -> {
 
-            if (i == bi.i125b.getId()) {
+            if (i == bi.i1251b.getId()) {
                 Clear.clearAllFields(bi.fldGrpCVi126);
+            } else {
+                Clear.clearAllFields(bi.fldGrpCVi1252);
             }
         }));
+
+
+        bi.i1252c.setOnCheckedChangeListener((compoundButton, b) -> {
+
+            if (b) {
+                Clear.clearAllFields(bi.i125check1, true);
+                bi.i125check1.setTag("0");
+            } else {
+                Clear.clearAllFields(bi.i125check1, false);
+                bi.i125check1.setTag("-1");
+            }
+        });
     }
 
     public void BtnContinue() {
@@ -242,12 +256,19 @@ public class SectionI1Activity extends AppCompatActivity {
         json.put("i105", bi.i105a.isChecked() ? "1" :
                 bi.i105b.isChecked() ? "2" : "0");
 
-        json.put("i106", bi.i106a.isChecked() ? "1" :
-                bi.i106b.isChecked() ? "2" :
-                        bi.i106c.isChecked() ? "3" :
-                                bi.i106d.isChecked() ? "4" :
-                                        bi.i106e.isChecked() ? "5" :
-                                                bi.i106f.isChecked() ? "6" : "0");
+        json.put("i106", bi.i106a.isChecked() ? "1"
+                : bi.i106b.isChecked() ? "2"
+                : bi.i106c.isChecked() ? "3"
+                : bi.i106d.isChecked() ? "4"
+                : bi.i106e.isChecked() ? "5"
+                : bi.i106f.isChecked() ? "6"
+                : bi.i106g.isChecked() ? "191"
+                : bi.i106h.isChecked() ? "192"
+                : bi.i106i.isChecked() ? "193"
+                : bi.i106j.isChecked() ? "194"
+                : bi.i106k.isChecked() ? "195"
+                : bi.i106l.isChecked() ? "196"
+                : "0");
 
         json.put("i107", bi.i107a.isChecked() ? "1" :
                 bi.i107b.isChecked() ? "2" :
@@ -358,8 +379,17 @@ public class SectionI1Activity extends AppCompatActivity {
         json.put("i124f", bi.i124f.isChecked() ? "6" : "0");
         json.put("i124g", bi.i124g.isChecked() ? "7" : "0");
 
-        json.put("i125", bi.i125a.isChecked() ? "1" :
-                bi.i125b.isChecked() ? "2" : "0");
+        json.put("i125", bi.i1251a.isChecked() ? "1" :
+                bi.i1251b.isChecked() ? "2"
+                        : "0");
+
+        json.put("i125aa", bi.i1252a.isChecked() ? "1" : "0");
+        json.put("i125ab", bi.i1252b.isChecked() ? "2" : "0");
+        json.put("i125ac", bi.i1252c.isChecked() ? "3" : "0");
+        json.put("i125ad", bi.i1252d.isChecked() ? "4" : "0");
+        json.put("i125ae", bi.i1252e.isChecked() ? "5" : "0");
+        json.put("i125af", bi.i1252f.isChecked() ? "6" : "0");
+        json.put("i125ag", bi.i1252g.isChecked() ? "7" : "0");
 
         json.put("i126a", bi.i126a.isChecked() ? "1" : "0");
         json.put("i126b", bi.i126b.isChecked() ? "2" : "0");
