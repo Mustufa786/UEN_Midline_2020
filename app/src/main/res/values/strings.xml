@@ -458,14 +458,14 @@
     <string name="f1211a"> Yes </string>
     <string name="f1211b"> No </string>
 
-    <string name="f1212"> Reasons for not visiting LHW? </string>
-    <string name="f1212a"> LHW usually don’t visit </string>
-    <string name="f1212b"> LHW didn’t visit in Lockdown due to Corona </string>
-    <string name="f1212c"> LHW came but we didn’t allow her to enter in the home </string>
-    <string name="f1212d"> LHW not wearing mask </string>
-    <string name="f1212e"> I am afraid to contact with Corona </string>
-    <string name="f1212f"> Social distancing </string>
-    <string name="f1212h"> PPE not available at home </string>
+    <string name="f1212"> لیڈی ہیلتھ ورکر کا وزٹ نہیں کرنے کا سبب کیا تھا؟ </string>
+    <string name="f1212a"> ایل ایچھ ڈبلیو اکثر کرکے نہیں آتی </string>
+    <string name="f1212b"> ایل ایچھ ڈبلیوکرونا کی وجہ سےوزٹ نہیں کرسکی </string>
+    <string name="f1212c"> ایل ایچھ ڈبلیوآئی مگر ہم نے گھر میں آنے نہیں دیا </string>
+    <string name="f1212d"> ایل ایچھ ڈبلیونے ماسک نہیں پہنا ہوا تھا </string>
+    <string name="f1212e"> کرونا کا ڈریا خوف </string>
+    <string name="f1212f"> سماجی مفاصلا </string>
+    <string name="f1212g"> حفاظتی سامان گھر پر موجود نہیں تھا </string>
 
 
 
@@ -481,8 +481,7 @@
     <string name="f123f"> فولاد یا آئرن کی گولیاں فراہم کرنا </string>
     <string name="f123g"> زچگی کے دوران خطرناک علامات کی آگاہی دینا </string>
     <string name="f123h"> کرونا کی احتیاطی تدابیر کےبارے میں معلومات </string>
-    <string name="f123i"> Others specify </string>
-
+    <string name="f12396"> Others specify </string>
 
     <string name="f124"> F124:\t کیاآپ نے(نام)کی پیدائش سےقبل اپنےحمل کے دوران خطرناک علامات/مسائل کے بارے میں معلومات حاصل کی تھیں؟ </string>
     <string name="f124a"> ہاں </string>
@@ -597,7 +596,6 @@
     <string name="g103m"> کرونا کے لاک ڈائون کی وجہ سے سواری نہیں تھی </string>
     <string name="g103n"> حفاظتی سامان (ماسک، دستانے) گھر پر موجود نہیں تھے </string>
     <string name="g103o"> ڈاکٹر احتیاطی تدابیر پر عمل نہیں کر رہا تھا (ماسک اور دستانے نہیں پہنےہوئے تھے) </string>
-
 
     <string name="g104"> G104:\t (نام) کی پیدائش کس نے کروائی تھی ؟ </string>
     <string name="g104a"> ڈاکٹر </string>
@@ -956,11 +954,11 @@
     <string name="h1311f"> حفاظتی سامان (ماسک، دستانے) گھر پر موجود نہیں تھے </string>
     <string name="h1311g"> ڈاکٹر احتیاطی تدابیر پر عمل نہیں کر رہا تھا (ماسک اور دستانے نہیں پہنےہوئے تھے) </string>
 
-
     <string name="h132"> H132:\t کیا نوزائیدہ کی پیدائش کے بعد ایل ایچ ڈبلیو نے دورہ کیا تھا ؟ </string>
     <string name="h132a"> ہاں </string>
     <string name="h132b"> نہیں </string>
     <string name="h132c"> زچگی کسی اور علاقہ میں ہوئی تھی </string>
+
 
     <string name="h1321"> لیڈی ہیلتھ ورکر کا وزٹ نہیں کرنے کا سبب کیا تھا؟ </string>
     <string name="h1321a"> ایل ایچھ ڈبلیو اکثر کرکے نہیں آتی </string>
@@ -1011,7 +1009,6 @@
     <string name="h137"> H137:\t کیا (نام) کو پیدائش کے بعد بی-سی-جی کا ٹیکہ لگا تھا ؟ (عموماً بائیں بازو پر ٹیکے کا داغ رہ جاتا ہے) </string>
     <string name="h137a"> ہاں </string>
     <string name="h137b"> نہیں </string>
-
 
     <string name="h1371"> کیا آپ(نام) کو حفاظتی ٹیکےکیوں نہیں لگوائے؟ </string>
     <string name="h1371a"> اتنا اہم نہیں تھا </string>
@@ -1099,7 +1096,6 @@
     <string name="H2091g"> حفاظتی سامان گھر پر موجود نہیں تھا </string>
 
 
-
     <string name="h210"> H210:\t اس نے کب دورہ کیا تھا ؟ </string>
     <string name="h210a"> چوبیس گھنٹوں کے اندر </string>
     <string name="h210b"> ایک ہفتہ کے اندر </string>
@@ -1131,7 +1127,7 @@
     <string name="h214b"> نہیں ،میں نہیں جانتی </string>
     <string name="h214c"> ہاں حصہ لیا تھا </string>
     <string name="h214d"> کبھی حصہ نہیں لیا </string>
-    <string name="h214e">  کرونا کی وجہ سے مٹینگ نہیں ہوئی </string>
+    <string name="h214e"> کرونا کی وجہ سے مٹینگ نہیں ہوئی</string>
 
     <string name="h215"> H215:\t غریب اور پسماندہ لوگوں کی صحت کے لیئے معاشی مدد کا ذرائع کیا ہے ؟ </string>
     <string name="h215a"> سماجی ادارہ </string>
@@ -1238,6 +1234,7 @@
     <string name="i106j"> کرونا کے لاک ڈائون کی وجہ سے سواری نہیں تھی </string>
     <string name="i106k"> حفاظتی سامان (ماسک، دستانے) گھر پر موجود نہیں تھے  </string>
     <string name="i106l"> ڈاکٹر احتیاطی تدابیر پر عمل نہیں کر رہا تھا (ماسک اور دستانے نہیں پہنےہوئے تھے) </string>
+
 
     <string name="i107"> I107:\t آپ نے (نام) کی دستوں کی بیماری کا علاج کہاں سے کروایا تھا ؟ </string>
     <string name="i107a"> سرکاری مرکز صحت میں </string>
@@ -1351,7 +1348,7 @@
     <string name="i1251a"> ہاں </string>
     <string name="i1251b"> نہیں </string>
 
-    <string name="i1252"> I125a:\t لیڈی ہیلتھ ورکر کا وزٹ نہیں کرنے کا سبب کیا تھا ؟ </string>
+    <string name="i1252"> I125a:\t لیڈی ہیلتھ ورکر کا وزٹ نہیں کرنے کا سبب کیا تھا؟?</string>
     <string name="i1252a">ایل ایچھ ڈبلیو اکثر کرکے نہیں آتی </string>
     <string name="i1252b">ایل ایچھ ڈبلیوکرونا کی وجہ سےوزٹ نہیں کرسکی </string>
     <string name="i1252c">ایل ایچھ ڈبلیوآئی مگر ہم نے گھر میں آنے نہیں دیا</string>
@@ -1359,6 +1356,7 @@
     <string name="i1252e">کرونا کا ڈریا خوف</string>
     <string name="i1252f">سماجی مفاصلا </string>
     <string name="i1252g">حفاظتی سامان گھر پر موجود نہیں تھا</string>
+
 
     <string name="i126"> I126:\t لیڈی ہیلتھ ورکر نے کیا خدمات فراہم کیں تھیں ؟ </string>
     <string name="i126a"> ماں کو او ار ایس گھر پر تیار کرنے کا طریقہ بتایا </string>
@@ -2108,10 +2106,10 @@
     <string name="k1072f"> سماجی مفاصلا </string>
     <string name="k1072g"> حفاظتی سامان گھر پر موجود نہیں تھا </string>
 
-    <string name="k1081"> K108:\t کیا (ایل ایچ ڈبلیو) نے آپ اور آپ کے شوہر کے ساتھ میٹنگ کا بندوبست کیا تھا ؟ </string>
-    <string name="k1081a"> ہاں </string>
-    <string name="k1081b"> نہیں </string>
-    <string name="k1081c"> کمیونٹی میں عمومی میٹنگ </string>
+    <string name="k108"> K108:\t کیا (ایل ایچ ڈبلیو) نے آپ اور آپ کے شوہر کے ساتھ میٹنگ کا بندوبست کیا تھا ؟ </string>
+    <string name="k108a"> ہاں </string>
+    <string name="k108b"> نہیں </string>
+    <string name="k108c"> کمیونٹی میں عمومی میٹنگ </string>
 
     <string name="k1082"> K108a:\t شمولیت نہیں کرنے کا سبب کیا تھا ؟ </string>
     <string name="k1082a"> اتنا اہم نہیں تھا </string>
@@ -2121,6 +2119,7 @@
     <string name="k1082e"> کرونا کے لاک ڈائون کی وجہ سے سواری نہیں تھی </string>
     <string name="k1082f"> حفاظتی سامان (ماسک، دستانے) گھر پر موجود نہیں تھے </string>
     <string name="k1082g"> ڈاکٹر احتیاطی تدابیر پر عمل نہیں کر رہا تھا ( ماسک اور دستانے نہیں پہنے ہوئے تھے ) </string>
+
 
     <string name="k109"> K109:\t کیا آپ اپنے علاقہ میں گھر کے قریب کسی لیڈی ہیلتھ ورکر \'ہیلتھ ہاؤس\' کے بارے میں جانتی ہیں ؟ </string>
     <string name="k109a"> ہاں </string>
@@ -2142,6 +2141,7 @@
     <string name="l1022e"> کرونا کے لاک ڈائون کی وجہ سے سواری نہیں تھی </string>
     <string name="l1022f"> حفاظتی سامان (ماسک، دستانے) گھر پر موجود نہیں تھے </string>
     <string name="l1022g"> ڈاکٹر احتیاطی تدابیر پر عمل نہیں کر رہا تھا (ماسک اور دستانے نہیں پہنےہوئے تھے) </string>
+
 
     <string name="l103"> L103:\t آپ نے آخری سات دنوں میں کوئی کام نہیں کیا، کیا آپ اپنی بیماری ، زچگی یا چھٹیوں کی وجہ سے یا دیگر کسی اور وجہ سے کسی کاروبار اور نوکری وغیرہ سے غیر حاضر ہیں ؟ </string>
     <string name="l103a"> ہاں </string>
