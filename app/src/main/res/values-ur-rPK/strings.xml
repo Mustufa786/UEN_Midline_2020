@@ -2099,9 +2099,19 @@
     <string name="l101a"> ہاں </string>
     <string name="l101b"> نہیں </string>
 
-    <string name="l102"> L102:\t اپنے گھر کے کام کے علاوہ آخری سات دنوں میں آپ نے کوئی کام کیا ؟ </string>
-    <string name="l102a"> ہاں </string>
-    <string name="l102b"> نہیں </string>
+    <string name="l1021"> L102:\t اپنے گھر کے کام کے علاوہ آخری سات دنوں میں آپ نے کوئی کام کیا ؟ </string>
+    <string name="l1021a"> ہاں </string>
+    <string name="l1021b"> نہیں </string>
+
+    <string name="l1022">L102a:\t کام پر نہیں جانے کا  سبب کیا تھا؟</string>
+    <string name="l1022a">اتنا اہم نہیں تھا</string>
+    <string name="l1022b">کرونا کی وجہ سے چھٹی ہے</string>
+    <string name="l1022c">     کرونا کا ڈریا خوف</string>
+    <string name="l1022d">     سماجی مفاصل</string>
+    <string name="l1022e"> کرونا کے لاک ڈائون کی وجہ سے سواری نہیں تھی </string>
+    <string name="l1022f"> حفاظتی سامان (ماسک، دستانے) گھر پر موجود نہیں تھے </string>
+    <string name="l1022g"> ڈاکٹر احتیاطی تدابیر پر عمل نہیں کر رہا تھا (ماسک اور دستانے نہیں پہنےہوئے تھے) </string>
+
 
     <string name="l103"> L103:\t آپ نے آخری سات دنوں میں کوئی کام نہیں کیا، کیا آپ اپنی بیماری ، زچگی یا چھٹیوں کی وجہ سے یا دیگر کسی اور وجہ سے کسی کاروبار اور نوکری وغیرہ سے غیر حاضر ہیں ؟ </string>
     <string name="l103a"> ہاں </string>
