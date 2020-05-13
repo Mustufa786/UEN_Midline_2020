@@ -79,6 +79,30 @@ public class SectionKActivity extends AppCompatActivity {
             }
         }));*/
 
+        bi.k1071.setOnCheckedChangeListener(((radioGroup, i) -> {
+            if (i != bi.k1071b.getId()) {
+                Clear.clearAllFields(bi.fldGrpCVk1072);
+            }
+        }));
+
+
+        bi.k1072c.setOnCheckedChangeListener((compoundButton, b) -> {
+
+            if (b) {
+                Clear.clearAllFields(bi.k107check1, true);
+                bi.k107check1.setTag("0");
+            } else {
+                Clear.clearAllFields(bi.k107check1, false);
+                bi.k107check1.setTag("-1");
+            }
+        });
+
+        bi.k1081.setOnCheckedChangeListener(((radioGroup, i) -> {
+            if (i != bi.k1081b.getId()) {
+                Clear.clearAllFields(bi.fldGrpCVk1082);
+            }
+        }));
+
     }
 
     public void BtnContinue() {
@@ -183,12 +207,31 @@ public class SectionKActivity extends AppCompatActivity {
         json.put("k10696", bi.k10696.isChecked() ? "96" : "0");
         json.put("k10696x", bi.k10696x.getText().toString());
 
-        json.put("k107", bi.k107a.isChecked() ? "1" :
-                bi.k107b.isChecked() ? "2" : "0");
+        json.put("k107", bi.k1071a.isChecked() ? "1"
+                : bi.k1071b.isChecked() ? "2"
+                : "0");
 
-        json.put("k108", bi.k108a.isChecked() ? "1" :
-                bi.k108b.isChecked() ? "2" :
-                        bi.k108c.isChecked() ? "3" : "0");
+        json.put("k1072a", bi.k1072a.isChecked() ? "1" : "0");
+        json.put("k1072b", bi.k1072b.isChecked() ? "2" : "0");
+        json.put("k1072c", bi.k1072c.isChecked() ? "3" : "0");
+        json.put("k1072d", bi.k1072d.isChecked() ? "4" : "0");
+        json.put("k1072e", bi.k1072e.isChecked() ? "5" : "0");
+        json.put("k1072f", bi.k1072f.isChecked() ? "6" : "0");
+        json.put("k1072g", bi.k1072g.isChecked() ? "7" : "0");
+
+        json.put("k108", bi.k1081a.isChecked() ? "1"
+                : bi.k1081b.isChecked() ? "2"
+                : bi.k1081c.isChecked() ? "3"
+                : "0");
+
+        json.put("k108a", bi.k1082a.isChecked() ? "1"
+                : bi.k1082b.isChecked() ? "2"
+                : bi.k1082c.isChecked() ? "3"
+                : bi.k1082d.isChecked() ? "4"
+                : bi.k1082e.isChecked() ? "5"
+                : bi.k1082f.isChecked() ? "6"
+                : bi.k1082g.isChecked() ? "7"
+                : "0");
 
         json.put("k109", bi.k109a.isChecked() ? "1" :
                 bi.k109ab.isChecked() ? "2" : "0");

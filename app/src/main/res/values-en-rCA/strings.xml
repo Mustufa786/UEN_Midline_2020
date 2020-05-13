@@ -2096,14 +2096,16 @@
     <string name="k1071">K107:\t Did (LHW ) she provide Contraceptive pills/ Tell other Contraceptive Options</string>
     <string name="k1071a">Yes</string>
     <string name="k1071b">No</string>
-    <string name="K1072"> I125a:\t Reasons for not visiting LHW??</string>
-    <string name="K1072a">LHW usually don’t visit</string>
-    <string name="K1072b">LHW didn’t visit in Lockdown</string>
-    <string name="K1072c"> LHW came but we didn’t allow her to enter in the home</string>
-    <string name="K1072d">LHW not wearing  mask</string>
-    <string name="K1072e">I am afraid to contact with Corona</string>
-    <string name="K1072f"> Social distancing</string>
-    <string name="K1072g">PPE not available at home</string>
+
+    <string name="k1072"> K1072:\t Reasons for not visiting LHW ? </string>
+    <string name="k1072a">LHW usually don’t visit</string>
+    <string name="k1072b">LHW didn’t visit in Lockdown</string>
+    <string name="k1072c"> LHW came but we didn’t allow her to enter in the home</string>
+    <string name="k1072d">LHW not wearing  mask</string>
+    <string name="k1072e">I am afraid to contact with Corona</string>
+    <string name="k1072f"> Social distancing</string>
+    <string name="k1072g">PPE not available at home</string>
+
     <string name="k1081">K108:\t Did LHW organize Health Meetings for You and Your husband?</string>
     <string name="k1081a">Yes</string>
     <string name="k1081b">No</string>
@@ -2112,11 +2114,11 @@
     <string name="k1082">K108:\t Reasons for not organizing/participating in health meeting?</string>
     <string name="k1082a">It is usually not necessary</string>
     <string name="k1082b">Not conducting due to Corona</string>
-    <string name="K1082c"> Fear to contact with Corona </string>
-    <string name="K1082d"> Social distancing </string>
-    <string name="K1082e"> No transport due to Lock down Corona </string>
-    <string name="K1082f"> PPE not available at home </string>
-    <string name="K1082g"> Provider’s not following SOPS (Not wearing gloves and masks) </string>
+    <string name="k1082c"> Fear to contact with Corona </string>
+    <string name="k1082d"> Social distancing </string>
+    <string name="k1082e"> No transport due to Lock down Corona </string>
+    <string name="k1082f"> PPE not available at home </string>
+    <string name="k1082g"> Provider’s not following SOPS (Not wearing gloves and masks) </string>
 
     <string name="k109">K109:\t Do you know about any LHW HEALTH HOUSE in your area or near you?</string>
     <string name="k109a">Yes</string>
