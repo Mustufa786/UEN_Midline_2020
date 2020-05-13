@@ -737,14 +737,14 @@
     <string name="g125a"> Yes </string>
     <string name="g125b"> No </string>
 
-    <string name="G1251"> Reasons for not visiting LHW? </string>
-    <string name="G1251a"> LHW usually don’t visit </string>
-    <string name="G1251b"> LHW didn’t visit in Lockdown due to Corona </string>
-    <string name="G1251c"> LHW came but we didn’t allow her to enter in the home </string>
-    <string name="G1251d"> LHW not wearing mask </string>
-    <string name="G1251e"> I am afraid to contact with Corona </string>
-    <string name="G1251f"> Social distancing </string>
-    <string name="G1251g"> PPE not available at home </string>
+    <string name="g1251"> Reasons for not visiting LHW? </string>
+    <string name="g1251a"> LHW usually don’t visit </string>
+    <string name="g1251b"> LHW didn’t visit in Lockdown due to Corona </string>
+    <string name="g1251c"> LHW came but we didn’t allow her to enter in the home </string>
+    <string name="g1251d"> LHW not wearing mask </string>
+    <string name="g1251e"> I am afraid to contact with Corona </string>
+    <string name="g1251f"> Social distancing </string>
+    <string name="g1251g"> PPE not available at home </string>
 
 
 
@@ -950,10 +950,30 @@
     <string name="h131a"> Yes </string>
     <string name="h131b"> No </string>
 
+    <string name="H1311"> Reasons for not TAKING CHILD FOR VACCINATION? </string>
+    <string name="H1311a"> It is usually not necessary </string>
+    <string name="H1311b"> Facility closed due to Corona </string>
+    <string name="H1311c"> Fear to contact with Corona </string>
+    <string name="H1311d"> Social distancing </string>
+    <string name="H1311e"> No transport due to Lock down Corona </string>
+    <string name="H1311f"> PPE not available at home </string>
+    <string name="H1311g"> Provider’s not following SOPS (Not wearing gloves and masks) </string>
+
     <string name="h132"> H132:\t Did LHW visit new-born ? </string>
     <string name="h132a"> Yes </string>
     <string name="h132b"> No </string>
     <string name="h132c"> Delivery conducted in some other area </string>
+
+    <string name="H1321"> Reasons for not visiting LHW? </string>
+    <string name="H1321a"> LHW usually don’t visit </string>
+    <string name="H1321b"> LHW didn’t visit in Lockdown </string>
+    <string name="H1321c"> LHW came but we didn’t allow her to enter in the home </string>
+    <string name="H1321d"> LHW not wearing mask </string>
+    <string name="H1321e"> I am afraid to contact with Corona </string>
+    <string name="H1321f"> Social distancing </string>
+    <string name="H1321g"> PPE not available at home </string>
+
+
 
     <string name="h133"> H133:\t What is the purpose of LHW visit for new born ? </string>
     <string name="h133a"> Weigh / Height </string>
@@ -964,6 +984,8 @@
     <string name="h133f"> Polio drops </string>
     <string name="h133g"> Provide support for mother to early initiation of breastfeeding. </string>
     <string name="h133h"> Informed mother about new born danger signs </string>
+    <string name="h133i"> Informed about precautions of Corona </string>
+
 
     <string name="h134"> H134:\t Did you know about danger signs/ problems for new born ? </string>
     <string name="h134a"> Yes </string>
@@ -992,6 +1014,16 @@
     <string name="h137"> H137:\t Did the new born got BCG vaccination? (Usually leaves scar at left arm or shoulder) </string>
     <string name="h137a"> Yes </string>
     <string name="h137b"> No </string>
+
+    <string name="H1371"> Reasons for not getting vaccination? </string>
+    <string name="H1371a"> It is usually not necessary </string>
+    <string name="H1371b"> Facility closed due to Corona </string>
+    <string name="H1371c"> Fear to contact with Corona </string>
+    <string name="H1371d"> Social distancing </string>
+    <string name="H1371e"> No transport due to Lock down Corona </string>
+    <string name="H1371f"> PPE not available at home </string>
+    <string name="H1371g"> Provider’s not following SOPS (Not wearing gloves and masks) </string>
+
 
     <string name="h137aa"> H137A:\t Where (Name) received vaccination for BCG ? </string>
     <string name="h137aaa"> Government Facility </string>
@@ -1060,6 +1092,16 @@
     <string name="h209a"> Yes </string>
     <string name="h209b"> No </string>
 
+    <string name="H2091"> Reasons for not visiting LHW? </string>
+    <string name="H2091a"> LHW usually don’t visit </string>
+    <string name="H2091b"> LHW didn’t visit in Lockdown </string>
+    <string name="H2091c"> LHW came but we didn’t allow her to enter in the home </string>
+    <string name="H2091d"> LHW not wearing mask </string>
+    <string name="H2091e"> I am afraid to contact with Corona </string>
+    <string name="H2091f"> Social distancing </string>
+    <string name="H2091g"> PPE not available at home </string>
+
+
     <string name="h210"> H210:\t When did she visit ? </string>
     <string name="h210a"> Within 24 hours </string>
     <string name="h210b"> Within a week </string>
@@ -1076,6 +1118,8 @@
     <string name="h211g"> Referred  to HCF for routine Check up </string>
     <string name="h211h"> Counselling on IYCF and breastfeeding. </string>
     <string name="h211i"> Advice for family planning </string>
+    <string name="h211j"> Informed about precautions of Corona </string>
+
 
     <string name="h212"> H212:\t How long does the LHW spend time with you during her visit to your home ? </string>
 
@@ -1089,6 +1133,7 @@
     <string name="h214b"> No, I don’t know </string>
     <string name="h214c"> Yes Participated </string>
     <string name="h214d"> Never participated </string>
+    <string name="h214e"> LHW not organizing group discussions due to Corona </string>
 
     <string name="h215"> H215:\t What are the financial assistance mechanisms for supporting health care for poor and underprivileged ? </string>
     <string name="h215a"> NGO </string>
@@ -1101,6 +1146,15 @@
     <string name="h216a"> Yes </string>
     <string name="h216b"> No </string>
     <string name="h216c"> Never heard about it </string>
+
+    <string name="H2161"> Reasons for not participated? </string>
+    <string name="H2161a"> It is usually not necessary </string>
+    <string name="H2161b"> Not conducting due to Corona </string>
+    <string name="H2161c"> Fear to contact with Corona </string>
+    <string name="H2161d"> Social distancing </string>
+    <string name="H2161e"> No transport due to Lock down Corona </string>
+    <string name="H2161f"> PPE not available at home </string>
+
 
     <string name="h217"> H217:\t What is the source of financial support for your MNCH related needs? </string>
     <string name="h217a"> Family (husband or own resource) </string>
@@ -1179,6 +1233,13 @@
     <string name="i106d"> A male was not present to accompany me to the health center </string>
     <string name="i106e"> No permission from household head/husband /mother in law </string>
     <string name="i106f"> Health facility is too far </string>
+    <string name="i106g"> Facility closed due to Corona </string>
+    <string name="i106h"> Fear to contact with Corona </string>
+    <string name="i106i"> Social distancing </string>
+    <string name="i106j"> No transport due to Lock down Corona </string>
+    <string name="i106k"> PPE not available at home </string>
+    <string name="i106l"> Provider’s not following SOPS (Not wearing gloves and masks) </string>
+
 
     <string name="i107"> I107:\t Where did you seek care for {NAME}’s diarrheal episode ? </string>
     <string name="i107a"> Government health facility </string>
@@ -1288,9 +1349,18 @@
     <string name="i124f"> Blood In stool </string>
     <string name="i124g"> Skin pinch goes back very slowly </string>
 
-    <string name="i125"> I125:\t Did LHW provided care / visit you when the child was sick with diarrhea?</string>
-    <string name="i125a">Yes</string>
-    <string name="i125b">No</string>
+    <string name="i1251"> I125:\t Did LHW provided care / visit you when the child was sick with diarrhea?</string>
+    <string name="i1251a">Yes</string>
+    <string name="i1251b">No</string>
+
+    <string name="i1252"> I125a:\t Reasons for not visiting LHW??</string>
+    <string name="i1252a">LHW usually don’t visit</string>
+    <string name="i1252b">LHW didn’t visit in Lockdown</string>
+    <string name="i1252c"> LHW came but we didn’t allow her to enter in the home</string>
+    <string name="i1252d">LHW not wearing  mask</string>
+    <string name="i1252e">I am afraid to contact with Corona</string>
+    <string name="i1252f"> Social distancing</string>
+    <string name="i1252g">PPE not available at home</string>
 
     <string name="i126"> I126:\t What services did she provide ? </string>
     <string name="i126a"> Informed mother about home preparation of ORS. </string>
@@ -1332,6 +1402,12 @@
     <string name="i208f"> Health facility is too far </string>
     <string name="i208g"> Facility not open </string>
     <string name="i208h"> Poor quality service </string>
+    <string name="i208i"> Facility closed due to Corona </string>
+    <string name="i208j"> Fear to contact with Corona </string>
+    <string name="i208k"> Social distancing </string>
+    <string name="i208l"> No transport due to Lock down Corona </string>
+    <string name="i208m"> PPE not available at home </string>
+    <string name="i208n"> Provider’s not following SOPS (Not wearing gloves and masks) </string>
 
     <string name="i209"> I209:\t Where did {NAME} receive treatment for symptoms of fever, cough and fast breathing ? </string>
     <string name="i209a"> At home </string>
@@ -1423,9 +1499,18 @@
     <string name="i224e"> LHW (Lady Health Worker) </string>
     <string name="i224f"> Dai/TBA (Traditional Birth Attendant) </string>
 
-    <string name="i225"> I225:\t Did LHW visit you when the child was sick with pneumonia </string>
-    <string name="i225a"> Yes </string>
-    <string name="i225b"> No </string>
+    <string name="i2251"> I125:\t Did LHW provided care / visit you when the child was sick with diarrhea?</string>
+    <string name="i2251a">Yes</string>
+    <string name="i2251b">No</string>
+
+    <string name="i2252"> I125a:\t Reasons for not visiting LHW??</string>
+    <string name="i2252a">LHW usually don’t visit</string>
+    <string name="i2252b">LHW didn’t visit in Lockdown</string>
+    <string name="i2252c"> LHW came but we didn’t allow her to enter in the home</string>
+    <string name="i2252d">LHW not wearing  mask</string>
+    <string name="i2252e">I am afraid to contact with Corona</string>
+    <string name="i2252f"> Social distancing</string>
+    <string name="i2252g">PPE not available at home</string>
 
     <string name="i226"> I226:\t What services did she provide ? </string>
     <string name="i226a"> Provide Amoxil DT </string>
@@ -1938,6 +2023,12 @@
     <string name="j123n"> Took child facility closed </string>
     <string name="j123o"> Child was sick </string>
     <string name="j123p"> Took child but not vaccination day </string>
+    <string name="j123q"> Facility closed due to Corona </string>
+    <string name="j123r"> Fear to contact with Corona </string>
+    <string name="j123s"> Social distancing </string>
+    <string name="j123t"> No transport due to Lock down Corona </string>
+    <string name="j123u"> PPE not available at home </string>
+    <string name="j123v"> Provider’s not following SOPS (Not wearing gloves and masks) </string>
     <string name="j123x"> Other </string>
 
     <string name="k101"> K101:\t Have you ever heard of a method to delay pregnancy ? </string>
@@ -2002,13 +2093,31 @@
     <string name="k106g">Current method was not affordable</string>
     <string name="k106h">Opposition from spouse</string>
     <string name="k106x">Other (specify)</string>
-    <string name="k107">K107:\t Did (LHW ) she provide Contraceptive pills/ Tell other Contraceptive Options</string>
-    <string name="k107a">Yes</string>
-    <string name="k107b">No</string>
-    <string name="k108">K108:\t Did LHW organize Health Meetings for You and Your husband?</string>
-    <string name="k108a">Yes</string>
-    <string name="k108b">No</string>
-    <string name="k108c">General meeting for Community</string>
+    <string name="k1071">K107:\t Did (LHW ) she provide Contraceptive pills/ Tell other Contraceptive Options</string>
+    <string name="k1071a">Yes</string>
+    <string name="k1071b">No</string>
+    <string name="K1072"> I125a:\t Reasons for not visiting LHW??</string>
+    <string name="K1072a">LHW usually don’t visit</string>
+    <string name="K1072b">LHW didn’t visit in Lockdown</string>
+    <string name="K1072c"> LHW came but we didn’t allow her to enter in the home</string>
+    <string name="K1072d">LHW not wearing  mask</string>
+    <string name="K1072e">I am afraid to contact with Corona</string>
+    <string name="K1072f"> Social distancing</string>
+    <string name="K1072g">PPE not available at home</string>
+    <string name="k1081">K108:\t Did LHW organize Health Meetings for You and Your husband?</string>
+    <string name="k1081a">Yes</string>
+    <string name="k1081b">No</string>
+    <string name="k1081c">General meeting for Community</string>
+
+    <string name="k1082">K108:\t Reasons for not organizing/participating in health meeting?</string>
+    <string name="k1082a">It is usually not necessary</string>
+    <string name="k1082b">Not conducting due to Corona</string>
+    <string name="K1082c"> Fear to contact with Corona </string>
+    <string name="K1082d"> Social distancing </string>
+    <string name="K1082e"> No transport due to Lock down Corona </string>
+    <string name="K1082f"> PPE not available at home </string>
+    <string name="K1082g"> Provider’s not following SOPS (Not wearing gloves and masks) </string>
+
     <string name="k109">K109:\t Do you know about any LHW HEALTH HOUSE in your area or near you?</string>
     <string name="k109a">Yes</string>
     <string name="k109ab">No</string>
