@@ -156,12 +156,28 @@ public class SectionI2Activity extends AppCompatActivity {
             }
         }));
 
-        bi.i225.setOnCheckedChangeListener(((radioGroup, i) -> {
+        bi.i2251.setOnCheckedChangeListener(((radioGroup, i) -> {
 
-            if (i == bi.i225b.getId()) {
+            if (i == bi.i2251b.getId()) {
                 Clear.clearAllFields(bi.fldGrpCVi226);
+            } else {
+                Clear.clearAllFields(bi.fldGrpCVi2252);
             }
         }));
+
+
+        bi.i2252c.setOnCheckedChangeListener((compoundButton, b) -> {
+
+            if (b) {
+                Clear.clearAllFields(bi.i225check1, true);
+                bi.i225check1.setTag("0");
+            } else {
+                Clear.clearAllFields(bi.i225check1, false);
+                bi.i225check1.setTag("-1");
+            }
+        });
+
+
     }
 
     public void BtnContinue() {
@@ -297,16 +313,19 @@ public class SectionI2Activity extends AppCompatActivity {
         json.put("i218m", bi.i218m.isChecked() ? "13" : "0");
         json.put("i218n", bi.i218n.isChecked() ? "14" : "0");
 
-        json.put("i219", bi.i219a.isChecked() ? "1" :
-                bi.i219b.isChecked() ? "2" : "0");
+        json.put("i219", bi.i219a.isChecked() ? "1"
+                : bi.i219b.isChecked() ? "2"
+                : "0");
 
-        json.put("i220", bi.i220a.isChecked() ? "1" :
-                bi.i220b.isChecked() ? "2" : "0");
+        json.put("i220", bi.i220a.isChecked() ? "1"
+                : bi.i220b.isChecked() ? "2"
+                : "0");
 
         json.put("i221", bi.i221.getText().toString());
 
-        json.put("i222", bi.i222a.isChecked() ? "1" :
-                bi.i222b.isChecked() ? "2" : "0");
+        json.put("i222", bi.i222a.isChecked() ? "1"
+                : bi.i222b.isChecked() ? "2"
+                : "0");
 /*
         f2.put("i223", bi.i223a.isChecked() ? "1" :
                 bi.i223b.isChecked() ? "2" :
@@ -331,8 +350,8 @@ public class SectionI2Activity extends AppCompatActivity {
         json.put("i224e", bi.i224e.isChecked() ? "5" : "0");
         json.put("i224f", bi.i224f.isChecked() ? "6" : "0");
 
-        json.put("i225", bi.i225a.isChecked() ? "1" :
-                bi.i225b.isChecked() ? "2" : "0");
+        json.put("i225", bi.i2251a.isChecked() ? "1" :
+                bi.i2251b.isChecked() ? "2" : "0");
 
        /* f2.put("i226", bi.i226a.isChecked() ? "1" :
                 bi.i226b.isChecked() ? "2" :
