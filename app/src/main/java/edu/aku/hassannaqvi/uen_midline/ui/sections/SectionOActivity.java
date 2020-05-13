@@ -134,8 +134,9 @@ public class SectionOActivity extends AppCompatActivity {
                                                 bi.o108e.isChecked() ? "5" :
                                                         bi.o108f.isChecked() ? "6" :
                                                                 bi.o108g.isChecked() ? "7" :
-                                                                        bi.o108x.isChecked() ? "96" :
-                                                                                "0");
+                                                                        bi.o108h.isChecked() ? "8" :
+                                                                                bi.o108x.isChecked() ? "96" :
+                                                                                        "0");
         json.put("o108xt", bi.o108xt.getText().toString());
 
         MainApp.fc.setsO(String.valueOf(json));
