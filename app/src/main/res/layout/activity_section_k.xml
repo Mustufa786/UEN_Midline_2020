@@ -551,7 +551,7 @@
 
                     <TextView
                         style="@style/i_textview"
-                        android:text="@string/k107" />
+                        android:text="@string/k1071" />
 
                     <RadioGroup
                         android:id="@+id/k107"
