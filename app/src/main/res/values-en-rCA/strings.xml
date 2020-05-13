@@ -964,14 +964,14 @@
     <string name="h132b"> No </string>
     <string name="h132c"> Delivery conducted in some other area </string>
 
-    <string name="H1321"> Reasons for not visiting LHW? </string>
-    <string name="H1321a"> LHW usually don’t visit </string>
-    <string name="H1321b"> LHW didn’t visit in Lockdown </string>
-    <string name="H1321c"> LHW came but we didn’t allow her to enter in the home </string>
-    <string name="H1321d"> LHW not wearing mask </string>
-    <string name="H1321e"> I am afraid to contact with Corona </string>
-    <string name="H1321f"> Social distancing </string>
-    <string name="H1321g"> PPE not available at home </string>
+    <string name="h1321"> Reasons for not visiting LHW? </string>
+    <string name="h1321a"> LHW usually don’t visit </string>
+    <string name="h1321b"> LHW didn’t visit in Lockdown </string>
+    <string name="h1321c"> LHW came but we didn’t allow her to enter in the home </string>
+    <string name="h1321d"> LHW not wearing mask </string>
+    <string name="h1321e"> I am afraid to contact with Corona </string>
+    <string name="h1321f"> Social distancing </string>
+    <string name="h1321g"> PPE not available at home </string>
 
 
 
