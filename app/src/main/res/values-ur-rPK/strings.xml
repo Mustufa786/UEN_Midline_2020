@@ -728,14 +728,14 @@
     <string name="g125a"> ہاں </string>
     <string name="g125b"> نہیں </string>
 
-    <string name="G1251"> لیڈی ہیلتھ ورکر کا وزٹ نہیں کرنے کا سبب کیا تھا؟ </string>
-    <string name="G1251a"> ایل ایچھ ڈبلیو اکثر کرکے نہیں آتی </string>
-    <string name="G1251b"> ایل ایچھ ڈبلیوکرونا کی وجہ سےوزٹ نہیں کرسکی </string>
-    <string name="G1251c"> ایل ایچھ ڈبلیوآئی مگر ہم نے گھر میں آنے نہیں دیا </string>
-    <string name="G1251d"> ایل ایچھ ڈبلیونے ماسک نہیں پہنا ہوا تھا </string>
-    <string name="G1251e"> کرونا کا ڈریا خوف </string>
-    <string name="G1251f"> سماجی مفاصلا </string>
-    <string name="G1251g"> حفاظتی سامان گھر پر موجود نہیں تھا </string>
+    <string name="g1251"> لیڈی ہیلتھ ورکر کا وزٹ نہیں کرنے کا سبب کیا تھا؟ </string>
+    <string name="g1251a"> ایل ایچھ ڈبلیو اکثر کرکے نہیں آتی </string>
+    <string name="g1251b"> ایل ایچھ ڈبلیوکرونا کی وجہ سےوزٹ نہیں کرسکی </string>
+    <string name="g1251c"> ایل ایچھ ڈبلیوآئی مگر ہم نے گھر میں آنے نہیں دیا </string>
+    <string name="g1251d"> ایل ایچھ ڈبلیونے ماسک نہیں پہنا ہوا تھا </string>
+    <string name="g1251e"> کرونا کا ڈریا خوف </string>
+    <string name="g1251f"> سماجی مفاصلا </string>
+    <string name="g1251g"> حفاظتی سامان گھر پر موجود نہیں تھا </string>
 
 
 
@@ -948,14 +948,14 @@
     <string name="h131a"> ہاں </string>
     <string name="h131b"> نہیں </string>
 
-    <string name="H1311"> یا آپ(نام) کو حفاظتی ٹیکےکیوں نہیں لگوائے؟ </string>
-    <string name="H1311a"> اتنا اہم نہیں تھا </string>
-    <string name="H1311b"> ہسپتال کرونا کی وجہ سے بند تھا </string>
-    <string name="H1311c"> کرونا کا ڈریا خوف </string>
-    <string name="H1311d"> سماجی مفاصلہ </string>
-    <string name="H1311e"> کرونا کے لاک ڈائون کی وجہ سے سواری نہیں تھی </string>
-    <string name="H1311f"> حفاظتی سامان (ماسک، دستانے) گھر پر موجود نہیں تھے </string>
-    <string name="H1311g"> ڈاکٹر احتیاطی تدابیر پر عمل نہیں کر رہا تھا (ماسک اور دستانے نہیں پہنےہوئے تھے) </string>
+    <string name="h1311"> یا آپ(نام) کو حفاظتی ٹیکےکیوں نہیں لگوائے؟ </string>
+    <string name="h1311a"> اتنا اہم نہیں تھا </string>
+    <string name="h1311b"> ہسپتال کرونا کی وجہ سے بند تھا </string>
+    <string name="h1311c"> کرونا کا ڈریا خوف </string>
+    <string name="h1311d"> سماجی مفاصلہ </string>
+    <string name="h1311e"> کرونا کے لاک ڈائون کی وجہ سے سواری نہیں تھی </string>
+    <string name="h1311f"> حفاظتی سامان (ماسک، دستانے) گھر پر موجود نہیں تھے </string>
+    <string name="h1311g"> ڈاکٹر احتیاطی تدابیر پر عمل نہیں کر رہا تھا (ماسک اور دستانے نہیں پہنےہوئے تھے) </string>
 
     <string name="h132"> H132:\t کیا نوزائیدہ کی پیدائش کے بعد ایل ایچ ڈبلیو نے دورہ کیا تھا ؟ </string>
     <string name="h132a"> ہاں </string>

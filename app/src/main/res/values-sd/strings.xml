@@ -725,14 +725,14 @@
     <string name="g125a"> ھا</string>
     <string name="g125b"> نه</string>
 
-    <string name="G1251"> ليڊي ھيلٿ ورڪر اڪثر ڪري نه ايندي آھي </string>
-    <string name="G1251a"> ڪرونا جي لاڪ ڊائون ڪري دورو نه ڪيو </string>
-    <string name="G1251b"> ليڊي ھيلٿ ورڪر آئي پر اسان ڪرونا جي ڪري اچڻ نه ڏنو </string>
-    <string name="G1251c"> ليڊي ھيلٿ ورڪر کي ماسڪ پاتل نه ھو </string>
-    <string name="G1251d"> ڪرونا جو خوف/ڊپ </string>
-    <string name="G1251e"> سماجي مفاصلو </string>
-    <string name="G1251f"> حفاظتي سامان گهر ۾ موجود نه ھو </string>
-    <string name="G1251g"> PPE not available at home </string>
+    <string name="g1251"> ليڊي ھيلٿ ورڪر اڪثر ڪري نه ايندي آھي </string>
+    <string name="g1251a"> ڪرونا جي لاڪ ڊائون ڪري دورو نه ڪيو </string>
+    <string name="g1251b"> ليڊي ھيلٿ ورڪر آئي پر اسان ڪرونا جي ڪري اچڻ نه ڏنو </string>
+    <string name="g1251c"> ليڊي ھيلٿ ورڪر کي ماسڪ پاتل نه ھو </string>
+    <string name="g1251d"> ڪرونا جو خوف/ڊپ </string>
+    <string name="g1251e"> سماجي مفاصلو </string>
+    <string name="g1251f"> حفاظتي سامان گهر ۾ موجود نه ھو </string>
+    <string name="g1251g"> PPE not available at home </string>
 
 
     <string name="g126"> G126:\t ڇا ليڊي ھيلٿ ورڪر توھان کي ڪلين ڊليوري ڪٽ مھيا ڪئي؟</string>
@@ -1006,14 +1006,14 @@
     <string name="h137a"> ھا </string>
     <string name="h137b"> نه </string>
 
-    <string name="H1371"> (نالو) کي ٽڪو نه لڳرائڻ جو سبب ڇا ھو؟ </string>
-    <string name="H1371a"> اھيو ضروري نه آھي </string>
-    <string name="H1371b"> ڪرونا جي ڪري اسپتال بند ھئي </string>
-    <string name="H1371c"> ڪرونا جو خوف/ڊپ </string>
-    <string name="H1371d"> ڪرونا جي ڪري سماجي مفاصلو </string>
-    <string name="H1371e"> ڪرونا جي لاڪ ڊائون ڪري سواري نه ھئي </string>
-    <string name="H1371f"> گهر ۾ حفاظتي سامان(ماسڪ/داستانه) موجود نه ھئا </string>
-    <string name="H1371g"> ڊاڪٽر معياري طريقيڪار تي عمل نه ڪري رھيو ھو (ماسڪ/داستانه پھريل نه ھئا </string>
+    <string name="h1371"> (نالو) کي ٽڪو نه لڳرائڻ جو سبب ڇا ھو؟ </string>
+    <string name="h1371a"> اھيو ضروري نه آھي </string>
+    <string name="h1371b"> ڪرونا جي ڪري اسپتال بند ھئي </string>
+    <string name="h1371c"> ڪرونا جو خوف/ڊپ </string>
+    <string name="h1371d"> ڪرونا جي ڪري سماجي مفاصلو </string>
+    <string name="h1371e"> ڪرونا جي لاڪ ڊائون ڪري سواري نه ھئي </string>
+    <string name="h1371f"> گهر ۾ حفاظتي سامان(ماسڪ/داستانه) موجود نه ھئا </string>
+    <string name="h1371g"> ڊاڪٽر معياري طريقيڪار تي عمل نه ڪري رھيو ھو (ماسڪ/داستانه پھريل نه ھئا </string>
 
 
     <string name="h137aa"> H137aa:\t نئين ڄاول ٻار کي (بي سي جي) جي ويڪسين ڪٿان لڳرائي وئي ؟ </string>

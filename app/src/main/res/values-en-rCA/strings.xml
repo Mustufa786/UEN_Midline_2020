@@ -737,14 +737,14 @@
     <string name="g125a"> Yes </string>
     <string name="g125b"> No </string>
 
-    <string name="G1251"> Reasons for not visiting LHW? </string>
-    <string name="G1251a"> LHW usually don’t visit </string>
-    <string name="G1251b"> LHW didn’t visit in Lockdown due to Corona </string>
-    <string name="G1251c"> LHW came but we didn’t allow her to enter in the home </string>
-    <string name="G1251d"> LHW not wearing mask </string>
-    <string name="G1251e"> I am afraid to contact with Corona </string>
-    <string name="G1251f"> Social distancing </string>
-    <string name="G1251g"> PPE not available at home </string>
+    <string name="g1251"> Reasons for not visiting LHW? </string>
+    <string name="g1251a"> LHW usually don’t visit </string>
+    <string name="g1251b"> LHW didn’t visit in Lockdown due to Corona </string>
+    <string name="g1251c"> LHW came but we didn’t allow her to enter in the home </string>
+    <string name="g1251d"> LHW not wearing mask </string>
+    <string name="g1251e"> I am afraid to contact with Corona </string>
+    <string name="g1251f"> Social distancing </string>
+    <string name="g1251g"> PPE not available at home </string>
 
 
 
