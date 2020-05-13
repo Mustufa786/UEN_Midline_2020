@@ -948,10 +948,30 @@
     <string name="h131a"> ہاں </string>
     <string name="h131b"> نہیں </string>
 
+    <string name="H1311"> یا آپ(نام) کو حفاظتی ٹیکےکیوں نہیں لگوائے؟ </string>
+    <string name="H1311a"> اتنا اہم نہیں تھا </string>
+    <string name="H1311b"> ہسپتال کرونا کی وجہ سے بند تھا </string>
+    <string name="H1311c"> کرونا کا ڈریا خوف </string>
+    <string name="H1311d"> سماجی مفاصلہ </string>
+    <string name="H1311e"> کرونا کے لاک ڈائون کی وجہ سے سواری نہیں تھی </string>
+    <string name="H1311f"> حفاظتی سامان (ماسک، دستانے) گھر پر موجود نہیں تھے </string>
+    <string name="H1311g"> ڈاکٹر احتیاطی تدابیر پر عمل نہیں کر رہا تھا (ماسک اور دستانے نہیں پہنےہوئے تھے) </string>
+
     <string name="h132"> H132:\t کیا نوزائیدہ کی پیدائش کے بعد ایل ایچ ڈبلیو نے دورہ کیا تھا ؟ </string>
     <string name="h132a"> ہاں </string>
     <string name="h132b"> نہیں </string>
     <string name="h132c"> زچگی کسی اور علاقہ میں ہوئی تھی </string>
+
+
+    <string name="H1321"> لیڈی ہیلتھ ورکر کا وزٹ نہیں کرنے کا سبب کیا تھا؟ </string>
+    <string name="H1321a"> ایل ایچھ ڈبلیو اکثر کرکے نہیں آتی </string>
+    <string name="H1321b"> ایل ایچھ ڈبلیوکرونا کی وجہ سےوزٹ نہیں کرسکی </string>
+    <string name="H1321c"> ایل ایچھ ڈبلیوآئی مگر ہم نے گھر میں آنے نہیں دیا </string>
+    <string name="H1321d"> ایل ایچھ ڈبلیونے ماسک نہیں پہنا ہوا تھا </string>
+    <string name="H1321e"> کرونا کا ڈریا خوف </string>
+    <string name="H1321f"> سماجی مفاصلا </string>
+    <string name="H1321g"> حفاظتی سامان گھر پر موجود نہیں تھا </string>
+
 
     <string name="h133"> H133:\t لیڈی ہیلتھ ورکر کا (نام) کی ولادت کے بعد آنے کا مقصد کیا تھا ؟ </string>
     <string name="h133a"> وزن کیا تھا </string>
@@ -962,6 +982,7 @@
     <string name="h133f"> پولیو کے قطرے پلوائے </string>
     <string name="h133g"> ماں کو دودھ پلانے کا صحیح طریقہ بتایا </string>
     <string name="h133h"> خطرناک علامات کے بارے میں بتایا </string>
+    <string name="h133i"> کرونا کی احتیاطی تدابیر کےبارے میں معلومات </string>
 
     <string name="h134"> H134:\t کیا آپ نوزائیدہ کو پیش آنے والی خطرناک علامات / مسائل کے بارے میں جانتی ہیں ؟ </string>
     <string name="h134a"> ہاں </string>
