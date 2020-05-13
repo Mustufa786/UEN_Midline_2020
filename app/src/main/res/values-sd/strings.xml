@@ -2074,9 +2074,18 @@
     <string name="l101a"> ھا </string>
     <string name="l101b"> نه </string>
 
-    <string name="l102"> L102:\t پنهنجي گهر جي ڪم کان علاوه توھان گذريل ستن ڏينھن ۾ ٻي جڳهه تي ڪو ڪم ڪيو ؟ </string>
-    <string name="l102a"> ھا </string>
-    <string name="l102b"> نه </string>
+    <string name="l1021"> L102:\t پنهنجي گهر جي ڪم کان علاوه توھان گذريل ستن ڏينھن ۾ ٻي جڳهه تي ڪو ڪم ڪيو ؟ </string>
+    <string name="l1021a"> ھا </string>
+    <string name="l1021b"> نه </string>
+
+    <string name="l1022"> I125a:\t ڪم تي نه وڃڻ جو سبب ڇا آھي؟</string>
+    <string name="l1022a">اھو ضروري نه آھي  </string>
+    <string name="l1022b">ڪرونا جي ڪري موڪل آھي </string>
+    <string name="l1022c">ڪرونا جو خوف/ڊپ</string>
+    <string name="l1022d">ڪرونا جي ڪري سماجي مفاصلو</string>
+    <string name="l1022e">ڪرونا جي لاڪ ڊائون ڪري سواري نه ھئي</string>
+    <string name="l1022f">گهر ۾ حفاظتي سامان(ماسڪ/داستانه) موجود نه ھئا</string>
+    <string name="l1022g">مزدورن/ڪم وارن کي معياري طريقيڪار تي عمل نه ڪري رھيو ھو (ماسڪ/داستانه پھريل نه ھئا</string>
 
     <string name="l103"> L103:\t جيڪڏھن توھان گذريل ستن ڏينهن ۾ ڪو ڪم نه ڪيو آھي پر ڇا توھان کي ڪا نوڪري يا ڪو ڪاروبار آھي جٿان توھان خدانه خواسته ڪنهن بيماري، موڪلون، ڊليوري جي ڪري يا ڪنهن ٻي سبب جري موڪل ڪئي ھجي ؟ </string>
     <string name="l103a"> ھا </string>

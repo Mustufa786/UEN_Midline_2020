@@ -229,14 +229,21 @@ public class SectionI2Activity extends AppCompatActivity {
         json.put("i207", bi.i207a.isChecked() ? "1" :
                 bi.i207b.isChecked() ? "2" : "0");
 
-        json.put("i208", bi.i208a.isChecked() ? "1" :
-                bi.i208b.isChecked() ? "2" :
-                        bi.i208c.isChecked() ? "3" :
-                                bi.i208d.isChecked() ? "4" :
-                                        bi.i208e.isChecked() ? "5" :
-                                                bi.i208f.isChecked() ? "6" :
-                                                        bi.i208g.isChecked() ? "7" :
-                                                                bi.i208h.isChecked() ? "8" : "0");
+        json.put("i208", bi.i208a.isChecked() ? "1"
+                : bi.i208b.isChecked() ? "2"
+                : bi.i208c.isChecked() ? "3"
+                : bi.i208d.isChecked() ? "4"
+                : bi.i208e.isChecked() ? "5"
+                : bi.i208f.isChecked() ? "6"
+                : bi.i208g.isChecked() ? "7"
+                : bi.i208h.isChecked() ? "8"
+                : bi.i208i.isChecked() ? "191"
+                : bi.i208j.isChecked() ? "192"
+                : bi.i208k.isChecked() ? "193"
+                : bi.i208l.isChecked() ? "194"
+                : bi.i208m.isChecked() ? "195"
+                : bi.i208n.isChecked() ? "196"
+                : "0");
 
         json.put("i209", bi.i209a.isChecked() ? "1" :
                 bi.i209b.isChecked() ? "2" :
