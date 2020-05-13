@@ -1015,14 +1015,14 @@
     <string name="h137a"> Yes </string>
     <string name="h137b"> No </string>
 
-    <string name="H1371"> Reasons for not getting vaccination? </string>
-    <string name="H1371a"> It is usually not necessary </string>
-    <string name="H1371b"> Facility closed due to Corona </string>
-    <string name="H1371c"> Fear to contact with Corona </string>
-    <string name="H1371d"> Social distancing </string>
-    <string name="H1371e"> No transport due to Lock down Corona </string>
-    <string name="H1371f"> PPE not available at home </string>
-    <string name="H1371g"> Provider’s not following SOPS (Not wearing gloves and masks) </string>
+    <string name="h1371"> Reasons for not getting vaccination? </string>
+    <string name="h1371a"> It is usually not necessary </string>
+    <string name="h1371b"> Facility closed due to Corona </string>
+    <string name="h1371c"> Fear to contact with Corona </string>
+    <string name="h1371d"> Social distancing </string>
+    <string name="h1371e"> No transport due to Lock down Corona </string>
+    <string name="h1371f"> PPE not available at home </string>
+    <string name="h1371g"> Provider’s not following SOPS (Not wearing gloves and masks) </string>
 
 
     <string name="h137aa"> H137A:\t Where (Name) received vaccination for BCG ? </string>
@@ -1147,13 +1147,13 @@
     <string name="h216b"> No </string>
     <string name="h216c"> Never heard about it </string>
 
-    <string name="H2161"> Reasons for not participated? </string>
-    <string name="H2161a"> It is usually not necessary </string>
-    <string name="H2161b"> Not conducting due to Corona </string>
-    <string name="H2161c"> Fear to contact with Corona </string>
-    <string name="H2161d"> Social distancing </string>
-    <string name="H2161e"> No transport due to Lock down Corona </string>
-    <string name="H2161f"> PPE not available at home </string>
+    <string name="h2161"> Reasons for not participated? </string>
+    <string name="h2161a"> It is usually not necessary </string>
+    <string name="h2161b"> Not conducting due to Corona </string>
+    <string name="h2161c"> Fear to contact with Corona </string>
+    <string name="h2161d"> Social distancing </string>
+    <string name="h2161e"> No transport due to Lock down Corona </string>
+    <string name="h2161f"> PPE not available at home </string>
 
 
     <string name="h217"> H217:\t What is the source of financial support for your MNCH related needs? </string>

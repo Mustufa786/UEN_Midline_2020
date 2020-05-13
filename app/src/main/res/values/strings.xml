@@ -1013,14 +1013,14 @@
     <string name="h137b"> نہیں </string>
 
 
-    <string name="H1371"> کیا آپ(نام) کو حفاظتی ٹیکےکیوں نہیں لگوائے؟ </string>
-    <string name="H1371a"> اتنا اہم نہیں تھا </string>
-    <string name="H1371b"> ہسپتال کرونا کی وجہ سے بند تھا </string>
-    <string name="H1371c"> کرونا کا ڈریا خوف </string>
-    <string name="H1371d"> سماجی مفاصلہ </string>
-    <string name="H1371e"> کرونا کے لاک ڈائون کی وجہ سے سواری نہیں تھی </string>
-    <string name="H1371f"> حفاظتی سامان (ماسک، دستانے) گھر پر موجود نہیں تھے </string>
-    <string name="H1371g"> ڈاکٹر احتیاطی تدابیر پر عمل نہیں کر رہا تھا (ماسک اور دستانے نہیں پہنےہوئے تھے) </string>
+    <string name="h1371"> کیا آپ(نام) کو حفاظتی ٹیکےکیوں نہیں لگوائے؟ </string>
+    <string name="h1371a"> اتنا اہم نہیں تھا </string>
+    <string name="h1371b"> ہسپتال کرونا کی وجہ سے بند تھا </string>
+    <string name="h1371c"> کرونا کا ڈریا خوف </string>
+    <string name="h1371d"> سماجی مفاصلہ </string>
+    <string name="h1371e"> کرونا کے لاک ڈائون کی وجہ سے سواری نہیں تھی </string>
+    <string name="h1371f"> حفاظتی سامان (ماسک، دستانے) گھر پر موجود نہیں تھے </string>
+    <string name="h1371g"> ڈاکٹر احتیاطی تدابیر پر عمل نہیں کر رہا تھا (ماسک اور دستانے نہیں پہنےہوئے تھے) </string>
 
 
     <string name="h137aa"> H137a:\t (نام) کو بی سی جی کا ٹیکہ کہاں سے لگوایا تھا ؟ </string>
@@ -1145,13 +1145,13 @@
     <string name="h216b"> نہیں </string>
     <string name="h216c"> کبھی سنا نہیں اس کے بارے میں </string>
 
-    <string name="H2161"> شمولیت نہیں کرنے کا سبب کیا تھا؟ </string>
-    <string name="H2161a"> اتنا اہم نہیں تھا </string>
-    <string name="H2161b"> ہسپتال کرونا کی وجہ سے بند تھا </string>
-    <string name="H2161c"> کرونا کا ڈریا خوف </string>
-    <string name="H2161d"> سماجی مفاصلہ </string>
-    <string name="H2161e"> کرونا کے لاک ڈائون کی وجہ سے سواری نہیں تھی </string>
-    <string name="H2161f"> حفاظتی سامان (ماسک، دستانے) گھر پر موجود نہیں تھے </string>
+    <string name="h2161"> شمولیت نہیں کرنے کا سبب کیا تھا؟ </string>
+    <string name="h2161a"> اتنا اہم نہیں تھا </string>
+    <string name="h2161b"> ہسپتال کرونا کی وجہ سے بند تھا </string>
+    <string name="h2161c"> کرونا کا ڈریا خوف </string>
+    <string name="h2161d"> سماجی مفاصلہ </string>
+    <string name="h2161e"> کرونا کے لاک ڈائون کی وجہ سے سواری نہیں تھی </string>
+    <string name="h2161f"> حفاظتی سامان (ماسک، دستانے) گھر پر موجود نہیں تھے </string>
 
 
     <string name="h217"> H217:\t زچہ اور بچہ کی ضروریات کے لیئے مالی ذرائع کیا تھے ؟ </string>
