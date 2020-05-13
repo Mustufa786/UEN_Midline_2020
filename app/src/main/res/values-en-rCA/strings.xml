@@ -1201,6 +1201,13 @@
     <string name="i106d"> A male was not present to accompany me to the health center </string>
     <string name="i106e"> No permission from household head/husband /mother in law </string>
     <string name="i106f"> Health facility is too far </string>
+    <string name="i106g"> Facility closed due to Corona </string>
+    <string name="i106h"> Fear to contact with Corona </string>
+    <string name="i106i"> Social distancing </string>
+    <string name="i106j"> No transport due to Lock down Corona </string>
+    <string name="i106k"> PPE not available at home </string>
+    <string name="i106l"> Provider’s not following SOPS (Not wearing gloves and masks) </string>
+
 
     <string name="i107"> I107:\t Where did you seek care for {NAME}’s diarrheal episode ? </string>
     <string name="i107a"> Government health facility </string>
@@ -1310,9 +1317,18 @@
     <string name="i124f"> Blood In stool </string>
     <string name="i124g"> Skin pinch goes back very slowly </string>
 
-    <string name="i125"> I125:\t Did LHW provided care / visit you when the child was sick with diarrhea?</string>
-    <string name="i125a">Yes</string>
-    <string name="i125b">No</string>
+    <string name="i1251"> I125:\t Did LHW provided care / visit you when the child was sick with diarrhea?</string>
+    <string name="i1251a">Yes</string>
+    <string name="i1251b">No</string>
+
+    <string name="i1252"> I125a:\t Reasons for not visiting LHW??</string>
+    <string name="i1252a">LHW usually don’t visit</string>
+    <string name="i1252b">LHW didn’t visit in Lockdown</string>
+    <string name="i1252c"> LHW came but we didn’t allow her to enter in the home</string>
+    <string name="i1252d">LHW not wearing  mask</string>
+    <string name="i1252e">I am afraid to contact with Corona</string>
+    <string name="i1252f"> Social distancing</string>
+    <string name="i1252g">PPE not available at home</string>
 
     <string name="i126"> I126:\t What services did she provide ? </string>
     <string name="i126a"> Informed mother about home preparation of ORS. </string>
@@ -1354,6 +1370,12 @@
     <string name="i208f"> Health facility is too far </string>
     <string name="i208g"> Facility not open </string>
     <string name="i208h"> Poor quality service </string>
+    <string name="i208i"> Facility closed due to Corona </string>
+    <string name="i208j"> Fear to contact with Corona </string>
+    <string name="i208k"> Social distancing </string>
+    <string name="i208l"> No transport due to Lock down Corona </string>
+    <string name="i208m"> PPE not available at home </string>
+    <string name="i208n"> Provider’s not following SOPS (Not wearing gloves and masks) </string>
 
     <string name="i209"> I209:\t Where did {NAME} receive treatment for symptoms of fever, cough and fast breathing ? </string>
     <string name="i209a"> At home </string>
@@ -1445,9 +1467,18 @@
     <string name="i224e"> LHW (Lady Health Worker) </string>
     <string name="i224f"> Dai/TBA (Traditional Birth Attendant) </string>
 
-    <string name="i225"> I225:\t Did LHW visit you when the child was sick with pneumonia </string>
-    <string name="i225a"> Yes </string>
-    <string name="i225b"> No </string>
+    <string name="i2251"> I125:\t Did LHW provided care / visit you when the child was sick with diarrhea?</string>
+    <string name="i2251a">Yes</string>
+    <string name="i2251b">No</string>
+
+    <string name="i2252"> I125a:\t Reasons for not visiting LHW??</string>
+    <string name="i2252a">LHW usually don’t visit</string>
+    <string name="i2252b">LHW didn’t visit in Lockdown</string>
+    <string name="i2252c"> LHW came but we didn’t allow her to enter in the home</string>
+    <string name="i2252d">LHW not wearing  mask</string>
+    <string name="i2252e">I am afraid to contact with Corona</string>
+    <string name="i2252f"> Social distancing</string>
+    <string name="i2252g">PPE not available at home</string>
 
     <string name="i226"> I226:\t What services did she provide ? </string>
     <string name="i226a"> Provide Amoxil DT </string>
@@ -1960,6 +1991,12 @@
     <string name="j123n"> Took child facility closed </string>
     <string name="j123o"> Child was sick </string>
     <string name="j123p"> Took child but not vaccination day </string>
+    <string name="j123q"> Facility closed due to Corona </string>
+    <string name="j123r"> Fear to contact with Corona </string>
+    <string name="j123s"> Social distancing </string>
+    <string name="j123t"> No transport due to Lock down Corona </string>
+    <string name="j123u"> PPE not available at home </string>
+    <string name="j123v"> Provider’s not following SOPS (Not wearing gloves and masks) </string>
     <string name="j123x"> Other </string>
 
     <string name="k101"> K101:\t Have you ever heard of a method to delay pregnancy ? </string>
