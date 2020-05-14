@@ -182,7 +182,8 @@ public class SectionH2Activity extends AppCompatActivity {
         json.put("h201w", bi.h201w.getText().toString());
 
         json.put("h202", bi.h202a.isChecked() ? "1" :
-                bi.h202b.isChecked() ? "2" : "0");
+                bi.h202b.isChecked() ? "2" :
+                        bi.h202c.isChecked() ? "19" : "0");
 
         json.put("h203", bi.h203a.isChecked() ? "1" :
                 bi.h203b.isChecked() ? "2" :
@@ -223,13 +224,13 @@ public class SectionH2Activity extends AppCompatActivity {
         json.put("h209", bi.h209a.isChecked() ? "1" :
                 bi.h209b.isChecked() ? "2" : "0");
 
-        json.put("h2091a", bi.h2091a.isChecked() ? "1" : "0");
-        json.put("h2091b", bi.h2091b.isChecked() ? "2" : "0");
-        json.put("h2091c", bi.h2091c.isChecked() ? "3" : "0");
-        json.put("h2091d", bi.h2091d.isChecked() ? "4" : "0");
-        json.put("h2091e", bi.h2091e.isChecked() ? "5" : "0");
-        json.put("h2091f", bi.h2091f.isChecked() ? "6" : "0");
-        json.put("h2091g", bi.h2091g.isChecked() ? "7" : "0");
+        json.put("h209aa", bi.h2091a.isChecked() ? "1" : "0");
+        json.put("h209ab", bi.h2091b.isChecked() ? "2" : "0");
+        json.put("h209ac", bi.h2091c.isChecked() ? "3" : "0");
+        json.put("h209ad", bi.h2091d.isChecked() ? "3a" : "0");
+        json.put("h209ae", bi.h2091e.isChecked() ? "3b" : "0");
+        json.put("h209af", bi.h2091f.isChecked() ? "3c" : "0");
+        json.put("h209ag", bi.h2091g.isChecked() ? "3d" : "0");
 
         json.put("h210", bi.h210a.isChecked() ? "1" :
                 bi.h210b.isChecked() ? "2" :
@@ -270,7 +271,7 @@ public class SectionH2Activity extends AppCompatActivity {
                 bi.h216b.isChecked() ? "2" :
                         bi.h216c.isChecked() ? "3" : "0");
 
-        json.put("h2161", bi.h2161a.isChecked() ? "1" :
+        json.put("h216a", bi.h2161a.isChecked() ? "1" :
                 bi.h2161b.isChecked() ? "2" :
                         bi.h2161c.isChecked() ? "3" :
                                 bi.h2161d.isChecked() ? "4" :

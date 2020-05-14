@@ -848,34 +848,35 @@
                                 style="@style/checkbox"
                                 android:text="@string/h1321c" />
 
-                            <LinearLayout
-                                android:id="@+id/h1321check03"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:orientation="vertical"
-                                android:tag="h1321c">
+                        </LinearLayout>
 
-                                <CheckBox
-                                    android:id="@+id/h1321d"
-                                    style="@style/checkbox"
-                                    android:text="@string/h1321d" />
+                        <LinearLayout
+                            android:id="@+id/h1321check03"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:tag="0"
+                            android:visibility="gone">
 
-                                <CheckBox
-                                    android:id="@+id/h1321e"
-                                    style="@style/checkbox"
-                                    android:text="@string/h1321e" />
+                            <CheckBox
+                                android:id="@+id/h1321d"
+                                style="@style/checkbox"
+                                android:text="@string/h1321d" />
 
-                                <CheckBox
-                                    android:id="@+id/h1321f"
-                                    style="@style/checkbox"
-                                    android:text="@string/h1321f" />
+                            <CheckBox
+                                android:id="@+id/h1321e"
+                                style="@style/checkbox"
+                                android:text="@string/h1321e" />
 
-                                <CheckBox
-                                    android:id="@+id/h1321g"
-                                    style="@style/checkbox"
-                                    android:text="@string/h1321g" />
+                            <CheckBox
+                                android:id="@+id/h1321f"
+                                style="@style/checkbox"
+                                android:text="@string/h1321f" />
 
-                            </LinearLayout>
+                            <CheckBox
+                                android:id="@+id/h1321g"
+                                style="@style/checkbox"
+                                android:text="@string/h1321g" />
 
                         </LinearLayout>
 
