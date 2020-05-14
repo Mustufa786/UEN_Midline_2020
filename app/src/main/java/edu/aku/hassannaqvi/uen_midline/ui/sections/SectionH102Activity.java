@@ -151,11 +151,14 @@ public class SectionH102Activity extends AppCompatActivity {
             if (checkedId == bi.h137a.getId()) {
                 bi.fldGrpCVh137aa.setVisibility(View.VISIBLE);
                 bi.fldGrpCVh137bb.setVisibility(View.VISIBLE);
+                bi.fldGrpCVh1371.setVisibility(View.GONE);
+                Clear.clearAllFields(bi.fldGrpCVh1371);
             } else {
                 Clear.clearAllFields(bi.fldGrpCVh137aa);
                 Clear.clearAllFields(bi.fldGrpCVh137bb);
                 bi.fldGrpCVh137aa.setVisibility(View.GONE);
                 bi.fldGrpCVh137bb.setVisibility(View.GONE);
+                bi.fldGrpCVh1371.setVisibility(View.VISIBLE);
             }
         });
 
