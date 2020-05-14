@@ -1042,6 +1042,7 @@
     <string name="h202"> H202:\t ڇا (نالو) جي پيدائش کان پوءِ توھان جو ڪنھن طبي معائنو ڪيو؟ </string>
     <string name="h202a"> ھا</string>
     <string name="h202b"> نه</string>
+    <string name="h202c"> No, lockdown due to COVID</string>
 
     <string name="h203"> H203:\t ڊليوري کان پوءِ ڪيتري دير بعد توھان جو پھريون دفعو طبي معائنو ڪيو ويو؟</string>
     <string name="h204"> H204:\t ڊليوري کان پوءِ توھان پھريون طبي معائنو ڪٿان ڪرايو؟</string>
@@ -1080,14 +1081,14 @@
     <string name="h209a"> ھا</string>
     <string name="h209b"> نه</string>
 
-    <string name="H2091"> ليڊي ھيلٿ ورڪر جي دوري نه ڪرڻ جو ڇا سبب ھو؟ </string>
-    <string name="H2091a"> ليڊي ھيلٿ ورڪر اڪثر ڪري نه ايندي آھي </string>
-    <string name="H2091b"> ڪرونا جي لاڪ ڊائون ڪري دورو نه ڪيو </string>
-    <string name="H2091c"> ليڊي ھيلٿ ورڪر آئي پر اسان ڪرونا جي ڪري اچڻ نه ڏنو </string>
-    <string name="H2091d"> ليڊي ھيلٿ ورڪر کي ماسڪ پاتل نه ھو </string>
-    <string name="H2091e"> ڪرونا جو خوف/ڊپ </string>
-    <string name="H2091f"> سماجي مفاصلو </string>
-    <string name="H2091g"> حفاظتي سامان گهر ۾ موجود نه ھو </string>
+    <string name="h2091"> ليڊي ھيلٿ ورڪر جي دوري نه ڪرڻ جو ڇا سبب ھو؟ </string>
+    <string name="h2091a"> ليڊي ھيلٿ ورڪر اڪثر ڪري نه ايندي آھي </string>
+    <string name="h2091b"> ڪرونا جي لاڪ ڊائون ڪري دورو نه ڪيو </string>
+    <string name="h2091c"> ليڊي ھيلٿ ورڪر آئي پر اسان ڪرونا جي ڪري اچڻ نه ڏنو </string>
+    <string name="h2091d"> ليڊي ھيلٿ ورڪر کي ماسڪ پاتل نه ھو </string>
+    <string name="h2091e"> ڪرونا جو خوف/ڊپ </string>
+    <string name="h2091f"> سماجي مفاصلو </string>
+    <string name="h2091g"> حفاظتي سامان گهر ۾ موجود نه ھو </string>
 
 
     <string name="h210"> H210:\t ليڊي ھيلٿ ورڪر توھان جي گھر جودورو ڪڏھن ڪيو؟</string>
