@@ -46,6 +46,15 @@ public class SectionF02Activity extends AppCompatActivity {
 
         }));
 
+
+        bi.f1211.setOnCheckedChangeListener(((radioGroup, i) -> {
+
+            if (i == bi.f1211.getId()) {
+                Clear.clearAllFields(bi.fldGrpCVf1212);
+            }
+
+        }));
+
         bi.f124.setOnCheckedChangeListener(((radioGroup, i) -> {
 
             if (i != bi.f124a.getId()) {
@@ -71,6 +80,15 @@ public class SectionF02Activity extends AppCompatActivity {
             }
 
         }));
+
+        bi.f1212c.setOnCheckedChangeListener((buttonView, isChecked) -> {
+            if (isChecked)
+                bi.f1212check03.setVisibility(View.VISIBLE);
+            else {
+                Clear.clearAllFields(bi.f1212check03);
+                bi.f1212check03.setVisibility(View.GONE);
+            }
+        });
 
         bi.f129.setOnCheckedChangeListener(((radioGroup, i) -> {
 
@@ -120,6 +138,15 @@ public class SectionF02Activity extends AppCompatActivity {
 
         f1.put("f121", bi.f121a.isChecked() ? "1" :
                 bi.f121b.isChecked() ? "2" : "0");
+        f1.put("f1211", bi.f1211a.isChecked() ? "1" :
+                bi.f1211b.isChecked() ? "2" : "0");
+        f1.put("f1212a", bi.f1212a.isChecked() ? "1" : "0");
+        f1.put("f1212b", bi.f1212b.isChecked() ? "2" : "0");
+        f1.put("f1212c", bi.f1212c.isChecked() ? "3" : "0");
+        f1.put("f1212d", bi.f1212d.isChecked() ? "4" : "0");
+        f1.put("f1212e", bi.f1212e.isChecked() ? "5" : "0");
+        f1.put("f1212f", bi.f1212f.isChecked() ? "6" : "0");
+        f1.put("f1212g", bi.f1212g.isChecked() ? "7" : "0");
 
         f1.put("f122", bi.f122.getText().toString());
 
@@ -130,6 +157,9 @@ public class SectionF02Activity extends AppCompatActivity {
         f1.put("f123e", bi.f123e.isChecked() ? "5" : "0");
         f1.put("f123f", bi.f123f.isChecked() ? "6" : "0");
         f1.put("f123g", bi.f123g.isChecked() ? "7" : "0");
+        f1.put("f123h", bi.f123h.isChecked() ? "8" : "0");
+        f1.put("f12396", bi.f12396.isChecked() ? "96" : "0");
+        f1.put("f12396x", bi.f12396x.getText().toString());
 
         f1.put("f124", bi.f124a.isChecked() ? "1" :
                 bi.f124b.isChecked() ? "2" : "0");
@@ -173,6 +203,12 @@ public class SectionF02Activity extends AppCompatActivity {
         f1.put("f130g", bi.f130g.isChecked() ? "7" : "0");
         f1.put("f130h", bi.f130h.isChecked() ? "8" : "0");
         f1.put("f130i", bi.f130i.isChecked() ? "9" : "0");
+        f1.put("f101aj", bi.f130j.isChecked() ? "10" : "0");
+        f1.put("f101ak", bi.f130k.isChecked() ? "11" : "0");
+        f1.put("f101al", bi.f130l.isChecked() ? "12" : "0");
+        f1.put("f101am", bi.f130m.isChecked() ? "13" : "0");
+        f1.put("f101an", bi.f130n.isChecked() ? "14" : "0");
+        f1.put("f101ao", bi.f130o.isChecked() ? "15" : "0");
 
         f1.put("f131", bi.f131a.isChecked() ? "1" :
                 bi.f131b.isChecked() ? "2" :
@@ -193,6 +229,7 @@ public class SectionF02Activity extends AppCompatActivity {
         f1.put("f134e", bi.f134e.isChecked() ? "5" : "0");
         f1.put("f134f", bi.f134f.isChecked() ? "6" : "0");
         f1.put("f134g", bi.f134g.isChecked() ? "7" : "0");
+        f1.put("f134h", bi.f134h.isChecked() ? "8" : "0");
 
         try {
             JSONObject s4_merge = JSONUtils.mergeJSONObjects(new JSONObject(MainApp.kish.getsF()), f1);

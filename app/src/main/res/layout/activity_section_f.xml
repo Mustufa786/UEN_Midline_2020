@@ -136,6 +136,36 @@
                             style="@style/checkbox"
                             android:text="@string/f101ai" />
 
+                        <CheckBox
+                            android:id="@+id/f101aj"
+                            style="@style/checkbox"
+                            android:text="@string/f101aj" />
+
+                        <CheckBox
+                            android:id="@+id/f101ak"
+                            style="@style/checkbox"
+                            android:text="@string/f101ak" />
+
+                        <CheckBox
+                            android:id="@+id/f101al"
+                            style="@style/checkbox"
+                            android:text="@string/f101al" />
+
+                        <CheckBox
+                            android:id="@+id/f101am"
+                            style="@style/checkbox"
+                            android:text="@string/f101am" />
+
+                        <CheckBox
+                            android:id="@+id/f101an"
+                            style="@style/checkbox"
+                            android:text="@string/f101an" />
+
+                        <CheckBox
+                            android:id="@+id/f101ao"
+                            style="@style/checkbox"
+                            android:text="@string/f101ao" />
+
                     </LinearLayout>
 
                 </LinearLayout>

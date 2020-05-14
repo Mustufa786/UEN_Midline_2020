@@ -453,6 +453,11 @@
                                 android:text="@string/o108g" />
 
                             <RadioButton
+                                android:id="@+id/o108h"
+                                style="@style/radiobutton"
+                                android:text="@string/o108h" />
+
+                            <RadioButton
                                 android:id="@+id/o108x"
                                 style="@style/radiobutton"
                                 android:text="@string/other" />

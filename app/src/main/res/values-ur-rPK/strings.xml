@@ -465,7 +465,7 @@
     <string name="f1212d"> ایل ایچھ ڈبلیونے ماسک نہیں پہنا ہوا تھا </string>
     <string name="f1212e"> کرونا کا ڈریا خوف </string>
     <string name="f1212f"> سماجی مفاصلا </string>
-    <string name="f1212h"> حفاظتی سامان گھر پر موجود نہیں تھا </string>
+    <string name="f1212g"> حفاظتی سامان گھر پر موجود نہیں تھا </string>
 
 
 
@@ -481,7 +481,7 @@
     <string name="f123f"> فولاد یا آئرن کی گولیاں فراہم کرنا </string>
     <string name="f123g"> زچگی کے دوران خطرناک علامات کی آگاہی دینا </string>
     <string name="f123h"> کرونا کی احتیاطی تدابیر کےبارے میں معلومات </string>
-    <string name="f123i"> Others specify </string>
+    <string name="f12396"> Others specify </string>
 
     <string name="f124"> F124:\t کیاآپ نے(نام)کی پیدائش سےقبل اپنےحمل کے دوران خطرناک علامات/مسائل کے بارے میں معلومات حاصل کی تھیں؟ </string>
     <string name="f124a"> ہاں </string>
@@ -2099,28 +2099,28 @@
     <string name="k1071a"> ہاں </string>
     <string name="k1071b"> نہیں </string>
 
-    <string name="K1072"> I125a:\t لیڈی ہیلتھ ورکر کا وزٹ نہیں کرنے کا سبب کیا تھا؟?</string>
-    <string name="K1072a">ایل ایچھ ڈبلیو اکثر کرکے نہیں آتی </string>
-    <string name="K1072b">ایل ایچھ ڈبلیوکرونا کی وجہ سےوزٹ نہیں کرسکی </string>
-    <string name="K1072c">ایل ایچھ ڈبلیوآئی مگر ہم نے گھر میں آنے نہیں دیا</string>
-    <string name="K1072d">ایل ایچھ ڈبلیو اکثر کرکے نہیں آتی</string>
-    <string name="K1072e">کرونا کا ڈریا خوف</string>
-    <string name="K1072f">سماجی مفاصلا </string>
-    <string name="K1072g">حفاظتی سامان گھر پر موجود نہیں تھا</string>
+    <string name="k1072"> K1072:\t لیڈی ہیلتھ ورکر کا وزٹ نہیں کرنے کا سبب کیا تھا ؟ </string>
+    <string name="k1072a"> ایل ایچھ ڈبلیو اکثر کر کے نہیں آتی </string>
+    <string name="k1072b"> ایل ایچھ ڈبلیو کرونا کی وجہ سے وزٹ نہیں کرسکی </string>
+    <string name="k1072c"> ایل ایچھ ڈبلیو آئی مگر ہم نے گھر میں آنے نہیں دیا </string>
+    <string name="k1072d"> ایل ایچھ ڈبلیو اکثر کر کے نہیں آتی </string>
+    <string name="k1072e"> کرونا کا ڈر یا خوف </string>
+    <string name="k1072f"> سماجی مفاصلا </string>
+    <string name="k1072g"> حفاظتی سامان گھر پر موجود نہیں تھا </string>
 
     <string name="k1081"> K108:\t کیا (ایل ایچ ڈبلیو) نے آپ اور آپ کے شوہر کے ساتھ میٹنگ کا بندوبست کیا تھا ؟ </string>
     <string name="k1081a"> ہاں </string>
     <string name="k1081b"> نہیں </string>
     <string name="k1081c"> کمیونٹی میں عمومی میٹنگ </string>
 
-    <string name="k1082">K108:\t شمولیت نہیں کرنے کا سبب کیا تھا؟</string>
-    <string name="k1082a">اتنا اہم نہیں تھا</string>
-    <string name="k1082b">ہسپتال کرونا کی وجہ سے بند تھا</string>
-    <string name="K1082c">     کرونا کا ڈریا خوف</string>
-    <string name="K1082d">     سماجی مفاصل</string>
-    <string name="K1082e"> کرونا کے لاک ڈائون کی وجہ سے سواری نہیں تھی </string>
-    <string name="K1082f"> حفاظتی سامان (ماسک، دستانے) گھر پر موجود نہیں تھے </string>
-    <string name="K1082g"> ڈاکٹر احتیاطی تدابیر پر عمل نہیں کر رہا تھا (ماسک اور دستانے نہیں پہنےہوئے تھے) </string>
+    <string name="k1082"> K108a:\t شمولیت نہیں کرنے کا سبب کیا تھا ؟ </string>
+    <string name="k1082a"> اتنا اہم نہیں تھا </string>
+    <string name="k1082b"> ہسپتال  کرونا کی وجہ سے بند تھا </string>
+    <string name="k1082c"> کرونا کا ڈریا خوف </string>
+    <string name="k1082d"> سماجی مفاصل </string>
+    <string name="k1082e"> کرونا کے لاک ڈائون کی وجہ سے سواری نہیں تھی </string>
+    <string name="k1082f"> حفاظتی سامان (ماسک، دستانے) گھر پر موجود نہیں تھے </string>
+    <string name="k1082g"> ڈاکٹر احتیاطی تدابیر پر عمل نہیں کر رہا تھا ( ماسک اور دستانے نہیں پہنے ہوئے تھے ) </string>
 
 
     <string name="k109"> K109:\t کیا آپ اپنے علاقہ میں گھر کے قریب کسی لیڈی ہیلتھ ورکر \'ہیلتھ ہاؤس\' کے بارے میں جانتی ہیں ؟ </string>
@@ -2677,6 +2677,7 @@
     <string name="o108e"> التواع </string>
     <string name="o108f"> رہائش گاہ خالی ہے </string>
     <string name="o108g"> نا مکمل </string>
+    <string name="o108h"> کرونا کی بیماری کی وجہ سےجوب نہیں ملا </string>
     <string name="o108x"> دیگر (وضاحت کریں) </string>
 
     <string name="end_interview"> ختم </string>

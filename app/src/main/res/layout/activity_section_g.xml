@@ -185,6 +185,36 @@
                                 style="@style/checkbox"
                                 android:text="@string/g103i" />
 
+                            <CheckBox
+                                android:id="@+id/g103j"
+                                style="@style/checkbox"
+                                android:text="@string/g103j" />
+
+                            <CheckBox
+                                android:id="@+id/g103k"
+                                style="@style/checkbox"
+                                android:text="@string/g103k" />
+
+                            <CheckBox
+                                android:id="@+id/g103l"
+                                style="@style/checkbox"
+                                android:text="@string/g103l" />
+
+                            <CheckBox
+                                android:id="@+id/g103m"
+                                style="@style/checkbox"
+                                android:text="@string/g103m" />
+
+                            <CheckBox
+                                android:id="@+id/g103n"
+                                style="@style/checkbox"
+                                android:text="@string/g103n" />
+
+                            <CheckBox
+                                android:id="@+id/g103o"
+                                style="@style/checkbox"
+                                android:text="@string/g103o" />
+
                         </LinearLayout>
 
                     </LinearLayout>
@@ -1308,6 +1338,77 @@
                                 android:text="@string/no" />
 
                         </RadioGroup>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <!-- g1251  CheckBox   -->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/fldGrpCVg1251"
+                    style="@style/cardView">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/g1251" />
+
+                        <LinearLayout
+                            android:id="@+id/g1251check"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:tag="0">
+
+                            <CheckBox
+                                android:id="@+id/g1251a"
+                                style="@style/checkbox"
+                                android:text="@string/g1251a" />
+
+                            <CheckBox
+                                android:id="@+id/g1251b"
+                                style="@style/checkbox"
+                                android:text="@string/g1251b" />
+
+                            <CheckBox
+                                android:id="@+id/g1251c"
+                                style="@style/checkbox"
+                                android:text="@string/g1251c" />
+
+                            <LinearLayout
+                                android:id="@+id/g1251check03"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:tag="g1251c">
+
+                                <CheckBox
+                                    android:id="@+id/g1251d"
+                                    style="@style/checkbox"
+                                    android:text="@string/g1251d" />
+
+                                <CheckBox
+                                    android:id="@+id/g1251e"
+                                    style="@style/checkbox"
+                                    android:text="@string/g1251e" />
+
+                                <CheckBox
+                                    android:id="@+id/g1251f"
+                                    style="@style/checkbox"
+                                    android:text="@string/g1251f" />
+
+                                <CheckBox
+                                    android:id="@+id/g1251g"
+                                    style="@style/checkbox"
+                                    android:text="@string/g1251g" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
 
                     </LinearLayout>
 
