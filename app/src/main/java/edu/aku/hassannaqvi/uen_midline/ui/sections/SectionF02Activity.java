@@ -138,15 +138,15 @@ public class SectionF02Activity extends AppCompatActivity {
 
         f1.put("f121", bi.f121a.isChecked() ? "1" :
                 bi.f121b.isChecked() ? "2" : "0");
-        f1.put("f1211", bi.f1211a.isChecked() ? "1" :
+        f1.put("f121a", bi.f1211a.isChecked() ? "1" :
                 bi.f1211b.isChecked() ? "2" : "0");
-        f1.put("f1212a", bi.f1212a.isChecked() ? "1" : "0");
-        f1.put("f1212b", bi.f1212b.isChecked() ? "2" : "0");
-        f1.put("f1212c", bi.f1212c.isChecked() ? "3" : "0");
-        f1.put("f1212d", bi.f1212d.isChecked() ? "4" : "0");
-        f1.put("f1212e", bi.f1212e.isChecked() ? "5" : "0");
-        f1.put("f1212f", bi.f1212f.isChecked() ? "6" : "0");
-        f1.put("f1212g", bi.f1212g.isChecked() ? "7" : "0");
+        f1.put("f121ba", bi.f1212a.isChecked() ? "1" : "0");
+        f1.put("f121bb", bi.f1212b.isChecked() ? "2" : "0");
+        f1.put("f121bc", bi.f1212c.isChecked() ? "3" : "0");
+        f1.put("f121bd", bi.f1212d.isChecked() ? "3a" : "0");
+        f1.put("f121be", bi.f1212e.isChecked() ? "3b" : "0");
+        f1.put("f121bf", bi.f1212f.isChecked() ? "3c" : "0");
+        f1.put("f121bg", bi.f1212g.isChecked() ? "3d" : "0");
 
         f1.put("f122", bi.f122.getText().toString());
 

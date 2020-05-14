@@ -299,24 +299,24 @@ public class SectionH102Activity extends AppCompatActivity {
         json.put("h131", bi.h131a.isChecked() ? "1" :
                 bi.h131b.isChecked() ? "2" : "0");
 
-        json.put("h1311a", bi.h1311a.isChecked() ? "1" : "0");
-        json.put("h1311b", bi.h1311b.isChecked() ? "2" : "0");
-        json.put("h1311c", bi.h1311c.isChecked() ? "3" : "0");
-        json.put("h1311d", bi.h1311d.isChecked() ? "4" : "0");
-        json.put("h1311e", bi.h1311e.isChecked() ? "5" : "0");
-        json.put("h1311f", bi.h1311f.isChecked() ? "6" : "0");
-        json.put("h1311g", bi.h1311g.isChecked() ? "7" : "0");
+        json.put("h131aa", bi.h1311a.isChecked() ? "1" : "0");
+        json.put("h131ab", bi.h1311b.isChecked() ? "2" : "0");
+        json.put("h131ac", bi.h1311c.isChecked() ? "3" : "0");
+        json.put("h131ad", bi.h1311d.isChecked() ? "4" : "0");
+        json.put("h131ae", bi.h1311e.isChecked() ? "5" : "0");
+        json.put("h131af", bi.h1311f.isChecked() ? "6" : "0");
+        json.put("h131ag", bi.h1311g.isChecked() ? "7" : "0");
 
         json.put("h132", bi.h132a.isChecked() ? "1" :
                 bi.h132b.isChecked() ? "2" :
                         bi.h132c.isChecked() ? "3" : "0");
-        json.put("h1321a", bi.h1321a.isChecked() ? "1" : "0");
-        json.put("h1321b", bi.h1321b.isChecked() ? "2" : "0");
-        json.put("h1321c", bi.h1321c.isChecked() ? "3" : "0");
-        json.put("h1321d", bi.h1321d.isChecked() ? "4" : "0");
-        json.put("h1321e", bi.h1321e.isChecked() ? "5" : "0");
-        json.put("h1321f", bi.h1321f.isChecked() ? "6" : "0");
-        json.put("h1321g", bi.h1321g.isChecked() ? "7" : "0");
+        json.put("h132aa", bi.h1321a.isChecked() ? "1" : "0");
+        json.put("h132ab", bi.h1321b.isChecked() ? "2" : "0");
+        json.put("h132ac", bi.h1321c.isChecked() ? "3" : "0");
+        json.put("h132ad", bi.h1321d.isChecked() ? "3a" : "0");
+        json.put("h132ae", bi.h1321e.isChecked() ? "3b" : "0");
+        json.put("h132af", bi.h1321f.isChecked() ? "3c" : "0");
+        json.put("h132ag", bi.h1321g.isChecked() ? "3d" : "0");
 
         json.put("h133a", bi.h133a.isChecked() ? "1" : "0");
         json.put("h133b", bi.h133b.isChecked() ? "2" : "0");

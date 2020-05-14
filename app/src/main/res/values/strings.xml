@@ -1043,6 +1043,7 @@
     <string name="h202"> H202:\t کیا (نام) کی پیدائش کے بعد وہاں کسی نے آپ کا طبی معائنہ کیا تھا ؟ </string>
     <string name="h202a"> ہاں </string>
     <string name="h202b"> نہیں </string>
+    <string name="h202c"> نہیں ، کرونا کی بیماری کی وجہ سے</string>
 
     <string name="h203"> H203:\t زچگی کے کتنی دیر کے بعد آپ کا پہلا طبی معائنہ کیا گیا تھا ؟ </string>
 
@@ -1086,14 +1087,14 @@
     <string name="h209a"> ہاں </string>
     <string name="h209b"> نہیں </string>
 
-    <string name="H2091"> لیڈی ہیلتھ ورکر کا وزٹ نہیں کرنے کا سبب کیا تھا؟ </string>
-    <string name="H2091a"> ایل ایچھ ڈبلیو اکثر کرکے نہیں آتی </string>
-    <string name="H2091b"> ایل ایچھ ڈبلیوکرونا کی وجہ سےوزٹ نہیں کرسکی </string>
-    <string name="H2091c"> ایل ایچھ ڈبلیوآئی مگر ہم نے گھر میں آنے نہیں دیا </string>
-    <string name="H2091d"> ایل ایچھ ڈبلیونے ماسک نہیں پہنا ہوا تھا </string>
-    <string name="H2091e"> کرونا کا ڈریا خوف </string>
-    <string name="H2091f"> سماجی مفاصلا </string>
-    <string name="H2091g"> حفاظتی سامان گھر پر موجود نہیں تھا </string>
+    <string name="h2091"> لیڈی ہیلتھ ورکر کا وزٹ نہیں کرنے کا سبب کیا تھا؟ </string>
+    <string name="h2091a"> ایل ایچھ ڈبلیو اکثر کرکے نہیں آتی </string>
+    <string name="h2091b"> ایل ایچھ ڈبلیوکرونا کی وجہ سےوزٹ نہیں کرسکی </string>
+    <string name="h2091c"> ایل ایچھ ڈبلیوآئی مگر ہم نے گھر میں آنے نہیں دیا </string>
+    <string name="h2091d"> ایل ایچھ ڈبلیونے ماسک نہیں پہنا ہوا تھا </string>
+    <string name="h2091e"> کرونا کا ڈریا خوف </string>
+    <string name="h2091f"> سماجی مفاصلا </string>
+    <string name="h2091g"> حفاظتی سامان گھر پر موجود نہیں تھا </string>
 
 
     <string name="h210"> H210:\t اس نے کب دورہ کیا تھا ؟ </string>
