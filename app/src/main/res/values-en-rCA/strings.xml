@@ -1049,6 +1049,8 @@
     <string name="h202"> H202:\t Did anyone conduct a health check-up after you gave birth to {NAME} ? </string>
     <string name="h202a"> Yes </string>
     <string name="h202b"> No </string>
+    <string name="h202c"> No, lockdown due to COVID</string>
+
 
     <string name="h203"> H203:\t How long after delivery was first health check-up conducted ? </string>
 
@@ -1092,14 +1094,14 @@
     <string name="h209a"> Yes </string>
     <string name="h209b"> No </string>
 
-    <string name="H2091"> Reasons for not visiting LHW? </string>
-    <string name="H2091a"> LHW usually don’t visit </string>
-    <string name="H2091b"> LHW didn’t visit in Lockdown </string>
-    <string name="H2091c"> LHW came but we didn’t allow her to enter in the home </string>
-    <string name="H2091d"> LHW not wearing mask </string>
-    <string name="H2091e"> I am afraid to contact with Corona </string>
-    <string name="H2091f"> Social distancing </string>
-    <string name="H2091g"> PPE not available at home </string>
+    <string name="h2091"> Reasons for not visiting LHW? </string>
+    <string name="h2091a"> LHW usually don’t visit </string>
+    <string name="h2091b"> LHW didn’t visit in Lockdown </string>
+    <string name="h2091c"> LHW came but we didn’t allow her to enter in the home </string>
+    <string name="h2091d"> LHW not wearing mask </string>
+    <string name="h2091e"> I am afraid to contact with Corona </string>
+    <string name="h2091f"> Social distancing </string>
+    <string name="h2091g"> PPE not available at home </string>
 
 
     <string name="h210"> H210:\t When did she visit ? </string>
