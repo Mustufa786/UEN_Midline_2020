@@ -211,13 +211,13 @@ public class SectionKActivity extends AppCompatActivity {
                 : bi.k1071b.isChecked() ? "2"
                 : "0");
 
-        json.put("k1072a", bi.k1072a.isChecked() ? "1" : "0");
-        json.put("k1072b", bi.k1072b.isChecked() ? "2" : "0");
-        json.put("k1072c", bi.k1072c.isChecked() ? "3" : "0");
-        json.put("k1072d", bi.k1072d.isChecked() ? "4" : "0");
-        json.put("k1072e", bi.k1072e.isChecked() ? "5" : "0");
-        json.put("k1072f", bi.k1072f.isChecked() ? "6" : "0");
-        json.put("k1072g", bi.k1072g.isChecked() ? "7" : "0");
+        json.put("k107aa", bi.k1072a.isChecked() ? "1" : "0");
+        json.put("k107ab", bi.k1072b.isChecked() ? "2" : "0");
+        json.put("k107ac", bi.k1072c.isChecked() ? "3" : "0");
+        json.put("k107ad", bi.k1072d.isChecked() ? "3a" : "0");
+        json.put("k107ae", bi.k1072e.isChecked() ? "3b" : "0");
+        json.put("k107af", bi.k1072f.isChecked() ? "3c" : "0");
+        json.put("k107ag", bi.k1072g.isChecked() ? "3d" : "0");
 
         json.put("k108", bi.k1081a.isChecked() ? "1"
                 : bi.k1081b.isChecked() ? "2"
