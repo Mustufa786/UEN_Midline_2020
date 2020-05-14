@@ -133,6 +133,11 @@
                                 style="@style/radiobutton"
                                 android:text="@string/no" />
 
+                            <RadioButton
+                                android:id="@+id/h202c"
+                                style="@style/radiobutton"
+                                android:text="@string/h202c" />
+
                         </RadioGroup>
 
                     </LinearLayout>
@@ -534,34 +539,35 @@
                                 style="@style/checkbox"
                                 android:text="@string/h2091c" />
 
-                            <LinearLayout
-                                android:id="@+id/h2091check03"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:orientation="vertical"
-                                android:tag="h2091c">
+                        </LinearLayout>
 
-                                <CheckBox
-                                    android:id="@+id/h2091d"
-                                    style="@style/checkbox"
-                                    android:text="@string/h2091d" />
+                        <LinearLayout
+                            android:id="@+id/h2091check03"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:tag="0"
+                            android:visibility="gone">
 
-                                <CheckBox
-                                    android:id="@+id/h2091e"
-                                    style="@style/checkbox"
-                                    android:text="@string/h2091e" />
+                            <CheckBox
+                                android:id="@+id/h2091d"
+                                style="@style/checkbox"
+                                android:text="@string/h2091d" />
 
-                                <CheckBox
-                                    android:id="@+id/h2091f"
-                                    style="@style/checkbox"
-                                    android:text="@string/h2091f" />
+                            <CheckBox
+                                android:id="@+id/h2091e"
+                                style="@style/checkbox"
+                                android:text="@string/h2091e" />
 
-                                <CheckBox
-                                    android:id="@+id/h2091g"
-                                    style="@style/checkbox"
-                                    android:text="@string/h2091g" />
+                            <CheckBox
+                                android:id="@+id/h2091f"
+                                style="@style/checkbox"
+                                android:text="@string/h2091f" />
 
-                            </LinearLayout>
+                            <CheckBox
+                                android:id="@+id/h2091g"
+                                style="@style/checkbox"
+                                android:text="@string/h2091g" />
 
                         </LinearLayout>
 

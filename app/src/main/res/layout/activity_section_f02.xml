@@ -139,34 +139,36 @@
                             style="@style/checkbox"
                             android:text="@string/f1212c" />
 
-                        <LinearLayout
-                            android:id="@+id/f1212check03"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:orientation="vertical"
-                            android:tag="f1212c">
 
-                            <CheckBox
-                                android:id="@+id/f1212d"
-                                style="@style/checkbox"
-                                android:text="@string/f1212d" />
+                    </LinearLayout>
 
-                            <CheckBox
-                                android:id="@+id/f1212e"
-                                style="@style/checkbox"
-                                android:text="@string/f1212e" />
+                    <LinearLayout
+                        android:id="@+id/f1212check03"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:tag="0"
+                        android:visibility="gone">
 
-                            <CheckBox
-                                android:id="@+id/f1212f"
-                                style="@style/checkbox"
-                                android:text="@string/f1212f" />
+                        <CheckBox
+                            android:id="@+id/f1212d"
+                            style="@style/checkbox"
+                            android:text="@string/f1212d" />
 
-                            <CheckBox
-                                android:id="@+id/f1212g"
-                                style="@style/checkbox"
-                                android:text="@string/f1212g" />
+                        <CheckBox
+                            android:id="@+id/f1212e"
+                            style="@style/checkbox"
+                            android:text="@string/f1212e" />
 
-                        </LinearLayout>
+                        <CheckBox
+                            android:id="@+id/f1212f"
+                            style="@style/checkbox"
+                            android:text="@string/f1212f" />
+
+                        <CheckBox
+                            android:id="@+id/f1212g"
+                            style="@style/checkbox"
+                            android:text="@string/f1212g" />
 
                     </LinearLayout>
 
@@ -868,43 +870,43 @@
                         <CheckBox
                             android:id="@+id/f134a"
                             style="@style/checkbox"
-                            android:checked="@{f134g.checked ? false : false}"
-                            android:enabled="@{f134g.checked ? false : true}"
+                            android:checked="@{f134g.checked || f134h.checked ? false : false}"
+                            android:enabled="@{f134g.checked || f134h.checked ? false : true}"
                             android:text="@string/f134a" />
 
                         <CheckBox
                             android:id="@+id/f134b"
                             style="@style/checkbox"
-                            android:checked="@{f134g.checked ? false : false}"
-                            android:enabled="@{f134g.checked ? false : true}"
+                            android:checked="@{f134g.checked || f134h.checked ? false : false}"
+                            android:enabled="@{f134g.checked || f134h.checked ? false : true}"
                             android:text="@string/f134b" />
 
                         <CheckBox
                             android:id="@+id/f134c"
                             style="@style/checkbox"
-                            android:checked="@{f134g.checked ? false : false}"
-                            android:enabled="@{f134g.checked ? false : true}"
+                            android:checked="@{f134g.checked || f134h.checked ? false : false}"
+                            android:enabled="@{f134g.checked || f134h.checked ? false : true}"
                             android:text="@string/f134c" />
 
                         <CheckBox
                             android:id="@+id/f134d"
                             style="@style/checkbox"
-                            android:checked="@{f134g.checked ? false : false}"
-                            android:enabled="@{f134g.checked ? false : true}"
+                            android:checked="@{f134g.checked || f134h.checked ? false : false}"
+                            android:enabled="@{f134g.checked || f134h.checked ? false : true}"
                             android:text="@string/f134d" />
 
                         <CheckBox
                             android:id="@+id/f134e"
                             style="@style/checkbox"
-                            android:checked="@{f134g.checked ? false : false}"
-                            android:enabled="@{f134g.checked ? false : true}"
+                            android:checked="@{f134g.checked || f134h.checked ? false : false}"
+                            android:enabled="@{f134g.checked || f134h.checked ? false : true}"
                             android:text="@string/f134e" />
 
                         <CheckBox
                             android:id="@+id/f134f"
                             style="@style/checkbox"
-                            android:checked="@{f134g.checked ? false : false}"
-                            android:enabled="@{f134g.checked ? false : true}"
+                            android:checked="@{f134g.checked || f134h.checked ? false : false}"
+                            android:enabled="@{f134g.checked || f134h.checked ? false : true}"
                             android:text="@string/f134f" />
 
                         <CheckBox

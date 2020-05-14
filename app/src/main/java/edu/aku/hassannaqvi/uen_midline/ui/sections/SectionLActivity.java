@@ -112,12 +112,12 @@ public class SectionLActivity extends AppCompatActivity {
 
         json.put("l1022",
                 bi.l1022a.isChecked() ? "1" :
-                        bi.l1022b.isChecked() ? "2" :
-                                bi.l1022c.isChecked() ? "3" :
-                                        bi.l1022d.isChecked() ? "4" :
-                                                bi.l1022e.isChecked() ? "5" :
-                                                        bi.l1022f.isChecked() ? "6" :
-                                                                bi.l1022g.isChecked() ? "7" :
+                        bi.l1022b.isChecked() ? "191" :
+                                bi.l1022c.isChecked() ? "192" :
+                                        bi.l1022d.isChecked() ? "193" :
+                                                bi.l1022e.isChecked() ? "194" :
+                                                        bi.l1022f.isChecked() ? "195" :
+                                                                bi.l1022g.isChecked() ? "196" :
                                                                         "0");
 
         json.put("l103",
