@@ -83,31 +83,30 @@ public class SectionMActivity extends AppCompatActivity {
 
         JSONObject json = new JSONObject();
 
-        json.put("m101",
-                bi.m101a.isChecked() ? "1" :
-                        bi.m101b.isChecked() ? "2" :
-                                bi.m101c.isChecked() ? "3" :
-                                        "0");
-        json.put("m102",
-                bi.m102a.isChecked() ? "1" :
-                        bi.m102b.isChecked() ? "2" :
-                                "0");
-        json.put("m103",
-                bi.m103a.isChecked() ? "1" :
-                        bi.m103b.isChecked() ? "2" :
-                                bi.m103c.isChecked() ? "3" :
-                                        bi.m103d.isChecked() ? "4" :
-                                                bi.m103e.isChecked() ? "5" :
-                                                        bi.m103f.isChecked() ? "6" :
-                                                                bi.m103g.isChecked() ? "7" :
-                                                                        bi.m103h.isChecked() ? "8" :
-                                                                                bi.m103i.isChecked() ? "9" :
-                                                                                        bi.m103j.isChecked() ? "10" :
-                                                                                                bi.m103k.isChecked() ? "11" :
-                                                                                                        bi.m103l.isChecked() ? "12" :
-                                                                                                                bi.m103m.isChecked() ? "13" :
-                                                                                                                        bi.m103n.isChecked() ? "14" :
-                                                                                                                                "0");
+        json.put("m101", bi.m101a.isChecked() ? "1"
+                : bi.m101b.isChecked() ? "2"
+                : bi.m101c.isChecked() ? "3"
+                : "0");
+
+        json.put("m102", bi.m102a.isChecked() ? "1"
+                : bi.m102b.isChecked() ? "2"
+                : "0");
+
+        json.put("m103", bi.m103a.isChecked() ? "1"
+                : bi.m103b.isChecked() ? "2" //m103c removed req: Imran Sahab
+                : bi.m103d.isChecked() ? "4"
+                : bi.m103e.isChecked() ? "5"
+                : bi.m103f.isChecked() ? "6"
+                : bi.m103g.isChecked() ? "7"
+                : bi.m103h.isChecked() ? "8"
+                : bi.m103i.isChecked() ? "9"
+                : bi.m103j.isChecked() ? "10"
+                : bi.m103k.isChecked() ? "11"
+                : bi.m103l.isChecked() ? "12"
+                : bi.m103m.isChecked() ? "13"
+                : bi.m103n.isChecked() ? "14"
+                : "0");
+
         json.put("m104",
                 bi.m104a.isChecked() ? "1" :
                         bi.m104b.isChecked() ? "2" :

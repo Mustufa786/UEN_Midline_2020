@@ -123,9 +123,8 @@
                             style="@style/radiobutton"
                             android:text="@string/m103b" />
 
-                        <RadioButton
-                            android:id="@+id/m103c"
-                            style="@style/radiobutton"
+                        <TextView
+                            style="@style/i_textviewhint"
                             android:text="@string/m103c" />
 
                         <RadioButton
