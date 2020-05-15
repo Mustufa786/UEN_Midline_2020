@@ -132,7 +132,7 @@ public class SectionGActivity extends AppCompatActivity {
 
             if (checkedId == bi.g119c.getId()) {
                 Clear.clearAllFields(bi.fldGrpCVg120);
-            }else{
+            } else {
                 Clear.clearAllFields(bi.fldGrpCVg121);
             }
         });
@@ -159,6 +159,15 @@ public class SectionGActivity extends AppCompatActivity {
             else {
                 Clear.clearAllFields(bi.g1251check03);
                 bi.g1251check03.setVisibility(View.GONE);
+            }
+        });
+
+
+        //g125
+        bi.g125.setOnCheckedChangeListener((group, checkedId) -> {
+
+            if (checkedId == bi.g125b.getId()) {
+                Clear.clearAllFields(bi.fldGrpCVg1251);
             }
         });
 
