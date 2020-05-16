@@ -177,6 +177,7 @@ public class SectionI1Activity extends AppCompatActivity {
         });
     }
 
+
     public void BtnContinue() {
         if (formValidation()) {
             try {
@@ -194,12 +195,11 @@ public class SectionI1Activity extends AppCompatActivity {
     }
 
     public void BtnEnd() {
-
         Util.openEndActivity(this);
     }
 
-    private boolean UpdateDB() {
 
+    private boolean UpdateDB() {
         DatabaseHelper db = MainApp.appInfo.getDbHelper();
         long rowID = db.addChild(MainApp.child);
         if (rowID > 0) {
@@ -212,6 +212,7 @@ public class SectionI1Activity extends AppCompatActivity {
             return false;
         }
     }
+
 
     private void SaveDraft() throws JSONException {
 
@@ -415,7 +416,6 @@ public class SectionI1Activity extends AppCompatActivity {
 
     private boolean formValidation() {
         return Validator.emptyCheckingContainer(this, bi.fldGrpSectioni01);
-
     }
 
     @Override
