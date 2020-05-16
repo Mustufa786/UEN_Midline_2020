@@ -100,47 +100,41 @@ public class SectionLActivity extends AppCompatActivity {
 
         JSONObject json = new JSONObject();
 
-        json.put("l101",
-                bi.l101a.isChecked() ? "1" :
-                        bi.l101b.isChecked() ? "2" :
-                                "0");
+        json.put("l101", bi.l101a.isChecked() ? "1"
+                : bi.l101b.isChecked() ? "2"
+                : "0");
 
-        json.put("l102",
-                bi.l102a.isChecked() ? "1" :
-                        bi.l102b.isChecked() ? "2" :
-                                "0");
+        json.put("l102", bi.l102a.isChecked() ? "1"
+                : bi.l102b.isChecked() ? "2"
+                : "0");
 
-        json.put("l1022",
-                bi.l1022a.isChecked() ? "1" :
-                        bi.l1022b.isChecked() ? "191" :
-                                bi.l1022c.isChecked() ? "192" :
-                                        bi.l1022d.isChecked() ? "193" :
-                                                bi.l1022e.isChecked() ? "194" :
-                                                        bi.l1022f.isChecked() ? "195" :
-                                                                bi.l1022g.isChecked() ? "196" :
-                                                                        "0");
+        json.put("l102a", bi.l1022a.isChecked() ? "1"
+                : bi.l1022b.isChecked() ? "2"
+                : bi.l1022c.isChecked() ? "3"
+                : bi.l1022d.isChecked() ? "4"
+                : bi.l1022e.isChecked() ? "5"
+                : bi.l1022f.isChecked() ? "6"
+                : bi.l1022g.isChecked() ? "7"
+                : "0");
 
-        json.put("l103",
-                bi.l103a.isChecked() ? "1" :
-                        bi.l103b.isChecked() ? "2" :
-                                "0");
+        json.put("l103", bi.l103a.isChecked() ? "1"
+                : bi.l103b.isChecked() ? "2"
+                : "0");
 
-        json.put("l104",
-                bi.l104a.isChecked() ? "1" :
-                        bi.l104b.isChecked() ? "2" :
-                                bi.l104c.isChecked() ? "3" :
-                                        bi.l104d.isChecked() ? "4" :
-                                                bi.l104e.isChecked() ? "5" :
-                                                        bi.l10496.isChecked() ? "96" :
-                                                                "0");
+        json.put("l104", bi.l104a.isChecked() ? "1"
+                : bi.l104b.isChecked() ? "2"
+                : bi.l104c.isChecked() ? "3"
+                : bi.l104d.isChecked() ? "4"
+                : bi.l104e.isChecked() ? "5"
+                : bi.l10496.isChecked() ? "96"
+                : "0");
         json.put("l10496x", bi.l10496x.getText().toString());
 
-        json.put("l105",
-                bi.l105a.isChecked() ? "1" :
-                        bi.l105b.isChecked() ? "2" :
-                                bi.l105c.isChecked() ? "3" :
-                                        bi.l105d.isChecked() ? "4" :
-                                                "0");
+        json.put("l105", bi.l105a.isChecked() ? "1"
+                : bi.l105b.isChecked() ? "2"
+                : bi.l105c.isChecked() ? "3"
+                : bi.l105d.isChecked() ? "4"
+                : "0");
 
         json.put("l106",
                 bi.l106a.isChecked() ? "1" :

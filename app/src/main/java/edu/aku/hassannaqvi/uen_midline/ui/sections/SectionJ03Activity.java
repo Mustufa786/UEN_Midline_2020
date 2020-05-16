@@ -347,12 +347,12 @@ public class SectionJ03Activity extends AppCompatActivity {
         json.put("j123n", bi.j123n.isChecked() ? "14" : "0");
         json.put("j123o", bi.j123o.isChecked() ? "15" : "0");
         json.put("j123p", bi.j123p.isChecked() ? "16" : "0");
-        json.put("j123q", bi.j123q.isChecked() ? "191" : "0");
-        json.put("j123r", bi.j123r.isChecked() ? "192" : "0");
-        json.put("j123s", bi.j123s.isChecked() ? "193" : "0");
-        json.put("j123t", bi.j123t.isChecked() ? "194" : "0");
-        json.put("j123u", bi.j123u.isChecked() ? "195" : "0");
-        json.put("j123v", bi.j123v.isChecked() ? "196" : "0");
+        json.put("j123q", bi.j123q.isChecked() ? "17" : "0");
+        json.put("j123r", bi.j123r.isChecked() ? "18" : "0");
+        json.put("j123s", bi.j123s.isChecked() ? "19" : "0");
+        json.put("j123t", bi.j123t.isChecked() ? "20" : "0");
+        json.put("j123u", bi.j123u.isChecked() ? "21" : "0");
+        json.put("j123v", bi.j123v.isChecked() ? "22" : "0");
         json.put("j12398", bi.j12398.isChecked() ? "98" : "0");
         json.put("j12396", bi.j12396.isChecked() ? "96" : "0");
         json.put("j12396x", bi.j12396x.getText().toString());
