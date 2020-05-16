@@ -309,36 +309,6 @@
                             style="@style/radiogroup">
 
                             <RadioButton
-                                android:id="@+id/i106g"
-                                style="@style/radiobutton"
-                                android:text="@string/i106g" />
-
-                            <RadioButton
-                                android:id="@+id/i106h"
-                                style="@style/radiobutton"
-                                android:text="@string/i106h" />
-
-                            <RadioButton
-                                android:id="@+id/i106i"
-                                style="@style/radiobutton"
-                                android:text="@string/i106i" />
-
-                            <RadioButton
-                                android:id="@+id/i106j"
-                                style="@style/radiobutton"
-                                android:text="@string/i106j" />
-
-                            <RadioButton
-                                android:id="@+id/i106k"
-                                style="@style/radiobutton"
-                                android:text="@string/i106k" />
-
-                            <RadioButton
-                                android:id="@+id/i106l"
-                                style="@style/radiobutton"
-                                android:text="@string/i106l" />
-
-                            <RadioButton
                                 android:id="@+id/i106a"
                                 style="@style/radiobutton"
                                 android:text="@string/i106a" />
@@ -367,6 +337,36 @@
                                 android:id="@+id/i106f"
                                 style="@style/radiobutton"
                                 android:text="@string/i106f" />
+
+                            <RadioButton
+                                android:id="@+id/i106g"
+                                style="@style/radiobutton"
+                                android:text="@string/i106g" />
+
+                            <RadioButton
+                                android:id="@+id/i106h"
+                                style="@style/radiobutton"
+                                android:text="@string/i106h" />
+
+                            <RadioButton
+                                android:id="@+id/i106i"
+                                style="@style/radiobutton"
+                                android:text="@string/i106i" />
+
+                            <RadioButton
+                                android:id="@+id/i106j"
+                                style="@style/radiobutton"
+                                android:text="@string/i106j" />
+
+                            <RadioButton
+                                android:id="@+id/i106k"
+                                style="@style/radiobutton"
+                                android:text="@string/i106k" />
+
+                            <RadioButton
+                                android:id="@+id/i106l"
+                                style="@style/radiobutton"
+                                android:text="@string/i106l" />
 
                         </RadioGroup>
 
@@ -1391,7 +1391,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="vertical"
-                        android:tag="0">
+                        android:tag="0"
+                        android:visibility="gone">
 
                         <CheckBox
                             android:id="@+id/i1252d"

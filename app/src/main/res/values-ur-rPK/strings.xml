@@ -450,7 +450,7 @@
 
     <string name="f120"> F120:\t اوسطاً ، آپ نے فی مہینہ کتنا خرچ کیا؟ </string>
 
-    <string name="f121"> F121:\t کیا گزشتہ حمل کے دوران(ایل ایچ ڈبلیو) لیڈی ہیلتھ ورکرنے آپ کے گھر کا دورہ کیا تھا؟ </string>
+    <string name="f121"> F121:\t کیا گزشتہ حمل کے دوران (ایل ایچ ڈبلیو) لیڈی ہیلتھ ورک رنے آپ کے گھر کا دورہ کیا تھا ؟ </string>
     <string name="f121a"> ہاں </string>
     <string name="f121b"> نہیں </string>
 
@@ -2337,7 +2337,7 @@
     <string name="m105g"> کارٹن/پلاسٹک </string>
     <string name="m105h"> بانس اور مٹی سے بنی ہوئی </string>
     <string name="m105i"> پتھر اور مٹی </string>
-    <string name="m105j"> کچی اینٹوں سے بنی(بغیر لیپ) </string>
+    <string name="m105j"> کچی اینٹوں سے بنی (بغیر لیپ) </string>
     <string name="m105k"> لکڑی کی پلائی </string>
     <string name="m105l"> گّتہ </string>
     <string name="m105m"> استعمال شدہ لکڑی </string>

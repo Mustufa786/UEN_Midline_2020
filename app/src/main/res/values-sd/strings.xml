@@ -355,7 +355,7 @@
     <string name="f101al"> ڪرونا جي ڪري سماجي مفاصلو </string>
     <string name="f101am"> ڪرونا جي لاڪ ڊائون ڪري سواري نه ھئي </string>
     <string name="f101an"> گهر ۾ حفاظتي سامان(ماسڪ/داستانه) موجود نه ھئا </string>
-    <string name="f101ao"> ڊاڪٽر معياري طريقيڪار تي عمل نه ڪري رھيو ھو (ماسڪ/داستانه پھريل نه ھئا </string>
+    <string name="f101ao"> ڊاڪٽر معياري طريقيڪار تي عمل نه ڪري رھيو ھو (ماسڪ / داستانه پھريل نه ھئا </string>
 
     <string name="f101n"> نه </string>
     <string name="f101y"> ھا </string>
@@ -467,31 +467,28 @@
 
     <string name="f120"> F120:\t توھان (نالو) حمل جي دوران ھر مھيني طاقت جي دوا تي سراسري ڪيترو خرچ ڪندا ھئا ؟ </string>
 
-    <string name="f121"> F121:\t توھان جي گذريل حمل دوران ليڊي ھيلٿ ورڪر (ايل ايڇ ڊبليو) توھان جي گھر جو دورو ڪيو؟ </string>
+    <string name="f121"> F121:\t توھان جي گذريل حمل دوران ليڊي ھيلٿ ورڪر (ايل ايڇ ڊبليو) توھان جي گھر جو دورو ڪيو ؟ </string>
     <string name="f121a"> ھا </string>
     <string name="f121b"> نه </string>
 
-    <string name="f1211"> Did LHW visit your household during your last pregnancy in CORONA LOCKDOWN? Probe for Yes </string>
-    <string name="f1211a"> Yes </string>
-    <string name="f1211b"> No </string>
+    <string name="f1211"> F121a:\t توھان جي گذريل حمل دوران ليڊي ھيلٿ ورڪر (ايل ايڇ ڊبليو) ڪورونا جي لاڪ ڊائون ۾ توھان جي گھر جو دورو ڪيو ؟ </string>
+    <string name="f1211a"> ھا </string>
+    <string name="f1211b"> نه </string>
 
-    <string name="f1212"> ليڊي ھيلٿ ورڪر جي دوري نه ڪرڻ جو ڇا سبب ھو؟ </string>
+    <string name="f1212"> F121b:\t ليڊي ھيلٿ ورڪر جي دوري نه ڪرڻ جو ڇا سبب ھو ؟ </string>
     <string name="f1212a"> ليڊي ھيلٿ ورڪر اڪثر ڪري نه ايندي آھي </string>
     <string name="f1212b"> ڪرونا جي لاڪ ڊائون ڪري دورو نه ڪيو </string>
     <string name="f1212c"> ليڊي ھيلٿ ورڪر آئي پر اسان ڪرونا جي ڪري اچڻ نه ڏنو </string>
     <string name="f1212d"> ليڊي ھيلٿ ورڪر کي ماسڪ پاتل نه ھو </string>
-    <string name="f1212e"> ڪرونا جو خوف/ڊپ </string>
+    <string name="f1212e"> ڪرونا جو خوف / ڊپ </string>
     <string name="f1212f"> سماجي مفاصلو </string>
     <string name="f1212g"> حفاظتي سامان گهر ۾ موجود نه ھو </string>
 
-
-
-
     <string name="f122"> F122:\t توھان جي گذريل حمل جي دوران ليڊي ھيلٿ ورڪر (ايل ايڇ ڊبليو) ڪيترا دفعا توھان جي گھر جو دورو ڪيو؟</string>
 
-    <string name="f123"> توھان (نالو) حمل دوران ليڊي ھيلٿ ورڪر جي دوري (وزٽ) جو ڇا مقصد ھو؟ </string>
+    <string name="f123"> توھان (نالو) حمل دوران ليڊي ھيلٿ ورڪر جي دوري (وزٽ) جو ڇا مقصد ھو ؟ </string>
     <string name="f123a"> ڊليوري جي ممڪنه تاريخ بابت معلومات </string>
-    <string name="f123b"> صحت، غذائيت ۽ صفائي جي حوالي سان تعليم/مشورو </string>
+    <string name="f123b"> صحت، غذائيت ۽ صفائي جي حوالي سان تعليم / مشورو </string>
     <string name="f123c"> طبي معائني لاءِ صحت مرڪز موڪلڻ </string>
     <string name="f123d"> جھٽڪن جي بيماريءَ کان بچاءُ لاءِ ٽڪا لڳرائڻ </string>
     <string name="f123e"> ويم جي تياري لاءِ صلاح / مشورو </string>
@@ -499,8 +496,6 @@
     <string name="f123g"> حمل جي بابت خطرناڪ علامتن جي بابت معلومات ڏيڻ </string>
     <string name="f123h"> ڪرونا جي بيماري جي احتياطي اپائن بابت معلومات </string>
     <string name="f12396"> ٻيو ڪجھ وضاحت ڪريو </string>
-
-
 
     <string name="f124"> F124:\t نالو) حمل دوران، ڇا توھان کي خطرناڪ علامتن / پيچيدگين جي معلومات ڏني وئي؟)</string>
     <string name="f124a"> ھا </string>
@@ -524,7 +519,7 @@
     <string name="f126f"> دائي / ٽي بي اي </string>
     <string name="f126g"> ٽيليويزن/ريڊيو/اخبار </string>
 
-    <string name="f127"> F127:\t توھان کي صحت جي ڪارڪن ٻڌايو ته  (نالو) حمل جي پيچيدگين ٿيڻ  دوران ڪيڏانھن وڃڻ گھرجي؟</string>
+    <string name="f127"> F127:\t توھان کي صحت جي ڪارڪن ٻڌايو ته  (نالو) حمل جي پيچيدگين ٿيڻ  دوران ڪيڏانھن وڃڻ گھرجي؟ </string>
     <string name="f127a"> سرڪاري صحت مرڪز </string>
     <string name="f127b"> پرائيويٽ صحت مرڪز </string>
     <string name="f127c">  صحت مرڪز  (NGO)اين جي او </string>
@@ -537,40 +532,43 @@
     <string name="f128e"> ٻار جي چر پر گھٽ ٿي وڃڻ</string>
     <string name="f128f"> (پيٽ ۾ سور (37 ھفتن کان گھٽ</string>
     <string name="f128g"> نه، مون کي ڪا نه پيچيدگي نه ٿي</string>
-    <string name="f129"> F129:\t ڇا توھان مٿي ٻڌايل خطرناڪ علامتن/ پيچيدگين جو علاج ڪرايو؟</string>
+    <string name="f129"> F129:\t ڇا توھان مٿي ٻڌايل خطرناڪ علامتن / پيچيدگين جو علاج ڪرايو؟</string>
     <string name="f129a"> ھا</string>
     <string name="f129b"> نه</string>
 
-    <string name="f130"> Why did you not seek care from a health care provider for the danger signs/problems mentioned above during your pregnancy with {NAME}? </string>
-    <string name="f130a"> No transportation </string>
-    <string name="f130b"> Poor attitude of staff </string>
-    <string name="f130c"> Facility not functional </string>
-    <string name="f130d"> Too far </string>
-    <string name="f130e"> A male/husband was not present to accompany me to the health facility </string>
-    <string name="f130f"> Poor quality of service </string>
-    <string name="f130g"> No female provider at facility </string>
-    <string name="f130h"> Not necessary </string>
-    <string name="f130i"> High Cost </string>
-    <string name="f130j"> Facility closed due to Corona </string>
-    <string name="f130k"> Fear to contact with Corona </string>
-    <string name="f130l"> Social distancing </string>
-    <string name="f130m"> No transport due to Lock down Corona </string>
-    <string name="f130n"> PPE not available at home </string>
-    <string name="f130o"> Provider’s not following SOPS (Not wearing gloves and masks) </string>
+    <string name="f130"> F130:\t توھان (نالو) حمل دوران مٿي ٻڌايل خطرناڪ علامتن / پيچيدگين جو عالج ڇو نه ڪرايو ؟ </string>
+    <string name="f130a"> سواري نه ھئي </string>
+    <string name="f130b"> عملي جو غير مناسب رويو </string>
+    <string name="f130c"> صحت مرڪز ڪارآمد صورت ۾ نه ھو </string>
+    <string name="f130d"> صحت مرڪز تمام پري آھي </string>
+    <string name="f130e"> ڪو مرد صحت مرڪز ڏانھن گڏ وڃڻ الِء موجود نه ھو </string>
+    <string name="f130f"> غير معياري خدمتون </string>
+    <string name="f130g"> صحت مرڪز تي عورت ڪارڪن موجود نه ھئي </string>
+    <string name="f130h"> ضروري نه ھو </string>
+    <string name="f130i"> تمام مھانگو </string>
+    <string name="f130j"> ڪرونا جي ڪري اسپتال بند ھئي </string>
+    <string name="f130k"> ڪرونا جو خوف / ڊپ  </string>
+    <string name="f130l"> ڪرونا جي ڪري سماجي مفاصلو </string>
+    <string name="f130m"> ڪرونا جي الڪ ڊائون ڪري سواري نه ھئي </string>
+    <string name="f130n"> گهر ۾ حفاظتي سامان ) ماسڪ / داستانه ( موجود نه ھئا </string>
+    <string name="f130o"> ڊاڪٽر معياري طريقيڪار تي عمل نه ڪري رھيو ھو ) ماسڪ / داستانه پاتل نه ھئا ( </string>
 
 
-    <string name="f131"> F131:\t توھان (نالو) حمل دوران مٿي ٻڌايل خطرناڪ علامتن/پيچيدگين جو علاج ڪٿان ڪرايو؟</string>
+    <string name="f131"> F131:\t توھان (نالو) حمل دوران مٿي ٻڌايل خطرناڪ علامتن / پيچيدگين جو علاج ڪٿان ڪرايو ؟ </string>
     <string name="f131a"> سرڪاري صحت مرڪز </string>
     <string name="f131b"> پرائيويٽ صحت مرڪز </string>
-    <string name="f131c">   صحت مرڪز (NGO) اين جي و </string>
+    <string name="f131c"> صحت مرڪز (NGO) اين جي و </string>
+
     <string name="f132"> F132:\t نالو) حمل دوران توھان پنھنجي کاڌ خوراڪ جي درجه بندي ڪئين ڪندا؟)</string>
     <string name="f132a"> معمول کان وڌيڪ </string>
-    <string name="f132b"> معمول کان گھٽ</string>
-    <string name="f132c"> ساڳي رھي</string>
+    <string name="f132b"> معمول کان گھٽ </string>
+    <string name="f132c"> ساڳي رھي </string>
+
     <string name="f133"> F133:\t توھان جي (نالو) حمل دوران گھر ۾ ڪم ڪار جي درجه بند ڪئين ڪندا؟</string>
     <string name="f133a"> معمول کان وڌيڪ </string>
-    <string name="f133b"> معمول کان گھٽ</string>
-    <string name="f133c"> ساڳي رھي</string>
+    <string name="f133b"> معمول کان گھٽ </string>
+    <string name="f133c"> ساڳي رھي </string>
+
     <string name="f134"> F134:\t توھان (نالو) جي پيدائش لاءِ ڪھڙا اُپاءَ ورتا / تياريون ڪيون؟  جواب پڙھي ٻڌايو (ھڪ کان وڌيڪ جواب ٿي سگھن ٿا)</string>
     <string name="f134a"> ڊليوري ڪرائيندڙ جي چونڊ </string>
     <string name="f134b"> ڪنھن پيچيدگيءَ جي صورت ۾ صحت مرڪز جي چونڊ</string>
@@ -578,7 +576,7 @@
     <string name="f134d"> وقت کان اڳ ۾ گاڏي جو بندوبست </string>
     <string name="f134e"> ڊليوري ڪٽ جو بندوبست </string>
     <string name="f134f"> رت ڏيڻ واري جو بندوبست </string>
-    <string name="f134g"> ڪا به تياري نه ڪئي</string>
+    <string name="f134g"> ڪا به تياري نه ڪئي </string>
     <string name="f134h"> ڪرونا جي ڪري تياري نه ڪئي </string>
 
     <string name="tgheading"> SECTION G: DELIVERY PREPAREDNESS AND EXPERIENCE </string>
@@ -606,11 +604,11 @@
     <string name="g103h"> ضروري نه ھو </string>
     <string name="g103i"> تمام مھانگو </string>
     <string name="g103j"> ڪرونا جي ڪري اسپتال بند ھئي </string>
-    <string name="g103k"> ڪرونا جو خوف/ڊپ </string>
+    <string name="g103k"> ڪرونا جو خوف / ڊپ </string>
     <string name="g103l"> ڪرونا جي ڪري سماجي مفاصلو </string>
     <string name="g103m"> ڪرونا جي لاڪ ڊائون ڪري سواري نه ھئي </string>
-    <string name="g103n"> گهر ۾ حفاظتي سامان(ماسڪ/داستانه) موجود نه ھئا </string>
-    <string name="g103o"> ڊاڪٽر معياري طريقيڪار تي عمل نه ڪري رھيو ھو (ماسڪ/داستانه پھريل نه ھئا </string>
+    <string name="g103n"> گهر ۾ حفاظتي سامان (ماسڪ/داستانه) موجود نه ھئا </string>
+    <string name="g103o"> ڊاڪٽر معياري طريقيڪار تي عمل نه ڪري رھيو ھو (ماسڪ / داستانه) پھريل نه ھئا </string>
 
 
     <string name="g104"> G104:\t نالو) ڊليوري ڪنھن ڪئي؟)</string>
@@ -622,28 +620,36 @@
     <string name="g104f"> مڊوائف </string>
 
     <string name="g105"> G105:\t جتي (نالو) ڊليوري ٿي اھا جڳھ توھان جي گھر کان ڪيترو پري آھي؟</string>
+
     <string name="g106"> G106:\t نالو) جنھن جاءِ تي ڊليوري ٿي ھوڏانھن وڃڻ لاءِ توھان ڪھڙي سواري استعمال ڪئي؟)</string>
-    <string name="g106a"> ڪار</string>
-    <string name="g106b"> موٽرسائيڪل</string>
-    <string name="g106c"> عوامي سواري / بس / رڪشا  </string>
-    <string name="g106d"> پنڌ</string>
+    <string name="g106a"> ڪار </string>
+    <string name="g106b"> موٽرسائيڪل </string>
+    <string name="g106c"> عوامي سواري / بس / رڪشا </string>
+    <string name="g106d"> پنڌ </string>
+
     <string name="g107"> G107:\t جتي (نالو) ڊليوري ٿي اتي توھان کي پھچڻ ۾ ڪيترو وقت لڳو؟</string>
+
     <string name="g108"> G108:\t ڇا توھان جو مڙس توھان جي ڊليوري جي وقت موجود ھو؟</string>
-    <string name="g108a"> ھا</string>
-    <string name="g108b"> نه</string>
+    <string name="g108a"> ھا </string>
+    <string name="g108b"> نه </string>
+
     <string name="g109"> G109:\t ڊليوري ڪئين ٿي ھئي؟</string>
-    <string name="g109a"> نارمل</string>
-    <string name="g109b"> وڏو آپريشن</string>
-    <string name="g109c"> (ويڪيوم (ننڍو آپريشن</string>
-    <string name="g109d"> (فارسيپس  (ننڍو آپريشن</string>
+    <string name="g109a"> نارمل </string>
+    <string name="g109b"> وڏو آپريشن </string>
+    <string name="g109c"> (ويڪيوم (ننڍو آپريشن </string>
+    <string name="g109d"> (فارسيپس  (ننڍو آپريشن </string>
+
     <string name="g110"> G110:\t جنھن ماڻھو ڊليوري ڪرائي، ڇا ان ڪلين ڊليوري ڪٽ استعمال ڪئي؟</string>
     <string name="g110a"> ھا</string>
     <string name="g110b"> نه</string>
     <string name="g110c"> خبر نه آھي</string>
+
     <string name="g111"> G111:\t ڇا توھان ڪلين ڊليوري ڪٽ لاءِ پئسا ڏنا؟</string>
     <string name="g111a"> ھا</string>
     <string name="g111b"> نه</string>
+
     <string name="g112"> G112:\t توھان ڊليوري ڪٽ لاءِ ڪيترا پئسا ڏنا؟</string>
+
     <string name="g113"> G113:\t ڇا (نالو) حمل جي دوران توھان کي ڪا دوا مائسوپروسٽول ڏني وئي جيڪا ڊليوري کان پوءِ رت جي وھڻ يا گھٽ ڪرڻ کان بچاءُ ڪندي آھي؟</string>
     <string name="g113a"> ھا</string>
     <string name="g113b"> نه </string>
@@ -721,33 +727,37 @@
     <string name="g124k"> بلڊ پريشر </string>
     <string name="g124l"> سڄي جسم تي سوڄ </string>
     <string name="g124m"> شديد الٽي يا آت اچڻ</string>
-    <string name="g125"> G125:\t نالو) ڇا ڊليوري جي وقت ليڊي ھيلٿ ورڪر موجود ھئي؟)</string>
-    <string name="g125a"> ھا</string>
-    <string name="g125b"> نه</string>
 
-    <string name="g1251"> ليڊي ھيلٿ ورڪر اڪثر ڪري نه ايندي آھي </string>
-    <string name="g1251a"> ڪرونا جي لاڪ ڊائون ڪري دورو نه ڪيو </string>
-    <string name="g1251b"> ليڊي ھيلٿ ورڪر آئي پر اسان ڪرونا جي ڪري اچڻ نه ڏنو </string>
-    <string name="g1251c"> ليڊي ھيلٿ ورڪر کي ماسڪ پاتل نه ھو </string>
-    <string name="g1251d"> ڪرونا جو خوف/ڊپ </string>
-    <string name="g1251e"> سماجي مفاصلو </string>
-    <string name="g1251f"> حفاظتي سامان گهر ۾ موجود نه ھو </string>
-    <string name="g1251g"> PPE not available at home </string>
+    <string name="g125"> G125:\t نالو) ڇا ڊليوري جي وقت ليڊي ھيلٿ ورڪر موجود ھئي ؟)</string>
+    <string name="g125a"> ھا </string>
+    <string name="g125b"> نه </string>
+
+    <string name="g1251"> G125a:\t ليڊي ھيلٿ ورڪر جي دوري نه ڪرڻ جو ڇا سبب ھو ؟ </string>
+    <string name="g1251a"> ليڊي ھيلٿ ورڪر اڪثر ڪري نه ايندي آھي ؟ </string>
+    <string name="g1251b"> ڪرونا جي لاڪ ڊائون ڪري دورو نه ڪيو </string>
+    <string name="g1251c"> ليڊي ھيلٿ ورڪر آئي پر اسان ڪرونا جي ڪري اچڻ نه ڏنو </string>
+    <string name="g1251d"> ليڊي ھيلٿ ورڪر کي ماسڪ پاتل نه ھو </string>
+    <string name="g1251e"> ڪرونا جو خوف / ڊپ </string>
+    <string name="g1251f"> سماجي مفاصلو </string>
+    <string name="g1251g"> حفاظتي سامان گهر ۾ موجود نه ھو </string>
 
 
-    <string name="g126"> G126:\t ڇا ليڊي ھيلٿ ورڪر توھان کي ڪلين ڊليوري ڪٽ مھيا ڪئي؟</string>
-    <string name="g126a"> ھا</string>
-    <string name="g126b"> نه</string>
+    <string name="g126"> G126:\t ڇا ليڊي ھيلٿ ورڪر توھان کي ڪلين ڊليوري ڪٽ مھيا ڪئي ؟</string>
+    <string name="g126a"> ھا </string>
+    <string name="g126b"> نه </string>
     <string name="g126c"> لاڳو نٿو ٿئي </string>
-    <string name="g127"> G127:\t ڇا ليڊي ھيلٿ ورڪر توھان کي ڪلين ڊليوري ڪٽ جي استعمال جي باري ۾ ٻڌايو؟</string>
+
+    <string name="g127"> G127:\t ڇا ليڊي ھيلٿ ورڪر توھان کي ڪلين ڊليوري ڪٽ جي استعمال جي باري ۾ ٻڌايو ؟</string>
     <string name="g127a"> ھا </string>
-    <string name="g127b"> نه</string>
-    <string name="g128"> G128:\t ڇا ليڊي ھيلٿ ورڪر توھان کي پوسٽ پارٽم (ڊليوري کانپوءِ شديد رت جو اچڻ) جي باري ۾ ٻڌايو؟</string>
-    <string name="g128a"> ھا</string>
-    <string name="g128b"> نه</string>
-    <string name="g129"> G129:\t ڇا ليڊي ھيلٿ ورڪر توھان کي ڊليوري کانپوءِ طبي چڪاس لاءِ صحت مرڪز وڃڻ جو مشورو ڏنو؟</string>
-    <string name="g129a"> ھا</string>
-    <string name="g129b"> نه</string>
+    <string name="g127b"> نه </string>
+
+    <string name="g128"> G128:\t ڇا ليڊي ھيلٿ ورڪر توھان کي پوسٽ پارٽم (ڊليوري کانپوءِ شديد رت جو اچڻ) جي باري ۾ ٻڌايو ؟</string>
+    <string name="g128a"> ھا </string>
+    <string name="g128b"> نه </string>
+
+    <string name="g129"> G129:\t ڇا ليڊي ھيلٿ ورڪر توھان کي ڊليوري کانپوءِ طبي چڪاس لاءِ صحت مرڪز وڃڻ جو مشورو ڏنو ؟</string>
+    <string name="g129a"> ھا </string>
+    <string name="g129b"> نه </string>
 
 
     <!--  SECTION - H  -->
@@ -936,45 +946,45 @@
     <string name="h130a"> ھا </string>
     <string name="h130b"> نه </string>
 
-    <string name="h131"> H131:\t نالو) کي ڇا توھان ٽڪا لڳرايا؟)</string>
-    <string name="h131a"> ھا</string>
-    <string name="h131b"> نه</string>
+    <string name="h131"> H131:\t نالو) کي ڇا توھان ٽڪا لڳرايا ؟) </string>
+    <string name="h131a"> ھا </string>
+    <string name="h131b"> نه </string>
 
-    <string name="h1311"> (نالو) کي ٽڪا نه لڳرائڻ جو سبب ڇا ھو؟ </string>
+    <string name="h1311"> H131a:\t (نالو) کي ٽڪا نه لڳرائڻ جو سبب ڇا ھو ؟ </string>
     <string name="h1311a"> اھيو ضروري نه آھي </string>
     <string name="h1311b"> ڪرونا جي ڪري اسپتال بند ھئي </string>
-    <string name="h1311c"> ڪرونا جو خوف/ڊپ </string>
+    <string name="h1311c"> ڪرونا جو خوف / ڊپ </string>
     <string name="h1311d"> ڪرونا جي ڪري سماجي مفاصلو </string>
     <string name="h1311e"> ڪرونا جي لاڪ ڊائون ڪري سواري نه ھئي </string>
-    <string name="h1311f"> گهر ۾ حفاظتي سامان(ماسڪ/داستانه) موجود نه ھئا </string>
-    <string name="h1311g"> ڊاڪٽر معياري طريقيڪار تي عمل نه ڪري رھيو ھو (ماسڪ/داستانه پھريل نه ھئا </string>
+    <string name="h1311f"> گهر ۾ حفاظتي سامان (ماسڪ / داستانه) موجود نه ھئا </string>
+    <string name="h1311g"> ڊاڪٽر معياري طريقيڪار تي عمل نه ڪري رھيو ھو (ماسڪ / داستانه پھريل نه ھئا </string>
 
 
-    <string name="h132"> H132:\t ڇا گورنمينٽ جي طرفان ليڊي ھيلٿ ورڪر (نالو) جي پيدائش کان پوءِ توھان جي گھر جو دورو ڪيو؟</string>
-    <string name="h132a"> ھا</string>
-    <string name="h132b"> نه</string>
+    <string name="h132"> H132:\t ڇا گورنمينٽ جي طرفان ليڊي ھيلٿ ورڪر (نالو) جي پيدائش کان پوءِ توھان جي گھر جو دورو ڪيو ؟ </string>
+    <string name="h132a"> ھا </string>
+    <string name="h132b"> نه </string>
     <string name="h132c"> ڊليوري ڪنھن بي علائقي ۾ ٿي </string>
 
-    <string name="h1321"> لیڈی ہیلتھ ورکر کا وزٹ نہیں کرنے کا سبب کیا تھا؟ </string>
-    <string name="h1321a"> ایل ایچھ ڈبلیو اکثر کرکے نہیں آتی </string>
-    <string name="h1321b"> ایل ایچھ ڈبلیوکرونا کی وجہ سےوزٹ نہیں کرسکی </string>
-    <string name="h1321c"> ایل ایچھ ڈبلیوآئی مگر ہم نے گھر میں آنے نہیں دیا </string>
-    <string name="h1321d"> ایل ایچھ ڈبلیونے ماسک نہیں پہنا ہوا تھا </string>
-    <string name="h1321e"> کرونا کا ڈریا خوف </string>
-    <string name="h1321f"> سماجی مفاصلا </string>
-    <string name="h1321g"> حفاظتی سامان گھر پر موجود نہیں تھا </string>
+    <string name="h1321"> H132a:\t ليڊي ھيلٿ ورڪر جي دوري نه ڪرڻ جو ڇا سبب ھو ؟ </string>
+    <string name="h1321a"> ليڊي ھيلٿ ورڪر اڪثر ڪري نه ايندي آھي </string>
+    <string name="h1321b"> ڪرونا جي الڪ ڊائون ڪري دورو نه ڪيو </string>
+    <string name="h1321c"> ليڊي ھيلٿ ورڪر آئي پر اسان ڪرونا جي ڪري اچڻ نه ڏنو </string>
+    <string name="h1321d"> ليڊي ھيلٿ ورڪر کي ماسڪ پاتل نه ھو </string>
+    <string name="h1321e"> ڪرونا جو خوف / ڊپ </string>
+    <string name="h1321f"> سماجي مفاصلو </string>
+    <string name="h1321g"> حفاظتي سامان گهر ۾ موجود نه ھو </string>
 
 
 
     <string name="h133"> H133:\t ليڊي ھيلٿ ورڪر جي دوري ڪرڻ جو مقصد ڇا ھو ؟ </string>
     <string name="h133a"> وزن/ قد جي ناپ </string>
-    <string name="h133b"> (چڪاس (درجه حرارت، ساھ جي رفتار ڳڻڻ، سي ايم</string>
-    <string name="h133c"> صحت، غذائيت، صاف سٿرائي جي باري ۾ مشاورت</string>
-    <string name="h133d"> صحت مرڪز ڏانھن معائنو ڪرائڻ لاءِ موڪلڻ</string>
-    <string name="h133e"> ٽڪا لڳائڻ</string>
-    <string name="h133f"> پوليو جا ڦڙا پيارڻ</string>
-    <string name="h133g"> ماءُ جي کير پيارڻ ۾ مدد ڪرڻ</string>
-    <string name="h133h"> ماءُ کي نئين ڄاول ٻار جي خطرناڪ علامتن جي باري ۾ ٻڌائڻ</string>
+    <string name="h133b"> چڪاس )درجه حرارت، ساھ جي رفتار ڳڻڻ، سي ايم( </string>
+    <string name="h133c"> صحت، غذائيت، صاف سٿرائي جي باري ۾ مشاورت </string>
+    <string name="h133d"> صحت مرڪز ڏانھن معائنو ڪرائڻ لاءِ موڪلڻ </string>
+    <string name="h133e"> ٽڪا لڳائڻ </string>
+    <string name="h133f"> پوليو جا ڦڙا پيارڻ </string>
+    <string name="h133g"> ماءُ جي کير پيارڻ ۾ مدد ڪرڻ </string>
+    <string name="h133h"> ماءُ کي نئين ڄاول ٻار جي خطرناڪ علامتن جي باري ۾ ٻڌائڻ </string>
     <string name="h133i"> ڪرونا جي بيماري جي احتياطي اپائن جي بابت معلومات </string>
 
 
@@ -1002,28 +1012,28 @@
     <string name="h136e"> (ايل ايڇ ڊبليو (ليڊي ھيلٿ ورڪر </string>
     <string name="h136f"> دائي / ٽي بي اي </string>
 
-    <string name="h137"> H137:\t (ڇا نئين ڄاول ٻار کي (بي سي جي)  جي ويڪسين لڳائي وئي؟ (جيڪا اڪثر ڪري ٻانھن تي نشان ڇڏيندي آھي </string>
+    <string name="h137"> H137:\t (ڇا نئين ڄاول ٻار کي (بي سي جي)  جي ويڪسين لڳائي وئي ؟ (جيڪا اڪثر ڪري ٻانھن تي نشان ڇڏيندي آھي </string>
     <string name="h137a"> ھا </string>
     <string name="h137b"> نه </string>
 
-    <string name="h1371"> (نالو) کي ٽڪو نه لڳرائڻ جو سبب ڇا ھو؟ </string>
+    <string name="h1371"> H137a:\t (نالو) کي ٽڪو نه لڳرائڻ جو سبب ڇا ھو ؟ </string>
     <string name="h1371a"> اھيو ضروري نه آھي </string>
     <string name="h1371b"> ڪرونا جي ڪري اسپتال بند ھئي </string>
-    <string name="h1371c"> ڪرونا جو خوف/ڊپ </string>
+    <string name="h1371c"> ڪرونا جو خوف / ڊپ </string>
     <string name="h1371d"> ڪرونا جي ڪري سماجي مفاصلو </string>
     <string name="h1371e"> ڪرونا جي لاڪ ڊائون ڪري سواري نه ھئي </string>
-    <string name="h1371f"> گهر ۾ حفاظتي سامان(ماسڪ/داستانه) موجود نه ھئا </string>
-    <string name="h1371g"> ڊاڪٽر معياري طريقيڪار تي عمل نه ڪري رھيو ھو (ماسڪ/داستانه پھريل نه ھئا </string>
+    <string name="h1371f"> گهر ۾ حفاظتي سامان (ماسڪ / داستانه) موجود نه ھئا </string>
+    <string name="h1371g"> ڊاڪٽر معياري طريقيڪار تي عمل نه ڪري رھيو ھو (ماسڪ / داستانه پھريل نه ھئا </string>
 
 
-    <string name="h137aa"> H137aa:\t نئين ڄاول ٻار کي (بي سي جي) جي ويڪسين ڪٿان لڳرائي وئي ؟ </string>
+    <string name="h137aa"> H137b:\t نئين ڄاول ٻار کي (بي سي جي) جي ويڪسين ڪٿان لڳرائي وئي ؟ </string>
     <string name="h137aaa"> سرڪاري صحت مرڪز</string>
     <string name="h137aab"> پرائيويٽ صحت مرڪز</string>
     <string name="h137aac"> ٽڪن وارو مرڪز </string>
     <string name="h137aad"> ماءُ ۽ ٻار جو صحت مرڪز</string>
     <string name="h137aae"> اين جي او صحت مرڪز</string>
 
-    <string name="h137bb"> H137bb:\t نالو) کي حفاظتي ٽڪا ڪنهن لڳايا ؟)</string>
+    <string name="h137bb"> H137c:\t نالو) کي حفاظتي ٽڪا ڪنهن لڳايا ؟)</string>
     <string name="h137bba"> ڊاڪٽر</string>
     <string name="h137bbb"> (ايل ايڇ ڊبليو (ليڊي ھيلٿ ورڪر</string>
     <string name="h137bbc"> (ايل ايڇ وي (ليڊي ھيلٿ وزيٽر</string>
@@ -1045,6 +1055,7 @@
     <string name="h202c"> No, lockdown due to COVID</string>
 
     <string name="h203"> H203:\t ڊليوري کان پوءِ ڪيتري دير بعد توھان جو پھريون دفعو طبي معائنو ڪيو ويو؟</string>
+
     <string name="h204"> H204:\t ڊليوري کان پوءِ توھان پھريون طبي معائنو ڪٿان ڪرايو؟</string>
     <string name="h204a"> سرڪاري صحت مرڪز </string>
     <string name="h204b"> پرائيويٽ صحت مرڪز </string>
@@ -1057,9 +1068,11 @@
     <string name="h205c"> نرس</string>
     <string name="h205d"> (سي ايم ڊبليو (ڪميونٽي مڊوائف</string>
     <string name="h205e"> دائي / ٽي بي اي </string>
+
     <string name="h206"> H206:\t ڇا توھان کي ڊليوري کان پوءِ ٿيندڙ خطرناڪ علامتن/پيچيدگين جي معلومات آھي؟</string>
     <string name="h206a"> ھا </string>
     <string name="h206b"> نه</string>
+
     <string name="h207"> H207:\t اھي ڪھڙيون خطرناڪ علامتون / پيچيدگيون آھن جن جو ڊليوري ٿيڻ کان پوءِ خيال رکڻ گھرجي؟  (ھڪ کان وڌيڪ جواب ٿي سگھن ٿا)</string>
     <string name="h207a"> (تيز بخار، پيٽ جو سور يا بدبودار مواد خارج ٿيڻ (زخم</string>
     <string name="h207b"> شديد مٿي جو سور، ڌنڌلي نظر، بلڊ پريشر</string>
@@ -1070,6 +1083,7 @@
     <string name="h207g"> بيچيني يا ذھني دٻاءُ</string>
     <string name="h207h"> (ٿڃ جو مسئلو (زخم، رت وھڻ، ابتيون نپل</string>
     <string name="h207i"> خبر نه آھي </string>
+
     <string name="h208"> H208:\t ڊليوري کان پوءِ جي خطرناڪ علامتن بابت توھان کي ڪنھن ٻڌايو؟</string>
     <string name="h208a"> ڊاڪٽر</string>
     <string name="h208b"> (ايل ايڇ وي (ليڊي ھيلٿ وزيٽر</string>
@@ -1077,16 +1091,17 @@
     <string name="h208d"> (سي ايم ڊبليو (ڪميونٽي مڊوائف</string>
     <string name="h208e"> ( ايڇ ڊبليو (ليڊي ھيلٿ ورڪر</string>
     <string name="h208f"> دائي / ٽي بي اي </string>
-    <string name="h209"> H209:\t ڇا ليڊي ھيلٿ ورڪر توھان جي ڊليوري کان پوءِ توھان جي گھر جو دورو ڪيو؟</string>
-    <string name="h209a"> ھا</string>
-    <string name="h209b"> نه</string>
 
-    <string name="h2091"> ليڊي ھيلٿ ورڪر جي دوري نه ڪرڻ جو ڇا سبب ھو؟ </string>
+    <string name="h209"> H209:\t ڇا ليڊي ھيلٿ ورڪر توھان جي ڊليوري کان پوءِ توھان جي گھر جو دورو ڪيو ؟ </string>
+    <string name="h209a"> ھا </string>
+    <string name="h209b"> نه </string>
+
+    <string name="h2091"> H209a:\t ليڊي ھيلٿ ورڪر جي دوري نه ڪرڻ جو ڇا سبب ھو ؟ </string>
     <string name="h2091a"> ليڊي ھيلٿ ورڪر اڪثر ڪري نه ايندي آھي </string>
     <string name="h2091b"> ڪرونا جي لاڪ ڊائون ڪري دورو نه ڪيو </string>
     <string name="h2091c"> ليڊي ھيلٿ ورڪر آئي پر اسان ڪرونا جي ڪري اچڻ نه ڏنو </string>
     <string name="h2091d"> ليڊي ھيلٿ ورڪر کي ماسڪ پاتل نه ھو </string>
-    <string name="h2091e"> ڪرونا جو خوف/ڊپ </string>
+    <string name="h2091e"> ڪرونا جو خوف / ڊپ </string>
     <string name="h2091f"> سماجي مفاصلو </string>
     <string name="h2091g"> حفاظتي سامان گهر ۾ موجود نه ھو </string>
 
@@ -1096,48 +1111,52 @@
     <string name="h210b"> ھڪ ھفتي جي اندر </string>
     <string name="h210c"> ھڪ مھيني جي اندر </string>
     <string name="h210d"> خبر نه آھي </string>
+
     <string name="h211"> H211:\t ليڊي ھيلٿ ورڪر جي دوري جو مقصد ڇا ھو؟ جڏھن ھوءَ توھان جي گهر آئي ھئي؟</string>
-    <string name="h211a"> طبي معائنو</string>
-    <string name="h211b"> رت جي ڪميءَ جي چڪاس</string>
-    <string name="h211c"> شرم گاھ مان رت جو اچڻ</string>
-    <string name="h211d"> ڇاتي جو مسئلو</string>
-    <string name="h211e"> بدبودار مواد خارج ٿيڻ</string>
-    <string name="h211f"> صحت، غذائيت، صاف سٿرائي تي مشاورت</string>
-    <string name="h211g"> طبي معائني لاءِ صحت مرڪز موڪلڻ</string>
-    <string name="h211h"> ٻار جي غذا ۽ ماءُ جي کير پيارڻ بابت مشاورت</string>
-    <string name="h211i"> خانداني منصوبه بندي بابت صلاح مشورو</string>
+    <string name="h211a"> طبي معائنو </string>
+    <string name="h211b"> رت جي ڪميءَ جي چڪاس </string>
+    <string name="h211c"> شرم گاھ مان رت جو اچڻ </string>
+    <string name="h211d"> ڇاتي جو مسئلو </string>
+    <string name="h211e"> بدبودار مواد خارج ٿيڻ </string>
+    <string name="h211f"> صحت، غذائيت، صاف سٿرائي تي مشاورت </string>
+    <string name="h211g"> طبي معائني لاءِ صحت مرڪز موڪلڻ </string>
+    <string name="h211h"> ٻار جي غذا ۽ ماءُ جي کير پيارڻ بابت مشاورت </string>
+    <string name="h211i"> خانداني منصوبه بندي بابت صلاح مشورو </string>
     <string name="h211j"> ڪرونا جي بيماري جي احتياطي اپائن بابت معلومات </string>
 
     <string name="h212"> H212:\t ليڊي ھيلٿ ورڪر دوري دوران  توھان جي گھر ۾ ڪيترو وقت گذاريندي آھي؟</string>
+
     <string name="h213"> H213:\t توھان ليڊي ھيلٿ ورڪر جي طريقي ڪار ۽ ڪم مان ڪيترو مطمئن آھيو؟</string>
     <string name="h213a"> تمام گھڻو مطئمن </string>
-    <string name="h213b"> مطئمن</string>
-    <string name="h213c"> غير مطئمن</string>
-    <string name="h214"> H214:\t ڇا توھان کي ليڊي ھيلٿ ورڪر جي طرفان ٿيندڙ عورتن جي گڏجاڻين گروپ بابت خبر آھي جيڪي اڪثر ڪري گڏ ٿي عورتن ۽ ٻارن جي صحت جي مسئلن حوالي سان ڳالھ ٻولھ ڪندي آھي؟</string>
+    <string name="h213b"> مطئمن </string>
+    <string name="h213c"> غير مطئمن </string>
+
+    <string name="h214"> H214:\t ڇا توھان کي ليڊي ھيلٿ ورڪر جي طرفان ٿيندڙ عورتن جي گڏجاڻين گروپ بابت خبر آھي جيڪي اڪثر ڪري گڏ ٿي عورتن ۽ ٻارن جي صحت جي مسئلن حوالي سان ڳالھ ٻولھ ڪندي آھي ؟</string>
     <string name="h214a"> ھا، خبر آھي </string>
     <string name="h214b"> نه، خبر نه آھي </string>
     <string name="h214c"> ھا، شموليت ڪئي آھي </string>
     <string name="h214d"> ڪڏھن به شموليت نه ڪئي آھي </string>
-    <string name="h214e"> ڪرونا جي ڪري مٽينگ/گڏجاڻي نه ٿي سگهي </string>
-    <string name="h215"> H215:\t ڇا توھان جي علائقي ۾ ماڻھن جو سھڪار ڪرڻ لاءِ ڪا حڪمت عملي ٺھيل آھي جيڪا عورتن ۽ ٻارن جي صحت جو خرچ برداشت نه ٿا ڪري سگھن انھن لاءِ ڪھڙو طريقيڪار آھي؟</string>
-    <string name="h215a"> اين جي او</string>
-    <string name="h215b"> ڳوٺاڻي سطح تي فنڊ</string>
-    <string name="h215c"> (چندو (علائقائي</string>
-    <string name="h215d"> (چندو (ٻاھريان</string>
+    <string name="h214e"> ڪرونا جي ڪري مٽينگ / گڏجاڻي نه ٿي سگهي </string>
+
+    <string name="h215"> H215:\t ڇا توھان جي علائقي ۾ ماڻھن جو سھڪار ڪرڻ لاءِ ڪا حڪمت عملي ٺھيل آھي جيڪا عورتن ۽ ٻارن جي صحت جو خرچ برداشت نه ٿا ڪري سگھن انھن لاءِ ڪھڙو طريقيڪار آھي ؟</string>
+    <string name="h215a"> اين جي او </string>
+    <string name="h215b"> ڳوٺاڻي سطح تي فنڊ </string>
+    <string name="h215c"> (چندو (علائقائي </string>
+    <string name="h215d"> (چندو (ٻاھريان </string>
     <string name="h215e"> صحت جي سارسنڀال لاءِ علائقي جو ڪو به سھڪار نه آھي </string>
-    <string name="h216"> H216:\t ڇا توھان جي گھر جي مرد فرد ڪڏھن به ڳوٺاڻي صحت ڪاميٽي جي گڏجاڻي ۾ شموليت ڪئي؟</string>
+
+    <string name="h216"> H216:\t ڇا توھان جي گھر جي مرد فرد ڪڏھن به ڳوٺاڻي صحت ڪاميٽي جي گڏجاڻي ۾ شموليت ڪئي ؟</string>
     <string name="h216a"> ھا</string>
     <string name="h216b"> نه</string>
     <string name="h216c"> ان بابت ڪڏھن به نه ٻڌو آھي </string>
 
-    <string name="h2161"> ميٽنگ/ گڏجاڻي ۾ شموليت نه ڪرڻ جو سبب ڇا ھو؟ </string>
+    <string name="h2161"> H216a:\t ميٽنگ / گڏجاڻي ۾ شموليت نه ڪرڻ جو سبب ڇا ھو ؟ </string>
     <string name="h2161a"> اھيو ضروري نه آھي </string>
     <string name="h2161b"> ڪرونا جي ڪري نه ٿي سگھيو </string>
-    <string name="h2161c"> ڪرونا جو خوف/ڊپ </string>
+    <string name="h2161c"> ڪرونا جو خوف / ڊپ </string>
     <string name="h2161d"> ڪرونا جي ڪري سماجي مفاصلو </string>
     <string name="h2161e"> ڪرونا جي لاڪ ڊائون ڪري سواري نه ھئي </string>
-    <string name="h2161f"> گهر ۾ حفاظتي سامان(ماسڪ/داستانه) موجود نه ھئا </string>
-
+    <string name="h2161f"> گهر ۾ حفاظتي سامان (ماسڪ / داستانه) موجود نه ھئا </string>
 
     <string name="h217"> H217:\t ماءُ، نئين ڄاول ٻار ۽ ٻارن جي صحت جي ضرورتن جي لاءِ توھان وٽ مالي مدد جو ڪھڙو ذريعو آھي؟</string>
     <string name="h217a"> (خاندان (مڙس/پنھنجو ذريعو</string>
@@ -1147,10 +1166,12 @@
     <string name="h217e"> اثاثن جو وڪرو </string>
     <string name="h217f"> ميڊيڪل انشورنس</string>
     <string name="h217x"> (ٻيو ڪجھ (وضاحت ڪريو</string>
+
     <string name="h218"> H218:\t ڇا گذريل حمل يا ڊليوري دوران توھانکي ڪنھن مالي مدد جي ضرورت پئي؟</string>
     <string name="h218a"> ھا </string>
     <string name="h218b"> نه</string>
     <string name="h218c"> اھڙي سھڪار بابت خبر نه آھي </string>
+
     <string name="h219"> H219:\t توھان جي گذريل حمل يا ڊليوري لاءِ توھان جي مالي مدد جو ذريعو ڪھڙو ھو؟</string>
     <string name="h219a"> (خاندان (مڙس/پنھنجو ذريعو</string>
     <string name="h219b"> بئنڪ/تنظيم کان قرض </string>
@@ -1159,28 +1180,30 @@
     <string name="h219e"> اثاثن جو وڪرو </string>
     <string name="h219f"> ميڊيڪل انشورنس</string>
     <string name="h219x"> ٻيو ڪجھ وضاحت ڪريو </string>
+
     <string name="h220"> H220:\t مالي مدد گھڻو ڪري ڪھڙي سبب تي استعمال ڪئي وئي؟</string>
     <string name="h220a"> سواري </string>
     <string name="h220b"> حمل دوران سارسنڀال </string>
     <string name="h220c"> ڊليوري/وڏو آپريشن </string>
-    <string name="h220d"> ايمرجنسي (ھنگامي صورتحال) لاءِ</string>
+    <string name="h220d"> ايمرجنسي (ھنگامي صورتحال) لاءِ </string>
     <string name="h220e"> ڊليوري کان پوءِ جي سارسنڀال </string>
-    <string name="h220f"> نئين ڄاول ٻار ۽ 5 سالن گھٽ عمر واري ٻار جي صحت لاءِ</string>
-    <string name="h220x"> (ٻيو ڪجھ (وضاحت ڪريو</string>
+    <string name="h220f"> نئين ڄاول ٻار ۽ 5 سالن گھٽ عمر واري ٻار جي صحت لاءِ </string>
+    <string name="h220x"> (ٻيو ڪجھ (وضاحت ڪريو </string>
+
     <string name="h221"> H221:\t اڄ تائين، ڇا توھان ورتل قرض جو ڪجھ حصو يا مڪمل قرض واپس ادا ڪيو آھي؟</string>
-    <string name="h221a"> مڪمل</string>
+    <string name="h221a"> مڪمل </string>
     <string name="h221b"> ڪجھ حصو </string>
     <string name="h221c"> اڃا تائين ڪجھ به واپس نه ڪيو آھي </string>
     <string name="h222"> H222:\t ھن قرض کي واپس ڪرڻ لاءِ توھان ڪھڙي حڪمت عملي استعمال ڪئي؟</string>
-    <string name="h222a"> گھر جي آمدني مان</string>
+    <string name="h222a"> گھر جي آمدني مان </string>
     <string name="h222b"> اثاثا وڪرو ڪرڻ </string>
     <string name="h222c"> ڪنھن ٻئي وٽان قرض کڻڻ </string>
-    <string name="h222d"> چندو/فنڊ</string>
+    <string name="h222d"> چندو/فنڊ </string>
     <string name="h223"> H223:\t ھن قرض جي ڪجھ حصي کي واپس ڪرڻ لاءِ توھان ڪھڙي حمڪت عملي استعمال ڪئي؟</string>
-    <string name="h223a"> گھر جي آمدني مان</string>
+    <string name="h223a"> گھر جي آمدني مان </string>
     <string name="h223b"> اثاثا وڪرو ڪرڻ </string>
     <string name="h223c"> ڪنھن ٻئي وٽان قرض کڻڻ </string>
-    <string name="h223d"> چندو/فنڊ</string>
+    <string name="h223d"> چندو / فنڊ </string>
 
 
     <string name="i1_diarrhea"> ھاڻي آءٌ توھان کان توھان جي 5 سالن کان گھٽ عمر اري ٻار جي صحت بابت سوال ڪندس جنھن کي گذريل ٻن ھفتن دوران دست يا ساھ کڻڻ ۾ تڪيلف ٿي ھجي </string>
@@ -1202,7 +1225,7 @@
     <string name="i105a"> ھا </string>
     <string name="i105b"> نه </string>
 
-    <string name="i106"> I106:\t توھان (نالو) دستن جي بيماري جو علاج ڇو نه ڪرايو؟ </string>
+    <string name="i106"> I106:\t توھان (نالو) دستن جي بيماري جو علاج ڇو نه ڪرايو ؟ </string>
     <string name="i106a"> ايڏو وڏو مسئلو نه ھو </string>
     <string name="i106b"> پئسا نه ھئا </string>
     <string name="i106c"> سواري نه ھئي </string>
@@ -1210,17 +1233,18 @@
     <string name="i106e"> گھر جي سربراھ / مڙس / سس جي اجازت نه ھئي </string>
     <string name="i106f"> صحت مرڪز پري آھي </string>
     <string name="i106g"> ڪرونا جي ڪري اسپتال بند ھئي </string>
-    <string name="i106h"> ڪرونا جو خوف/ڊپ </string>
+    <string name="i106h"> ڪرونا جو خوف / ڊپ </string>
     <string name="i106i"> ڪرونا جي ڪري سماجي مفاصلو </string>
     <string name="i106j"> ڪرونا جي لاڪ ڊائون ڪري سواري نه ھئي </string>
-    <string name="i106k"> گهر ۾ حفاظتي سامان(ماسڪ/داستانه) موجود نه ھئا </string>
-    <string name="i106l"> ڊاڪٽر معياري طريقيڪار تي عمل نه ڪري رھيو ھو (ماسڪ/داستانه پھريل نه ھئ </string>
+    <string name="i106k"> گهر ۾ حفاظتي سامان (ماسڪ/داستانه) موجود نه ھئا </string>
+    <string name="i106l"> ڊاڪٽر معياري طريقيڪار تي عمل نه ڪري رھيو ھو (ماسڪ/داستانه) پھريل نه ھئا </string>
 
 
     <string name="i107"> I107:\t توھان (نالو) دستن جي بيماري دوران علاج ڪٿان ڪرايو ؟</string>
     <string name="i107a"> سرڪاري صحت مرڪز </string>
     <string name="i107b"> پرائيويٽ صحت مرڪز </string>
     <string name="i107c">  صحت مرڪز  (NGO)اين جي او </string>
+
     <string name="i108"> I108:\t توھان (نالو) دستن جي بيماري دوران علاج لاءِ ڪنھن موڪليو؟</string>
     <string name="i108a"> ڊاڪٽر</string>
     <string name="i108b"> ايل ايڇ وي (ليڊي ھيلٿ وزيٽر) </string>
@@ -1228,8 +1252,11 @@
     <string name="i108d"> سي ايم ڊبليو (ڪميونٽي مڊوائف) </string>
     <string name="i108e"> ايل ايڇ ڊبليو (ليڊي ھيلٿ ورڪر) </string>
     <string name="i108f"> دائي / ٽي بي اي </string>
+
     <string name="i109"> I109:\t صحت مرڪز ڪيترو پري آھي، جتان توھان (نالو) دستن جي بيماري جو علاج ڪرايو؟</string>
+
     <string name="i110"> I110:\t صحت مرڪز تي پھچڻ ۾ ڪيترو وقت لڳو، جتان توھان (نالو) دستن جي بيماري دوران علاج ڪرايو؟</string>
+
     <string name="i111"> I111:\t نالو) دستن جي بيماري دوران علاج ڪنھن ڪيو؟)</string>
     <string name="i111a"> ڊاڪٽر</string>
     <string name="i111b"> (ايل ايڇ وي (ليڊي ھيلٿ وزيٽر</string>
@@ -1238,6 +1265,7 @@
     <string name="i111e"> ڊسپينسر/ ڪمپائوڊر </string>
     <string name="i111f"> (ايل ايڇ ڊبليو (ليڊي ھيلٿ ورڪر</string>
     <string name="i111g"> دائي / ٽي بي اي </string>
+
     <string name="i112"> I112:\t نالو) کي دستن جي بيماري لاءِ ڪھڙو علاج ڏنو ويو؟)</string>
     <string name="i112a"> او آر ايس مان ٺھيل پاڻياٺ</string>
     <string name="i112b"> او آر ايس </string>
@@ -1250,16 +1278,20 @@
     <string name="i112i"> سوئيون (انجيڪشن) </string>
     <string name="i112j"> اينٽي موٽلٽي </string>
     <string name="i112k"> گھريلو ٽوٽڪا </string>
+
     <string name="i113"> I113:\t ڇا (نالو) کي دستن جي بيماري لاءِ داخل ڪيو ويو ھو؟</string>
     <string name="i113a"> ھا</string>
     <string name="i113b"> نه</string>
+
     <string name="i114"> I114:\t نالو) کي ڪٿي داخل ڪيو ويو؟)</string>
     <string name="i114a"> سرڪاري صحت مرڪز </string>
     <string name="i114b"> پرائيويٽ صحت مرڪز </string>
     <string name="i114c">  صحت مرڪز  (NGO)اين جي او </string>
+
     <string name="i115"> I115:\t نالو) کي ڪيترو وقت اسپتال ۾ داخل ھيو؟)</string>
     <string name="i115a"> ڪلاڪ</string>
     <string name="i115b"> ڏينھن</string>
+
     <string name="i116"> I116:\t نالو) کي اسپتال ۾ داخلا دوران دستن جي بيماري لاءِ ڪھڙو علاج ڏنو ويو؟)</string>
     <string name="i116a"> او آر ايس </string>
     <string name="i116b"> اينٽي بائيوٽڪ</string>
@@ -1277,22 +1309,22 @@
     <string name="i118"> I118:\t نالو) دستن جي بيماريءَ جي علاج لاءِ سواري تي توھان جا ڪيترا پئسا خرچ ٿيا ؟) </string>
 
     <string name="i119"> I119:\t  ڇا توھان ڪڏھن او آر ايس جي باري ۾ ٻڌو آھي ؟ </string>
-    <string name="i119a"> ھا</string>
+    <string name="i119a"> ھا </string>
     <string name="i119b"> نه </string>
 
-    <string name="i120"> I120:\t ڇا توھان کي او آر ايس  تيار ڪرڻ جي طريقي ڪار جي خبر آھي؟ </string>
-    <string name="i120a"> ھا</string>
-    <string name="i120b"> نه</string>
+    <string name="i120"> I120:\t ڇا توھان کي او آر ايس تيار ڪرڻ جي طريقي ڪار جي خبر آھي ؟ </string>
+    <string name="i120a"> ھا </string>
+    <string name="i120b"> نه </string>
 
-    <string name="i121"> I121:\t توھان او آر ايس ٺاھڻ ڪٿا سکيو ؟ </string>
-    <string name="i121a"> ڊاڪٽر</string>
-    <string name="i121b"> (ايل ايڇ وي (ليڊي ھيلٿ وزيٽر</string>
-    <string name="i121c"> نرس</string>
-    <string name="i121d"> (سي ايم ڊبليو (ڪميونٽي مڊوائف</string>
+    <string name="i121"> I121:\t توھان او آر ايس ٺاھڻ ڪٿان سکيو ؟ </string>
+    <string name="i121a"> ڊاڪٽر </string>
+    <string name="i121b"> (ايل ايڇ وي (ليڊي ھيلٿ وزيٽر </string>
+    <string name="i121c"> نرس </string>
+    <string name="i121d"> (سي ايم ڊبليو (ڪميونٽي مڊوائف </string>
     <string name="i121e"> ڊسپينسر/ ڪمپائوڊر </string>
-    <string name="i121f"> (ايل ايڇ ڊبليو (ليڊي ھيلٿ ورڪر</string>
+    <string name="i121f"> (ايل ايڇ ڊبليو (ليڊي ھيلٿ ورڪر </string>
     <string name="i121g"> دائي / ٽي بي اي </string>
-    <string name="i121h"> پرچہ / بروشر</string>
+    <string name="i121h"> پرچہ / بروشر </string>
     <string name="i121i"> موبائل يا سمارٽ فون </string>
 
     <string name="i122"> I122:\t ڇا توھان کي دستن جي خطرناڪ علامتن جي باري ۾ خبر آھي؟</string>
@@ -1306,6 +1338,7 @@
     <string name="i123d"> سي ايم ڊبليو (ڪميونٽي مڊوائف) </string>
     <string name="i123e"> (ايل ايڇ ڊبليو (ليڊي ھيلٿ ورڪر</string>
     <string name="i123f"> دائي / ٽي بي اي </string>
+
     <string name="i124"> I124:\t ڇا توھان انھن خطرناڪ علامتن جا نالا ٻڌائي سگھو ٿا؟</string>
     <string name="i124a"> پاڻياٽ جي ڪمي </string>
     <string name="i124b"> جھٽڪا</string>
@@ -1314,18 +1347,19 @@
     <string name="i124e"> ھر شي الٽي ڪري ڇڏڻ</string>
     <string name="i124f"> پئخاني ۾ رت جو اچڻ</string>
     <string name="i124g"> چمڙي جو آھستي واپس وڃڻ</string>
-    <string name="i1251"> I125:\t جڏھن توھان جي ٻار کي دستن جي بيماري ھئي ته ڇا ليڊي ھيلٿ ورڪر توھان کي ان بيماري کان بچاءُ لاءِ معلومات مھيا ڪئي؟</string>
-    <string name="i1251a"> ھا </string>
-    <string name="i1251b"> نه</string>
-    <string name="i1252"> I125a:\t ليڊي ھيلٿ ورڪر جي دوري نه ڪرڻ جو ڇا سبب ھو؟?</string>
-    <string name="i1252a">ليڊي ھيلٿ ورڪر اڪثر ڪري نه ايندي آھي </string>
-    <string name="i1252b">ڪرونا جي لاڪ ڊائون ڪري دورو نه ڪيو </string>
-    <string name="i1252c">ليڊي ھيلٿ ورڪر آئي پر اسان ڪرونا جي ڪري اچڻ نه ڏنو</string>
-    <string name="i1252d">ليڊي ھيلٿ ورڪر کي ماسڪ پاتل نه ھو</string>
-    <string name="i1252e">ڪرونا جو خوف/ڊپ</string>
-    <string name="i1252f">سماجي مفاصلو</string>
-    <string name="i1252g">حفاظتي سامان گهر ۾ موجود نه ھوا</string>
 
+    <string name="i1251"> I125:\t جڏھن توھان جي ٻار کي دستن جي بيماري ھئي ته ڇا ليڊي ھيلٿ ورڪر توھان کي ان بيماري کان بچاءُ لاءِ معلومات مھيا ڪئي ؟ </string>
+    <string name="i1251a"> ھا </string>
+    <string name="i1251b"> نه </string>
+
+    <string name="i1252"> I125a:\t ليڊي ھيلٿ ورڪر جي دوري نه ڪرڻ جو ڇا سبب ھو ؟ </string>
+    <string name="i1252a"> ليڊي ھيلٿ ورڪر اڪثر ڪري نه ايندي آھي </string>
+    <string name="i1252b"> ڪرونا جي لاڪ ڊائون ڪري دورو نه ڪيو </string>
+    <string name="i1252c"> ليڊي ھيلٿ ورڪر آئي پر اسان ڪرونا جي ڪري اچڻ نه ڏنو </string>
+    <string name="i1252d"> ليڊي ھيلٿ ورڪر کي ماسڪ پاتل نه ھو </string>
+    <string name="i1252e"> ڪرونا جو خوف / ڊپ </string>
+    <string name="i1252f"> سماجي مفاصلو </string>
+    <string name="i1252g"> حفاظتي سامان گهر ۾ موجود نه ھو </string>
 
     <string name="i126"> I126:\t ان توھان کي ڪھڙي معلومات مھيا ڪئي؟</string>
     <string name="i126a"> ماءُ کي گهر ۾ او آر ايس تيار ڪري ڏيکارڻ/سيکارڻ</string>
@@ -1333,23 +1367,32 @@
     <string name="i126c"> او آر ايس جا پيڪٽ مھيا ڪرڻ </string>
     <string name="i126d"> دستن جي بيماري لاءِ صحت مرڪز موڪلڻ</string>
     <string name="i126e"> دستن جي بيماريءَ جي خطرناڪ علامتن بابت معلومات</string>
+
+
     <string name="i201"> I201:\t ڇا توھان جي گھر ۾ 5 سالن کان گھٽ عمر وارين ٻارن کي گذريل ٻن ھفتن ۾ بخار ٿيو؟</string>
     <string name="i201a"> ھا </string>
     <string name="i201b"> نه</string>
+
     <string name="i202"> I202:\t گذريل ٻن ھفتن جي دوران ڪيترن ٻار کي بخار ٿيو؟</string>
+
     <string name="i203"> I203:\t ڇا توھان جي گھر ۾ 5 سالن کان گھٽ عمر وارين ٻارن کي گذريل ٻن ھفتن ۾ کنگھ، تڪڙا ساھ کڻڻ يا ساھ کڻڻ ۾ تڪليف ٿي؟</string>
     <string name="i203a"> ھا </string>
     <string name="i203b"> نه </string>
+
     <string name="i204"> I204:\t ڪيترن ٻارن کي گذريل ٻن ھفتن جي دوران کنگھ جي بيماري، تڪڙا ساھ کڻڻ يا ساھ کڻڻ ۾ تڪليف ھئي؟</string>
-    <string name="i205"> I205:\t ڇا (نالو) کي بخار ۽ کنگھ دوران ڇاتي خراب ٿي هئي؟</string>
-    <string name="i205a"> ھا</string>
-    <string name="i205b"> نه</string>
+
+    <string name="i205"> I205:\t ڇا (نالو) کي بخار ۽ کنگھ دوران ڇاتي خراب ٿي هئي ؟ </string>
+    <string name="i205a"> ھا </string>
+    <string name="i205b"> نه </string>
     <string name="i205c"> خبر نه آھي </string>
-    <string name="i206"> I206:\t ڪيترا ڏينھن (نالو) بخار ۽ کنگھ جي بيماري ھئي؟</string>
-    <string name="i207"> I207:\t ڇا (نالو) جو توھان بخار، کنگھ ۽ تڪڙا ساھ کڻڻ جو علاج ڪرايو؟</string>
-    <string name="i207a"> ھا</string>
-    <string name="i207b"> نه</string>
-    <string name="i208"> I208:\t توھان (نالو) بخار، کنگھ ۽ تڪڙا ساھ کڻڻ جي بيماري جو علاج ڇو نه ڪرايو؟</string>
+
+    <string name="i206"> I206:\t ڪيترا ڏينھن (نالو) بخار ۽ کنگھ جي بيماري ھئي ؟ </string>
+
+    <string name="i207"> I207:\t ڇا (نالو) جو توھان بخار، کنگھ ۽ تڪڙا ساھ کڻڻ جو علاج ڪرايو ؟ </string>
+    <string name="i207a"> ھا </string>
+    <string name="i207b"> نه </string>
+
+    <string name="i208"> I208:\t توھان (نالو) بخار، کنگھ ۽ تڪڙا ساھ کڻڻ جي بيماري جو علاج ڇو نه ڪرايو؟ </string>
     <string name="i208a"> ايڏو وڏو مسئلو نه ھو </string>
     <string name="i208b"> پئسا نه ھئا </string>
     <string name="i208c"> سواري نه ھئي </string>
@@ -1357,18 +1400,20 @@
     <string name="i208e"> گھر جي سربراھ/مڙس/سس جي اجازت نه ھئي </string>
     <string name="i208f"> صحت مرڪز پري آھي </string>
     <string name="i208g"> صحت مرڪز کليل نه ھو </string>
-    <string name="i208h"> غير معياري سھولتون</string>
+    <string name="i208h"> غير معياري سھولتون </string>
     <string name="i208i"> ڪرونا جي ڪري اسپتال بند ھئي </string>
-    <string name="i208j"> ڪرونا جو خوف/ڊپ </string>
+    <string name="i208j"> ڪرونا جو خوف / ڊپ </string>
     <string name="i208k"> ڪرونا جي ڪري سماجي مفاصلو </string>
     <string name="i208l"> ڪرونا جي لاڪ ڊائون ڪري سواري نه ھئي </string>
-    <string name="i208m"> گهر ۾ حفاظتي سامان(ماسڪ/داستانه) موجود نه ھئا </string>
-    <string name="i208n"> ڊاڪٽر معياري طريقيڪار تي عمل نه ڪري رھيو ھو (ماسڪ/داستانه پھريل نه ھئ </string>
+    <string name="i208m"> گهر ۾ حفاظتي سامان (ماسڪ/داستانه) موجود نه ھئا </string>
+    <string name="i208n"> ڊاڪٽر معياري طريقيڪار تي عمل نه ڪري رھيو ھو (ماسڪ/داستانه پھريل نه ھئا( </string>
+
     <string name="i209"> I209:\t ڇا (نالو) جو توھان بخار، کنگھ ۽ تڪڙا ساھ کڻڻ جو علاج ڪٿان ڪرايو؟</string>
     <string name="i209a"> گھر ۾</string>
     <string name="i209b"> سرڪاري صحت مرڪز </string>
     <string name="i209c"> پرائيويٽ صحت مرڪز </string>
     <string name="i209d">   صحت مرڪز (NGO)اين جي او </string>
+
     <string name="i210"> I210:\t توھان (نالو) کي بخار، کنگھ ۽ تڪڙا ساھ کڻڻ جي علاج لاءِ ڪنھن موڪليو؟</string>
     <string name="i210a"> ڊاڪٽر</string>
     <string name="i210b"> ايل ايڇ وي (ليڊي ھيلٿ وزيٽر) </string>
@@ -1378,26 +1423,34 @@
     <string name="i210f"> ايل ايڇ ڊبليو (ليڊي ھيلٿ ورڪر) </string>
     <string name="i210g"> دائي / ٽي بي اي </string>
     <string name="i210h"> پنھنجو پاڻ </string>
+
     <string name="i211"> I211:\t صحت مرڪز ڪيترو پري آھي، جتان توھان (نالو) بخار، کنگھ ۽ تڪڙا ساھ کڻڻ جي بيماري دوران علاج ڪرايو؟</string>
+
     <string name="i212"> I212:\t صحت مرڪز تي پھچڻ ۾ ڪيترو وقت لڳو، جتان توھان (نالو) بخار، کنگھ ۽ تڪڙا ساھ کڻڻ جي بيماري دوران علاج ڪرايو؟</string>
+
     <string name="i213"> I213:\t توھان (نالو) کي بخار، کنگھ ۽ تڪڙا ساھ کڻڻ جو علاج ڪنھن ڪيو؟</string>
     <string name="i213a"> ڊاڪٽر</string>
     <string name="i213b"> ايل ايڇ وي (ليڊي ھيلٿ وزيٽر) </string>
     <string name="i213c"> نرس </string>
     <string name="i213d"> سي ايم ڊبليو (ڪميونٽي مڊوائف) </string>
     <string name="i213f"> ڊسپينسر/ ڪمپائوڊر </string>
+
     <string name="i214"> I214:\t ڇا بخار، کنگھ يا ساھ کڻڻ جي تڪليف جي ڪري (نالو) کي اسپتال ۾ داخل ڪيو ويو؟</string>
     <string name="i214a"> ھا</string>
     <string name="i214b"> نه</string>
+
     <string name="i215"> I215:\t بخار، کنگھ يا ساھ کڻڻ جي تڪليف جي ڪري (نالو) کي ڪٿي داخل ڪيو؟</string>
     <string name="i215a"> سرڪاري صحت مرڪز </string>
     <string name="i215b"> پرائيويٽ صحت مرڪز </string>
     <string name="i215c">  صحت مرڪز  (NGO)اين جي او </string>
+
     <string name="i216"> I216:\t ڪيترا ڏينھن (نالو) کي بخار، کنگھ يا ساھ کڻڻ جي تڪليف جي ڪري داخل ڪيو ويو؟</string>
+
     <string name="i217"> I217:\t ڇا (نالو) کي داخلا دوران بخار، کنگھ يا ساھ کڻڻ جي تڪليف جي لاءِ دوا ڏني وئي؟ </string>
     <string name="i217a"> ھا</string>
     <string name="i217b"> نه</string>
     <string name="i217c"> خبر نه آھي </string>
+
     <string name="i218"> I218:\t نالو) کي ڪھڙي دوا ڏني وئي؟)</string>
     <string name="i218a"> ڪلوروڪوئين</string>
     <string name="i218b"> ايموڊياڪوئين</string>
@@ -1413,16 +1466,21 @@
     <string name="i218l"> آئبروفين</string>
     <string name="i218m"> کنگھ جو شربت </string>
     <string name="i218n"> گهريلو کاڌا</string>
+
     <string name="i219"> I219:\t ڇا (نالو) ڇا تي جو ڪڏھن به ايڪسري ڪيو ويو؟</string>
     <string name="i219a"> ھا</string>
     <string name="i219b"> نه</string>
+
     <string name="i220"> I220:\t ڇا (نالو) جي بيماري دوران ٽيسٽ ڪرڻ لاءِ آڱر يا پير جي کڙي مان رت ڪڍيو ويو؟</string>
     <string name="i220a"> ھا</string>
     <string name="i220b"> نه</string>
+
     <string name="i221"> I221:\t نالو) جي بخار، کنگھ ۽ تڪڙا ساھ کڻڻ جي بيماري جي علاج لاءِ ڪيترو خرچ ٿيو؟) </string>
+
     <string name="i222"> I222:\t ڇا توھان کي نمونيا جي خطرناڪ علامتن جي باري ۾ خبر آھي؟</string>
     <string name="i222a"> ھا</string>
     <string name="i222b"> نه </string>
+
     <string name="i223"> I223:\t ڇا توھان مون کي انھن علامتن جا نالا ٻڌائي سگھو ٿا؟</string>
     <string name="i223a"> ڇاتي ۾ تڪليف </string>
     <string name="i223b"> کائي پي نه سگھڻ</string>
@@ -1431,25 +1489,29 @@
     <string name="i223e"> نيم بيھوش</string>
     <string name="i223f"> کر کر جو آواز </string>
     <string name="i223g"> شديد غذائيت جي گھٽتائي </string>
+
     <string name="i224"> I224:\t توھان کي نمونيا جي خطرناڪ علامتن بابت ڪنھن ٻڌايو؟</string>
-    <string name="i224a"> ڊاڪٽر</string>
+    <string name="i224a"> ڊاڪٽر </string>
     <string name="i224b"> ايل ايڇ وي (ليڊي ھيلٿ وزيٽر) </string>
-    <string name="i224c"> نرس</string>
+    <string name="i224c"> نرس </string>
     <string name="i224d"> سي ايم ڊبليو (ڪميونٽي مڊوائف) </string>
     <string name="i224e"> ايل ايڇ ڊبليو (ليڊي ھيلٿ ورڪر) </string>
     <string name="i224f"> دائي / ٽي بي اي </string>
+
     <string name="i2251"> I125:\t جڏھن توھان جي ٻار کي دستن جي بيماري ھئي ته ڇا ليڊي ھيلٿ ورڪر توھان کي ان بيماري کان بچاءُ لاءِ معلومات مھيا ڪئي؟</string>
     <string name="i2251a"> ھا </string>
-    <string name="i2251b"> نه</string>
-    <string name="i2252"> I125a:\t ليڊي ھيلٿ ورڪر جي دوري نه ڪرڻ جو ڇا سبب ھو؟?</string>
-    <string name="i2252a">ليڊي ھيلٿ ورڪر اڪثر ڪري نه ايندي آھي </string>
-    <string name="i2252b">ڪرونا جي لاڪ ڊائون ڪري دورو نه ڪيو </string>
-    <string name="i2252c">ليڊي ھيلٿ ورڪر آئي پر اسان ڪرونا جي ڪري اچڻ نه ڏنو</string>
-    <string name="i2252d">ليڊي ھيلٿ ورڪر کي ماسڪ پاتل نه ھو</string>
-    <string name="i2252e">ڪرونا جو خوف/ڊپ</string>
-    <string name="i2252f">سماجي مفاصلو</string>
-    <string name="i2252g">حفاظتي سامان گهر ۾ موجود نه ھوا</string>
-    <string name="i226"> I226:\t ان توھان کي ڪھڙيون خدمتون مھيا ڪيون؟</string>
+    <string name="i2251b"> نه </string>
+
+    <string name="i2252"> I125a:\t ليڊي ھيلٿ ورڪر جي دوري نه ڪرڻ جو ڇا سبب ھو ؟ </string>
+    <string name="i2252a"> ليڊي ھيلٿ ورڪر اڪثر ڪري نه ايندي آھي </string>
+    <string name="i2252b"> ڪرونا جي لاڪ ڊائون ڪري دورو نه ڪيو </string>
+    <string name="i2252c"> ليڊي ھيلٿ ورڪر آئي پر اسان ڪرونا جي ڪري اچڻ نه ڏنو </string>
+    <string name="i2252d"> ليڊي ھيلٿ ورڪر کي ماسڪ پاتل نه ھو </string>
+    <string name="i2252e"> ڪرونا جو خوف / ڊپ </string>
+    <string name="i2252f"> سماجي مفاصلو </string>
+    <string name="i2252g"> حفاظتي سامان گهر ۾ موجود نه ھوا </string>
+
+    <string name="i226"> I226:\t ان توھان کي ڪھڙيون خدمتون مھيا ڪيون ؟ </string>
     <string name="i226a"> ايموڪسسلين ڊي ٽي مھيا ڪئي </string>
     <string name="i226b"> پيناڊول سيرپ يا گوريون </string>
     <string name="i226c"> اي آر آءِ جو استعمال ڪرڻ </string>
@@ -1464,7 +1526,7 @@
     <string name="j101hint1"> جڏھن توھان کي انٽرويو شروع ڪرڻ جي اجازت ملي ته جواب ڏيندڙ کي ڪارڊ کڻي اچڻ گھرجي </string>
     <string name="j101a"> ھا، ڏٺو </string>
     <string name="j101b"> ھا، نه ڏٺو </string>
-    <string name="j101c"> نه</string>
+    <string name="j101c"> نه </string>
 
     <string name="j102"> J102:\t ڇا توھان وٽ ڪڏھن به ٽڪن وارو ڪارڊ موجود ھو؟ جيڪو سرڪاري صحت يا پرائيويٽ صحت مرڪز وارا ڏيندا آھن</string>
     <string name="j102a"> ھا</string>
@@ -1476,19 +1538,20 @@
     <string name="j103c"> سال </string>
     <string name="j103d"> خبر نه آھي </string>
 
-    <string name="j10401"> J10401:\t (ڌينهن مهينو سال ) (بي سي جي)</string>
+    <string name="j10401"> J10401:\t (ڌينهن مهينو سال ) (بي سي جي) </string>
     <string name="j10401d"> ڏينھن </string>
     <string name="j10401m"> مھينو </string>
     <string name="j10401y"> سال </string>
 
-    <string name="j10401a"> J10401a:\t نالو) بي سي جي ويڪسين ڪٿان لڳرائي)</string>
+    <string name="j10401a"> J10401a:\t نالو) بي سي جي ويڪسين ڪٿان لڳرائي) </string>
     <string name="j10401aa"> سرڪار صحت مرڪز</string>
     <string name="j10401ab"> پرائيويٽ صحت مرڪز</string>
     <string name="j10401ac"> ٽڪن جو مرڪز </string>
     <string name="j10401ad"> ماءُ ۽ ٻار جي صحت جو مرڪز</string>
     <string name="j10401ae"> اين جي او صحت مرڪز</string>
     <string name="j10401af"> ٻار جي ٽڪن وارو ھفتو</string>
-    <string name="j10401b"> J10401b:\t ويڪسين ڪنھن لڳائي؟</string>
+
+    <string name="j10401b"> J10401b:\t ويڪسين ڪنھن لڳائي ؟ </string>
     <string name="j10401ba"> ڊاڪٽر</string>
     <string name="j10401bb"> ليڊي ھيلٿ ورڪر</string>
     <string name="j10401bc"> ليڊي ھيلٿ وزيٽر</string>
@@ -1498,12 +1561,12 @@
     <string name="j10401bg"> ڊسپينسر/ڪمپائونڊر</string>
     <string name="j10401bx"> (ٻيو ڪو وضاحت ڪريو)</string>
 
-    <string name="j10402"> J10402:\t پيدائش جي وقت منهن جي ذريعي ڏيڻ واري پوليو جي قطرن جي خوراڪ</string>
+    <string name="j10402"> J10402:\t پيدائش جي وقت منهن جي ذريعي ڏيڻ واري پوليو جي قطرن جي خوراڪ </string>
     <string name="j10402d"> ڏينھن </string>
     <string name="j10402m"> مھينو </string>
     <string name="j10402y"> سال </string>
 
-    <string name="j10402a"> J10402a:\t (نالو) پوليو جا ڦڙا ڪٿان پياريا؟</string>
+    <string name="j10402a"> J10402a:\t (نالو) پوليو جا ڦڙا ڪٿان پياريا ؟</string>
     <string name="j10402aa"> سرڪار صحت مرڪز</string>
     <string name="j10402ab"> پرائيويٽ صحت مرڪز</string>
     <string name="j10402ac"> ٽڪن جو مرڪز </string>
@@ -1847,7 +1910,7 @@
     <string name="j10417m"> مھينو </string>
     <string name="j10417y"> سال </string>
 
-    <string name="j10417a"> J10417a:\t نالو) ارڙي جي ويڪسين ڪٿان لڳرائي؟)</string>
+    <string name="j10417a"> J10417a:\t نالو) ٽائيفائڊ جي ويڪسين ڪٿان لڳرائي؟) </string>
     <string name="j10417aa"> سرڪار صحت مرڪز</string>
     <string name="j10417ab"> پرائيويٽ صحت مرڪز</string>
     <string name="j10417ac"> ٽڪن جو مرڪز </string>
@@ -1960,11 +2023,11 @@
     <string name="j123o"> ٻار بيمار ھو </string>
     <string name="j123p"> ٻار کي موڪليو ويو پر ٽڪن جو ڏينھن نه ھو </string>
     <string name="j123q"> ڪرونا جي ڪري اسپتال بند ھئي </string>
-    <string name="j123r"> ڪرونا جو خوف/ڊپ </string>
+    <string name="j123r"> ڪرونا جو خوف / ڊپ </string>
     <string name="j123s"> ڪرونا جي ڪري سماجي مفاصلو </string>
     <string name="j123t"> ڪرونا جي لاڪ ڊائون ڪري سواري نه ھئي </string>
-    <string name="j123u"> گهر ۾ حفاظتي سامان(ماسڪ/داستانه) موجود نه ھئا </string>
-    <string name="j123v"> ڊاڪٽر معياري طريقيڪار تي عمل نه ڪري رھيو ھو (ماسڪ/داستانه پھريل نه ھئ </string>
+    <string name="j123u"> گهر ۾ حفاظتي سامان (ماسڪ/داستانه) موجود نه ھئا </string>
+    <string name="j123v"> ڊاڪٽر معياري طريقيڪار تي عمل نه ڪري رھيو ھو (ماسڪ/داستانه پھريل نه ھئا </string>
     <string name="j123x"> (ٻيو ڪجھه (وضاحت ڪريو </string>
 
 
@@ -1972,7 +2035,7 @@
     <string name="k101"> K101:\t ڇا توھان ڪڏھن به حمل کي روڪڻ واري طريقي جي باري ۾ ٻڌو آھي ؟ </string>
     <string name="k101a"> ھا </string>
 
-    <string name="k101aa"> K101aa:\t توھان خانداني منصوبه بندي جي طريقن بابت ڪٿان معلومات حاصل ڪئي ؟ </string>
+    <string name="k101aa"> K101a:\t توھان خانداني منصوبه بندي جي طريقن بابت ڪٿان معلومات حاصل ڪئي ؟ </string>
     <string name="k101aaa"> سرڪاري صحت مرڪز </string>
     <string name="k101aab"> خانداني فلاحي مرڪز </string>
     <string name="k101aac"> موبائل سروس مھم </string>
@@ -2042,28 +2105,28 @@
     <string name="k1071a"> ھا </string>
     <string name="k1071b"> نه </string>
 
-    <string name="k1072"> k1072:\t ليڊي ھيلٿ ورڪر جي دوري نه ڪرڻ جو ڇا سبب ھو ؟ </string>
-    <string name="k1072a">ليڊي ھيلٿ ورڪر اڪثر ڪري نه ايندي آھي </string>
+    <string name="k1072"> k107a:\t ليڊي ھيلٿ ورڪر جي مھيا نه ڪرڻ جو ڇا سبب ھو ؟ </string>
+    <string name="k1072a"> ليڊي ھيلٿ ورڪر اڪثر ڪري نه ايندي آھي </string>
     <string name="k1072b"> ڪرونا جي لاڪ ڊائون ڪري دورو نه ڪيو </string>
     <string name="k1072c"> ليڊي ھيلٿ ورڪر آئي پر اسان ڪرونا جي ڪري اچڻ نه ڏنو </string>
     <string name="k1072d"> ليڊي ھيلٿ ورڪر کي ماسڪ پاتل نه ھو </string>
-    <string name="k1072e">ڪرونا جو خوف / ڊپ </string>
-    <string name="k1072f">سماجي مفاصلو </string>
-    <string name="k1072g">حفاظتي سامان گهر ۾ موجود نه ھوا </string>
+    <string name="k1072e"> ڪرونا جو خوف / ڊپ </string>
+    <string name="k1072f"> سماجي مفاصلو </string>
+    <string name="k1072g"> حفاظتي سامان گهر ۾ موجود نه ھو </string>
 
-    <string name="k1081"> K108:\t ڇا ليڊي هيلٿ ورڪر صحت جي حوالي سان توھان ۽ توھان جي مڙس  ڪا ميٽنگ ڪئي ؟ </string>
+    <string name="k1081"> K108:\t ڇا ليڊي هيلٿ ورڪر صحت جي حوالي سان توھان ۽ توھان جي مڙس ڪا ميٽنگ ڪئي ؟ </string>
     <string name="k1081a"> ھا </string>
     <string name="k1081b"> نه </string>
     <string name="k1081c"> ڳوٺ وارن سان معمول مطابق ميٽنگ </string>
 
-    <string name="k1082"> I125a:\t مٽينگ/گڏجاڻي نه ڪرڻ جو سبب ڇا ھو؟</string>
-    <string name="k1082a">ليڊي ھيلٿ ورڪر اڪثر ڪري نه ايندي آھي </string>
-    <string name="k1082b">ڪرونا جي لاڪ ڊائون ڪري دورو نه ڪيو </string>
-    <string name="k1082c">ليڊي ھيلٿ ورڪر آئي پر اسان ڪرونا جي ڪري اچڻ نه ڏنو</string>
-    <string name="k1082d">ليڊي ھيلٿ ورڪر کي ماسڪ پاتل نه ھو</string>
-    <string name="k1082e">ڪرونا جو خوف/ڊپ</string>
-    <string name="k1082f">سماجي مفاصلو</string>
-    <string name="k1082g">حفاظتي سامان گهر ۾ موجود نه ھوا</string>
+    <string name="k1082"> K108a:\t مٽينگ / گڏجاڻي نه ڪرڻ جو سبب ڇا ھو ؟ </string>
+    <string name="k1082a"> ايترو ضروري نه آھي </string>
+    <string name="k1082b"> ڪرونا جي ڪري نه ٿي سگھيو </string>
+    <string name="k1082c"> ڪرونا جو خوف / ڊپ </string>
+    <string name="k1082d"> ڪرونا جي ڪري سماجي مفاصلو </string>
+    <string name="k1082e"> ڪرونا جي الڪ ڊائون ڪري سواري نه ھئي </string>
+    <string name="k1082f"> گهر ۾ حفاظتي سامان)ماسڪ/داستانه( موجود نه ھئا </string>
+    <string name="k1082g"> ليڊي ھليٿ ورڪر معياري طريقيڪار تي عمل نه ڪري رھي ھئي )ماسڪ/داستانه پاتل نه ھئا( </string>
 
     <string name="k109"> K109:\t ڇا توھان کي ليڊي هيلٿ ورڪر جي هيلٿ هائوس جي باري ۾ خبر آھي جيڪو توھان جي علائقي ۾ يا ان جي ويجھو موجود آھي ؟ </string>
     <string name="k109a"> ھا </string>
@@ -2079,14 +2142,14 @@
     <string name="l1021a"> ھا </string>
     <string name="l1021b"> نه </string>
 
-    <string name="l1022"> I125a:\t ڪم تي نه وڃڻ جو سبب ڇا آھي؟</string>
-    <string name="l1022a">اھو ضروري نه آھي  </string>
-    <string name="l1022b">ڪرونا جي ڪري موڪل آھي </string>
-    <string name="l1022c">ڪرونا جو خوف/ڊپ</string>
-    <string name="l1022d">ڪرونا جي ڪري سماجي مفاصلو</string>
-    <string name="l1022e">ڪرونا جي لاڪ ڊائون ڪري سواري نه ھئي</string>
-    <string name="l1022f">گهر ۾ حفاظتي سامان(ماسڪ/داستانه) موجود نه ھئا</string>
-    <string name="l1022g">مزدورن/ڪم وارن کي معياري طريقيڪار تي عمل نه ڪري رھيو ھو (ماسڪ/داستانه پھريل نه ھئا</string>
+    <string name="l1022"> L102a:\t ڪم تي نه وڃڻ جو سبب ڇا آھي ؟ </string>
+    <string name="l1022a"> اھو ضروري نه آھي  </string>
+    <string name="l1022b"> ڪرونا جي ڪري موڪل آھي </string>
+    <string name="l1022c"> ڪرونا جو خوف / ڊپ </string>
+    <string name="l1022d"> ڪرونا جي ڪري سماجي مفاصلو </string>
+    <string name="l1022e"> ڪرونا جي لاڪ ڊائون ڪري سواري نه ھئي </string>
+    <string name="l1022f"> گهر ۾ حفاظتي سامان (ماسڪ/داستانه) موجود نه ھئا </string>
+    <string name="l1022g"> مزدورن / ڪم وارن معياري طريقيڪار تي عمل نه ڪري رھيا ھئا (ماسڪ/داستانه پھريل نه ھئا </string>
 
     <string name="l103"> L103:\t جيڪڏھن توھان گذريل ستن ڏينهن ۾ ڪو ڪم نه ڪيو آھي پر ڇا توھان کي ڪا نوڪري يا ڪو ڪاروبار آھي جٿان توھان خدانه خواسته ڪنهن بيماري، موڪلون، ڊليوري جي ڪري يا ڪنهن ٻي سبب جري موڪل ڪئي ھجي ؟ </string>
     <string name="l103a"> ھا </string>
@@ -2229,10 +2292,10 @@
     <string name="m103"> M103:\t فرش ڪهڙي قسم جو آهي  </string>
     <string name="m103hint"> مشاھدو ڪريو: </string>
     <string name="m103a"> زمين / واري / مٽي </string>
-    <string name="m103a_title">زمين</string>
+    <string name="m103a_title"> زمين </string>
     <string name="m103b">  ڇيڻو </string>
     <string name="m103c"> بنيادي فرش </string>
-    <string name="m103d">  ڪاٺ جا تختا</string>
+    <string name="m103d">  ڪاٺ جا تختا </string>
     <string name="m103e"> بانس </string>
     <string name="m103f"> ڪاٺ </string>
     <string name="m103f_title"> تيار فرش / ڪاٺ جو فرش يا پالش والي ڪاٺي </string>

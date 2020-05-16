@@ -1388,8 +1388,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:orientation="vertical"
-                            android:tag="0"
-                            android:visibility="gone">
+                            android:tag="0">
 
                             <CheckBox
                                 android:id="@+id/g1251d"
@@ -1448,7 +1447,7 @@
                             <RadioButton
                                 android:id="@+id/g12697"
                                 style="@style/radiobutton"
-                                android:text="@string/na" />
+                                android:text="@string/g126c" />
 
                         </RadioGroup>
 

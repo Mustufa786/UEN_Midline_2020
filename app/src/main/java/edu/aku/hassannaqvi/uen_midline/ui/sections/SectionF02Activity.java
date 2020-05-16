@@ -136,10 +136,14 @@ public class SectionF02Activity extends AppCompatActivity {
 
         JSONObject f1 = new JSONObject();
 
-        f1.put("f121", bi.f121a.isChecked() ? "1" :
-                bi.f121b.isChecked() ? "2" : "0");
-        f1.put("f121a", bi.f1211a.isChecked() ? "1" :
-                bi.f1211b.isChecked() ? "2" : "0");
+        f1.put("f121", bi.f121a.isChecked() ? "1"
+                : bi.f121b.isChecked() ? "2"
+                : "0");
+
+        f1.put("f121a", bi.f1211a.isChecked() ? "1"
+                : bi.f1211b.isChecked() ? "2"
+                : "0");
+
         f1.put("f121ba", bi.f1212a.isChecked() ? "1" : "0");
         f1.put("f121bb", bi.f1212b.isChecked() ? "2" : "0");
         f1.put("f121bc", bi.f1212c.isChecked() ? "3" : "0");
