@@ -448,26 +448,24 @@
     <string name="f119a"> ہاں </string>
     <string name="f119b"> نہیں </string>
 
-    <string name="f120"> F120:\t اوسطاً ، آپ نے فی مہینہ کتنا خرچ کیا؟ </string>
+    <string name="f120"> F120:\t اوسطاً ، آپ نے فی مہینہ کتنا خرچ کیا ؟ </string>
 
-    <string name="f121"> F121:\t کیا گزشتہ حمل کے دوران (ایل ایچ ڈبلیو) لیڈی ہیلتھ ورک رنے آپ کے گھر کا دورہ کیا تھا ؟ </string>
+    <string name="f121"> F121:\t کیا گزشتہ حمل کے دوران (ایل ایچ ڈبلیو) لیڈی ہیلتھ ورکر نے آپ کے گھر کا دورہ کیا تھا ؟ </string>
     <string name="f121a"> ہاں </string>
     <string name="f121b"> نہیں </string>
 
-    <string name="f1211"> Did LHW visit your household during your last pregnancy in CORONA LOCKDOWN? Probe for Yes </string>
+    <string name="f1211"> F121a:\t کیا گزشتہ حمل کے دوران (ایل ایچ ڈبلیو) لیڈی ہیلتھ ورکر نے کرونا کی وبا کے دوران آپ کے گھر کا دورہ کیا تھا ؟ </string>
     <string name="f1211a"> Yes </string>
     <string name="f1211b"> No </string>
 
-    <string name="f1212"> لیڈی ہیلتھ ورکر کا وزٹ نہیں کرنے کا سبب کیا تھا؟ </string>
+    <string name="f1212"> F121b:\t لیڈی ہیلتھ ورکر کا وزٹ نہیں کرنے کا سبب کیا تھا ؟ </string>
     <string name="f1212a"> ایل ایچھ ڈبلیو اکثر کرکے نہیں آتی </string>
-    <string name="f1212b"> ایل ایچھ ڈبلیوکرونا کی وجہ سےوزٹ نہیں کرسکی </string>
-    <string name="f1212c"> ایل ایچھ ڈبلیوآئی مگر ہم نے گھر میں آنے نہیں دیا </string>
-    <string name="f1212d"> ایل ایچھ ڈبلیونے ماسک نہیں پہنا ہوا تھا </string>
+    <string name="f1212b"> ایل ایچھ ڈبلیو کرونا کی وجہ سے وزٹ نہیں کر سکی </string>
+    <string name="f1212c"> ایل ایچھ ڈبلیو آئی مگر ہم نے گھر میں آنے نہیں دیا </string>
+    <string name="f1212d"> ایل ایچھ ڈبلیو نے ماسک نہیں پہنا ہوا تھا </string>
     <string name="f1212e"> کرونا کا ڈریا خوف </string>
     <string name="f1212f"> سماجی مفاصلا </string>
     <string name="f1212g"> حفاظتی سامان گھر پر موجود نہیں تھا </string>
-
-
 
 
     <string name="f122"> F122:\t گزشتہ حمل کےدوران آپ کےحمل کی دیکھ بھال کا ایک حصہ ہونے کےناتے،(ایل ایچ ڈبلیو) لیڈی ہیلتھ ورکرنے کتنی بار آپکے گھرکادورہ کیاتھا؟ </string>
@@ -480,7 +478,7 @@
     <string name="f123e"> پیدائش سے پہلے تیاری کی مشاورت </string>
     <string name="f123f"> فولاد یا آئرن کی گولیاں فراہم کرنا </string>
     <string name="f123g"> زچگی کے دوران خطرناک علامات کی آگاہی دینا </string>
-    <string name="f123h"> کرونا کی احتیاطی تدابیر کےبارے میں معلومات </string>
+    <string name="f123h"> کرونا کی احتیاطی تدابیر کے بارے میں معلومات </string>
     <string name="f12396"> Others specify </string>
 
     <string name="f124"> F124:\t کیاآپ نے(نام)کی پیدائش سےقبل اپنےحمل کے دوران خطرناک علامات/مسائل کے بارے میں معلومات حاصل کی تھیں؟ </string>
@@ -528,17 +526,17 @@
     <string name="f130b"> ہسپتال کے عملے کا رویہ صحیح نہیں تھا </string>
     <string name="f130c"> ہسپتال میں کام بند تھا </string>
     <string name="f130d"> مرکز صحت بہت دور تھا </string>
-    <string name="f130e"> کوئی مرد/شوہر مرکز صحت لے جانے کے لیئے موجود نہیں تھا </string>
+    <string name="f130e"> کوئی مرد / شوہر مرکز صحت لے جانے کے لیئے موجود نہیں تھا </string>
     <string name="f130f"> ناقص معیار کی خدمات </string>
     <string name="f130g"> مرکز صحت میں کوئی خاتون ڈاکٹر دستیاب نہیں </string>
     <string name="f130h"> ضروری نہیں سمجھا </string>
     <string name="f130i"> علاج مہنگا ہے </string>
     <string name="f130j"> ہسپتال کرونا کی وجہ سے بند تھا </string>
-    <string name="f130k"> کرونا کا ڈریا خوف </string>
+    <string name="f130k"> کرونا کا ڈر یا خوف </string>
     <string name="f130l"> سماجی مفاصلہ </string>
     <string name="f130m"> کرونا کے لاک ڈائون کی وجہ سے سواری نہیں تھی </string>
     <string name="f130n"> حفاظتی سامان (ماسک، دستانے) گھر پر موجود نہیں تھے </string>
-    <string name="f130o"> ڈاکٹر احتیاطی تدابیر پر عمل نہیں کر رہا تھا (ماسک اور دستانے نہیں پہنےہوئے تھے) </string>
+    <string name="f130o"> ڈاکٹر احتیاطی تدابیر پر عمل نہیں کر رہا تھا (ماسک اور دستانے نہیں پہنے ہوئے تھے) </string>
 
 
     <string name="f131"> F131:\t آپ (نام) کی پیدائش سے قبل حمل کے دوران پیش آنے والی اوپر بیان کی گئی علامات / مسائل کی دیکھ بھال کے لئے کہاں گئے تھے ؟ </string>
@@ -564,7 +562,7 @@
     <string name="f134e"> کلین ڈیلیوری کٹ کا بندوبست </string>
     <string name="f134f"> خون کا بندوبست </string>
     <string name="f134g"> کوئی اقدامات یا تیاری نہیں کی تھی </string>
-    <string name="f134h"> کرونا کی وجہ سےکوئی تیاری نہیں کی </string>
+    <string name="f134h"> کرونا کی وجہ سے کوئی تیاری نہیں کی </string>
 
     <string name="tgheading"> SECTION G: DELIVERY PREPAREDNESS AND EXPERIENCE </string>
     <string name="g101"> G101:\t کیا آپکو (نام) کی متوقع تاریخ پیدائش معلوم تھی ؟ </string>
@@ -577,7 +575,7 @@
     <string name="g102c"> نجی مرکز صحت </string>
     <string name="g102d"> رفاہی ادارہ یا مرکز صحت </string>
     <string name="g102e"> مرکز صحت جاتے ہوئے راستے میں </string>
-    <string name="g102f"> پیدائش اسٹیشن ( کمیونیٹی مڈوائف ) </string>
+    <string name="g102f"> میٹرنٹی ہوم </string>
 
     <string name="g103"> G103:\t آپ نے (نام) کی پیدائش مرکز صحت پر کیوں نہیں کروائی ؟ </string>
     <string name="g103hint"> اگر زچگی گھر میں ہوئی تھی۔ کسی اور وجہ کی نشاندہی کرنے کے لئے تحقیق کریں۔ بتائے گئے تمام جوابات ریکارڈ کریں۔ </string>
@@ -948,10 +946,10 @@
     <string name="h131a"> ہاں </string>
     <string name="h131b"> نہیں </string>
 
-    <string name="h1311"> یا آپ(نام) کو حفاظتی ٹیکےکیوں نہیں لگوائے؟ </string>
+    <string name="h1311"> H131a:\t یا آپ (نام) کو حفاظتی ٹیکے کیوں نہیں لگوائے ؟ </string>
     <string name="h1311a"> اتنا اہم نہیں تھا </string>
     <string name="h1311b"> ہسپتال کرونا کی وجہ سے بند تھا </string>
-    <string name="h1311c"> کرونا کا ڈریا خوف </string>
+    <string name="h1311c"> کرونا کا ڈر یا خوف </string>
     <string name="h1311d"> سماجی مفاصلہ </string>
     <string name="h1311e"> کرونا کے لاک ڈائون کی وجہ سے سواری نہیں تھی </string>
     <string name="h1311f"> حفاظتی سامان (ماسک، دستانے) گھر پر موجود نہیں تھے </string>
@@ -963,12 +961,12 @@
     <string name="h132c"> زچگی کسی اور علاقہ میں ہوئی تھی </string>
 
 
-    <string name="h1321"> لیڈی ہیلتھ ورکر کا وزٹ نہیں کرنے کا سبب کیا تھا؟ </string>
-    <string name="h1321a"> ایل ایچھ ڈبلیو اکثر کرکے نہیں آتی </string>
-    <string name="h1321b"> ایل ایچھ ڈبلیوکرونا کی وجہ سےوزٹ نہیں کرسکی </string>
-    <string name="h1321c"> ایل ایچھ ڈبلیوآئی مگر ہم نے گھر میں آنے نہیں دیا </string>
-    <string name="h1321d"> ایل ایچھ ڈبلیونے ماسک نہیں پہنا ہوا تھا </string>
-    <string name="h1321e"> کرونا کا ڈریا خوف </string>
+    <string name="h1321"> H132a:\t لیڈی ہیلتھ ورکر کا وزٹ نہیں کرنے کا سبب کیا تھا ؟ </string>
+    <string name="h1321a"> ایل ایچھ ڈبلیو اکثر وزٹ پر نہیں آتی </string>
+    <string name="h1321b"> ایل ایچھ ڈبلیو کرونا کی وجہ سے وزٹ نہیں کرسکی </string>
+    <string name="h1321c"> ایل ایچھ ڈبلیو آئی مگر ہم نے گھر میں آنے نہیں دیا </string>
+    <string name="h1321d"> ایل ایچھ ڈبلیو نے ماسک نہیں پہنا ہوا تھا </string>
+    <string name="h1321e"> کرونا کا ڈر یا خوف </string>
     <string name="h1321f"> سماجی مفاصلا </string>
     <string name="h1321g"> حفاظتی سامان گھر پر موجود نہیں تھا </string>
 
@@ -982,7 +980,7 @@
     <string name="h133f"> پولیو کے قطرے پلوائے </string>
     <string name="h133g"> ماں کو دودھ پلانے کا صحیح طریقہ بتایا </string>
     <string name="h133h"> خطرناک علامات کے بارے میں بتایا </string>
-    <string name="h133i"> کرونا کی احتیاطی تدابیر کےبارے میں معلومات </string>
+    <string name="h133i"> کرونا کی احتیاطی تدابیر کے بارے میں معلومات </string>
 
     <string name="h134"> H134:\t کیا آپ نوزائیدہ کو پیش آنے والی خطرناک علامات / مسائل کے بارے میں جانتی ہیں ؟ </string>
     <string name="h134a"> ہاں </string>
@@ -1012,7 +1010,7 @@
     <string name="h137a"> ہاں </string>
     <string name="h137b"> نہیں </string>
 
-    <string name="h1371"> کیا آپ(نام) کو حفاظتی ٹیکےکیوں نہیں لگوائے؟ </string>
+    <string name="h1371"> H137a:\t کیا آپ (نام) کو حفاظتی ٹیکے کیوں نہیں لگوائے ؟ </string>
     <string name="h1371a"> اتنا اہم نہیں تھا </string>
     <string name="h1371b"> ہسپتال کرونا کی وجہ سے بند تھا </string>
     <string name="h1371c"> کرونا کا ڈریا خوف </string>
@@ -1053,7 +1051,7 @@
     <string name="h204a"> سرکاری مرکز صحت میں </string>
     <string name="h204b"> نجی مرکز صحت میں </string>
     <string name="h204c"> رفاہی ادارے یا رفاہی مرکز صحت میں </string>
-    <string name="h204d"> پیدائش اسٹیشن </string>
+    <string name="h204d"> میٹرنٹی ہوم </string>
 
     <string name="h205"> H205:\t آپ کا پہلا طبی معائنہ کس نے کیا تھا ؟ </string>
     <string name="h205a"> ڈاکٹر </string>
@@ -1089,12 +1087,12 @@
     <string name="h209a"> ہاں </string>
     <string name="h209b"> نہیں </string>
 
-    <string name="h2091"> لیڈی ہیلتھ ورکر کا وزٹ نہیں کرنے کا سبب کیا تھا؟ </string>
-    <string name="h2091a"> ایل ایچھ ڈبلیو اکثر کرکے نہیں آتی </string>
-    <string name="h2091b"> ایل ایچھ ڈبلیوکرونا کی وجہ سےوزٹ نہیں کرسکی </string>
-    <string name="h2091c"> ایل ایچھ ڈبلیوآئی مگر ہم نے گھر میں آنے نہیں دیا </string>
-    <string name="h2091d"> ایل ایچھ ڈبلیونے ماسک نہیں پہنا ہوا تھا </string>
-    <string name="h2091e"> کرونا کا ڈریا خوف </string>
+    <string name="h2091"> H209a:\t لیڈی ہیلتھ ورکر کا وزٹ نہیں کرنے کا سبب کیا تھا ؟ </string>
+    <string name="h2091a"> ایل ایچھ ڈبلیو اکثر وزٹ پر نہیں آتی </string>
+    <string name="h2091b"> ایل ایچھ ڈبلیوکرونا کی وجہ سے وزٹ نہیں کرسکی </string>
+    <string name="h2091c"> ایل ایچھ ڈبلیو آئی مگر ہم نے گھر میں آنے نہیں دیا </string>
+    <string name="h2091d"> ایل ایچھ ڈبلیو نے ماسک نہیں پہنا ہوا تھا </string>
+    <string name="h2091e"> کرونا کا ڈر یا خوف </string>
     <string name="h2091f"> سماجی مفاصلا </string>
     <string name="h2091g"> حفاظتی سامان گھر پر موجود نہیں تھا </string>
 
@@ -1115,7 +1113,7 @@
     <string name="h211g"> معائنہ کے لئے مرکز صحت جانے کا مشورہ </string>
     <string name="h211h"> دودھ پلانے کے فوائد </string>
     <string name="h211i"> خاندانی منصوبہ بندی کے بارے میں مشورہ </string>
-    <string name="h211j"> کرونا کی وبا کی احتیاطی تدابیر کےبارے میں معلومات </string>
+    <string name="h211j"> کرونا کی وبا کی احتیاطی تدابیر کے بارے میں معلومات </string>
 
 
     <string name="h212"> H212:\t لیڈی ہیلتھ ورکر نے آپ کے گھر کے دورے میں کتنا وقت گزارا ؟ </string>
@@ -1130,7 +1128,7 @@
     <string name="h214b"> نہیں ،میں نہیں جانتی </string>
     <string name="h214c"> ہاں حصہ لیا تھا </string>
     <string name="h214d"> کبھی حصہ نہیں لیا </string>
-    <string name="h214e"> کرونا کی وجہ سے مٹینگ نہیں ہوئی</string>
+    <string name="h214e"> کرونا کی وجہ سے مٹینگ نہیں ہوئی </string>
 
     <string name="h215"> H215:\t غریب اور پسماندہ لوگوں کی صحت کے لیئے معاشی مدد کا ذرائع کیا ہے ؟ </string>
     <string name="h215a"> سماجی ادارہ </string>
@@ -1144,7 +1142,7 @@
     <string name="h216b"> نہیں </string>
     <string name="h216c"> کبھی سنا نہیں اس کے بارے میں </string>
 
-    <string name="h2161"> شمولیت نہیں کرنے کا سبب کیا تھا؟ </string>
+    <string name="h2161"> شمولیت نہیں کرنے کا سبب کیا تھا ؟ </string>
     <string name="h2161a"> اتنا اہم نہیں تھا </string>
     <string name="h2161b"> ہسپتال کرونا کی وجہ سے بند تھا </string>
     <string name="h2161c"> کرونا کا ڈریا خوف </string>
