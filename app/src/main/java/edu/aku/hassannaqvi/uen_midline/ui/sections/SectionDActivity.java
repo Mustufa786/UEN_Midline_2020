@@ -70,10 +70,6 @@ public class SectionDActivity extends AppCompatActivity {
             bi.fldGrpSectionD02.setVisibility(View.GONE);
             fmc = new FamilyMembersContract();
         } else {
-            /*bi.d102Name.setText(new StringBuilder(fmc.getName().toUpperCase()).append("\n")
-                    .append(getResources().getString(R.string.d101name))
-                    .append(":")
-                    .append(fmc.getSerialno()));*/
             bi.d102Name.setText(new StringBuilder(fmc.getName()));
             bi.d102Num.setText(new StringBuilder(fmc.getSerialno()));
             bi.fldGrpSectionD01.setVisibility(View.GONE);
@@ -268,16 +264,16 @@ public class SectionDActivity extends AppCompatActivity {
         else {
             if (!Validator.emptyCheckingContainer(this, bi.fldGrpSectionD))
                 return false;
+            if (!dtFlag) {
+                Toast.makeText(this, "Invalid date!", Toast.LENGTH_SHORT).show();
+                return false;
+            }
             if (!Validator.emptyEditTextPicker(this, bi.d109))
                 return false;
             if (!checkingParentsAge()) {
                 String msg = "Requires difference of 10Years from parent age!!";
                 Toast.makeText(this, msg, Toast.LENGTH_SHORT).show();
                 bi.d109.setError("Less then Parent Age");
-                return false;
-            }
-            if (!dtFlag) {
-                Toast.makeText(this, "Invalid date!", Toast.LENGTH_SHORT).show();
                 return false;
             }
             return true;

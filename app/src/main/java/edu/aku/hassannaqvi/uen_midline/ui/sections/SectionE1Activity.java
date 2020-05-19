@@ -71,6 +71,10 @@ public class SectionE1Activity extends AppCompatActivity {
                     bi.e101a.setChecked(true);
                     bi.e101b.setEnabled(false);
                     bi.e102.setMinvalue(child_size);
+                } else {
+                    bi.e101.clearCheck();
+                    bi.e101b.setEnabled(true);
+                    bi.e102.setMinvalue(1);
                 }
             }
 

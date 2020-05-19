@@ -147,33 +147,6 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
-                <!-- e100  Spinner   -->
-                <androidx.cardview.widget.CardView
-                    android:id="@+id/fldGrpCVd107"
-                    style="@style/cardView">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal">
-
-                        <TextView
-                            style="@style/i_textview"
-                            android:layout_width="0dp"
-                            android:layout_weight="1"
-                            android:text="Child Name" />
-
-                        <Spinner
-                            android:id="@+id/e100"
-                            style="@style/spinner"
-                            android:layout_width="0dp"
-                            android:layout_margin="10dp"
-                            android:layout_weight="1" />
-
-                    </LinearLayout>
-
-                </androidx.cardview.widget.CardView>
-
                 <!-- e106  Title   -->
                 <androidx.cardview.widget.CardView
                     android:id="@+id/fldGrpCVd108"
@@ -350,10 +323,38 @@
 
                 </androidx.cardview.widget.CardView>
 
+                <!-- e100  Spinner   -->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/fldGrpCVd107"
+                    style="@style/cardView">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            style="@style/i_textview"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:text="Child Name" />
+
+                        <Spinner
+                            android:id="@+id/e100"
+                            style="@style/spinner"
+                            android:layout_width="0dp"
+                            android:layout_margin="10dp"
+                            android:layout_weight="1" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
                 <!-- e109  Input   -->
                 <androidx.cardview.widget.CardView
                     android:id="@+id/fldGrpCVe109"
-                    style="@style/cardView">
+                    style="@style/cardView"
+                    android:visibility="gone">
 
                     <LinearLayout
                         android:layout_width="match_parent"

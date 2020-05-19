@@ -79,19 +79,19 @@ public class SectionE2Activity extends AppCompatActivity {
 
                 bi.fldGrpCVd108.setVisibility(View.GONE);
                 bi.fldGrpCVe108.setVisibility(View.GONE);
-                bi.fldGrpCVe109.setVisibility(View.GONE);
+                bi.fldGrpCVd107.setVisibility(View.GONE);
                 bi.fldGrpCVe107.setVisibility(View.GONE);
                 bi.fldGrpCVe110.setVisibility(View.GONE);
                 Clear.clearAllFields(bi.fldGrpCVd108);
                 Clear.clearAllFields(bi.fldGrpCVe108);
-                Clear.clearAllFields(bi.fldGrpCVe109);
+                Clear.clearAllFields(bi.fldGrpCVd107);
                 Clear.clearAllFields(bi.fldGrpCVe107);
                 Clear.clearAllFields(bi.fldGrpCVe110);
                 bi.mainContainer2.setVisibility(View.VISIBLE);
             } else {
                 bi.fldGrpCVd108.setVisibility(View.VISIBLE);
                 bi.fldGrpCVe108.setVisibility(View.VISIBLE);
-                bi.fldGrpCVe109.setVisibility(View.VISIBLE);
+                bi.fldGrpCVd107.setVisibility(View.VISIBLE);
                 bi.fldGrpCVe107.setVisibility(View.VISIBLE);
                 bi.fldGrpCVe110.setVisibility(View.VISIBLE);
                 bi.mainContainer2.setVisibility(View.GONE);
@@ -107,12 +107,21 @@ public class SectionE2Activity extends AppCompatActivity {
                 bi.fldGrpCVe113.setVisibility(View.GONE);
                 bi.fldGrpCVe114.setVisibility(View.GONE);
                 bi.fldGrpCVe115.setVisibility(View.GONE);
+                bi.fldGrpCVd107.setVisibility(View.GONE);
+
+                bi.fldGrpCVe109.setVisibility(View.VISIBLE);
+
                 Clear.clearAllFields(bi.fldGrpCVe113);
                 Clear.clearAllFields(bi.fldGrpCVe114);
                 Clear.clearAllFields(bi.fldGrpCVe115);
+                Clear.clearAllFields(bi.fldGrpCVd107);
             } else {
                 bi.mainContainer2.setVisibility(View.GONE);
                 Clear.clearAllFields(bi.mainContainer2);
+                bi.fldGrpCVd107.setVisibility(View.VISIBLE);
+
+                bi.fldGrpCVe109.setVisibility(View.GONE);
+                Clear.clearAllFields(bi.fldGrpCVe109);
             }
 
 
@@ -140,6 +149,7 @@ public class SectionE2Activity extends AppCompatActivity {
         List<String> childLst = new ArrayList<String>() {
             {
                 add("....");
+                add("Not defined in List");
                 addAll(MainApp.selectedMWRAChildLst.getSecond());
             }
         };
@@ -150,8 +160,14 @@ public class SectionE2Activity extends AppCompatActivity {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 SectionE2Activity.this.position = position;
+                bi.fldGrpCVe109.setVisibility(View.GONE);
+                bi.e109.setText(null);
                 if (position == 0) return;
-                fmc_child = mainVModel.getMemberInfo(MainApp.selectedMWRAChildLst.getFirst().get(bi.e100.getSelectedItemPosition() - 1));
+                if (position == 1) {
+                    bi.fldGrpCVe109.setVisibility(View.VISIBLE);
+                    return;
+                }
+                fmc_child = mainVModel.getMemberInfo(MainApp.selectedMWRAChildLst.getFirst().get(position - 2));
             }
 
             @Override
@@ -281,6 +297,12 @@ public class SectionE2Activity extends AppCompatActivity {
 
         json.put("e109", bi.e109.getText().toString());
 
+        if (position != 1) {
+            json.put("ch_serial", fmc_child.getSerialno());
+            json.put("ch_name", fmc_child.getName());
+            json.put("ch_uid", fmc_child.getUid());
+        }
+
         json.put("e110a", bi.e110a.getText().toString());
         json.put("e110b", bi.e110b.getText().toString());
         json.put("e110c", bi.e110c.getText().toString());
@@ -316,8 +338,17 @@ public class SectionE2Activity extends AppCompatActivity {
         mwraPre.setsE2(String.valueOf(json));
 
         // Deleting item in list
-        MainApp.selectedMWRAChildLst.getFirst().remove(position - 1);
-        MainApp.selectedMWRAChildLst.getSecond().remove(position - 1);
+        if (position != 1) {
+            MainApp.selectedMWRAChildLst.getFirst().remove(position - 1);
+            MainApp.selectedMWRAChildLst.getSecond().remove(position - 1);
+        }
+
+        // Update Corona Check
+        if (MainApp.selectedKishMWRA.getSerialno().equals(mwraContract.getFm_serial()) && !MainApp.selectedKishMWRA.isCoronaCase()) {
+            if (bi.e106c.getVisibility() == View.VISIBLE) {
+                MainApp.selectedKishMWRA.setCoronaCase(Integer.parseInt(bi.e106c.getText().toString()) == 2020);
+            }
+        }
 
     }
 
