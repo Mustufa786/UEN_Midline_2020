@@ -29,6 +29,9 @@ public class FamilyMembersContract {
     private String fName;
     private String available;
 
+    //For corona questions
+    private boolean isCoronaCase;
+
     public FamilyMembersContract() {
     }
 
@@ -77,6 +80,14 @@ public class FamilyMembersContract {
         }
 
         return json;
+    }
+
+    public boolean isCoronaCase() {
+        return isCoronaCase;
+    }
+
+    public void setCoronaCase(boolean coronaCase) {
+        isCoronaCase = coronaCase;
     }
 
     public String get_id() {

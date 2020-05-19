@@ -66,7 +66,7 @@ public class SectionI1Activity extends AppCompatActivity {
         List<String> reponList = new ArrayList<String>() {
             {
                 add("....");
-                addAll(SectionI1Activity.this.resList.getSecond());
+                addAll(resList.getSecond());
             }
         };
 
@@ -85,7 +85,7 @@ public class SectionI1Activity extends AppCompatActivity {
                     populateRespondentSpinner();
                 } else {
                     bi.respondentSpinner.setVisibility(View.GONE);
-                    res_child = mainVModel.getMemberInfo(Integer.valueOf(fmc_child.getSerialno()));
+                    res_child = mainVModel.getMemberInfo(Integer.parseInt(fmc_child.getSerialno()));
                 }
 
             }

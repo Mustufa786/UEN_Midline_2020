@@ -3,28 +3,42 @@ package edu.aku.hassannaqvi.uen_midline.ui.sections;
 import android.app.Dialog;
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.Editable;
+import android.text.TextUtils;
+import android.text.TextWatcher;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
 
+import com.edittextpicker.aliazaz.EditTextPicker;
 import com.validatorcrawler.aliazaz.Clear;
 import com.validatorcrawler.aliazaz.Validator;
 
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import edu.aku.hassannaqvi.uen_midline.CONSTANTS;
 import edu.aku.hassannaqvi.uen_midline.R;
+import edu.aku.hassannaqvi.uen_midline.contracts.FamilyMembersContract;
 import edu.aku.hassannaqvi.uen_midline.contracts.MWRAContract;
 import edu.aku.hassannaqvi.uen_midline.contracts.MWRA_PREContract;
 import edu.aku.hassannaqvi.uen_midline.core.DatabaseHelper;
 import edu.aku.hassannaqvi.uen_midline.core.MainApp;
 import edu.aku.hassannaqvi.uen_midline.databinding.ActivitySectionE2Binding;
+import edu.aku.hassannaqvi.uen_midline.datecollection.AgeModel;
+import edu.aku.hassannaqvi.uen_midline.datecollection.DateRepository;
 import edu.aku.hassannaqvi.uen_midline.utils.Util;
+
+import static edu.aku.hassannaqvi.uen_midline.ui.list_activity.FamilyMembersListActivity.mainVModel;
 
 public class SectionE2Activity extends AppCompatActivity {
 
@@ -32,7 +46,9 @@ public class SectionE2Activity extends AppCompatActivity {
     private MWRAContract mwraContract;
     MWRA_PREContract mwraPre;
     public static int noOfPreCounter = 0;
-
+    boolean imFlag = false;
+    int position;
+    private FamilyMembersContract fmc_child;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,6 +57,7 @@ public class SectionE2Activity extends AppCompatActivity {
         bi.setCallback(this);
 
         setUIComponent();
+        setChildSpinner();
     }
 
     private void setUIComponent() {
@@ -56,13 +73,6 @@ public class SectionE2Activity extends AppCompatActivity {
         bi.e105.setOnCheckedChangeListener(((radioGroup, i) -> {
 
             MainApp.twinFlag = i == bi.e105c.getId();
-//            if (i == bi.e105e.getId()) {
-//                bi.container1.setVisibility(View.GONE);
-//                bi.container2.setVisibility(View.GONE);
-//            } else {
-//                bi.container1.setVisibility(View.VISIBLE);
-//                bi.container2.setVisibility(View.VISIBLE);
-//            }
             if (i == bi.e105b.getId()
                     || i == bi.e105e.getId()
                     || i == bi.e105f.getId()) {
@@ -78,21 +88,12 @@ public class SectionE2Activity extends AppCompatActivity {
                 Clear.clearAllFields(bi.fldGrpCVe107);
                 Clear.clearAllFields(bi.fldGrpCVe110);
                 bi.mainContainer2.setVisibility(View.VISIBLE);
-
-              /*  bi.container1.setVisibility(View.GONE);
-                bi.container2.setVisibility(View.VISIBLE);
-                bi.container3.setVisibility(View.VISIBLE);
-                bi.fldGrpCVe110.setVisibility(View.GONE);
-                Clear.clearAllFields(bi.fldGrpCVe110);
-                Clear.clearAllFields(bi.container1);*/
             } else {
                 bi.fldGrpCVd108.setVisibility(View.VISIBLE);
                 bi.fldGrpCVe108.setVisibility(View.VISIBLE);
                 bi.fldGrpCVe109.setVisibility(View.VISIBLE);
                 bi.fldGrpCVe107.setVisibility(View.VISIBLE);
                 bi.fldGrpCVe110.setVisibility(View.VISIBLE);
-                /*bi.container1.setVisibility(View.VISIBLE);*/
-                /*bi.fldGrpCVe110.setVisibility(View.VISIBLE);*/
                 bi.mainContainer2.setVisibility(View.GONE);
             }
 
@@ -130,6 +131,34 @@ public class SectionE2Activity extends AppCompatActivity {
         bi.e113y.setMaxvalue(CONSTANTS.MAXYEAR);
         bi.e113y.setMinvalue(CONSTANTS.MINYEAR);
 
+        editTextImplementation(new EditTextPicker[]{bi.e106a, bi.e106b, bi.e106c});
+
+    }
+
+    private void setChildSpinner() {
+
+        List<String> childLst = new ArrayList<String>() {
+            {
+                add("....");
+                addAll(MainApp.selectedMWRAChildLst.getSecond());
+            }
+        };
+
+        bi.e100.setAdapter(new ArrayAdapter<>(this, android.R.layout.simple_dropdown_item_1line, childLst));
+
+        bi.e100.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                SectionE2Activity.this.position = position;
+                if (position == 0) return;
+                fmc_child = mainVModel.getMemberInfo(MainApp.selectedMWRAChildLst.getFirst().get(bi.e100.getSelectedItemPosition() - 1));
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {
+
+            }
+        });
     }
 
     public void BtnContinue() {
@@ -177,32 +206,17 @@ public class SectionE2Activity extends AppCompatActivity {
         dialog.show();
         dialog.getWindow().setAttributes(params);
 
-        dialog.findViewById(R.id.btnOk).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                clearContainer();
-                dialog.dismiss();
+        dialog.findViewById(R.id.btnOk).setOnClickListener(view -> {
+            clearContainer();
+            dialog.dismiss();
 
-            }
         });
 
     }
 
-    /*    private void clearContainer() {
-            Clear.clearAllFields(bi.container1);
-            Clear.clearAllFields(bi.mainContainer2);
-            Clear.clearAllFields(bi.e104015, false);
-            bi.e104b.setChecked(true);
-            bi.e105c.setChecked(true);
-            MainApp.twinFlag = false;
-
-        }*/
     private void clearContainer() {
         Clear.clearAllFields(bi.container1);
         Clear.clearAllFields(bi.mainContainer2);
-        /*Clear.clearAllFields(bi.e104015, false);
-        bi.e104b.setChecked(true);
-        bi.e105c.setChecked(true);*/
         bi.e104015.setVisibility(View.GONE);
         MainApp.twinFlag = false;
     }
@@ -222,7 +236,6 @@ public class SectionE2Activity extends AppCompatActivity {
     }
 
     private void SaveDraft() throws JSONException {
-
 
         mwraPre = new MWRA_PREContract();
         mwraPre.set_UUID(MainApp.fc.get_UID());
@@ -302,13 +315,95 @@ public class SectionE2Activity extends AppCompatActivity {
 
         mwraPre.setsE2(String.valueOf(json));
 
+        // Deleting item in list
+        MainApp.selectedMWRAChildLst.getFirst().remove(position - 1);
+        MainApp.selectedMWRAChildLst.getSecond().remove(position - 1);
+
+    }
+
+
+    public void editTextImplementation(EditTextPicker[] editTextsArray) {
+        if (editTextsArray.length != 3) return;
+        EditTextPicker editTextPicker01 = editTextsArray[0];
+        EditTextPicker editTextPicker02 = editTextsArray[1];
+        EditTextPicker editTextPicker03 = editTextsArray[2];
+
+        for (EditTextPicker item : new EditTextPicker[]{editTextPicker01, editTextPicker02})
+            item.addTextChangedListener(new TextWatcher() {
+                @Override
+                public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+
+                }
+
+                @Override
+                public void onTextChanged(CharSequence s, int start, int before, int count) {
+                    editTextPicker03.setText(null);
+                    editTextPicker03.setError(null);
+                }
+
+                @Override
+                public void afterTextChanged(Editable s) {
+
+                }
+            });
+
+        editTextPicker03.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+
+            }
+
+            @Override
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+                String txt01, txt02, txt03;
+                editTextPicker01.setEnabled(true);
+                editTextPicker02.setEnabled(true);
+                if (!TextUtils.isEmpty(editTextPicker01.getText()) && !TextUtils.isEmpty(editTextPicker02.getText()) && !TextUtils.isEmpty(editTextPicker03.getText())) {
+                    txt01 = editTextPicker01.getText().toString();
+                    txt02 = editTextPicker02.getText().toString();
+                    txt03 = editTextPicker03.getText().toString();
+                } else return;
+                if (!editTextPicker01.isRangeTextValidate() || txt01.trim().equals("00") || !editTextPicker02.isRangeTextValidate() || !editTextPicker03.isRangeTextValidate())
+                    return;
+                int day = txt01.equals("00") ? 15 : Integer.parseInt(txt01);
+                int month = Integer.parseInt(txt02);
+                int year = Integer.parseInt(txt03);
+                AgeModel age = DateRepository.Companion.getCalculatedAge(year, month, day);
+                if (age == null) {
+                    editTextPicker03.setError("Invalid date!!");
+                    imFlag = false;
+                } else {
+                    imFlag = true;
+                    editTextPicker01.setEnabled(false);
+                    editTextPicker02.setEnabled(false);
+                }
+            }
+
+            @Override
+            public void afterTextChanged(Editable s) {
+
+            }
+        });
+
 
     }
 
     private boolean formValidation() {
 
-        return Validator.emptyCheckingContainer(this, bi.fldGrpSectionE2);
+        if (!Validator.emptyCheckingContainer(this, bi.fldGrpSectionE2))
+            return false;
 
+        if (bi.e106c.getVisibility() == View.VISIBLE) {
+            if (!imFlag) {
+                Toast.makeText(this, "Invalid date!", Toast.LENGTH_SHORT).show();
+                return false;
+            }
+        }
+
+        if (bi.e110a.getVisibility() == View.VISIBLE)
+            return !(Integer.parseInt(bi.e110a.getText().toString()) == 0 && Integer.parseInt(bi.e110b.getText().toString()) == 0 && Integer.parseInt(bi.e110c.getText().toString()) == 0);
+
+        return true;
     }
 
     public void BtnEnd() {
