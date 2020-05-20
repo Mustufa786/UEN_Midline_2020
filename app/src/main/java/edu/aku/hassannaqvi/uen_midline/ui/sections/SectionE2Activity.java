@@ -337,17 +337,17 @@ public class SectionE2Activity extends AppCompatActivity {
 
         mwraPre.setsE2(String.valueOf(json));
 
+        // Update Corona Check
+        if (MainApp.selectedKishMWRA.getSerialno().equals(mwraContract.getFm_serial()) && !MainApp.selectedKishMWRA.isCoronaCase()) {
+            if (bi.fldGrpCVd108.getVisibility() == View.VISIBLE) {
+                MainApp.selectedKishMWRA.setCoronaCase(Integer.parseInt(bi.e106c.getText().toString()) == 2020);
+            }
+        }
+
         // Deleting item in list
         if (position != 1) {
             MainApp.selectedMWRAChildLst.getFirst().remove(position - 1);
             MainApp.selectedMWRAChildLst.getSecond().remove(position - 1);
-        }
-
-        // Update Corona Check
-        if (MainApp.selectedKishMWRA.getSerialno().equals(mwraContract.getFm_serial()) && !MainApp.selectedKishMWRA.isCoronaCase()) {
-            if (bi.e106c.getVisibility() == View.VISIBLE) {
-                MainApp.selectedKishMWRA.setCoronaCase(Integer.parseInt(bi.e106c.getText().toString()) == 2020);
-            }
         }
 
     }
@@ -424,14 +424,14 @@ public class SectionE2Activity extends AppCompatActivity {
         if (!Validator.emptyCheckingContainer(this, bi.fldGrpSectionE2))
             return false;
 
-        if (bi.e106c.getVisibility() == View.VISIBLE) {
+        if (bi.fldGrpCVd108.getVisibility() == View.VISIBLE) {
             if (!imFlag) {
                 Toast.makeText(this, "Invalid date!", Toast.LENGTH_SHORT).show();
                 return false;
             }
         }
 
-        if (bi.e110a.getVisibility() == View.VISIBLE)
+        if (bi.mainContainer2.getVisibility() == View.VISIBLE)
             return !(Integer.parseInt(bi.e110a.getText().toString()) == 0 && Integer.parseInt(bi.e110b.getText().toString()) == 0 && Integer.parseInt(bi.e110c.getText().toString()) == 0);
 
         return true;

@@ -2,6 +2,7 @@ package edu.aku.hassannaqvi.uen_midline.ui.sections;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -31,6 +32,21 @@ public class SectionFActivity extends AppCompatActivity {
         bi.setCallback(this);
 
         setUIComponent();
+        setCoronaFields();
+    }
+
+    private void setCoronaFields() {
+
+        if (!MainApp.selectedKishMWRA.isCoronaCase()) {
+            bi.f101aj.setVisibility(View.GONE);
+            bi.f101ak.setVisibility(View.GONE);
+            bi.f101al.setVisibility(View.GONE);
+            bi.f101am.setVisibility(View.GONE);
+            bi.f101an.setVisibility(View.GONE);
+            bi.f101ao.setVisibility(View.GONE);
+
+            bi.f102d.setVisibility(View.GONE);
+        }
     }
 
     void setUIComponent() {
