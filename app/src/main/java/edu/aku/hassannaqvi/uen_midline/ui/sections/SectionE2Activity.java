@@ -434,7 +434,7 @@ public class SectionE2Activity extends AppCompatActivity {
             }
         }
 
-        if (!(bi.e105b.isChecked() || bi.e105e.isChecked() || bi.e105f.isChecked()))
+        if (!(bi.e105b.isChecked() || bi.e105e.isChecked() || bi.e105f.isChecked() || bi.e108a.isChecked()))
             if ((Integer.parseInt(bi.e110a.getText().toString()) == 0 && Integer.parseInt(bi.e110b.getText().toString()) == 0 && Integer.parseInt(bi.e110c.getText().toString()) == 0)) {
                 Toast.makeText(this, "Invalid Date of Death!", Toast.LENGTH_SHORT).show();
                 return false;
