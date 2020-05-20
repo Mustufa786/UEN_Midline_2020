@@ -95,6 +95,7 @@ public class SectionE2Activity extends AppCompatActivity {
                 bi.fldGrpCVe107.setVisibility(View.VISIBLE);
                 bi.fldGrpCVe110.setVisibility(View.VISIBLE);
                 bi.mainContainer2.setVisibility(View.GONE);
+                Clear.clearAllFields(bi.mainContainer2);
             }
 
         }));
@@ -102,7 +103,16 @@ public class SectionE2Activity extends AppCompatActivity {
 
         bi.e108.setOnCheckedChangeListener(((radioGroup, i) -> {
 
-            if (i == bi.e108b.getId()) {
+            if (i == bi.e108a.getId()) {
+
+                bi.mainContainer2.setVisibility(View.GONE);
+                Clear.clearAllFields(bi.mainContainer2);
+                bi.fldGrpCVd107.setVisibility(View.VISIBLE);
+
+                bi.fldGrpCVe109.setVisibility(View.GONE);
+                Clear.clearAllFields(bi.fldGrpCVe109);
+            } else {
+
                 bi.mainContainer2.setVisibility(View.VISIBLE);
                 bi.fldGrpCVe113.setVisibility(View.GONE);
                 bi.fldGrpCVe114.setVisibility(View.GONE);
@@ -115,13 +125,7 @@ public class SectionE2Activity extends AppCompatActivity {
                 Clear.clearAllFields(bi.fldGrpCVe114);
                 Clear.clearAllFields(bi.fldGrpCVe115);
                 Clear.clearAllFields(bi.fldGrpCVd107);
-            } else {
-                bi.mainContainer2.setVisibility(View.GONE);
-                Clear.clearAllFields(bi.mainContainer2);
-                bi.fldGrpCVd107.setVisibility(View.VISIBLE);
 
-                bi.fldGrpCVe109.setVisibility(View.GONE);
-                Clear.clearAllFields(bi.fldGrpCVe109);
             }
 
 
@@ -432,7 +436,10 @@ public class SectionE2Activity extends AppCompatActivity {
         }
 
         if (bi.mainContainer2.getVisibility() == View.VISIBLE)
-            return !(Integer.parseInt(bi.e110a.getText().toString()) == 0 && Integer.parseInt(bi.e110b.getText().toString()) == 0 && Integer.parseInt(bi.e110c.getText().toString()) == 0);
+            if ((Integer.parseInt(bi.e110a.getText().toString()) == 0 && Integer.parseInt(bi.e110b.getText().toString()) == 0 && Integer.parseInt(bi.e110c.getText().toString()) == 0)) {
+                Toast.makeText(this, "Invalid Date of Death!", Toast.LENGTH_SHORT).show();
+                return false;
+            }
 
         return true;
     }
