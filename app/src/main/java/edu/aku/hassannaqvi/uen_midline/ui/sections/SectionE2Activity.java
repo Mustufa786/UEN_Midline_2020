@@ -103,26 +103,28 @@ public class SectionE2Activity extends AppCompatActivity {
 
         bi.e108.setOnCheckedChangeListener(((radioGroup, i) -> {
 
-            if (i == bi.e108b.getId()) {
-                bi.mainContainer2.setVisibility(View.VISIBLE);
-                bi.fldGrpCVe113.setVisibility(View.GONE);
-                bi.fldGrpCVe114.setVisibility(View.GONE);
-                bi.fldGrpCVe115.setVisibility(View.GONE);
-                bi.fldGrpCVd107.setVisibility(View.GONE);
-
-                bi.fldGrpCVe109.setVisibility(View.VISIBLE);
-
-                Clear.clearAllFields(bi.fldGrpCVe113);
-                Clear.clearAllFields(bi.fldGrpCVe114);
-                Clear.clearAllFields(bi.fldGrpCVe115);
-                Clear.clearAllFields(bi.fldGrpCVd107);
-            } else {
+            if (i == bi.e108a.getId()) {
                 bi.mainContainer2.setVisibility(View.GONE);
                 Clear.clearAllFields(bi.mainContainer2);
                 bi.fldGrpCVd107.setVisibility(View.VISIBLE);
 
                 bi.fldGrpCVe109.setVisibility(View.GONE);
                 Clear.clearAllFields(bi.fldGrpCVe109);
+            } else {
+                bi.mainContainer2.setVisibility(View.VISIBLE);
+                bi.fldGrpCVe113.setVisibility(View.GONE);
+                bi.fldGrpCVe114.setVisibility(View.GONE);
+                bi.fldGrpCVe115.setVisibility(View.GONE);
+                bi.fldGrpCVd107.setVisibility(View.GONE);
+
+                Clear.clearAllFields(bi.fldGrpCVe113);
+                Clear.clearAllFields(bi.fldGrpCVe114);
+                Clear.clearAllFields(bi.fldGrpCVe115);
+                Clear.clearAllFields(bi.fldGrpCVd107);
+
+                if (!(bi.e105b.isChecked() || bi.e105e.isChecked() || bi.e105f.isChecked()))
+                    bi.fldGrpCVe109.setVisibility(View.VISIBLE);
+
             }
 
 
@@ -432,7 +434,7 @@ public class SectionE2Activity extends AppCompatActivity {
             }
         }
 
-        if (bi.mainContainer2.getVisibility() == View.VISIBLE)
+        if (!(bi.e105b.isChecked() || bi.e105e.isChecked() || bi.e105f.isChecked()))
             if ((Integer.parseInt(bi.e110a.getText().toString()) == 0 && Integer.parseInt(bi.e110b.getText().toString()) == 0 && Integer.parseInt(bi.e110c.getText().toString()) == 0)) {
                 Toast.makeText(this, "Invalid Date of Death!", Toast.LENGTH_SHORT).show();
                 return false;
