@@ -184,7 +184,7 @@ public class SectionGActivity extends AppCompatActivity {
         //g125
         bi.g125.setOnCheckedChangeListener((group, checkedId) -> {
 
-            if (checkedId == bi.g125a.getId()) {
+            if (checkedId == bi.g125b.getId()) {
                 if (MainApp.selectedKishMWRA.isCoronaCase())
                     bi.fldGrpCVg1251.setVisibility(View.VISIBLE);
             } else {

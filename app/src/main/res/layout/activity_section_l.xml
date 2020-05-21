@@ -114,56 +114,41 @@
 
                     <RadioGroup
                         android:id="@+id/l1022"
-                        style="@style/radiogroup"
-                        android:orientation="horizontal">
+                        style="@style/radiogroup">
 
                         <RadioButton
                             android:id="@+id/l1022a"
                             style="@style/radiobutton"
-                            android:layout_width="0dp"
-                            android:layout_weight="1"
                             android:text="@string/l1022a" />
 
                         <RadioButton
                             android:id="@+id/l1022b"
                             style="@style/radiobutton"
-                            android:layout_width="0dp"
-                            android:layout_weight="1"
                             android:text="@string/l1022b" />
 
                         <RadioButton
                             android:id="@+id/l1022c"
                             style="@style/radiobutton"
-                            android:layout_width="0dp"
-                            android:layout_weight="1"
                             android:text="@string/l1022c" />
 
                         <RadioButton
                             android:id="@+id/l1022d"
                             style="@style/radiobutton"
-                            android:layout_width="0dp"
-                            android:layout_weight="1"
                             android:text="@string/l1022d" />
 
                         <RadioButton
                             android:id="@+id/l1022e"
                             style="@style/radiobutton"
-                            android:layout_width="0dp"
-                            android:layout_weight="1"
                             android:text="@string/l1022e" />
 
                         <RadioButton
                             android:id="@+id/l1022f"
                             style="@style/radiobutton"
-                            android:layout_width="0dp"
-                            android:layout_weight="1"
                             android:text="@string/l1022f" />
 
                         <RadioButton
                             android:id="@+id/l1022g"
                             style="@style/radiobutton"
-                            android:layout_width="0dp"
-                            android:layout_weight="1"
                             android:text="@string/l1022g" />
 
                     </RadioGroup>

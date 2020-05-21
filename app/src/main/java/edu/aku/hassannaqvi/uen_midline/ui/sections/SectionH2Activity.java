@@ -98,23 +98,32 @@ public class SectionH2Activity extends AppCompatActivity {
         bi.h209.setOnCheckedChangeListener((group, checkedId) -> {
 
             if (checkedId == bi.h209a.getId()) {
-                if (MainApp.selectedKishMWRA.isCoronaCase())
-                    bi.fldGrpCVh2091.setVisibility(View.VISIBLE);
                 bi.fldGrpCVh210.setVisibility(View.VISIBLE);
                 bi.fldGrpCVh211.setVisibility(View.VISIBLE);
                 bi.fldGrpCVh212.setVisibility(View.VISIBLE);
                 bi.fldGrpCVh213.setVisibility(View.VISIBLE);
-            } else {
                 Clear.clearAllFields(bi.fldGrpCVh2091);
+                bi.fldGrpCVh2091.setVisibility(View.GONE);
+            } else {
                 Clear.clearAllFields(bi.fldGrpCVh210);
                 Clear.clearAllFields(bi.fldGrpCVh211);
                 Clear.clearAllFields(bi.fldGrpCVh212);
                 Clear.clearAllFields(bi.fldGrpCVh213);
-                bi.fldGrpCVh2091.setVisibility(View.GONE);
                 bi.fldGrpCVh210.setVisibility(View.GONE);
                 bi.fldGrpCVh211.setVisibility(View.GONE);
                 bi.fldGrpCVh212.setVisibility(View.GONE);
                 bi.fldGrpCVh213.setVisibility(View.GONE);
+                if (MainApp.selectedKishMWRA.isCoronaCase())
+                    bi.fldGrpCVh2091.setVisibility(View.VISIBLE);
+            }
+        });
+
+        bi.h2091c.setOnCheckedChangeListener((buttonView, isChecked) -> {
+            if (isChecked)
+                bi.h2091check03.setVisibility(View.VISIBLE);
+            else {
+                Clear.clearAllFields(bi.h2091check03);
+                bi.h2091check03.setVisibility(View.GONE);
             }
         });
 

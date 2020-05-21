@@ -179,7 +179,7 @@ public class SectionH102Activity extends AppCompatActivity {
         //h131
         bi.h131.setOnCheckedChangeListener((group, checkedId) -> {
 
-            if (checkedId == bi.h131a.getId()) {
+            if (checkedId == bi.h131b.getId()) {
                 if (MainApp.selectedKishMWRA.isCoronaCase())
                     bi.fldGrpCVh1311.setVisibility(View.VISIBLE);
             } else {

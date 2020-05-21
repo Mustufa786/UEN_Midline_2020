@@ -39,7 +39,7 @@ public class SectionJ03Activity extends AppCompatActivity {
             bi.fldGrpCVj106.setVisibility(View.GONE);
         }
 
-        setCoronaFields();
+        //setCoronaFields();
     }
 
     private void setCoronaFields() {
