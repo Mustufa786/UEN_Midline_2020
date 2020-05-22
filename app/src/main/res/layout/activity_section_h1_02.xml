@@ -712,8 +712,7 @@
                 <!-- h1311  CheckBox   -->
                 <androidx.cardview.widget.CardView
                     android:id="@+id/fldGrpCVh1311"
-                    style="@style/cardView"
-                    android:visibility="@{h131b.checked ? View.VISIBLE : View.GONE}">
+                    style="@style/cardView">
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -814,8 +813,7 @@
                 <!-- h1321  CheckBox   -->
                 <androidx.cardview.widget.CardView
                     android:id="@+id/fldGrpCVh1321"
-                    style="@style/cardView"
-                    android:visibility="@{h132a.checked ? View.GONE : View.VISIBLE}">
+                    style="@style/cardView">
 
                     <LinearLayout
                         android:layout_width="match_parent"

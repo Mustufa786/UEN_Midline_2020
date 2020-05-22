@@ -33,6 +33,26 @@ public class SectionF02Activity extends AppCompatActivity {
         bi.setCallback(this);
 
         setUIComponent();
+        setCoronaFields();
+    }
+
+    private void setCoronaFields() {
+
+        if (!MainApp.selectedKishMWRA.isCoronaCase()) {
+            bi.fldGrpCVf1211.setVisibility(View.GONE);
+            bi.fldGrpCVf1212.setVisibility(View.GONE);
+
+            bi.f123h.setVisibility(View.GONE);
+
+            bi.f130j.setVisibility(View.GONE);
+            bi.f130k.setVisibility(View.GONE);
+            bi.f130l.setVisibility(View.GONE);
+            bi.f130m.setVisibility(View.GONE);
+            bi.f130n.setVisibility(View.GONE);
+            bi.f130o.setVisibility(View.GONE);
+
+            bi.f134h.setVisibility(View.GONE);
+        }
     }
 
     private void setUIComponent() {

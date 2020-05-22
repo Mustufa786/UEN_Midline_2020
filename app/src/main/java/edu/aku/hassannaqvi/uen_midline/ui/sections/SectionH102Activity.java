@@ -33,7 +33,20 @@ public class SectionH102Activity extends AppCompatActivity {
         bi.setCallback(this);
 
         setupSkips();
+        setCoronaFields();
 
+    }
+
+    private void setCoronaFields() {
+
+        if (!MainApp.selectedKishMWRA.isCoronaCase()) {
+            bi.fldGrpCVh1311.setVisibility(View.GONE);
+
+            bi.h133i.setVisibility(View.GONE);
+
+            bi.fldGrpCVh137aa.setVisibility(View.GONE);
+
+        }
     }
 
     private void setupSkips() {
@@ -149,7 +162,8 @@ public class SectionH102Activity extends AppCompatActivity {
         bi.h137.setOnCheckedChangeListener((group, checkedId) -> {
 
             if (checkedId == bi.h137a.getId()) {
-                bi.fldGrpCVh137aa.setVisibility(View.VISIBLE);
+                if (MainApp.selectedKishMWRA.isCoronaCase())
+                    bi.fldGrpCVh137aa.setVisibility(View.VISIBLE);
                 bi.fldGrpCVh137bb.setVisibility(View.VISIBLE);
                 bi.fldGrpCVh1371.setVisibility(View.GONE);
                 Clear.clearAllFields(bi.fldGrpCVh1371);
@@ -165,8 +179,13 @@ public class SectionH102Activity extends AppCompatActivity {
         //h131
         bi.h131.setOnCheckedChangeListener((group, checkedId) -> {
 
-            if (checkedId == bi.h131a.getId()) {
+            if (checkedId == bi.h131b.getId()) {
+                if (MainApp.selectedKishMWRA.isCoronaCase())
+                    bi.fldGrpCVh1311.setVisibility(View.VISIBLE);
+            } else {
                 Clear.clearAllFields(bi.fldGrpCVh1311);
+                bi.fldGrpCVh1311.setVisibility(View.GONE);
+
             }
         });
 
@@ -174,7 +193,14 @@ public class SectionH102Activity extends AppCompatActivity {
         bi.h132.setOnCheckedChangeListener((group, checkedId) -> {
 
             if (checkedId == bi.h132a.getId()) {
+                if (MainApp.selectedKishMWRA.isCoronaCase())
+                    bi.fldGrpCVh1321.setVisibility(View.VISIBLE);
+                bi.fldGrpCVh133.setVisibility(View.VISIBLE);
+            } else {
                 Clear.clearAllFields(bi.fldGrpCVh1321);
+                bi.fldGrpCVh1321.setVisibility(View.GONE);
+                Clear.clearAllFields(bi.fldGrpCVh133);
+                bi.fldGrpCVh133.setVisibility(View.GONE);
             }
         });
 

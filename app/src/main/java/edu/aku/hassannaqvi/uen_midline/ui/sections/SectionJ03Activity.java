@@ -39,6 +39,19 @@ public class SectionJ03Activity extends AppCompatActivity {
             bi.fldGrpCVj106.setVisibility(View.GONE);
         }
 
+        //setCoronaFields();
+    }
+
+    private void setCoronaFields() {
+
+        if (!MainApp.selectedKishMWRA.isCoronaCase()) {
+            bi.j123q.setVisibility(View.GONE);
+            bi.j123r.setVisibility(View.GONE);
+            bi.j123s.setVisibility(View.GONE);
+            bi.j123t.setVisibility(View.GONE);
+            bi.j123u.setVisibility(View.GONE);
+            bi.j123v.setVisibility(View.GONE);
+        }
     }
 
 

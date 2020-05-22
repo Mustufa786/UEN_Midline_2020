@@ -1344,10 +1344,28 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         Cursor c = null;
         String[] columns = {
                 FormsTable._ID,
-                FormsTable.COLUMN_LUID,
+                FormsTable.COLUMN_UID,
                 FormsTable.COLUMN_FORMDATE,
+                FormsTable.COLUMN_USER,
                 FormsTable.COLUMN_ISTATUS,
-                FormsTable.COLUMN_SYNCED,
+                FormsTable.COLUMN_ISTATUS88x,
+                FormsTable.COLUMN_LUID,
+                FormsTable.COLUMN_ENDINGDATETIME,
+                FormsTable.COLUMN_SINFO,
+                FormsTable.COLUMN_SE,
+                FormsTable.COLUMN_SM,
+                FormsTable.COLUMN_SN,
+                FormsTable.COLUMN_SO,
+                FormsTable.COLUMN_GPSLAT,
+                FormsTable.COLUMN_GPSLNG,
+                FormsTable.COLUMN_GPSDATE,
+                FormsTable.COLUMN_GPSACC,
+                FormsTable.COLUMN_DEVICETAGID,
+                FormsTable.COLUMN_DEVICEID,
+                FormsTable.COLUMN_APPVERSION,
+                FormsTable.COLUMN_CLUSTERCODE,
+                FormsTable.COLUMN_HHNO,
+                FormsTable.COLUMN_FORMTYPE
 
         };
         String whereClause = FormsTable.COLUMN_FORMDATE + " Like ? ";
@@ -1355,8 +1373,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         String groupBy = null;
         String having = null;
 
-        String orderBy =
-                FormsTable.COLUMN_ID + " ASC";
+        String orderBy = FormsTable.COLUMN_ID + " ASC";
 
         Collection<FormsContract> allFC = new ArrayList<>();
         try {
@@ -1371,12 +1388,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
             );
             while (c.moveToNext()) {
                 FormsContract fc = new FormsContract();
-                fc.set_ID(c.getString(c.getColumnIndex(FormsTable.COLUMN_ID)));
-                fc.setLuid(c.getString(c.getColumnIndex(FormsTable.COLUMN_LUID)));
-                fc.setFormDate(c.getString(c.getColumnIndex(FormsTable.COLUMN_FORMDATE)));
-                fc.setIstatus(c.getString(c.getColumnIndex(FormsTable.COLUMN_ISTATUS)));
-                fc.setSynced(c.getString(c.getColumnIndex(FormsTable.COLUMN_SYNCED)));
-                allFC.add(fc);
+                allFC.add(fc.Hydrate(c));
             }
         } finally {
             if (c != null) {

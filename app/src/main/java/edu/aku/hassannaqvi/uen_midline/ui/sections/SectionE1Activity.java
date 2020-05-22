@@ -19,7 +19,6 @@ import org.json.JSONObject;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
 
 import edu.aku.hassannaqvi.uen_midline.CONSTANTS;
 import edu.aku.hassannaqvi.uen_midline.R;
@@ -35,10 +34,9 @@ import static edu.aku.hassannaqvi.uen_midline.ui.list_activity.FamilyMembersList
 public class SectionE1Activity extends AppCompatActivity {
 
     ActivitySectionE1Binding bi;
-    List<String> womanNames;
-    Map<String, String> womanMap;
     int position;
     private MWRAContract mwra;
+    FamilyMembersContract selMWRA;
 
 
     @Override
@@ -65,6 +63,19 @@ public class SectionE1Activity extends AppCompatActivity {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
                 position = i;
+                if (position == 0) return;
+                selMWRA = mainVModel.getMemberInfo(MainApp.pragnantWoman.getFirst().get(bi.womanSpinner.getSelectedItemPosition() - 1));
+                MainApp.selectedMWRAChildLst = mainVModel.getChildrenOfMother(selMWRA.getSerialno());
+                int child_size = MainApp.selectedMWRAChildLst.getFirst().size();
+                if (child_size > 0) {
+                    bi.e101a.setChecked(true);
+                    bi.e101b.setEnabled(false);
+                    bi.e102.setMinvalue(child_size);
+                } else {
+                    bi.e101.clearCheck();
+                    bi.e101b.setEnabled(true);
+                    bi.e102.setMinvalue(1);
+                }
             }
 
             @Override
@@ -146,7 +157,6 @@ public class SectionE1Activity extends AppCompatActivity {
         mwra.setDevicetagID(MainApp.fc.getDevicetagID());
 
         JSONObject json = new JSONObject();
-        FamilyMembersContract selMWRA = mainVModel.getMemberInfo(MainApp.pragnantWoman.getFirst().get(bi.womanSpinner.getSelectedItemPosition() - 1));
         mwra.setFmuid(selMWRA.getUid());
         mwra.setFm_serial(selMWRA.getSerialno());
         json.put("fm_uid", selMWRA.getUid());

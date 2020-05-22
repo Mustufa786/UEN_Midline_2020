@@ -178,10 +178,8 @@
                                 <com.edittextpicker.aliazaz.EditTextPicker
                                     android:id="@+id/e106a"
                                     style="@style/EditTextNum"
-                                    android:enabled="@{e10698.checked ? false : true}"
                                     android:hint="@string/e106a"
                                     android:maxLength="2"
-                                    android:text='@{e10698.checked ? "" : e106a.getText().toString()}'
                                     android:textColor="@android:color/black"
                                     app:defaultValue="00"
                                     app:maxValue="31"
@@ -203,12 +201,9 @@
                                 <com.edittextpicker.aliazaz.EditTextPicker
                                     android:id="@+id/e106b"
                                     style="@style/EditTextNum"
-                                    android:enabled="@{e10698.checked ? false : true}"
                                     android:hint="@string/e106b"
                                     android:maxLength="2"
-                                    android:text='@{e10698.checked ? "" : e106b.getText().toString()}'
                                     android:textColor="@android:color/black"
-                                    app:defaultValue="00"
                                     app:maxValue="12"
                                     app:minValue="1"
                                     app:type="range" />
@@ -228,10 +223,8 @@
                                 <com.edittextpicker.aliazaz.EditTextPicker
                                     android:id="@+id/e106c"
                                     style="@style/EditTextNum"
-                                    android:enabled="@{e10698.checked ? false : true}"
                                     android:hint="@string/e106c"
                                     android:maxLength="4"
-                                    android:text='@{e10698.checked ? "" : e106c.getText().toString()}'
                                     android:textColor="@android:color/black"
                                     app:maxValue="0"
                                     app:minValue="0"
@@ -245,7 +238,8 @@
                             android:id="@+id/e10698"
                             style="@style/checkbox"
                             android:tag="-1"
-                            android:text="@string/dkn" />
+                            android:text="@string/dkn"
+                            android:visibility="gone" />
 
                     </LinearLayout>
 
@@ -329,10 +323,38 @@
 
                 </androidx.cardview.widget.CardView>
 
+                <!-- e100  Spinner   -->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/fldGrpCVd107"
+                    style="@style/cardView">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            style="@style/i_textview"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:text="Child Name" />
+
+                        <Spinner
+                            android:id="@+id/e100"
+                            style="@style/spinner"
+                            android:layout_width="0dp"
+                            android:layout_margin="10dp"
+                            android:layout_weight="1" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
                 <!-- e109  Input   -->
                 <androidx.cardview.widget.CardView
                     android:id="@+id/fldGrpCVe109"
-                    style="@style/cardView">
+                    style="@style/cardView"
+                    android:visibility="gone">
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -397,13 +419,12 @@
                                 <com.edittextpicker.aliazaz.EditTextPicker
                                     android:id="@+id/e110a"
                                     style="@style/EditTextNum"
-                                    android:enabled="@{e11098.checked ? false : true}"
                                     android:hint="@string/e110a"
                                     android:maxLength="2"
-                                    android:text='@{e11098.checked ? "" : e110a.getText().toString()}'
                                     android:textColor="@android:color/black"
-                                    app:maxValue="29"
-                                    app:minValue="0"
+                                    app:defaultValue="00"
+                                    app:maxValue="31"
+                                    app:minValue="1"
                                     app:type="range" />
 
                             </LinearLayout>
@@ -421,10 +442,8 @@
                                 <com.edittextpicker.aliazaz.EditTextPicker
                                     android:id="@+id/e110b"
                                     style="@style/EditTextNum"
-                                    android:enabled="@{e11098.checked ? false : true}"
                                     android:hint="@string/e110b"
                                     android:maxLength="2"
-                                    android:text='@{e11098.checked ? "" : e110b.getText().toString()}'
                                     android:textColor="@android:color/black"
                                     app:maxValue="11"
                                     app:minValue="0"
@@ -445,12 +464,10 @@
                                 <com.edittextpicker.aliazaz.EditTextPicker
                                     android:id="@+id/e110c"
                                     style="@style/EditTextNum"
-                                    android:enabled="@{e11098.checked ? false : true}"
                                     android:hint="@string/e110c"
                                     android:maxLength="4"
-                                    android:text='@{e11098.checked ? "" : e110c.getText().toString()}'
                                     android:textColor="@android:color/black"
-                                    app:maxValue="39"
+                                    app:maxValue="34"
                                     app:minValue="0"
                                     app:type="range" />
 
@@ -462,7 +479,8 @@
                             android:id="@+id/e11098"
                             style="@style/checkbox"
                             android:tag="-1"
-                            android:text="@string/dkn" />
+                            android:text="@string/dkn"
+                            android:visibility="gone" />
 
                     </LinearLayout>
 

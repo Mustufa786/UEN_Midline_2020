@@ -317,7 +317,7 @@ public class MainActivity extends AppCompatActivity {
             rSumText += "\tFORMS' LIST: \r\n";
             String iStatus;
             rSumText += "--------------------------------------------------\r\n";
-            rSumText += "[ DSS ID ] \t[Form Status] \t[Sync Status]\r\n";
+            rSumText += "[ CLUSTER ] \t[HH-NO]  \t[Form Status] \t[Sync Status]\r\n";
             rSumText += "--------------------------------------------------\r\n";
 
             for (FormsContract fc : todaysForms) {
@@ -327,13 +327,23 @@ public class MainActivity extends AppCompatActivity {
                             iStatus = "Complete";
                             break;
                         case "2":
-                            iStatus = "Incomplete";
+                        case "5":
+                            iStatus = "Refused";
                             break;
                         case "3":
-                            iStatus = "Refused";
+                            iStatus = "Closed";
                             break;
                         case "4":
-                            iStatus = "Refused";
+                            iStatus = "Temporary Closed";
+                            break;
+                        case "6":
+                            iStatus = "Empty";
+                            break;
+                        case "7":
+                            iStatus = "Incomplete";
+                            break;
+                        case "8":
+                            iStatus = "Other";
                             break;
                         default:
                             iStatus = "N/A";
@@ -342,13 +352,16 @@ public class MainActivity extends AppCompatActivity {
                     iStatus = "N/A";
                 }
 
-                rSumText += fc.getLuid();
-                rSumText += "\t\t\t\t\t";
+                rSumText += fc.getClusterCode();
+                rSumText += "\t\t\t\t";
+
+                rSumText += fc.getHhno();
+                rSumText += "\t\t\t\t";
 
                 rSumText += iStatus;
-                rSumText += "\t\t\t\t\t";
+                rSumText += "\t\t\t\t";
 
-                rSumText += (fc.getSynced() == null ? "Not Synced" : "Synced");
+                rSumText += (fc.getSynced() == null || fc.getSynced().equals("") ? "Not Synced" : "Synced");
                 rSumText += "\r\n";
                 rSumText += "--------------------------------------------------\r\n";
             }

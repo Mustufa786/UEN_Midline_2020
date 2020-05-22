@@ -33,7 +33,25 @@ public class SectionGActivity extends AppCompatActivity {
         bi.setCallback(this);
 
         setupSkips();
+        setCoronaFields();
 
+    }
+
+    private void setCoronaFields() {
+
+        if (!MainApp.selectedKishMWRA.isCoronaCase()) {
+            bi.g102f.setVisibility(View.GONE);
+
+            bi.g103j.setVisibility(View.GONE);
+            bi.g103k.setVisibility(View.GONE);
+            bi.g103l.setVisibility(View.GONE);
+            bi.g103m.setVisibility(View.GONE);
+            bi.g103n.setVisibility(View.GONE);
+            bi.g103o.setVisibility(View.GONE);
+
+            bi.fldGrpCVg1251.setVisibility(View.GONE);
+
+        }
     }
 
     private void setupSkips() {
@@ -167,7 +185,11 @@ public class SectionGActivity extends AppCompatActivity {
         bi.g125.setOnCheckedChangeListener((group, checkedId) -> {
 
             if (checkedId == bi.g125b.getId()) {
+                if (MainApp.selectedKishMWRA.isCoronaCase())
+                    bi.fldGrpCVg1251.setVisibility(View.VISIBLE);
+            } else {
                 Clear.clearAllFields(bi.fldGrpCVg1251);
+                bi.fldGrpCVg1251.setVisibility(View.GONE);
             }
         });
 

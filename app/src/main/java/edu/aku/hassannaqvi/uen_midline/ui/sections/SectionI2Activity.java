@@ -166,17 +166,14 @@ public class SectionI2Activity extends AppCompatActivity {
         }));
 
 
-        bi.i2252c.setOnCheckedChangeListener((compoundButton, b) -> {
-
-            if (b) {
-                Clear.clearAllFields(bi.i225check1, true);
-                bi.i225check1.setTag("0");
-            } else {
-                Clear.clearAllFields(bi.i225check1, false);
-                bi.i225check1.setTag("-1");
+        bi.i2252c.setOnCheckedChangeListener((buttonView, isChecked) -> {
+            if (isChecked)
+                bi.i2252check03.setVisibility(View.VISIBLE);
+            else {
+                Clear.clearAllFields(bi.i2252check03);
+                bi.i2252check03.setVisibility(View.GONE);
             }
         });
-
 
     }
 

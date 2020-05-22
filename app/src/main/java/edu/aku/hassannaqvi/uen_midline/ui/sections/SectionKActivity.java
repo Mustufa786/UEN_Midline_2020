@@ -85,23 +85,20 @@ public class SectionKActivity extends AppCompatActivity {
             }
         }));
 
-
-        bi.k1072c.setOnCheckedChangeListener((compoundButton, b) -> {
-
-            if (b) {
-                Clear.clearAllFields(bi.k107check1, true);
-                bi.k107check1.setTag("0");
-            } else {
-                Clear.clearAllFields(bi.k107check1, false);
-                bi.k107check1.setTag("-1");
-            }
-        });
-
         bi.k1081.setOnCheckedChangeListener(((radioGroup, i) -> {
             if (i != bi.k1081b.getId()) {
                 Clear.clearAllFields(bi.fldGrpCVk1082);
             }
         }));
+
+        bi.k1072c.setOnCheckedChangeListener((buttonView, isChecked) -> {
+            if (isChecked)
+                bi.k1072check03.setVisibility(View.VISIBLE);
+            else {
+                Clear.clearAllFields(bi.k1072check03);
+                bi.k1072check03.setVisibility(View.GONE);
+            }
+        });
 
     }
 

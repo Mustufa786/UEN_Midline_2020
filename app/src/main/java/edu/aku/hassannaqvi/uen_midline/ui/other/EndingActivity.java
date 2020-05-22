@@ -30,7 +30,7 @@ public class EndingActivity extends AppCompatActivity {
         bi = DataBindingUtil.setContentView(this, R.layout.activity_ending);
         bi.setCallback(this);
 
-        boolean check = getIntent().getExtras().getBoolean("complete");
+        boolean check = getIntent().getBooleanExtra("complete", false);
 
         if (check) {
             bi.istatusa.setEnabled(true);

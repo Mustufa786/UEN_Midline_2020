@@ -31,8 +31,24 @@ public class SectionH2Activity extends AppCompatActivity {
         bi = DataBindingUtil.setContentView(this, R.layout.activity_section_h2);
         bi.setCallback(this);
         setupSkips();
+        setCoronaFields();
 
+    }
 
+    private void setCoronaFields() {
+
+        if (!MainApp.selectedKishMWRA.isCoronaCase()) {
+            bi.h204d.setVisibility(View.GONE);
+
+            bi.fldGrpCVh2091.setVisibility(View.GONE);
+
+            bi.h211j.setVisibility(View.GONE);
+
+            bi.h214e.setVisibility(View.GONE);
+
+            bi.fldGrpCVh2161.setVisibility(View.GONE);
+
+        }
     }
 
 
@@ -86,6 +102,8 @@ public class SectionH2Activity extends AppCompatActivity {
                 bi.fldGrpCVh211.setVisibility(View.VISIBLE);
                 bi.fldGrpCVh212.setVisibility(View.VISIBLE);
                 bi.fldGrpCVh213.setVisibility(View.VISIBLE);
+                Clear.clearAllFields(bi.fldGrpCVh2091);
+                bi.fldGrpCVh2091.setVisibility(View.GONE);
             } else {
                 Clear.clearAllFields(bi.fldGrpCVh210);
                 Clear.clearAllFields(bi.fldGrpCVh211);
@@ -95,6 +113,17 @@ public class SectionH2Activity extends AppCompatActivity {
                 bi.fldGrpCVh211.setVisibility(View.GONE);
                 bi.fldGrpCVh212.setVisibility(View.GONE);
                 bi.fldGrpCVh213.setVisibility(View.GONE);
+                if (MainApp.selectedKishMWRA.isCoronaCase())
+                    bi.fldGrpCVh2091.setVisibility(View.VISIBLE);
+            }
+        });
+
+        bi.h2091c.setOnCheckedChangeListener((buttonView, isChecked) -> {
+            if (isChecked)
+                bi.h2091check03.setVisibility(View.VISIBLE);
+            else {
+                Clear.clearAllFields(bi.h2091check03);
+                bi.h2091check03.setVisibility(View.GONE);
             }
         });
 
@@ -133,6 +162,19 @@ public class SectionH2Activity extends AppCompatActivity {
             }
         });
 
+
+        //h216
+        bi.h216.setOnCheckedChangeListener((group, checkedId) -> {
+
+            if (checkedId == bi.h216b.getId()) {
+                if (MainApp.selectedKishMWRA.isCoronaCase())
+                    bi.fldGrpCVh2161.setVisibility(View.VISIBLE);
+            } else {
+                Clear.clearAllFields(bi.fldGrpCVh2161);
+                bi.fldGrpCVh2161.setVisibility(View.GONE);
+
+            }
+        });
 
     }
 
