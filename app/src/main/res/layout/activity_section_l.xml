@@ -101,7 +101,8 @@
             <!-- l102a  Radio   -->
             <androidx.cardview.widget.CardView
                 android:id="@+id/fldGrpCVl102a"
-                style="@style/cardView">
+                style="@style/cardView"
+                android:visibility='@{l102a.checked ? View.GONE : View.VISIBLE}'>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -160,8 +161,7 @@
             <!-- l103  Radio   -->
             <androidx.cardview.widget.CardView
                 android:id="@+id/fldGrpCVl103"
-                style="@style/cardView"
-                android:visibility='@{l102b.checked? View.VISIBLE : View.GONE}'>
+                style="@style/cardView">
 
                 <LinearLayout
                     android:layout_width="match_parent"
