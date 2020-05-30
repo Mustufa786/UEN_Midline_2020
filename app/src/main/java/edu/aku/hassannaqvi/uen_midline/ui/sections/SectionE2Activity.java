@@ -267,6 +267,8 @@ public class SectionE2Activity extends AppCompatActivity {
         Clear.clearAllFields(bi.mainContainer2);
         bi.e104015.setVisibility(View.GONE);
         MainApp.twinFlag = false;
+
+        noOfPreCounter++;
     }
 
     private boolean UpdateDB() {
