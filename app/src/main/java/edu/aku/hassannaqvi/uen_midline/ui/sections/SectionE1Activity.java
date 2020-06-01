@@ -31,13 +31,13 @@ import edu.aku.hassannaqvi.uen_midline.utils.Util;
 
 import static edu.aku.hassannaqvi.uen_midline.ui.list_activity.FamilyMembersListActivity.mainVModel;
 
-public class SectionE1Activity extends AppCompatActivity {
+public class SectionE1Activity extends AppCompatActivity implements Util.EndSecAActivity {
 
     ActivitySectionE1Binding bi;
     int position;
     private MWRAContract mwra;
     FamilyMembersContract selMWRA;
-
+    int child_size = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -66,15 +66,13 @@ public class SectionE1Activity extends AppCompatActivity {
                 if (position == 0) return;
                 selMWRA = mainVModel.getMemberInfo(MainApp.pragnantWoman.getFirst().get(bi.womanSpinner.getSelectedItemPosition() - 1));
                 MainApp.selectedMWRAChildLst = mainVModel.getChildrenOfMother(selMWRA.getSerialno());
-                int child_size = MainApp.selectedMWRAChildLst.getFirst().size();
+                child_size = MainApp.selectedMWRAChildLst.getFirst().size();
                 if (child_size > 0) {
                     bi.e101a.setChecked(true);
                     bi.e101b.setEnabled(false);
-                    bi.e102.setMinvalue(child_size);
                 } else {
                     bi.e101.clearCheck();
                     bi.e101b.setEnabled(true);
-                    bi.e102.setMinvalue(1);
                 }
             }
 
@@ -108,26 +106,34 @@ public class SectionE1Activity extends AppCompatActivity {
 
     public void BtnContinue() {
         if (formValidation()) {
-            try {
-                SaveDraft();
-            } catch (Exception e) {
-                e.printStackTrace();
+            if (bi.e101a.isChecked() && (Integer.parseInt(bi.e102.getText().toString()) < child_size))
+                Util.openWarningActivity(this, "In Roaster you've reported\n" + child_size + " Children\n" + "Now you reporting " + bi.e102.getText().toString() + " Children");
+            else {
+                callingContinue();
             }
-            if (UpdateDB()) {
-                Intent next;
-                if (bi.e101a.isChecked()) {
-                    next = new Intent(SectionE1Activity.this, SectionE2Activity.class);
-                    next.putExtra(CONSTANTS.MWRA_INFO, mwra);
+        }
+    }
+
+    private void callingContinue() {
+        try {
+            SaveDraft();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        if (UpdateDB()) {
+            Intent next;
+            if (bi.e101a.isChecked()) {
+                next = new Intent(SectionE1Activity.this, SectionE2Activity.class);
+                next.putExtra(CONSTANTS.MWRA_INFO, mwra);
+            } else {
+                if (MainApp.pragnantWoman.getFirst().size() > 0) {
+                    next = new Intent(SectionE1Activity.this, SectionE1Activity.class);
                 } else {
-                    if (MainApp.pragnantWoman.getFirst().size() > 0) {
-                        next = new Intent(SectionE1Activity.this, SectionE1Activity.class);
-                    } else {
-                        next = new Intent(SectionE1Activity.this, SectionE3Activity.class);
-                    }
+                    next = new Intent(SectionE1Activity.this, SectionE3Activity.class);
                 }
-                finish();
-                startActivity(next);
             }
+            finish();
+            startActivity(next);
         }
     }
 
@@ -193,7 +199,6 @@ public class SectionE1Activity extends AppCompatActivity {
     }
 
     public void BtnEnd() {
-
         Util.openEndActivity(this);
     }
 
@@ -202,4 +207,8 @@ public class SectionE1Activity extends AppCompatActivity {
         Toast.makeText(this, "You can't go back", Toast.LENGTH_SHORT).show();
     }
 
+    @Override
+    public void endSecAActivity(boolean flag) {
+        callingContinue();
+    }
 }

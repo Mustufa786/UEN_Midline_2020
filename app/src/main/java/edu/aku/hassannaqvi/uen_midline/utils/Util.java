@@ -6,15 +6,18 @@ import android.app.Dialog;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.view.LayoutInflater;
 import android.view.Window;
 import android.view.WindowManager;
 
 import androidx.core.content.ContextCompat;
+import androidx.databinding.DataBindingUtil;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import edu.aku.hassannaqvi.uen_midline.R;
+import edu.aku.hassannaqvi.uen_midline.databinding.ItemDialog2Binding;
 import edu.aku.hassannaqvi.uen_midline.ui.other.EndingActivity;
 
 public class Util {
@@ -88,8 +91,26 @@ public class Util {
         dialog.findViewById(R.id.btnNo).setOnClickListener(view -> dialog.dismiss());
     }
 
+    public static void openWarningActivity(Activity activity, String message) {
+        Dialog dialog = new Dialog(activity);
+        dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
+        ItemDialog2Binding bi = DataBindingUtil.inflate(LayoutInflater.from(activity), R.layout.item_dialog_2, null, false);
+        dialog.setContentView(bi.getRoot());
+        bi.content.setText(message);
+        dialog.setCancelable(false);
+        WindowManager.LayoutParams params = new WindowManager.LayoutParams();
+        params.copyFrom(dialog.getWindow().getAttributes());
+        params.width = WindowManager.LayoutParams.WRAP_CONTENT;
+        params.height = WindowManager.LayoutParams.WRAP_CONTENT;
+        dialog.show();
+        dialog.getWindow().setAttributes(params);
+        EndSecAActivity endSecAActivity = (EndSecAActivity) activity;
+        bi.btnOk.setOnClickListener(view -> endSecAActivity.endSecAActivity(true));
+        dialog.findViewById(R.id.btnNo).setOnClickListener(view -> dialog.dismiss());
+    }
+
     public static Integer getMemberIcon(int gender, String age) {
-        int memAge = Integer.valueOf(age);
+        int memAge = Integer.parseInt(age);
         if (memAge == -1) return R.drawable.boy;
         else if (memAge > 10) return gender == 1 ? R.drawable.ctr_male : R.drawable.ctr_female;
         else return gender == 1 ? R.drawable.ctr_childboy : R.drawable.ctr_childgirl;
