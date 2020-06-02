@@ -132,15 +132,13 @@ public class SectionH102Activity extends AppCompatActivity {
 
 
         //h132
-        bi.h132.setOnCheckedChangeListener((group, checkedId) -> {
+        bi.h132.setOnCheckedChangeListener(((radioGroup, i) -> {
 
-            if (checkedId == bi.h132b.getId()) {
-                bi.fldGrpCVh1321.setVisibility(View.VISIBLE);
-            } else {
+            if (i != bi.h132b.getId()) {
                 Clear.clearAllFields(bi.fldGrpCVh1321);
-                bi.fldGrpCVh1321.setVisibility(View.GONE);
             }
-        });
+
+        }));
 
 
         //h134

@@ -69,7 +69,7 @@ public class SectionF02Activity extends AppCompatActivity {
 
         bi.f1211.setOnCheckedChangeListener(((radioGroup, i) -> {
 
-            if (i == bi.f1211.getId()) {
+            if (i != bi.f1211b.getId()) {
                 Clear.clearAllFields(bi.fldGrpCVf1212);
             }
 
@@ -92,14 +92,6 @@ public class SectionF02Activity extends AppCompatActivity {
                 bi.fldGrp2532.setVisibility(View.VISIBLE);
 
         });
-
-        bi.f121.setOnCheckedChangeListener(((radioGroup, i) -> {
-
-            if (i != bi.f121a.getId()) {
-                Clear.clearAllFields(bi.fldGrp2223);
-            }
-
-        }));
 
         bi.f1212c.setOnCheckedChangeListener((buttonView, isChecked) -> {
             if (isChecked)
