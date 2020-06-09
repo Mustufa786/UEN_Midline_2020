@@ -68,6 +68,11 @@
                     android:text="@string/o108g" />
 
                 <RadioButton
+                    android:id="@+id/istatush"
+                    style="@style/radiobutton"
+                    android:text="@string/o108h" />
+
+                <RadioButton
                     android:id="@+id/istatus96"
                     style="@style/radiobutton"
                     android:layout_marginBottom="1dp"

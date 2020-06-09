@@ -40,6 +40,7 @@ public class EndingActivity extends AppCompatActivity {
             bi.istatuse.setEnabled(false);
             bi.istatusf.setEnabled(false);
             bi.istatusg.setEnabled(false);
+            bi.istatush.setEnabled(false);
             bi.istatus96.setEnabled(false);
         } else {
             bi.istatusa.setEnabled(false);
@@ -49,6 +50,7 @@ public class EndingActivity extends AppCompatActivity {
             bi.istatuse.setEnabled(true);
             bi.istatusf.setEnabled(true);
             bi.istatusg.setEnabled(true);
+            bi.istatush.setEnabled(true);
             bi.istatus96.setEnabled(true);
         }
 
@@ -76,6 +78,7 @@ public class EndingActivity extends AppCompatActivity {
                 : bi.istatuse.isChecked() ? "5"
                 : bi.istatusf.isChecked() ? "6"
                 : bi.istatusg.isChecked() ? "7"
+                : bi.istatush.isChecked() ? "8"
                 : bi.istatus96.isChecked() ? "96"
                 : "0");
 
