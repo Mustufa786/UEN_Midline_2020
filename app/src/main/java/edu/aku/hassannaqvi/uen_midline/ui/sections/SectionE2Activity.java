@@ -329,7 +329,7 @@ public class SectionE2Activity extends AppCompatActivity {
 
         json.put("e109", bi.e109.getText().toString());
 
-        if (position != 1) {
+        if (bi.fldGrpCVd107.getVisibility() == View.VISIBLE && position != 1) {
             json.put("ch_serial", fmc_child.getSerialno());
             json.put("ch_name", fmc_child.getName());
             json.put("ch_uid", fmc_child.getUid());
@@ -377,7 +377,7 @@ public class SectionE2Activity extends AppCompatActivity {
         }
 
         // Deleting item in list
-        if (position != 1) {
+        if (bi.fldGrpCVd107.getVisibility() == View.VISIBLE && position != 1) {
             MainApp.selectedMWRAChildLst.getFirst().remove(position - 2);
             MainApp.selectedMWRAChildLst.getSecond().remove(position - 2);
         }
