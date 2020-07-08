@@ -219,12 +219,12 @@ public class SectionF02Activity extends AppCompatActivity {
         f1.put("f130g", bi.f130g.isChecked() ? "7" : "0");
         f1.put("f130h", bi.f130h.isChecked() ? "8" : "0");
         f1.put("f130i", bi.f130i.isChecked() ? "9" : "0");
-        f1.put("f101aj", bi.f130j.isChecked() ? "10" : "0");
-        f1.put("f101ak", bi.f130k.isChecked() ? "11" : "0");
-        f1.put("f101al", bi.f130l.isChecked() ? "12" : "0");
-        f1.put("f101am", bi.f130m.isChecked() ? "13" : "0");
-        f1.put("f101an", bi.f130n.isChecked() ? "14" : "0");
-        f1.put("f101ao", bi.f130o.isChecked() ? "15" : "0");
+        f1.put("f130j", bi.f130j.isChecked() ? "10" : "0");
+        f1.put("f130k", bi.f130k.isChecked() ? "11" : "0");
+        f1.put("f130l", bi.f130l.isChecked() ? "12" : "0");
+        f1.put("f130m", bi.f130m.isChecked() ? "13" : "0");
+        f1.put("f130n", bi.f130n.isChecked() ? "14" : "0");
+        f1.put("f130o", bi.f130o.isChecked() ? "15" : "0");
 
         f1.put("f131", bi.f131a.isChecked() ? "1" :
                 bi.f131b.isChecked() ? "2" :
