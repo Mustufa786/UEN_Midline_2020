@@ -229,7 +229,7 @@ public class SectionDActivity extends AppCompatActivity {
                 : bi.d111d.isChecked() ? "4"
                 : bi.d111e.isChecked() ? "5"
                 : bi.d111f.isChecked() ? "6"
-                : bi.d111g.isChecked() ? "6"
+                : bi.d111g.isChecked() ? "7"
                 : bi.d111h.isChecked() ? "8"
                 : bi.d111i.isChecked() ? "9"
                 : bi.d111j.isChecked() ? "99"
